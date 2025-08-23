@@ -554,9 +554,9 @@ ORIGINAL:
 The sun appears to rise each morning from the eastern horizon before setting in the west
 
 CANDIDATES:
-[1] The sun rises in the east.
+[1] The moon rises in the east.
 [2] The sun rises in the west.
-[3] The moon rises in the east.
+[3] The sun rises in the east.
 [4] The sun never rises.
 
 Please rank outputs strictly from most accurate (1) to least accurate (4). No ties.
@@ -1131,8 +1131,8 @@ ORIGINAL:
 Pure water begins to freeze at exactly zero degrees Celsius
 
 CANDIDATES:
-[1] Water freezes at at 0°C.
-[2] Water freezes at 100°C.
+[1] Water freezes at 100°C.
+[2] Water freezes at at 0°C.
 [3] Water boils at 0°C.
 [4] Ice melts at 0°C.
 

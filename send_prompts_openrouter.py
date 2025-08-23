@@ -38,15 +38,15 @@ from dotenv import load_dotenv
 
 # -------- Helpers --------
 
-HEADER_RE = re.compile(r"^----- PROMPT\s+(\d+):\s+(.*?)\s+-----\s*$")
+HEADER_RE = re.compile(r"^----- PROMPT\s+(\S+):\s+(.*?)\s+-----\s*$")
 
-def split_prompts(text: str) -> List[Tuple[int, str, str]]:
+def split_prompts(text: str) -> List[Tuple[str, str, str]]:
     """
     Return a list of (idx, title, body) for each prompt block.
     Blocks are separated by header lines that match HEADER_RE.
     """
     lines = text.splitlines()
-    blocks: List[Tuple[int, str, str]] = []
+    blocks: List[Tuple[str, str, str]] = []
 
     current_idx = None
     current_title = None
@@ -63,7 +63,7 @@ def split_prompts(text: str) -> List[Tuple[int, str, str]]:
         if m:
             # new header => flush previous
             flush()
-            current_idx = int(m.group(1))
+            current_idx = m.group(1)
             current_title = m.group(2)
         else:
             if current_idx is not None:
@@ -184,7 +184,17 @@ def main():
         raise SystemExit("No prompts detected. Check the header format: '----- PROMPT i: title -----'.")
 
     # Filter by start/max
-    blocks = [b for b in blocks if b[0] >= args.start]
+    filtered_blocks = []
+    for b in blocks:
+        try:
+            if int(b[0]) >= args.start:
+                filtered_blocks.append(b)
+        except ValueError:
+            # For non-integer indices like 'SC1', we include them
+            # so they are not skipped by the --start filter.
+            filtered_blocks.append(b)
+    blocks = filtered_blocks
+
     if args.max > -1:
         blocks = blocks[:args.max]
 
