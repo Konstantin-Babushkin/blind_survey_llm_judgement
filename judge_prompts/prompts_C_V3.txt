@@ -1,0 +1,1698 @@
+----- PROMPT 1: C2_Q01_Fluency -----
+You are Volunteer 3 in Group C.
+TASK TYPE: Idea-to-Text
+SAMPLE: C2
+CRITERION: Fluency
+
+INSTRUCTION:
+Rank from most to least smooth and error-free.
+
+ORIGINAL:
+Bethany Cunningham performs well yet seems content; a career-growth push is needed.
+
+CANDIDATES:
+[1] Bethany consistently delivers strong performance and maintains a positive attitude. While she appears satisfied in her current role, she would benefit from targeted development opportunities to stimulate career growth and expand her responsibilities. Encouraging her to pursue stretch assignments or leadership training could help unlock her full potential.
+[2] Bethany, you continue to deliver strong, reliable performance. While meeting expectations, we see significant untapped potential for your growth. Let's discuss your career aspirations and identify challenging opportunities to push your development further and ensure your continued progress.
+[3] Bethany, your performance is consistently strong and appreciated. To ensure you continue to grow and reach your full potential here, let's proactively explore new challenges and define a clear career development path.
+[4] Bethany consistently delivers strong results, meeting all expectations. To further her development, we encourage Bethany to proactively seek out new challenges and leadership opportunities. Identifying specific areas for growth and pursuing relevant training will help her advance and maximize her considerable potential within the company.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer3|Idea-to-Text|C2|Q01",
+  "criterion": "Fluency",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 2: C2_Q02_Coherence -----
+You are Volunteer 3 in Group C.
+TASK TYPE: Idea-to-Text
+SAMPLE: C2
+CRITERION: Coherence
+
+INSTRUCTION:
+Rank from most to least logical and easy to follow.
+
+ORIGINAL:
+Bethany Cunningham performs well yet seems content; a career-growth push is needed.
+
+CANDIDATES:
+[1] Bethany, you continue to deliver strong, reliable performance. While meeting expectations, we see significant untapped potential for your growth. Let's discuss your career aspirations and identify challenging opportunities to push your development further and ensure your continued progress.
+[2] Bethany consistently delivers strong results, meeting all expectations. To further her development, we encourage Bethany to proactively seek out new challenges and leadership opportunities. Identifying specific areas for growth and pursuing relevant training will help her advance and maximize her considerable potential within the company.
+[3] Bethany consistently delivers strong performance and maintains a positive attitude. While she appears satisfied in her current role, she would benefit from targeted development opportunities to stimulate career growth and expand her responsibilities. Encouraging her to pursue stretch assignments or leadership training could help unlock her full potential.
+[4] Bethany, your performance is consistently strong and appreciated. To ensure you continue to grow and reach your full potential here, let's proactively explore new challenges and define a clear career development path.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer3|Idea-to-Text|C2|Q02",
+  "criterion": "Coherence",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 3: C2_Q03_Conciseness -----
+You are Volunteer 3 in Group C.
+TASK TYPE: Idea-to-Text
+SAMPLE: C2
+CRITERION: Conciseness
+
+INSTRUCTION:
+Rank from most to least clear and compact.
+
+ORIGINAL:
+Bethany Cunningham performs well yet seems content; a career-growth push is needed.
+
+CANDIDATES:
+[1] Bethany, you continue to deliver strong, reliable performance. While meeting expectations, we see significant untapped potential for your growth. Let's discuss your career aspirations and identify challenging opportunities to push your development further and ensure your continued progress.
+[2] Bethany, your performance is consistently strong and appreciated. To ensure you continue to grow and reach your full potential here, let's proactively explore new challenges and define a clear career development path.
+[3] Bethany consistently delivers strong performance and maintains a positive attitude. While she appears satisfied in her current role, she would benefit from targeted development opportunities to stimulate career growth and expand her responsibilities. Encouraging her to pursue stretch assignments or leadership training could help unlock her full potential.
+[4] Bethany consistently delivers strong results, meeting all expectations. To further her development, we encourage Bethany to proactively seek out new challenges and leadership opportunities. Identifying specific areas for growth and pursuing relevant training will help her advance and maximize her considerable potential within the company.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer3|Idea-to-Text|C2|Q03",
+  "criterion": "Conciseness",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 4: C2_Q04_Accuracy -----
+You are Volunteer 3 in Group C.
+TASK TYPE: Idea-to-Text
+SAMPLE: C2
+CRITERION: Accuracy
+
+INSTRUCTION:
+Select all texts that are factually correct given the Original.
+
+ORIGINAL:
+Bethany Cunningham performs well yet seems content; a career-growth push is needed.
+
+CANDIDATES:
+[1] Bethany consistently delivers strong performance and maintains a positive attitude. While she appears satisfied in her current role, she would benefit from targeted development opportunities to stimulate career growth and expand her responsibilities. Encouraging her to pursue stretch assignments or leadership training could help unlock her full potential.
+[2] Bethany consistently delivers strong results, meeting all expectations. To further her development, we encourage Bethany to proactively seek out new challenges and leadership opportunities. Identifying specific areas for growth and pursuing relevant training will help her advance and maximize her considerable potential within the company.
+[3] Bethany, your performance is consistently strong and appreciated. To ensure you continue to grow and reach your full potential here, let's proactively explore new challenges and define a clear career development path.
+[4] Bethany, you continue to deliver strong, reliable performance. While meeting expectations, we see significant untapped potential for your growth. Let's discuss your career aspirations and identify challenging opportunities to push your development further and ensure your continued progress.
+
+Please select all outputs that are factually correct given the Original.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer3|Idea-to-Text|C2|Q04",
+  "criterion": "Accuracy",
+  "rating": [1, 3],
+  "justifications": {
+    "1": "why candidate 1 is correct/incorrect in one sentence",
+    "2": "why candidate 2 is correct/incorrect in one sentence",
+    "3": "why candidate 3 is correct/incorrect in one sentence",
+    "4": "why candidate 4 is correct/incorrect in one sentence"
+  }
+}
+
+
+----- PROMPT 5: C2_Q05_Sentimentmatch -----
+You are Volunteer 3 in Group C.
+TASK TYPE: Idea-to-Text
+SAMPLE: C2
+CRITERION: Sentiment match
+
+INSTRUCTION:
+Rank from most to least similar to the Original in style and sentiment.
+
+ORIGINAL:
+Bethany Cunningham performs well yet seems content; a career-growth push is needed.
+
+CANDIDATES:
+[1] Bethany consistently delivers strong results, meeting all expectations. To further her development, we encourage Bethany to proactively seek out new challenges and leadership opportunities. Identifying specific areas for growth and pursuing relevant training will help her advance and maximize her considerable potential within the company.
+[2] Bethany, your performance is consistently strong and appreciated. To ensure you continue to grow and reach your full potential here, let's proactively explore new challenges and define a clear career development path.
+[3] Bethany, you continue to deliver strong, reliable performance. While meeting expectations, we see significant untapped potential for your growth. Let's discuss your career aspirations and identify challenging opportunities to push your development further and ensure your continued progress.
+[4] Bethany consistently delivers strong performance and maintains a positive attitude. While she appears satisfied in her current role, she would benefit from targeted development opportunities to stimulate career growth and expand her responsibilities. Encouraging her to pursue stretch assignments or leadership training could help unlock her full potential.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer3|Idea-to-Text|C2|Q05",
+  "criterion": "Sentiment match",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 6: C2_Q06_Motivationaltone -----
+You are Volunteer 3 in Group C.
+TASK TYPE: Idea-to-Text
+SAMPLE: C2
+CRITERION: Motivational tone
+
+INSTRUCTION:
+Rank from most to least empathetic and encouraging.
+
+ORIGINAL:
+Bethany Cunningham performs well yet seems content; a career-growth push is needed.
+
+CANDIDATES:
+[1] Bethany consistently delivers strong results, meeting all expectations. To further her development, we encourage Bethany to proactively seek out new challenges and leadership opportunities. Identifying specific areas for growth and pursuing relevant training will help her advance and maximize her considerable potential within the company.
+[2] Bethany consistently delivers strong performance and maintains a positive attitude. While she appears satisfied in her current role, she would benefit from targeted development opportunities to stimulate career growth and expand her responsibilities. Encouraging her to pursue stretch assignments or leadership training could help unlock her full potential.
+[3] Bethany, your performance is consistently strong and appreciated. To ensure you continue to grow and reach your full potential here, let's proactively explore new challenges and define a clear career development path.
+[4] Bethany, you continue to deliver strong, reliable performance. While meeting expectations, we see significant untapped potential for your growth. Let's discuss your career aspirations and identify challenging opportunities to push your development further and ensure your continued progress.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer3|Idea-to-Text|C2|Q06",
+  "criterion": "Motivational tone",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 7: C2_Q07_Constructiveness -----
+You are Volunteer 3 in Group C.
+TASK TYPE: Idea-to-Text
+SAMPLE: C2
+CRITERION: Constructiveness
+
+INSTRUCTION:
+Rank from most to least helpful and constructive.
+
+ORIGINAL:
+Bethany Cunningham performs well yet seems content; a career-growth push is needed.
+
+CANDIDATES:
+[1] Bethany, you continue to deliver strong, reliable performance. While meeting expectations, we see significant untapped potential for your growth. Let's discuss your career aspirations and identify challenging opportunities to push your development further and ensure your continued progress.
+[2] Bethany consistently delivers strong performance and maintains a positive attitude. While she appears satisfied in her current role, she would benefit from targeted development opportunities to stimulate career growth and expand her responsibilities. Encouraging her to pursue stretch assignments or leadership training could help unlock her full potential.
+[3] Bethany consistently delivers strong results, meeting all expectations. To further her development, we encourage Bethany to proactively seek out new challenges and leadership opportunities. Identifying specific areas for growth and pursuing relevant training will help her advance and maximize her considerable potential within the company.
+[4] Bethany, your performance is consistently strong and appreciated. To ensure you continue to grow and reach your full potential here, let's proactively explore new challenges and define a clear career development path.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer3|Idea-to-Text|C2|Q07",
+  "criterion": "Constructiveness",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 8: C2_Q08_Finalchoice -----
+You are Volunteer 3 in Group C.
+TASK TYPE: Idea-to-Text
+SAMPLE: C2
+CRITERION: Final choice
+
+INSTRUCTION:
+Rank from most to least suitable as a final version.
+
+ORIGINAL:
+Bethany Cunningham performs well yet seems content; a career-growth push is needed.
+
+CANDIDATES:
+[1] Bethany consistently delivers strong performance and maintains a positive attitude. While she appears satisfied in her current role, she would benefit from targeted development opportunities to stimulate career growth and expand her responsibilities. Encouraging her to pursue stretch assignments or leadership training could help unlock her full potential.
+[2] Bethany, your performance is consistently strong and appreciated. To ensure you continue to grow and reach your full potential here, let's proactively explore new challenges and define a clear career development path.
+[3] Bethany consistently delivers strong results, meeting all expectations. To further her development, we encourage Bethany to proactively seek out new challenges and leadership opportunities. Identifying specific areas for growth and pursuing relevant training will help her advance and maximize her considerable potential within the company.
+[4] Bethany, you continue to deliver strong, reliable performance. While meeting expectations, we see significant untapped potential for your growth. Let's discuss your career aspirations and identify challenging opportunities to push your development further and ensure your continued progress.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer3|Idea-to-Text|C2|Q08",
+  "criterion": "Final choice",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 9: C5_Q01_Fluency -----
+You are Volunteer 3 in Group C.
+TASK TYPE: Idea-to-Text
+SAMPLE: C5
+CRITERION: Fluency
+
+INSTRUCTION:
+Rank from most to least smooth and error-free.
+
+ORIGINAL:
+Logan Russell’s consistency is improving; responds well to coaching—continued mentoring will accelerate progress.
+
+CANDIDATES:
+[1] Logan, it's positive to see your consistency improving steadily. Your responsiveness to coaching is a key strength. Continuing with focused mentoring will be essential to accelerate this progress further and solidify your performance foundation. Keep up the good work applying feedback.
+[2] Logan has shown commendable improvement in consistency, particularly in project delivery and adherence to timelines. He responds exceptionally well to feedback, actively implementing suggestions to refine his approach. Continued mentorship will be key to accelerating his development and fully leveraging his potential within the team.
+[3] Logan, we are very pleased with the marked improvement in your consistency. You respond well to coaching, and continued mentoring is key to accelerating your progress. Let's maintain this positive momentum.
+[4] Logan Russell is showing improved consistency and responds positively to feedback. His openness to coaching is a strength, and with continued mentoring, he will further accelerate his development and performance.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer3|Idea-to-Text|C5|Q01",
+  "criterion": "Fluency",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 10: C5_Q02_Coherence -----
+You are Volunteer 3 in Group C.
+TASK TYPE: Idea-to-Text
+SAMPLE: C5
+CRITERION: Coherence
+
+INSTRUCTION:
+Rank from most to least logical and easy to follow.
+
+ORIGINAL:
+Logan Russell’s consistency is improving; responds well to coaching—continued mentoring will accelerate progress.
+
+CANDIDATES:
+[1] Logan, it's positive to see your consistency improving steadily. Your responsiveness to coaching is a key strength. Continuing with focused mentoring will be essential to accelerate this progress further and solidify your performance foundation. Keep up the good work applying feedback.
+[2] Logan Russell is showing improved consistency and responds positively to feedback. His openness to coaching is a strength, and with continued mentoring, he will further accelerate his development and performance.
+[3] Logan has shown commendable improvement in consistency, particularly in project delivery and adherence to timelines. He responds exceptionally well to feedback, actively implementing suggestions to refine his approach. Continued mentorship will be key to accelerating his development and fully leveraging his potential within the team.
+[4] Logan, we are very pleased with the marked improvement in your consistency. You respond well to coaching, and continued mentoring is key to accelerating your progress. Let's maintain this positive momentum.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer3|Idea-to-Text|C5|Q02",
+  "criterion": "Coherence",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 11: C5_Q03_Conciseness -----
+You are Volunteer 3 in Group C.
+TASK TYPE: Idea-to-Text
+SAMPLE: C5
+CRITERION: Conciseness
+
+INSTRUCTION:
+Rank from most to least clear and compact.
+
+ORIGINAL:
+Logan Russell’s consistency is improving; responds well to coaching—continued mentoring will accelerate progress.
+
+CANDIDATES:
+[1] Logan Russell is showing improved consistency and responds positively to feedback. His openness to coaching is a strength, and with continued mentoring, he will further accelerate his development and performance.
+[2] Logan, we are very pleased with the marked improvement in your consistency. You respond well to coaching, and continued mentoring is key to accelerating your progress. Let's maintain this positive momentum.
+[3] Logan, it's positive to see your consistency improving steadily. Your responsiveness to coaching is a key strength. Continuing with focused mentoring will be essential to accelerate this progress further and solidify your performance foundation. Keep up the good work applying feedback.
+[4] Logan has shown commendable improvement in consistency, particularly in project delivery and adherence to timelines. He responds exceptionally well to feedback, actively implementing suggestions to refine his approach. Continued mentorship will be key to accelerating his development and fully leveraging his potential within the team.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer3|Idea-to-Text|C5|Q03",
+  "criterion": "Conciseness",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 12: C5_Q04_Accuracy -----
+You are Volunteer 3 in Group C.
+TASK TYPE: Idea-to-Text
+SAMPLE: C5
+CRITERION: Accuracy
+
+INSTRUCTION:
+Select all texts that are factually correct given the Original.
+
+ORIGINAL:
+Logan Russell’s consistency is improving; responds well to coaching—continued mentoring will accelerate progress.
+
+CANDIDATES:
+[1] Logan Russell is showing improved consistency and responds positively to feedback. His openness to coaching is a strength, and with continued mentoring, he will further accelerate his development and performance.
+[2] Logan, it's positive to see your consistency improving steadily. Your responsiveness to coaching is a key strength. Continuing with focused mentoring will be essential to accelerate this progress further and solidify your performance foundation. Keep up the good work applying feedback.
+[3] Logan has shown commendable improvement in consistency, particularly in project delivery and adherence to timelines. He responds exceptionally well to feedback, actively implementing suggestions to refine his approach. Continued mentorship will be key to accelerating his development and fully leveraging his potential within the team.
+[4] Logan, we are very pleased with the marked improvement in your consistency. You respond well to coaching, and continued mentoring is key to accelerating your progress. Let's maintain this positive momentum.
+
+Please select all outputs that are factually correct given the Original.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer3|Idea-to-Text|C5|Q04",
+  "criterion": "Accuracy",
+  "rating": [1, 3],
+  "justifications": {
+    "1": "why candidate 1 is correct/incorrect in one sentence",
+    "2": "why candidate 2 is correct/incorrect in one sentence",
+    "3": "why candidate 3 is correct/incorrect in one sentence",
+    "4": "why candidate 4 is correct/incorrect in one sentence"
+  }
+}
+
+
+----- PROMPT 13: C5_Q05_Sentimentmatch -----
+You are Volunteer 3 in Group C.
+TASK TYPE: Idea-to-Text
+SAMPLE: C5
+CRITERION: Sentiment match
+
+INSTRUCTION:
+Rank from most to least similar to the Original in style and sentiment.
+
+ORIGINAL:
+Logan Russell’s consistency is improving; responds well to coaching—continued mentoring will accelerate progress.
+
+CANDIDATES:
+[1] Logan Russell is showing improved consistency and responds positively to feedback. His openness to coaching is a strength, and with continued mentoring, he will further accelerate his development and performance.
+[2] Logan has shown commendable improvement in consistency, particularly in project delivery and adherence to timelines. He responds exceptionally well to feedback, actively implementing suggestions to refine his approach. Continued mentorship will be key to accelerating his development and fully leveraging his potential within the team.
+[3] Logan, we are very pleased with the marked improvement in your consistency. You respond well to coaching, and continued mentoring is key to accelerating your progress. Let's maintain this positive momentum.
+[4] Logan, it's positive to see your consistency improving steadily. Your responsiveness to coaching is a key strength. Continuing with focused mentoring will be essential to accelerate this progress further and solidify your performance foundation. Keep up the good work applying feedback.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer3|Idea-to-Text|C5|Q05",
+  "criterion": "Sentiment match",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 14: C5_Q06_Motivationaltone -----
+You are Volunteer 3 in Group C.
+TASK TYPE: Idea-to-Text
+SAMPLE: C5
+CRITERION: Motivational tone
+
+INSTRUCTION:
+Rank from most to least empathetic and encouraging.
+
+ORIGINAL:
+Logan Russell’s consistency is improving; responds well to coaching—continued mentoring will accelerate progress.
+
+CANDIDATES:
+[1] Logan, it's positive to see your consistency improving steadily. Your responsiveness to coaching is a key strength. Continuing with focused mentoring will be essential to accelerate this progress further and solidify your performance foundation. Keep up the good work applying feedback.
+[2] Logan Russell is showing improved consistency and responds positively to feedback. His openness to coaching is a strength, and with continued mentoring, he will further accelerate his development and performance.
+[3] Logan, we are very pleased with the marked improvement in your consistency. You respond well to coaching, and continued mentoring is key to accelerating your progress. Let's maintain this positive momentum.
+[4] Logan has shown commendable improvement in consistency, particularly in project delivery and adherence to timelines. He responds exceptionally well to feedback, actively implementing suggestions to refine his approach. Continued mentorship will be key to accelerating his development and fully leveraging his potential within the team.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer3|Idea-to-Text|C5|Q06",
+  "criterion": "Motivational tone",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 15: C5_Q07_Constructiveness -----
+You are Volunteer 3 in Group C.
+TASK TYPE: Idea-to-Text
+SAMPLE: C5
+CRITERION: Constructiveness
+
+INSTRUCTION:
+Rank from most to least helpful and constructive.
+
+ORIGINAL:
+Logan Russell’s consistency is improving; responds well to coaching—continued mentoring will accelerate progress.
+
+CANDIDATES:
+[1] Logan, it's positive to see your consistency improving steadily. Your responsiveness to coaching is a key strength. Continuing with focused mentoring will be essential to accelerate this progress further and solidify your performance foundation. Keep up the good work applying feedback.
+[2] Logan Russell is showing improved consistency and responds positively to feedback. His openness to coaching is a strength, and with continued mentoring, he will further accelerate his development and performance.
+[3] Logan has shown commendable improvement in consistency, particularly in project delivery and adherence to timelines. He responds exceptionally well to feedback, actively implementing suggestions to refine his approach. Continued mentorship will be key to accelerating his development and fully leveraging his potential within the team.
+[4] Logan, we are very pleased with the marked improvement in your consistency. You respond well to coaching, and continued mentoring is key to accelerating your progress. Let's maintain this positive momentum.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer3|Idea-to-Text|C5|Q07",
+  "criterion": "Constructiveness",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 16: C5_Q08_Finalchoice -----
+You are Volunteer 3 in Group C.
+TASK TYPE: Idea-to-Text
+SAMPLE: C5
+CRITERION: Final choice
+
+INSTRUCTION:
+Rank from most to least suitable as a final version.
+
+ORIGINAL:
+Logan Russell’s consistency is improving; responds well to coaching—continued mentoring will accelerate progress.
+
+CANDIDATES:
+[1] Logan, we are very pleased with the marked improvement in your consistency. You respond well to coaching, and continued mentoring is key to accelerating your progress. Let's maintain this positive momentum.
+[2] Logan, it's positive to see your consistency improving steadily. Your responsiveness to coaching is a key strength. Continuing with focused mentoring will be essential to accelerate this progress further and solidify your performance foundation. Keep up the good work applying feedback.
+[3] Logan has shown commendable improvement in consistency, particularly in project delivery and adherence to timelines. He responds exceptionally well to feedback, actively implementing suggestions to refine his approach. Continued mentorship will be key to accelerating his development and fully leveraging his potential within the team.
+[4] Logan Russell is showing improved consistency and responds positively to feedback. His openness to coaching is a strength, and with continued mentoring, he will further accelerate his development and performance.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer3|Idea-to-Text|C5|Q08",
+  "criterion": "Final choice",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT SC1: SanityCheck_IdeaToText_Accuracy -----
+TASK TYPE: Idea-to-Text
+SAMPLE: SC1
+CRITERION: Accuracy
+
+INSTRUCTION:
+Rank from most to least factually correct given the Original.
+
+ORIGINAL:
+The sun appears to rise each morning from the eastern horizon before setting in the west
+
+CANDIDATES:
+[1] The sun rises in the east.
+[2] The sun rises in the west.
+[3] The moon rises in the east.
+[4] The sun never rises.
+
+Please rank outputs strictly from most accurate (1) to least accurate (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "Idea-to-Text|SC1|Q04",
+  "criterion": "Accuracy",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 17: C7_Q01_Fluency -----
+You are Volunteer 3 in Group C.
+TASK TYPE: Summarise
+SAMPLE: C7
+CRITERION: Fluency
+
+INSTRUCTION:
+Rank from most to least smooth and error-free.
+
+ORIGINAL:
+Kallie has struggled to find her footing at our company. She's repeatedly turned in work product containing typos, grammar issues, and content mistakes. The good thing is that I trust that Kallie will make great strides moving forward to improve. Every time I give her feedback or mark up documents for her, she takes my comments very seriously and always does better the next time. I believe she has the will and desire to become a reliable member of our department.
+
+CANDIDATES:
+[1] Kallie's work often contains errors, but she is highly receptive to feedback and improves with every correction, showing a strong will to succeed.
+[2] Kallie has had difficulty with work quality, showing repeated errors in writing and content. However, she responds well to feedback, improves consistently, and demonstrates strong willingness to grow. With continued support, she has the potential to become a reliable team member.
+[3] Kallie: Struggles (typos, grammar, content errors). Takes feedback seriously & improves. Has will/desire to become reliable.
+[4] Kallie's work has consistent errors, but she's receptive to feedback and shows strong potential for improvement. Her dedication suggests she'll become a reliable team member.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer3|Summarise|C7|Q01",
+  "criterion": "Fluency",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 18: C7_Q02_Coherence -----
+You are Volunteer 3 in Group C.
+TASK TYPE: Summarise
+SAMPLE: C7
+CRITERION: Coherence
+
+INSTRUCTION:
+Rank from most to least logical and easy to follow.
+
+ORIGINAL:
+Kallie has struggled to find her footing at our company. She's repeatedly turned in work product containing typos, grammar issues, and content mistakes. The good thing is that I trust that Kallie will make great strides moving forward to improve. Every time I give her feedback or mark up documents for her, she takes my comments very seriously and always does better the next time. I believe she has the will and desire to become a reliable member of our department.
+
+CANDIDATES:
+[1] Kallie has had difficulty with work quality, showing repeated errors in writing and content. However, she responds well to feedback, improves consistently, and demonstrates strong willingness to grow. With continued support, she has the potential to become a reliable team member.
+[2] Kallie's work often contains errors, but she is highly receptive to feedback and improves with every correction, showing a strong will to succeed.
+[3] Kallie: Struggles (typos, grammar, content errors). Takes feedback seriously & improves. Has will/desire to become reliable.
+[4] Kallie's work has consistent errors, but she's receptive to feedback and shows strong potential for improvement. Her dedication suggests she'll become a reliable team member.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer3|Summarise|C7|Q02",
+  "criterion": "Coherence",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 19: C7_Q03_Conciseness -----
+You are Volunteer 3 in Group C.
+TASK TYPE: Summarise
+SAMPLE: C7
+CRITERION: Conciseness
+
+INSTRUCTION:
+Rank from most to least clear and compact.
+
+ORIGINAL:
+Kallie has struggled to find her footing at our company. She's repeatedly turned in work product containing typos, grammar issues, and content mistakes. The good thing is that I trust that Kallie will make great strides moving forward to improve. Every time I give her feedback or mark up documents for her, she takes my comments very seriously and always does better the next time. I believe she has the will and desire to become a reliable member of our department.
+
+CANDIDATES:
+[1] Kallie has had difficulty with work quality, showing repeated errors in writing and content. However, she responds well to feedback, improves consistently, and demonstrates strong willingness to grow. With continued support, she has the potential to become a reliable team member.
+[2] Kallie's work often contains errors, but she is highly receptive to feedback and improves with every correction, showing a strong will to succeed.
+[3] Kallie's work has consistent errors, but she's receptive to feedback and shows strong potential for improvement. Her dedication suggests she'll become a reliable team member.
+[4] Kallie: Struggles (typos, grammar, content errors). Takes feedback seriously & improves. Has will/desire to become reliable.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer3|Summarise|C7|Q03",
+  "criterion": "Conciseness",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 20: C7_Q04_Accuracy -----
+You are Volunteer 3 in Group C.
+TASK TYPE: Summarise
+SAMPLE: C7
+CRITERION: Accuracy
+
+INSTRUCTION:
+Select all texts that are factually correct given the Original.
+
+ORIGINAL:
+Kallie has struggled to find her footing at our company. She's repeatedly turned in work product containing typos, grammar issues, and content mistakes. The good thing is that I trust that Kallie will make great strides moving forward to improve. Every time I give her feedback or mark up documents for her, she takes my comments very seriously and always does better the next time. I believe she has the will and desire to become a reliable member of our department.
+
+CANDIDATES:
+[1] Kallie has had difficulty with work quality, showing repeated errors in writing and content. However, she responds well to feedback, improves consistently, and demonstrates strong willingness to grow. With continued support, she has the potential to become a reliable team member.
+[2] Kallie: Struggles (typos, grammar, content errors). Takes feedback seriously & improves. Has will/desire to become reliable.
+[3] Kallie's work has consistent errors, but she's receptive to feedback and shows strong potential for improvement. Her dedication suggests she'll become a reliable team member.
+[4] Kallie's work often contains errors, but she is highly receptive to feedback and improves with every correction, showing a strong will to succeed.
+
+Please select all outputs that are factually correct given the Original.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer3|Summarise|C7|Q04",
+  "criterion": "Accuracy",
+  "rating": [1, 3],
+  "justifications": {
+    "1": "why candidate 1 is correct/incorrect in one sentence",
+    "2": "why candidate 2 is correct/incorrect in one sentence",
+    "3": "why candidate 3 is correct/incorrect in one sentence",
+    "4": "why candidate 4 is correct/incorrect in one sentence"
+  }
+}
+
+
+----- PROMPT 21: C7_Q05_Sentimentmatch -----
+You are Volunteer 3 in Group C.
+TASK TYPE: Summarise
+SAMPLE: C7
+CRITERION: Sentiment match
+
+INSTRUCTION:
+Rank from most to least similar to the Original in style and sentiment.
+
+ORIGINAL:
+Kallie has struggled to find her footing at our company. She's repeatedly turned in work product containing typos, grammar issues, and content mistakes. The good thing is that I trust that Kallie will make great strides moving forward to improve. Every time I give her feedback or mark up documents for her, she takes my comments very seriously and always does better the next time. I believe she has the will and desire to become a reliable member of our department.
+
+CANDIDATES:
+[1] Kallie's work often contains errors, but she is highly receptive to feedback and improves with every correction, showing a strong will to succeed.
+[2] Kallie's work has consistent errors, but she's receptive to feedback and shows strong potential for improvement. Her dedication suggests she'll become a reliable team member.
+[3] Kallie: Struggles (typos, grammar, content errors). Takes feedback seriously & improves. Has will/desire to become reliable.
+[4] Kallie has had difficulty with work quality, showing repeated errors in writing and content. However, she responds well to feedback, improves consistently, and demonstrates strong willingness to grow. With continued support, she has the potential to become a reliable team member.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer3|Summarise|C7|Q05",
+  "criterion": "Sentiment match",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 22: C7_Q06_Motivationaltone -----
+You are Volunteer 3 in Group C.
+TASK TYPE: Summarise
+SAMPLE: C7
+CRITERION: Motivational tone
+
+INSTRUCTION:
+Rank from most to least empathetic and encouraging.
+
+ORIGINAL:
+Kallie has struggled to find her footing at our company. She's repeatedly turned in work product containing typos, grammar issues, and content mistakes. The good thing is that I trust that Kallie will make great strides moving forward to improve. Every time I give her feedback or mark up documents for her, she takes my comments very seriously and always does better the next time. I believe she has the will and desire to become a reliable member of our department.
+
+CANDIDATES:
+[1] Kallie: Struggles (typos, grammar, content errors). Takes feedback seriously & improves. Has will/desire to become reliable.
+[2] Kallie's work often contains errors, but she is highly receptive to feedback and improves with every correction, showing a strong will to succeed.
+[3] Kallie has had difficulty with work quality, showing repeated errors in writing and content. However, she responds well to feedback, improves consistently, and demonstrates strong willingness to grow. With continued support, she has the potential to become a reliable team member.
+[4] Kallie's work has consistent errors, but she's receptive to feedback and shows strong potential for improvement. Her dedication suggests she'll become a reliable team member.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer3|Summarise|C7|Q06",
+  "criterion": "Motivational tone",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 23: C7_Q07_Constructiveness -----
+You are Volunteer 3 in Group C.
+TASK TYPE: Summarise
+SAMPLE: C7
+CRITERION: Constructiveness
+
+INSTRUCTION:
+Rank from most to least helpful and constructive.
+
+ORIGINAL:
+Kallie has struggled to find her footing at our company. She's repeatedly turned in work product containing typos, grammar issues, and content mistakes. The good thing is that I trust that Kallie will make great strides moving forward to improve. Every time I give her feedback or mark up documents for her, she takes my comments very seriously and always does better the next time. I believe she has the will and desire to become a reliable member of our department.
+
+CANDIDATES:
+[1] Kallie has had difficulty with work quality, showing repeated errors in writing and content. However, she responds well to feedback, improves consistently, and demonstrates strong willingness to grow. With continued support, she has the potential to become a reliable team member.
+[2] Kallie: Struggles (typos, grammar, content errors). Takes feedback seriously & improves. Has will/desire to become reliable.
+[3] Kallie's work has consistent errors, but she's receptive to feedback and shows strong potential for improvement. Her dedication suggests she'll become a reliable team member.
+[4] Kallie's work often contains errors, but she is highly receptive to feedback and improves with every correction, showing a strong will to succeed.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer3|Summarise|C7|Q07",
+  "criterion": "Constructiveness",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 24: C7_Q08_Finalchoice -----
+You are Volunteer 3 in Group C.
+TASK TYPE: Summarise
+SAMPLE: C7
+CRITERION: Final choice
+
+INSTRUCTION:
+Rank from most to least suitable as a final version.
+
+ORIGINAL:
+Kallie has struggled to find her footing at our company. She's repeatedly turned in work product containing typos, grammar issues, and content mistakes. The good thing is that I trust that Kallie will make great strides moving forward to improve. Every time I give her feedback or mark up documents for her, she takes my comments very seriously and always does better the next time. I believe she has the will and desire to become a reliable member of our department.
+
+CANDIDATES:
+[1] Kallie's work has consistent errors, but she's receptive to feedback and shows strong potential for improvement. Her dedication suggests she'll become a reliable team member.
+[2] Kallie's work often contains errors, but she is highly receptive to feedback and improves with every correction, showing a strong will to succeed.
+[3] Kallie has had difficulty with work quality, showing repeated errors in writing and content. However, she responds well to feedback, improves consistently, and demonstrates strong willingness to grow. With continued support, she has the potential to become a reliable team member.
+[4] Kallie: Struggles (typos, grammar, content errors). Takes feedback seriously & improves. Has will/desire to become reliable.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer3|Summarise|C7|Q08",
+  "criterion": "Final choice",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 25: C9_Q01_Fluency -----
+You are Volunteer 3 in Group C.
+TASK TYPE: Summarise
+SAMPLE: C9
+CRITERION: Fluency
+
+INSTRUCTION:
+Rank from most to least smooth and error-free.
+
+ORIGINAL:
+Joseph Cook is a consistent performer. He always gets the basic job done even though he could do better. He does not take as much time as he should to be at a higher performance level. He has shown only moderate potential which is risky.
+
+CANDIDATES:
+[1] Joseph is a consistent, reliable performer who meets basic expectations. However, he lacks initiative for higher performance and shows only moderate, risky potential.
+[2] Joseph is a consistent performer who gets the basic job done but does not strive to improve. He has shown only moderate and risky potential.
+[3] Joseph: Consistent, gets basic job done. Could do better, doesn't take time for higher performance. Moderate potential (risky).
+[4] Joseph Cook consistently meets basic expectations but shows only moderate potential. He completes tasks reliably but doesn't invest enough effort to reach higher performance, posing some risk for advancement.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer3|Summarise|C9|Q01",
+  "criterion": "Fluency",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 26: C9_Q02_Coherence -----
+You are Volunteer 3 in Group C.
+TASK TYPE: Summarise
+SAMPLE: C9
+CRITERION: Coherence
+
+INSTRUCTION:
+Rank from most to least logical and easy to follow.
+
+ORIGINAL:
+Joseph Cook is a consistent performer. He always gets the basic job done even though he could do better. He does not take as much time as he should to be at a higher performance level. He has shown only moderate potential which is risky.
+
+CANDIDATES:
+[1] Joseph Cook consistently meets basic expectations but shows only moderate potential. He completes tasks reliably but doesn't invest enough effort to reach higher performance, posing some risk for advancement.
+[2] Joseph: Consistent, gets basic job done. Could do better, doesn't take time for higher performance. Moderate potential (risky).
+[3] Joseph is a consistent, reliable performer who meets basic expectations. However, he lacks initiative for higher performance and shows only moderate, risky potential.
+[4] Joseph is a consistent performer who gets the basic job done but does not strive to improve. He has shown only moderate and risky potential.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer3|Summarise|C9|Q02",
+  "criterion": "Coherence",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 27: C9_Q03_Conciseness -----
+You are Volunteer 3 in Group C.
+TASK TYPE: Summarise
+SAMPLE: C9
+CRITERION: Conciseness
+
+INSTRUCTION:
+Rank from most to least clear and compact.
+
+ORIGINAL:
+Joseph Cook is a consistent performer. He always gets the basic job done even though he could do better. He does not take as much time as he should to be at a higher performance level. He has shown only moderate potential which is risky.
+
+CANDIDATES:
+[1] Joseph is a consistent performer who gets the basic job done but does not strive to improve. He has shown only moderate and risky potential.
+[2] Joseph: Consistent, gets basic job done. Could do better, doesn't take time for higher performance. Moderate potential (risky).
+[3] Joseph Cook consistently meets basic expectations but shows only moderate potential. He completes tasks reliably but doesn't invest enough effort to reach higher performance, posing some risk for advancement.
+[4] Joseph is a consistent, reliable performer who meets basic expectations. However, he lacks initiative for higher performance and shows only moderate, risky potential.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer3|Summarise|C9|Q03",
+  "criterion": "Conciseness",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 28: C9_Q04_Accuracy -----
+You are Volunteer 3 in Group C.
+TASK TYPE: Summarise
+SAMPLE: C9
+CRITERION: Accuracy
+
+INSTRUCTION:
+Select all texts that are factually correct given the Original.
+
+ORIGINAL:
+Joseph Cook is a consistent performer. He always gets the basic job done even though he could do better. He does not take as much time as he should to be at a higher performance level. He has shown only moderate potential which is risky.
+
+CANDIDATES:
+[1] Joseph is a consistent performer who gets the basic job done but does not strive to improve. He has shown only moderate and risky potential.
+[2] Joseph: Consistent, gets basic job done. Could do better, doesn't take time for higher performance. Moderate potential (risky).
+[3] Joseph is a consistent, reliable performer who meets basic expectations. However, he lacks initiative for higher performance and shows only moderate, risky potential.
+[4] Joseph Cook consistently meets basic expectations but shows only moderate potential. He completes tasks reliably but doesn't invest enough effort to reach higher performance, posing some risk for advancement.
+
+Please select all outputs that are factually correct given the Original.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer3|Summarise|C9|Q04",
+  "criterion": "Accuracy",
+  "rating": [1, 3],
+  "justifications": {
+    "1": "why candidate 1 is correct/incorrect in one sentence",
+    "2": "why candidate 2 is correct/incorrect in one sentence",
+    "3": "why candidate 3 is correct/incorrect in one sentence",
+    "4": "why candidate 4 is correct/incorrect in one sentence"
+  }
+}
+
+
+----- PROMPT 29: C9_Q05_Sentimentmatch -----
+You are Volunteer 3 in Group C.
+TASK TYPE: Summarise
+SAMPLE: C9
+CRITERION: Sentiment match
+
+INSTRUCTION:
+Rank from most to least similar to the Original in style and sentiment.
+
+ORIGINAL:
+Joseph Cook is a consistent performer. He always gets the basic job done even though he could do better. He does not take as much time as he should to be at a higher performance level. He has shown only moderate potential which is risky.
+
+CANDIDATES:
+[1] Joseph is a consistent, reliable performer who meets basic expectations. However, he lacks initiative for higher performance and shows only moderate, risky potential.
+[2] Joseph: Consistent, gets basic job done. Could do better, doesn't take time for higher performance. Moderate potential (risky).
+[3] Joseph Cook consistently meets basic expectations but shows only moderate potential. He completes tasks reliably but doesn't invest enough effort to reach higher performance, posing some risk for advancement.
+[4] Joseph is a consistent performer who gets the basic job done but does not strive to improve. He has shown only moderate and risky potential.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer3|Summarise|C9|Q05",
+  "criterion": "Sentiment match",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 30: C9_Q06_Motivationaltone -----
+You are Volunteer 3 in Group C.
+TASK TYPE: Summarise
+SAMPLE: C9
+CRITERION: Motivational tone
+
+INSTRUCTION:
+Rank from most to least empathetic and encouraging.
+
+ORIGINAL:
+Joseph Cook is a consistent performer. He always gets the basic job done even though he could do better. He does not take as much time as he should to be at a higher performance level. He has shown only moderate potential which is risky.
+
+CANDIDATES:
+[1] Joseph: Consistent, gets basic job done. Could do better, doesn't take time for higher performance. Moderate potential (risky).
+[2] Joseph is a consistent performer who gets the basic job done but does not strive to improve. He has shown only moderate and risky potential.
+[3] Joseph is a consistent, reliable performer who meets basic expectations. However, he lacks initiative for higher performance and shows only moderate, risky potential.
+[4] Joseph Cook consistently meets basic expectations but shows only moderate potential. He completes tasks reliably but doesn't invest enough effort to reach higher performance, posing some risk for advancement.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer3|Summarise|C9|Q06",
+  "criterion": "Motivational tone",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 31: C9_Q07_Constructiveness -----
+You are Volunteer 3 in Group C.
+TASK TYPE: Summarise
+SAMPLE: C9
+CRITERION: Constructiveness
+
+INSTRUCTION:
+Rank from most to least helpful and constructive.
+
+ORIGINAL:
+Joseph Cook is a consistent performer. He always gets the basic job done even though he could do better. He does not take as much time as he should to be at a higher performance level. He has shown only moderate potential which is risky.
+
+CANDIDATES:
+[1] Joseph Cook consistently meets basic expectations but shows only moderate potential. He completes tasks reliably but doesn't invest enough effort to reach higher performance, posing some risk for advancement.
+[2] Joseph: Consistent, gets basic job done. Could do better, doesn't take time for higher performance. Moderate potential (risky).
+[3] Joseph is a consistent, reliable performer who meets basic expectations. However, he lacks initiative for higher performance and shows only moderate, risky potential.
+[4] Joseph is a consistent performer who gets the basic job done but does not strive to improve. He has shown only moderate and risky potential.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer3|Summarise|C9|Q07",
+  "criterion": "Constructiveness",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 32: C9_Q08_Finalchoice -----
+You are Volunteer 3 in Group C.
+TASK TYPE: Summarise
+SAMPLE: C9
+CRITERION: Final choice
+
+INSTRUCTION:
+Rank from most to least suitable as a final version.
+
+ORIGINAL:
+Joseph Cook is a consistent performer. He always gets the basic job done even though he could do better. He does not take as much time as he should to be at a higher performance level. He has shown only moderate potential which is risky.
+
+CANDIDATES:
+[1] Joseph is a consistent performer who gets the basic job done but does not strive to improve. He has shown only moderate and risky potential.
+[2] Joseph is a consistent, reliable performer who meets basic expectations. However, he lacks initiative for higher performance and shows only moderate, risky potential.
+[3] Joseph: Consistent, gets basic job done. Could do better, doesn't take time for higher performance. Moderate potential (risky).
+[4] Joseph Cook consistently meets basic expectations but shows only moderate potential. He completes tasks reliably but doesn't invest enough effort to reach higher performance, posing some risk for advancement.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer3|Summarise|C9|Q08",
+  "criterion": "Final choice",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT SC2: SanityCheck_Summarise_Accuracy -----
+TASK TYPE: Summarise
+SAMPLE: SC2
+CRITERION: Accuracy
+
+INSTRUCTION:
+Rank from most to least factually correct given the Original.
+
+ORIGINAL:
+Pure water begins to freeze at exactly zero degrees Celsius
+
+CANDIDATES:
+[1] Water freezes at at 0°C.
+[2] Water freezes at 100°C.
+[3] Water boils at 0°C.
+[4] Ice melts at 0°C.
+
+Please rank outputs strictly from most accurate (1) to least accurate (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "Summarise|SC2|Q04",
+  "criterion": "Accuracy",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 33: C16_Q01_Fluency -----
+You are Volunteer 3 in Group C.
+TASK TYPE: Interpret
+SAMPLE: C16
+CRITERION: Fluency
+
+INSTRUCTION:
+Rank from most to least smooth and error-free.
+
+ORIGINAL:
+My friend and colleague, Matthew Reid, is a great addition to any team. His work is quite impressive, never late, and some of the finest on our division. However, with such a great work ethic that he fails to apply fully to reaching a higher position in this company, I believe he has his eyes on other ventures. I would love to recruit and keep Matthew in our company, but I can't trust that we won't pour resources into his success only for him to leave for a bigger company.
+
+CANDIDATES:
+[1] Matthew is highly skilled, reliable, and produces top-tier work, making him a valuable team member. However, his ambition may extend beyond the current role, raising concerns about long-term retention. To support his growth and strengthen his commitment, leadership should engage Matthew in a development conversation, clarify advancement opportunities, involve him in strategic projects, and discuss alignment of his goals with the company’s future. This proactive approach can build mutual trust and encourage him to grow within the organization.
+[2] Feedback means Matthew produces exceptional, timely work but appears uncommitted to advancement, suggesting he may leave for other ventures. This implies trust issues may limit growth opportunities despite high performance. Matthew should: 1) Clarify career goals with manager next week, 2) Discuss desired internal advancement paths, 3) Propose one initiative showing long-term commitment.
+[3] Matthew's work is excellent, but management perceives a lack of ambition to grow within the company, creating mistrust about his loyalty. This stalls his growth. If he wishes to stay, Matthew should proactively discuss his long-term career goals with his manager to build confidence.
+[4] Matthew, this feedback highlights your exceptional work quality and reliability, making you a valuable team member. However, it also suggests a perception that you may not be fully committed to long-term growth within the company, leading to a reluctance to invest further in your development. To address this, Matthew should proactively communicate his career aspirations within the company, seek out opportunities for internal advancement, and demonstrate a clear commitment to his future at the organization.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer3|Interpret|C16|Q01",
+  "criterion": "Fluency",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 34: C16_Q02_Coherence -----
+You are Volunteer 3 in Group C.
+TASK TYPE: Interpret
+SAMPLE: C16
+CRITERION: Coherence
+
+INSTRUCTION:
+Rank from most to least logical and easy to follow.
+
+ORIGINAL:
+My friend and colleague, Matthew Reid, is a great addition to any team. His work is quite impressive, never late, and some of the finest on our division. However, with such a great work ethic that he fails to apply fully to reaching a higher position in this company, I believe he has his eyes on other ventures. I would love to recruit and keep Matthew in our company, but I can't trust that we won't pour resources into his success only for him to leave for a bigger company.
+
+CANDIDATES:
+[1] Feedback means Matthew produces exceptional, timely work but appears uncommitted to advancement, suggesting he may leave for other ventures. This implies trust issues may limit growth opportunities despite high performance. Matthew should: 1) Clarify career goals with manager next week, 2) Discuss desired internal advancement paths, 3) Propose one initiative showing long-term commitment.
+[2] Matthew is highly skilled, reliable, and produces top-tier work, making him a valuable team member. However, his ambition may extend beyond the current role, raising concerns about long-term retention. To support his growth and strengthen his commitment, leadership should engage Matthew in a development conversation, clarify advancement opportunities, involve him in strategic projects, and discuss alignment of his goals with the company’s future. This proactive approach can build mutual trust and encourage him to grow within the organization.
+[3] Matthew's work is excellent, but management perceives a lack of ambition to grow within the company, creating mistrust about his loyalty. This stalls his growth. If he wishes to stay, Matthew should proactively discuss his long-term career goals with his manager to build confidence.
+[4] Matthew, this feedback highlights your exceptional work quality and reliability, making you a valuable team member. However, it also suggests a perception that you may not be fully committed to long-term growth within the company, leading to a reluctance to invest further in your development. To address this, Matthew should proactively communicate his career aspirations within the company, seek out opportunities for internal advancement, and demonstrate a clear commitment to his future at the organization.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer3|Interpret|C16|Q02",
+  "criterion": "Coherence",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 35: C16_Q03_Conciseness -----
+You are Volunteer 3 in Group C.
+TASK TYPE: Interpret
+SAMPLE: C16
+CRITERION: Conciseness
+
+INSTRUCTION:
+Rank from most to least clear and compact.
+
+ORIGINAL:
+My friend and colleague, Matthew Reid, is a great addition to any team. His work is quite impressive, never late, and some of the finest on our division. However, with such a great work ethic that he fails to apply fully to reaching a higher position in this company, I believe he has his eyes on other ventures. I would love to recruit and keep Matthew in our company, but I can't trust that we won't pour resources into his success only for him to leave for a bigger company.
+
+CANDIDATES:
+[1] Feedback means Matthew produces exceptional, timely work but appears uncommitted to advancement, suggesting he may leave for other ventures. This implies trust issues may limit growth opportunities despite high performance. Matthew should: 1) Clarify career goals with manager next week, 2) Discuss desired internal advancement paths, 3) Propose one initiative showing long-term commitment.
+[2] Matthew, this feedback highlights your exceptional work quality and reliability, making you a valuable team member. However, it also suggests a perception that you may not be fully committed to long-term growth within the company, leading to a reluctance to invest further in your development. To address this, Matthew should proactively communicate his career aspirations within the company, seek out opportunities for internal advancement, and demonstrate a clear commitment to his future at the organization.
+[3] Matthew's work is excellent, but management perceives a lack of ambition to grow within the company, creating mistrust about his loyalty. This stalls his growth. If he wishes to stay, Matthew should proactively discuss his long-term career goals with his manager to build confidence.
+[4] Matthew is highly skilled, reliable, and produces top-tier work, making him a valuable team member. However, his ambition may extend beyond the current role, raising concerns about long-term retention. To support his growth and strengthen his commitment, leadership should engage Matthew in a development conversation, clarify advancement opportunities, involve him in strategic projects, and discuss alignment of his goals with the company’s future. This proactive approach can build mutual trust and encourage him to grow within the organization.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer3|Interpret|C16|Q03",
+  "criterion": "Conciseness",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 36: C16_Q04_Accuracy -----
+You are Volunteer 3 in Group C.
+TASK TYPE: Interpret
+SAMPLE: C16
+CRITERION: Accuracy
+
+INSTRUCTION:
+Select all texts that are factually correct given the Original.
+
+ORIGINAL:
+My friend and colleague, Matthew Reid, is a great addition to any team. His work is quite impressive, never late, and some of the finest on our division. However, with such a great work ethic that he fails to apply fully to reaching a higher position in this company, I believe he has his eyes on other ventures. I would love to recruit and keep Matthew in our company, but I can't trust that we won't pour resources into his success only for him to leave for a bigger company.
+
+CANDIDATES:
+[1] Feedback means Matthew produces exceptional, timely work but appears uncommitted to advancement, suggesting he may leave for other ventures. This implies trust issues may limit growth opportunities despite high performance. Matthew should: 1) Clarify career goals with manager next week, 2) Discuss desired internal advancement paths, 3) Propose one initiative showing long-term commitment.
+[2] Matthew is highly skilled, reliable, and produces top-tier work, making him a valuable team member. However, his ambition may extend beyond the current role, raising concerns about long-term retention. To support his growth and strengthen his commitment, leadership should engage Matthew in a development conversation, clarify advancement opportunities, involve him in strategic projects, and discuss alignment of his goals with the company’s future. This proactive approach can build mutual trust and encourage him to grow within the organization.
+[3] Matthew's work is excellent, but management perceives a lack of ambition to grow within the company, creating mistrust about his loyalty. This stalls his growth. If he wishes to stay, Matthew should proactively discuss his long-term career goals with his manager to build confidence.
+[4] Matthew, this feedback highlights your exceptional work quality and reliability, making you a valuable team member. However, it also suggests a perception that you may not be fully committed to long-term growth within the company, leading to a reluctance to invest further in your development. To address this, Matthew should proactively communicate his career aspirations within the company, seek out opportunities for internal advancement, and demonstrate a clear commitment to his future at the organization.
+
+Please select all outputs that are factually correct given the Original.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer3|Interpret|C16|Q04",
+  "criterion": "Accuracy",
+  "rating": [1, 3],
+  "justifications": {
+    "1": "why candidate 1 is correct/incorrect in one sentence",
+    "2": "why candidate 2 is correct/incorrect in one sentence",
+    "3": "why candidate 3 is correct/incorrect in one sentence",
+    "4": "why candidate 4 is correct/incorrect in one sentence"
+  }
+}
+
+
+----- PROMPT 37: C16_Q05_Sentimentmatch -----
+You are Volunteer 3 in Group C.
+TASK TYPE: Interpret
+SAMPLE: C16
+CRITERION: Sentiment match
+
+INSTRUCTION:
+Rank from most to least similar to the Original in style and sentiment.
+
+ORIGINAL:
+My friend and colleague, Matthew Reid, is a great addition to any team. His work is quite impressive, never late, and some of the finest on our division. However, with such a great work ethic that he fails to apply fully to reaching a higher position in this company, I believe he has his eyes on other ventures. I would love to recruit and keep Matthew in our company, but I can't trust that we won't pour resources into his success only for him to leave for a bigger company.
+
+CANDIDATES:
+[1] Matthew's work is excellent, but management perceives a lack of ambition to grow within the company, creating mistrust about his loyalty. This stalls his growth. If he wishes to stay, Matthew should proactively discuss his long-term career goals with his manager to build confidence.
+[2] Matthew, this feedback highlights your exceptional work quality and reliability, making you a valuable team member. However, it also suggests a perception that you may not be fully committed to long-term growth within the company, leading to a reluctance to invest further in your development. To address this, Matthew should proactively communicate his career aspirations within the company, seek out opportunities for internal advancement, and demonstrate a clear commitment to his future at the organization.
+[3] Feedback means Matthew produces exceptional, timely work but appears uncommitted to advancement, suggesting he may leave for other ventures. This implies trust issues may limit growth opportunities despite high performance. Matthew should: 1) Clarify career goals with manager next week, 2) Discuss desired internal advancement paths, 3) Propose one initiative showing long-term commitment.
+[4] Matthew is highly skilled, reliable, and produces top-tier work, making him a valuable team member. However, his ambition may extend beyond the current role, raising concerns about long-term retention. To support his growth and strengthen his commitment, leadership should engage Matthew in a development conversation, clarify advancement opportunities, involve him in strategic projects, and discuss alignment of his goals with the company’s future. This proactive approach can build mutual trust and encourage him to grow within the organization.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer3|Interpret|C16|Q05",
+  "criterion": "Sentiment match",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 38: C16_Q06_Motivationaltone -----
+You are Volunteer 3 in Group C.
+TASK TYPE: Interpret
+SAMPLE: C16
+CRITERION: Motivational tone
+
+INSTRUCTION:
+Rank from most to least empathetic and encouraging.
+
+ORIGINAL:
+My friend and colleague, Matthew Reid, is a great addition to any team. His work is quite impressive, never late, and some of the finest on our division. However, with such a great work ethic that he fails to apply fully to reaching a higher position in this company, I believe he has his eyes on other ventures. I would love to recruit and keep Matthew in our company, but I can't trust that we won't pour resources into his success only for him to leave for a bigger company.
+
+CANDIDATES:
+[1] Matthew, this feedback highlights your exceptional work quality and reliability, making you a valuable team member. However, it also suggests a perception that you may not be fully committed to long-term growth within the company, leading to a reluctance to invest further in your development. To address this, Matthew should proactively communicate his career aspirations within the company, seek out opportunities for internal advancement, and demonstrate a clear commitment to his future at the organization.
+[2] Feedback means Matthew produces exceptional, timely work but appears uncommitted to advancement, suggesting he may leave for other ventures. This implies trust issues may limit growth opportunities despite high performance. Matthew should: 1) Clarify career goals with manager next week, 2) Discuss desired internal advancement paths, 3) Propose one initiative showing long-term commitment.
+[3] Matthew is highly skilled, reliable, and produces top-tier work, making him a valuable team member. However, his ambition may extend beyond the current role, raising concerns about long-term retention. To support his growth and strengthen his commitment, leadership should engage Matthew in a development conversation, clarify advancement opportunities, involve him in strategic projects, and discuss alignment of his goals with the company’s future. This proactive approach can build mutual trust and encourage him to grow within the organization.
+[4] Matthew's work is excellent, but management perceives a lack of ambition to grow within the company, creating mistrust about his loyalty. This stalls his growth. If he wishes to stay, Matthew should proactively discuss his long-term career goals with his manager to build confidence.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer3|Interpret|C16|Q06",
+  "criterion": "Motivational tone",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 39: C16_Q07_Constructiveness -----
+You are Volunteer 3 in Group C.
+TASK TYPE: Interpret
+SAMPLE: C16
+CRITERION: Constructiveness
+
+INSTRUCTION:
+Rank from most to least helpful and constructive.
+
+ORIGINAL:
+My friend and colleague, Matthew Reid, is a great addition to any team. His work is quite impressive, never late, and some of the finest on our division. However, with such a great work ethic that he fails to apply fully to reaching a higher position in this company, I believe he has his eyes on other ventures. I would love to recruit and keep Matthew in our company, but I can't trust that we won't pour resources into his success only for him to leave for a bigger company.
+
+CANDIDATES:
+[1] Matthew's work is excellent, but management perceives a lack of ambition to grow within the company, creating mistrust about his loyalty. This stalls his growth. If he wishes to stay, Matthew should proactively discuss his long-term career goals with his manager to build confidence.
+[2] Feedback means Matthew produces exceptional, timely work but appears uncommitted to advancement, suggesting he may leave for other ventures. This implies trust issues may limit growth opportunities despite high performance. Matthew should: 1) Clarify career goals with manager next week, 2) Discuss desired internal advancement paths, 3) Propose one initiative showing long-term commitment.
+[3] Matthew, this feedback highlights your exceptional work quality and reliability, making you a valuable team member. However, it also suggests a perception that you may not be fully committed to long-term growth within the company, leading to a reluctance to invest further in your development. To address this, Matthew should proactively communicate his career aspirations within the company, seek out opportunities for internal advancement, and demonstrate a clear commitment to his future at the organization.
+[4] Matthew is highly skilled, reliable, and produces top-tier work, making him a valuable team member. However, his ambition may extend beyond the current role, raising concerns about long-term retention. To support his growth and strengthen his commitment, leadership should engage Matthew in a development conversation, clarify advancement opportunities, involve him in strategic projects, and discuss alignment of his goals with the company’s future. This proactive approach can build mutual trust and encourage him to grow within the organization.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer3|Interpret|C16|Q07",
+  "criterion": "Constructiveness",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 40: C16_Q08_Finalchoice -----
+You are Volunteer 3 in Group C.
+TASK TYPE: Interpret
+SAMPLE: C16
+CRITERION: Final choice
+
+INSTRUCTION:
+Rank from most to least suitable as a final version.
+
+ORIGINAL:
+My friend and colleague, Matthew Reid, is a great addition to any team. His work is quite impressive, never late, and some of the finest on our division. However, with such a great work ethic that he fails to apply fully to reaching a higher position in this company, I believe he has his eyes on other ventures. I would love to recruit and keep Matthew in our company, but I can't trust that we won't pour resources into his success only for him to leave for a bigger company.
+
+CANDIDATES:
+[1] Matthew's work is excellent, but management perceives a lack of ambition to grow within the company, creating mistrust about his loyalty. This stalls his growth. If he wishes to stay, Matthew should proactively discuss his long-term career goals with his manager to build confidence.
+[2] Matthew, this feedback highlights your exceptional work quality and reliability, making you a valuable team member. However, it also suggests a perception that you may not be fully committed to long-term growth within the company, leading to a reluctance to invest further in your development. To address this, Matthew should proactively communicate his career aspirations within the company, seek out opportunities for internal advancement, and demonstrate a clear commitment to his future at the organization.
+[3] Matthew is highly skilled, reliable, and produces top-tier work, making him a valuable team member. However, his ambition may extend beyond the current role, raising concerns about long-term retention. To support his growth and strengthen his commitment, leadership should engage Matthew in a development conversation, clarify advancement opportunities, involve him in strategic projects, and discuss alignment of his goals with the company’s future. This proactive approach can build mutual trust and encourage him to grow within the organization.
+[4] Feedback means Matthew produces exceptional, timely work but appears uncommitted to advancement, suggesting he may leave for other ventures. This implies trust issues may limit growth opportunities despite high performance. Matthew should: 1) Clarify career goals with manager next week, 2) Discuss desired internal advancement paths, 3) Propose one initiative showing long-term commitment.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer3|Interpret|C16|Q08",
+  "criterion": "Final choice",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 41: C18_Q01_Fluency -----
+You are Volunteer 3 in Group C.
+TASK TYPE: Interpret
+SAMPLE: C18
+CRITERION: Fluency
+
+INSTRUCTION:
+Rank from most to least smooth and error-free.
+
+ORIGINAL:
+George didn't deliver as well as hoped. However, he displays a great deal of all skills necessary for growth. With time, George will prove to be an asset to the company. Given the opportunity, George has the ability to advance beyond his given skill set.
+
+CANDIDATES:
+[1] George’s recent performance fell short of expectations, but management sees strong underlying skills and high potential for future growth. He should meet with his manager to review what went wrong, and then ask for a new, challenging task to demonstrate his true capabilities.
+[2] George, your performance didn't meet expectations, but your manager recognizes your strong foundational skills and potential for significant growth. This feedback implies that while your current output needs improvement, you are seen as a valuable long-term asset with high advancement potential. To respond, George should: (1) Proactively seek clarification on specific areas for improvement, (2) Request opportunities to apply and develop his skills, (3) Set clear, measurable goals for his immediate contributions, and (4) Regularly check in with his manager on progress.
+[3] Feedback means George underdelivered recently but possesses all skills for growth, positioning him as a future asset with advancement potential. This signals patience for development but requires proof of progress. George should: 1) Diagnose delivery gaps with manager immediately, 2) Create biweekly milestone plans for complex tasks, 3) Seek one skill-stretching project quarterly.
+[4] George’s current performance hasn’t met expectations, but he demonstrates strong potential through his foundational skills and readiness to grow. This feedback suggests he is viewed as a developmental candidate with long-term value. To progress, George should seek regular feedback, pursue skill-building opportunities, take initiative on projects, and work to consistently deliver results to build trust and prove reliability.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer3|Interpret|C18|Q01",
+  "criterion": "Fluency",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 42: C18_Q02_Coherence -----
+You are Volunteer 3 in Group C.
+TASK TYPE: Interpret
+SAMPLE: C18
+CRITERION: Coherence
+
+INSTRUCTION:
+Rank from most to least logical and easy to follow.
+
+ORIGINAL:
+George didn't deliver as well as hoped. However, he displays a great deal of all skills necessary for growth. With time, George will prove to be an asset to the company. Given the opportunity, George has the ability to advance beyond his given skill set.
+
+CANDIDATES:
+[1] George’s current performance hasn’t met expectations, but he demonstrates strong potential through his foundational skills and readiness to grow. This feedback suggests he is viewed as a developmental candidate with long-term value. To progress, George should seek regular feedback, pursue skill-building opportunities, take initiative on projects, and work to consistently deliver results to build trust and prove reliability.
+[2] George, your performance didn't meet expectations, but your manager recognizes your strong foundational skills and potential for significant growth. This feedback implies that while your current output needs improvement, you are seen as a valuable long-term asset with high advancement potential. To respond, George should: (1) Proactively seek clarification on specific areas for improvement, (2) Request opportunities to apply and develop his skills, (3) Set clear, measurable goals for his immediate contributions, and (4) Regularly check in with his manager on progress.
+[3] George’s recent performance fell short of expectations, but management sees strong underlying skills and high potential for future growth. He should meet with his manager to review what went wrong, and then ask for a new, challenging task to demonstrate his true capabilities.
+[4] Feedback means George underdelivered recently but possesses all skills for growth, positioning him as a future asset with advancement potential. This signals patience for development but requires proof of progress. George should: 1) Diagnose delivery gaps with manager immediately, 2) Create biweekly milestone plans for complex tasks, 3) Seek one skill-stretching project quarterly.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer3|Interpret|C18|Q02",
+  "criterion": "Coherence",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 43: C18_Q03_Conciseness -----
+You are Volunteer 3 in Group C.
+TASK TYPE: Interpret
+SAMPLE: C18
+CRITERION: Conciseness
+
+INSTRUCTION:
+Rank from most to least clear and compact.
+
+ORIGINAL:
+George didn't deliver as well as hoped. However, he displays a great deal of all skills necessary for growth. With time, George will prove to be an asset to the company. Given the opportunity, George has the ability to advance beyond his given skill set.
+
+CANDIDATES:
+[1] George’s current performance hasn’t met expectations, but he demonstrates strong potential through his foundational skills and readiness to grow. This feedback suggests he is viewed as a developmental candidate with long-term value. To progress, George should seek regular feedback, pursue skill-building opportunities, take initiative on projects, and work to consistently deliver results to build trust and prove reliability.
+[2] George, your performance didn't meet expectations, but your manager recognizes your strong foundational skills and potential for significant growth. This feedback implies that while your current output needs improvement, you are seen as a valuable long-term asset with high advancement potential. To respond, George should: (1) Proactively seek clarification on specific areas for improvement, (2) Request opportunities to apply and develop his skills, (3) Set clear, measurable goals for his immediate contributions, and (4) Regularly check in with his manager on progress.
+[3] George’s recent performance fell short of expectations, but management sees strong underlying skills and high potential for future growth. He should meet with his manager to review what went wrong, and then ask for a new, challenging task to demonstrate his true capabilities.
+[4] Feedback means George underdelivered recently but possesses all skills for growth, positioning him as a future asset with advancement potential. This signals patience for development but requires proof of progress. George should: 1) Diagnose delivery gaps with manager immediately, 2) Create biweekly milestone plans for complex tasks, 3) Seek one skill-stretching project quarterly.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer3|Interpret|C18|Q03",
+  "criterion": "Conciseness",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 44: C18_Q04_Accuracy -----
+You are Volunteer 3 in Group C.
+TASK TYPE: Interpret
+SAMPLE: C18
+CRITERION: Accuracy
+
+INSTRUCTION:
+Select all texts that are factually correct given the Original.
+
+ORIGINAL:
+George didn't deliver as well as hoped. However, he displays a great deal of all skills necessary for growth. With time, George will prove to be an asset to the company. Given the opportunity, George has the ability to advance beyond his given skill set.
+
+CANDIDATES:
+[1] George, your performance didn't meet expectations, but your manager recognizes your strong foundational skills and potential for significant growth. This feedback implies that while your current output needs improvement, you are seen as a valuable long-term asset with high advancement potential. To respond, George should: (1) Proactively seek clarification on specific areas for improvement, (2) Request opportunities to apply and develop his skills, (3) Set clear, measurable goals for his immediate contributions, and (4) Regularly check in with his manager on progress.
+[2] George’s current performance hasn’t met expectations, but he demonstrates strong potential through his foundational skills and readiness to grow. This feedback suggests he is viewed as a developmental candidate with long-term value. To progress, George should seek regular feedback, pursue skill-building opportunities, take initiative on projects, and work to consistently deliver results to build trust and prove reliability.
+[3] George’s recent performance fell short of expectations, but management sees strong underlying skills and high potential for future growth. He should meet with his manager to review what went wrong, and then ask for a new, challenging task to demonstrate his true capabilities.
+[4] Feedback means George underdelivered recently but possesses all skills for growth, positioning him as a future asset with advancement potential. This signals patience for development but requires proof of progress. George should: 1) Diagnose delivery gaps with manager immediately, 2) Create biweekly milestone plans for complex tasks, 3) Seek one skill-stretching project quarterly.
+
+Please select all outputs that are factually correct given the Original.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer3|Interpret|C18|Q04",
+  "criterion": "Accuracy",
+  "rating": [1, 3],
+  "justifications": {
+    "1": "why candidate 1 is correct/incorrect in one sentence",
+    "2": "why candidate 2 is correct/incorrect in one sentence",
+    "3": "why candidate 3 is correct/incorrect in one sentence",
+    "4": "why candidate 4 is correct/incorrect in one sentence"
+  }
+}
+
+
+----- PROMPT 45: C18_Q05_Sentimentmatch -----
+You are Volunteer 3 in Group C.
+TASK TYPE: Interpret
+SAMPLE: C18
+CRITERION: Sentiment match
+
+INSTRUCTION:
+Rank from most to least similar to the Original in style and sentiment.
+
+ORIGINAL:
+George didn't deliver as well as hoped. However, he displays a great deal of all skills necessary for growth. With time, George will prove to be an asset to the company. Given the opportunity, George has the ability to advance beyond his given skill set.
+
+CANDIDATES:
+[1] George’s recent performance fell short of expectations, but management sees strong underlying skills and high potential for future growth. He should meet with his manager to review what went wrong, and then ask for a new, challenging task to demonstrate his true capabilities.
+[2] George, your performance didn't meet expectations, but your manager recognizes your strong foundational skills and potential for significant growth. This feedback implies that while your current output needs improvement, you are seen as a valuable long-term asset with high advancement potential. To respond, George should: (1) Proactively seek clarification on specific areas for improvement, (2) Request opportunities to apply and develop his skills, (3) Set clear, measurable goals for his immediate contributions, and (4) Regularly check in with his manager on progress.
+[3] George’s current performance hasn’t met expectations, but he demonstrates strong potential through his foundational skills and readiness to grow. This feedback suggests he is viewed as a developmental candidate with long-term value. To progress, George should seek regular feedback, pursue skill-building opportunities, take initiative on projects, and work to consistently deliver results to build trust and prove reliability.
+[4] Feedback means George underdelivered recently but possesses all skills for growth, positioning him as a future asset with advancement potential. This signals patience for development but requires proof of progress. George should: 1) Diagnose delivery gaps with manager immediately, 2) Create biweekly milestone plans for complex tasks, 3) Seek one skill-stretching project quarterly.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer3|Interpret|C18|Q05",
+  "criterion": "Sentiment match",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 46: C18_Q06_Motivationaltone -----
+You are Volunteer 3 in Group C.
+TASK TYPE: Interpret
+SAMPLE: C18
+CRITERION: Motivational tone
+
+INSTRUCTION:
+Rank from most to least empathetic and encouraging.
+
+ORIGINAL:
+George didn't deliver as well as hoped. However, he displays a great deal of all skills necessary for growth. With time, George will prove to be an asset to the company. Given the opportunity, George has the ability to advance beyond his given skill set.
+
+CANDIDATES:
+[1] George, your performance didn't meet expectations, but your manager recognizes your strong foundational skills and potential for significant growth. This feedback implies that while your current output needs improvement, you are seen as a valuable long-term asset with high advancement potential. To respond, George should: (1) Proactively seek clarification on specific areas for improvement, (2) Request opportunities to apply and develop his skills, (3) Set clear, measurable goals for his immediate contributions, and (4) Regularly check in with his manager on progress.
+[2] Feedback means George underdelivered recently but possesses all skills for growth, positioning him as a future asset with advancement potential. This signals patience for development but requires proof of progress. George should: 1) Diagnose delivery gaps with manager immediately, 2) Create biweekly milestone plans for complex tasks, 3) Seek one skill-stretching project quarterly.
+[3] George’s current performance hasn’t met expectations, but he demonstrates strong potential through his foundational skills and readiness to grow. This feedback suggests he is viewed as a developmental candidate with long-term value. To progress, George should seek regular feedback, pursue skill-building opportunities, take initiative on projects, and work to consistently deliver results to build trust and prove reliability.
+[4] George’s recent performance fell short of expectations, but management sees strong underlying skills and high potential for future growth. He should meet with his manager to review what went wrong, and then ask for a new, challenging task to demonstrate his true capabilities.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer3|Interpret|C18|Q06",
+  "criterion": "Motivational tone",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 47: C18_Q07_Constructiveness -----
+You are Volunteer 3 in Group C.
+TASK TYPE: Interpret
+SAMPLE: C18
+CRITERION: Constructiveness
+
+INSTRUCTION:
+Rank from most to least helpful and constructive.
+
+ORIGINAL:
+George didn't deliver as well as hoped. However, he displays a great deal of all skills necessary for growth. With time, George will prove to be an asset to the company. Given the opportunity, George has the ability to advance beyond his given skill set.
+
+CANDIDATES:
+[1] George’s recent performance fell short of expectations, but management sees strong underlying skills and high potential for future growth. He should meet with his manager to review what went wrong, and then ask for a new, challenging task to demonstrate his true capabilities.
+[2] Feedback means George underdelivered recently but possesses all skills for growth, positioning him as a future asset with advancement potential. This signals patience for development but requires proof of progress. George should: 1) Diagnose delivery gaps with manager immediately, 2) Create biweekly milestone plans for complex tasks, 3) Seek one skill-stretching project quarterly.
+[3] George’s current performance hasn’t met expectations, but he demonstrates strong potential through his foundational skills and readiness to grow. This feedback suggests he is viewed as a developmental candidate with long-term value. To progress, George should seek regular feedback, pursue skill-building opportunities, take initiative on projects, and work to consistently deliver results to build trust and prove reliability.
+[4] George, your performance didn't meet expectations, but your manager recognizes your strong foundational skills and potential for significant growth. This feedback implies that while your current output needs improvement, you are seen as a valuable long-term asset with high advancement potential. To respond, George should: (1) Proactively seek clarification on specific areas for improvement, (2) Request opportunities to apply and develop his skills, (3) Set clear, measurable goals for his immediate contributions, and (4) Regularly check in with his manager on progress.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer3|Interpret|C18|Q07",
+  "criterion": "Constructiveness",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 48: C18_Q08_Finalchoice -----
+You are Volunteer 3 in Group C.
+TASK TYPE: Interpret
+SAMPLE: C18
+CRITERION: Final choice
+
+INSTRUCTION:
+Rank from most to least suitable as a final version.
+
+ORIGINAL:
+George didn't deliver as well as hoped. However, he displays a great deal of all skills necessary for growth. With time, George will prove to be an asset to the company. Given the opportunity, George has the ability to advance beyond his given skill set.
+
+CANDIDATES:
+[1] George’s current performance hasn’t met expectations, but he demonstrates strong potential through his foundational skills and readiness to grow. This feedback suggests he is viewed as a developmental candidate with long-term value. To progress, George should seek regular feedback, pursue skill-building opportunities, take initiative on projects, and work to consistently deliver results to build trust and prove reliability.
+[2] George’s recent performance fell short of expectations, but management sees strong underlying skills and high potential for future growth. He should meet with his manager to review what went wrong, and then ask for a new, challenging task to demonstrate his true capabilities.
+[3] George, your performance didn't meet expectations, but your manager recognizes your strong foundational skills and potential for significant growth. This feedback implies that while your current output needs improvement, you are seen as a valuable long-term asset with high advancement potential. To respond, George should: (1) Proactively seek clarification on specific areas for improvement, (2) Request opportunities to apply and develop his skills, (3) Set clear, measurable goals for his immediate contributions, and (4) Regularly check in with his manager on progress.
+[4] Feedback means George underdelivered recently but possesses all skills for growth, positioning him as a future asset with advancement potential. This signals patience for development but requires proof of progress. George should: 1) Diagnose delivery gaps with manager immediately, 2) Create biweekly milestone plans for complex tasks, 3) Seek one skill-stretching project quarterly.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer3|Interpret|C18|Q08",
+  "criterion": "Final choice",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+

@@ -1,0 +1,1698 @@
+----- PROMPT 1: C4_Q01_Fluency -----
+You are Volunteer 2 in Group C.
+TASK TYPE: Idea-to-Text
+SAMPLE: C4
+CRITERION: Fluency
+
+INSTRUCTION:
+Rank from most to least smooth and error-free.
+
+ORIGINAL:
+Elliot Gray attends meetings but shows little ambition and rarely seeks clients; not promotion-ready.
+
+CANDIDATES:
+[1] Elliot Gray consistently attends meetings and fulfills basic responsibilities, but demonstrates limited initiative and ambition. He rarely engages in client outreach or pursues business development opportunities, indicating a lack of proactive contribution. Given his current level of engagement, he is not yet ready for promotion. Greater initiative and a stronger drive to expand his impact would be essential for advancement.
+[2] Elliot, while you reliably attend meetings, we need to see greater initiative and proactive client engagement to demonstrate readiness for advancement. Currently, ambition appears low. Let's create a development roadmap focused on building these crucial skills for future growth opportunities.
+[3] Elliot, while you are present in meetings, we have observed a lack of ambition, particularly in seeking new clients. Demonstrating greater proactivity and initiative is essential for you to be considered promotion-ready.
+[4] Elliot consistently attends meetings, demonstrating a foundational level of engagement. However, to progress to the next level, Elliot needs to proactively seek out new client opportunities and demonstrate greater ambition in driving initiatives. Developing these areas will be crucial for future promotion considerations.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer2|Idea-to-Text|C4|Q01",
+  "criterion": "Fluency",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 2: C4_Q02_Coherence -----
+You are Volunteer 2 in Group C.
+TASK TYPE: Idea-to-Text
+SAMPLE: C4
+CRITERION: Coherence
+
+INSTRUCTION:
+Rank from most to least logical and easy to follow.
+
+ORIGINAL:
+Elliot Gray attends meetings but shows little ambition and rarely seeks clients; not promotion-ready.
+
+CANDIDATES:
+[1] Elliot, while you reliably attend meetings, we need to see greater initiative and proactive client engagement to demonstrate readiness for advancement. Currently, ambition appears low. Let's create a development roadmap focused on building these crucial skills for future growth opportunities.
+[2] Elliot consistently attends meetings, demonstrating a foundational level of engagement. However, to progress to the next level, Elliot needs to proactively seek out new client opportunities and demonstrate greater ambition in driving initiatives. Developing these areas will be crucial for future promotion considerations.
+[3] Elliot Gray consistently attends meetings and fulfills basic responsibilities, but demonstrates limited initiative and ambition. He rarely engages in client outreach or pursues business development opportunities, indicating a lack of proactive contribution. Given his current level of engagement, he is not yet ready for promotion. Greater initiative and a stronger drive to expand his impact would be essential for advancement.
+[4] Elliot, while you are present in meetings, we have observed a lack of ambition, particularly in seeking new clients. Demonstrating greater proactivity and initiative is essential for you to be considered promotion-ready.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer2|Idea-to-Text|C4|Q02",
+  "criterion": "Coherence",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 3: C4_Q03_Conciseness -----
+You are Volunteer 2 in Group C.
+TASK TYPE: Idea-to-Text
+SAMPLE: C4
+CRITERION: Conciseness
+
+INSTRUCTION:
+Rank from most to least clear and compact.
+
+ORIGINAL:
+Elliot Gray attends meetings but shows little ambition and rarely seeks clients; not promotion-ready.
+
+CANDIDATES:
+[1] Elliot, while you reliably attend meetings, we need to see greater initiative and proactive client engagement to demonstrate readiness for advancement. Currently, ambition appears low. Let's create a development roadmap focused on building these crucial skills for future growth opportunities.
+[2] Elliot, while you are present in meetings, we have observed a lack of ambition, particularly in seeking new clients. Demonstrating greater proactivity and initiative is essential for you to be considered promotion-ready.
+[3] Elliot Gray consistently attends meetings and fulfills basic responsibilities, but demonstrates limited initiative and ambition. He rarely engages in client outreach or pursues business development opportunities, indicating a lack of proactive contribution. Given his current level of engagement, he is not yet ready for promotion. Greater initiative and a stronger drive to expand his impact would be essential for advancement.
+[4] Elliot consistently attends meetings, demonstrating a foundational level of engagement. However, to progress to the next level, Elliot needs to proactively seek out new client opportunities and demonstrate greater ambition in driving initiatives. Developing these areas will be crucial for future promotion considerations.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer2|Idea-to-Text|C4|Q03",
+  "criterion": "Conciseness",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 4: C4_Q04_Accuracy -----
+You are Volunteer 2 in Group C.
+TASK TYPE: Idea-to-Text
+SAMPLE: C4
+CRITERION: Accuracy
+
+INSTRUCTION:
+Select all texts that are factually correct given the Original.
+
+ORIGINAL:
+Elliot Gray attends meetings but shows little ambition and rarely seeks clients; not promotion-ready.
+
+CANDIDATES:
+[1] Elliot Gray consistently attends meetings and fulfills basic responsibilities, but demonstrates limited initiative and ambition. He rarely engages in client outreach or pursues business development opportunities, indicating a lack of proactive contribution. Given his current level of engagement, he is not yet ready for promotion. Greater initiative and a stronger drive to expand his impact would be essential for advancement.
+[2] Elliot consistently attends meetings, demonstrating a foundational level of engagement. However, to progress to the next level, Elliot needs to proactively seek out new client opportunities and demonstrate greater ambition in driving initiatives. Developing these areas will be crucial for future promotion considerations.
+[3] Elliot, while you are present in meetings, we have observed a lack of ambition, particularly in seeking new clients. Demonstrating greater proactivity and initiative is essential for you to be considered promotion-ready.
+[4] Elliot, while you reliably attend meetings, we need to see greater initiative and proactive client engagement to demonstrate readiness for advancement. Currently, ambition appears low. Let's create a development roadmap focused on building these crucial skills for future growth opportunities.
+
+Please select all outputs that are factually correct given the Original.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer2|Idea-to-Text|C4|Q04",
+  "criterion": "Accuracy",
+  "rating": [1, 3],
+  "justifications": {
+    "1": "why candidate 1 is correct/incorrect in one sentence",
+    "2": "why candidate 2 is correct/incorrect in one sentence",
+    "3": "why candidate 3 is correct/incorrect in one sentence",
+    "4": "why candidate 4 is correct/incorrect in one sentence"
+  }
+}
+
+
+----- PROMPT 5: C4_Q05_Sentimentmatch -----
+You are Volunteer 2 in Group C.
+TASK TYPE: Idea-to-Text
+SAMPLE: C4
+CRITERION: Sentiment match
+
+INSTRUCTION:
+Rank from most to least similar to the Original in style and sentiment.
+
+ORIGINAL:
+Elliot Gray attends meetings but shows little ambition and rarely seeks clients; not promotion-ready.
+
+CANDIDATES:
+[1] Elliot consistently attends meetings, demonstrating a foundational level of engagement. However, to progress to the next level, Elliot needs to proactively seek out new client opportunities and demonstrate greater ambition in driving initiatives. Developing these areas will be crucial for future promotion considerations.
+[2] Elliot, while you are present in meetings, we have observed a lack of ambition, particularly in seeking new clients. Demonstrating greater proactivity and initiative is essential for you to be considered promotion-ready.
+[3] Elliot, while you reliably attend meetings, we need to see greater initiative and proactive client engagement to demonstrate readiness for advancement. Currently, ambition appears low. Let's create a development roadmap focused on building these crucial skills for future growth opportunities.
+[4] Elliot Gray consistently attends meetings and fulfills basic responsibilities, but demonstrates limited initiative and ambition. He rarely engages in client outreach or pursues business development opportunities, indicating a lack of proactive contribution. Given his current level of engagement, he is not yet ready for promotion. Greater initiative and a stronger drive to expand his impact would be essential for advancement.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer2|Idea-to-Text|C4|Q05",
+  "criterion": "Sentiment match",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 6: C4_Q06_Motivationaltone -----
+You are Volunteer 2 in Group C.
+TASK TYPE: Idea-to-Text
+SAMPLE: C4
+CRITERION: Motivational tone
+
+INSTRUCTION:
+Rank from most to least empathetic and encouraging.
+
+ORIGINAL:
+Elliot Gray attends meetings but shows little ambition and rarely seeks clients; not promotion-ready.
+
+CANDIDATES:
+[1] Elliot consistently attends meetings, demonstrating a foundational level of engagement. However, to progress to the next level, Elliot needs to proactively seek out new client opportunities and demonstrate greater ambition in driving initiatives. Developing these areas will be crucial for future promotion considerations.
+[2] Elliot Gray consistently attends meetings and fulfills basic responsibilities, but demonstrates limited initiative and ambition. He rarely engages in client outreach or pursues business development opportunities, indicating a lack of proactive contribution. Given his current level of engagement, he is not yet ready for promotion. Greater initiative and a stronger drive to expand his impact would be essential for advancement.
+[3] Elliot, while you are present in meetings, we have observed a lack of ambition, particularly in seeking new clients. Demonstrating greater proactivity and initiative is essential for you to be considered promotion-ready.
+[4] Elliot, while you reliably attend meetings, we need to see greater initiative and proactive client engagement to demonstrate readiness for advancement. Currently, ambition appears low. Let's create a development roadmap focused on building these crucial skills for future growth opportunities.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer2|Idea-to-Text|C4|Q06",
+  "criterion": "Motivational tone",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 7: C4_Q07_Constructiveness -----
+You are Volunteer 2 in Group C.
+TASK TYPE: Idea-to-Text
+SAMPLE: C4
+CRITERION: Constructiveness
+
+INSTRUCTION:
+Rank from most to least helpful and constructive.
+
+ORIGINAL:
+Elliot Gray attends meetings but shows little ambition and rarely seeks clients; not promotion-ready.
+
+CANDIDATES:
+[1] Elliot, while you reliably attend meetings, we need to see greater initiative and proactive client engagement to demonstrate readiness for advancement. Currently, ambition appears low. Let's create a development roadmap focused on building these crucial skills for future growth opportunities.
+[2] Elliot Gray consistently attends meetings and fulfills basic responsibilities, but demonstrates limited initiative and ambition. He rarely engages in client outreach or pursues business development opportunities, indicating a lack of proactive contribution. Given his current level of engagement, he is not yet ready for promotion. Greater initiative and a stronger drive to expand his impact would be essential for advancement.
+[3] Elliot consistently attends meetings, demonstrating a foundational level of engagement. However, to progress to the next level, Elliot needs to proactively seek out new client opportunities and demonstrate greater ambition in driving initiatives. Developing these areas will be crucial for future promotion considerations.
+[4] Elliot, while you are present in meetings, we have observed a lack of ambition, particularly in seeking new clients. Demonstrating greater proactivity and initiative is essential for you to be considered promotion-ready.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer2|Idea-to-Text|C4|Q07",
+  "criterion": "Constructiveness",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 8: C4_Q08_Finalchoice -----
+You are Volunteer 2 in Group C.
+TASK TYPE: Idea-to-Text
+SAMPLE: C4
+CRITERION: Final choice
+
+INSTRUCTION:
+Rank from most to least suitable as a final version.
+
+ORIGINAL:
+Elliot Gray attends meetings but shows little ambition and rarely seeks clients; not promotion-ready.
+
+CANDIDATES:
+[1] Elliot Gray consistently attends meetings and fulfills basic responsibilities, but demonstrates limited initiative and ambition. He rarely engages in client outreach or pursues business development opportunities, indicating a lack of proactive contribution. Given his current level of engagement, he is not yet ready for promotion. Greater initiative and a stronger drive to expand his impact would be essential for advancement.
+[2] Elliot, while you are present in meetings, we have observed a lack of ambition, particularly in seeking new clients. Demonstrating greater proactivity and initiative is essential for you to be considered promotion-ready.
+[3] Elliot consistently attends meetings, demonstrating a foundational level of engagement. However, to progress to the next level, Elliot needs to proactively seek out new client opportunities and demonstrate greater ambition in driving initiatives. Developing these areas will be crucial for future promotion considerations.
+[4] Elliot, while you reliably attend meetings, we need to see greater initiative and proactive client engagement to demonstrate readiness for advancement. Currently, ambition appears low. Let's create a development roadmap focused on building these crucial skills for future growth opportunities.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer2|Idea-to-Text|C4|Q08",
+  "criterion": "Final choice",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 9: C6_Q01_Fluency -----
+You are Volunteer 2 in Group C.
+TASK TYPE: Idea-to-Text
+SAMPLE: C6
+CRITERION: Fluency
+
+INSTRUCTION:
+Rank from most to least smooth and error-free.
+
+ORIGINAL:
+Bryleigh Stafford is bright and adaptable, learns quickly, and has high future potential.
+
+CANDIDATES:
+[1] Bryleigh, you are a bright and highly adaptable team member. Your ability to learn complex material quickly is impressive and indicates strong future potential. We are confident in your capacity to take on increasing responsibility and make significant future contributions.
+[2] Bryleigh consistently demonstrates exceptional intellectual agility and a remarkable ability to adapt to new challenges. Her rapid learning curve allows her to quickly grasp complex concepts and apply them effectively. This combination of brightness and adaptability, coupled with her proactive approach, indicates significant future potential within the organization, making her a valuable asset for upcoming initiatives.
+[3] Bryleigh, your intelligence, adaptability, and ability to learn quickly are impressive. You have demonstrated all the hallmarks of a future leader and possess very high potential. We are excited to see you continue to develop.
+[4] Bryleigh Stafford is an intelligent and adaptable team member who consistently demonstrates a quick learning ability and strong problem-solving skills. She embraces new challenges with confidence and shows exceptional promise for future growth. Her proactive attitude and dedication position her as a valuable asset with high potential for advancement.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer2|Idea-to-Text|C6|Q01",
+  "criterion": "Fluency",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 10: C6_Q02_Coherence -----
+You are Volunteer 2 in Group C.
+TASK TYPE: Idea-to-Text
+SAMPLE: C6
+CRITERION: Coherence
+
+INSTRUCTION:
+Rank from most to least logical and easy to follow.
+
+ORIGINAL:
+Bryleigh Stafford is bright and adaptable, learns quickly, and has high future potential.
+
+CANDIDATES:
+[1] Bryleigh, you are a bright and highly adaptable team member. Your ability to learn complex material quickly is impressive and indicates strong future potential. We are confident in your capacity to take on increasing responsibility and make significant future contributions.
+[2] Bryleigh Stafford is an intelligent and adaptable team member who consistently demonstrates a quick learning ability and strong problem-solving skills. She embraces new challenges with confidence and shows exceptional promise for future growth. Her proactive attitude and dedication position her as a valuable asset with high potential for advancement.
+[3] Bryleigh consistently demonstrates exceptional intellectual agility and a remarkable ability to adapt to new challenges. Her rapid learning curve allows her to quickly grasp complex concepts and apply them effectively. This combination of brightness and adaptability, coupled with her proactive approach, indicates significant future potential within the organization, making her a valuable asset for upcoming initiatives.
+[4] Bryleigh, your intelligence, adaptability, and ability to learn quickly are impressive. You have demonstrated all the hallmarks of a future leader and possess very high potential. We are excited to see you continue to develop.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer2|Idea-to-Text|C6|Q02",
+  "criterion": "Coherence",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 11: C6_Q03_Conciseness -----
+You are Volunteer 2 in Group C.
+TASK TYPE: Idea-to-Text
+SAMPLE: C6
+CRITERION: Conciseness
+
+INSTRUCTION:
+Rank from most to least clear and compact.
+
+ORIGINAL:
+Bryleigh Stafford is bright and adaptable, learns quickly, and has high future potential.
+
+CANDIDATES:
+[1] Bryleigh Stafford is an intelligent and adaptable team member who consistently demonstrates a quick learning ability and strong problem-solving skills. She embraces new challenges with confidence and shows exceptional promise for future growth. Her proactive attitude and dedication position her as a valuable asset with high potential for advancement.
+[2] Bryleigh, your intelligence, adaptability, and ability to learn quickly are impressive. You have demonstrated all the hallmarks of a future leader and possess very high potential. We are excited to see you continue to develop.
+[3] Bryleigh, you are a bright and highly adaptable team member. Your ability to learn complex material quickly is impressive and indicates strong future potential. We are confident in your capacity to take on increasing responsibility and make significant future contributions.
+[4] Bryleigh consistently demonstrates exceptional intellectual agility and a remarkable ability to adapt to new challenges. Her rapid learning curve allows her to quickly grasp complex concepts and apply them effectively. This combination of brightness and adaptability, coupled with her proactive approach, indicates significant future potential within the organization, making her a valuable asset for upcoming initiatives.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer2|Idea-to-Text|C6|Q03",
+  "criterion": "Conciseness",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 12: C6_Q04_Accuracy -----
+You are Volunteer 2 in Group C.
+TASK TYPE: Idea-to-Text
+SAMPLE: C6
+CRITERION: Accuracy
+
+INSTRUCTION:
+Select all texts that are factually correct given the Original.
+
+ORIGINAL:
+Bryleigh Stafford is bright and adaptable, learns quickly, and has high future potential.
+
+CANDIDATES:
+[1] Bryleigh Stafford is an intelligent and adaptable team member who consistently demonstrates a quick learning ability and strong problem-solving skills. She embraces new challenges with confidence and shows exceptional promise for future growth. Her proactive attitude and dedication position her as a valuable asset with high potential for advancement.
+[2] Bryleigh, you are a bright and highly adaptable team member. Your ability to learn complex material quickly is impressive and indicates strong future potential. We are confident in your capacity to take on increasing responsibility and make significant future contributions.
+[3] Bryleigh consistently demonstrates exceptional intellectual agility and a remarkable ability to adapt to new challenges. Her rapid learning curve allows her to quickly grasp complex concepts and apply them effectively. This combination of brightness and adaptability, coupled with her proactive approach, indicates significant future potential within the organization, making her a valuable asset for upcoming initiatives.
+[4] Bryleigh, your intelligence, adaptability, and ability to learn quickly are impressive. You have demonstrated all the hallmarks of a future leader and possess very high potential. We are excited to see you continue to develop.
+
+Please select all outputs that are factually correct given the Original.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer2|Idea-to-Text|C6|Q04",
+  "criterion": "Accuracy",
+  "rating": [1, 3],
+  "justifications": {
+    "1": "why candidate 1 is correct/incorrect in one sentence",
+    "2": "why candidate 2 is correct/incorrect in one sentence",
+    "3": "why candidate 3 is correct/incorrect in one sentence",
+    "4": "why candidate 4 is correct/incorrect in one sentence"
+  }
+}
+
+
+----- PROMPT 13: C6_Q05_Sentimentmatch -----
+You are Volunteer 2 in Group C.
+TASK TYPE: Idea-to-Text
+SAMPLE: C6
+CRITERION: Sentiment match
+
+INSTRUCTION:
+Rank from most to least similar to the Original in style and sentiment.
+
+ORIGINAL:
+Bryleigh Stafford is bright and adaptable, learns quickly, and has high future potential.
+
+CANDIDATES:
+[1] Bryleigh Stafford is an intelligent and adaptable team member who consistently demonstrates a quick learning ability and strong problem-solving skills. She embraces new challenges with confidence and shows exceptional promise for future growth. Her proactive attitude and dedication position her as a valuable asset with high potential for advancement.
+[2] Bryleigh consistently demonstrates exceptional intellectual agility and a remarkable ability to adapt to new challenges. Her rapid learning curve allows her to quickly grasp complex concepts and apply them effectively. This combination of brightness and adaptability, coupled with her proactive approach, indicates significant future potential within the organization, making her a valuable asset for upcoming initiatives.
+[3] Bryleigh, your intelligence, adaptability, and ability to learn quickly are impressive. You have demonstrated all the hallmarks of a future leader and possess very high potential. We are excited to see you continue to develop.
+[4] Bryleigh, you are a bright and highly adaptable team member. Your ability to learn complex material quickly is impressive and indicates strong future potential. We are confident in your capacity to take on increasing responsibility and make significant future contributions.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer2|Idea-to-Text|C6|Q05",
+  "criterion": "Sentiment match",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 14: C6_Q06_Motivationaltone -----
+You are Volunteer 2 in Group C.
+TASK TYPE: Idea-to-Text
+SAMPLE: C6
+CRITERION: Motivational tone
+
+INSTRUCTION:
+Rank from most to least empathetic and encouraging.
+
+ORIGINAL:
+Bryleigh Stafford is bright and adaptable, learns quickly, and has high future potential.
+
+CANDIDATES:
+[1] Bryleigh, you are a bright and highly adaptable team member. Your ability to learn complex material quickly is impressive and indicates strong future potential. We are confident in your capacity to take on increasing responsibility and make significant future contributions.
+[2] Bryleigh Stafford is an intelligent and adaptable team member who consistently demonstrates a quick learning ability and strong problem-solving skills. She embraces new challenges with confidence and shows exceptional promise for future growth. Her proactive attitude and dedication position her as a valuable asset with high potential for advancement.
+[3] Bryleigh, your intelligence, adaptability, and ability to learn quickly are impressive. You have demonstrated all the hallmarks of a future leader and possess very high potential. We are excited to see you continue to develop.
+[4] Bryleigh consistently demonstrates exceptional intellectual agility and a remarkable ability to adapt to new challenges. Her rapid learning curve allows her to quickly grasp complex concepts and apply them effectively. This combination of brightness and adaptability, coupled with her proactive approach, indicates significant future potential within the organization, making her a valuable asset for upcoming initiatives.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer2|Idea-to-Text|C6|Q06",
+  "criterion": "Motivational tone",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 15: C6_Q07_Constructiveness -----
+You are Volunteer 2 in Group C.
+TASK TYPE: Idea-to-Text
+SAMPLE: C6
+CRITERION: Constructiveness
+
+INSTRUCTION:
+Rank from most to least helpful and constructive.
+
+ORIGINAL:
+Bryleigh Stafford is bright and adaptable, learns quickly, and has high future potential.
+
+CANDIDATES:
+[1] Bryleigh, you are a bright and highly adaptable team member. Your ability to learn complex material quickly is impressive and indicates strong future potential. We are confident in your capacity to take on increasing responsibility and make significant future contributions.
+[2] Bryleigh Stafford is an intelligent and adaptable team member who consistently demonstrates a quick learning ability and strong problem-solving skills. She embraces new challenges with confidence and shows exceptional promise for future growth. Her proactive attitude and dedication position her as a valuable asset with high potential for advancement.
+[3] Bryleigh consistently demonstrates exceptional intellectual agility and a remarkable ability to adapt to new challenges. Her rapid learning curve allows her to quickly grasp complex concepts and apply them effectively. This combination of brightness and adaptability, coupled with her proactive approach, indicates significant future potential within the organization, making her a valuable asset for upcoming initiatives.
+[4] Bryleigh, your intelligence, adaptability, and ability to learn quickly are impressive. You have demonstrated all the hallmarks of a future leader and possess very high potential. We are excited to see you continue to develop.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer2|Idea-to-Text|C6|Q07",
+  "criterion": "Constructiveness",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 16: C6_Q08_Finalchoice -----
+You are Volunteer 2 in Group C.
+TASK TYPE: Idea-to-Text
+SAMPLE: C6
+CRITERION: Final choice
+
+INSTRUCTION:
+Rank from most to least suitable as a final version.
+
+ORIGINAL:
+Bryleigh Stafford is bright and adaptable, learns quickly, and has high future potential.
+
+CANDIDATES:
+[1] Bryleigh, your intelligence, adaptability, and ability to learn quickly are impressive. You have demonstrated all the hallmarks of a future leader and possess very high potential. We are excited to see you continue to develop.
+[2] Bryleigh, you are a bright and highly adaptable team member. Your ability to learn complex material quickly is impressive and indicates strong future potential. We are confident in your capacity to take on increasing responsibility and make significant future contributions.
+[3] Bryleigh consistently demonstrates exceptional intellectual agility and a remarkable ability to adapt to new challenges. Her rapid learning curve allows her to quickly grasp complex concepts and apply them effectively. This combination of brightness and adaptability, coupled with her proactive approach, indicates significant future potential within the organization, making her a valuable asset for upcoming initiatives.
+[4] Bryleigh Stafford is an intelligent and adaptable team member who consistently demonstrates a quick learning ability and strong problem-solving skills. She embraces new challenges with confidence and shows exceptional promise for future growth. Her proactive attitude and dedication position her as a valuable asset with high potential for advancement.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer2|Idea-to-Text|C6|Q08",
+  "criterion": "Final choice",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT SC1: SanityCheck_IdeaToText_Accuracy -----
+TASK TYPE: Idea-to-Text
+SAMPLE: SC1
+CRITERION: Accuracy
+
+INSTRUCTION:
+Rank from most to least factually correct given the Original.
+
+ORIGINAL:
+The sun appears to rise each morning from the eastern horizon before setting in the west
+
+CANDIDATES:
+[1] The sun rises in the east.
+[2] The sun rises in the west.
+[3] The moon rises in the east.
+[4] The sun never rises.
+
+Please rank outputs strictly from most accurate (1) to least accurate (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "Idea-to-Text|SC1|Q04",
+  "criterion": "Accuracy",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 17: C10_Q01_Fluency -----
+You are Volunteer 2 in Group C.
+TASK TYPE: Summarise
+SAMPLE: C10
+CRITERION: Fluency
+
+INSTRUCTION:
+Rank from most to least smooth and error-free.
+
+ORIGINAL:
+Kallie within the past term hasn't quite adjusted to our team yet. She seems to still be fitting into the workload and finding a place to really catch a stride. Because of this, her performance isn't quite at our team's expectation yet. However, she possess skills and an attitude that can immensely pay off very soon once she learns the ropes.
+
+CANDIDATES:
+[1] Kallie is still adjusting to the team, and her performance is below expectations. However, her positive attitude and skills show immense potential.
+[2] Kallie is still adjusting to the team and workload, so her performance hasn't met expectations yet. However, she has strong skills and a positive attitude with high potential for improvement once fully acclimated.
+[3] Kallie: (See A19) Not adjusted yet, performance below expectation due to fitting in. Skills/attitude will pay off soon.
+[4] Kallie's new, still adjusting to workload, and not yet meeting performance expectations. However, her skills and attitude show promise for future success once she's settled.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer2|Summarise|C10|Q01",
+  "criterion": "Fluency",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 18: C10_Q02_Coherence -----
+You are Volunteer 2 in Group C.
+TASK TYPE: Summarise
+SAMPLE: C10
+CRITERION: Coherence
+
+INSTRUCTION:
+Rank from most to least logical and easy to follow.
+
+ORIGINAL:
+Kallie within the past term hasn't quite adjusted to our team yet. She seems to still be fitting into the workload and finding a place to really catch a stride. Because of this, her performance isn't quite at our team's expectation yet. However, she possess skills and an attitude that can immensely pay off very soon once she learns the ropes.
+
+CANDIDATES:
+[1] Kallie is still adjusting to the team and workload, so her performance hasn't met expectations yet. However, she has strong skills and a positive attitude with high potential for improvement once fully acclimated.
+[2] Kallie is still adjusting to the team, and her performance is below expectations. However, her positive attitude and skills show immense potential.
+[3] Kallie: (See A19) Not adjusted yet, performance below expectation due to fitting in. Skills/attitude will pay off soon.
+[4] Kallie's new, still adjusting to workload, and not yet meeting performance expectations. However, her skills and attitude show promise for future success once she's settled.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer2|Summarise|C10|Q02",
+  "criterion": "Coherence",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 19: C10_Q03_Conciseness -----
+You are Volunteer 2 in Group C.
+TASK TYPE: Summarise
+SAMPLE: C10
+CRITERION: Conciseness
+
+INSTRUCTION:
+Rank from most to least clear and compact.
+
+ORIGINAL:
+Kallie within the past term hasn't quite adjusted to our team yet. She seems to still be fitting into the workload and finding a place to really catch a stride. Because of this, her performance isn't quite at our team's expectation yet. However, she possess skills and an attitude that can immensely pay off very soon once she learns the ropes.
+
+CANDIDATES:
+[1] Kallie is still adjusting to the team and workload, so her performance hasn't met expectations yet. However, she has strong skills and a positive attitude with high potential for improvement once fully acclimated.
+[2] Kallie is still adjusting to the team, and her performance is below expectations. However, her positive attitude and skills show immense potential.
+[3] Kallie's new, still adjusting to workload, and not yet meeting performance expectations. However, her skills and attitude show promise for future success once she's settled.
+[4] Kallie: (See A19) Not adjusted yet, performance below expectation due to fitting in. Skills/attitude will pay off soon.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer2|Summarise|C10|Q03",
+  "criterion": "Conciseness",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 20: C10_Q04_Accuracy -----
+You are Volunteer 2 in Group C.
+TASK TYPE: Summarise
+SAMPLE: C10
+CRITERION: Accuracy
+
+INSTRUCTION:
+Select all texts that are factually correct given the Original.
+
+ORIGINAL:
+Kallie within the past term hasn't quite adjusted to our team yet. She seems to still be fitting into the workload and finding a place to really catch a stride. Because of this, her performance isn't quite at our team's expectation yet. However, she possess skills and an attitude that can immensely pay off very soon once she learns the ropes.
+
+CANDIDATES:
+[1] Kallie is still adjusting to the team and workload, so her performance hasn't met expectations yet. However, she has strong skills and a positive attitude with high potential for improvement once fully acclimated.
+[2] Kallie: (See A19) Not adjusted yet, performance below expectation due to fitting in. Skills/attitude will pay off soon.
+[3] Kallie's new, still adjusting to workload, and not yet meeting performance expectations. However, her skills and attitude show promise for future success once she's settled.
+[4] Kallie is still adjusting to the team, and her performance is below expectations. However, her positive attitude and skills show immense potential.
+
+Please select all outputs that are factually correct given the Original.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer2|Summarise|C10|Q04",
+  "criterion": "Accuracy",
+  "rating": [1, 3],
+  "justifications": {
+    "1": "why candidate 1 is correct/incorrect in one sentence",
+    "2": "why candidate 2 is correct/incorrect in one sentence",
+    "3": "why candidate 3 is correct/incorrect in one sentence",
+    "4": "why candidate 4 is correct/incorrect in one sentence"
+  }
+}
+
+
+----- PROMPT 21: C10_Q05_Sentimentmatch -----
+You are Volunteer 2 in Group C.
+TASK TYPE: Summarise
+SAMPLE: C10
+CRITERION: Sentiment match
+
+INSTRUCTION:
+Rank from most to least similar to the Original in style and sentiment.
+
+ORIGINAL:
+Kallie within the past term hasn't quite adjusted to our team yet. She seems to still be fitting into the workload and finding a place to really catch a stride. Because of this, her performance isn't quite at our team's expectation yet. However, she possess skills and an attitude that can immensely pay off very soon once she learns the ropes.
+
+CANDIDATES:
+[1] Kallie is still adjusting to the team, and her performance is below expectations. However, her positive attitude and skills show immense potential.
+[2] Kallie's new, still adjusting to workload, and not yet meeting performance expectations. However, her skills and attitude show promise for future success once she's settled.
+[3] Kallie: (See A19) Not adjusted yet, performance below expectation due to fitting in. Skills/attitude will pay off soon.
+[4] Kallie is still adjusting to the team and workload, so her performance hasn't met expectations yet. However, she has strong skills and a positive attitude with high potential for improvement once fully acclimated.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer2|Summarise|C10|Q05",
+  "criterion": "Sentiment match",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 22: C10_Q06_Motivationaltone -----
+You are Volunteer 2 in Group C.
+TASK TYPE: Summarise
+SAMPLE: C10
+CRITERION: Motivational tone
+
+INSTRUCTION:
+Rank from most to least empathetic and encouraging.
+
+ORIGINAL:
+Kallie within the past term hasn't quite adjusted to our team yet. She seems to still be fitting into the workload and finding a place to really catch a stride. Because of this, her performance isn't quite at our team's expectation yet. However, she possess skills and an attitude that can immensely pay off very soon once she learns the ropes.
+
+CANDIDATES:
+[1] Kallie: (See A19) Not adjusted yet, performance below expectation due to fitting in. Skills/attitude will pay off soon.
+[2] Kallie is still adjusting to the team, and her performance is below expectations. However, her positive attitude and skills show immense potential.
+[3] Kallie is still adjusting to the team and workload, so her performance hasn't met expectations yet. However, she has strong skills and a positive attitude with high potential for improvement once fully acclimated.
+[4] Kallie's new, still adjusting to workload, and not yet meeting performance expectations. However, her skills and attitude show promise for future success once she's settled.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer2|Summarise|C10|Q06",
+  "criterion": "Motivational tone",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 23: C10_Q07_Constructiveness -----
+You are Volunteer 2 in Group C.
+TASK TYPE: Summarise
+SAMPLE: C10
+CRITERION: Constructiveness
+
+INSTRUCTION:
+Rank from most to least helpful and constructive.
+
+ORIGINAL:
+Kallie within the past term hasn't quite adjusted to our team yet. She seems to still be fitting into the workload and finding a place to really catch a stride. Because of this, her performance isn't quite at our team's expectation yet. However, she possess skills and an attitude that can immensely pay off very soon once she learns the ropes.
+
+CANDIDATES:
+[1] Kallie is still adjusting to the team and workload, so her performance hasn't met expectations yet. However, she has strong skills and a positive attitude with high potential for improvement once fully acclimated.
+[2] Kallie: (See A19) Not adjusted yet, performance below expectation due to fitting in. Skills/attitude will pay off soon.
+[3] Kallie's new, still adjusting to workload, and not yet meeting performance expectations. However, her skills and attitude show promise for future success once she's settled.
+[4] Kallie is still adjusting to the team, and her performance is below expectations. However, her positive attitude and skills show immense potential.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer2|Summarise|C10|Q07",
+  "criterion": "Constructiveness",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 24: C10_Q08_Finalchoice -----
+You are Volunteer 2 in Group C.
+TASK TYPE: Summarise
+SAMPLE: C10
+CRITERION: Final choice
+
+INSTRUCTION:
+Rank from most to least suitable as a final version.
+
+ORIGINAL:
+Kallie within the past term hasn't quite adjusted to our team yet. She seems to still be fitting into the workload and finding a place to really catch a stride. Because of this, her performance isn't quite at our team's expectation yet. However, she possess skills and an attitude that can immensely pay off very soon once she learns the ropes.
+
+CANDIDATES:
+[1] Kallie's new, still adjusting to workload, and not yet meeting performance expectations. However, her skills and attitude show promise for future success once she's settled.
+[2] Kallie is still adjusting to the team, and her performance is below expectations. However, her positive attitude and skills show immense potential.
+[3] Kallie is still adjusting to the team and workload, so her performance hasn't met expectations yet. However, she has strong skills and a positive attitude with high potential for improvement once fully acclimated.
+[4] Kallie: (See A19) Not adjusted yet, performance below expectation due to fitting in. Skills/attitude will pay off soon.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer2|Summarise|C10|Q08",
+  "criterion": "Final choice",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 25: C12_Q01_Fluency -----
+You are Volunteer 2 in Group C.
+TASK TYPE: Summarise
+SAMPLE: C12
+CRITERION: Fluency
+
+INSTRUCTION:
+Rank from most to least smooth and error-free.
+
+ORIGINAL:
+Kayden Hill struggles with the tasks set before him. He is easily frustrated, and tends to want to give up. He is aloof with his team. He seems unhappy with where he is within the team.
+
+CANDIDATES:
+[1] Kayden is frustrated, struggles with tasks, and is disengaged from his team. He appears unhappy with his current role.
+[2] Kayden struggles with his tasks, is easily frustrated, and is aloof with his team. He seems unhappy and has a negative attitude in his role.
+[3] Kayden: Struggles with tasks, easily frustrated, wants to give up. Aloof with team, seems unhappy.
+[4] Kayden Hill struggles with assigned tasks, becomes easily frustrated, and tends to give up. He is disengaged with his team and appears unhappy in his current role.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer2|Summarise|C12|Q01",
+  "criterion": "Fluency",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 26: C12_Q02_Coherence -----
+You are Volunteer 2 in Group C.
+TASK TYPE: Summarise
+SAMPLE: C12
+CRITERION: Coherence
+
+INSTRUCTION:
+Rank from most to least logical and easy to follow.
+
+ORIGINAL:
+Kayden Hill struggles with the tasks set before him. He is easily frustrated, and tends to want to give up. He is aloof with his team. He seems unhappy with where he is within the team.
+
+CANDIDATES:
+[1] Kayden Hill struggles with assigned tasks, becomes easily frustrated, and tends to give up. He is disengaged with his team and appears unhappy in his current role.
+[2] Kayden: Struggles with tasks, easily frustrated, wants to give up. Aloof with team, seems unhappy.
+[3] Kayden is frustrated, struggles with tasks, and is disengaged from his team. He appears unhappy with his current role.
+[4] Kayden struggles with his tasks, is easily frustrated, and is aloof with his team. He seems unhappy and has a negative attitude in his role.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer2|Summarise|C12|Q02",
+  "criterion": "Coherence",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 27: C12_Q03_Conciseness -----
+You are Volunteer 2 in Group C.
+TASK TYPE: Summarise
+SAMPLE: C12
+CRITERION: Conciseness
+
+INSTRUCTION:
+Rank from most to least clear and compact.
+
+ORIGINAL:
+Kayden Hill struggles with the tasks set before him. He is easily frustrated, and tends to want to give up. He is aloof with his team. He seems unhappy with where he is within the team.
+
+CANDIDATES:
+[1] Kayden struggles with his tasks, is easily frustrated, and is aloof with his team. He seems unhappy and has a negative attitude in his role.
+[2] Kayden: Struggles with tasks, easily frustrated, wants to give up. Aloof with team, seems unhappy.
+[3] Kayden Hill struggles with assigned tasks, becomes easily frustrated, and tends to give up. He is disengaged with his team and appears unhappy in his current role.
+[4] Kayden is frustrated, struggles with tasks, and is disengaged from his team. He appears unhappy with his current role.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer2|Summarise|C12|Q03",
+  "criterion": "Conciseness",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 28: C12_Q04_Accuracy -----
+You are Volunteer 2 in Group C.
+TASK TYPE: Summarise
+SAMPLE: C12
+CRITERION: Accuracy
+
+INSTRUCTION:
+Select all texts that are factually correct given the Original.
+
+ORIGINAL:
+Kayden Hill struggles with the tasks set before him. He is easily frustrated, and tends to want to give up. He is aloof with his team. He seems unhappy with where he is within the team.
+
+CANDIDATES:
+[1] Kayden struggles with his tasks, is easily frustrated, and is aloof with his team. He seems unhappy and has a negative attitude in his role.
+[2] Kayden: Struggles with tasks, easily frustrated, wants to give up. Aloof with team, seems unhappy.
+[3] Kayden is frustrated, struggles with tasks, and is disengaged from his team. He appears unhappy with his current role.
+[4] Kayden Hill struggles with assigned tasks, becomes easily frustrated, and tends to give up. He is disengaged with his team and appears unhappy in his current role.
+
+Please select all outputs that are factually correct given the Original.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer2|Summarise|C12|Q04",
+  "criterion": "Accuracy",
+  "rating": [1, 3],
+  "justifications": {
+    "1": "why candidate 1 is correct/incorrect in one sentence",
+    "2": "why candidate 2 is correct/incorrect in one sentence",
+    "3": "why candidate 3 is correct/incorrect in one sentence",
+    "4": "why candidate 4 is correct/incorrect in one sentence"
+  }
+}
+
+
+----- PROMPT 29: C12_Q05_Sentimentmatch -----
+You are Volunteer 2 in Group C.
+TASK TYPE: Summarise
+SAMPLE: C12
+CRITERION: Sentiment match
+
+INSTRUCTION:
+Rank from most to least similar to the Original in style and sentiment.
+
+ORIGINAL:
+Kayden Hill struggles with the tasks set before him. He is easily frustrated, and tends to want to give up. He is aloof with his team. He seems unhappy with where he is within the team.
+
+CANDIDATES:
+[1] Kayden is frustrated, struggles with tasks, and is disengaged from his team. He appears unhappy with his current role.
+[2] Kayden: Struggles with tasks, easily frustrated, wants to give up. Aloof with team, seems unhappy.
+[3] Kayden Hill struggles with assigned tasks, becomes easily frustrated, and tends to give up. He is disengaged with his team and appears unhappy in his current role.
+[4] Kayden struggles with his tasks, is easily frustrated, and is aloof with his team. He seems unhappy and has a negative attitude in his role.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer2|Summarise|C12|Q05",
+  "criterion": "Sentiment match",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 30: C12_Q06_Motivationaltone -----
+You are Volunteer 2 in Group C.
+TASK TYPE: Summarise
+SAMPLE: C12
+CRITERION: Motivational tone
+
+INSTRUCTION:
+Rank from most to least empathetic and encouraging.
+
+ORIGINAL:
+Kayden Hill struggles with the tasks set before him. He is easily frustrated, and tends to want to give up. He is aloof with his team. He seems unhappy with where he is within the team.
+
+CANDIDATES:
+[1] Kayden: Struggles with tasks, easily frustrated, wants to give up. Aloof with team, seems unhappy.
+[2] Kayden struggles with his tasks, is easily frustrated, and is aloof with his team. He seems unhappy and has a negative attitude in his role.
+[3] Kayden is frustrated, struggles with tasks, and is disengaged from his team. He appears unhappy with his current role.
+[4] Kayden Hill struggles with assigned tasks, becomes easily frustrated, and tends to give up. He is disengaged with his team and appears unhappy in his current role.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer2|Summarise|C12|Q06",
+  "criterion": "Motivational tone",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 31: C12_Q07_Constructiveness -----
+You are Volunteer 2 in Group C.
+TASK TYPE: Summarise
+SAMPLE: C12
+CRITERION: Constructiveness
+
+INSTRUCTION:
+Rank from most to least helpful and constructive.
+
+ORIGINAL:
+Kayden Hill struggles with the tasks set before him. He is easily frustrated, and tends to want to give up. He is aloof with his team. He seems unhappy with where he is within the team.
+
+CANDIDATES:
+[1] Kayden Hill struggles with assigned tasks, becomes easily frustrated, and tends to give up. He is disengaged with his team and appears unhappy in his current role.
+[2] Kayden: Struggles with tasks, easily frustrated, wants to give up. Aloof with team, seems unhappy.
+[3] Kayden is frustrated, struggles with tasks, and is disengaged from his team. He appears unhappy with his current role.
+[4] Kayden struggles with his tasks, is easily frustrated, and is aloof with his team. He seems unhappy and has a negative attitude in his role.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer2|Summarise|C12|Q07",
+  "criterion": "Constructiveness",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 32: C12_Q08_Finalchoice -----
+You are Volunteer 2 in Group C.
+TASK TYPE: Summarise
+SAMPLE: C12
+CRITERION: Final choice
+
+INSTRUCTION:
+Rank from most to least suitable as a final version.
+
+ORIGINAL:
+Kayden Hill struggles with the tasks set before him. He is easily frustrated, and tends to want to give up. He is aloof with his team. He seems unhappy with where he is within the team.
+
+CANDIDATES:
+[1] Kayden struggles with his tasks, is easily frustrated, and is aloof with his team. He seems unhappy and has a negative attitude in his role.
+[2] Kayden is frustrated, struggles with tasks, and is disengaged from his team. He appears unhappy with his current role.
+[3] Kayden: Struggles with tasks, easily frustrated, wants to give up. Aloof with team, seems unhappy.
+[4] Kayden Hill struggles with assigned tasks, becomes easily frustrated, and tends to give up. He is disengaged with his team and appears unhappy in his current role.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer2|Summarise|C12|Q08",
+  "criterion": "Final choice",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT SC2: SanityCheck_Summarise_Accuracy -----
+TASK TYPE: Summarise
+SAMPLE: SC2
+CRITERION: Accuracy
+
+INSTRUCTION:
+Rank from most to least factually correct given the Original.
+
+ORIGINAL:
+Pure water begins to freeze at exactly zero degrees Celsius
+
+CANDIDATES:
+[1] Water freezes at at 0°C.
+[2] Water freezes at 100°C.
+[3] Water boils at 0°C.
+[4] Ice melts at 0°C.
+
+Please rank outputs strictly from most accurate (1) to least accurate (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "Summarise|SC2|Q04",
+  "criterion": "Accuracy",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 33: C15_Q01_Fluency -----
+You are Volunteer 2 in Group C.
+TASK TYPE: Interpret
+SAMPLE: C15
+CRITERION: Fluency
+
+INSTRUCTION:
+Rank from most to least smooth and error-free.
+
+ORIGINAL:
+Emilie has quickly made her self an important asset here in the business and is quickly rising in the ranks. Having surpassed her sales target by 72% this month, massively contributing to the teams quarterly win in the Summer Sale Bonanza. We're pleased to announce that her appointment as the new hot desk team leader, ready to take on the more challenging queries we get. Emilie is an inspiration to us all, lets hope we can all follow in her footsteps!
+
+CANDIDATES:
+[1] Emilie’s exceptional performance—surpassing her sales target by 72% and driving team success in the Summer Sale Bonanza—demonstrates her strong capability and dedication. Her promotion to hot desk team leader reflects management’s confidence in her skills and leadership potential. This recognition highlights the value of consistent high performance and initiative. To continue growing in her new role, Emilie should focus on building team cohesion through regular check-ins, seek feedback from peers and supervisors to refine her leadership style, shadow senior leaders to develop strategic thinking, and document processes to streamline handling of complex queries. Her journey sets a powerful example of excellence and ambition.
+[2] Feedback confirms Emilie is a top performer (72% sales exceed) now promoted to team leader, seen as inspirational. This positions her for continued rapid advancement. Emilie should: 1) Document her sales strategies for training peers by month-end, 2) Host quarterly workshops on handling complex queries, 3) Mentor one aspiring leader each quarter. (278 chars)
+[3] Emilie's performance is exceptional, having greatly surpassed targets and earned a promotion to team lead. Her standing is excellent. To succeed in her new role, she should set 90-day goals with her manager and focus on leading and developing her new team members effectively.
+[4] Emilie, this feedback highlights her exceptional performance, particularly in sales, where she significantly exceeded targets and contributed to team success. This indicates strong standing and potential for continued growth, as evidenced by her promotion to Hot Desk Team Leader. To respond, Emilie should continue her high-performance trajectory, proactively engage with the challenges of her new leadership role, and seek opportunities to mentor others, embodying the "inspiration" she's been recognized as.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer2|Interpret|C15|Q01",
+  "criterion": "Fluency",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 34: C15_Q02_Coherence -----
+You are Volunteer 2 in Group C.
+TASK TYPE: Interpret
+SAMPLE: C15
+CRITERION: Coherence
+
+INSTRUCTION:
+Rank from most to least logical and easy to follow.
+
+ORIGINAL:
+Emilie has quickly made her self an important asset here in the business and is quickly rising in the ranks. Having surpassed her sales target by 72% this month, massively contributing to the teams quarterly win in the Summer Sale Bonanza. We're pleased to announce that her appointment as the new hot desk team leader, ready to take on the more challenging queries we get. Emilie is an inspiration to us all, lets hope we can all follow in her footsteps!
+
+CANDIDATES:
+[1] Feedback confirms Emilie is a top performer (72% sales exceed) now promoted to team leader, seen as inspirational. This positions her for continued rapid advancement. Emilie should: 1) Document her sales strategies for training peers by month-end, 2) Host quarterly workshops on handling complex queries, 3) Mentor one aspiring leader each quarter. (278 chars)
+[2] Emilie’s exceptional performance—surpassing her sales target by 72% and driving team success in the Summer Sale Bonanza—demonstrates her strong capability and dedication. Her promotion to hot desk team leader reflects management’s confidence in her skills and leadership potential. This recognition highlights the value of consistent high performance and initiative. To continue growing in her new role, Emilie should focus on building team cohesion through regular check-ins, seek feedback from peers and supervisors to refine her leadership style, shadow senior leaders to develop strategic thinking, and document processes to streamline handling of complex queries. Her journey sets a powerful example of excellence and ambition.
+[3] Emilie's performance is exceptional, having greatly surpassed targets and earned a promotion to team lead. Her standing is excellent. To succeed in her new role, she should set 90-day goals with her manager and focus on leading and developing her new team members effectively.
+[4] Emilie, this feedback highlights her exceptional performance, particularly in sales, where she significantly exceeded targets and contributed to team success. This indicates strong standing and potential for continued growth, as evidenced by her promotion to Hot Desk Team Leader. To respond, Emilie should continue her high-performance trajectory, proactively engage with the challenges of her new leadership role, and seek opportunities to mentor others, embodying the "inspiration" she's been recognized as.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer2|Interpret|C15|Q02",
+  "criterion": "Coherence",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 35: C15_Q03_Conciseness -----
+You are Volunteer 2 in Group C.
+TASK TYPE: Interpret
+SAMPLE: C15
+CRITERION: Conciseness
+
+INSTRUCTION:
+Rank from most to least clear and compact.
+
+ORIGINAL:
+Emilie has quickly made her self an important asset here in the business and is quickly rising in the ranks. Having surpassed her sales target by 72% this month, massively contributing to the teams quarterly win in the Summer Sale Bonanza. We're pleased to announce that her appointment as the new hot desk team leader, ready to take on the more challenging queries we get. Emilie is an inspiration to us all, lets hope we can all follow in her footsteps!
+
+CANDIDATES:
+[1] Feedback confirms Emilie is a top performer (72% sales exceed) now promoted to team leader, seen as inspirational. This positions her for continued rapid advancement. Emilie should: 1) Document her sales strategies for training peers by month-end, 2) Host quarterly workshops on handling complex queries, 3) Mentor one aspiring leader each quarter. (278 chars)
+[2] Emilie, this feedback highlights her exceptional performance, particularly in sales, where she significantly exceeded targets and contributed to team success. This indicates strong standing and potential for continued growth, as evidenced by her promotion to Hot Desk Team Leader. To respond, Emilie should continue her high-performance trajectory, proactively engage with the challenges of her new leadership role, and seek opportunities to mentor others, embodying the "inspiration" she's been recognized as.
+[3] Emilie's performance is exceptional, having greatly surpassed targets and earned a promotion to team lead. Her standing is excellent. To succeed in her new role, she should set 90-day goals with her manager and focus on leading and developing her new team members effectively.
+[4] Emilie’s exceptional performance—surpassing her sales target by 72% and driving team success in the Summer Sale Bonanza—demonstrates her strong capability and dedication. Her promotion to hot desk team leader reflects management’s confidence in her skills and leadership potential. This recognition highlights the value of consistent high performance and initiative. To continue growing in her new role, Emilie should focus on building team cohesion through regular check-ins, seek feedback from peers and supervisors to refine her leadership style, shadow senior leaders to develop strategic thinking, and document processes to streamline handling of complex queries. Her journey sets a powerful example of excellence and ambition.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer2|Interpret|C15|Q03",
+  "criterion": "Conciseness",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 36: C15_Q04_Accuracy -----
+You are Volunteer 2 in Group C.
+TASK TYPE: Interpret
+SAMPLE: C15
+CRITERION: Accuracy
+
+INSTRUCTION:
+Select all texts that are factually correct given the Original.
+
+ORIGINAL:
+Emilie has quickly made her self an important asset here in the business and is quickly rising in the ranks. Having surpassed her sales target by 72% this month, massively contributing to the teams quarterly win in the Summer Sale Bonanza. We're pleased to announce that her appointment as the new hot desk team leader, ready to take on the more challenging queries we get. Emilie is an inspiration to us all, lets hope we can all follow in her footsteps!
+
+CANDIDATES:
+[1] Feedback confirms Emilie is a top performer (72% sales exceed) now promoted to team leader, seen as inspirational. This positions her for continued rapid advancement. Emilie should: 1) Document her sales strategies for training peers by month-end, 2) Host quarterly workshops on handling complex queries, 3) Mentor one aspiring leader each quarter. (278 chars)
+[2] Emilie’s exceptional performance—surpassing her sales target by 72% and driving team success in the Summer Sale Bonanza—demonstrates her strong capability and dedication. Her promotion to hot desk team leader reflects management’s confidence in her skills and leadership potential. This recognition highlights the value of consistent high performance and initiative. To continue growing in her new role, Emilie should focus on building team cohesion through regular check-ins, seek feedback from peers and supervisors to refine her leadership style, shadow senior leaders to develop strategic thinking, and document processes to streamline handling of complex queries. Her journey sets a powerful example of excellence and ambition.
+[3] Emilie's performance is exceptional, having greatly surpassed targets and earned a promotion to team lead. Her standing is excellent. To succeed in her new role, she should set 90-day goals with her manager and focus on leading and developing her new team members effectively.
+[4] Emilie, this feedback highlights her exceptional performance, particularly in sales, where she significantly exceeded targets and contributed to team success. This indicates strong standing and potential for continued growth, as evidenced by her promotion to Hot Desk Team Leader. To respond, Emilie should continue her high-performance trajectory, proactively engage with the challenges of her new leadership role, and seek opportunities to mentor others, embodying the "inspiration" she's been recognized as.
+
+Please select all outputs that are factually correct given the Original.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer2|Interpret|C15|Q04",
+  "criterion": "Accuracy",
+  "rating": [1, 3],
+  "justifications": {
+    "1": "why candidate 1 is correct/incorrect in one sentence",
+    "2": "why candidate 2 is correct/incorrect in one sentence",
+    "3": "why candidate 3 is correct/incorrect in one sentence",
+    "4": "why candidate 4 is correct/incorrect in one sentence"
+  }
+}
+
+
+----- PROMPT 37: C15_Q05_Sentimentmatch -----
+You are Volunteer 2 in Group C.
+TASK TYPE: Interpret
+SAMPLE: C15
+CRITERION: Sentiment match
+
+INSTRUCTION:
+Rank from most to least similar to the Original in style and sentiment.
+
+ORIGINAL:
+Emilie has quickly made her self an important asset here in the business and is quickly rising in the ranks. Having surpassed her sales target by 72% this month, massively contributing to the teams quarterly win in the Summer Sale Bonanza. We're pleased to announce that her appointment as the new hot desk team leader, ready to take on the more challenging queries we get. Emilie is an inspiration to us all, lets hope we can all follow in her footsteps!
+
+CANDIDATES:
+[1] Emilie's performance is exceptional, having greatly surpassed targets and earned a promotion to team lead. Her standing is excellent. To succeed in her new role, she should set 90-day goals with her manager and focus on leading and developing her new team members effectively.
+[2] Emilie, this feedback highlights her exceptional performance, particularly in sales, where she significantly exceeded targets and contributed to team success. This indicates strong standing and potential for continued growth, as evidenced by her promotion to Hot Desk Team Leader. To respond, Emilie should continue her high-performance trajectory, proactively engage with the challenges of her new leadership role, and seek opportunities to mentor others, embodying the "inspiration" she's been recognized as.
+[3] Feedback confirms Emilie is a top performer (72% sales exceed) now promoted to team leader, seen as inspirational. This positions her for continued rapid advancement. Emilie should: 1) Document her sales strategies for training peers by month-end, 2) Host quarterly workshops on handling complex queries, 3) Mentor one aspiring leader each quarter. (278 chars)
+[4] Emilie’s exceptional performance—surpassing her sales target by 72% and driving team success in the Summer Sale Bonanza—demonstrates her strong capability and dedication. Her promotion to hot desk team leader reflects management’s confidence in her skills and leadership potential. This recognition highlights the value of consistent high performance and initiative. To continue growing in her new role, Emilie should focus on building team cohesion through regular check-ins, seek feedback from peers and supervisors to refine her leadership style, shadow senior leaders to develop strategic thinking, and document processes to streamline handling of complex queries. Her journey sets a powerful example of excellence and ambition.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer2|Interpret|C15|Q05",
+  "criterion": "Sentiment match",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 38: C15_Q06_Motivationaltone -----
+You are Volunteer 2 in Group C.
+TASK TYPE: Interpret
+SAMPLE: C15
+CRITERION: Motivational tone
+
+INSTRUCTION:
+Rank from most to least empathetic and encouraging.
+
+ORIGINAL:
+Emilie has quickly made her self an important asset here in the business and is quickly rising in the ranks. Having surpassed her sales target by 72% this month, massively contributing to the teams quarterly win in the Summer Sale Bonanza. We're pleased to announce that her appointment as the new hot desk team leader, ready to take on the more challenging queries we get. Emilie is an inspiration to us all, lets hope we can all follow in her footsteps!
+
+CANDIDATES:
+[1] Emilie, this feedback highlights her exceptional performance, particularly in sales, where she significantly exceeded targets and contributed to team success. This indicates strong standing and potential for continued growth, as evidenced by her promotion to Hot Desk Team Leader. To respond, Emilie should continue her high-performance trajectory, proactively engage with the challenges of her new leadership role, and seek opportunities to mentor others, embodying the "inspiration" she's been recognized as.
+[2] Feedback confirms Emilie is a top performer (72% sales exceed) now promoted to team leader, seen as inspirational. This positions her for continued rapid advancement. Emilie should: 1) Document her sales strategies for training peers by month-end, 2) Host quarterly workshops on handling complex queries, 3) Mentor one aspiring leader each quarter. (278 chars)
+[3] Emilie’s exceptional performance—surpassing her sales target by 72% and driving team success in the Summer Sale Bonanza—demonstrates her strong capability and dedication. Her promotion to hot desk team leader reflects management’s confidence in her skills and leadership potential. This recognition highlights the value of consistent high performance and initiative. To continue growing in her new role, Emilie should focus on building team cohesion through regular check-ins, seek feedback from peers and supervisors to refine her leadership style, shadow senior leaders to develop strategic thinking, and document processes to streamline handling of complex queries. Her journey sets a powerful example of excellence and ambition.
+[4] Emilie's performance is exceptional, having greatly surpassed targets and earned a promotion to team lead. Her standing is excellent. To succeed in her new role, she should set 90-day goals with her manager and focus on leading and developing her new team members effectively.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer2|Interpret|C15|Q06",
+  "criterion": "Motivational tone",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 39: C15_Q07_Constructiveness -----
+You are Volunteer 2 in Group C.
+TASK TYPE: Interpret
+SAMPLE: C15
+CRITERION: Constructiveness
+
+INSTRUCTION:
+Rank from most to least helpful and constructive.
+
+ORIGINAL:
+Emilie has quickly made her self an important asset here in the business and is quickly rising in the ranks. Having surpassed her sales target by 72% this month, massively contributing to the teams quarterly win in the Summer Sale Bonanza. We're pleased to announce that her appointment as the new hot desk team leader, ready to take on the more challenging queries we get. Emilie is an inspiration to us all, lets hope we can all follow in her footsteps!
+
+CANDIDATES:
+[1] Emilie's performance is exceptional, having greatly surpassed targets and earned a promotion to team lead. Her standing is excellent. To succeed in her new role, she should set 90-day goals with her manager and focus on leading and developing her new team members effectively.
+[2] Feedback confirms Emilie is a top performer (72% sales exceed) now promoted to team leader, seen as inspirational. This positions her for continued rapid advancement. Emilie should: 1) Document her sales strategies for training peers by month-end, 2) Host quarterly workshops on handling complex queries, 3) Mentor one aspiring leader each quarter. (278 chars)
+[3] Emilie, this feedback highlights her exceptional performance, particularly in sales, where she significantly exceeded targets and contributed to team success. This indicates strong standing and potential for continued growth, as evidenced by her promotion to Hot Desk Team Leader. To respond, Emilie should continue her high-performance trajectory, proactively engage with the challenges of her new leadership role, and seek opportunities to mentor others, embodying the "inspiration" she's been recognized as.
+[4] Emilie’s exceptional performance—surpassing her sales target by 72% and driving team success in the Summer Sale Bonanza—demonstrates her strong capability and dedication. Her promotion to hot desk team leader reflects management’s confidence in her skills and leadership potential. This recognition highlights the value of consistent high performance and initiative. To continue growing in her new role, Emilie should focus on building team cohesion through regular check-ins, seek feedback from peers and supervisors to refine her leadership style, shadow senior leaders to develop strategic thinking, and document processes to streamline handling of complex queries. Her journey sets a powerful example of excellence and ambition.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer2|Interpret|C15|Q07",
+  "criterion": "Constructiveness",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 40: C15_Q08_Finalchoice -----
+You are Volunteer 2 in Group C.
+TASK TYPE: Interpret
+SAMPLE: C15
+CRITERION: Final choice
+
+INSTRUCTION:
+Rank from most to least suitable as a final version.
+
+ORIGINAL:
+Emilie has quickly made her self an important asset here in the business and is quickly rising in the ranks. Having surpassed her sales target by 72% this month, massively contributing to the teams quarterly win in the Summer Sale Bonanza. We're pleased to announce that her appointment as the new hot desk team leader, ready to take on the more challenging queries we get. Emilie is an inspiration to us all, lets hope we can all follow in her footsteps!
+
+CANDIDATES:
+[1] Emilie's performance is exceptional, having greatly surpassed targets and earned a promotion to team lead. Her standing is excellent. To succeed in her new role, she should set 90-day goals with her manager and focus on leading and developing her new team members effectively.
+[2] Emilie, this feedback highlights her exceptional performance, particularly in sales, where she significantly exceeded targets and contributed to team success. This indicates strong standing and potential for continued growth, as evidenced by her promotion to Hot Desk Team Leader. To respond, Emilie should continue her high-performance trajectory, proactively engage with the challenges of her new leadership role, and seek opportunities to mentor others, embodying the "inspiration" she's been recognized as.
+[3] Emilie’s exceptional performance—surpassing her sales target by 72% and driving team success in the Summer Sale Bonanza—demonstrates her strong capability and dedication. Her promotion to hot desk team leader reflects management’s confidence in her skills and leadership potential. This recognition highlights the value of consistent high performance and initiative. To continue growing in her new role, Emilie should focus on building team cohesion through regular check-ins, seek feedback from peers and supervisors to refine her leadership style, shadow senior leaders to develop strategic thinking, and document processes to streamline handling of complex queries. Her journey sets a powerful example of excellence and ambition.
+[4] Feedback confirms Emilie is a top performer (72% sales exceed) now promoted to team leader, seen as inspirational. This positions her for continued rapid advancement. Emilie should: 1) Document her sales strategies for training peers by month-end, 2) Host quarterly workshops on handling complex queries, 3) Mentor one aspiring leader each quarter. (278 chars)
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer2|Interpret|C15|Q08",
+  "criterion": "Final choice",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 41: C18_Q01_Fluency -----
+You are Volunteer 2 in Group C.
+TASK TYPE: Interpret
+SAMPLE: C18
+CRITERION: Fluency
+
+INSTRUCTION:
+Rank from most to least smooth and error-free.
+
+ORIGINAL:
+George didn't deliver as well as hoped. However, he displays a great deal of all skills necessary for growth. With time, George will prove to be an asset to the company. Given the opportunity, George has the ability to advance beyond his given skill set.
+
+CANDIDATES:
+[1] George’s recent performance fell short of expectations, but management sees strong underlying skills and high potential for future growth. He should meet with his manager to review what went wrong, and then ask for a new, challenging task to demonstrate his true capabilities.
+[2] George, your performance didn't meet expectations, but your manager recognizes your strong foundational skills and potential for significant growth. This feedback implies that while your current output needs improvement, you are seen as a valuable long-term asset with high advancement potential. To respond, George should: (1) Proactively seek clarification on specific areas for improvement, (2) Request opportunities to apply and develop his skills, (3) Set clear, measurable goals for his immediate contributions, and (4) Regularly check in with his manager on progress.
+[3] Feedback means George underdelivered recently but possesses all skills for growth, positioning him as a future asset with advancement potential. This signals patience for development but requires proof of progress. George should: 1) Diagnose delivery gaps with manager immediately, 2) Create biweekly milestone plans for complex tasks, 3) Seek one skill-stretching project quarterly.
+[4] George’s current performance hasn’t met expectations, but he demonstrates strong potential through his foundational skills and readiness to grow. This feedback suggests he is viewed as a developmental candidate with long-term value. To progress, George should seek regular feedback, pursue skill-building opportunities, take initiative on projects, and work to consistently deliver results to build trust and prove reliability.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer2|Interpret|C18|Q01",
+  "criterion": "Fluency",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 42: C18_Q02_Coherence -----
+You are Volunteer 2 in Group C.
+TASK TYPE: Interpret
+SAMPLE: C18
+CRITERION: Coherence
+
+INSTRUCTION:
+Rank from most to least logical and easy to follow.
+
+ORIGINAL:
+George didn't deliver as well as hoped. However, he displays a great deal of all skills necessary for growth. With time, George will prove to be an asset to the company. Given the opportunity, George has the ability to advance beyond his given skill set.
+
+CANDIDATES:
+[1] George’s current performance hasn’t met expectations, but he demonstrates strong potential through his foundational skills and readiness to grow. This feedback suggests he is viewed as a developmental candidate with long-term value. To progress, George should seek regular feedback, pursue skill-building opportunities, take initiative on projects, and work to consistently deliver results to build trust and prove reliability.
+[2] George, your performance didn't meet expectations, but your manager recognizes your strong foundational skills and potential for significant growth. This feedback implies that while your current output needs improvement, you are seen as a valuable long-term asset with high advancement potential. To respond, George should: (1) Proactively seek clarification on specific areas for improvement, (2) Request opportunities to apply and develop his skills, (3) Set clear, measurable goals for his immediate contributions, and (4) Regularly check in with his manager on progress.
+[3] George’s recent performance fell short of expectations, but management sees strong underlying skills and high potential for future growth. He should meet with his manager to review what went wrong, and then ask for a new, challenging task to demonstrate his true capabilities.
+[4] Feedback means George underdelivered recently but possesses all skills for growth, positioning him as a future asset with advancement potential. This signals patience for development but requires proof of progress. George should: 1) Diagnose delivery gaps with manager immediately, 2) Create biweekly milestone plans for complex tasks, 3) Seek one skill-stretching project quarterly.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer2|Interpret|C18|Q02",
+  "criterion": "Coherence",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 43: C18_Q03_Conciseness -----
+You are Volunteer 2 in Group C.
+TASK TYPE: Interpret
+SAMPLE: C18
+CRITERION: Conciseness
+
+INSTRUCTION:
+Rank from most to least clear and compact.
+
+ORIGINAL:
+George didn't deliver as well as hoped. However, he displays a great deal of all skills necessary for growth. With time, George will prove to be an asset to the company. Given the opportunity, George has the ability to advance beyond his given skill set.
+
+CANDIDATES:
+[1] George’s current performance hasn’t met expectations, but he demonstrates strong potential through his foundational skills and readiness to grow. This feedback suggests he is viewed as a developmental candidate with long-term value. To progress, George should seek regular feedback, pursue skill-building opportunities, take initiative on projects, and work to consistently deliver results to build trust and prove reliability.
+[2] George, your performance didn't meet expectations, but your manager recognizes your strong foundational skills and potential for significant growth. This feedback implies that while your current output needs improvement, you are seen as a valuable long-term asset with high advancement potential. To respond, George should: (1) Proactively seek clarification on specific areas for improvement, (2) Request opportunities to apply and develop his skills, (3) Set clear, measurable goals for his immediate contributions, and (4) Regularly check in with his manager on progress.
+[3] George’s recent performance fell short of expectations, but management sees strong underlying skills and high potential for future growth. He should meet with his manager to review what went wrong, and then ask for a new, challenging task to demonstrate his true capabilities.
+[4] Feedback means George underdelivered recently but possesses all skills for growth, positioning him as a future asset with advancement potential. This signals patience for development but requires proof of progress. George should: 1) Diagnose delivery gaps with manager immediately, 2) Create biweekly milestone plans for complex tasks, 3) Seek one skill-stretching project quarterly.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer2|Interpret|C18|Q03",
+  "criterion": "Conciseness",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 44: C18_Q04_Accuracy -----
+You are Volunteer 2 in Group C.
+TASK TYPE: Interpret
+SAMPLE: C18
+CRITERION: Accuracy
+
+INSTRUCTION:
+Select all texts that are factually correct given the Original.
+
+ORIGINAL:
+George didn't deliver as well as hoped. However, he displays a great deal of all skills necessary for growth. With time, George will prove to be an asset to the company. Given the opportunity, George has the ability to advance beyond his given skill set.
+
+CANDIDATES:
+[1] George, your performance didn't meet expectations, but your manager recognizes your strong foundational skills and potential for significant growth. This feedback implies that while your current output needs improvement, you are seen as a valuable long-term asset with high advancement potential. To respond, George should: (1) Proactively seek clarification on specific areas for improvement, (2) Request opportunities to apply and develop his skills, (3) Set clear, measurable goals for his immediate contributions, and (4) Regularly check in with his manager on progress.
+[2] George’s current performance hasn’t met expectations, but he demonstrates strong potential through his foundational skills and readiness to grow. This feedback suggests he is viewed as a developmental candidate with long-term value. To progress, George should seek regular feedback, pursue skill-building opportunities, take initiative on projects, and work to consistently deliver results to build trust and prove reliability.
+[3] George’s recent performance fell short of expectations, but management sees strong underlying skills and high potential for future growth. He should meet with his manager to review what went wrong, and then ask for a new, challenging task to demonstrate his true capabilities.
+[4] Feedback means George underdelivered recently but possesses all skills for growth, positioning him as a future asset with advancement potential. This signals patience for development but requires proof of progress. George should: 1) Diagnose delivery gaps with manager immediately, 2) Create biweekly milestone plans for complex tasks, 3) Seek one skill-stretching project quarterly.
+
+Please select all outputs that are factually correct given the Original.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer2|Interpret|C18|Q04",
+  "criterion": "Accuracy",
+  "rating": [1, 3],
+  "justifications": {
+    "1": "why candidate 1 is correct/incorrect in one sentence",
+    "2": "why candidate 2 is correct/incorrect in one sentence",
+    "3": "why candidate 3 is correct/incorrect in one sentence",
+    "4": "why candidate 4 is correct/incorrect in one sentence"
+  }
+}
+
+
+----- PROMPT 45: C18_Q05_Sentimentmatch -----
+You are Volunteer 2 in Group C.
+TASK TYPE: Interpret
+SAMPLE: C18
+CRITERION: Sentiment match
+
+INSTRUCTION:
+Rank from most to least similar to the Original in style and sentiment.
+
+ORIGINAL:
+George didn't deliver as well as hoped. However, he displays a great deal of all skills necessary for growth. With time, George will prove to be an asset to the company. Given the opportunity, George has the ability to advance beyond his given skill set.
+
+CANDIDATES:
+[1] George’s recent performance fell short of expectations, but management sees strong underlying skills and high potential for future growth. He should meet with his manager to review what went wrong, and then ask for a new, challenging task to demonstrate his true capabilities.
+[2] George, your performance didn't meet expectations, but your manager recognizes your strong foundational skills and potential for significant growth. This feedback implies that while your current output needs improvement, you are seen as a valuable long-term asset with high advancement potential. To respond, George should: (1) Proactively seek clarification on specific areas for improvement, (2) Request opportunities to apply and develop his skills, (3) Set clear, measurable goals for his immediate contributions, and (4) Regularly check in with his manager on progress.
+[3] George’s current performance hasn’t met expectations, but he demonstrates strong potential through his foundational skills and readiness to grow. This feedback suggests he is viewed as a developmental candidate with long-term value. To progress, George should seek regular feedback, pursue skill-building opportunities, take initiative on projects, and work to consistently deliver results to build trust and prove reliability.
+[4] Feedback means George underdelivered recently but possesses all skills for growth, positioning him as a future asset with advancement potential. This signals patience for development but requires proof of progress. George should: 1) Diagnose delivery gaps with manager immediately, 2) Create biweekly milestone plans for complex tasks, 3) Seek one skill-stretching project quarterly.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer2|Interpret|C18|Q05",
+  "criterion": "Sentiment match",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 46: C18_Q06_Motivationaltone -----
+You are Volunteer 2 in Group C.
+TASK TYPE: Interpret
+SAMPLE: C18
+CRITERION: Motivational tone
+
+INSTRUCTION:
+Rank from most to least empathetic and encouraging.
+
+ORIGINAL:
+George didn't deliver as well as hoped. However, he displays a great deal of all skills necessary for growth. With time, George will prove to be an asset to the company. Given the opportunity, George has the ability to advance beyond his given skill set.
+
+CANDIDATES:
+[1] George, your performance didn't meet expectations, but your manager recognizes your strong foundational skills and potential for significant growth. This feedback implies that while your current output needs improvement, you are seen as a valuable long-term asset with high advancement potential. To respond, George should: (1) Proactively seek clarification on specific areas for improvement, (2) Request opportunities to apply and develop his skills, (3) Set clear, measurable goals for his immediate contributions, and (4) Regularly check in with his manager on progress.
+[2] Feedback means George underdelivered recently but possesses all skills for growth, positioning him as a future asset with advancement potential. This signals patience for development but requires proof of progress. George should: 1) Diagnose delivery gaps with manager immediately, 2) Create biweekly milestone plans for complex tasks, 3) Seek one skill-stretching project quarterly.
+[3] George’s current performance hasn’t met expectations, but he demonstrates strong potential through his foundational skills and readiness to grow. This feedback suggests he is viewed as a developmental candidate with long-term value. To progress, George should seek regular feedback, pursue skill-building opportunities, take initiative on projects, and work to consistently deliver results to build trust and prove reliability.
+[4] George’s recent performance fell short of expectations, but management sees strong underlying skills and high potential for future growth. He should meet with his manager to review what went wrong, and then ask for a new, challenging task to demonstrate his true capabilities.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer2|Interpret|C18|Q06",
+  "criterion": "Motivational tone",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 47: C18_Q07_Constructiveness -----
+You are Volunteer 2 in Group C.
+TASK TYPE: Interpret
+SAMPLE: C18
+CRITERION: Constructiveness
+
+INSTRUCTION:
+Rank from most to least helpful and constructive.
+
+ORIGINAL:
+George didn't deliver as well as hoped. However, he displays a great deal of all skills necessary for growth. With time, George will prove to be an asset to the company. Given the opportunity, George has the ability to advance beyond his given skill set.
+
+CANDIDATES:
+[1] George’s recent performance fell short of expectations, but management sees strong underlying skills and high potential for future growth. He should meet with his manager to review what went wrong, and then ask for a new, challenging task to demonstrate his true capabilities.
+[2] Feedback means George underdelivered recently but possesses all skills for growth, positioning him as a future asset with advancement potential. This signals patience for development but requires proof of progress. George should: 1) Diagnose delivery gaps with manager immediately, 2) Create biweekly milestone plans for complex tasks, 3) Seek one skill-stretching project quarterly.
+[3] George’s current performance hasn’t met expectations, but he demonstrates strong potential through his foundational skills and readiness to grow. This feedback suggests he is viewed as a developmental candidate with long-term value. To progress, George should seek regular feedback, pursue skill-building opportunities, take initiative on projects, and work to consistently deliver results to build trust and prove reliability.
+[4] George, your performance didn't meet expectations, but your manager recognizes your strong foundational skills and potential for significant growth. This feedback implies that while your current output needs improvement, you are seen as a valuable long-term asset with high advancement potential. To respond, George should: (1) Proactively seek clarification on specific areas for improvement, (2) Request opportunities to apply and develop his skills, (3) Set clear, measurable goals for his immediate contributions, and (4) Regularly check in with his manager on progress.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer2|Interpret|C18|Q07",
+  "criterion": "Constructiveness",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 48: C18_Q08_Finalchoice -----
+You are Volunteer 2 in Group C.
+TASK TYPE: Interpret
+SAMPLE: C18
+CRITERION: Final choice
+
+INSTRUCTION:
+Rank from most to least suitable as a final version.
+
+ORIGINAL:
+George didn't deliver as well as hoped. However, he displays a great deal of all skills necessary for growth. With time, George will prove to be an asset to the company. Given the opportunity, George has the ability to advance beyond his given skill set.
+
+CANDIDATES:
+[1] George’s current performance hasn’t met expectations, but he demonstrates strong potential through his foundational skills and readiness to grow. This feedback suggests he is viewed as a developmental candidate with long-term value. To progress, George should seek regular feedback, pursue skill-building opportunities, take initiative on projects, and work to consistently deliver results to build trust and prove reliability.
+[2] George’s recent performance fell short of expectations, but management sees strong underlying skills and high potential for future growth. He should meet with his manager to review what went wrong, and then ask for a new, challenging task to demonstrate his true capabilities.
+[3] George, your performance didn't meet expectations, but your manager recognizes your strong foundational skills and potential for significant growth. This feedback implies that while your current output needs improvement, you are seen as a valuable long-term asset with high advancement potential. To respond, George should: (1) Proactively seek clarification on specific areas for improvement, (2) Request opportunities to apply and develop his skills, (3) Set clear, measurable goals for his immediate contributions, and (4) Regularly check in with his manager on progress.
+[4] Feedback means George underdelivered recently but possesses all skills for growth, positioning him as a future asset with advancement potential. This signals patience for development but requires proof of progress. George should: 1) Diagnose delivery gaps with manager immediately, 2) Create biweekly milestone plans for complex tasks, 3) Seek one skill-stretching project quarterly.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer2|Interpret|C18|Q08",
+  "criterion": "Final choice",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+

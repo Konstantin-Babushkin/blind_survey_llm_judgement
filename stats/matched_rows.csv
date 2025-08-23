@@ -1,0 +1,181 @@
+form_id,question_id,criterion,candidate_index,model_name,rank
+A-Volunteer1|Idea-to-Text|A1|Q01,Q01,Fluency,1,Qwen,1
+A-Volunteer1|Idea-to-Text|A5|Q01,Q01,Fluency,2,Flash,1
+A-Volunteer1|Summarise|A9|Q01,Q01,Fluency,1,Gemini,1
+A-Volunteer1|Summarise|A10|Q01,Q01,Fluency,4,Qwen,1
+A-Volunteer1|Interpret|A15|Q01,Q01,Fluency,1,Qwen,1
+A-Volunteer1|Interpret|A17|Q01,Q01,Fluency,4,Qwen,1
+A-Volunteer1|Idea-to-Text|A1|Q01,Q01,Fluency,4,Flash,2
+A-Volunteer1|Idea-to-Text|A5|Q01,Q01,Fluency,1,DeepSeek,2
+A-Volunteer1|Summarise|A9|Q01,Q01,Fluency,2,Qwen,2
+A-Volunteer1|Summarise|A10|Q01,Q01,Fluency,1,Flash,2
+A-Volunteer1|Interpret|A15|Q01,Q01,Fluency,3,Gemini,2
+A-Volunteer1|Interpret|A17|Q01,Q01,Fluency,1,Gemini,2
+A-Volunteer1|Idea-to-Text|A1|Q01,Q01,Fluency,2,DeepSeek,3
+A-Volunteer1|Idea-to-Text|A5|Q01,Q01,Fluency,4,Qwen,3
+A-Volunteer1|Summarise|A9|Q01,Q01,Fluency,4,Flash,3
+A-Volunteer1|Summarise|A10|Q01,Q01,Fluency,2,Gemini,3
+A-Volunteer1|Interpret|A15|Q01,Q01,Fluency,4,Flash,3
+A-Volunteer1|Interpret|A17|Q01,Q01,Fluency,2,Flash,3
+A-Volunteer1|Idea-to-Text|A1|Q01,Q01,Fluency,3,Gemini,4
+A-Volunteer1|Idea-to-Text|A5|Q01,Q01,Fluency,3,Gemini,4
+A-Volunteer1|Summarise|A9|Q01,Q01,Fluency,3,DeepSeek,4
+A-Volunteer1|Summarise|A10|Q01,Q01,Fluency,3,DeepSeek,4
+A-Volunteer1|Interpret|A15|Q01,Q01,Fluency,2,DeepSeek,4
+A-Volunteer1|Interpret|A17|Q01,Q01,Fluency,3,DeepSeek,4
+A-Volunteer1|Idea-to-Text|A1|Q02,Q02,Coherence,1,DeepSeek,1
+A-Volunteer1|Idea-to-Text|A5|Q02,Q02,Coherence,3,Flash,1
+A-Volunteer1|Summarise|A9|Q02,Q02,Coherence,1,Qwen,1
+A-Volunteer1|Summarise|A10|Q02,Q02,Coherence,1,Qwen,1
+A-Volunteer1|Interpret|A15|Q02,Q02,Coherence,2,Qwen,1
+A-Volunteer1|Interpret|A17|Q02,Q02,Coherence,1,Qwen,1
+A-Volunteer1|Idea-to-Text|A1|Q02,Q02,Coherence,2,Flash,2
+A-Volunteer1|Idea-to-Text|A5|Q02,Q02,Coherence,2,Qwen,2
+A-Volunteer1|Summarise|A9|Q02,Q02,Coherence,2,Gemini,2
+A-Volunteer1|Summarise|A10|Q02,Q02,Coherence,4,Gemini,2
+A-Volunteer1|Interpret|A15|Q02,Q02,Coherence,1,DeepSeek,2
+A-Volunteer1|Interpret|A17|Q02,Q02,Coherence,2,Flash,2
+A-Volunteer1|Idea-to-Text|A1|Q02,Q02,Coherence,3,Qwen,3
+A-Volunteer1|Idea-to-Text|A5|Q02,Q02,Coherence,1,DeepSeek,3
+A-Volunteer1|Summarise|A9|Q02,Q02,Coherence,4,Flash,3
+A-Volunteer1|Summarise|A10|Q02,Q02,Coherence,3,Flash,3
+A-Volunteer1|Interpret|A15|Q02,Q02,Coherence,3,Gemini,3
+A-Volunteer1|Interpret|A17|Q02,Q02,Coherence,4,DeepSeek,3
+A-Volunteer1|Idea-to-Text|A1|Q02,Q02,Coherence,4,Gemini,4
+A-Volunteer1|Idea-to-Text|A5|Q02,Q02,Coherence,4,Gemini,4
+A-Volunteer1|Summarise|A9|Q02,Q02,Coherence,3,DeepSeek,4
+A-Volunteer1|Summarise|A10|Q02,Q02,Coherence,2,DeepSeek,4
+A-Volunteer1|Interpret|A15|Q02,Q02,Coherence,4,Flash,4
+A-Volunteer1|Interpret|A17|Q02,Q02,Coherence,3,Gemini,4
+A-Volunteer1|Idea-to-Text|A1|Q03,Q03,Conciseness,2,Gemini,1
+A-Volunteer1|Idea-to-Text|A5|Q03,Q03,Conciseness,3,DeepSeek,1
+A-Volunteer1|Summarise|A9|Q03,Q03,Conciseness,4,DeepSeek,1
+A-Volunteer1|Summarise|A10|Q03,Q03,Conciseness,2,DeepSeek,1
+A-Volunteer1|Interpret|A15|Q03,Q03,Conciseness,3,Gemini,1
+A-Volunteer1|Interpret|A17|Q03,Q03,Conciseness,3,Gemini,1
+A-Volunteer1|Idea-to-Text|A1|Q03,Q03,Conciseness,3,Qwen,2
+A-Volunteer1|Idea-to-Text|A5|Q03,Q03,Conciseness,2,Gemini,2
+A-Volunteer1|Summarise|A9|Q03,Q03,Conciseness,2,Gemini,2
+A-Volunteer1|Summarise|A10|Q03,Q03,Conciseness,1,Gemini,2
+A-Volunteer1|Interpret|A15|Q03,Q03,Conciseness,1,DeepSeek,2
+A-Volunteer1|Interpret|A17|Q03,Q03,Conciseness,4,DeepSeek,2
+A-Volunteer1|Idea-to-Text|A1|Q03,Q03,Conciseness,4,Flash,3
+A-Volunteer1|Idea-to-Text|A5|Q03,Q03,Conciseness,1,Qwen,3
+A-Volunteer1|Summarise|A9|Q03,Q03,Conciseness,1,Qwen,3
+A-Volunteer1|Summarise|A10|Q03,Q03,Conciseness,4,Flash,3
+A-Volunteer1|Interpret|A15|Q03,Q03,Conciseness,2,Flash,3
+A-Volunteer1|Interpret|A17|Q03,Q03,Conciseness,1,Qwen,3
+A-Volunteer1|Idea-to-Text|A1|Q03,Q03,Conciseness,1,DeepSeek,4
+A-Volunteer1|Idea-to-Text|A5|Q03,Q03,Conciseness,4,Flash,4
+A-Volunteer1|Summarise|A9|Q03,Q03,Conciseness,3,Flash,4
+A-Volunteer1|Summarise|A10|Q03,Q03,Conciseness,3,Qwen,4
+A-Volunteer1|Interpret|A15|Q03,Q03,Conciseness,4,Qwen,4
+A-Volunteer1|Interpret|A17|Q03,Q03,Conciseness,2,Flash,4
+A-Volunteer1|Idea-to-Text|A1|Q04,Q04,Accuracy,1,Qwen,1
+A-Volunteer1|Idea-to-Text|A5|Q04,Q04,Accuracy,1,Qwen,1
+A-Volunteer1|Summarise|A10|Q04,Q04,Accuracy,1,Gemini,1
+A-Volunteer1|Interpret|A15|Q04,Q04,Accuracy,1,DeepSeek,1
+A-Volunteer1|Interpret|A17|Q04,Q04,Accuracy,1,Flash,1
+A-Volunteer1|Idea-to-Text|A1|Q04,Q04,Accuracy,2,Flash,2
+A-Volunteer1|Idea-to-Text|A5|Q04,Q04,Accuracy,2,DeepSeek,2
+A-Volunteer1|Summarise|A10|Q04,Q04,Accuracy,2,DeepSeek,2
+A-Volunteer1|Interpret|A15|Q04,Q04,Accuracy,2,Qwen,2
+A-Volunteer1|Interpret|A17|Q04,Q04,Accuracy,2,Qwen,2
+A-Volunteer1|Idea-to-Text|A1|Q04,Q04,Accuracy,3,Gemini,3
+A-Volunteer1|Idea-to-Text|A5|Q04,Q04,Accuracy,3,Flash,3
+A-Volunteer1|Summarise|A10|Q04,Q04,Accuracy,3,Flash,3
+A-Volunteer1|Interpret|A15|Q04,Q04,Accuracy,3,Gemini,3
+A-Volunteer1|Interpret|A17|Q04,Q04,Accuracy,3,Gemini,3
+A-Volunteer1|Idea-to-Text|A1|Q04,Q04,Accuracy,4,DeepSeek,4
+A-Volunteer1|Idea-to-Text|A5|Q04,Q04,Accuracy,4,Gemini,4
+A-Volunteer1|Summarise|A10|Q04,Q04,Accuracy,4,Qwen,4
+A-Volunteer1|Interpret|A15|Q04,Q04,Accuracy,4,Flash,4
+A-Volunteer1|Interpret|A17|Q04,Q04,Accuracy,4,DeepSeek,4
+A-Volunteer1|Idea-to-Text|A1|Q05,Q05,Sentiment match,4,Qwen,1
+A-Volunteer1|Idea-to-Text|A5|Q05,Q05,Sentiment match,1,Qwen,1
+A-Volunteer1|Summarise|A10|Q05,Q05,Sentiment match,3,Qwen,1
+A-Volunteer1|Interpret|A15|Q05,Q05,Sentiment match,4,Qwen,1
+A-Volunteer1|Interpret|A17|Q05,Q05,Sentiment match,3,Qwen,1
+A-Volunteer1|Idea-to-Text|A1|Q05,Q05,Sentiment match,1,Flash,2
+A-Volunteer1|Idea-to-Text|A5|Q05,Q05,Sentiment match,2,Flash,2
+A-Volunteer1|Summarise|A10|Q05,Q05,Sentiment match,1,Flash,2
+A-Volunteer1|Interpret|A15|Q05,Q05,Sentiment match,1,Gemini,2
+A-Volunteer1|Interpret|A17|Q05,Q05,Sentiment match,1,Gemini,2
+A-Volunteer1|Idea-to-Text|A1|Q05,Q05,Sentiment match,3,DeepSeek,3
+A-Volunteer1|Idea-to-Text|A5|Q05,Q05,Sentiment match,4,DeepSeek,3
+A-Volunteer1|Summarise|A10|Q05,Q05,Sentiment match,4,Gemini,3
+A-Volunteer1|Interpret|A15|Q05,Q05,Sentiment match,2,Flash,3
+A-Volunteer1|Interpret|A17|Q05,Q05,Sentiment match,4,DeepSeek,3
+A-Volunteer1|Idea-to-Text|A1|Q05,Q05,Sentiment match,2,Gemini,4
+A-Volunteer1|Idea-to-Text|A5|Q05,Q05,Sentiment match,3,Gemini,4
+A-Volunteer1|Summarise|A10|Q05,Q05,Sentiment match,2,DeepSeek,4
+A-Volunteer1|Interpret|A15|Q05,Q05,Sentiment match,3,DeepSeek,4
+A-Volunteer1|Interpret|A17|Q05,Q05,Sentiment match,2,Flash,4
+A-Volunteer1|Idea-to-Text|A1|Q06,Q06,Motivational tone,4,DeepSeek,1
+A-Volunteer1|Idea-to-Text|A5|Q06,Q06,Motivational tone,3,Gemini,1
+A-Volunteer1|Summarise|A9|Q06,Q06,Motivational tone,2,Gemini,1
+A-Volunteer1|Summarise|A10|Q06,Q06,Motivational tone,4,Qwen,1
+A-Volunteer1|Interpret|A15|Q06,Q06,Motivational tone,3,Qwen,1
+A-Volunteer1|Interpret|A17|Q06,Q06,Motivational tone,3,Qwen,1
+A-Volunteer1|Idea-to-Text|A1|Q06,Q06,Motivational tone,3,Gemini,2
+A-Volunteer1|Idea-to-Text|A5|Q06,Q06,Motivational tone,1,DeepSeek,2
+A-Volunteer1|Summarise|A9|Q06,Q06,Motivational tone,3,Qwen,2
+A-Volunteer1|Summarise|A10|Q06,Q06,Motivational tone,2,Gemini,2
+A-Volunteer1|Interpret|A15|Q06,Q06,Motivational tone,1,Flash,2
+A-Volunteer1|Interpret|A17|Q06,Q06,Motivational tone,1,Flash,2
+A-Volunteer1|Idea-to-Text|A1|Q06,Q06,Motivational tone,2,Qwen,3
+A-Volunteer1|Idea-to-Text|A5|Q06,Q06,Motivational tone,2,Qwen,3
+A-Volunteer1|Summarise|A9|Q06,Q06,Motivational tone,4,Flash,3
+A-Volunteer1|Summarise|A10|Q06,Q06,Motivational tone,3,Flash,3
+A-Volunteer1|Interpret|A15|Q06,Q06,Motivational tone,2,DeepSeek,3
+A-Volunteer1|Interpret|A17|Q06,Q06,Motivational tone,4,Gemini,3
+A-Volunteer1|Idea-to-Text|A1|Q06,Q06,Motivational tone,1,Flash,4
+A-Volunteer1|Idea-to-Text|A5|Q06,Q06,Motivational tone,4,Flash,4
+A-Volunteer1|Summarise|A9|Q06,Q06,Motivational tone,1,DeepSeek,4
+A-Volunteer1|Summarise|A10|Q06,Q06,Motivational tone,1,DeepSeek,4
+A-Volunteer1|Interpret|A15|Q06,Q06,Motivational tone,4,Gemini,4
+A-Volunteer1|Interpret|A17|Q06,Q06,Motivational tone,2,DeepSeek,4
+A-Volunteer1|Idea-to-Text|A1|Q07,Q07,Constructiveness,1,DeepSeek,1
+A-Volunteer1|Idea-to-Text|A5|Q07,Q07,Constructiveness,3,Flash,1
+A-Volunteer1|Summarise|A9|Q07,Q07,Constructiveness,1,Qwen,1
+A-Volunteer1|Summarise|A10|Q07,Q07,Constructiveness,1,Qwen,1
+A-Volunteer1|Interpret|A15|Q07,Q07,Constructiveness,4,Qwen,1
+A-Volunteer1|Interpret|A17|Q07,Q07,Constructiveness,3,Qwen,1
+A-Volunteer1|Idea-to-Text|A1|Q07,Q07,Constructiveness,3,Flash,2
+A-Volunteer1|Idea-to-Text|A5|Q07,Q07,Constructiveness,2,Qwen,2
+A-Volunteer1|Summarise|A9|Q07,Q07,Constructiveness,4,Gemini,2
+A-Volunteer1|Summarise|A10|Q07,Q07,Constructiveness,4,Gemini,2
+A-Volunteer1|Interpret|A15|Q07,Q07,Constructiveness,2,DeepSeek,2
+A-Volunteer1|Interpret|A17|Q07,Q07,Constructiveness,2,DeepSeek,2
+A-Volunteer1|Idea-to-Text|A1|Q07,Q07,Constructiveness,2,Qwen,3
+A-Volunteer1|Idea-to-Text|A5|Q07,Q07,Constructiveness,1,DeepSeek,3
+A-Volunteer1|Summarise|A9|Q07,Q07,Constructiveness,3,Flash,3
+A-Volunteer1|Summarise|A10|Q07,Q07,Constructiveness,3,Flash,3
+A-Volunteer1|Interpret|A15|Q07,Q07,Constructiveness,3,Flash,3
+A-Volunteer1|Interpret|A17|Q07,Q07,Constructiveness,1,Gemini,3
+A-Volunteer1|Idea-to-Text|A1|Q07,Q07,Constructiveness,4,Gemini,4
+A-Volunteer1|Idea-to-Text|A5|Q07,Q07,Constructiveness,4,Gemini,4
+A-Volunteer1|Summarise|A9|Q07,Q07,Constructiveness,2,DeepSeek,4
+A-Volunteer1|Summarise|A10|Q07,Q07,Constructiveness,2,DeepSeek,4
+A-Volunteer1|Interpret|A15|Q07,Q07,Constructiveness,1,Gemini,4
+A-Volunteer1|Interpret|A17|Q07,Q07,Constructiveness,4,Flash,4
+A-Volunteer1|Idea-to-Text|A1|Q08,Q08,Final choice,3,Flash,1
+A-Volunteer1|Idea-to-Text|A5|Q08,Q08,Final choice,3,Flash,1
+A-Volunteer1|Summarise|A9|Q08,Q08,Final choice,2,Gemini,1
+A-Volunteer1|Interpret|A15|Q08,Q08,Final choice,3,Qwen,1
+A-Volunteer1|Interpret|A17|Q08,Q08,Final choice,1,Qwen,1
+A-Volunteer1|Idea-to-Text|A1|Q08,Q08,Final choice,4,DeepSeek,2
+A-Volunteer1|Idea-to-Text|A5|Q08,Q08,Final choice,2,DeepSeek,2
+A-Volunteer1|Summarise|A9|Q08,Q08,Final choice,3,Qwen,2
+A-Volunteer1|Interpret|A15|Q08,Q08,Final choice,2,Flash,2
+A-Volunteer1|Interpret|A17|Q08,Q08,Final choice,2,Gemini,2
+A-Volunteer1|Idea-to-Text|A1|Q08,Q08,Final choice,1,Qwen,3
+A-Volunteer1|Idea-to-Text|A5|Q08,Q08,Final choice,4,Qwen,3
+A-Volunteer1|Summarise|A9|Q08,Q08,Final choice,1,Flash,3
+A-Volunteer1|Interpret|A15|Q08,Q08,Final choice,4,DeepSeek,3
+A-Volunteer1|Interpret|A17|Q08,Q08,Final choice,4,DeepSeek,3
+A-Volunteer1|Idea-to-Text|A1|Q08,Q08,Final choice,2,Gemini,4
+A-Volunteer1|Idea-to-Text|A5|Q08,Q08,Final choice,1,Gemini,4
+A-Volunteer1|Summarise|A9|Q08,Q08,Final choice,4,DeepSeek,4
+A-Volunteer1|Interpret|A15|Q08,Q08,Final choice,1,Gemini,4
+A-Volunteer1|Interpret|A17|Q08,Q08,Final choice,3,Flash,4

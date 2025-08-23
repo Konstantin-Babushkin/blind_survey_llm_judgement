@@ -1,0 +1,1698 @@
+----- PROMPT 1: C1_Q01_Fluency -----
+You are Volunteer 5 in Group C.
+TASK TYPE: Idea-to-Text
+SAMPLE: C1
+CRITERION: Fluency
+
+INSTRUCTION:
+Rank from most to least smooth and error-free.
+
+ORIGINAL:
+Dean Phillips exceeds expectations individually but needs broader skills and stronger team communication.
+
+CANDIDATES:
+[1] Dean consistently exceeds expectations in individual contributions, demonstrating strong performance and initiative. To further grow, he should focus on developing broader skill sets and enhancing collaboration through more proactive and effective team communication. Strengthening these areas will support greater leadership impact and team success.
+[2] Dean, your individual performance consistently exceeds expectations – excellent work. To reach your full potential, focus is needed on developing broader skills and enhancing team communication. Strengthening these areas will allow you to leverage your strong individual contributions even more effectively within the team dynamic.
+[3] Dean, your individual performance consistently exceeds expectations. To enhance your overall impact and prepare for future roles, let's focus on broadening your skillset and strengthening your team communication.
+[4] Dean consistently surpasses individual performance targets, demonstrating exceptional skill and dedication. To further enhance his valuable contributions, Dean should focus on broadening his technical skill set and actively engaging in team communication. Developing these areas will enable him to take on more diverse challenges and strengthen collaborative efforts across the team.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer5|Idea-to-Text|C1|Q01",
+  "criterion": "Fluency",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 2: C1_Q02_Coherence -----
+You are Volunteer 5 in Group C.
+TASK TYPE: Idea-to-Text
+SAMPLE: C1
+CRITERION: Coherence
+
+INSTRUCTION:
+Rank from most to least logical and easy to follow.
+
+ORIGINAL:
+Dean Phillips exceeds expectations individually but needs broader skills and stronger team communication.
+
+CANDIDATES:
+[1] Dean, your individual performance consistently exceeds expectations – excellent work. To reach your full potential, focus is needed on developing broader skills and enhancing team communication. Strengthening these areas will allow you to leverage your strong individual contributions even more effectively within the team dynamic.
+[2] Dean consistently surpasses individual performance targets, demonstrating exceptional skill and dedication. To further enhance his valuable contributions, Dean should focus on broadening his technical skill set and actively engaging in team communication. Developing these areas will enable him to take on more diverse challenges and strengthen collaborative efforts across the team.
+[3] Dean consistently exceeds expectations in individual contributions, demonstrating strong performance and initiative. To further grow, he should focus on developing broader skill sets and enhancing collaboration through more proactive and effective team communication. Strengthening these areas will support greater leadership impact and team success.
+[4] Dean, your individual performance consistently exceeds expectations. To enhance your overall impact and prepare for future roles, let's focus on broadening your skillset and strengthening your team communication.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer5|Idea-to-Text|C1|Q02",
+  "criterion": "Coherence",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 3: C1_Q03_Conciseness -----
+You are Volunteer 5 in Group C.
+TASK TYPE: Idea-to-Text
+SAMPLE: C1
+CRITERION: Conciseness
+
+INSTRUCTION:
+Rank from most to least clear and compact.
+
+ORIGINAL:
+Dean Phillips exceeds expectations individually but needs broader skills and stronger team communication.
+
+CANDIDATES:
+[1] Dean, your individual performance consistently exceeds expectations – excellent work. To reach your full potential, focus is needed on developing broader skills and enhancing team communication. Strengthening these areas will allow you to leverage your strong individual contributions even more effectively within the team dynamic.
+[2] Dean, your individual performance consistently exceeds expectations. To enhance your overall impact and prepare for future roles, let's focus on broadening your skillset and strengthening your team communication.
+[3] Dean consistently exceeds expectations in individual contributions, demonstrating strong performance and initiative. To further grow, he should focus on developing broader skill sets and enhancing collaboration through more proactive and effective team communication. Strengthening these areas will support greater leadership impact and team success.
+[4] Dean consistently surpasses individual performance targets, demonstrating exceptional skill and dedication. To further enhance his valuable contributions, Dean should focus on broadening his technical skill set and actively engaging in team communication. Developing these areas will enable him to take on more diverse challenges and strengthen collaborative efforts across the team.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer5|Idea-to-Text|C1|Q03",
+  "criterion": "Conciseness",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 4: C1_Q04_Accuracy -----
+You are Volunteer 5 in Group C.
+TASK TYPE: Idea-to-Text
+SAMPLE: C1
+CRITERION: Accuracy
+
+INSTRUCTION:
+Select all texts that are factually correct given the Original.
+
+ORIGINAL:
+Dean Phillips exceeds expectations individually but needs broader skills and stronger team communication.
+
+CANDIDATES:
+[1] Dean consistently exceeds expectations in individual contributions, demonstrating strong performance and initiative. To further grow, he should focus on developing broader skill sets and enhancing collaboration through more proactive and effective team communication. Strengthening these areas will support greater leadership impact and team success.
+[2] Dean consistently surpasses individual performance targets, demonstrating exceptional skill and dedication. To further enhance his valuable contributions, Dean should focus on broadening his technical skill set and actively engaging in team communication. Developing these areas will enable him to take on more diverse challenges and strengthen collaborative efforts across the team.
+[3] Dean, your individual performance consistently exceeds expectations. To enhance your overall impact and prepare for future roles, let's focus on broadening your skillset and strengthening your team communication.
+[4] Dean, your individual performance consistently exceeds expectations – excellent work. To reach your full potential, focus is needed on developing broader skills and enhancing team communication. Strengthening these areas will allow you to leverage your strong individual contributions even more effectively within the team dynamic.
+
+Please select all outputs that are factually correct given the Original.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer5|Idea-to-Text|C1|Q04",
+  "criterion": "Accuracy",
+  "rating": [1, 3],
+  "justifications": {
+    "1": "why candidate 1 is correct/incorrect in one sentence",
+    "2": "why candidate 2 is correct/incorrect in one sentence",
+    "3": "why candidate 3 is correct/incorrect in one sentence",
+    "4": "why candidate 4 is correct/incorrect in one sentence"
+  }
+}
+
+
+----- PROMPT 5: C1_Q05_Sentimentmatch -----
+You are Volunteer 5 in Group C.
+TASK TYPE: Idea-to-Text
+SAMPLE: C1
+CRITERION: Sentiment match
+
+INSTRUCTION:
+Rank from most to least similar to the Original in style and sentiment.
+
+ORIGINAL:
+Dean Phillips exceeds expectations individually but needs broader skills and stronger team communication.
+
+CANDIDATES:
+[1] Dean consistently surpasses individual performance targets, demonstrating exceptional skill and dedication. To further enhance his valuable contributions, Dean should focus on broadening his technical skill set and actively engaging in team communication. Developing these areas will enable him to take on more diverse challenges and strengthen collaborative efforts across the team.
+[2] Dean, your individual performance consistently exceeds expectations. To enhance your overall impact and prepare for future roles, let's focus on broadening your skillset and strengthening your team communication.
+[3] Dean, your individual performance consistently exceeds expectations – excellent work. To reach your full potential, focus is needed on developing broader skills and enhancing team communication. Strengthening these areas will allow you to leverage your strong individual contributions even more effectively within the team dynamic.
+[4] Dean consistently exceeds expectations in individual contributions, demonstrating strong performance and initiative. To further grow, he should focus on developing broader skill sets and enhancing collaboration through more proactive and effective team communication. Strengthening these areas will support greater leadership impact and team success.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer5|Idea-to-Text|C1|Q05",
+  "criterion": "Sentiment match",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 6: C1_Q06_Motivationaltone -----
+You are Volunteer 5 in Group C.
+TASK TYPE: Idea-to-Text
+SAMPLE: C1
+CRITERION: Motivational tone
+
+INSTRUCTION:
+Rank from most to least empathetic and encouraging.
+
+ORIGINAL:
+Dean Phillips exceeds expectations individually but needs broader skills and stronger team communication.
+
+CANDIDATES:
+[1] Dean consistently surpasses individual performance targets, demonstrating exceptional skill and dedication. To further enhance his valuable contributions, Dean should focus on broadening his technical skill set and actively engaging in team communication. Developing these areas will enable him to take on more diverse challenges and strengthen collaborative efforts across the team.
+[2] Dean consistently exceeds expectations in individual contributions, demonstrating strong performance and initiative. To further grow, he should focus on developing broader skill sets and enhancing collaboration through more proactive and effective team communication. Strengthening these areas will support greater leadership impact and team success.
+[3] Dean, your individual performance consistently exceeds expectations. To enhance your overall impact and prepare for future roles, let's focus on broadening your skillset and strengthening your team communication.
+[4] Dean, your individual performance consistently exceeds expectations – excellent work. To reach your full potential, focus is needed on developing broader skills and enhancing team communication. Strengthening these areas will allow you to leverage your strong individual contributions even more effectively within the team dynamic.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer5|Idea-to-Text|C1|Q06",
+  "criterion": "Motivational tone",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 7: C1_Q07_Constructiveness -----
+You are Volunteer 5 in Group C.
+TASK TYPE: Idea-to-Text
+SAMPLE: C1
+CRITERION: Constructiveness
+
+INSTRUCTION:
+Rank from most to least helpful and constructive.
+
+ORIGINAL:
+Dean Phillips exceeds expectations individually but needs broader skills and stronger team communication.
+
+CANDIDATES:
+[1] Dean, your individual performance consistently exceeds expectations – excellent work. To reach your full potential, focus is needed on developing broader skills and enhancing team communication. Strengthening these areas will allow you to leverage your strong individual contributions even more effectively within the team dynamic.
+[2] Dean consistently exceeds expectations in individual contributions, demonstrating strong performance and initiative. To further grow, he should focus on developing broader skill sets and enhancing collaboration through more proactive and effective team communication. Strengthening these areas will support greater leadership impact and team success.
+[3] Dean consistently surpasses individual performance targets, demonstrating exceptional skill and dedication. To further enhance his valuable contributions, Dean should focus on broadening his technical skill set and actively engaging in team communication. Developing these areas will enable him to take on more diverse challenges and strengthen collaborative efforts across the team.
+[4] Dean, your individual performance consistently exceeds expectations. To enhance your overall impact and prepare for future roles, let's focus on broadening your skillset and strengthening your team communication.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer5|Idea-to-Text|C1|Q07",
+  "criterion": "Constructiveness",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 8: C1_Q08_Finalchoice -----
+You are Volunteer 5 in Group C.
+TASK TYPE: Idea-to-Text
+SAMPLE: C1
+CRITERION: Final choice
+
+INSTRUCTION:
+Rank from most to least suitable as a final version.
+
+ORIGINAL:
+Dean Phillips exceeds expectations individually but needs broader skills and stronger team communication.
+
+CANDIDATES:
+[1] Dean consistently exceeds expectations in individual contributions, demonstrating strong performance and initiative. To further grow, he should focus on developing broader skill sets and enhancing collaboration through more proactive and effective team communication. Strengthening these areas will support greater leadership impact and team success.
+[2] Dean, your individual performance consistently exceeds expectations. To enhance your overall impact and prepare for future roles, let's focus on broadening your skillset and strengthening your team communication.
+[3] Dean consistently surpasses individual performance targets, demonstrating exceptional skill and dedication. To further enhance his valuable contributions, Dean should focus on broadening his technical skill set and actively engaging in team communication. Developing these areas will enable him to take on more diverse challenges and strengthen collaborative efforts across the team.
+[4] Dean, your individual performance consistently exceeds expectations – excellent work. To reach your full potential, focus is needed on developing broader skills and enhancing team communication. Strengthening these areas will allow you to leverage your strong individual contributions even more effectively within the team dynamic.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer5|Idea-to-Text|C1|Q08",
+  "criterion": "Final choice",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 9: C4_Q01_Fluency -----
+You are Volunteer 5 in Group C.
+TASK TYPE: Idea-to-Text
+SAMPLE: C4
+CRITERION: Fluency
+
+INSTRUCTION:
+Rank from most to least smooth and error-free.
+
+ORIGINAL:
+Elliot Gray attends meetings but shows little ambition and rarely seeks clients; not promotion-ready.
+
+CANDIDATES:
+[1] Elliot, while you reliably attend meetings, we need to see greater initiative and proactive client engagement to demonstrate readiness for advancement. Currently, ambition appears low. Let's create a development roadmap focused on building these crucial skills for future growth opportunities.
+[2] Elliot consistently attends meetings, demonstrating a foundational level of engagement. However, to progress to the next level, Elliot needs to proactively seek out new client opportunities and demonstrate greater ambition in driving initiatives. Developing these areas will be crucial for future promotion considerations.
+[3] Elliot, while you are present in meetings, we have observed a lack of ambition, particularly in seeking new clients. Demonstrating greater proactivity and initiative is essential for you to be considered promotion-ready.
+[4] Elliot Gray consistently attends meetings and fulfills basic responsibilities, but demonstrates limited initiative and ambition. He rarely engages in client outreach or pursues business development opportunities, indicating a lack of proactive contribution. Given his current level of engagement, he is not yet ready for promotion. Greater initiative and a stronger drive to expand his impact would be essential for advancement.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer5|Idea-to-Text|C4|Q01",
+  "criterion": "Fluency",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 10: C4_Q02_Coherence -----
+You are Volunteer 5 in Group C.
+TASK TYPE: Idea-to-Text
+SAMPLE: C4
+CRITERION: Coherence
+
+INSTRUCTION:
+Rank from most to least logical and easy to follow.
+
+ORIGINAL:
+Elliot Gray attends meetings but shows little ambition and rarely seeks clients; not promotion-ready.
+
+CANDIDATES:
+[1] Elliot, while you reliably attend meetings, we need to see greater initiative and proactive client engagement to demonstrate readiness for advancement. Currently, ambition appears low. Let's create a development roadmap focused on building these crucial skills for future growth opportunities.
+[2] Elliot Gray consistently attends meetings and fulfills basic responsibilities, but demonstrates limited initiative and ambition. He rarely engages in client outreach or pursues business development opportunities, indicating a lack of proactive contribution. Given his current level of engagement, he is not yet ready for promotion. Greater initiative and a stronger drive to expand his impact would be essential for advancement.
+[3] Elliot consistently attends meetings, demonstrating a foundational level of engagement. However, to progress to the next level, Elliot needs to proactively seek out new client opportunities and demonstrate greater ambition in driving initiatives. Developing these areas will be crucial for future promotion considerations.
+[4] Elliot, while you are present in meetings, we have observed a lack of ambition, particularly in seeking new clients. Demonstrating greater proactivity and initiative is essential for you to be considered promotion-ready.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer5|Idea-to-Text|C4|Q02",
+  "criterion": "Coherence",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 11: C4_Q03_Conciseness -----
+You are Volunteer 5 in Group C.
+TASK TYPE: Idea-to-Text
+SAMPLE: C4
+CRITERION: Conciseness
+
+INSTRUCTION:
+Rank from most to least clear and compact.
+
+ORIGINAL:
+Elliot Gray attends meetings but shows little ambition and rarely seeks clients; not promotion-ready.
+
+CANDIDATES:
+[1] Elliot Gray consistently attends meetings and fulfills basic responsibilities, but demonstrates limited initiative and ambition. He rarely engages in client outreach or pursues business development opportunities, indicating a lack of proactive contribution. Given his current level of engagement, he is not yet ready for promotion. Greater initiative and a stronger drive to expand his impact would be essential for advancement.
+[2] Elliot, while you are present in meetings, we have observed a lack of ambition, particularly in seeking new clients. Demonstrating greater proactivity and initiative is essential for you to be considered promotion-ready.
+[3] Elliot, while you reliably attend meetings, we need to see greater initiative and proactive client engagement to demonstrate readiness for advancement. Currently, ambition appears low. Let's create a development roadmap focused on building these crucial skills for future growth opportunities.
+[4] Elliot consistently attends meetings, demonstrating a foundational level of engagement. However, to progress to the next level, Elliot needs to proactively seek out new client opportunities and demonstrate greater ambition in driving initiatives. Developing these areas will be crucial for future promotion considerations.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer5|Idea-to-Text|C4|Q03",
+  "criterion": "Conciseness",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 12: C4_Q04_Accuracy -----
+You are Volunteer 5 in Group C.
+TASK TYPE: Idea-to-Text
+SAMPLE: C4
+CRITERION: Accuracy
+
+INSTRUCTION:
+Select all texts that are factually correct given the Original.
+
+ORIGINAL:
+Elliot Gray attends meetings but shows little ambition and rarely seeks clients; not promotion-ready.
+
+CANDIDATES:
+[1] Elliot Gray consistently attends meetings and fulfills basic responsibilities, but demonstrates limited initiative and ambition. He rarely engages in client outreach or pursues business development opportunities, indicating a lack of proactive contribution. Given his current level of engagement, he is not yet ready for promotion. Greater initiative and a stronger drive to expand his impact would be essential for advancement.
+[2] Elliot, while you reliably attend meetings, we need to see greater initiative and proactive client engagement to demonstrate readiness for advancement. Currently, ambition appears low. Let's create a development roadmap focused on building these crucial skills for future growth opportunities.
+[3] Elliot consistently attends meetings, demonstrating a foundational level of engagement. However, to progress to the next level, Elliot needs to proactively seek out new client opportunities and demonstrate greater ambition in driving initiatives. Developing these areas will be crucial for future promotion considerations.
+[4] Elliot, while you are present in meetings, we have observed a lack of ambition, particularly in seeking new clients. Demonstrating greater proactivity and initiative is essential for you to be considered promotion-ready.
+
+Please select all outputs that are factually correct given the Original.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer5|Idea-to-Text|C4|Q04",
+  "criterion": "Accuracy",
+  "rating": [1, 3],
+  "justifications": {
+    "1": "why candidate 1 is correct/incorrect in one sentence",
+    "2": "why candidate 2 is correct/incorrect in one sentence",
+    "3": "why candidate 3 is correct/incorrect in one sentence",
+    "4": "why candidate 4 is correct/incorrect in one sentence"
+  }
+}
+
+
+----- PROMPT 13: C4_Q05_Sentimentmatch -----
+You are Volunteer 5 in Group C.
+TASK TYPE: Idea-to-Text
+SAMPLE: C4
+CRITERION: Sentiment match
+
+INSTRUCTION:
+Rank from most to least similar to the Original in style and sentiment.
+
+ORIGINAL:
+Elliot Gray attends meetings but shows little ambition and rarely seeks clients; not promotion-ready.
+
+CANDIDATES:
+[1] Elliot Gray consistently attends meetings and fulfills basic responsibilities, but demonstrates limited initiative and ambition. He rarely engages in client outreach or pursues business development opportunities, indicating a lack of proactive contribution. Given his current level of engagement, he is not yet ready for promotion. Greater initiative and a stronger drive to expand his impact would be essential for advancement.
+[2] Elliot consistently attends meetings, demonstrating a foundational level of engagement. However, to progress to the next level, Elliot needs to proactively seek out new client opportunities and demonstrate greater ambition in driving initiatives. Developing these areas will be crucial for future promotion considerations.
+[3] Elliot, while you are present in meetings, we have observed a lack of ambition, particularly in seeking new clients. Demonstrating greater proactivity and initiative is essential for you to be considered promotion-ready.
+[4] Elliot, while you reliably attend meetings, we need to see greater initiative and proactive client engagement to demonstrate readiness for advancement. Currently, ambition appears low. Let's create a development roadmap focused on building these crucial skills for future growth opportunities.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer5|Idea-to-Text|C4|Q05",
+  "criterion": "Sentiment match",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 14: C4_Q06_Motivationaltone -----
+You are Volunteer 5 in Group C.
+TASK TYPE: Idea-to-Text
+SAMPLE: C4
+CRITERION: Motivational tone
+
+INSTRUCTION:
+Rank from most to least empathetic and encouraging.
+
+ORIGINAL:
+Elliot Gray attends meetings but shows little ambition and rarely seeks clients; not promotion-ready.
+
+CANDIDATES:
+[1] Elliot, while you reliably attend meetings, we need to see greater initiative and proactive client engagement to demonstrate readiness for advancement. Currently, ambition appears low. Let's create a development roadmap focused on building these crucial skills for future growth opportunities.
+[2] Elliot Gray consistently attends meetings and fulfills basic responsibilities, but demonstrates limited initiative and ambition. He rarely engages in client outreach or pursues business development opportunities, indicating a lack of proactive contribution. Given his current level of engagement, he is not yet ready for promotion. Greater initiative and a stronger drive to expand his impact would be essential for advancement.
+[3] Elliot, while you are present in meetings, we have observed a lack of ambition, particularly in seeking new clients. Demonstrating greater proactivity and initiative is essential for you to be considered promotion-ready.
+[4] Elliot consistently attends meetings, demonstrating a foundational level of engagement. However, to progress to the next level, Elliot needs to proactively seek out new client opportunities and demonstrate greater ambition in driving initiatives. Developing these areas will be crucial for future promotion considerations.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer5|Idea-to-Text|C4|Q06",
+  "criterion": "Motivational tone",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 15: C4_Q07_Constructiveness -----
+You are Volunteer 5 in Group C.
+TASK TYPE: Idea-to-Text
+SAMPLE: C4
+CRITERION: Constructiveness
+
+INSTRUCTION:
+Rank from most to least helpful and constructive.
+
+ORIGINAL:
+Elliot Gray attends meetings but shows little ambition and rarely seeks clients; not promotion-ready.
+
+CANDIDATES:
+[1] Elliot, while you reliably attend meetings, we need to see greater initiative and proactive client engagement to demonstrate readiness for advancement. Currently, ambition appears low. Let's create a development roadmap focused on building these crucial skills for future growth opportunities.
+[2] Elliot Gray consistently attends meetings and fulfills basic responsibilities, but demonstrates limited initiative and ambition. He rarely engages in client outreach or pursues business development opportunities, indicating a lack of proactive contribution. Given his current level of engagement, he is not yet ready for promotion. Greater initiative and a stronger drive to expand his impact would be essential for advancement.
+[3] Elliot consistently attends meetings, demonstrating a foundational level of engagement. However, to progress to the next level, Elliot needs to proactively seek out new client opportunities and demonstrate greater ambition in driving initiatives. Developing these areas will be crucial for future promotion considerations.
+[4] Elliot, while you are present in meetings, we have observed a lack of ambition, particularly in seeking new clients. Demonstrating greater proactivity and initiative is essential for you to be considered promotion-ready.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer5|Idea-to-Text|C4|Q07",
+  "criterion": "Constructiveness",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 16: C4_Q08_Finalchoice -----
+You are Volunteer 5 in Group C.
+TASK TYPE: Idea-to-Text
+SAMPLE: C4
+CRITERION: Final choice
+
+INSTRUCTION:
+Rank from most to least suitable as a final version.
+
+ORIGINAL:
+Elliot Gray attends meetings but shows little ambition and rarely seeks clients; not promotion-ready.
+
+CANDIDATES:
+[1] Elliot, while you are present in meetings, we have observed a lack of ambition, particularly in seeking new clients. Demonstrating greater proactivity and initiative is essential for you to be considered promotion-ready.
+[2] Elliot, while you reliably attend meetings, we need to see greater initiative and proactive client engagement to demonstrate readiness for advancement. Currently, ambition appears low. Let's create a development roadmap focused on building these crucial skills for future growth opportunities.
+[3] Elliot consistently attends meetings, demonstrating a foundational level of engagement. However, to progress to the next level, Elliot needs to proactively seek out new client opportunities and demonstrate greater ambition in driving initiatives. Developing these areas will be crucial for future promotion considerations.
+[4] Elliot Gray consistently attends meetings and fulfills basic responsibilities, but demonstrates limited initiative and ambition. He rarely engages in client outreach or pursues business development opportunities, indicating a lack of proactive contribution. Given his current level of engagement, he is not yet ready for promotion. Greater initiative and a stronger drive to expand his impact would be essential for advancement.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer5|Idea-to-Text|C4|Q08",
+  "criterion": "Final choice",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT SC1: SanityCheck_IdeaToText_Accuracy -----
+TASK TYPE: Idea-to-Text
+SAMPLE: SC1
+CRITERION: Accuracy
+
+INSTRUCTION:
+Rank from most to least factually correct given the Original.
+
+ORIGINAL:
+The sun appears to rise each morning from the eastern horizon before setting in the west
+
+CANDIDATES:
+[1] The sun rises in the east.
+[2] The sun rises in the west.
+[3] The moon rises in the east.
+[4] The sun never rises.
+
+Please rank outputs strictly from most accurate (1) to least accurate (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "Idea-to-Text|SC1|Q04",
+  "criterion": "Accuracy",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 17: C11_Q01_Fluency -----
+You are Volunteer 5 in Group C.
+TASK TYPE: Summarise
+SAMPLE: C11
+CRITERION: Fluency
+
+INSTRUCTION:
+Rank from most to least smooth and error-free.
+
+ORIGINAL:
+Mr. Burgess has good communication skills and works well with the team. He shows great leadership potential and the ability to rally a group around a common cause.
+
+CANDIDATES:
+[1] Mr. Burgess is a strong team player with excellent communication skills. He shows great leadership potential and an ability to motivate colleagues.
+[2] Mr. Burgess demonstrates strong communication, teamwork, and leadership potential, effectively uniting groups toward shared goals.
+[3] Burgess: Good communication, works well with team. Shows great leadership potential.
+[4] Burgess communicates well, is a team player, and shows strong leadership potential, effectively uniting groups.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer5|Summarise|C11|Q01",
+  "criterion": "Fluency",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 18: C11_Q02_Coherence -----
+You are Volunteer 5 in Group C.
+TASK TYPE: Summarise
+SAMPLE: C11
+CRITERION: Coherence
+
+INSTRUCTION:
+Rank from most to least logical and easy to follow.
+
+ORIGINAL:
+Mr. Burgess has good communication skills and works well with the team. He shows great leadership potential and the ability to rally a group around a common cause.
+
+CANDIDATES:
+[1] Mr. Burgess demonstrates strong communication, teamwork, and leadership potential, effectively uniting groups toward shared goals.
+[2] Mr. Burgess is a strong team player with excellent communication skills. He shows great leadership potential and an ability to motivate colleagues.
+[3] Burgess: Good communication, works well with team. Shows great leadership potential.
+[4] Burgess communicates well, is a team player, and shows strong leadership potential, effectively uniting groups.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer5|Summarise|C11|Q02",
+  "criterion": "Coherence",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 19: C11_Q03_Conciseness -----
+You are Volunteer 5 in Group C.
+TASK TYPE: Summarise
+SAMPLE: C11
+CRITERION: Conciseness
+
+INSTRUCTION:
+Rank from most to least clear and compact.
+
+ORIGINAL:
+Mr. Burgess has good communication skills and works well with the team. He shows great leadership potential and the ability to rally a group around a common cause.
+
+CANDIDATES:
+[1] Mr. Burgess demonstrates strong communication, teamwork, and leadership potential, effectively uniting groups toward shared goals.
+[2] Mr. Burgess is a strong team player with excellent communication skills. He shows great leadership potential and an ability to motivate colleagues.
+[3] Burgess communicates well, is a team player, and shows strong leadership potential, effectively uniting groups.
+[4] Burgess: Good communication, works well with team. Shows great leadership potential.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer5|Summarise|C11|Q03",
+  "criterion": "Conciseness",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 20: C11_Q04_Accuracy -----
+You are Volunteer 5 in Group C.
+TASK TYPE: Summarise
+SAMPLE: C11
+CRITERION: Accuracy
+
+INSTRUCTION:
+Select all texts that are factually correct given the Original.
+
+ORIGINAL:
+Mr. Burgess has good communication skills and works well with the team. He shows great leadership potential and the ability to rally a group around a common cause.
+
+CANDIDATES:
+[1] Mr. Burgess demonstrates strong communication, teamwork, and leadership potential, effectively uniting groups toward shared goals.
+[2] Burgess: Good communication, works well with team. Shows great leadership potential.
+[3] Burgess communicates well, is a team player, and shows strong leadership potential, effectively uniting groups.
+[4] Mr. Burgess is a strong team player with excellent communication skills. He shows great leadership potential and an ability to motivate colleagues.
+
+Please select all outputs that are factually correct given the Original.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer5|Summarise|C11|Q04",
+  "criterion": "Accuracy",
+  "rating": [1, 3],
+  "justifications": {
+    "1": "why candidate 1 is correct/incorrect in one sentence",
+    "2": "why candidate 2 is correct/incorrect in one sentence",
+    "3": "why candidate 3 is correct/incorrect in one sentence",
+    "4": "why candidate 4 is correct/incorrect in one sentence"
+  }
+}
+
+
+----- PROMPT 21: C11_Q05_Sentimentmatch -----
+You are Volunteer 5 in Group C.
+TASK TYPE: Summarise
+SAMPLE: C11
+CRITERION: Sentiment match
+
+INSTRUCTION:
+Rank from most to least similar to the Original in style and sentiment.
+
+ORIGINAL:
+Mr. Burgess has good communication skills and works well with the team. He shows great leadership potential and the ability to rally a group around a common cause.
+
+CANDIDATES:
+[1] Mr. Burgess is a strong team player with excellent communication skills. He shows great leadership potential and an ability to motivate colleagues.
+[2] Burgess communicates well, is a team player, and shows strong leadership potential, effectively uniting groups.
+[3] Burgess: Good communication, works well with team. Shows great leadership potential.
+[4] Mr. Burgess demonstrates strong communication, teamwork, and leadership potential, effectively uniting groups toward shared goals.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer5|Summarise|C11|Q05",
+  "criterion": "Sentiment match",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 22: C11_Q06_Motivationaltone -----
+You are Volunteer 5 in Group C.
+TASK TYPE: Summarise
+SAMPLE: C11
+CRITERION: Motivational tone
+
+INSTRUCTION:
+Rank from most to least empathetic and encouraging.
+
+ORIGINAL:
+Mr. Burgess has good communication skills and works well with the team. He shows great leadership potential and the ability to rally a group around a common cause.
+
+CANDIDATES:
+[1] Burgess: Good communication, works well with team. Shows great leadership potential.
+[2] Mr. Burgess is a strong team player with excellent communication skills. He shows great leadership potential and an ability to motivate colleagues.
+[3] Mr. Burgess demonstrates strong communication, teamwork, and leadership potential, effectively uniting groups toward shared goals.
+[4] Burgess communicates well, is a team player, and shows strong leadership potential, effectively uniting groups.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer5|Summarise|C11|Q06",
+  "criterion": "Motivational tone",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 23: C11_Q07_Constructiveness -----
+You are Volunteer 5 in Group C.
+TASK TYPE: Summarise
+SAMPLE: C11
+CRITERION: Constructiveness
+
+INSTRUCTION:
+Rank from most to least helpful and constructive.
+
+ORIGINAL:
+Mr. Burgess has good communication skills and works well with the team. He shows great leadership potential and the ability to rally a group around a common cause.
+
+CANDIDATES:
+[1] Mr. Burgess demonstrates strong communication, teamwork, and leadership potential, effectively uniting groups toward shared goals.
+[2] Burgess: Good communication, works well with team. Shows great leadership potential.
+[3] Burgess communicates well, is a team player, and shows strong leadership potential, effectively uniting groups.
+[4] Mr. Burgess is a strong team player with excellent communication skills. He shows great leadership potential and an ability to motivate colleagues.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer5|Summarise|C11|Q07",
+  "criterion": "Constructiveness",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 24: C11_Q08_Finalchoice -----
+You are Volunteer 5 in Group C.
+TASK TYPE: Summarise
+SAMPLE: C11
+CRITERION: Final choice
+
+INSTRUCTION:
+Rank from most to least suitable as a final version.
+
+ORIGINAL:
+Mr. Burgess has good communication skills and works well with the team. He shows great leadership potential and the ability to rally a group around a common cause.
+
+CANDIDATES:
+[1] Burgess communicates well, is a team player, and shows strong leadership potential, effectively uniting groups.
+[2] Mr. Burgess is a strong team player with excellent communication skills. He shows great leadership potential and an ability to motivate colleagues.
+[3] Mr. Burgess demonstrates strong communication, teamwork, and leadership potential, effectively uniting groups toward shared goals.
+[4] Burgess: Good communication, works well with team. Shows great leadership potential.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer5|Summarise|C11|Q08",
+  "criterion": "Final choice",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 25: C12_Q01_Fluency -----
+You are Volunteer 5 in Group C.
+TASK TYPE: Summarise
+SAMPLE: C12
+CRITERION: Fluency
+
+INSTRUCTION:
+Rank from most to least smooth and error-free.
+
+ORIGINAL:
+Kayden Hill struggles with the tasks set before him. He is easily frustrated, and tends to want to give up. He is aloof with his team. He seems unhappy with where he is within the team.
+
+CANDIDATES:
+[1] Kayden is frustrated, struggles with tasks, and is disengaged from his team. He appears unhappy with his current role.
+[2] Kayden struggles with his tasks, is easily frustrated, and is aloof with his team. He seems unhappy and has a negative attitude in his role.
+[3] Kayden: Struggles with tasks, easily frustrated, wants to give up. Aloof with team, seems unhappy.
+[4] Kayden Hill struggles with assigned tasks, becomes easily frustrated, and tends to give up. He is disengaged with his team and appears unhappy in his current role.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer5|Summarise|C12|Q01",
+  "criterion": "Fluency",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 26: C12_Q02_Coherence -----
+You are Volunteer 5 in Group C.
+TASK TYPE: Summarise
+SAMPLE: C12
+CRITERION: Coherence
+
+INSTRUCTION:
+Rank from most to least logical and easy to follow.
+
+ORIGINAL:
+Kayden Hill struggles with the tasks set before him. He is easily frustrated, and tends to want to give up. He is aloof with his team. He seems unhappy with where he is within the team.
+
+CANDIDATES:
+[1] Kayden Hill struggles with assigned tasks, becomes easily frustrated, and tends to give up. He is disengaged with his team and appears unhappy in his current role.
+[2] Kayden: Struggles with tasks, easily frustrated, wants to give up. Aloof with team, seems unhappy.
+[3] Kayden is frustrated, struggles with tasks, and is disengaged from his team. He appears unhappy with his current role.
+[4] Kayden struggles with his tasks, is easily frustrated, and is aloof with his team. He seems unhappy and has a negative attitude in his role.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer5|Summarise|C12|Q02",
+  "criterion": "Coherence",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 27: C12_Q03_Conciseness -----
+You are Volunteer 5 in Group C.
+TASK TYPE: Summarise
+SAMPLE: C12
+CRITERION: Conciseness
+
+INSTRUCTION:
+Rank from most to least clear and compact.
+
+ORIGINAL:
+Kayden Hill struggles with the tasks set before him. He is easily frustrated, and tends to want to give up. He is aloof with his team. He seems unhappy with where he is within the team.
+
+CANDIDATES:
+[1] Kayden struggles with his tasks, is easily frustrated, and is aloof with his team. He seems unhappy and has a negative attitude in his role.
+[2] Kayden: Struggles with tasks, easily frustrated, wants to give up. Aloof with team, seems unhappy.
+[3] Kayden Hill struggles with assigned tasks, becomes easily frustrated, and tends to give up. He is disengaged with his team and appears unhappy in his current role.
+[4] Kayden is frustrated, struggles with tasks, and is disengaged from his team. He appears unhappy with his current role.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer5|Summarise|C12|Q03",
+  "criterion": "Conciseness",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 28: C12_Q04_Accuracy -----
+You are Volunteer 5 in Group C.
+TASK TYPE: Summarise
+SAMPLE: C12
+CRITERION: Accuracy
+
+INSTRUCTION:
+Select all texts that are factually correct given the Original.
+
+ORIGINAL:
+Kayden Hill struggles with the tasks set before him. He is easily frustrated, and tends to want to give up. He is aloof with his team. He seems unhappy with where he is within the team.
+
+CANDIDATES:
+[1] Kayden struggles with his tasks, is easily frustrated, and is aloof with his team. He seems unhappy and has a negative attitude in his role.
+[2] Kayden: Struggles with tasks, easily frustrated, wants to give up. Aloof with team, seems unhappy.
+[3] Kayden is frustrated, struggles with tasks, and is disengaged from his team. He appears unhappy with his current role.
+[4] Kayden Hill struggles with assigned tasks, becomes easily frustrated, and tends to give up. He is disengaged with his team and appears unhappy in his current role.
+
+Please select all outputs that are factually correct given the Original.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer5|Summarise|C12|Q04",
+  "criterion": "Accuracy",
+  "rating": [1, 3],
+  "justifications": {
+    "1": "why candidate 1 is correct/incorrect in one sentence",
+    "2": "why candidate 2 is correct/incorrect in one sentence",
+    "3": "why candidate 3 is correct/incorrect in one sentence",
+    "4": "why candidate 4 is correct/incorrect in one sentence"
+  }
+}
+
+
+----- PROMPT 29: C12_Q05_Sentimentmatch -----
+You are Volunteer 5 in Group C.
+TASK TYPE: Summarise
+SAMPLE: C12
+CRITERION: Sentiment match
+
+INSTRUCTION:
+Rank from most to least similar to the Original in style and sentiment.
+
+ORIGINAL:
+Kayden Hill struggles with the tasks set before him. He is easily frustrated, and tends to want to give up. He is aloof with his team. He seems unhappy with where he is within the team.
+
+CANDIDATES:
+[1] Kayden is frustrated, struggles with tasks, and is disengaged from his team. He appears unhappy with his current role.
+[2] Kayden: Struggles with tasks, easily frustrated, wants to give up. Aloof with team, seems unhappy.
+[3] Kayden Hill struggles with assigned tasks, becomes easily frustrated, and tends to give up. He is disengaged with his team and appears unhappy in his current role.
+[4] Kayden struggles with his tasks, is easily frustrated, and is aloof with his team. He seems unhappy and has a negative attitude in his role.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer5|Summarise|C12|Q05",
+  "criterion": "Sentiment match",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 30: C12_Q06_Motivationaltone -----
+You are Volunteer 5 in Group C.
+TASK TYPE: Summarise
+SAMPLE: C12
+CRITERION: Motivational tone
+
+INSTRUCTION:
+Rank from most to least empathetic and encouraging.
+
+ORIGINAL:
+Kayden Hill struggles with the tasks set before him. He is easily frustrated, and tends to want to give up. He is aloof with his team. He seems unhappy with where he is within the team.
+
+CANDIDATES:
+[1] Kayden: Struggles with tasks, easily frustrated, wants to give up. Aloof with team, seems unhappy.
+[2] Kayden struggles with his tasks, is easily frustrated, and is aloof with his team. He seems unhappy and has a negative attitude in his role.
+[3] Kayden is frustrated, struggles with tasks, and is disengaged from his team. He appears unhappy with his current role.
+[4] Kayden Hill struggles with assigned tasks, becomes easily frustrated, and tends to give up. He is disengaged with his team and appears unhappy in his current role.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer5|Summarise|C12|Q06",
+  "criterion": "Motivational tone",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 31: C12_Q07_Constructiveness -----
+You are Volunteer 5 in Group C.
+TASK TYPE: Summarise
+SAMPLE: C12
+CRITERION: Constructiveness
+
+INSTRUCTION:
+Rank from most to least helpful and constructive.
+
+ORIGINAL:
+Kayden Hill struggles with the tasks set before him. He is easily frustrated, and tends to want to give up. He is aloof with his team. He seems unhappy with where he is within the team.
+
+CANDIDATES:
+[1] Kayden Hill struggles with assigned tasks, becomes easily frustrated, and tends to give up. He is disengaged with his team and appears unhappy in his current role.
+[2] Kayden: Struggles with tasks, easily frustrated, wants to give up. Aloof with team, seems unhappy.
+[3] Kayden is frustrated, struggles with tasks, and is disengaged from his team. He appears unhappy with his current role.
+[4] Kayden struggles with his tasks, is easily frustrated, and is aloof with his team. He seems unhappy and has a negative attitude in his role.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer5|Summarise|C12|Q07",
+  "criterion": "Constructiveness",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 32: C12_Q08_Finalchoice -----
+You are Volunteer 5 in Group C.
+TASK TYPE: Summarise
+SAMPLE: C12
+CRITERION: Final choice
+
+INSTRUCTION:
+Rank from most to least suitable as a final version.
+
+ORIGINAL:
+Kayden Hill struggles with the tasks set before him. He is easily frustrated, and tends to want to give up. He is aloof with his team. He seems unhappy with where he is within the team.
+
+CANDIDATES:
+[1] Kayden struggles with his tasks, is easily frustrated, and is aloof with his team. He seems unhappy and has a negative attitude in his role.
+[2] Kayden is frustrated, struggles with tasks, and is disengaged from his team. He appears unhappy with his current role.
+[3] Kayden: Struggles with tasks, easily frustrated, wants to give up. Aloof with team, seems unhappy.
+[4] Kayden Hill struggles with assigned tasks, becomes easily frustrated, and tends to give up. He is disengaged with his team and appears unhappy in his current role.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer5|Summarise|C12|Q08",
+  "criterion": "Final choice",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT SC2: SanityCheck_Summarise_Accuracy -----
+TASK TYPE: Summarise
+SAMPLE: SC2
+CRITERION: Accuracy
+
+INSTRUCTION:
+Rank from most to least factually correct given the Original.
+
+ORIGINAL:
+Pure water begins to freeze at exactly zero degrees Celsius
+
+CANDIDATES:
+[1] Water freezes at at 0°C.
+[2] Water freezes at 100°C.
+[3] Water boils at 0°C.
+[4] Ice melts at 0°C.
+
+Please rank outputs strictly from most accurate (1) to least accurate (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "Summarise|SC2|Q04",
+  "criterion": "Accuracy",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 33: C14_Q01_Fluency -----
+You are Volunteer 5 in Group C.
+TASK TYPE: Interpret
+SAMPLE: C14
+CRITERION: Fluency
+
+INSTRUCTION:
+Rank from most to least smooth and error-free.
+
+ORIGINAL:
+Thaddeus is a talented resource though he is not focused many of the times. He is able to contribute up to 80% of his abilities & skill set. Would like him to work on his weaknesses & multiply strength areas in order to become a better contributor. He is a vital member of the team for this project. However, would like him to become a main asset in fulfilling team objectives on regular occasions to climb up the ladder in hierarchy.
+
+CANDIDATES:
+[1] Thaddeus is recognized for his talent and currently contributes about 80% of his potential, but inconsistent focus limits his impact. This feedback means he has strong capabilities, yet underutilizes them, which affects team outcomes. To grow into a more vital, consistent asset and advance professionally, Thaddeus should actively work on strengthening focus, addressing weaknesses, and deepening his key skills. Recommended actions: (1) Set daily priorities with clear goals to improve focus, (2) Seek regular feedback to identify blind spots, (3) Take ownership of one key project task weekly to build accountability, and (4) Dedicate time to skill development in areas critical to team success.
+[2] Feedback means Thaddeus leverages only 80% of his talent due to focus gaps, limiting advancement despite being vital. This suggests unlocking full potential could accelerate his growth. Thaddeus should: 1) Block 2 daily "deep work" hours distraction-free, 2) Map strengths/weaknesses with his manager next week, 3) Lead one small team objective monthly to demonstrate consistency. (289 chars)
+[3] Thaddeus is a talented, vital team member whose lack of focus prevents him from reaching his full potential. This limits his advancement. He should ask his manager to define key focus areas and use time management techniques to improve his consistency and impact on team goals.
+[4] Thaddeus, this feedback indicates you are a valued, talented team member, but your focus sometimes wavers, preventing you from utilizing your full potential (80% of abilities). To grow, you need to address weaknesses and leverage strengths to become a more consistent, primary contributor to team objectives, which is key for career advancement. Thaddeus should now identify specific areas where focus is lacking, seek opportunities to apply his strengths more consistently, and proactively communicate his commitment to maximizing his contributions.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer5|Interpret|C14|Q01",
+  "criterion": "Fluency",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 34: C14_Q02_Coherence -----
+You are Volunteer 5 in Group C.
+TASK TYPE: Interpret
+SAMPLE: C14
+CRITERION: Coherence
+
+INSTRUCTION:
+Rank from most to least logical and easy to follow.
+
+ORIGINAL:
+Thaddeus is a talented resource though he is not focused many of the times. He is able to contribute up to 80% of his abilities & skill set. Would like him to work on his weaknesses & multiply strength areas in order to become a better contributor. He is a vital member of the team for this project. However, would like him to become a main asset in fulfilling team objectives on regular occasions to climb up the ladder in hierarchy.
+
+CANDIDATES:
+[1] Feedback means Thaddeus leverages only 80% of his talent due to focus gaps, limiting advancement despite being vital. This suggests unlocking full potential could accelerate his growth. Thaddeus should: 1) Block 2 daily "deep work" hours distraction-free, 2) Map strengths/weaknesses with his manager next week, 3) Lead one small team objective monthly to demonstrate consistency. (289 chars)
+[2] Thaddeus is recognized for his talent and currently contributes about 80% of his potential, but inconsistent focus limits his impact. This feedback means he has strong capabilities, yet underutilizes them, which affects team outcomes. To grow into a more vital, consistent asset and advance professionally, Thaddeus should actively work on strengthening focus, addressing weaknesses, and deepening his key skills. Recommended actions: (1) Set daily priorities with clear goals to improve focus, (2) Seek regular feedback to identify blind spots, (3) Take ownership of one key project task weekly to build accountability, and (4) Dedicate time to skill development in areas critical to team success.
+[3] Thaddeus is a talented, vital team member whose lack of focus prevents him from reaching his full potential. This limits his advancement. He should ask his manager to define key focus areas and use time management techniques to improve his consistency and impact on team goals.
+[4] Thaddeus, this feedback indicates you are a valued, talented team member, but your focus sometimes wavers, preventing you from utilizing your full potential (80% of abilities). To grow, you need to address weaknesses and leverage strengths to become a more consistent, primary contributor to team objectives, which is key for career advancement. Thaddeus should now identify specific areas where focus is lacking, seek opportunities to apply his strengths more consistently, and proactively communicate his commitment to maximizing his contributions.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer5|Interpret|C14|Q02",
+  "criterion": "Coherence",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 35: C14_Q03_Conciseness -----
+You are Volunteer 5 in Group C.
+TASK TYPE: Interpret
+SAMPLE: C14
+CRITERION: Conciseness
+
+INSTRUCTION:
+Rank from most to least clear and compact.
+
+ORIGINAL:
+Thaddeus is a talented resource though he is not focused many of the times. He is able to contribute up to 80% of his abilities & skill set. Would like him to work on his weaknesses & multiply strength areas in order to become a better contributor. He is a vital member of the team for this project. However, would like him to become a main asset in fulfilling team objectives on regular occasions to climb up the ladder in hierarchy.
+
+CANDIDATES:
+[1] Feedback means Thaddeus leverages only 80% of his talent due to focus gaps, limiting advancement despite being vital. This suggests unlocking full potential could accelerate his growth. Thaddeus should: 1) Block 2 daily "deep work" hours distraction-free, 2) Map strengths/weaknesses with his manager next week, 3) Lead one small team objective monthly to demonstrate consistency. (289 chars)
+[2] Thaddeus, this feedback indicates you are a valued, talented team member, but your focus sometimes wavers, preventing you from utilizing your full potential (80% of abilities). To grow, you need to address weaknesses and leverage strengths to become a more consistent, primary contributor to team objectives, which is key for career advancement. Thaddeus should now identify specific areas where focus is lacking, seek opportunities to apply his strengths more consistently, and proactively communicate his commitment to maximizing his contributions.
+[3] Thaddeus is a talented, vital team member whose lack of focus prevents him from reaching his full potential. This limits his advancement. He should ask his manager to define key focus areas and use time management techniques to improve his consistency and impact on team goals.
+[4] Thaddeus is recognized for his talent and currently contributes about 80% of his potential, but inconsistent focus limits his impact. This feedback means he has strong capabilities, yet underutilizes them, which affects team outcomes. To grow into a more vital, consistent asset and advance professionally, Thaddeus should actively work on strengthening focus, addressing weaknesses, and deepening his key skills. Recommended actions: (1) Set daily priorities with clear goals to improve focus, (2) Seek regular feedback to identify blind spots, (3) Take ownership of one key project task weekly to build accountability, and (4) Dedicate time to skill development in areas critical to team success.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer5|Interpret|C14|Q03",
+  "criterion": "Conciseness",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 36: C14_Q04_Accuracy -----
+You are Volunteer 5 in Group C.
+TASK TYPE: Interpret
+SAMPLE: C14
+CRITERION: Accuracy
+
+INSTRUCTION:
+Select all texts that are factually correct given the Original.
+
+ORIGINAL:
+Thaddeus is a talented resource though he is not focused many of the times. He is able to contribute up to 80% of his abilities & skill set. Would like him to work on his weaknesses & multiply strength areas in order to become a better contributor. He is a vital member of the team for this project. However, would like him to become a main asset in fulfilling team objectives on regular occasions to climb up the ladder in hierarchy.
+
+CANDIDATES:
+[1] Feedback means Thaddeus leverages only 80% of his talent due to focus gaps, limiting advancement despite being vital. This suggests unlocking full potential could accelerate his growth. Thaddeus should: 1) Block 2 daily "deep work" hours distraction-free, 2) Map strengths/weaknesses with his manager next week, 3) Lead one small team objective monthly to demonstrate consistency. (289 chars)
+[2] Thaddeus is recognized for his talent and currently contributes about 80% of his potential, but inconsistent focus limits his impact. This feedback means he has strong capabilities, yet underutilizes them, which affects team outcomes. To grow into a more vital, consistent asset and advance professionally, Thaddeus should actively work on strengthening focus, addressing weaknesses, and deepening his key skills. Recommended actions: (1) Set daily priorities with clear goals to improve focus, (2) Seek regular feedback to identify blind spots, (3) Take ownership of one key project task weekly to build accountability, and (4) Dedicate time to skill development in areas critical to team success.
+[3] Thaddeus is a talented, vital team member whose lack of focus prevents him from reaching his full potential. This limits his advancement. He should ask his manager to define key focus areas and use time management techniques to improve his consistency and impact on team goals.
+[4] Thaddeus, this feedback indicates you are a valued, talented team member, but your focus sometimes wavers, preventing you from utilizing your full potential (80% of abilities). To grow, you need to address weaknesses and leverage strengths to become a more consistent, primary contributor to team objectives, which is key for career advancement. Thaddeus should now identify specific areas where focus is lacking, seek opportunities to apply his strengths more consistently, and proactively communicate his commitment to maximizing his contributions.
+
+Please select all outputs that are factually correct given the Original.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer5|Interpret|C14|Q04",
+  "criterion": "Accuracy",
+  "rating": [1, 3],
+  "justifications": {
+    "1": "why candidate 1 is correct/incorrect in one sentence",
+    "2": "why candidate 2 is correct/incorrect in one sentence",
+    "3": "why candidate 3 is correct/incorrect in one sentence",
+    "4": "why candidate 4 is correct/incorrect in one sentence"
+  }
+}
+
+
+----- PROMPT 37: C14_Q05_Sentimentmatch -----
+You are Volunteer 5 in Group C.
+TASK TYPE: Interpret
+SAMPLE: C14
+CRITERION: Sentiment match
+
+INSTRUCTION:
+Rank from most to least similar to the Original in style and sentiment.
+
+ORIGINAL:
+Thaddeus is a talented resource though he is not focused many of the times. He is able to contribute up to 80% of his abilities & skill set. Would like him to work on his weaknesses & multiply strength areas in order to become a better contributor. He is a vital member of the team for this project. However, would like him to become a main asset in fulfilling team objectives on regular occasions to climb up the ladder in hierarchy.
+
+CANDIDATES:
+[1] Thaddeus is a talented, vital team member whose lack of focus prevents him from reaching his full potential. This limits his advancement. He should ask his manager to define key focus areas and use time management techniques to improve his consistency and impact on team goals.
+[2] Thaddeus, this feedback indicates you are a valued, talented team member, but your focus sometimes wavers, preventing you from utilizing your full potential (80% of abilities). To grow, you need to address weaknesses and leverage strengths to become a more consistent, primary contributor to team objectives, which is key for career advancement. Thaddeus should now identify specific areas where focus is lacking, seek opportunities to apply his strengths more consistently, and proactively communicate his commitment to maximizing his contributions.
+[3] Feedback means Thaddeus leverages only 80% of his talent due to focus gaps, limiting advancement despite being vital. This suggests unlocking full potential could accelerate his growth. Thaddeus should: 1) Block 2 daily "deep work" hours distraction-free, 2) Map strengths/weaknesses with his manager next week, 3) Lead one small team objective monthly to demonstrate consistency. (289 chars)
+[4] Thaddeus is recognized for his talent and currently contributes about 80% of his potential, but inconsistent focus limits his impact. This feedback means he has strong capabilities, yet underutilizes them, which affects team outcomes. To grow into a more vital, consistent asset and advance professionally, Thaddeus should actively work on strengthening focus, addressing weaknesses, and deepening his key skills. Recommended actions: (1) Set daily priorities with clear goals to improve focus, (2) Seek regular feedback to identify blind spots, (3) Take ownership of one key project task weekly to build accountability, and (4) Dedicate time to skill development in areas critical to team success.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer5|Interpret|C14|Q05",
+  "criterion": "Sentiment match",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 38: C14_Q06_Motivationaltone -----
+You are Volunteer 5 in Group C.
+TASK TYPE: Interpret
+SAMPLE: C14
+CRITERION: Motivational tone
+
+INSTRUCTION:
+Rank from most to least empathetic and encouraging.
+
+ORIGINAL:
+Thaddeus is a talented resource though he is not focused many of the times. He is able to contribute up to 80% of his abilities & skill set. Would like him to work on his weaknesses & multiply strength areas in order to become a better contributor. He is a vital member of the team for this project. However, would like him to become a main asset in fulfilling team objectives on regular occasions to climb up the ladder in hierarchy.
+
+CANDIDATES:
+[1] Thaddeus, this feedback indicates you are a valued, talented team member, but your focus sometimes wavers, preventing you from utilizing your full potential (80% of abilities). To grow, you need to address weaknesses and leverage strengths to become a more consistent, primary contributor to team objectives, which is key for career advancement. Thaddeus should now identify specific areas where focus is lacking, seek opportunities to apply his strengths more consistently, and proactively communicate his commitment to maximizing his contributions.
+[2] Feedback means Thaddeus leverages only 80% of his talent due to focus gaps, limiting advancement despite being vital. This suggests unlocking full potential could accelerate his growth. Thaddeus should: 1) Block 2 daily "deep work" hours distraction-free, 2) Map strengths/weaknesses with his manager next week, 3) Lead one small team objective monthly to demonstrate consistency. (289 chars)
+[3] Thaddeus is recognized for his talent and currently contributes about 80% of his potential, but inconsistent focus limits his impact. This feedback means he has strong capabilities, yet underutilizes them, which affects team outcomes. To grow into a more vital, consistent asset and advance professionally, Thaddeus should actively work on strengthening focus, addressing weaknesses, and deepening his key skills. Recommended actions: (1) Set daily priorities with clear goals to improve focus, (2) Seek regular feedback to identify blind spots, (3) Take ownership of one key project task weekly to build accountability, and (4) Dedicate time to skill development in areas critical to team success.
+[4] Thaddeus is a talented, vital team member whose lack of focus prevents him from reaching his full potential. This limits his advancement. He should ask his manager to define key focus areas and use time management techniques to improve his consistency and impact on team goals.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer5|Interpret|C14|Q06",
+  "criterion": "Motivational tone",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 39: C14_Q07_Constructiveness -----
+You are Volunteer 5 in Group C.
+TASK TYPE: Interpret
+SAMPLE: C14
+CRITERION: Constructiveness
+
+INSTRUCTION:
+Rank from most to least helpful and constructive.
+
+ORIGINAL:
+Thaddeus is a talented resource though he is not focused many of the times. He is able to contribute up to 80% of his abilities & skill set. Would like him to work on his weaknesses & multiply strength areas in order to become a better contributor. He is a vital member of the team for this project. However, would like him to become a main asset in fulfilling team objectives on regular occasions to climb up the ladder in hierarchy.
+
+CANDIDATES:
+[1] Thaddeus is a talented, vital team member whose lack of focus prevents him from reaching his full potential. This limits his advancement. He should ask his manager to define key focus areas and use time management techniques to improve his consistency and impact on team goals.
+[2] Feedback means Thaddeus leverages only 80% of his talent due to focus gaps, limiting advancement despite being vital. This suggests unlocking full potential could accelerate his growth. Thaddeus should: 1) Block 2 daily "deep work" hours distraction-free, 2) Map strengths/weaknesses with his manager next week, 3) Lead one small team objective monthly to demonstrate consistency. (289 chars)
+[3] Thaddeus, this feedback indicates you are a valued, talented team member, but your focus sometimes wavers, preventing you from utilizing your full potential (80% of abilities). To grow, you need to address weaknesses and leverage strengths to become a more consistent, primary contributor to team objectives, which is key for career advancement. Thaddeus should now identify specific areas where focus is lacking, seek opportunities to apply his strengths more consistently, and proactively communicate his commitment to maximizing his contributions.
+[4] Thaddeus is recognized for his talent and currently contributes about 80% of his potential, but inconsistent focus limits his impact. This feedback means he has strong capabilities, yet underutilizes them, which affects team outcomes. To grow into a more vital, consistent asset and advance professionally, Thaddeus should actively work on strengthening focus, addressing weaknesses, and deepening his key skills. Recommended actions: (1) Set daily priorities with clear goals to improve focus, (2) Seek regular feedback to identify blind spots, (3) Take ownership of one key project task weekly to build accountability, and (4) Dedicate time to skill development in areas critical to team success.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer5|Interpret|C14|Q07",
+  "criterion": "Constructiveness",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 40: C14_Q08_Finalchoice -----
+You are Volunteer 5 in Group C.
+TASK TYPE: Interpret
+SAMPLE: C14
+CRITERION: Final choice
+
+INSTRUCTION:
+Rank from most to least suitable as a final version.
+
+ORIGINAL:
+Thaddeus is a talented resource though he is not focused many of the times. He is able to contribute up to 80% of his abilities & skill set. Would like him to work on his weaknesses & multiply strength areas in order to become a better contributor. He is a vital member of the team for this project. However, would like him to become a main asset in fulfilling team objectives on regular occasions to climb up the ladder in hierarchy.
+
+CANDIDATES:
+[1] Thaddeus is a talented, vital team member whose lack of focus prevents him from reaching his full potential. This limits his advancement. He should ask his manager to define key focus areas and use time management techniques to improve his consistency and impact on team goals.
+[2] Thaddeus, this feedback indicates you are a valued, talented team member, but your focus sometimes wavers, preventing you from utilizing your full potential (80% of abilities). To grow, you need to address weaknesses and leverage strengths to become a more consistent, primary contributor to team objectives, which is key for career advancement. Thaddeus should now identify specific areas where focus is lacking, seek opportunities to apply his strengths more consistently, and proactively communicate his commitment to maximizing his contributions.
+[3] Thaddeus is recognized for his talent and currently contributes about 80% of his potential, but inconsistent focus limits his impact. This feedback means he has strong capabilities, yet underutilizes them, which affects team outcomes. To grow into a more vital, consistent asset and advance professionally, Thaddeus should actively work on strengthening focus, addressing weaknesses, and deepening his key skills. Recommended actions: (1) Set daily priorities with clear goals to improve focus, (2) Seek regular feedback to identify blind spots, (3) Take ownership of one key project task weekly to build accountability, and (4) Dedicate time to skill development in areas critical to team success.
+[4] Feedback means Thaddeus leverages only 80% of his talent due to focus gaps, limiting advancement despite being vital. This suggests unlocking full potential could accelerate his growth. Thaddeus should: 1) Block 2 daily "deep work" hours distraction-free, 2) Map strengths/weaknesses with his manager next week, 3) Lead one small team objective monthly to demonstrate consistency. (289 chars)
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer5|Interpret|C14|Q08",
+  "criterion": "Final choice",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 41: C15_Q01_Fluency -----
+You are Volunteer 5 in Group C.
+TASK TYPE: Interpret
+SAMPLE: C15
+CRITERION: Fluency
+
+INSTRUCTION:
+Rank from most to least smooth and error-free.
+
+ORIGINAL:
+Emilie has quickly made her self an important asset here in the business and is quickly rising in the ranks. Having surpassed her sales target by 72% this month, massively contributing to the teams quarterly win in the Summer Sale Bonanza. We're pleased to announce that her appointment as the new hot desk team leader, ready to take on the more challenging queries we get. Emilie is an inspiration to us all, lets hope we can all follow in her footsteps!
+
+CANDIDATES:
+[1] Emilie's performance is exceptional, having greatly surpassed targets and earned a promotion to team lead. Her standing is excellent. To succeed in her new role, she should set 90-day goals with her manager and focus on leading and developing her new team members effectively.
+[2] Emilie, this feedback highlights her exceptional performance, particularly in sales, where she significantly exceeded targets and contributed to team success. This indicates strong standing and potential for continued growth, as evidenced by her promotion to Hot Desk Team Leader. To respond, Emilie should continue her high-performance trajectory, proactively engage with the challenges of her new leadership role, and seek opportunities to mentor others, embodying the "inspiration" she's been recognized as.
+[3] Feedback confirms Emilie is a top performer (72% sales exceed) now promoted to team leader, seen as inspirational. This positions her for continued rapid advancement. Emilie should: 1) Document her sales strategies for training peers by month-end, 2) Host quarterly workshops on handling complex queries, 3) Mentor one aspiring leader each quarter. (278 chars)
+[4] Emilie’s exceptional performance—surpassing her sales target by 72% and driving team success in the Summer Sale Bonanza—demonstrates her strong capability and dedication. Her promotion to hot desk team leader reflects management’s confidence in her skills and leadership potential. This recognition highlights the value of consistent high performance and initiative. To continue growing in her new role, Emilie should focus on building team cohesion through regular check-ins, seek feedback from peers and supervisors to refine her leadership style, shadow senior leaders to develop strategic thinking, and document processes to streamline handling of complex queries. Her journey sets a powerful example of excellence and ambition.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer5|Interpret|C15|Q01",
+  "criterion": "Fluency",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 42: C15_Q02_Coherence -----
+You are Volunteer 5 in Group C.
+TASK TYPE: Interpret
+SAMPLE: C15
+CRITERION: Coherence
+
+INSTRUCTION:
+Rank from most to least logical and easy to follow.
+
+ORIGINAL:
+Emilie has quickly made her self an important asset here in the business and is quickly rising in the ranks. Having surpassed her sales target by 72% this month, massively contributing to the teams quarterly win in the Summer Sale Bonanza. We're pleased to announce that her appointment as the new hot desk team leader, ready to take on the more challenging queries we get. Emilie is an inspiration to us all, lets hope we can all follow in her footsteps!
+
+CANDIDATES:
+[1] Emilie’s exceptional performance—surpassing her sales target by 72% and driving team success in the Summer Sale Bonanza—demonstrates her strong capability and dedication. Her promotion to hot desk team leader reflects management’s confidence in her skills and leadership potential. This recognition highlights the value of consistent high performance and initiative. To continue growing in her new role, Emilie should focus on building team cohesion through regular check-ins, seek feedback from peers and supervisors to refine her leadership style, shadow senior leaders to develop strategic thinking, and document processes to streamline handling of complex queries. Her journey sets a powerful example of excellence and ambition.
+[2] Emilie, this feedback highlights her exceptional performance, particularly in sales, where she significantly exceeded targets and contributed to team success. This indicates strong standing and potential for continued growth, as evidenced by her promotion to Hot Desk Team Leader. To respond, Emilie should continue her high-performance trajectory, proactively engage with the challenges of her new leadership role, and seek opportunities to mentor others, embodying the "inspiration" she's been recognized as.
+[3] Emilie's performance is exceptional, having greatly surpassed targets and earned a promotion to team lead. Her standing is excellent. To succeed in her new role, she should set 90-day goals with her manager and focus on leading and developing her new team members effectively.
+[4] Feedback confirms Emilie is a top performer (72% sales exceed) now promoted to team leader, seen as inspirational. This positions her for continued rapid advancement. Emilie should: 1) Document her sales strategies for training peers by month-end, 2) Host quarterly workshops on handling complex queries, 3) Mentor one aspiring leader each quarter. (278 chars)
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer5|Interpret|C15|Q02",
+  "criterion": "Coherence",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 43: C15_Q03_Conciseness -----
+You are Volunteer 5 in Group C.
+TASK TYPE: Interpret
+SAMPLE: C15
+CRITERION: Conciseness
+
+INSTRUCTION:
+Rank from most to least clear and compact.
+
+ORIGINAL:
+Emilie has quickly made her self an important asset here in the business and is quickly rising in the ranks. Having surpassed her sales target by 72% this month, massively contributing to the teams quarterly win in the Summer Sale Bonanza. We're pleased to announce that her appointment as the new hot desk team leader, ready to take on the more challenging queries we get. Emilie is an inspiration to us all, lets hope we can all follow in her footsteps!
+
+CANDIDATES:
+[1] Emilie’s exceptional performance—surpassing her sales target by 72% and driving team success in the Summer Sale Bonanza—demonstrates her strong capability and dedication. Her promotion to hot desk team leader reflects management’s confidence in her skills and leadership potential. This recognition highlights the value of consistent high performance and initiative. To continue growing in her new role, Emilie should focus on building team cohesion through regular check-ins, seek feedback from peers and supervisors to refine her leadership style, shadow senior leaders to develop strategic thinking, and document processes to streamline handling of complex queries. Her journey sets a powerful example of excellence and ambition.
+[2] Emilie, this feedback highlights her exceptional performance, particularly in sales, where she significantly exceeded targets and contributed to team success. This indicates strong standing and potential for continued growth, as evidenced by her promotion to Hot Desk Team Leader. To respond, Emilie should continue her high-performance trajectory, proactively engage with the challenges of her new leadership role, and seek opportunities to mentor others, embodying the "inspiration" she's been recognized as.
+[3] Emilie's performance is exceptional, having greatly surpassed targets and earned a promotion to team lead. Her standing is excellent. To succeed in her new role, she should set 90-day goals with her manager and focus on leading and developing her new team members effectively.
+[4] Feedback confirms Emilie is a top performer (72% sales exceed) now promoted to team leader, seen as inspirational. This positions her for continued rapid advancement. Emilie should: 1) Document her sales strategies for training peers by month-end, 2) Host quarterly workshops on handling complex queries, 3) Mentor one aspiring leader each quarter. (278 chars)
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer5|Interpret|C15|Q03",
+  "criterion": "Conciseness",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 44: C15_Q04_Accuracy -----
+You are Volunteer 5 in Group C.
+TASK TYPE: Interpret
+SAMPLE: C15
+CRITERION: Accuracy
+
+INSTRUCTION:
+Select all texts that are factually correct given the Original.
+
+ORIGINAL:
+Emilie has quickly made her self an important asset here in the business and is quickly rising in the ranks. Having surpassed her sales target by 72% this month, massively contributing to the teams quarterly win in the Summer Sale Bonanza. We're pleased to announce that her appointment as the new hot desk team leader, ready to take on the more challenging queries we get. Emilie is an inspiration to us all, lets hope we can all follow in her footsteps!
+
+CANDIDATES:
+[1] Emilie, this feedback highlights her exceptional performance, particularly in sales, where she significantly exceeded targets and contributed to team success. This indicates strong standing and potential for continued growth, as evidenced by her promotion to Hot Desk Team Leader. To respond, Emilie should continue her high-performance trajectory, proactively engage with the challenges of her new leadership role, and seek opportunities to mentor others, embodying the "inspiration" she's been recognized as.
+[2] Emilie’s exceptional performance—surpassing her sales target by 72% and driving team success in the Summer Sale Bonanza—demonstrates her strong capability and dedication. Her promotion to hot desk team leader reflects management’s confidence in her skills and leadership potential. This recognition highlights the value of consistent high performance and initiative. To continue growing in her new role, Emilie should focus on building team cohesion through regular check-ins, seek feedback from peers and supervisors to refine her leadership style, shadow senior leaders to develop strategic thinking, and document processes to streamline handling of complex queries. Her journey sets a powerful example of excellence and ambition.
+[3] Emilie's performance is exceptional, having greatly surpassed targets and earned a promotion to team lead. Her standing is excellent. To succeed in her new role, she should set 90-day goals with her manager and focus on leading and developing her new team members effectively.
+[4] Feedback confirms Emilie is a top performer (72% sales exceed) now promoted to team leader, seen as inspirational. This positions her for continued rapid advancement. Emilie should: 1) Document her sales strategies for training peers by month-end, 2) Host quarterly workshops on handling complex queries, 3) Mentor one aspiring leader each quarter. (278 chars)
+
+Please select all outputs that are factually correct given the Original.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer5|Interpret|C15|Q04",
+  "criterion": "Accuracy",
+  "rating": [1, 3],
+  "justifications": {
+    "1": "why candidate 1 is correct/incorrect in one sentence",
+    "2": "why candidate 2 is correct/incorrect in one sentence",
+    "3": "why candidate 3 is correct/incorrect in one sentence",
+    "4": "why candidate 4 is correct/incorrect in one sentence"
+  }
+}
+
+
+----- PROMPT 45: C15_Q05_Sentimentmatch -----
+You are Volunteer 5 in Group C.
+TASK TYPE: Interpret
+SAMPLE: C15
+CRITERION: Sentiment match
+
+INSTRUCTION:
+Rank from most to least similar to the Original in style and sentiment.
+
+ORIGINAL:
+Emilie has quickly made her self an important asset here in the business and is quickly rising in the ranks. Having surpassed her sales target by 72% this month, massively contributing to the teams quarterly win in the Summer Sale Bonanza. We're pleased to announce that her appointment as the new hot desk team leader, ready to take on the more challenging queries we get. Emilie is an inspiration to us all, lets hope we can all follow in her footsteps!
+
+CANDIDATES:
+[1] Emilie's performance is exceptional, having greatly surpassed targets and earned a promotion to team lead. Her standing is excellent. To succeed in her new role, she should set 90-day goals with her manager and focus on leading and developing her new team members effectively.
+[2] Emilie, this feedback highlights her exceptional performance, particularly in sales, where she significantly exceeded targets and contributed to team success. This indicates strong standing and potential for continued growth, as evidenced by her promotion to Hot Desk Team Leader. To respond, Emilie should continue her high-performance trajectory, proactively engage with the challenges of her new leadership role, and seek opportunities to mentor others, embodying the "inspiration" she's been recognized as.
+[3] Emilie’s exceptional performance—surpassing her sales target by 72% and driving team success in the Summer Sale Bonanza—demonstrates her strong capability and dedication. Her promotion to hot desk team leader reflects management’s confidence in her skills and leadership potential. This recognition highlights the value of consistent high performance and initiative. To continue growing in her new role, Emilie should focus on building team cohesion through regular check-ins, seek feedback from peers and supervisors to refine her leadership style, shadow senior leaders to develop strategic thinking, and document processes to streamline handling of complex queries. Her journey sets a powerful example of excellence and ambition.
+[4] Feedback confirms Emilie is a top performer (72% sales exceed) now promoted to team leader, seen as inspirational. This positions her for continued rapid advancement. Emilie should: 1) Document her sales strategies for training peers by month-end, 2) Host quarterly workshops on handling complex queries, 3) Mentor one aspiring leader each quarter. (278 chars)
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer5|Interpret|C15|Q05",
+  "criterion": "Sentiment match",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 46: C15_Q06_Motivationaltone -----
+You are Volunteer 5 in Group C.
+TASK TYPE: Interpret
+SAMPLE: C15
+CRITERION: Motivational tone
+
+INSTRUCTION:
+Rank from most to least empathetic and encouraging.
+
+ORIGINAL:
+Emilie has quickly made her self an important asset here in the business and is quickly rising in the ranks. Having surpassed her sales target by 72% this month, massively contributing to the teams quarterly win in the Summer Sale Bonanza. We're pleased to announce that her appointment as the new hot desk team leader, ready to take on the more challenging queries we get. Emilie is an inspiration to us all, lets hope we can all follow in her footsteps!
+
+CANDIDATES:
+[1] Emilie, this feedback highlights her exceptional performance, particularly in sales, where she significantly exceeded targets and contributed to team success. This indicates strong standing and potential for continued growth, as evidenced by her promotion to Hot Desk Team Leader. To respond, Emilie should continue her high-performance trajectory, proactively engage with the challenges of her new leadership role, and seek opportunities to mentor others, embodying the "inspiration" she's been recognized as.
+[2] Feedback confirms Emilie is a top performer (72% sales exceed) now promoted to team leader, seen as inspirational. This positions her for continued rapid advancement. Emilie should: 1) Document her sales strategies for training peers by month-end, 2) Host quarterly workshops on handling complex queries, 3) Mentor one aspiring leader each quarter. (278 chars)
+[3] Emilie’s exceptional performance—surpassing her sales target by 72% and driving team success in the Summer Sale Bonanza—demonstrates her strong capability and dedication. Her promotion to hot desk team leader reflects management’s confidence in her skills and leadership potential. This recognition highlights the value of consistent high performance and initiative. To continue growing in her new role, Emilie should focus on building team cohesion through regular check-ins, seek feedback from peers and supervisors to refine her leadership style, shadow senior leaders to develop strategic thinking, and document processes to streamline handling of complex queries. Her journey sets a powerful example of excellence and ambition.
+[4] Emilie's performance is exceptional, having greatly surpassed targets and earned a promotion to team lead. Her standing is excellent. To succeed in her new role, she should set 90-day goals with her manager and focus on leading and developing her new team members effectively.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer5|Interpret|C15|Q06",
+  "criterion": "Motivational tone",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 47: C15_Q07_Constructiveness -----
+You are Volunteer 5 in Group C.
+TASK TYPE: Interpret
+SAMPLE: C15
+CRITERION: Constructiveness
+
+INSTRUCTION:
+Rank from most to least helpful and constructive.
+
+ORIGINAL:
+Emilie has quickly made her self an important asset here in the business and is quickly rising in the ranks. Having surpassed her sales target by 72% this month, massively contributing to the teams quarterly win in the Summer Sale Bonanza. We're pleased to announce that her appointment as the new hot desk team leader, ready to take on the more challenging queries we get. Emilie is an inspiration to us all, lets hope we can all follow in her footsteps!
+
+CANDIDATES:
+[1] Emilie's performance is exceptional, having greatly surpassed targets and earned a promotion to team lead. Her standing is excellent. To succeed in her new role, she should set 90-day goals with her manager and focus on leading and developing her new team members effectively.
+[2] Feedback confirms Emilie is a top performer (72% sales exceed) now promoted to team leader, seen as inspirational. This positions her for continued rapid advancement. Emilie should: 1) Document her sales strategies for training peers by month-end, 2) Host quarterly workshops on handling complex queries, 3) Mentor one aspiring leader each quarter. (278 chars)
+[3] Emilie’s exceptional performance—surpassing her sales target by 72% and driving team success in the Summer Sale Bonanza—demonstrates her strong capability and dedication. Her promotion to hot desk team leader reflects management’s confidence in her skills and leadership potential. This recognition highlights the value of consistent high performance and initiative. To continue growing in her new role, Emilie should focus on building team cohesion through regular check-ins, seek feedback from peers and supervisors to refine her leadership style, shadow senior leaders to develop strategic thinking, and document processes to streamline handling of complex queries. Her journey sets a powerful example of excellence and ambition.
+[4] Emilie, this feedback highlights her exceptional performance, particularly in sales, where she significantly exceeded targets and contributed to team success. This indicates strong standing and potential for continued growth, as evidenced by her promotion to Hot Desk Team Leader. To respond, Emilie should continue her high-performance trajectory, proactively engage with the challenges of her new leadership role, and seek opportunities to mentor others, embodying the "inspiration" she's been recognized as.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer5|Interpret|C15|Q07",
+  "criterion": "Constructiveness",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 48: C15_Q08_Finalchoice -----
+You are Volunteer 5 in Group C.
+TASK TYPE: Interpret
+SAMPLE: C15
+CRITERION: Final choice
+
+INSTRUCTION:
+Rank from most to least suitable as a final version.
+
+ORIGINAL:
+Emilie has quickly made her self an important asset here in the business and is quickly rising in the ranks. Having surpassed her sales target by 72% this month, massively contributing to the teams quarterly win in the Summer Sale Bonanza. We're pleased to announce that her appointment as the new hot desk team leader, ready to take on the more challenging queries we get. Emilie is an inspiration to us all, lets hope we can all follow in her footsteps!
+
+CANDIDATES:
+[1] Emilie’s exceptional performance—surpassing her sales target by 72% and driving team success in the Summer Sale Bonanza—demonstrates her strong capability and dedication. Her promotion to hot desk team leader reflects management’s confidence in her skills and leadership potential. This recognition highlights the value of consistent high performance and initiative. To continue growing in her new role, Emilie should focus on building team cohesion through regular check-ins, seek feedback from peers and supervisors to refine her leadership style, shadow senior leaders to develop strategic thinking, and document processes to streamline handling of complex queries. Her journey sets a powerful example of excellence and ambition.
+[2] Emilie's performance is exceptional, having greatly surpassed targets and earned a promotion to team lead. Her standing is excellent. To succeed in her new role, she should set 90-day goals with her manager and focus on leading and developing her new team members effectively.
+[3] Emilie, this feedback highlights her exceptional performance, particularly in sales, where she significantly exceeded targets and contributed to team success. This indicates strong standing and potential for continued growth, as evidenced by her promotion to Hot Desk Team Leader. To respond, Emilie should continue her high-performance trajectory, proactively engage with the challenges of her new leadership role, and seek opportunities to mentor others, embodying the "inspiration" she's been recognized as.
+[4] Feedback confirms Emilie is a top performer (72% sales exceed) now promoted to team leader, seen as inspirational. This positions her for continued rapid advancement. Emilie should: 1) Document her sales strategies for training peers by month-end, 2) Host quarterly workshops on handling complex queries, 3) Mentor one aspiring leader each quarter. (278 chars)
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer5|Interpret|C15|Q08",
+  "criterion": "Final choice",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+

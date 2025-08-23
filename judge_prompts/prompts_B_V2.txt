@@ -1,0 +1,1698 @@
+----- PROMPT 1: B5_Q01_Fluency -----
+You are Volunteer 2 in Group B.
+TASK TYPE: Idea-to-Text
+SAMPLE: B5
+CRITERION: Fluency
+
+INSTRUCTION:
+Rank from most to least smooth and error-free.
+
+ORIGINAL:
+Alex Watts is a reliable, steady contributor; cross-training would broaden skills and impact.
+
+CANDIDATES:
+[1] Alex Watts is a reliable and consistent contributor who delivers high-quality work. Expanding expertise through cross-training would further enhance skills, increase versatility, and amplify overall impact across teams.
+[2] Alex, you are a valued, reliable, and steady performer. To broaden your impact and skillset, we recommend exploring cross-training opportunities. Developing additional capabilities will not only increase your versatility but also enhance your contributions to the team's overall success.
+[3] Alex, you are a valued and reliable contributor. To expand your impact and professional growth, we highly recommend cross-training. This will broaden your skillset and increase your versatility within the team.
+[4] Alex consistently delivers high-quality work, demonstrating strong reliability and a steady contribution to the team's success. To further enhance their valuable impact, we recommend exploring cross-training opportunities. This would broaden Alex's skill set, increase versatility, and allow them to contribute to an even wider range of projects, fostering continued professional growth.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer2|Idea-to-Text|B5|Q01",
+  "criterion": "Fluency",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 2: B5_Q02_Coherence -----
+You are Volunteer 2 in Group B.
+TASK TYPE: Idea-to-Text
+SAMPLE: B5
+CRITERION: Coherence
+
+INSTRUCTION:
+Rank from most to least logical and easy to follow.
+
+ORIGINAL:
+Alex Watts is a reliable, steady contributor; cross-training would broaden skills and impact.
+
+CANDIDATES:
+[1] Alex, you are a valued, reliable, and steady performer. To broaden your impact and skillset, we recommend exploring cross-training opportunities. Developing additional capabilities will not only increase your versatility but also enhance your contributions to the team's overall success.
+[2] Alex consistently delivers high-quality work, demonstrating strong reliability and a steady contribution to the team's success. To further enhance their valuable impact, we recommend exploring cross-training opportunities. This would broaden Alex's skill set, increase versatility, and allow them to contribute to an even wider range of projects, fostering continued professional growth.
+[3] Alex Watts is a reliable and consistent contributor who delivers high-quality work. Expanding expertise through cross-training would further enhance skills, increase versatility, and amplify overall impact across teams.
+[4] Alex, you are a valued and reliable contributor. To expand your impact and professional growth, we highly recommend cross-training. This will broaden your skillset and increase your versatility within the team.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer2|Idea-to-Text|B5|Q02",
+  "criterion": "Coherence",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 3: B5_Q03_Conciseness -----
+You are Volunteer 2 in Group B.
+TASK TYPE: Idea-to-Text
+SAMPLE: B5
+CRITERION: Conciseness
+
+INSTRUCTION:
+Rank from most to least clear and compact.
+
+ORIGINAL:
+Alex Watts is a reliable, steady contributor; cross-training would broaden skills and impact.
+
+CANDIDATES:
+[1] Alex, you are a valued, reliable, and steady performer. To broaden your impact and skillset, we recommend exploring cross-training opportunities. Developing additional capabilities will not only increase your versatility but also enhance your contributions to the team's overall success.
+[2] Alex, you are a valued and reliable contributor. To expand your impact and professional growth, we highly recommend cross-training. This will broaden your skillset and increase your versatility within the team.
+[3] Alex Watts is a reliable and consistent contributor who delivers high-quality work. Expanding expertise through cross-training would further enhance skills, increase versatility, and amplify overall impact across teams.
+[4] Alex consistently delivers high-quality work, demonstrating strong reliability and a steady contribution to the team's success. To further enhance their valuable impact, we recommend exploring cross-training opportunities. This would broaden Alex's skill set, increase versatility, and allow them to contribute to an even wider range of projects, fostering continued professional growth.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer2|Idea-to-Text|B5|Q03",
+  "criterion": "Conciseness",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 4: B5_Q04_Accuracy -----
+You are Volunteer 2 in Group B.
+TASK TYPE: Idea-to-Text
+SAMPLE: B5
+CRITERION: Accuracy
+
+INSTRUCTION:
+Select all texts that are factually correct given the Original.
+
+ORIGINAL:
+Alex Watts is a reliable, steady contributor; cross-training would broaden skills and impact.
+
+CANDIDATES:
+[1] Alex Watts is a reliable and consistent contributor who delivers high-quality work. Expanding expertise through cross-training would further enhance skills, increase versatility, and amplify overall impact across teams.
+[2] Alex consistently delivers high-quality work, demonstrating strong reliability and a steady contribution to the team's success. To further enhance their valuable impact, we recommend exploring cross-training opportunities. This would broaden Alex's skill set, increase versatility, and allow them to contribute to an even wider range of projects, fostering continued professional growth.
+[3] Alex, you are a valued and reliable contributor. To expand your impact and professional growth, we highly recommend cross-training. This will broaden your skillset and increase your versatility within the team.
+[4] Alex, you are a valued, reliable, and steady performer. To broaden your impact and skillset, we recommend exploring cross-training opportunities. Developing additional capabilities will not only increase your versatility but also enhance your contributions to the team's overall success.
+
+Please select all outputs that are factually correct given the Original.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer2|Idea-to-Text|B5|Q04",
+  "criterion": "Accuracy",
+  "rating": [1, 3],
+  "justifications": {
+    "1": "why candidate 1 is correct/incorrect in one sentence",
+    "2": "why candidate 2 is correct/incorrect in one sentence",
+    "3": "why candidate 3 is correct/incorrect in one sentence",
+    "4": "why candidate 4 is correct/incorrect in one sentence"
+  }
+}
+
+
+----- PROMPT 5: B5_Q05_Sentimentmatch -----
+You are Volunteer 2 in Group B.
+TASK TYPE: Idea-to-Text
+SAMPLE: B5
+CRITERION: Sentiment match
+
+INSTRUCTION:
+Rank from most to least similar to the Original in style and sentiment.
+
+ORIGINAL:
+Alex Watts is a reliable, steady contributor; cross-training would broaden skills and impact.
+
+CANDIDATES:
+[1] Alex consistently delivers high-quality work, demonstrating strong reliability and a steady contribution to the team's success. To further enhance their valuable impact, we recommend exploring cross-training opportunities. This would broaden Alex's skill set, increase versatility, and allow them to contribute to an even wider range of projects, fostering continued professional growth.
+[2] Alex, you are a valued and reliable contributor. To expand your impact and professional growth, we highly recommend cross-training. This will broaden your skillset and increase your versatility within the team.
+[3] Alex, you are a valued, reliable, and steady performer. To broaden your impact and skillset, we recommend exploring cross-training opportunities. Developing additional capabilities will not only increase your versatility but also enhance your contributions to the team's overall success.
+[4] Alex Watts is a reliable and consistent contributor who delivers high-quality work. Expanding expertise through cross-training would further enhance skills, increase versatility, and amplify overall impact across teams.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer2|Idea-to-Text|B5|Q05",
+  "criterion": "Sentiment match",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 6: B5_Q06_Motivationaltone -----
+You are Volunteer 2 in Group B.
+TASK TYPE: Idea-to-Text
+SAMPLE: B5
+CRITERION: Motivational tone
+
+INSTRUCTION:
+Rank from most to least empathetic and encouraging.
+
+ORIGINAL:
+Alex Watts is a reliable, steady contributor; cross-training would broaden skills and impact.
+
+CANDIDATES:
+[1] Alex consistently delivers high-quality work, demonstrating strong reliability and a steady contribution to the team's success. To further enhance their valuable impact, we recommend exploring cross-training opportunities. This would broaden Alex's skill set, increase versatility, and allow them to contribute to an even wider range of projects, fostering continued professional growth.
+[2] Alex Watts is a reliable and consistent contributor who delivers high-quality work. Expanding expertise through cross-training would further enhance skills, increase versatility, and amplify overall impact across teams.
+[3] Alex, you are a valued and reliable contributor. To expand your impact and professional growth, we highly recommend cross-training. This will broaden your skillset and increase your versatility within the team.
+[4] Alex, you are a valued, reliable, and steady performer. To broaden your impact and skillset, we recommend exploring cross-training opportunities. Developing additional capabilities will not only increase your versatility but also enhance your contributions to the team's overall success.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer2|Idea-to-Text|B5|Q06",
+  "criterion": "Motivational tone",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 7: B5_Q07_Constructiveness -----
+You are Volunteer 2 in Group B.
+TASK TYPE: Idea-to-Text
+SAMPLE: B5
+CRITERION: Constructiveness
+
+INSTRUCTION:
+Rank from most to least helpful and constructive.
+
+ORIGINAL:
+Alex Watts is a reliable, steady contributor; cross-training would broaden skills and impact.
+
+CANDIDATES:
+[1] Alex, you are a valued, reliable, and steady performer. To broaden your impact and skillset, we recommend exploring cross-training opportunities. Developing additional capabilities will not only increase your versatility but also enhance your contributions to the team's overall success.
+[2] Alex Watts is a reliable and consistent contributor who delivers high-quality work. Expanding expertise through cross-training would further enhance skills, increase versatility, and amplify overall impact across teams.
+[3] Alex consistently delivers high-quality work, demonstrating strong reliability and a steady contribution to the team's success. To further enhance their valuable impact, we recommend exploring cross-training opportunities. This would broaden Alex's skill set, increase versatility, and allow them to contribute to an even wider range of projects, fostering continued professional growth.
+[4] Alex, you are a valued and reliable contributor. To expand your impact and professional growth, we highly recommend cross-training. This will broaden your skillset and increase your versatility within the team.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer2|Idea-to-Text|B5|Q07",
+  "criterion": "Constructiveness",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 8: B5_Q08_Finalchoice -----
+You are Volunteer 2 in Group B.
+TASK TYPE: Idea-to-Text
+SAMPLE: B5
+CRITERION: Final choice
+
+INSTRUCTION:
+Rank from most to least suitable as a final version.
+
+ORIGINAL:
+Alex Watts is a reliable, steady contributor; cross-training would broaden skills and impact.
+
+CANDIDATES:
+[1] Alex Watts is a reliable and consistent contributor who delivers high-quality work. Expanding expertise through cross-training would further enhance skills, increase versatility, and amplify overall impact across teams.
+[2] Alex, you are a valued and reliable contributor. To expand your impact and professional growth, we highly recommend cross-training. This will broaden your skillset and increase your versatility within the team.
+[3] Alex consistently delivers high-quality work, demonstrating strong reliability and a steady contribution to the team's success. To further enhance their valuable impact, we recommend exploring cross-training opportunities. This would broaden Alex's skill set, increase versatility, and allow them to contribute to an even wider range of projects, fostering continued professional growth.
+[4] Alex, you are a valued, reliable, and steady performer. To broaden your impact and skillset, we recommend exploring cross-training opportunities. Developing additional capabilities will not only increase your versatility but also enhance your contributions to the team's overall success.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer2|Idea-to-Text|B5|Q08",
+  "criterion": "Final choice",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 9: B6_Q01_Fluency -----
+You are Volunteer 2 in Group B.
+TASK TYPE: Idea-to-Text
+SAMPLE: B6
+CRITERION: Fluency
+
+INSTRUCTION:
+Rank from most to least smooth and error-free.
+
+ORIGINAL:
+Emilie Carroll is a high performer—punctual, client-focused, and poised for near-term promotion.
+
+CANDIDATES:
+[1] Emilie, your performance is outstanding: consistently punctual, highly client-focused, and delivering exceptional results. You are clearly operating at a high level and demonstrating strong readiness for increased responsibility. We see you as well-positioned for near-term promotion.
+[2] Emilie consistently demonstrates exceptional performance, marked by her punctuality and unwavering client focus. Her proactive approach and polished demeanor make her a strong candidate for a near-term promotion. She embodies the qualities of a future leader within our organization.
+[3] Emilie, your performance is exceptional. Your punctuality, client focus, and consistent high-quality work are commendable. You are on a clear track for a near-term promotion; let's prepare you for the next steps.
+[4] Emilie Carroll consistently excels in her role, demonstrating exceptional punctuality, a strong client-focused approach, and outstanding professionalism. Her dedication and performance make her a prime candidate for promotion in the near term.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer2|Idea-to-Text|B6|Q01",
+  "criterion": "Fluency",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 10: B6_Q02_Coherence -----
+You are Volunteer 2 in Group B.
+TASK TYPE: Idea-to-Text
+SAMPLE: B6
+CRITERION: Coherence
+
+INSTRUCTION:
+Rank from most to least logical and easy to follow.
+
+ORIGINAL:
+Emilie Carroll is a high performer—punctual, client-focused, and poised for near-term promotion.
+
+CANDIDATES:
+[1] Emilie, your performance is outstanding: consistently punctual, highly client-focused, and delivering exceptional results. You are clearly operating at a high level and demonstrating strong readiness for increased responsibility. We see you as well-positioned for near-term promotion.
+[2] Emilie Carroll consistently excels in her role, demonstrating exceptional punctuality, a strong client-focused approach, and outstanding professionalism. Her dedication and performance make her a prime candidate for promotion in the near term.
+[3] Emilie consistently demonstrates exceptional performance, marked by her punctuality and unwavering client focus. Her proactive approach and polished demeanor make her a strong candidate for a near-term promotion. She embodies the qualities of a future leader within our organization.
+[4] Emilie, your performance is exceptional. Your punctuality, client focus, and consistent high-quality work are commendable. You are on a clear track for a near-term promotion; let's prepare you for the next steps.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer2|Idea-to-Text|B6|Q02",
+  "criterion": "Coherence",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 11: B6_Q03_Conciseness -----
+You are Volunteer 2 in Group B.
+TASK TYPE: Idea-to-Text
+SAMPLE: B6
+CRITERION: Conciseness
+
+INSTRUCTION:
+Rank from most to least clear and compact.
+
+ORIGINAL:
+Emilie Carroll is a high performer—punctual, client-focused, and poised for near-term promotion.
+
+CANDIDATES:
+[1] Emilie Carroll consistently excels in her role, demonstrating exceptional punctuality, a strong client-focused approach, and outstanding professionalism. Her dedication and performance make her a prime candidate for promotion in the near term.
+[2] Emilie, your performance is exceptional. Your punctuality, client focus, and consistent high-quality work are commendable. You are on a clear track for a near-term promotion; let's prepare you for the next steps.
+[3] Emilie, your performance is outstanding: consistently punctual, highly client-focused, and delivering exceptional results. You are clearly operating at a high level and demonstrating strong readiness for increased responsibility. We see you as well-positioned for near-term promotion.
+[4] Emilie consistently demonstrates exceptional performance, marked by her punctuality and unwavering client focus. Her proactive approach and polished demeanor make her a strong candidate for a near-term promotion. She embodies the qualities of a future leader within our organization.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer2|Idea-to-Text|B6|Q03",
+  "criterion": "Conciseness",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 12: B6_Q04_Accuracy -----
+You are Volunteer 2 in Group B.
+TASK TYPE: Idea-to-Text
+SAMPLE: B6
+CRITERION: Accuracy
+
+INSTRUCTION:
+Select all texts that are factually correct given the Original.
+
+ORIGINAL:
+Emilie Carroll is a high performer—punctual, client-focused, and poised for near-term promotion.
+
+CANDIDATES:
+[1] Emilie Carroll consistently excels in her role, demonstrating exceptional punctuality, a strong client-focused approach, and outstanding professionalism. Her dedication and performance make her a prime candidate for promotion in the near term.
+[2] Emilie, your performance is outstanding: consistently punctual, highly client-focused, and delivering exceptional results. You are clearly operating at a high level and demonstrating strong readiness for increased responsibility. We see you as well-positioned for near-term promotion.
+[3] Emilie consistently demonstrates exceptional performance, marked by her punctuality and unwavering client focus. Her proactive approach and polished demeanor make her a strong candidate for a near-term promotion. She embodies the qualities of a future leader within our organization.
+[4] Emilie, your performance is exceptional. Your punctuality, client focus, and consistent high-quality work are commendable. You are on a clear track for a near-term promotion; let's prepare you for the next steps.
+
+Please select all outputs that are factually correct given the Original.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer2|Idea-to-Text|B6|Q04",
+  "criterion": "Accuracy",
+  "rating": [1, 3],
+  "justifications": {
+    "1": "why candidate 1 is correct/incorrect in one sentence",
+    "2": "why candidate 2 is correct/incorrect in one sentence",
+    "3": "why candidate 3 is correct/incorrect in one sentence",
+    "4": "why candidate 4 is correct/incorrect in one sentence"
+  }
+}
+
+
+----- PROMPT 13: B6_Q05_Sentimentmatch -----
+You are Volunteer 2 in Group B.
+TASK TYPE: Idea-to-Text
+SAMPLE: B6
+CRITERION: Sentiment match
+
+INSTRUCTION:
+Rank from most to least similar to the Original in style and sentiment.
+
+ORIGINAL:
+Emilie Carroll is a high performer—punctual, client-focused, and poised for near-term promotion.
+
+CANDIDATES:
+[1] Emilie Carroll consistently excels in her role, demonstrating exceptional punctuality, a strong client-focused approach, and outstanding professionalism. Her dedication and performance make her a prime candidate for promotion in the near term.
+[2] Emilie consistently demonstrates exceptional performance, marked by her punctuality and unwavering client focus. Her proactive approach and polished demeanor make her a strong candidate for a near-term promotion. She embodies the qualities of a future leader within our organization.
+[3] Emilie, your performance is exceptional. Your punctuality, client focus, and consistent high-quality work are commendable. You are on a clear track for a near-term promotion; let's prepare you for the next steps.
+[4] Emilie, your performance is outstanding: consistently punctual, highly client-focused, and delivering exceptional results. You are clearly operating at a high level and demonstrating strong readiness for increased responsibility. We see you as well-positioned for near-term promotion.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer2|Idea-to-Text|B6|Q05",
+  "criterion": "Sentiment match",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 14: B6_Q06_Motivationaltone -----
+You are Volunteer 2 in Group B.
+TASK TYPE: Idea-to-Text
+SAMPLE: B6
+CRITERION: Motivational tone
+
+INSTRUCTION:
+Rank from most to least empathetic and encouraging.
+
+ORIGINAL:
+Emilie Carroll is a high performer—punctual, client-focused, and poised for near-term promotion.
+
+CANDIDATES:
+[1] Emilie, your performance is outstanding: consistently punctual, highly client-focused, and delivering exceptional results. You are clearly operating at a high level and demonstrating strong readiness for increased responsibility. We see you as well-positioned for near-term promotion.
+[2] Emilie Carroll consistently excels in her role, demonstrating exceptional punctuality, a strong client-focused approach, and outstanding professionalism. Her dedication and performance make her a prime candidate for promotion in the near term.
+[3] Emilie, your performance is exceptional. Your punctuality, client focus, and consistent high-quality work are commendable. You are on a clear track for a near-term promotion; let's prepare you for the next steps.
+[4] Emilie consistently demonstrates exceptional performance, marked by her punctuality and unwavering client focus. Her proactive approach and polished demeanor make her a strong candidate for a near-term promotion. She embodies the qualities of a future leader within our organization.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer2|Idea-to-Text|B6|Q06",
+  "criterion": "Motivational tone",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 15: B6_Q07_Constructiveness -----
+You are Volunteer 2 in Group B.
+TASK TYPE: Idea-to-Text
+SAMPLE: B6
+CRITERION: Constructiveness
+
+INSTRUCTION:
+Rank from most to least helpful and constructive.
+
+ORIGINAL:
+Emilie Carroll is a high performer—punctual, client-focused, and poised for near-term promotion.
+
+CANDIDATES:
+[1] Emilie, your performance is outstanding: consistently punctual, highly client-focused, and delivering exceptional results. You are clearly operating at a high level and demonstrating strong readiness for increased responsibility. We see you as well-positioned for near-term promotion.
+[2] Emilie Carroll consistently excels in her role, demonstrating exceptional punctuality, a strong client-focused approach, and outstanding professionalism. Her dedication and performance make her a prime candidate for promotion in the near term.
+[3] Emilie consistently demonstrates exceptional performance, marked by her punctuality and unwavering client focus. Her proactive approach and polished demeanor make her a strong candidate for a near-term promotion. She embodies the qualities of a future leader within our organization.
+[4] Emilie, your performance is exceptional. Your punctuality, client focus, and consistent high-quality work are commendable. You are on a clear track for a near-term promotion; let's prepare you for the next steps.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer2|Idea-to-Text|B6|Q07",
+  "criterion": "Constructiveness",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 16: B6_Q08_Finalchoice -----
+You are Volunteer 2 in Group B.
+TASK TYPE: Idea-to-Text
+SAMPLE: B6
+CRITERION: Final choice
+
+INSTRUCTION:
+Rank from most to least suitable as a final version.
+
+ORIGINAL:
+Emilie Carroll is a high performer—punctual, client-focused, and poised for near-term promotion.
+
+CANDIDATES:
+[1] Emilie, your performance is exceptional. Your punctuality, client focus, and consistent high-quality work are commendable. You are on a clear track for a near-term promotion; let's prepare you for the next steps.
+[2] Emilie, your performance is outstanding: consistently punctual, highly client-focused, and delivering exceptional results. You are clearly operating at a high level and demonstrating strong readiness for increased responsibility. We see you as well-positioned for near-term promotion.
+[3] Emilie consistently demonstrates exceptional performance, marked by her punctuality and unwavering client focus. Her proactive approach and polished demeanor make her a strong candidate for a near-term promotion. She embodies the qualities of a future leader within our organization.
+[4] Emilie Carroll consistently excels in her role, demonstrating exceptional punctuality, a strong client-focused approach, and outstanding professionalism. Her dedication and performance make her a prime candidate for promotion in the near term.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer2|Idea-to-Text|B6|Q08",
+  "criterion": "Final choice",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT SC1: SanityCheck_IdeaToText_Accuracy -----
+TASK TYPE: Idea-to-Text
+SAMPLE: SC1
+CRITERION: Accuracy
+
+INSTRUCTION:
+Rank from most to least factually correct given the Original.
+
+ORIGINAL:
+The sun appears to rise each morning from the eastern horizon before setting in the west
+
+CANDIDATES:
+[1] The sun rises in the east.
+[2] The sun rises in the west.
+[3] The moon rises in the east.
+[4] The sun never rises.
+
+Please rank outputs strictly from most accurate (1) to least accurate (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "Idea-to-Text|SC1|Q04",
+  "criterion": "Accuracy",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 17: B9_Q01_Fluency -----
+You are Volunteer 2 in Group B.
+TASK TYPE: Summarise
+SAMPLE: B9
+CRITERION: Fluency
+
+INSTRUCTION:
+Rank from most to least smooth and error-free.
+
+ORIGINAL:
+Unfortunately, Mr. Stanley has shown time and time again that he has issues performing. For example, last week he had a deadline that he knew of, instead he took long lunches and never made the deadline. Also, his ability to show up on time and dressed accordingly has never happened. Everyday Wade has been a minimum of 15+ minutes late! This is very unacceptable, he is a nice person and I wish him the best, but potential for growth is not there.
+
+CANDIDATES:
+[1] Mr. Stanley consistently underperforms, misses deadlines, and has issues with punctuality. He shows no potential for growth within the company.
+[2] Mr. Stanley consistently underperforms: missed deadlines, habitual tardiness (15+ mins daily), and inappropriate dress. Despite being personable, he shows no potential for growth. Performance issues are ongoing and unacceptable.
+[3] Wade: Repeated performance issues (missed deadline, chronic lateness >15mins, dress). Nice person, but no growth potential.
+[4] Stanley consistently underperforms, misses deadlines (e.g., last week's), and is habitually late (+15 min daily) and unprofessionally dressed. Lacks growth potential.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer2|Summarise|B9|Q01",
+  "criterion": "Fluency",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 18: B9_Q02_Coherence -----
+You are Volunteer 2 in Group B.
+TASK TYPE: Summarise
+SAMPLE: B9
+CRITERION: Coherence
+
+INSTRUCTION:
+Rank from most to least logical and easy to follow.
+
+ORIGINAL:
+Unfortunately, Mr. Stanley has shown time and time again that he has issues performing. For example, last week he had a deadline that he knew of, instead he took long lunches and never made the deadline. Also, his ability to show up on time and dressed accordingly has never happened. Everyday Wade has been a minimum of 15+ minutes late! This is very unacceptable, he is a nice person and I wish him the best, but potential for growth is not there.
+
+CANDIDATES:
+[1] Mr. Stanley consistently underperforms: missed deadlines, habitual tardiness (15+ mins daily), and inappropriate dress. Despite being personable, he shows no potential for growth. Performance issues are ongoing and unacceptable.
+[2] Mr. Stanley consistently underperforms, misses deadlines, and has issues with punctuality. He shows no potential for growth within the company.
+[3] Wade: Repeated performance issues (missed deadline, chronic lateness >15mins, dress). Nice person, but no growth potential.
+[4] Stanley consistently underperforms, misses deadlines (e.g., last week's), and is habitually late (+15 min daily) and unprofessionally dressed. Lacks growth potential.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer2|Summarise|B9|Q02",
+  "criterion": "Coherence",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 19: B9_Q03_Conciseness -----
+You are Volunteer 2 in Group B.
+TASK TYPE: Summarise
+SAMPLE: B9
+CRITERION: Conciseness
+
+INSTRUCTION:
+Rank from most to least clear and compact.
+
+ORIGINAL:
+Unfortunately, Mr. Stanley has shown time and time again that he has issues performing. For example, last week he had a deadline that he knew of, instead he took long lunches and never made the deadline. Also, his ability to show up on time and dressed accordingly has never happened. Everyday Wade has been a minimum of 15+ minutes late! This is very unacceptable, he is a nice person and I wish him the best, but potential for growth is not there.
+
+CANDIDATES:
+[1] Mr. Stanley consistently underperforms: missed deadlines, habitual tardiness (15+ mins daily), and inappropriate dress. Despite being personable, he shows no potential for growth. Performance issues are ongoing and unacceptable.
+[2] Mr. Stanley consistently underperforms, misses deadlines, and has issues with punctuality. He shows no potential for growth within the company.
+[3] Stanley consistently underperforms, misses deadlines (e.g., last week's), and is habitually late (+15 min daily) and unprofessionally dressed. Lacks growth potential.
+[4] Wade: Repeated performance issues (missed deadline, chronic lateness >15mins, dress). Nice person, but no growth potential.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer2|Summarise|B9|Q03",
+  "criterion": "Conciseness",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 20: B9_Q04_Accuracy -----
+You are Volunteer 2 in Group B.
+TASK TYPE: Summarise
+SAMPLE: B9
+CRITERION: Accuracy
+
+INSTRUCTION:
+Select all texts that are factually correct given the Original.
+
+ORIGINAL:
+Unfortunately, Mr. Stanley has shown time and time again that he has issues performing. For example, last week he had a deadline that he knew of, instead he took long lunches and never made the deadline. Also, his ability to show up on time and dressed accordingly has never happened. Everyday Wade has been a minimum of 15+ minutes late! This is very unacceptable, he is a nice person and I wish him the best, but potential for growth is not there.
+
+CANDIDATES:
+[1] Mr. Stanley consistently underperforms: missed deadlines, habitual tardiness (15+ mins daily), and inappropriate dress. Despite being personable, he shows no potential for growth. Performance issues are ongoing and unacceptable.
+[2] Wade: Repeated performance issues (missed deadline, chronic lateness >15mins, dress). Nice person, but no growth potential.
+[3] Stanley consistently underperforms, misses deadlines (e.g., last week's), and is habitually late (+15 min daily) and unprofessionally dressed. Lacks growth potential.
+[4] Mr. Stanley consistently underperforms, misses deadlines, and has issues with punctuality. He shows no potential for growth within the company.
+
+Please select all outputs that are factually correct given the Original.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer2|Summarise|B9|Q04",
+  "criterion": "Accuracy",
+  "rating": [1, 3],
+  "justifications": {
+    "1": "why candidate 1 is correct/incorrect in one sentence",
+    "2": "why candidate 2 is correct/incorrect in one sentence",
+    "3": "why candidate 3 is correct/incorrect in one sentence",
+    "4": "why candidate 4 is correct/incorrect in one sentence"
+  }
+}
+
+
+----- PROMPT 21: B9_Q05_Sentimentmatch -----
+You are Volunteer 2 in Group B.
+TASK TYPE: Summarise
+SAMPLE: B9
+CRITERION: Sentiment match
+
+INSTRUCTION:
+Rank from most to least similar to the Original in style and sentiment.
+
+ORIGINAL:
+Unfortunately, Mr. Stanley has shown time and time again that he has issues performing. For example, last week he had a deadline that he knew of, instead he took long lunches and never made the deadline. Also, his ability to show up on time and dressed accordingly has never happened. Everyday Wade has been a minimum of 15+ minutes late! This is very unacceptable, he is a nice person and I wish him the best, but potential for growth is not there.
+
+CANDIDATES:
+[1] Mr. Stanley consistently underperforms, misses deadlines, and has issues with punctuality. He shows no potential for growth within the company.
+[2] Stanley consistently underperforms, misses deadlines (e.g., last week's), and is habitually late (+15 min daily) and unprofessionally dressed. Lacks growth potential.
+[3] Wade: Repeated performance issues (missed deadline, chronic lateness >15mins, dress). Nice person, but no growth potential.
+[4] Mr. Stanley consistently underperforms: missed deadlines, habitual tardiness (15+ mins daily), and inappropriate dress. Despite being personable, he shows no potential for growth. Performance issues are ongoing and unacceptable.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer2|Summarise|B9|Q05",
+  "criterion": "Sentiment match",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 22: B9_Q06_Motivationaltone -----
+You are Volunteer 2 in Group B.
+TASK TYPE: Summarise
+SAMPLE: B9
+CRITERION: Motivational tone
+
+INSTRUCTION:
+Rank from most to least empathetic and encouraging.
+
+ORIGINAL:
+Unfortunately, Mr. Stanley has shown time and time again that he has issues performing. For example, last week he had a deadline that he knew of, instead he took long lunches and never made the deadline. Also, his ability to show up on time and dressed accordingly has never happened. Everyday Wade has been a minimum of 15+ minutes late! This is very unacceptable, he is a nice person and I wish him the best, but potential for growth is not there.
+
+CANDIDATES:
+[1] Wade: Repeated performance issues (missed deadline, chronic lateness >15mins, dress). Nice person, but no growth potential.
+[2] Mr. Stanley consistently underperforms, misses deadlines, and has issues with punctuality. He shows no potential for growth within the company.
+[3] Mr. Stanley consistently underperforms: missed deadlines, habitual tardiness (15+ mins daily), and inappropriate dress. Despite being personable, he shows no potential for growth. Performance issues are ongoing and unacceptable.
+[4] Stanley consistently underperforms, misses deadlines (e.g., last week's), and is habitually late (+15 min daily) and unprofessionally dressed. Lacks growth potential.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer2|Summarise|B9|Q06",
+  "criterion": "Motivational tone",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 23: B9_Q07_Constructiveness -----
+You are Volunteer 2 in Group B.
+TASK TYPE: Summarise
+SAMPLE: B9
+CRITERION: Constructiveness
+
+INSTRUCTION:
+Rank from most to least helpful and constructive.
+
+ORIGINAL:
+Unfortunately, Mr. Stanley has shown time and time again that he has issues performing. For example, last week he had a deadline that he knew of, instead he took long lunches and never made the deadline. Also, his ability to show up on time and dressed accordingly has never happened. Everyday Wade has been a minimum of 15+ minutes late! This is very unacceptable, he is a nice person and I wish him the best, but potential for growth is not there.
+
+CANDIDATES:
+[1] Mr. Stanley consistently underperforms: missed deadlines, habitual tardiness (15+ mins daily), and inappropriate dress. Despite being personable, he shows no potential for growth. Performance issues are ongoing and unacceptable.
+[2] Wade: Repeated performance issues (missed deadline, chronic lateness >15mins, dress). Nice person, but no growth potential.
+[3] Stanley consistently underperforms, misses deadlines (e.g., last week's), and is habitually late (+15 min daily) and unprofessionally dressed. Lacks growth potential.
+[4] Mr. Stanley consistently underperforms, misses deadlines, and has issues with punctuality. He shows no potential for growth within the company.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer2|Summarise|B9|Q07",
+  "criterion": "Constructiveness",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 24: B9_Q08_Finalchoice -----
+You are Volunteer 2 in Group B.
+TASK TYPE: Summarise
+SAMPLE: B9
+CRITERION: Final choice
+
+INSTRUCTION:
+Rank from most to least suitable as a final version.
+
+ORIGINAL:
+Unfortunately, Mr. Stanley has shown time and time again that he has issues performing. For example, last week he had a deadline that he knew of, instead he took long lunches and never made the deadline. Also, his ability to show up on time and dressed accordingly has never happened. Everyday Wade has been a minimum of 15+ minutes late! This is very unacceptable, he is a nice person and I wish him the best, but potential for growth is not there.
+
+CANDIDATES:
+[1] Stanley consistently underperforms, misses deadlines (e.g., last week's), and is habitually late (+15 min daily) and unprofessionally dressed. Lacks growth potential.
+[2] Mr. Stanley consistently underperforms, misses deadlines, and has issues with punctuality. He shows no potential for growth within the company.
+[3] Mr. Stanley consistently underperforms: missed deadlines, habitual tardiness (15+ mins daily), and inappropriate dress. Despite being personable, he shows no potential for growth. Performance issues are ongoing and unacceptable.
+[4] Wade: Repeated performance issues (missed deadline, chronic lateness >15mins, dress). Nice person, but no growth potential.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer2|Summarise|B9|Q08",
+  "criterion": "Final choice",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 25: B11_Q01_Fluency -----
+You are Volunteer 2 in Group B.
+TASK TYPE: Summarise
+SAMPLE: B11
+CRITERION: Fluency
+
+INSTRUCTION:
+Rank from most to least smooth and error-free.
+
+ORIGINAL:
+Aniya is very good at what she does, and a favourite of the whole team. At the end of the quarter, she is one of the members we rely on the most due to her high output. She is a consistent worker. Unlikely to be moved into managerial roles as she has struggled with leadership.
+
+CANDIDATES:
+[1] Aniya is a highly valued, consistent, and productive team member. While a strong individual contributor, she's not suited for leadership roles.
+[2] Aniya is a consistent, high-output performer and a reliable team member. However, she struggles with leadership, limiting her managerial potential.
+[3] Aniya: Very good, team favorite, high output, consistent. Relied on most. Struggles with leadership, unlikely for management.
+[4] Aniya is a top performer and team favorite, known for her consistent high output and reliability. She excels in her role but is unlikely to move into management due to leadership challenges.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer2|Summarise|B11|Q01",
+  "criterion": "Fluency",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 26: B11_Q02_Coherence -----
+You are Volunteer 2 in Group B.
+TASK TYPE: Summarise
+SAMPLE: B11
+CRITERION: Coherence
+
+INSTRUCTION:
+Rank from most to least logical and easy to follow.
+
+ORIGINAL:
+Aniya is very good at what she does, and a favourite of the whole team. At the end of the quarter, she is one of the members we rely on the most due to her high output. She is a consistent worker. Unlikely to be moved into managerial roles as she has struggled with leadership.
+
+CANDIDATES:
+[1] Aniya is a top performer and team favorite, known for her consistent high output and reliability. She excels in her role but is unlikely to move into management due to leadership challenges.
+[2] Aniya: Very good, team favorite, high output, consistent. Relied on most. Struggles with leadership, unlikely for management.
+[3] Aniya is a highly valued, consistent, and productive team member. While a strong individual contributor, she's not suited for leadership roles.
+[4] Aniya is a consistent, high-output performer and a reliable team member. However, she struggles with leadership, limiting her managerial potential.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer2|Summarise|B11|Q02",
+  "criterion": "Coherence",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 27: B11_Q03_Conciseness -----
+You are Volunteer 2 in Group B.
+TASK TYPE: Summarise
+SAMPLE: B11
+CRITERION: Conciseness
+
+INSTRUCTION:
+Rank from most to least clear and compact.
+
+ORIGINAL:
+Aniya is very good at what she does, and a favourite of the whole team. At the end of the quarter, she is one of the members we rely on the most due to her high output. She is a consistent worker. Unlikely to be moved into managerial roles as she has struggled with leadership.
+
+CANDIDATES:
+[1] Aniya is a consistent, high-output performer and a reliable team member. However, she struggles with leadership, limiting her managerial potential.
+[2] Aniya: Very good, team favorite, high output, consistent. Relied on most. Struggles with leadership, unlikely for management.
+[3] Aniya is a top performer and team favorite, known for her consistent high output and reliability. She excels in her role but is unlikely to move into management due to leadership challenges.
+[4] Aniya is a highly valued, consistent, and productive team member. While a strong individual contributor, she's not suited for leadership roles.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer2|Summarise|B11|Q03",
+  "criterion": "Conciseness",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 28: B11_Q04_Accuracy -----
+You are Volunteer 2 in Group B.
+TASK TYPE: Summarise
+SAMPLE: B11
+CRITERION: Accuracy
+
+INSTRUCTION:
+Select all texts that are factually correct given the Original.
+
+ORIGINAL:
+Aniya is very good at what she does, and a favourite of the whole team. At the end of the quarter, she is one of the members we rely on the most due to her high output. She is a consistent worker. Unlikely to be moved into managerial roles as she has struggled with leadership.
+
+CANDIDATES:
+[1] Aniya is a consistent, high-output performer and a reliable team member. However, she struggles with leadership, limiting her managerial potential.
+[2] Aniya: Very good, team favorite, high output, consistent. Relied on most. Struggles with leadership, unlikely for management.
+[3] Aniya is a highly valued, consistent, and productive team member. While a strong individual contributor, she's not suited for leadership roles.
+[4] Aniya is a top performer and team favorite, known for her consistent high output and reliability. She excels in her role but is unlikely to move into management due to leadership challenges.
+
+Please select all outputs that are factually correct given the Original.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer2|Summarise|B11|Q04",
+  "criterion": "Accuracy",
+  "rating": [1, 3],
+  "justifications": {
+    "1": "why candidate 1 is correct/incorrect in one sentence",
+    "2": "why candidate 2 is correct/incorrect in one sentence",
+    "3": "why candidate 3 is correct/incorrect in one sentence",
+    "4": "why candidate 4 is correct/incorrect in one sentence"
+  }
+}
+
+
+----- PROMPT 29: B11_Q05_Sentimentmatch -----
+You are Volunteer 2 in Group B.
+TASK TYPE: Summarise
+SAMPLE: B11
+CRITERION: Sentiment match
+
+INSTRUCTION:
+Rank from most to least similar to the Original in style and sentiment.
+
+ORIGINAL:
+Aniya is very good at what she does, and a favourite of the whole team. At the end of the quarter, she is one of the members we rely on the most due to her high output. She is a consistent worker. Unlikely to be moved into managerial roles as she has struggled with leadership.
+
+CANDIDATES:
+[1] Aniya is a highly valued, consistent, and productive team member. While a strong individual contributor, she's not suited for leadership roles.
+[2] Aniya: Very good, team favorite, high output, consistent. Relied on most. Struggles with leadership, unlikely for management.
+[3] Aniya is a top performer and team favorite, known for her consistent high output and reliability. She excels in her role but is unlikely to move into management due to leadership challenges.
+[4] Aniya is a consistent, high-output performer and a reliable team member. However, she struggles with leadership, limiting her managerial potential.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer2|Summarise|B11|Q05",
+  "criterion": "Sentiment match",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 30: B11_Q06_Motivationaltone -----
+You are Volunteer 2 in Group B.
+TASK TYPE: Summarise
+SAMPLE: B11
+CRITERION: Motivational tone
+
+INSTRUCTION:
+Rank from most to least empathetic and encouraging.
+
+ORIGINAL:
+Aniya is very good at what she does, and a favourite of the whole team. At the end of the quarter, she is one of the members we rely on the most due to her high output. She is a consistent worker. Unlikely to be moved into managerial roles as she has struggled with leadership.
+
+CANDIDATES:
+[1] Aniya: Very good, team favorite, high output, consistent. Relied on most. Struggles with leadership, unlikely for management.
+[2] Aniya is a consistent, high-output performer and a reliable team member. However, she struggles with leadership, limiting her managerial potential.
+[3] Aniya is a highly valued, consistent, and productive team member. While a strong individual contributor, she's not suited for leadership roles.
+[4] Aniya is a top performer and team favorite, known for her consistent high output and reliability. She excels in her role but is unlikely to move into management due to leadership challenges.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer2|Summarise|B11|Q06",
+  "criterion": "Motivational tone",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 31: B11_Q07_Constructiveness -----
+You are Volunteer 2 in Group B.
+TASK TYPE: Summarise
+SAMPLE: B11
+CRITERION: Constructiveness
+
+INSTRUCTION:
+Rank from most to least helpful and constructive.
+
+ORIGINAL:
+Aniya is very good at what she does, and a favourite of the whole team. At the end of the quarter, she is one of the members we rely on the most due to her high output. She is a consistent worker. Unlikely to be moved into managerial roles as she has struggled with leadership.
+
+CANDIDATES:
+[1] Aniya is a top performer and team favorite, known for her consistent high output and reliability. She excels in her role but is unlikely to move into management due to leadership challenges.
+[2] Aniya: Very good, team favorite, high output, consistent. Relied on most. Struggles with leadership, unlikely for management.
+[3] Aniya is a highly valued, consistent, and productive team member. While a strong individual contributor, she's not suited for leadership roles.
+[4] Aniya is a consistent, high-output performer and a reliable team member. However, she struggles with leadership, limiting her managerial potential.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer2|Summarise|B11|Q07",
+  "criterion": "Constructiveness",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 32: B11_Q08_Finalchoice -----
+You are Volunteer 2 in Group B.
+TASK TYPE: Summarise
+SAMPLE: B11
+CRITERION: Final choice
+
+INSTRUCTION:
+Rank from most to least suitable as a final version.
+
+ORIGINAL:
+Aniya is very good at what she does, and a favourite of the whole team. At the end of the quarter, she is one of the members we rely on the most due to her high output. She is a consistent worker. Unlikely to be moved into managerial roles as she has struggled with leadership.
+
+CANDIDATES:
+[1] Aniya is a consistent, high-output performer and a reliable team member. However, she struggles with leadership, limiting her managerial potential.
+[2] Aniya is a highly valued, consistent, and productive team member. While a strong individual contributor, she's not suited for leadership roles.
+[3] Aniya: Very good, team favorite, high output, consistent. Relied on most. Struggles with leadership, unlikely for management.
+[4] Aniya is a top performer and team favorite, known for her consistent high output and reliability. She excels in her role but is unlikely to move into management due to leadership challenges.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer2|Summarise|B11|Q08",
+  "criterion": "Final choice",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT SC2: SanityCheck_Summarise_Accuracy -----
+TASK TYPE: Summarise
+SAMPLE: SC2
+CRITERION: Accuracy
+
+INSTRUCTION:
+Rank from most to least factually correct given the Original.
+
+ORIGINAL:
+Pure water begins to freeze at exactly zero degrees Celsius
+
+CANDIDATES:
+[1] Water freezes at at 0°C.
+[2] Water freezes at 100°C.
+[3] Water boils at 0°C.
+[4] Ice melts at 0°C.
+
+Please rank outputs strictly from most accurate (1) to least accurate (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "Summarise|SC2|Q04",
+  "criterion": "Accuracy",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 33: B17_Q01_Fluency -----
+You are Volunteer 2 in Group B.
+TASK TYPE: Interpret
+SAMPLE: B17
+CRITERION: Fluency
+
+INSTRUCTION:
+Rank from most to least smooth and error-free.
+
+ORIGINAL:
+Jay frequently shows up late to the office and misses deadlines that have been set for his assignments. Unfortunately each assignment I've received from him to date has been subpar since they frequently have math errors.
+
+CANDIDATES:
+[1] Jay’s consistent tardiness and missed deadlines are impacting team reliability, while the recurring math errors in his work suggest a need for improved accuracy and attention to detail. This pattern indicates gaps in time management and work quality that, if unaddressed, may affect his performance standing. To improve, Jay should (1) establish a structured morning routine to ensure punctuality, (2) use a task tracker to monitor deadlines and break assignments into manageable steps, (3) implement a review process to verify calculations before submission, and (4) proactively seek feedback early in assignments to align with expectations.
+[2] Feedback means Jay consistently delivers late, error-prone work with poor punctuality. This signals urgent need for reliability improvements. Jay should: 1) Use calendar alerts for deadlines/arrival times, 2) Implement peer-review for all assignments, 3) Enroll in company math tools training this month.
+[3] Jay is not meeting basic job expectations regarding punctuality, deadlines, and work quality, with frequent errors noted. This seriously jeopardizes his position. He must immediately improve his timekeeping and implement a system to proofread all work for errors before submission.
+[4] Jay, this feedback indicates a need to improve punctuality, reliability, and accuracy. It suggests that Jay's current performance is impacting his standing and growth opportunities. To address these concerns, Jay should: (1) arrive on time consistently, (2) proactively communicate any potential deadline issues, (3) double-check all assignments for accuracy, and (4) seek clarification on expectations if needed.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer2|Interpret|B17|Q01",
+  "criterion": "Fluency",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 34: B17_Q02_Coherence -----
+You are Volunteer 2 in Group B.
+TASK TYPE: Interpret
+SAMPLE: B17
+CRITERION: Coherence
+
+INSTRUCTION:
+Rank from most to least logical and easy to follow.
+
+ORIGINAL:
+Jay frequently shows up late to the office and misses deadlines that have been set for his assignments. Unfortunately each assignment I've received from him to date has been subpar since they frequently have math errors.
+
+CANDIDATES:
+[1] Feedback means Jay consistently delivers late, error-prone work with poor punctuality. This signals urgent need for reliability improvements. Jay should: 1) Use calendar alerts for deadlines/arrival times, 2) Implement peer-review for all assignments, 3) Enroll in company math tools training this month.
+[2] Jay’s consistent tardiness and missed deadlines are impacting team reliability, while the recurring math errors in his work suggest a need for improved accuracy and attention to detail. This pattern indicates gaps in time management and work quality that, if unaddressed, may affect his performance standing. To improve, Jay should (1) establish a structured morning routine to ensure punctuality, (2) use a task tracker to monitor deadlines and break assignments into manageable steps, (3) implement a review process to verify calculations before submission, and (4) proactively seek feedback early in assignments to align with expectations.
+[3] Jay is not meeting basic job expectations regarding punctuality, deadlines, and work quality, with frequent errors noted. This seriously jeopardizes his position. He must immediately improve his timekeeping and implement a system to proofread all work for errors before submission.
+[4] Jay, this feedback indicates a need to improve punctuality, reliability, and accuracy. It suggests that Jay's current performance is impacting his standing and growth opportunities. To address these concerns, Jay should: (1) arrive on time consistently, (2) proactively communicate any potential deadline issues, (3) double-check all assignments for accuracy, and (4) seek clarification on expectations if needed.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer2|Interpret|B17|Q02",
+  "criterion": "Coherence",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 35: B17_Q03_Conciseness -----
+You are Volunteer 2 in Group B.
+TASK TYPE: Interpret
+SAMPLE: B17
+CRITERION: Conciseness
+
+INSTRUCTION:
+Rank from most to least clear and compact.
+
+ORIGINAL:
+Jay frequently shows up late to the office and misses deadlines that have been set for his assignments. Unfortunately each assignment I've received from him to date has been subpar since they frequently have math errors.
+
+CANDIDATES:
+[1] Feedback means Jay consistently delivers late, error-prone work with poor punctuality. This signals urgent need for reliability improvements. Jay should: 1) Use calendar alerts for deadlines/arrival times, 2) Implement peer-review for all assignments, 3) Enroll in company math tools training this month.
+[2] Jay, this feedback indicates a need to improve punctuality, reliability, and accuracy. It suggests that Jay's current performance is impacting his standing and growth opportunities. To address these concerns, Jay should: (1) arrive on time consistently, (2) proactively communicate any potential deadline issues, (3) double-check all assignments for accuracy, and (4) seek clarification on expectations if needed.
+[3] Jay is not meeting basic job expectations regarding punctuality, deadlines, and work quality, with frequent errors noted. This seriously jeopardizes his position. He must immediately improve his timekeeping and implement a system to proofread all work for errors before submission.
+[4] Jay’s consistent tardiness and missed deadlines are impacting team reliability, while the recurring math errors in his work suggest a need for improved accuracy and attention to detail. This pattern indicates gaps in time management and work quality that, if unaddressed, may affect his performance standing. To improve, Jay should (1) establish a structured morning routine to ensure punctuality, (2) use a task tracker to monitor deadlines and break assignments into manageable steps, (3) implement a review process to verify calculations before submission, and (4) proactively seek feedback early in assignments to align with expectations.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer2|Interpret|B17|Q03",
+  "criterion": "Conciseness",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 36: B17_Q04_Accuracy -----
+You are Volunteer 2 in Group B.
+TASK TYPE: Interpret
+SAMPLE: B17
+CRITERION: Accuracy
+
+INSTRUCTION:
+Select all texts that are factually correct given the Original.
+
+ORIGINAL:
+Jay frequently shows up late to the office and misses deadlines that have been set for his assignments. Unfortunately each assignment I've received from him to date has been subpar since they frequently have math errors.
+
+CANDIDATES:
+[1] Feedback means Jay consistently delivers late, error-prone work with poor punctuality. This signals urgent need for reliability improvements. Jay should: 1) Use calendar alerts for deadlines/arrival times, 2) Implement peer-review for all assignments, 3) Enroll in company math tools training this month.
+[2] Jay’s consistent tardiness and missed deadlines are impacting team reliability, while the recurring math errors in his work suggest a need for improved accuracy and attention to detail. This pattern indicates gaps in time management and work quality that, if unaddressed, may affect his performance standing. To improve, Jay should (1) establish a structured morning routine to ensure punctuality, (2) use a task tracker to monitor deadlines and break assignments into manageable steps, (3) implement a review process to verify calculations before submission, and (4) proactively seek feedback early in assignments to align with expectations.
+[3] Jay is not meeting basic job expectations regarding punctuality, deadlines, and work quality, with frequent errors noted. This seriously jeopardizes his position. He must immediately improve his timekeeping and implement a system to proofread all work for errors before submission.
+[4] Jay, this feedback indicates a need to improve punctuality, reliability, and accuracy. It suggests that Jay's current performance is impacting his standing and growth opportunities. To address these concerns, Jay should: (1) arrive on time consistently, (2) proactively communicate any potential deadline issues, (3) double-check all assignments for accuracy, and (4) seek clarification on expectations if needed.
+
+Please select all outputs that are factually correct given the Original.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer2|Interpret|B17|Q04",
+  "criterion": "Accuracy",
+  "rating": [1, 3],
+  "justifications": {
+    "1": "why candidate 1 is correct/incorrect in one sentence",
+    "2": "why candidate 2 is correct/incorrect in one sentence",
+    "3": "why candidate 3 is correct/incorrect in one sentence",
+    "4": "why candidate 4 is correct/incorrect in one sentence"
+  }
+}
+
+
+----- PROMPT 37: B17_Q05_Sentimentmatch -----
+You are Volunteer 2 in Group B.
+TASK TYPE: Interpret
+SAMPLE: B17
+CRITERION: Sentiment match
+
+INSTRUCTION:
+Rank from most to least similar to the Original in style and sentiment.
+
+ORIGINAL:
+Jay frequently shows up late to the office and misses deadlines that have been set for his assignments. Unfortunately each assignment I've received from him to date has been subpar since they frequently have math errors.
+
+CANDIDATES:
+[1] Jay is not meeting basic job expectations regarding punctuality, deadlines, and work quality, with frequent errors noted. This seriously jeopardizes his position. He must immediately improve his timekeeping and implement a system to proofread all work for errors before submission.
+[2] Jay, this feedback indicates a need to improve punctuality, reliability, and accuracy. It suggests that Jay's current performance is impacting his standing and growth opportunities. To address these concerns, Jay should: (1) arrive on time consistently, (2) proactively communicate any potential deadline issues, (3) double-check all assignments for accuracy, and (4) seek clarification on expectations if needed.
+[3] Feedback means Jay consistently delivers late, error-prone work with poor punctuality. This signals urgent need for reliability improvements. Jay should: 1) Use calendar alerts for deadlines/arrival times, 2) Implement peer-review for all assignments, 3) Enroll in company math tools training this month.
+[4] Jay’s consistent tardiness and missed deadlines are impacting team reliability, while the recurring math errors in his work suggest a need for improved accuracy and attention to detail. This pattern indicates gaps in time management and work quality that, if unaddressed, may affect his performance standing. To improve, Jay should (1) establish a structured morning routine to ensure punctuality, (2) use a task tracker to monitor deadlines and break assignments into manageable steps, (3) implement a review process to verify calculations before submission, and (4) proactively seek feedback early in assignments to align with expectations.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer2|Interpret|B17|Q05",
+  "criterion": "Sentiment match",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 38: B17_Q06_Motivationaltone -----
+You are Volunteer 2 in Group B.
+TASK TYPE: Interpret
+SAMPLE: B17
+CRITERION: Motivational tone
+
+INSTRUCTION:
+Rank from most to least empathetic and encouraging.
+
+ORIGINAL:
+Jay frequently shows up late to the office and misses deadlines that have been set for his assignments. Unfortunately each assignment I've received from him to date has been subpar since they frequently have math errors.
+
+CANDIDATES:
+[1] Jay, this feedback indicates a need to improve punctuality, reliability, and accuracy. It suggests that Jay's current performance is impacting his standing and growth opportunities. To address these concerns, Jay should: (1) arrive on time consistently, (2) proactively communicate any potential deadline issues, (3) double-check all assignments for accuracy, and (4) seek clarification on expectations if needed.
+[2] Feedback means Jay consistently delivers late, error-prone work with poor punctuality. This signals urgent need for reliability improvements. Jay should: 1) Use calendar alerts for deadlines/arrival times, 2) Implement peer-review for all assignments, 3) Enroll in company math tools training this month.
+[3] Jay’s consistent tardiness and missed deadlines are impacting team reliability, while the recurring math errors in his work suggest a need for improved accuracy and attention to detail. This pattern indicates gaps in time management and work quality that, if unaddressed, may affect his performance standing. To improve, Jay should (1) establish a structured morning routine to ensure punctuality, (2) use a task tracker to monitor deadlines and break assignments into manageable steps, (3) implement a review process to verify calculations before submission, and (4) proactively seek feedback early in assignments to align with expectations.
+[4] Jay is not meeting basic job expectations regarding punctuality, deadlines, and work quality, with frequent errors noted. This seriously jeopardizes his position. He must immediately improve his timekeeping and implement a system to proofread all work for errors before submission.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer2|Interpret|B17|Q06",
+  "criterion": "Motivational tone",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 39: B17_Q07_Constructiveness -----
+You are Volunteer 2 in Group B.
+TASK TYPE: Interpret
+SAMPLE: B17
+CRITERION: Constructiveness
+
+INSTRUCTION:
+Rank from most to least helpful and constructive.
+
+ORIGINAL:
+Jay frequently shows up late to the office and misses deadlines that have been set for his assignments. Unfortunately each assignment I've received from him to date has been subpar since they frequently have math errors.
+
+CANDIDATES:
+[1] Jay is not meeting basic job expectations regarding punctuality, deadlines, and work quality, with frequent errors noted. This seriously jeopardizes his position. He must immediately improve his timekeeping and implement a system to proofread all work for errors before submission.
+[2] Feedback means Jay consistently delivers late, error-prone work with poor punctuality. This signals urgent need for reliability improvements. Jay should: 1) Use calendar alerts for deadlines/arrival times, 2) Implement peer-review for all assignments, 3) Enroll in company math tools training this month.
+[3] Jay, this feedback indicates a need to improve punctuality, reliability, and accuracy. It suggests that Jay's current performance is impacting his standing and growth opportunities. To address these concerns, Jay should: (1) arrive on time consistently, (2) proactively communicate any potential deadline issues, (3) double-check all assignments for accuracy, and (4) seek clarification on expectations if needed.
+[4] Jay’s consistent tardiness and missed deadlines are impacting team reliability, while the recurring math errors in his work suggest a need for improved accuracy and attention to detail. This pattern indicates gaps in time management and work quality that, if unaddressed, may affect his performance standing. To improve, Jay should (1) establish a structured morning routine to ensure punctuality, (2) use a task tracker to monitor deadlines and break assignments into manageable steps, (3) implement a review process to verify calculations before submission, and (4) proactively seek feedback early in assignments to align with expectations.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer2|Interpret|B17|Q07",
+  "criterion": "Constructiveness",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 40: B17_Q08_Finalchoice -----
+You are Volunteer 2 in Group B.
+TASK TYPE: Interpret
+SAMPLE: B17
+CRITERION: Final choice
+
+INSTRUCTION:
+Rank from most to least suitable as a final version.
+
+ORIGINAL:
+Jay frequently shows up late to the office and misses deadlines that have been set for his assignments. Unfortunately each assignment I've received from him to date has been subpar since they frequently have math errors.
+
+CANDIDATES:
+[1] Jay is not meeting basic job expectations regarding punctuality, deadlines, and work quality, with frequent errors noted. This seriously jeopardizes his position. He must immediately improve his timekeeping and implement a system to proofread all work for errors before submission.
+[2] Jay, this feedback indicates a need to improve punctuality, reliability, and accuracy. It suggests that Jay's current performance is impacting his standing and growth opportunities. To address these concerns, Jay should: (1) arrive on time consistently, (2) proactively communicate any potential deadline issues, (3) double-check all assignments for accuracy, and (4) seek clarification on expectations if needed.
+[3] Jay’s consistent tardiness and missed deadlines are impacting team reliability, while the recurring math errors in his work suggest a need for improved accuracy and attention to detail. This pattern indicates gaps in time management and work quality that, if unaddressed, may affect his performance standing. To improve, Jay should (1) establish a structured morning routine to ensure punctuality, (2) use a task tracker to monitor deadlines and break assignments into manageable steps, (3) implement a review process to verify calculations before submission, and (4) proactively seek feedback early in assignments to align with expectations.
+[4] Feedback means Jay consistently delivers late, error-prone work with poor punctuality. This signals urgent need for reliability improvements. Jay should: 1) Use calendar alerts for deadlines/arrival times, 2) Implement peer-review for all assignments, 3) Enroll in company math tools training this month.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer2|Interpret|B17|Q08",
+  "criterion": "Final choice",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 41: B18_Q01_Fluency -----
+You are Volunteer 2 in Group B.
+TASK TYPE: Interpret
+SAMPLE: B18
+CRITERION: Fluency
+
+INSTRUCTION:
+Rank from most to least smooth and error-free.
+
+ORIGINAL:
+Natasha has proven to be an effective worker. She consistently creates excellent work on time. Her performance within the company is very strong. However, we do not see her currently moving forward within the company at this time due to a number of issues that be discussed if requested.
+
+CANDIDATES:
+[1] Natasha is a highly effective employee delivering excellent, timely work. Her growth is stalled by unspecified issues, preventing advancement. Natasha must schedule a meeting to respectfully ask her manager to detail these issues and define a clear path for future growth.
+[2] Natasha, this feedback indicates you are a highly valued, top-performing individual contributor. Your work quality and reliability are excellent. However, the company doesn't currently see you advancing, suggesting there are unstated reasons impacting your growth trajectory. To understand and address these, Natasha should proactively schedule a meeting with her manager to discuss specific growth blockers, seek actionable feedback, and collaboratively develop a plan for future advancement opportunities.
+[3] Feedback means Natasha excels in quality/timeliness but faces undisclosed barriers to advancement. This positions her as a top performer with stalled growth. Natasha should: 1) Request specific feedback on advancement blockers, 2) Document achievements for promotion packet, 3) Seek cross-departmental exposure opportunities.
+[4] Natasha demonstrates strong performance and delivers high-quality work consistently, reflecting her dedication and skill. While her current contributions are valued, there are developmental areas impacting her advancement opportunities. If Natasha seeks growth, she should request specific feedback, clarify expectations for promotion, create a targeted development plan, and regularly check in with leadership to track progress.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer2|Interpret|B18|Q01",
+  "criterion": "Fluency",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 42: B18_Q02_Coherence -----
+You are Volunteer 2 in Group B.
+TASK TYPE: Interpret
+SAMPLE: B18
+CRITERION: Coherence
+
+INSTRUCTION:
+Rank from most to least logical and easy to follow.
+
+ORIGINAL:
+Natasha has proven to be an effective worker. She consistently creates excellent work on time. Her performance within the company is very strong. However, we do not see her currently moving forward within the company at this time due to a number of issues that be discussed if requested.
+
+CANDIDATES:
+[1] Natasha demonstrates strong performance and delivers high-quality work consistently, reflecting her dedication and skill. While her current contributions are valued, there are developmental areas impacting her advancement opportunities. If Natasha seeks growth, she should request specific feedback, clarify expectations for promotion, create a targeted development plan, and regularly check in with leadership to track progress.
+[2] Natasha, this feedback indicates you are a highly valued, top-performing individual contributor. Your work quality and reliability are excellent. However, the company doesn't currently see you advancing, suggesting there are unstated reasons impacting your growth trajectory. To understand and address these, Natasha should proactively schedule a meeting with her manager to discuss specific growth blockers, seek actionable feedback, and collaboratively develop a plan for future advancement opportunities.
+[3] Natasha is a highly effective employee delivering excellent, timely work. Her growth is stalled by unspecified issues, preventing advancement. Natasha must schedule a meeting to respectfully ask her manager to detail these issues and define a clear path for future growth.
+[4] Feedback means Natasha excels in quality/timeliness but faces undisclosed barriers to advancement. This positions her as a top performer with stalled growth. Natasha should: 1) Request specific feedback on advancement blockers, 2) Document achievements for promotion packet, 3) Seek cross-departmental exposure opportunities.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer2|Interpret|B18|Q02",
+  "criterion": "Coherence",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 43: B18_Q03_Conciseness -----
+You are Volunteer 2 in Group B.
+TASK TYPE: Interpret
+SAMPLE: B18
+CRITERION: Conciseness
+
+INSTRUCTION:
+Rank from most to least clear and compact.
+
+ORIGINAL:
+Natasha has proven to be an effective worker. She consistently creates excellent work on time. Her performance within the company is very strong. However, we do not see her currently moving forward within the company at this time due to a number of issues that be discussed if requested.
+
+CANDIDATES:
+[1] Natasha demonstrates strong performance and delivers high-quality work consistently, reflecting her dedication and skill. While her current contributions are valued, there are developmental areas impacting her advancement opportunities. If Natasha seeks growth, she should request specific feedback, clarify expectations for promotion, create a targeted development plan, and regularly check in with leadership to track progress.
+[2] Natasha, this feedback indicates you are a highly valued, top-performing individual contributor. Your work quality and reliability are excellent. However, the company doesn't currently see you advancing, suggesting there are unstated reasons impacting your growth trajectory. To understand and address these, Natasha should proactively schedule a meeting with her manager to discuss specific growth blockers, seek actionable feedback, and collaboratively develop a plan for future advancement opportunities.
+[3] Natasha is a highly effective employee delivering excellent, timely work. Her growth is stalled by unspecified issues, preventing advancement. Natasha must schedule a meeting to respectfully ask her manager to detail these issues and define a clear path for future growth.
+[4] Feedback means Natasha excels in quality/timeliness but faces undisclosed barriers to advancement. This positions her as a top performer with stalled growth. Natasha should: 1) Request specific feedback on advancement blockers, 2) Document achievements for promotion packet, 3) Seek cross-departmental exposure opportunities.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer2|Interpret|B18|Q03",
+  "criterion": "Conciseness",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 44: B18_Q04_Accuracy -----
+You are Volunteer 2 in Group B.
+TASK TYPE: Interpret
+SAMPLE: B18
+CRITERION: Accuracy
+
+INSTRUCTION:
+Select all texts that are factually correct given the Original.
+
+ORIGINAL:
+Natasha has proven to be an effective worker. She consistently creates excellent work on time. Her performance within the company is very strong. However, we do not see her currently moving forward within the company at this time due to a number of issues that be discussed if requested.
+
+CANDIDATES:
+[1] Natasha, this feedback indicates you are a highly valued, top-performing individual contributor. Your work quality and reliability are excellent. However, the company doesn't currently see you advancing, suggesting there are unstated reasons impacting your growth trajectory. To understand and address these, Natasha should proactively schedule a meeting with her manager to discuss specific growth blockers, seek actionable feedback, and collaboratively develop a plan for future advancement opportunities.
+[2] Natasha demonstrates strong performance and delivers high-quality work consistently, reflecting her dedication and skill. While her current contributions are valued, there are developmental areas impacting her advancement opportunities. If Natasha seeks growth, she should request specific feedback, clarify expectations for promotion, create a targeted development plan, and regularly check in with leadership to track progress.
+[3] Natasha is a highly effective employee delivering excellent, timely work. Her growth is stalled by unspecified issues, preventing advancement. Natasha must schedule a meeting to respectfully ask her manager to detail these issues and define a clear path for future growth.
+[4] Feedback means Natasha excels in quality/timeliness but faces undisclosed barriers to advancement. This positions her as a top performer with stalled growth. Natasha should: 1) Request specific feedback on advancement blockers, 2) Document achievements for promotion packet, 3) Seek cross-departmental exposure opportunities.
+
+Please select all outputs that are factually correct given the Original.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer2|Interpret|B18|Q04",
+  "criterion": "Accuracy",
+  "rating": [1, 3],
+  "justifications": {
+    "1": "why candidate 1 is correct/incorrect in one sentence",
+    "2": "why candidate 2 is correct/incorrect in one sentence",
+    "3": "why candidate 3 is correct/incorrect in one sentence",
+    "4": "why candidate 4 is correct/incorrect in one sentence"
+  }
+}
+
+
+----- PROMPT 45: B18_Q05_Sentimentmatch -----
+You are Volunteer 2 in Group B.
+TASK TYPE: Interpret
+SAMPLE: B18
+CRITERION: Sentiment match
+
+INSTRUCTION:
+Rank from most to least similar to the Original in style and sentiment.
+
+ORIGINAL:
+Natasha has proven to be an effective worker. She consistently creates excellent work on time. Her performance within the company is very strong. However, we do not see her currently moving forward within the company at this time due to a number of issues that be discussed if requested.
+
+CANDIDATES:
+[1] Natasha is a highly effective employee delivering excellent, timely work. Her growth is stalled by unspecified issues, preventing advancement. Natasha must schedule a meeting to respectfully ask her manager to detail these issues and define a clear path for future growth.
+[2] Natasha, this feedback indicates you are a highly valued, top-performing individual contributor. Your work quality and reliability are excellent. However, the company doesn't currently see you advancing, suggesting there are unstated reasons impacting your growth trajectory. To understand and address these, Natasha should proactively schedule a meeting with her manager to discuss specific growth blockers, seek actionable feedback, and collaboratively develop a plan for future advancement opportunities.
+[3] Natasha demonstrates strong performance and delivers high-quality work consistently, reflecting her dedication and skill. While her current contributions are valued, there are developmental areas impacting her advancement opportunities. If Natasha seeks growth, she should request specific feedback, clarify expectations for promotion, create a targeted development plan, and regularly check in with leadership to track progress.
+[4] Feedback means Natasha excels in quality/timeliness but faces undisclosed barriers to advancement. This positions her as a top performer with stalled growth. Natasha should: 1) Request specific feedback on advancement blockers, 2) Document achievements for promotion packet, 3) Seek cross-departmental exposure opportunities.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer2|Interpret|B18|Q05",
+  "criterion": "Sentiment match",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 46: B18_Q06_Motivationaltone -----
+You are Volunteer 2 in Group B.
+TASK TYPE: Interpret
+SAMPLE: B18
+CRITERION: Motivational tone
+
+INSTRUCTION:
+Rank from most to least empathetic and encouraging.
+
+ORIGINAL:
+Natasha has proven to be an effective worker. She consistently creates excellent work on time. Her performance within the company is very strong. However, we do not see her currently moving forward within the company at this time due to a number of issues that be discussed if requested.
+
+CANDIDATES:
+[1] Natasha, this feedback indicates you are a highly valued, top-performing individual contributor. Your work quality and reliability are excellent. However, the company doesn't currently see you advancing, suggesting there are unstated reasons impacting your growth trajectory. To understand and address these, Natasha should proactively schedule a meeting with her manager to discuss specific growth blockers, seek actionable feedback, and collaboratively develop a plan for future advancement opportunities.
+[2] Feedback means Natasha excels in quality/timeliness but faces undisclosed barriers to advancement. This positions her as a top performer with stalled growth. Natasha should: 1) Request specific feedback on advancement blockers, 2) Document achievements for promotion packet, 3) Seek cross-departmental exposure opportunities.
+[3] Natasha demonstrates strong performance and delivers high-quality work consistently, reflecting her dedication and skill. While her current contributions are valued, there are developmental areas impacting her advancement opportunities. If Natasha seeks growth, she should request specific feedback, clarify expectations for promotion, create a targeted development plan, and regularly check in with leadership to track progress.
+[4] Natasha is a highly effective employee delivering excellent, timely work. Her growth is stalled by unspecified issues, preventing advancement. Natasha must schedule a meeting to respectfully ask her manager to detail these issues and define a clear path for future growth.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer2|Interpret|B18|Q06",
+  "criterion": "Motivational tone",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 47: B18_Q07_Constructiveness -----
+You are Volunteer 2 in Group B.
+TASK TYPE: Interpret
+SAMPLE: B18
+CRITERION: Constructiveness
+
+INSTRUCTION:
+Rank from most to least helpful and constructive.
+
+ORIGINAL:
+Natasha has proven to be an effective worker. She consistently creates excellent work on time. Her performance within the company is very strong. However, we do not see her currently moving forward within the company at this time due to a number of issues that be discussed if requested.
+
+CANDIDATES:
+[1] Natasha is a highly effective employee delivering excellent, timely work. Her growth is stalled by unspecified issues, preventing advancement. Natasha must schedule a meeting to respectfully ask her manager to detail these issues and define a clear path for future growth.
+[2] Feedback means Natasha excels in quality/timeliness but faces undisclosed barriers to advancement. This positions her as a top performer with stalled growth. Natasha should: 1) Request specific feedback on advancement blockers, 2) Document achievements for promotion packet, 3) Seek cross-departmental exposure opportunities.
+[3] Natasha demonstrates strong performance and delivers high-quality work consistently, reflecting her dedication and skill. While her current contributions are valued, there are developmental areas impacting her advancement opportunities. If Natasha seeks growth, she should request specific feedback, clarify expectations for promotion, create a targeted development plan, and regularly check in with leadership to track progress.
+[4] Natasha, this feedback indicates you are a highly valued, top-performing individual contributor. Your work quality and reliability are excellent. However, the company doesn't currently see you advancing, suggesting there are unstated reasons impacting your growth trajectory. To understand and address these, Natasha should proactively schedule a meeting with her manager to discuss specific growth blockers, seek actionable feedback, and collaboratively develop a plan for future advancement opportunities.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer2|Interpret|B18|Q07",
+  "criterion": "Constructiveness",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 48: B18_Q08_Finalchoice -----
+You are Volunteer 2 in Group B.
+TASK TYPE: Interpret
+SAMPLE: B18
+CRITERION: Final choice
+
+INSTRUCTION:
+Rank from most to least suitable as a final version.
+
+ORIGINAL:
+Natasha has proven to be an effective worker. She consistently creates excellent work on time. Her performance within the company is very strong. However, we do not see her currently moving forward within the company at this time due to a number of issues that be discussed if requested.
+
+CANDIDATES:
+[1] Natasha demonstrates strong performance and delivers high-quality work consistently, reflecting her dedication and skill. While her current contributions are valued, there are developmental areas impacting her advancement opportunities. If Natasha seeks growth, she should request specific feedback, clarify expectations for promotion, create a targeted development plan, and regularly check in with leadership to track progress.
+[2] Natasha is a highly effective employee delivering excellent, timely work. Her growth is stalled by unspecified issues, preventing advancement. Natasha must schedule a meeting to respectfully ask her manager to detail these issues and define a clear path for future growth.
+[3] Natasha, this feedback indicates you are a highly valued, top-performing individual contributor. Your work quality and reliability are excellent. However, the company doesn't currently see you advancing, suggesting there are unstated reasons impacting your growth trajectory. To understand and address these, Natasha should proactively schedule a meeting with her manager to discuss specific growth blockers, seek actionable feedback, and collaboratively develop a plan for future advancement opportunities.
+[4] Feedback means Natasha excels in quality/timeliness but faces undisclosed barriers to advancement. This positions her as a top performer with stalled growth. Natasha should: 1) Request specific feedback on advancement blockers, 2) Document achievements for promotion packet, 3) Seek cross-departmental exposure opportunities.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer2|Interpret|B18|Q08",
+  "criterion": "Final choice",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+

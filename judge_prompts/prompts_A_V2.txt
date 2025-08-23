@@ -1,0 +1,1698 @@
+----- PROMPT 1: A3_Q01_Fluency -----
+You are Volunteer 2 in Group A.
+TASK TYPE: Idea-to-Text
+SAMPLE: A3
+CRITERION: Fluency
+
+INSTRUCTION:
+Rank from most to least smooth and error-free.
+
+ORIGINAL:
+Wade Stanley is repeatedly late, hostile, and under-performing—disciplinary action now likely.
+
+CANDIDATES:
+[1] Wade Stanley has consistently demonstrated poor punctuality, unprofessional behavior, and subpar performance. Despite previous feedback, there has been no improvement. Disciplinary action is now likely to address these ongoing concerns and uphold team standards.
+[2] Wade, your repeated tardiness, displays of hostility, and sustained under-performance are serious concerns. This behavior is unacceptable and negatively impacts the team. Immediate and sustained correction is required. Formal disciplinary action is now likely unless significant improvement is demonstrated without delay.
+[3] Wade, your repeated lateness, hostile behavior, and continued under-performance are unacceptable and violate our standards. This formal warning outlines that disciplinary action is now the immediate next step.
+[4] Wade's consistent tardiness significantly impacts team productivity and meeting schedules. His interactions have frequently been perceived as uncooperative, creating a challenging team dynamic. Furthermore, his work output consistently falls below expected standards. These ongoing issues necessitate immediate improvement, and disciplinary action is now being considered to address these serious concerns.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer2|Idea-to-Text|A3|Q01",
+  "criterion": "Fluency",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 2: A3_Q02_Coherence -----
+You are Volunteer 2 in Group A.
+TASK TYPE: Idea-to-Text
+SAMPLE: A3
+CRITERION: Coherence
+
+INSTRUCTION:
+Rank from most to least logical and easy to follow.
+
+ORIGINAL:
+Wade Stanley is repeatedly late, hostile, and under-performing—disciplinary action now likely.
+
+CANDIDATES:
+[1] Wade, your repeated tardiness, displays of hostility, and sustained under-performance are serious concerns. This behavior is unacceptable and negatively impacts the team. Immediate and sustained correction is required. Formal disciplinary action is now likely unless significant improvement is demonstrated without delay.
+[2] Wade's consistent tardiness significantly impacts team productivity and meeting schedules. His interactions have frequently been perceived as uncooperative, creating a challenging team dynamic. Furthermore, his work output consistently falls below expected standards. These ongoing issues necessitate immediate improvement, and disciplinary action is now being considered to address these serious concerns.
+[3] Wade Stanley has consistently demonstrated poor punctuality, unprofessional behavior, and subpar performance. Despite previous feedback, there has been no improvement. Disciplinary action is now likely to address these ongoing concerns and uphold team standards.
+[4] Wade, your repeated lateness, hostile behavior, and continued under-performance are unacceptable and violate our standards. This formal warning outlines that disciplinary action is now the immediate next step.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer2|Idea-to-Text|A3|Q02",
+  "criterion": "Coherence",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 3: A3_Q03_Conciseness -----
+You are Volunteer 2 in Group A.
+TASK TYPE: Idea-to-Text
+SAMPLE: A3
+CRITERION: Conciseness
+
+INSTRUCTION:
+Rank from most to least clear and compact.
+
+ORIGINAL:
+Wade Stanley is repeatedly late, hostile, and under-performing—disciplinary action now likely.
+
+CANDIDATES:
+[1] Wade, your repeated tardiness, displays of hostility, and sustained under-performance are serious concerns. This behavior is unacceptable and negatively impacts the team. Immediate and sustained correction is required. Formal disciplinary action is now likely unless significant improvement is demonstrated without delay.
+[2] Wade, your repeated lateness, hostile behavior, and continued under-performance are unacceptable and violate our standards. This formal warning outlines that disciplinary action is now the immediate next step.
+[3] Wade Stanley has consistently demonstrated poor punctuality, unprofessional behavior, and subpar performance. Despite previous feedback, there has been no improvement. Disciplinary action is now likely to address these ongoing concerns and uphold team standards.
+[4] Wade's consistent tardiness significantly impacts team productivity and meeting schedules. His interactions have frequently been perceived as uncooperative, creating a challenging team dynamic. Furthermore, his work output consistently falls below expected standards. These ongoing issues necessitate immediate improvement, and disciplinary action is now being considered to address these serious concerns.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer2|Idea-to-Text|A3|Q03",
+  "criterion": "Conciseness",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 4: A3_Q04_Accuracy -----
+You are Volunteer 2 in Group A.
+TASK TYPE: Idea-to-Text
+SAMPLE: A3
+CRITERION: Accuracy
+
+INSTRUCTION:
+Select all texts that are factually correct given the Original.
+
+ORIGINAL:
+Wade Stanley is repeatedly late, hostile, and under-performing—disciplinary action now likely.
+
+CANDIDATES:
+[1] Wade Stanley has consistently demonstrated poor punctuality, unprofessional behavior, and subpar performance. Despite previous feedback, there has been no improvement. Disciplinary action is now likely to address these ongoing concerns and uphold team standards.
+[2] Wade's consistent tardiness significantly impacts team productivity and meeting schedules. His interactions have frequently been perceived as uncooperative, creating a challenging team dynamic. Furthermore, his work output consistently falls below expected standards. These ongoing issues necessitate immediate improvement, and disciplinary action is now being considered to address these serious concerns.
+[3] Wade, your repeated lateness, hostile behavior, and continued under-performance are unacceptable and violate our standards. This formal warning outlines that disciplinary action is now the immediate next step.
+[4] Wade, your repeated tardiness, displays of hostility, and sustained under-performance are serious concerns. This behavior is unacceptable and negatively impacts the team. Immediate and sustained correction is required. Formal disciplinary action is now likely unless significant improvement is demonstrated without delay.
+
+Please select all outputs that are factually correct given the Original.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer2|Idea-to-Text|A3|Q04",
+  "criterion": "Accuracy",
+  "rating": [1, 3],
+  "justifications": {
+    "1": "why candidate 1 is correct/incorrect in one sentence",
+    "2": "why candidate 2 is correct/incorrect in one sentence",
+    "3": "why candidate 3 is correct/incorrect in one sentence",
+    "4": "why candidate 4 is correct/incorrect in one sentence"
+  }
+}
+
+
+----- PROMPT 5: A3_Q05_Sentimentmatch -----
+You are Volunteer 2 in Group A.
+TASK TYPE: Idea-to-Text
+SAMPLE: A3
+CRITERION: Sentiment match
+
+INSTRUCTION:
+Rank from most to least similar to the Original in style and sentiment.
+
+ORIGINAL:
+Wade Stanley is repeatedly late, hostile, and under-performing—disciplinary action now likely.
+
+CANDIDATES:
+[1] Wade's consistent tardiness significantly impacts team productivity and meeting schedules. His interactions have frequently been perceived as uncooperative, creating a challenging team dynamic. Furthermore, his work output consistently falls below expected standards. These ongoing issues necessitate immediate improvement, and disciplinary action is now being considered to address these serious concerns.
+[2] Wade, your repeated lateness, hostile behavior, and continued under-performance are unacceptable and violate our standards. This formal warning outlines that disciplinary action is now the immediate next step.
+[3] Wade, your repeated tardiness, displays of hostility, and sustained under-performance are serious concerns. This behavior is unacceptable and negatively impacts the team. Immediate and sustained correction is required. Formal disciplinary action is now likely unless significant improvement is demonstrated without delay.
+[4] Wade Stanley has consistently demonstrated poor punctuality, unprofessional behavior, and subpar performance. Despite previous feedback, there has been no improvement. Disciplinary action is now likely to address these ongoing concerns and uphold team standards.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer2|Idea-to-Text|A3|Q05",
+  "criterion": "Sentiment match",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 6: A3_Q06_Motivationaltone -----
+You are Volunteer 2 in Group A.
+TASK TYPE: Idea-to-Text
+SAMPLE: A3
+CRITERION: Motivational tone
+
+INSTRUCTION:
+Rank from most to least empathetic and encouraging.
+
+ORIGINAL:
+Wade Stanley is repeatedly late, hostile, and under-performing—disciplinary action now likely.
+
+CANDIDATES:
+[1] Wade's consistent tardiness significantly impacts team productivity and meeting schedules. His interactions have frequently been perceived as uncooperative, creating a challenging team dynamic. Furthermore, his work output consistently falls below expected standards. These ongoing issues necessitate immediate improvement, and disciplinary action is now being considered to address these serious concerns.
+[2] Wade Stanley has consistently demonstrated poor punctuality, unprofessional behavior, and subpar performance. Despite previous feedback, there has been no improvement. Disciplinary action is now likely to address these ongoing concerns and uphold team standards.
+[3] Wade, your repeated lateness, hostile behavior, and continued under-performance are unacceptable and violate our standards. This formal warning outlines that disciplinary action is now the immediate next step.
+[4] Wade, your repeated tardiness, displays of hostility, and sustained under-performance are serious concerns. This behavior is unacceptable and negatively impacts the team. Immediate and sustained correction is required. Formal disciplinary action is now likely unless significant improvement is demonstrated without delay.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer2|Idea-to-Text|A3|Q06",
+  "criterion": "Motivational tone",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 7: A3_Q07_Constructiveness -----
+You are Volunteer 2 in Group A.
+TASK TYPE: Idea-to-Text
+SAMPLE: A3
+CRITERION: Constructiveness
+
+INSTRUCTION:
+Rank from most to least helpful and constructive.
+
+ORIGINAL:
+Wade Stanley is repeatedly late, hostile, and under-performing—disciplinary action now likely.
+
+CANDIDATES:
+[1] Wade, your repeated tardiness, displays of hostility, and sustained under-performance are serious concerns. This behavior is unacceptable and negatively impacts the team. Immediate and sustained correction is required. Formal disciplinary action is now likely unless significant improvement is demonstrated without delay.
+[2] Wade Stanley has consistently demonstrated poor punctuality, unprofessional behavior, and subpar performance. Despite previous feedback, there has been no improvement. Disciplinary action is now likely to address these ongoing concerns and uphold team standards.
+[3] Wade's consistent tardiness significantly impacts team productivity and meeting schedules. His interactions have frequently been perceived as uncooperative, creating a challenging team dynamic. Furthermore, his work output consistently falls below expected standards. These ongoing issues necessitate immediate improvement, and disciplinary action is now being considered to address these serious concerns.
+[4] Wade, your repeated lateness, hostile behavior, and continued under-performance are unacceptable and violate our standards. This formal warning outlines that disciplinary action is now the immediate next step.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer2|Idea-to-Text|A3|Q07",
+  "criterion": "Constructiveness",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 8: A3_Q08_Finalchoice -----
+You are Volunteer 2 in Group A.
+TASK TYPE: Idea-to-Text
+SAMPLE: A3
+CRITERION: Final choice
+
+INSTRUCTION:
+Rank from most to least suitable as a final version.
+
+ORIGINAL:
+Wade Stanley is repeatedly late, hostile, and under-performing—disciplinary action now likely.
+
+CANDIDATES:
+[1] Wade Stanley has consistently demonstrated poor punctuality, unprofessional behavior, and subpar performance. Despite previous feedback, there has been no improvement. Disciplinary action is now likely to address these ongoing concerns and uphold team standards.
+[2] Wade, your repeated lateness, hostile behavior, and continued under-performance are unacceptable and violate our standards. This formal warning outlines that disciplinary action is now the immediate next step.
+[3] Wade's consistent tardiness significantly impacts team productivity and meeting schedules. His interactions have frequently been perceived as uncooperative, creating a challenging team dynamic. Furthermore, his work output consistently falls below expected standards. These ongoing issues necessitate immediate improvement, and disciplinary action is now being considered to address these serious concerns.
+[4] Wade, your repeated tardiness, displays of hostility, and sustained under-performance are serious concerns. This behavior is unacceptable and negatively impacts the team. Immediate and sustained correction is required. Formal disciplinary action is now likely unless significant improvement is demonstrated without delay.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer2|Idea-to-Text|A3|Q08",
+  "criterion": "Final choice",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 9: A6_Q01_Fluency -----
+You are Volunteer 2 in Group A.
+TASK TYPE: Idea-to-Text
+SAMPLE: A6
+CRITERION: Fluency
+
+INSTRUCTION:
+Rank from most to least smooth and error-free.
+
+ORIGINAL:
+Frederick Rogers is a role-model performer who mentors others and shows strong leadership potential.
+
+CANDIDATES:
+[1] Frederick, you are a true role-model performer. Beyond your own excellent results, your willingness to mentor colleagues and demonstrate leadership potential is highly valued. Keep up the outstanding work; you are a significant asset to the team and positioned for greater responsibility.
+[2] Frederick consistently performs at an exceptionally high level, serving as a role model for his peers. He actively mentors colleagues, sharing his expertise and fostering team growth. His proactive approach and natural ability to guide demonstrate significant leadership potential, making him a valuable asset to the team.
+[3] Frederick, you are a role-model performer whose contributions consistently exceed expectations. Your willingness to mentor others is invaluable, and you clearly demonstrate strong leadership potential. Let's discuss a formal leadership track.
+[4] Frederick Rogers consistently demonstrates exceptional performance and serves as a role model for his peers. He actively mentors colleagues, fosters collaboration, and exhibits strong leadership potential through his initiative and commitment to team success.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer2|Idea-to-Text|A6|Q01",
+  "criterion": "Fluency",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 10: A6_Q02_Coherence -----
+You are Volunteer 2 in Group A.
+TASK TYPE: Idea-to-Text
+SAMPLE: A6
+CRITERION: Coherence
+
+INSTRUCTION:
+Rank from most to least logical and easy to follow.
+
+ORIGINAL:
+Frederick Rogers is a role-model performer who mentors others and shows strong leadership potential.
+
+CANDIDATES:
+[1] Frederick, you are a true role-model performer. Beyond your own excellent results, your willingness to mentor colleagues and demonstrate leadership potential is highly valued. Keep up the outstanding work; you are a significant asset to the team and positioned for greater responsibility.
+[2] Frederick Rogers consistently demonstrates exceptional performance and serves as a role model for his peers. He actively mentors colleagues, fosters collaboration, and exhibits strong leadership potential through his initiative and commitment to team success.
+[3] Frederick consistently performs at an exceptionally high level, serving as a role model for his peers. He actively mentors colleagues, sharing his expertise and fostering team growth. His proactive approach and natural ability to guide demonstrate significant leadership potential, making him a valuable asset to the team.
+[4] Frederick, you are a role-model performer whose contributions consistently exceed expectations. Your willingness to mentor others is invaluable, and you clearly demonstrate strong leadership potential. Let's discuss a formal leadership track.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer2|Idea-to-Text|A6|Q02",
+  "criterion": "Coherence",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 11: A6_Q03_Conciseness -----
+You are Volunteer 2 in Group A.
+TASK TYPE: Idea-to-Text
+SAMPLE: A6
+CRITERION: Conciseness
+
+INSTRUCTION:
+Rank from most to least clear and compact.
+
+ORIGINAL:
+Frederick Rogers is a role-model performer who mentors others and shows strong leadership potential.
+
+CANDIDATES:
+[1] Frederick Rogers consistently demonstrates exceptional performance and serves as a role model for his peers. He actively mentors colleagues, fosters collaboration, and exhibits strong leadership potential through his initiative and commitment to team success.
+[2] Frederick, you are a role-model performer whose contributions consistently exceed expectations. Your willingness to mentor others is invaluable, and you clearly demonstrate strong leadership potential. Let's discuss a formal leadership track.
+[3] Frederick, you are a true role-model performer. Beyond your own excellent results, your willingness to mentor colleagues and demonstrate leadership potential is highly valued. Keep up the outstanding work; you are a significant asset to the team and positioned for greater responsibility.
+[4] Frederick consistently performs at an exceptionally high level, serving as a role model for his peers. He actively mentors colleagues, sharing his expertise and fostering team growth. His proactive approach and natural ability to guide demonstrate significant leadership potential, making him a valuable asset to the team.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer2|Idea-to-Text|A6|Q03",
+  "criterion": "Conciseness",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 12: A6_Q04_Accuracy -----
+You are Volunteer 2 in Group A.
+TASK TYPE: Idea-to-Text
+SAMPLE: A6
+CRITERION: Accuracy
+
+INSTRUCTION:
+Select all texts that are factually correct given the Original.
+
+ORIGINAL:
+Frederick Rogers is a role-model performer who mentors others and shows strong leadership potential.
+
+CANDIDATES:
+[1] Frederick Rogers consistently demonstrates exceptional performance and serves as a role model for his peers. He actively mentors colleagues, fosters collaboration, and exhibits strong leadership potential through his initiative and commitment to team success.
+[2] Frederick, you are a true role-model performer. Beyond your own excellent results, your willingness to mentor colleagues and demonstrate leadership potential is highly valued. Keep up the outstanding work; you are a significant asset to the team and positioned for greater responsibility.
+[3] Frederick consistently performs at an exceptionally high level, serving as a role model for his peers. He actively mentors colleagues, sharing his expertise and fostering team growth. His proactive approach and natural ability to guide demonstrate significant leadership potential, making him a valuable asset to the team.
+[4] Frederick, you are a role-model performer whose contributions consistently exceed expectations. Your willingness to mentor others is invaluable, and you clearly demonstrate strong leadership potential. Let's discuss a formal leadership track.
+
+Please select all outputs that are factually correct given the Original.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer2|Idea-to-Text|A6|Q04",
+  "criterion": "Accuracy",
+  "rating": [1, 3],
+  "justifications": {
+    "1": "why candidate 1 is correct/incorrect in one sentence",
+    "2": "why candidate 2 is correct/incorrect in one sentence",
+    "3": "why candidate 3 is correct/incorrect in one sentence",
+    "4": "why candidate 4 is correct/incorrect in one sentence"
+  }
+}
+
+
+----- PROMPT 13: A6_Q05_Sentimentmatch -----
+You are Volunteer 2 in Group A.
+TASK TYPE: Idea-to-Text
+SAMPLE: A6
+CRITERION: Sentiment match
+
+INSTRUCTION:
+Rank from most to least similar to the Original in style and sentiment.
+
+ORIGINAL:
+Frederick Rogers is a role-model performer who mentors others and shows strong leadership potential.
+
+CANDIDATES:
+[1] Frederick Rogers consistently demonstrates exceptional performance and serves as a role model for his peers. He actively mentors colleagues, fosters collaboration, and exhibits strong leadership potential through his initiative and commitment to team success.
+[2] Frederick consistently performs at an exceptionally high level, serving as a role model for his peers. He actively mentors colleagues, sharing his expertise and fostering team growth. His proactive approach and natural ability to guide demonstrate significant leadership potential, making him a valuable asset to the team.
+[3] Frederick, you are a role-model performer whose contributions consistently exceed expectations. Your willingness to mentor others is invaluable, and you clearly demonstrate strong leadership potential. Let's discuss a formal leadership track.
+[4] Frederick, you are a true role-model performer. Beyond your own excellent results, your willingness to mentor colleagues and demonstrate leadership potential is highly valued. Keep up the outstanding work; you are a significant asset to the team and positioned for greater responsibility.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer2|Idea-to-Text|A6|Q05",
+  "criterion": "Sentiment match",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 14: A6_Q06_Motivationaltone -----
+You are Volunteer 2 in Group A.
+TASK TYPE: Idea-to-Text
+SAMPLE: A6
+CRITERION: Motivational tone
+
+INSTRUCTION:
+Rank from most to least empathetic and encouraging.
+
+ORIGINAL:
+Frederick Rogers is a role-model performer who mentors others and shows strong leadership potential.
+
+CANDIDATES:
+[1] Frederick, you are a true role-model performer. Beyond your own excellent results, your willingness to mentor colleagues and demonstrate leadership potential is highly valued. Keep up the outstanding work; you are a significant asset to the team and positioned for greater responsibility.
+[2] Frederick Rogers consistently demonstrates exceptional performance and serves as a role model for his peers. He actively mentors colleagues, fosters collaboration, and exhibits strong leadership potential through his initiative and commitment to team success.
+[3] Frederick, you are a role-model performer whose contributions consistently exceed expectations. Your willingness to mentor others is invaluable, and you clearly demonstrate strong leadership potential. Let's discuss a formal leadership track.
+[4] Frederick consistently performs at an exceptionally high level, serving as a role model for his peers. He actively mentors colleagues, sharing his expertise and fostering team growth. His proactive approach and natural ability to guide demonstrate significant leadership potential, making him a valuable asset to the team.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer2|Idea-to-Text|A6|Q06",
+  "criterion": "Motivational tone",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 15: A6_Q07_Constructiveness -----
+You are Volunteer 2 in Group A.
+TASK TYPE: Idea-to-Text
+SAMPLE: A6
+CRITERION: Constructiveness
+
+INSTRUCTION:
+Rank from most to least helpful and constructive.
+
+ORIGINAL:
+Frederick Rogers is a role-model performer who mentors others and shows strong leadership potential.
+
+CANDIDATES:
+[1] Frederick, you are a true role-model performer. Beyond your own excellent results, your willingness to mentor colleagues and demonstrate leadership potential is highly valued. Keep up the outstanding work; you are a significant asset to the team and positioned for greater responsibility.
+[2] Frederick Rogers consistently demonstrates exceptional performance and serves as a role model for his peers. He actively mentors colleagues, fosters collaboration, and exhibits strong leadership potential through his initiative and commitment to team success.
+[3] Frederick consistently performs at an exceptionally high level, serving as a role model for his peers. He actively mentors colleagues, sharing his expertise and fostering team growth. His proactive approach and natural ability to guide demonstrate significant leadership potential, making him a valuable asset to the team.
+[4] Frederick, you are a role-model performer whose contributions consistently exceed expectations. Your willingness to mentor others is invaluable, and you clearly demonstrate strong leadership potential. Let's discuss a formal leadership track.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer2|Idea-to-Text|A6|Q07",
+  "criterion": "Constructiveness",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 16: A6_Q08_Finalchoice -----
+You are Volunteer 2 in Group A.
+TASK TYPE: Idea-to-Text
+SAMPLE: A6
+CRITERION: Final choice
+
+INSTRUCTION:
+Rank from most to least suitable as a final version.
+
+ORIGINAL:
+Frederick Rogers is a role-model performer who mentors others and shows strong leadership potential.
+
+CANDIDATES:
+[1] Frederick, you are a role-model performer whose contributions consistently exceed expectations. Your willingness to mentor others is invaluable, and you clearly demonstrate strong leadership potential. Let's discuss a formal leadership track.
+[2] Frederick, you are a true role-model performer. Beyond your own excellent results, your willingness to mentor colleagues and demonstrate leadership potential is highly valued. Keep up the outstanding work; you are a significant asset to the team and positioned for greater responsibility.
+[3] Frederick consistently performs at an exceptionally high level, serving as a role model for his peers. He actively mentors colleagues, sharing his expertise and fostering team growth. His proactive approach and natural ability to guide demonstrate significant leadership potential, making him a valuable asset to the team.
+[4] Frederick Rogers consistently demonstrates exceptional performance and serves as a role model for his peers. He actively mentors colleagues, fosters collaboration, and exhibits strong leadership potential through his initiative and commitment to team success.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer2|Idea-to-Text|A6|Q08",
+  "criterion": "Final choice",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT SC1: SanityCheck_IdeaToText_Accuracy -----
+TASK TYPE: Idea-to-Text
+SAMPLE: SC1
+CRITERION: Accuracy
+
+INSTRUCTION:
+Rank from most to least factually correct given the Original.
+
+ORIGINAL:
+The sun appears to rise each morning from the eastern horizon before setting in the west
+
+CANDIDATES:
+[1] The sun rises in the east.
+[2] The sun rises in the west.
+[3] The moon rises in the east.
+[4] The sun never rises.
+
+Please rank outputs strictly from most accurate (1) to least accurate (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "Idea-to-Text|SC1|Q04",
+  "criterion": "Accuracy",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 17: A7_Q01_Fluency -----
+You are Volunteer 2 in Group A.
+TASK TYPE: Summarise
+SAMPLE: A7
+CRITERION: Fluency
+
+INSTRUCTION:
+Rank from most to least smooth and error-free.
+
+ORIGINAL:
+Brantley's confidence issues have really impacted his performance in a negative way. He's a new member of the team, so I'll cut him some slack. But he's constantly questioning whether he's approaching his assignments in the right way. Moreover his self-doubt impacts the impression that he gives to clients, so I'm always nervous to have him with me in meetings. I think, Brantley has a ton of room to grow.
+
+CANDIDATES:
+[1] Brantley's lack of confidence negatively impacts his performance and client interactions. As a new team member, he has significant potential for growth.
+[2] Brantley’s confidence issues are negatively affecting his performance and client interactions. As a new team member, he shows potential, but his self-doubt hinders progress and raises concerns in meetings. He has significant room to grow.
+[3] Brantley: Confidence issues negatively impact performance & client impression. New, so given slack, but significant room to grow.
+[4] Brantley's new, but his self-doubt negatively impacts his performance and client interactions. He needs to build confidence to improve.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer2|Summarise|A7|Q01",
+  "criterion": "Fluency",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 18: A7_Q02_Coherence -----
+You are Volunteer 2 in Group A.
+TASK TYPE: Summarise
+SAMPLE: A7
+CRITERION: Coherence
+
+INSTRUCTION:
+Rank from most to least logical and easy to follow.
+
+ORIGINAL:
+Brantley's confidence issues have really impacted his performance in a negative way. He's a new member of the team, so I'll cut him some slack. But he's constantly questioning whether he's approaching his assignments in the right way. Moreover his self-doubt impacts the impression that he gives to clients, so I'm always nervous to have him with me in meetings. I think, Brantley has a ton of room to grow.
+
+CANDIDATES:
+[1] Brantley’s confidence issues are negatively affecting his performance and client interactions. As a new team member, he shows potential, but his self-doubt hinders progress and raises concerns in meetings. He has significant room to grow.
+[2] Brantley's lack of confidence negatively impacts his performance and client interactions. As a new team member, he has significant potential for growth.
+[3] Brantley: Confidence issues negatively impact performance & client impression. New, so given slack, but significant room to grow.
+[4] Brantley's new, but his self-doubt negatively impacts his performance and client interactions. He needs to build confidence to improve.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer2|Summarise|A7|Q02",
+  "criterion": "Coherence",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 19: A7_Q03_Conciseness -----
+You are Volunteer 2 in Group A.
+TASK TYPE: Summarise
+SAMPLE: A7
+CRITERION: Conciseness
+
+INSTRUCTION:
+Rank from most to least clear and compact.
+
+ORIGINAL:
+Brantley's confidence issues have really impacted his performance in a negative way. He's a new member of the team, so I'll cut him some slack. But he's constantly questioning whether he's approaching his assignments in the right way. Moreover his self-doubt impacts the impression that he gives to clients, so I'm always nervous to have him with me in meetings. I think, Brantley has a ton of room to grow.
+
+CANDIDATES:
+[1] Brantley’s confidence issues are negatively affecting his performance and client interactions. As a new team member, he shows potential, but his self-doubt hinders progress and raises concerns in meetings. He has significant room to grow.
+[2] Brantley's lack of confidence negatively impacts his performance and client interactions. As a new team member, he has significant potential for growth.
+[3] Brantley's new, but his self-doubt negatively impacts his performance and client interactions. He needs to build confidence to improve.
+[4] Brantley: Confidence issues negatively impact performance & client impression. New, so given slack, but significant room to grow.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer2|Summarise|A7|Q03",
+  "criterion": "Conciseness",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 20: A7_Q04_Accuracy -----
+You are Volunteer 2 in Group A.
+TASK TYPE: Summarise
+SAMPLE: A7
+CRITERION: Accuracy
+
+INSTRUCTION:
+Select all texts that are factually correct given the Original.
+
+ORIGINAL:
+Brantley's confidence issues have really impacted his performance in a negative way. He's a new member of the team, so I'll cut him some slack. But he's constantly questioning whether he's approaching his assignments in the right way. Moreover his self-doubt impacts the impression that he gives to clients, so I'm always nervous to have him with me in meetings. I think, Brantley has a ton of room to grow.
+
+CANDIDATES:
+[1] Brantley’s confidence issues are negatively affecting his performance and client interactions. As a new team member, he shows potential, but his self-doubt hinders progress and raises concerns in meetings. He has significant room to grow.
+[2] Brantley: Confidence issues negatively impact performance & client impression. New, so given slack, but significant room to grow.
+[3] Brantley's new, but his self-doubt negatively impacts his performance and client interactions. He needs to build confidence to improve.
+[4] Brantley's lack of confidence negatively impacts his performance and client interactions. As a new team member, he has significant potential for growth.
+
+Please select all outputs that are factually correct given the Original.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer2|Summarise|A7|Q04",
+  "criterion": "Accuracy",
+  "rating": [1, 3],
+  "justifications": {
+    "1": "why candidate 1 is correct/incorrect in one sentence",
+    "2": "why candidate 2 is correct/incorrect in one sentence",
+    "3": "why candidate 3 is correct/incorrect in one sentence",
+    "4": "why candidate 4 is correct/incorrect in one sentence"
+  }
+}
+
+
+----- PROMPT 21: A7_Q05_Sentimentmatch -----
+You are Volunteer 2 in Group A.
+TASK TYPE: Summarise
+SAMPLE: A7
+CRITERION: Sentiment match
+
+INSTRUCTION:
+Rank from most to least similar to the Original in style and sentiment.
+
+ORIGINAL:
+Brantley's confidence issues have really impacted his performance in a negative way. He's a new member of the team, so I'll cut him some slack. But he's constantly questioning whether he's approaching his assignments in the right way. Moreover his self-doubt impacts the impression that he gives to clients, so I'm always nervous to have him with me in meetings. I think, Brantley has a ton of room to grow.
+
+CANDIDATES:
+[1] Brantley's lack of confidence negatively impacts his performance and client interactions. As a new team member, he has significant potential for growth.
+[2] Brantley's new, but his self-doubt negatively impacts his performance and client interactions. He needs to build confidence to improve.
+[3] Brantley: Confidence issues negatively impact performance & client impression. New, so given slack, but significant room to grow.
+[4] Brantley’s confidence issues are negatively affecting his performance and client interactions. As a new team member, he shows potential, but his self-doubt hinders progress and raises concerns in meetings. He has significant room to grow.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer2|Summarise|A7|Q05",
+  "criterion": "Sentiment match",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 22: A7_Q06_Motivationaltone -----
+You are Volunteer 2 in Group A.
+TASK TYPE: Summarise
+SAMPLE: A7
+CRITERION: Motivational tone
+
+INSTRUCTION:
+Rank from most to least empathetic and encouraging.
+
+ORIGINAL:
+Brantley's confidence issues have really impacted his performance in a negative way. He's a new member of the team, so I'll cut him some slack. But he's constantly questioning whether he's approaching his assignments in the right way. Moreover his self-doubt impacts the impression that he gives to clients, so I'm always nervous to have him with me in meetings. I think, Brantley has a ton of room to grow.
+
+CANDIDATES:
+[1] Brantley: Confidence issues negatively impact performance & client impression. New, so given slack, but significant room to grow.
+[2] Brantley's lack of confidence negatively impacts his performance and client interactions. As a new team member, he has significant potential for growth.
+[3] Brantley’s confidence issues are negatively affecting his performance and client interactions. As a new team member, he shows potential, but his self-doubt hinders progress and raises concerns in meetings. He has significant room to grow.
+[4] Brantley's new, but his self-doubt negatively impacts his performance and client interactions. He needs to build confidence to improve.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer2|Summarise|A7|Q06",
+  "criterion": "Motivational tone",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 23: A7_Q07_Constructiveness -----
+You are Volunteer 2 in Group A.
+TASK TYPE: Summarise
+SAMPLE: A7
+CRITERION: Constructiveness
+
+INSTRUCTION:
+Rank from most to least helpful and constructive.
+
+ORIGINAL:
+Brantley's confidence issues have really impacted his performance in a negative way. He's a new member of the team, so I'll cut him some slack. But he's constantly questioning whether he's approaching his assignments in the right way. Moreover his self-doubt impacts the impression that he gives to clients, so I'm always nervous to have him with me in meetings. I think, Brantley has a ton of room to grow.
+
+CANDIDATES:
+[1] Brantley’s confidence issues are negatively affecting his performance and client interactions. As a new team member, he shows potential, but his self-doubt hinders progress and raises concerns in meetings. He has significant room to grow.
+[2] Brantley: Confidence issues negatively impact performance & client impression. New, so given slack, but significant room to grow.
+[3] Brantley's new, but his self-doubt negatively impacts his performance and client interactions. He needs to build confidence to improve.
+[4] Brantley's lack of confidence negatively impacts his performance and client interactions. As a new team member, he has significant potential for growth.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer2|Summarise|A7|Q07",
+  "criterion": "Constructiveness",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 24: A7_Q08_Finalchoice -----
+You are Volunteer 2 in Group A.
+TASK TYPE: Summarise
+SAMPLE: A7
+CRITERION: Final choice
+
+INSTRUCTION:
+Rank from most to least suitable as a final version.
+
+ORIGINAL:
+Brantley's confidence issues have really impacted his performance in a negative way. He's a new member of the team, so I'll cut him some slack. But he's constantly questioning whether he's approaching his assignments in the right way. Moreover his self-doubt impacts the impression that he gives to clients, so I'm always nervous to have him with me in meetings. I think, Brantley has a ton of room to grow.
+
+CANDIDATES:
+[1] Brantley's new, but his self-doubt negatively impacts his performance and client interactions. He needs to build confidence to improve.
+[2] Brantley's lack of confidence negatively impacts his performance and client interactions. As a new team member, he has significant potential for growth.
+[3] Brantley’s confidence issues are negatively affecting his performance and client interactions. As a new team member, he shows potential, but his self-doubt hinders progress and raises concerns in meetings. He has significant room to grow.
+[4] Brantley: Confidence issues negatively impact performance & client impression. New, so given slack, but significant room to grow.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer2|Summarise|A7|Q08",
+  "criterion": "Final choice",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 25: A11_Q01_Fluency -----
+You are Volunteer 2 in Group A.
+TASK TYPE: Summarise
+SAMPLE: A11
+CRITERION: Fluency
+
+INSTRUCTION:
+Rank from most to least smooth and error-free.
+
+ORIGINAL:
+Alina's work for this project was not as good as her previous work, however, it is still very much usable. Alina's work in the past has been remarkable- she pays close attention to detail, triple checks her work, and always makes sure her work is as clear and concise as it can be. I always look forward to working with Alina, because her work is, as I stated before, quite well put together.
+
+CANDIDATES:
+[1] Alina's recent work, while usable, wasn't her usual remarkable standard. She typically excels in detail, accuracy, and clarity. Her past work is consistently well-regarded.
+[2] While usable, Alina's recent work was not up to her usual remarkable standard. She is typically a detail-oriented and highly-valued collaborator.
+[3] Alina: Current project work usable but not as good as remarkable past work (detail-oriented, clear, concise). Always look forward to working with her.
+[4] Alina's current work, while not up to her usual exceptional standard, remains usable. Her past performance has been outstanding—detailed, thorough, and clear. She consistently delivers high-quality work, and collaborating with her is always a pleasure.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer2|Summarise|A11|Q01",
+  "criterion": "Fluency",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 26: A11_Q02_Coherence -----
+You are Volunteer 2 in Group A.
+TASK TYPE: Summarise
+SAMPLE: A11
+CRITERION: Coherence
+
+INSTRUCTION:
+Rank from most to least logical and easy to follow.
+
+ORIGINAL:
+Alina's work for this project was not as good as her previous work, however, it is still very much usable. Alina's work in the past has been remarkable- she pays close attention to detail, triple checks her work, and always makes sure her work is as clear and concise as it can be. I always look forward to working with Alina, because her work is, as I stated before, quite well put together.
+
+CANDIDATES:
+[1] Alina's current work, while not up to her usual exceptional standard, remains usable. Her past performance has been outstanding—detailed, thorough, and clear. She consistently delivers high-quality work, and collaborating with her is always a pleasure.
+[2] Alina: Current project work usable but not as good as remarkable past work (detail-oriented, clear, concise). Always look forward to working with her.
+[3] Alina's recent work, while usable, wasn't her usual remarkable standard. She typically excels in detail, accuracy, and clarity. Her past work is consistently well-regarded.
+[4] While usable, Alina's recent work was not up to her usual remarkable standard. She is typically a detail-oriented and highly-valued collaborator.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer2|Summarise|A11|Q02",
+  "criterion": "Coherence",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 27: A11_Q03_Conciseness -----
+You are Volunteer 2 in Group A.
+TASK TYPE: Summarise
+SAMPLE: A11
+CRITERION: Conciseness
+
+INSTRUCTION:
+Rank from most to least clear and compact.
+
+ORIGINAL:
+Alina's work for this project was not as good as her previous work, however, it is still very much usable. Alina's work in the past has been remarkable- she pays close attention to detail, triple checks her work, and always makes sure her work is as clear and concise as it can be. I always look forward to working with Alina, because her work is, as I stated before, quite well put together.
+
+CANDIDATES:
+[1] While usable, Alina's recent work was not up to her usual remarkable standard. She is typically a detail-oriented and highly-valued collaborator.
+[2] Alina: Current project work usable but not as good as remarkable past work (detail-oriented, clear, concise). Always look forward to working with her.
+[3] Alina's current work, while not up to her usual exceptional standard, remains usable. Her past performance has been outstanding—detailed, thorough, and clear. She consistently delivers high-quality work, and collaborating with her is always a pleasure.
+[4] Alina's recent work, while usable, wasn't her usual remarkable standard. She typically excels in detail, accuracy, and clarity. Her past work is consistently well-regarded.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer2|Summarise|A11|Q03",
+  "criterion": "Conciseness",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 28: A11_Q04_Accuracy -----
+You are Volunteer 2 in Group A.
+TASK TYPE: Summarise
+SAMPLE: A11
+CRITERION: Accuracy
+
+INSTRUCTION:
+Select all texts that are factually correct given the Original.
+
+ORIGINAL:
+Alina's work for this project was not as good as her previous work, however, it is still very much usable. Alina's work in the past has been remarkable- she pays close attention to detail, triple checks her work, and always makes sure her work is as clear and concise as it can be. I always look forward to working with Alina, because her work is, as I stated before, quite well put together.
+
+CANDIDATES:
+[1] While usable, Alina's recent work was not up to her usual remarkable standard. She is typically a detail-oriented and highly-valued collaborator.
+[2] Alina: Current project work usable but not as good as remarkable past work (detail-oriented, clear, concise). Always look forward to working with her.
+[3] Alina's recent work, while usable, wasn't her usual remarkable standard. She typically excels in detail, accuracy, and clarity. Her past work is consistently well-regarded.
+[4] Alina's current work, while not up to her usual exceptional standard, remains usable. Her past performance has been outstanding—detailed, thorough, and clear. She consistently delivers high-quality work, and collaborating with her is always a pleasure.
+
+Please select all outputs that are factually correct given the Original.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer2|Summarise|A11|Q04",
+  "criterion": "Accuracy",
+  "rating": [1, 3],
+  "justifications": {
+    "1": "why candidate 1 is correct/incorrect in one sentence",
+    "2": "why candidate 2 is correct/incorrect in one sentence",
+    "3": "why candidate 3 is correct/incorrect in one sentence",
+    "4": "why candidate 4 is correct/incorrect in one sentence"
+  }
+}
+
+
+----- PROMPT 29: A11_Q05_Sentimentmatch -----
+You are Volunteer 2 in Group A.
+TASK TYPE: Summarise
+SAMPLE: A11
+CRITERION: Sentiment match
+
+INSTRUCTION:
+Rank from most to least similar to the Original in style and sentiment.
+
+ORIGINAL:
+Alina's work for this project was not as good as her previous work, however, it is still very much usable. Alina's work in the past has been remarkable- she pays close attention to detail, triple checks her work, and always makes sure her work is as clear and concise as it can be. I always look forward to working with Alina, because her work is, as I stated before, quite well put together.
+
+CANDIDATES:
+[1] Alina's recent work, while usable, wasn't her usual remarkable standard. She typically excels in detail, accuracy, and clarity. Her past work is consistently well-regarded.
+[2] Alina: Current project work usable but not as good as remarkable past work (detail-oriented, clear, concise). Always look forward to working with her.
+[3] Alina's current work, while not up to her usual exceptional standard, remains usable. Her past performance has been outstanding—detailed, thorough, and clear. She consistently delivers high-quality work, and collaborating with her is always a pleasure.
+[4] While usable, Alina's recent work was not up to her usual remarkable standard. She is typically a detail-oriented and highly-valued collaborator.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer2|Summarise|A11|Q05",
+  "criterion": "Sentiment match",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 30: A11_Q06_Motivationaltone -----
+You are Volunteer 2 in Group A.
+TASK TYPE: Summarise
+SAMPLE: A11
+CRITERION: Motivational tone
+
+INSTRUCTION:
+Rank from most to least empathetic and encouraging.
+
+ORIGINAL:
+Alina's work for this project was not as good as her previous work, however, it is still very much usable. Alina's work in the past has been remarkable- she pays close attention to detail, triple checks her work, and always makes sure her work is as clear and concise as it can be. I always look forward to working with Alina, because her work is, as I stated before, quite well put together.
+
+CANDIDATES:
+[1] Alina: Current project work usable but not as good as remarkable past work (detail-oriented, clear, concise). Always look forward to working with her.
+[2] While usable, Alina's recent work was not up to her usual remarkable standard. She is typically a detail-oriented and highly-valued collaborator.
+[3] Alina's recent work, while usable, wasn't her usual remarkable standard. She typically excels in detail, accuracy, and clarity. Her past work is consistently well-regarded.
+[4] Alina's current work, while not up to her usual exceptional standard, remains usable. Her past performance has been outstanding—detailed, thorough, and clear. She consistently delivers high-quality work, and collaborating with her is always a pleasure.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer2|Summarise|A11|Q06",
+  "criterion": "Motivational tone",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 31: A11_Q07_Constructiveness -----
+You are Volunteer 2 in Group A.
+TASK TYPE: Summarise
+SAMPLE: A11
+CRITERION: Constructiveness
+
+INSTRUCTION:
+Rank from most to least helpful and constructive.
+
+ORIGINAL:
+Alina's work for this project was not as good as her previous work, however, it is still very much usable. Alina's work in the past has been remarkable- she pays close attention to detail, triple checks her work, and always makes sure her work is as clear and concise as it can be. I always look forward to working with Alina, because her work is, as I stated before, quite well put together.
+
+CANDIDATES:
+[1] Alina's current work, while not up to her usual exceptional standard, remains usable. Her past performance has been outstanding—detailed, thorough, and clear. She consistently delivers high-quality work, and collaborating with her is always a pleasure.
+[2] Alina: Current project work usable but not as good as remarkable past work (detail-oriented, clear, concise). Always look forward to working with her.
+[3] Alina's recent work, while usable, wasn't her usual remarkable standard. She typically excels in detail, accuracy, and clarity. Her past work is consistently well-regarded.
+[4] While usable, Alina's recent work was not up to her usual remarkable standard. She is typically a detail-oriented and highly-valued collaborator.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer2|Summarise|A11|Q07",
+  "criterion": "Constructiveness",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 32: A11_Q08_Finalchoice -----
+You are Volunteer 2 in Group A.
+TASK TYPE: Summarise
+SAMPLE: A11
+CRITERION: Final choice
+
+INSTRUCTION:
+Rank from most to least suitable as a final version.
+
+ORIGINAL:
+Alina's work for this project was not as good as her previous work, however, it is still very much usable. Alina's work in the past has been remarkable- she pays close attention to detail, triple checks her work, and always makes sure her work is as clear and concise as it can be. I always look forward to working with Alina, because her work is, as I stated before, quite well put together.
+
+CANDIDATES:
+[1] While usable, Alina's recent work was not up to her usual remarkable standard. She is typically a detail-oriented and highly-valued collaborator.
+[2] Alina's recent work, while usable, wasn't her usual remarkable standard. She typically excels in detail, accuracy, and clarity. Her past work is consistently well-regarded.
+[3] Alina: Current project work usable but not as good as remarkable past work (detail-oriented, clear, concise). Always look forward to working with her.
+[4] Alina's current work, while not up to her usual exceptional standard, remains usable. Her past performance has been outstanding—detailed, thorough, and clear. She consistently delivers high-quality work, and collaborating with her is always a pleasure.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer2|Summarise|A11|Q08",
+  "criterion": "Final choice",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT SC2: SanityCheck_Summarise_Accuracy -----
+TASK TYPE: Summarise
+SAMPLE: SC2
+CRITERION: Accuracy
+
+INSTRUCTION:
+Rank from most to least factually correct given the Original.
+
+ORIGINAL:
+Pure water begins to freeze at exactly zero degrees Celsius
+
+CANDIDATES:
+[1] Water freezes at at 0°C.
+[2] Water freezes at 100°C.
+[3] Water boils at 0°C.
+[4] Ice melts at 0°C.
+
+Please rank outputs strictly from most accurate (1) to least accurate (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "Summarise|SC2|Q04",
+  "criterion": "Accuracy",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 33: A13_Q01_Fluency -----
+You are Volunteer 2 in Group A.
+TASK TYPE: Interpret
+SAMPLE: A13
+CRITERION: Fluency
+
+INSTRUCTION:
+Rank from most to least smooth and error-free.
+
+ORIGINAL:
+Elliot is fairly effective at managing his workload. He has been a consistent team member. Though, he has not sought help to achieve better results. He needs initiative to become one of our rising stars.
+
+CANDIDATES:
+[1] Elliot consistently manages his workload and contributes reliably to the team, showing solid performance. However, to grow into a rising star, he needs to proactively seek support and opportunities for improvement. This feedback suggests potential for advancement if initiative is strengthened. Elliot should: (1) schedule regular check-ins with his manager to discuss goals, (2) ask for feedback proactively, (3) identify one process to improve and propose a solution, and (4) collaborate more with high-performing peers to learn new approaches.
+[2] The feedback means Elliot consistently delivers work but hasn't proactively sought help for improvement. This implies reliability is recognized, yet initiative is needed to advance. To grow, Elliot should: 1) Schedule monthly check-ins with his manager to discuss goals, 2) Identify one skill to develop next quarter and request resources, 3) Propose one small process improvement idea by month-end.
+[3] Elliot is a steady and reliable contributor whose work is effective. This feedback implies that to advance and be seen as a "rising star," he must demonstrate more proactivity. Elliot can grow by identifying a process improvement to propose and by asking his manager for more challenging assignments.
+[4] Elliot, your manager sees you as a consistent and effective team member who manages his workload well. However, they've noticed you haven't proactively sought help to improve your results, which is holding you back from being a "rising star." To address this, Elliot should: 1) Identify specific areas for improvement in his work. 2) Schedule a meeting with his manager to discuss these areas and ask for guidance or resources. 3) Proactively seek feedback from peers or mentors on how to enhance his contributions. 4) Take initiative on a new project or responsibility that aligns with his growth goals.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer2|Interpret|A13|Q01",
+  "criterion": "Fluency",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 34: A13_Q02_Coherence -----
+You are Volunteer 2 in Group A.
+TASK TYPE: Interpret
+SAMPLE: A13
+CRITERION: Coherence
+
+INSTRUCTION:
+Rank from most to least logical and easy to follow.
+
+ORIGINAL:
+Elliot is fairly effective at managing his workload. He has been a consistent team member. Though, he has not sought help to achieve better results. He needs initiative to become one of our rising stars.
+
+CANDIDATES:
+[1] The feedback means Elliot consistently delivers work but hasn't proactively sought help for improvement. This implies reliability is recognized, yet initiative is needed to advance. To grow, Elliot should: 1) Schedule monthly check-ins with his manager to discuss goals, 2) Identify one skill to develop next quarter and request resources, 3) Propose one small process improvement idea by month-end.
+[2] Elliot consistently manages his workload and contributes reliably to the team, showing solid performance. However, to grow into a rising star, he needs to proactively seek support and opportunities for improvement. This feedback suggests potential for advancement if initiative is strengthened. Elliot should: (1) schedule regular check-ins with his manager to discuss goals, (2) ask for feedback proactively, (3) identify one process to improve and propose a solution, and (4) collaborate more with high-performing peers to learn new approaches.
+[3] Elliot is a steady and reliable contributor whose work is effective. This feedback implies that to advance and be seen as a "rising star," he must demonstrate more proactivity. Elliot can grow by identifying a process improvement to propose and by asking his manager for more challenging assignments.
+[4] Elliot, your manager sees you as a consistent and effective team member who manages his workload well. However, they've noticed you haven't proactively sought help to improve your results, which is holding you back from being a "rising star." To address this, Elliot should: 1) Identify specific areas for improvement in his work. 2) Schedule a meeting with his manager to discuss these areas and ask for guidance or resources. 3) Proactively seek feedback from peers or mentors on how to enhance his contributions. 4) Take initiative on a new project or responsibility that aligns with his growth goals.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer2|Interpret|A13|Q02",
+  "criterion": "Coherence",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 35: A13_Q03_Conciseness -----
+You are Volunteer 2 in Group A.
+TASK TYPE: Interpret
+SAMPLE: A13
+CRITERION: Conciseness
+
+INSTRUCTION:
+Rank from most to least clear and compact.
+
+ORIGINAL:
+Elliot is fairly effective at managing his workload. He has been a consistent team member. Though, he has not sought help to achieve better results. He needs initiative to become one of our rising stars.
+
+CANDIDATES:
+[1] The feedback means Elliot consistently delivers work but hasn't proactively sought help for improvement. This implies reliability is recognized, yet initiative is needed to advance. To grow, Elliot should: 1) Schedule monthly check-ins with his manager to discuss goals, 2) Identify one skill to develop next quarter and request resources, 3) Propose one small process improvement idea by month-end.
+[2] Elliot, your manager sees you as a consistent and effective team member who manages his workload well. However, they've noticed you haven't proactively sought help to improve your results, which is holding you back from being a "rising star." To address this, Elliot should: 1) Identify specific areas for improvement in his work. 2) Schedule a meeting with his manager to discuss these areas and ask for guidance or resources. 3) Proactively seek feedback from peers or mentors on how to enhance his contributions. 4) Take initiative on a new project or responsibility that aligns with his growth goals.
+[3] Elliot is a steady and reliable contributor whose work is effective. This feedback implies that to advance and be seen as a "rising star," he must demonstrate more proactivity. Elliot can grow by identifying a process improvement to propose and by asking his manager for more challenging assignments.
+[4] Elliot consistently manages his workload and contributes reliably to the team, showing solid performance. However, to grow into a rising star, he needs to proactively seek support and opportunities for improvement. This feedback suggests potential for advancement if initiative is strengthened. Elliot should: (1) schedule regular check-ins with his manager to discuss goals, (2) ask for feedback proactively, (3) identify one process to improve and propose a solution, and (4) collaborate more with high-performing peers to learn new approaches.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer2|Interpret|A13|Q03",
+  "criterion": "Conciseness",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 36: A13_Q04_Accuracy -----
+You are Volunteer 2 in Group A.
+TASK TYPE: Interpret
+SAMPLE: A13
+CRITERION: Accuracy
+
+INSTRUCTION:
+Select all texts that are factually correct given the Original.
+
+ORIGINAL:
+Elliot is fairly effective at managing his workload. He has been a consistent team member. Though, he has not sought help to achieve better results. He needs initiative to become one of our rising stars.
+
+CANDIDATES:
+[1] The feedback means Elliot consistently delivers work but hasn't proactively sought help for improvement. This implies reliability is recognized, yet initiative is needed to advance. To grow, Elliot should: 1) Schedule monthly check-ins with his manager to discuss goals, 2) Identify one skill to develop next quarter and request resources, 3) Propose one small process improvement idea by month-end.
+[2] Elliot consistently manages his workload and contributes reliably to the team, showing solid performance. However, to grow into a rising star, he needs to proactively seek support and opportunities for improvement. This feedback suggests potential for advancement if initiative is strengthened. Elliot should: (1) schedule regular check-ins with his manager to discuss goals, (2) ask for feedback proactively, (3) identify one process to improve and propose a solution, and (4) collaborate more with high-performing peers to learn new approaches.
+[3] Elliot is a steady and reliable contributor whose work is effective. This feedback implies that to advance and be seen as a "rising star," he must demonstrate more proactivity. Elliot can grow by identifying a process improvement to propose and by asking his manager for more challenging assignments.
+[4] Elliot, your manager sees you as a consistent and effective team member who manages his workload well. However, they've noticed you haven't proactively sought help to improve your results, which is holding you back from being a "rising star." To address this, Elliot should: 1) Identify specific areas for improvement in his work. 2) Schedule a meeting with his manager to discuss these areas and ask for guidance or resources. 3) Proactively seek feedback from peers or mentors on how to enhance his contributions. 4) Take initiative on a new project or responsibility that aligns with his growth goals.
+
+Please select all outputs that are factually correct given the Original.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer2|Interpret|A13|Q04",
+  "criterion": "Accuracy",
+  "rating": [1, 3],
+  "justifications": {
+    "1": "why candidate 1 is correct/incorrect in one sentence",
+    "2": "why candidate 2 is correct/incorrect in one sentence",
+    "3": "why candidate 3 is correct/incorrect in one sentence",
+    "4": "why candidate 4 is correct/incorrect in one sentence"
+  }
+}
+
+
+----- PROMPT 37: A13_Q05_Sentimentmatch -----
+You are Volunteer 2 in Group A.
+TASK TYPE: Interpret
+SAMPLE: A13
+CRITERION: Sentiment match
+
+INSTRUCTION:
+Rank from most to least similar to the Original in style and sentiment.
+
+ORIGINAL:
+Elliot is fairly effective at managing his workload. He has been a consistent team member. Though, he has not sought help to achieve better results. He needs initiative to become one of our rising stars.
+
+CANDIDATES:
+[1] Elliot is a steady and reliable contributor whose work is effective. This feedback implies that to advance and be seen as a "rising star," he must demonstrate more proactivity. Elliot can grow by identifying a process improvement to propose and by asking his manager for more challenging assignments.
+[2] Elliot, your manager sees you as a consistent and effective team member who manages his workload well. However, they've noticed you haven't proactively sought help to improve your results, which is holding you back from being a "rising star." To address this, Elliot should: 1) Identify specific areas for improvement in his work. 2) Schedule a meeting with his manager to discuss these areas and ask for guidance or resources. 3) Proactively seek feedback from peers or mentors on how to enhance his contributions. 4) Take initiative on a new project or responsibility that aligns with his growth goals.
+[3] The feedback means Elliot consistently delivers work but hasn't proactively sought help for improvement. This implies reliability is recognized, yet initiative is needed to advance. To grow, Elliot should: 1) Schedule monthly check-ins with his manager to discuss goals, 2) Identify one skill to develop next quarter and request resources, 3) Propose one small process improvement idea by month-end.
+[4] Elliot consistently manages his workload and contributes reliably to the team, showing solid performance. However, to grow into a rising star, he needs to proactively seek support and opportunities for improvement. This feedback suggests potential for advancement if initiative is strengthened. Elliot should: (1) schedule regular check-ins with his manager to discuss goals, (2) ask for feedback proactively, (3) identify one process to improve and propose a solution, and (4) collaborate more with high-performing peers to learn new approaches.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer2|Interpret|A13|Q05",
+  "criterion": "Sentiment match",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 38: A13_Q06_Motivationaltone -----
+You are Volunteer 2 in Group A.
+TASK TYPE: Interpret
+SAMPLE: A13
+CRITERION: Motivational tone
+
+INSTRUCTION:
+Rank from most to least empathetic and encouraging.
+
+ORIGINAL:
+Elliot is fairly effective at managing his workload. He has been a consistent team member. Though, he has not sought help to achieve better results. He needs initiative to become one of our rising stars.
+
+CANDIDATES:
+[1] Elliot, your manager sees you as a consistent and effective team member who manages his workload well. However, they've noticed you haven't proactively sought help to improve your results, which is holding you back from being a "rising star." To address this, Elliot should: 1) Identify specific areas for improvement in his work. 2) Schedule a meeting with his manager to discuss these areas and ask for guidance or resources. 3) Proactively seek feedback from peers or mentors on how to enhance his contributions. 4) Take initiative on a new project or responsibility that aligns with his growth goals.
+[2] The feedback means Elliot consistently delivers work but hasn't proactively sought help for improvement. This implies reliability is recognized, yet initiative is needed to advance. To grow, Elliot should: 1) Schedule monthly check-ins with his manager to discuss goals, 2) Identify one skill to develop next quarter and request resources, 3) Propose one small process improvement idea by month-end.
+[3] Elliot consistently manages his workload and contributes reliably to the team, showing solid performance. However, to grow into a rising star, he needs to proactively seek support and opportunities for improvement. This feedback suggests potential for advancement if initiative is strengthened. Elliot should: (1) schedule regular check-ins with his manager to discuss goals, (2) ask for feedback proactively, (3) identify one process to improve and propose a solution, and (4) collaborate more with high-performing peers to learn new approaches.
+[4] Elliot is a steady and reliable contributor whose work is effective. This feedback implies that to advance and be seen as a "rising star," he must demonstrate more proactivity. Elliot can grow by identifying a process improvement to propose and by asking his manager for more challenging assignments.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer2|Interpret|A13|Q06",
+  "criterion": "Motivational tone",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 39: A13_Q07_Constructiveness -----
+You are Volunteer 2 in Group A.
+TASK TYPE: Interpret
+SAMPLE: A13
+CRITERION: Constructiveness
+
+INSTRUCTION:
+Rank from most to least helpful and constructive.
+
+ORIGINAL:
+Elliot is fairly effective at managing his workload. He has been a consistent team member. Though, he has not sought help to achieve better results. He needs initiative to become one of our rising stars.
+
+CANDIDATES:
+[1] Elliot is a steady and reliable contributor whose work is effective. This feedback implies that to advance and be seen as a "rising star," he must demonstrate more proactivity. Elliot can grow by identifying a process improvement to propose and by asking his manager for more challenging assignments.
+[2] The feedback means Elliot consistently delivers work but hasn't proactively sought help for improvement. This implies reliability is recognized, yet initiative is needed to advance. To grow, Elliot should: 1) Schedule monthly check-ins with his manager to discuss goals, 2) Identify one skill to develop next quarter and request resources, 3) Propose one small process improvement idea by month-end.
+[3] Elliot, your manager sees you as a consistent and effective team member who manages his workload well. However, they've noticed you haven't proactively sought help to improve your results, which is holding you back from being a "rising star." To address this, Elliot should: 1) Identify specific areas for improvement in his work. 2) Schedule a meeting with his manager to discuss these areas and ask for guidance or resources. 3) Proactively seek feedback from peers or mentors on how to enhance his contributions. 4) Take initiative on a new project or responsibility that aligns with his growth goals.
+[4] Elliot consistently manages his workload and contributes reliably to the team, showing solid performance. However, to grow into a rising star, he needs to proactively seek support and opportunities for improvement. This feedback suggests potential for advancement if initiative is strengthened. Elliot should: (1) schedule regular check-ins with his manager to discuss goals, (2) ask for feedback proactively, (3) identify one process to improve and propose a solution, and (4) collaborate more with high-performing peers to learn new approaches.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer2|Interpret|A13|Q07",
+  "criterion": "Constructiveness",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 40: A13_Q08_Finalchoice -----
+You are Volunteer 2 in Group A.
+TASK TYPE: Interpret
+SAMPLE: A13
+CRITERION: Final choice
+
+INSTRUCTION:
+Rank from most to least suitable as a final version.
+
+ORIGINAL:
+Elliot is fairly effective at managing his workload. He has been a consistent team member. Though, he has not sought help to achieve better results. He needs initiative to become one of our rising stars.
+
+CANDIDATES:
+[1] Elliot is a steady and reliable contributor whose work is effective. This feedback implies that to advance and be seen as a "rising star," he must demonstrate more proactivity. Elliot can grow by identifying a process improvement to propose and by asking his manager for more challenging assignments.
+[2] Elliot, your manager sees you as a consistent and effective team member who manages his workload well. However, they've noticed you haven't proactively sought help to improve your results, which is holding you back from being a "rising star." To address this, Elliot should: 1) Identify specific areas for improvement in his work. 2) Schedule a meeting with his manager to discuss these areas and ask for guidance or resources. 3) Proactively seek feedback from peers or mentors on how to enhance his contributions. 4) Take initiative on a new project or responsibility that aligns with his growth goals.
+[3] Elliot consistently manages his workload and contributes reliably to the team, showing solid performance. However, to grow into a rising star, he needs to proactively seek support and opportunities for improvement. This feedback suggests potential for advancement if initiative is strengthened. Elliot should: (1) schedule regular check-ins with his manager to discuss goals, (2) ask for feedback proactively, (3) identify one process to improve and propose a solution, and (4) collaborate more with high-performing peers to learn new approaches.
+[4] The feedback means Elliot consistently delivers work but hasn't proactively sought help for improvement. This implies reliability is recognized, yet initiative is needed to advance. To grow, Elliot should: 1) Schedule monthly check-ins with his manager to discuss goals, 2) Identify one skill to develop next quarter and request resources, 3) Propose one small process improvement idea by month-end.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer2|Interpret|A13|Q08",
+  "criterion": "Final choice",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 41: A17_Q01_Fluency -----
+You are Volunteer 2 in Group A.
+TASK TYPE: Interpret
+SAMPLE: A17
+CRITERION: Fluency
+
+INSTRUCTION:
+Rank from most to least smooth and error-free.
+
+ORIGINAL:
+Dean has contributed heavily to the project in the past quarter. He has led the team charts in task completion. However, he has struggled with taking up responsibilities to deliver complex tasks. He also does not handle high pressure situations well.
+
+CANDIDATES:
+[1] Dean is a top contributor in task completion but struggles with complex work and high-pressure situations, limiting his growth into senior roles. He can improve by asking to partner with a senior colleague on a complex project and by breaking down difficult tasks into smaller, more manageable parts.
+[2] Dean, your manager recognizes your significant contributions and high task completion rate this quarter, which is commendable. However, the feedback indicates a need for growth in handling complex tasks and performing under pressure. This suggests that while you excel at individual contributions, there's an opportunity to develop your capacity for more challenging, high-stakes assignments. To address this, Dean should proactively seek opportunities to shadow colleagues on complex tasks, practice stress management techniques, and communicate openly with his manager about his development goals and willingness to take on new challenges.
+[3] The feedback means Dean excels in task volume but struggles with complex or high-pressure responsibilities. This indicates high output but risks in scaling his role. Dean should: 1) Partner with a senior colleague on one complex task monthly, 2) Break high-pressure goals into smaller steps, 3) Practice stress-management techniques before deadlines.
+[4] Dean has been a top performer in task completion and has significantly contributed to the project, showing strong initiative and reliability in managing workloads. However, he faces challenges with complex responsibilities and maintaining composure under pressure, which may limit growth into higher-leadership roles. To grow, Dean should seek mentorship from senior team members on navigating complexity, practice structured problem-solving techniques, proactively communicate early when feeling overwhelmed, and take on stretch assignments in a supported environment to build confidence and resilience.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer2|Interpret|A17|Q01",
+  "criterion": "Fluency",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 42: A17_Q02_Coherence -----
+You are Volunteer 2 in Group A.
+TASK TYPE: Interpret
+SAMPLE: A17
+CRITERION: Coherence
+
+INSTRUCTION:
+Rank from most to least logical and easy to follow.
+
+ORIGINAL:
+Dean has contributed heavily to the project in the past quarter. He has led the team charts in task completion. However, he has struggled with taking up responsibilities to deliver complex tasks. He also does not handle high pressure situations well.
+
+CANDIDATES:
+[1] Dean has been a top performer in task completion and has significantly contributed to the project, showing strong initiative and reliability in managing workloads. However, he faces challenges with complex responsibilities and maintaining composure under pressure, which may limit growth into higher-leadership roles. To grow, Dean should seek mentorship from senior team members on navigating complexity, practice structured problem-solving techniques, proactively communicate early when feeling overwhelmed, and take on stretch assignments in a supported environment to build confidence and resilience.
+[2] Dean, your manager recognizes your significant contributions and high task completion rate this quarter, which is commendable. However, the feedback indicates a need for growth in handling complex tasks and performing under pressure. This suggests that while you excel at individual contributions, there's an opportunity to develop your capacity for more challenging, high-stakes assignments. To address this, Dean should proactively seek opportunities to shadow colleagues on complex tasks, practice stress management techniques, and communicate openly with his manager about his development goals and willingness to take on new challenges.
+[3] Dean is a top contributor in task completion but struggles with complex work and high-pressure situations, limiting his growth into senior roles. He can improve by asking to partner with a senior colleague on a complex project and by breaking down difficult tasks into smaller, more manageable parts.
+[4] The feedback means Dean excels in task volume but struggles with complex or high-pressure responsibilities. This indicates high output but risks in scaling his role. Dean should: 1) Partner with a senior colleague on one complex task monthly, 2) Break high-pressure goals into smaller steps, 3) Practice stress-management techniques before deadlines.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer2|Interpret|A17|Q02",
+  "criterion": "Coherence",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 43: A17_Q03_Conciseness -----
+You are Volunteer 2 in Group A.
+TASK TYPE: Interpret
+SAMPLE: A17
+CRITERION: Conciseness
+
+INSTRUCTION:
+Rank from most to least clear and compact.
+
+ORIGINAL:
+Dean has contributed heavily to the project in the past quarter. He has led the team charts in task completion. However, he has struggled with taking up responsibilities to deliver complex tasks. He also does not handle high pressure situations well.
+
+CANDIDATES:
+[1] Dean has been a top performer in task completion and has significantly contributed to the project, showing strong initiative and reliability in managing workloads. However, he faces challenges with complex responsibilities and maintaining composure under pressure, which may limit growth into higher-leadership roles. To grow, Dean should seek mentorship from senior team members on navigating complexity, practice structured problem-solving techniques, proactively communicate early when feeling overwhelmed, and take on stretch assignments in a supported environment to build confidence and resilience.
+[2] Dean, your manager recognizes your significant contributions and high task completion rate this quarter, which is commendable. However, the feedback indicates a need for growth in handling complex tasks and performing under pressure. This suggests that while you excel at individual contributions, there's an opportunity to develop your capacity for more challenging, high-stakes assignments. To address this, Dean should proactively seek opportunities to shadow colleagues on complex tasks, practice stress management techniques, and communicate openly with his manager about his development goals and willingness to take on new challenges.
+[3] Dean is a top contributor in task completion but struggles with complex work and high-pressure situations, limiting his growth into senior roles. He can improve by asking to partner with a senior colleague on a complex project and by breaking down difficult tasks into smaller, more manageable parts.
+[4] The feedback means Dean excels in task volume but struggles with complex or high-pressure responsibilities. This indicates high output but risks in scaling his role. Dean should: 1) Partner with a senior colleague on one complex task monthly, 2) Break high-pressure goals into smaller steps, 3) Practice stress-management techniques before deadlines.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer2|Interpret|A17|Q03",
+  "criterion": "Conciseness",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 44: A17_Q04_Accuracy -----
+You are Volunteer 2 in Group A.
+TASK TYPE: Interpret
+SAMPLE: A17
+CRITERION: Accuracy
+
+INSTRUCTION:
+Select all texts that are factually correct given the Original.
+
+ORIGINAL:
+Dean has contributed heavily to the project in the past quarter. He has led the team charts in task completion. However, he has struggled with taking up responsibilities to deliver complex tasks. He also does not handle high pressure situations well.
+
+CANDIDATES:
+[1] Dean, your manager recognizes your significant contributions and high task completion rate this quarter, which is commendable. However, the feedback indicates a need for growth in handling complex tasks and performing under pressure. This suggests that while you excel at individual contributions, there's an opportunity to develop your capacity for more challenging, high-stakes assignments. To address this, Dean should proactively seek opportunities to shadow colleagues on complex tasks, practice stress management techniques, and communicate openly with his manager about his development goals and willingness to take on new challenges.
+[2] Dean has been a top performer in task completion and has significantly contributed to the project, showing strong initiative and reliability in managing workloads. However, he faces challenges with complex responsibilities and maintaining composure under pressure, which may limit growth into higher-leadership roles. To grow, Dean should seek mentorship from senior team members on navigating complexity, practice structured problem-solving techniques, proactively communicate early when feeling overwhelmed, and take on stretch assignments in a supported environment to build confidence and resilience.
+[3] Dean is a top contributor in task completion but struggles with complex work and high-pressure situations, limiting his growth into senior roles. He can improve by asking to partner with a senior colleague on a complex project and by breaking down difficult tasks into smaller, more manageable parts.
+[4] The feedback means Dean excels in task volume but struggles with complex or high-pressure responsibilities. This indicates high output but risks in scaling his role. Dean should: 1) Partner with a senior colleague on one complex task monthly, 2) Break high-pressure goals into smaller steps, 3) Practice stress-management techniques before deadlines.
+
+Please select all outputs that are factually correct given the Original.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer2|Interpret|A17|Q04",
+  "criterion": "Accuracy",
+  "rating": [1, 3],
+  "justifications": {
+    "1": "why candidate 1 is correct/incorrect in one sentence",
+    "2": "why candidate 2 is correct/incorrect in one sentence",
+    "3": "why candidate 3 is correct/incorrect in one sentence",
+    "4": "why candidate 4 is correct/incorrect in one sentence"
+  }
+}
+
+
+----- PROMPT 45: A17_Q05_Sentimentmatch -----
+You are Volunteer 2 in Group A.
+TASK TYPE: Interpret
+SAMPLE: A17
+CRITERION: Sentiment match
+
+INSTRUCTION:
+Rank from most to least similar to the Original in style and sentiment.
+
+ORIGINAL:
+Dean has contributed heavily to the project in the past quarter. He has led the team charts in task completion. However, he has struggled with taking up responsibilities to deliver complex tasks. He also does not handle high pressure situations well.
+
+CANDIDATES:
+[1] Dean is a top contributor in task completion but struggles with complex work and high-pressure situations, limiting his growth into senior roles. He can improve by asking to partner with a senior colleague on a complex project and by breaking down difficult tasks into smaller, more manageable parts.
+[2] Dean, your manager recognizes your significant contributions and high task completion rate this quarter, which is commendable. However, the feedback indicates a need for growth in handling complex tasks and performing under pressure. This suggests that while you excel at individual contributions, there's an opportunity to develop your capacity for more challenging, high-stakes assignments. To address this, Dean should proactively seek opportunities to shadow colleagues on complex tasks, practice stress management techniques, and communicate openly with his manager about his development goals and willingness to take on new challenges.
+[3] Dean has been a top performer in task completion and has significantly contributed to the project, showing strong initiative and reliability in managing workloads. However, he faces challenges with complex responsibilities and maintaining composure under pressure, which may limit growth into higher-leadership roles. To grow, Dean should seek mentorship from senior team members on navigating complexity, practice structured problem-solving techniques, proactively communicate early when feeling overwhelmed, and take on stretch assignments in a supported environment to build confidence and resilience.
+[4] The feedback means Dean excels in task volume but struggles with complex or high-pressure responsibilities. This indicates high output but risks in scaling his role. Dean should: 1) Partner with a senior colleague on one complex task monthly, 2) Break high-pressure goals into smaller steps, 3) Practice stress-management techniques before deadlines.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer2|Interpret|A17|Q05",
+  "criterion": "Sentiment match",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 46: A17_Q06_Motivationaltone -----
+You are Volunteer 2 in Group A.
+TASK TYPE: Interpret
+SAMPLE: A17
+CRITERION: Motivational tone
+
+INSTRUCTION:
+Rank from most to least empathetic and encouraging.
+
+ORIGINAL:
+Dean has contributed heavily to the project in the past quarter. He has led the team charts in task completion. However, he has struggled with taking up responsibilities to deliver complex tasks. He also does not handle high pressure situations well.
+
+CANDIDATES:
+[1] Dean, your manager recognizes your significant contributions and high task completion rate this quarter, which is commendable. However, the feedback indicates a need for growth in handling complex tasks and performing under pressure. This suggests that while you excel at individual contributions, there's an opportunity to develop your capacity for more challenging, high-stakes assignments. To address this, Dean should proactively seek opportunities to shadow colleagues on complex tasks, practice stress management techniques, and communicate openly with his manager about his development goals and willingness to take on new challenges.
+[2] The feedback means Dean excels in task volume but struggles with complex or high-pressure responsibilities. This indicates high output but risks in scaling his role. Dean should: 1) Partner with a senior colleague on one complex task monthly, 2) Break high-pressure goals into smaller steps, 3) Practice stress-management techniques before deadlines.
+[3] Dean has been a top performer in task completion and has significantly contributed to the project, showing strong initiative and reliability in managing workloads. However, he faces challenges with complex responsibilities and maintaining composure under pressure, which may limit growth into higher-leadership roles. To grow, Dean should seek mentorship from senior team members on navigating complexity, practice structured problem-solving techniques, proactively communicate early when feeling overwhelmed, and take on stretch assignments in a supported environment to build confidence and resilience.
+[4] Dean is a top contributor in task completion but struggles with complex work and high-pressure situations, limiting his growth into senior roles. He can improve by asking to partner with a senior colleague on a complex project and by breaking down difficult tasks into smaller, more manageable parts.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer2|Interpret|A17|Q06",
+  "criterion": "Motivational tone",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 47: A17_Q07_Constructiveness -----
+You are Volunteer 2 in Group A.
+TASK TYPE: Interpret
+SAMPLE: A17
+CRITERION: Constructiveness
+
+INSTRUCTION:
+Rank from most to least helpful and constructive.
+
+ORIGINAL:
+Dean has contributed heavily to the project in the past quarter. He has led the team charts in task completion. However, he has struggled with taking up responsibilities to deliver complex tasks. He also does not handle high pressure situations well.
+
+CANDIDATES:
+[1] Dean is a top contributor in task completion but struggles with complex work and high-pressure situations, limiting his growth into senior roles. He can improve by asking to partner with a senior colleague on a complex project and by breaking down difficult tasks into smaller, more manageable parts.
+[2] The feedback means Dean excels in task volume but struggles with complex or high-pressure responsibilities. This indicates high output but risks in scaling his role. Dean should: 1) Partner with a senior colleague on one complex task monthly, 2) Break high-pressure goals into smaller steps, 3) Practice stress-management techniques before deadlines.
+[3] Dean has been a top performer in task completion and has significantly contributed to the project, showing strong initiative and reliability in managing workloads. However, he faces challenges with complex responsibilities and maintaining composure under pressure, which may limit growth into higher-leadership roles. To grow, Dean should seek mentorship from senior team members on navigating complexity, practice structured problem-solving techniques, proactively communicate early when feeling overwhelmed, and take on stretch assignments in a supported environment to build confidence and resilience.
+[4] Dean, your manager recognizes your significant contributions and high task completion rate this quarter, which is commendable. However, the feedback indicates a need for growth in handling complex tasks and performing under pressure. This suggests that while you excel at individual contributions, there's an opportunity to develop your capacity for more challenging, high-stakes assignments. To address this, Dean should proactively seek opportunities to shadow colleagues on complex tasks, practice stress management techniques, and communicate openly with his manager about his development goals and willingness to take on new challenges.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer2|Interpret|A17|Q07",
+  "criterion": "Constructiveness",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 48: A17_Q08_Finalchoice -----
+You are Volunteer 2 in Group A.
+TASK TYPE: Interpret
+SAMPLE: A17
+CRITERION: Final choice
+
+INSTRUCTION:
+Rank from most to least suitable as a final version.
+
+ORIGINAL:
+Dean has contributed heavily to the project in the past quarter. He has led the team charts in task completion. However, he has struggled with taking up responsibilities to deliver complex tasks. He also does not handle high pressure situations well.
+
+CANDIDATES:
+[1] Dean has been a top performer in task completion and has significantly contributed to the project, showing strong initiative and reliability in managing workloads. However, he faces challenges with complex responsibilities and maintaining composure under pressure, which may limit growth into higher-leadership roles. To grow, Dean should seek mentorship from senior team members on navigating complexity, practice structured problem-solving techniques, proactively communicate early when feeling overwhelmed, and take on stretch assignments in a supported environment to build confidence and resilience.
+[2] Dean is a top contributor in task completion but struggles with complex work and high-pressure situations, limiting his growth into senior roles. He can improve by asking to partner with a senior colleague on a complex project and by breaking down difficult tasks into smaller, more manageable parts.
+[3] Dean, your manager recognizes your significant contributions and high task completion rate this quarter, which is commendable. However, the feedback indicates a need for growth in handling complex tasks and performing under pressure. This suggests that while you excel at individual contributions, there's an opportunity to develop your capacity for more challenging, high-stakes assignments. To address this, Dean should proactively seek opportunities to shadow colleagues on complex tasks, practice stress management techniques, and communicate openly with his manager about his development goals and willingness to take on new challenges.
+[4] The feedback means Dean excels in task volume but struggles with complex or high-pressure responsibilities. This indicates high output but risks in scaling his role. Dean should: 1) Partner with a senior colleague on one complex task monthly, 2) Break high-pressure goals into smaller steps, 3) Practice stress-management techniques before deadlines.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer2|Interpret|A17|Q08",
+  "criterion": "Final choice",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+

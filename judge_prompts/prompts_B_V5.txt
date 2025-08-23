@@ -1,0 +1,1698 @@
+----- PROMPT 1: B1_Q01_Fluency -----
+You are Volunteer 5 in Group B.
+TASK TYPE: Idea-to-Text
+SAMPLE: B1
+CRITERION: Fluency
+
+INSTRUCTION:
+Rank from most to least smooth and error-free.
+
+ORIGINAL:
+Brantley Whitfield delivers below capability—possible role mis-fit; needs guidance to boost productivity.
+
+CANDIDATES:
+[1] Brantley Whitfield is currently performing below his potential, suggesting a possible misalignment between his skills and role requirements. He would benefit from targeted guidance and support to clarify expectations, build confidence, and enhance productivity. With the right coaching, there is opportunity for improvement.
+[2] Brantley, you possess valuable capability, but we observe challenges in aligning this fully with your current role expectations. To enhance your productivity and fit, we will provide specific guidance and support. Let's collaborate on a focused development plan to help you leverage your strengths more effectively within the team structure.
+[3] Brantley, your output is not yet reflecting your full potential. Let's discuss a possible role mismatch and implement a structured guidance plan to help boost your productivity and ensure you're in a position to succeed.
+[4] Brantley's current performance indicates he is operating below his potential, suggesting a possible misalignment with his role's demands. To enhance his productivity and ensure he can contribute effectively, focused guidance and a clear development plan are essential. This will help identify specific areas for improvement and provide the necessary support for him to thrive.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer5|Idea-to-Text|B1|Q01",
+  "criterion": "Fluency",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 2: B1_Q02_Coherence -----
+You are Volunteer 5 in Group B.
+TASK TYPE: Idea-to-Text
+SAMPLE: B1
+CRITERION: Coherence
+
+INSTRUCTION:
+Rank from most to least logical and easy to follow.
+
+ORIGINAL:
+Brantley Whitfield delivers below capability—possible role mis-fit; needs guidance to boost productivity.
+
+CANDIDATES:
+[1] Brantley, you possess valuable capability, but we observe challenges in aligning this fully with your current role expectations. To enhance your productivity and fit, we will provide specific guidance and support. Let's collaborate on a focused development plan to help you leverage your strengths more effectively within the team structure.
+[2] Brantley's current performance indicates he is operating below his potential, suggesting a possible misalignment with his role's demands. To enhance his productivity and ensure he can contribute effectively, focused guidance and a clear development plan are essential. This will help identify specific areas for improvement and provide the necessary support for him to thrive.
+[3] Brantley Whitfield is currently performing below his potential, suggesting a possible misalignment between his skills and role requirements. He would benefit from targeted guidance and support to clarify expectations, build confidence, and enhance productivity. With the right coaching, there is opportunity for improvement.
+[4] Brantley, your output is not yet reflecting your full potential. Let's discuss a possible role mismatch and implement a structured guidance plan to help boost your productivity and ensure you're in a position to succeed.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer5|Idea-to-Text|B1|Q02",
+  "criterion": "Coherence",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 3: B1_Q03_Conciseness -----
+You are Volunteer 5 in Group B.
+TASK TYPE: Idea-to-Text
+SAMPLE: B1
+CRITERION: Conciseness
+
+INSTRUCTION:
+Rank from most to least clear and compact.
+
+ORIGINAL:
+Brantley Whitfield delivers below capability—possible role mis-fit; needs guidance to boost productivity.
+
+CANDIDATES:
+[1] Brantley, you possess valuable capability, but we observe challenges in aligning this fully with your current role expectations. To enhance your productivity and fit, we will provide specific guidance and support. Let's collaborate on a focused development plan to help you leverage your strengths more effectively within the team structure.
+[2] Brantley, your output is not yet reflecting your full potential. Let's discuss a possible role mismatch and implement a structured guidance plan to help boost your productivity and ensure you're in a position to succeed.
+[3] Brantley Whitfield is currently performing below his potential, suggesting a possible misalignment between his skills and role requirements. He would benefit from targeted guidance and support to clarify expectations, build confidence, and enhance productivity. With the right coaching, there is opportunity for improvement.
+[4] Brantley's current performance indicates he is operating below his potential, suggesting a possible misalignment with his role's demands. To enhance his productivity and ensure he can contribute effectively, focused guidance and a clear development plan are essential. This will help identify specific areas for improvement and provide the necessary support for him to thrive.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer5|Idea-to-Text|B1|Q03",
+  "criterion": "Conciseness",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 4: B1_Q04_Accuracy -----
+You are Volunteer 5 in Group B.
+TASK TYPE: Idea-to-Text
+SAMPLE: B1
+CRITERION: Accuracy
+
+INSTRUCTION:
+Select all texts that are factually correct given the Original.
+
+ORIGINAL:
+Brantley Whitfield delivers below capability—possible role mis-fit; needs guidance to boost productivity.
+
+CANDIDATES:
+[1] Brantley Whitfield is currently performing below his potential, suggesting a possible misalignment between his skills and role requirements. He would benefit from targeted guidance and support to clarify expectations, build confidence, and enhance productivity. With the right coaching, there is opportunity for improvement.
+[2] Brantley's current performance indicates he is operating below his potential, suggesting a possible misalignment with his role's demands. To enhance his productivity and ensure he can contribute effectively, focused guidance and a clear development plan are essential. This will help identify specific areas for improvement and provide the necessary support for him to thrive.
+[3] Brantley, your output is not yet reflecting your full potential. Let's discuss a possible role mismatch and implement a structured guidance plan to help boost your productivity and ensure you're in a position to succeed.
+[4] Brantley, you possess valuable capability, but we observe challenges in aligning this fully with your current role expectations. To enhance your productivity and fit, we will provide specific guidance and support. Let's collaborate on a focused development plan to help you leverage your strengths more effectively within the team structure.
+
+Please select all outputs that are factually correct given the Original.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer5|Idea-to-Text|B1|Q04",
+  "criterion": "Accuracy",
+  "rating": [1, 3],
+  "justifications": {
+    "1": "why candidate 1 is correct/incorrect in one sentence",
+    "2": "why candidate 2 is correct/incorrect in one sentence",
+    "3": "why candidate 3 is correct/incorrect in one sentence",
+    "4": "why candidate 4 is correct/incorrect in one sentence"
+  }
+}
+
+
+----- PROMPT 5: B1_Q05_Sentimentmatch -----
+You are Volunteer 5 in Group B.
+TASK TYPE: Idea-to-Text
+SAMPLE: B1
+CRITERION: Sentiment match
+
+INSTRUCTION:
+Rank from most to least similar to the Original in style and sentiment.
+
+ORIGINAL:
+Brantley Whitfield delivers below capability—possible role mis-fit; needs guidance to boost productivity.
+
+CANDIDATES:
+[1] Brantley's current performance indicates he is operating below his potential, suggesting a possible misalignment with his role's demands. To enhance his productivity and ensure he can contribute effectively, focused guidance and a clear development plan are essential. This will help identify specific areas for improvement and provide the necessary support for him to thrive.
+[2] Brantley, your output is not yet reflecting your full potential. Let's discuss a possible role mismatch and implement a structured guidance plan to help boost your productivity and ensure you're in a position to succeed.
+[3] Brantley, you possess valuable capability, but we observe challenges in aligning this fully with your current role expectations. To enhance your productivity and fit, we will provide specific guidance and support. Let's collaborate on a focused development plan to help you leverage your strengths more effectively within the team structure.
+[4] Brantley Whitfield is currently performing below his potential, suggesting a possible misalignment between his skills and role requirements. He would benefit from targeted guidance and support to clarify expectations, build confidence, and enhance productivity. With the right coaching, there is opportunity for improvement.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer5|Idea-to-Text|B1|Q05",
+  "criterion": "Sentiment match",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 6: B1_Q06_Motivationaltone -----
+You are Volunteer 5 in Group B.
+TASK TYPE: Idea-to-Text
+SAMPLE: B1
+CRITERION: Motivational tone
+
+INSTRUCTION:
+Rank from most to least empathetic and encouraging.
+
+ORIGINAL:
+Brantley Whitfield delivers below capability—possible role mis-fit; needs guidance to boost productivity.
+
+CANDIDATES:
+[1] Brantley's current performance indicates he is operating below his potential, suggesting a possible misalignment with his role's demands. To enhance his productivity and ensure he can contribute effectively, focused guidance and a clear development plan are essential. This will help identify specific areas for improvement and provide the necessary support for him to thrive.
+[2] Brantley Whitfield is currently performing below his potential, suggesting a possible misalignment between his skills and role requirements. He would benefit from targeted guidance and support to clarify expectations, build confidence, and enhance productivity. With the right coaching, there is opportunity for improvement.
+[3] Brantley, your output is not yet reflecting your full potential. Let's discuss a possible role mismatch and implement a structured guidance plan to help boost your productivity and ensure you're in a position to succeed.
+[4] Brantley, you possess valuable capability, but we observe challenges in aligning this fully with your current role expectations. To enhance your productivity and fit, we will provide specific guidance and support. Let's collaborate on a focused development plan to help you leverage your strengths more effectively within the team structure.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer5|Idea-to-Text|B1|Q06",
+  "criterion": "Motivational tone",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 7: B1_Q07_Constructiveness -----
+You are Volunteer 5 in Group B.
+TASK TYPE: Idea-to-Text
+SAMPLE: B1
+CRITERION: Constructiveness
+
+INSTRUCTION:
+Rank from most to least helpful and constructive.
+
+ORIGINAL:
+Brantley Whitfield delivers below capability—possible role mis-fit; needs guidance to boost productivity.
+
+CANDIDATES:
+[1] Brantley, you possess valuable capability, but we observe challenges in aligning this fully with your current role expectations. To enhance your productivity and fit, we will provide specific guidance and support. Let's collaborate on a focused development plan to help you leverage your strengths more effectively within the team structure.
+[2] Brantley Whitfield is currently performing below his potential, suggesting a possible misalignment between his skills and role requirements. He would benefit from targeted guidance and support to clarify expectations, build confidence, and enhance productivity. With the right coaching, there is opportunity for improvement.
+[3] Brantley's current performance indicates he is operating below his potential, suggesting a possible misalignment with his role's demands. To enhance his productivity and ensure he can contribute effectively, focused guidance and a clear development plan are essential. This will help identify specific areas for improvement and provide the necessary support for him to thrive.
+[4] Brantley, your output is not yet reflecting your full potential. Let's discuss a possible role mismatch and implement a structured guidance plan to help boost your productivity and ensure you're in a position to succeed.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer5|Idea-to-Text|B1|Q07",
+  "criterion": "Constructiveness",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 8: B1_Q08_Finalchoice -----
+You are Volunteer 5 in Group B.
+TASK TYPE: Idea-to-Text
+SAMPLE: B1
+CRITERION: Final choice
+
+INSTRUCTION:
+Rank from most to least suitable as a final version.
+
+ORIGINAL:
+Brantley Whitfield delivers below capability—possible role mis-fit; needs guidance to boost productivity.
+
+CANDIDATES:
+[1] Brantley Whitfield is currently performing below his potential, suggesting a possible misalignment between his skills and role requirements. He would benefit from targeted guidance and support to clarify expectations, build confidence, and enhance productivity. With the right coaching, there is opportunity for improvement.
+[2] Brantley, your output is not yet reflecting your full potential. Let's discuss a possible role mismatch and implement a structured guidance plan to help boost your productivity and ensure you're in a position to succeed.
+[3] Brantley's current performance indicates he is operating below his potential, suggesting a possible misalignment with his role's demands. To enhance his productivity and ensure he can contribute effectively, focused guidance and a clear development plan are essential. This will help identify specific areas for improvement and provide the necessary support for him to thrive.
+[4] Brantley, you possess valuable capability, but we observe challenges in aligning this fully with your current role expectations. To enhance your productivity and fit, we will provide specific guidance and support. Let's collaborate on a focused development plan to help you leverage your strengths more effectively within the team structure.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer5|Idea-to-Text|B1|Q08",
+  "criterion": "Final choice",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 9: B2_Q01_Fluency -----
+You are Volunteer 5 in Group B.
+TASK TYPE: Idea-to-Text
+SAMPLE: B2
+CRITERION: Fluency
+
+INSTRUCTION:
+Rank from most to least smooth and error-free.
+
+ORIGINAL:
+Kyle Lawson meets baseline expectations but lacks initiative; stretch goals required for advancement.
+
+CANDIDATES:
+[1] Kyle, you consistently meet baseline performance expectations. To advance, we encourage you to demonstrate greater initiative and proactive problem-solving. We will discuss setting specific, challenging stretch goals designed to develop these skills and position you for future growth opportunities.
+[2] Kyle consistently meets core job requirements, demonstrating reliability in his role. To progress to the next level, we encourage Kyle to proactively seek out new challenges and demonstrate greater initiative in identifying and pursuing opportunities for improvement or innovation. Setting and achieving stretch goals will be key for his continued professional development and advancement within the company.
+[3] Kyle, you reliably meet all core job requirements. To support your career advancement, we encourage you to demonstrate more initiative. Let's define some stretch goals together to help you develop in this area.
+[4] Kyle Lawson consistently meets baseline expectations and delivers reliable work. However, he tends to lack initiative and rarely pursues opportunities beyond assigned tasks. To be considered for advancement, Kyle should actively engage in stretch goals, demonstrate proactive problem-solving, and seek ways to contribute beyond core responsibilities. Continued growth in these areas will be essential for progression.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer5|Idea-to-Text|B2|Q01",
+  "criterion": "Fluency",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 10: B2_Q02_Coherence -----
+You are Volunteer 5 in Group B.
+TASK TYPE: Idea-to-Text
+SAMPLE: B2
+CRITERION: Coherence
+
+INSTRUCTION:
+Rank from most to least logical and easy to follow.
+
+ORIGINAL:
+Kyle Lawson meets baseline expectations but lacks initiative; stretch goals required for advancement.
+
+CANDIDATES:
+[1] Kyle, you consistently meet baseline performance expectations. To advance, we encourage you to demonstrate greater initiative and proactive problem-solving. We will discuss setting specific, challenging stretch goals designed to develop these skills and position you for future growth opportunities.
+[2] Kyle Lawson consistently meets baseline expectations and delivers reliable work. However, he tends to lack initiative and rarely pursues opportunities beyond assigned tasks. To be considered for advancement, Kyle should actively engage in stretch goals, demonstrate proactive problem-solving, and seek ways to contribute beyond core responsibilities. Continued growth in these areas will be essential for progression.
+[3] Kyle consistently meets core job requirements, demonstrating reliability in his role. To progress to the next level, we encourage Kyle to proactively seek out new challenges and demonstrate greater initiative in identifying and pursuing opportunities for improvement or innovation. Setting and achieving stretch goals will be key for his continued professional development and advancement within the company.
+[4] Kyle, you reliably meet all core job requirements. To support your career advancement, we encourage you to demonstrate more initiative. Let's define some stretch goals together to help you develop in this area.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer5|Idea-to-Text|B2|Q02",
+  "criterion": "Coherence",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 11: B2_Q03_Conciseness -----
+You are Volunteer 5 in Group B.
+TASK TYPE: Idea-to-Text
+SAMPLE: B2
+CRITERION: Conciseness
+
+INSTRUCTION:
+Rank from most to least clear and compact.
+
+ORIGINAL:
+Kyle Lawson meets baseline expectations but lacks initiative; stretch goals required for advancement.
+
+CANDIDATES:
+[1] Kyle Lawson consistently meets baseline expectations and delivers reliable work. However, he tends to lack initiative and rarely pursues opportunities beyond assigned tasks. To be considered for advancement, Kyle should actively engage in stretch goals, demonstrate proactive problem-solving, and seek ways to contribute beyond core responsibilities. Continued growth in these areas will be essential for progression.
+[2] Kyle, you reliably meet all core job requirements. To support your career advancement, we encourage you to demonstrate more initiative. Let's define some stretch goals together to help you develop in this area.
+[3] Kyle, you consistently meet baseline performance expectations. To advance, we encourage you to demonstrate greater initiative and proactive problem-solving. We will discuss setting specific, challenging stretch goals designed to develop these skills and position you for future growth opportunities.
+[4] Kyle consistently meets core job requirements, demonstrating reliability in his role. To progress to the next level, we encourage Kyle to proactively seek out new challenges and demonstrate greater initiative in identifying and pursuing opportunities for improvement or innovation. Setting and achieving stretch goals will be key for his continued professional development and advancement within the company.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer5|Idea-to-Text|B2|Q03",
+  "criterion": "Conciseness",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 12: B2_Q04_Accuracy -----
+You are Volunteer 5 in Group B.
+TASK TYPE: Idea-to-Text
+SAMPLE: B2
+CRITERION: Accuracy
+
+INSTRUCTION:
+Select all texts that are factually correct given the Original.
+
+ORIGINAL:
+Kyle Lawson meets baseline expectations but lacks initiative; stretch goals required for advancement.
+
+CANDIDATES:
+[1] Kyle Lawson consistently meets baseline expectations and delivers reliable work. However, he tends to lack initiative and rarely pursues opportunities beyond assigned tasks. To be considered for advancement, Kyle should actively engage in stretch goals, demonstrate proactive problem-solving, and seek ways to contribute beyond core responsibilities. Continued growth in these areas will be essential for progression.
+[2] Kyle, you consistently meet baseline performance expectations. To advance, we encourage you to demonstrate greater initiative and proactive problem-solving. We will discuss setting specific, challenging stretch goals designed to develop these skills and position you for future growth opportunities.
+[3] Kyle consistently meets core job requirements, demonstrating reliability in his role. To progress to the next level, we encourage Kyle to proactively seek out new challenges and demonstrate greater initiative in identifying and pursuing opportunities for improvement or innovation. Setting and achieving stretch goals will be key for his continued professional development and advancement within the company.
+[4] Kyle, you reliably meet all core job requirements. To support your career advancement, we encourage you to demonstrate more initiative. Let's define some stretch goals together to help you develop in this area.
+
+Please select all outputs that are factually correct given the Original.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer5|Idea-to-Text|B2|Q04",
+  "criterion": "Accuracy",
+  "rating": [1, 3],
+  "justifications": {
+    "1": "why candidate 1 is correct/incorrect in one sentence",
+    "2": "why candidate 2 is correct/incorrect in one sentence",
+    "3": "why candidate 3 is correct/incorrect in one sentence",
+    "4": "why candidate 4 is correct/incorrect in one sentence"
+  }
+}
+
+
+----- PROMPT 13: B2_Q05_Sentimentmatch -----
+You are Volunteer 5 in Group B.
+TASK TYPE: Idea-to-Text
+SAMPLE: B2
+CRITERION: Sentiment match
+
+INSTRUCTION:
+Rank from most to least similar to the Original in style and sentiment.
+
+ORIGINAL:
+Kyle Lawson meets baseline expectations but lacks initiative; stretch goals required for advancement.
+
+CANDIDATES:
+[1] Kyle Lawson consistently meets baseline expectations and delivers reliable work. However, he tends to lack initiative and rarely pursues opportunities beyond assigned tasks. To be considered for advancement, Kyle should actively engage in stretch goals, demonstrate proactive problem-solving, and seek ways to contribute beyond core responsibilities. Continued growth in these areas will be essential for progression.
+[2] Kyle consistently meets core job requirements, demonstrating reliability in his role. To progress to the next level, we encourage Kyle to proactively seek out new challenges and demonstrate greater initiative in identifying and pursuing opportunities for improvement or innovation. Setting and achieving stretch goals will be key for his continued professional development and advancement within the company.
+[3] Kyle, you reliably meet all core job requirements. To support your career advancement, we encourage you to demonstrate more initiative. Let's define some stretch goals together to help you develop in this area.
+[4] Kyle, you consistently meet baseline performance expectations. To advance, we encourage you to demonstrate greater initiative and proactive problem-solving. We will discuss setting specific, challenging stretch goals designed to develop these skills and position you for future growth opportunities.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer5|Idea-to-Text|B2|Q05",
+  "criterion": "Sentiment match",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 14: B2_Q06_Motivationaltone -----
+You are Volunteer 5 in Group B.
+TASK TYPE: Idea-to-Text
+SAMPLE: B2
+CRITERION: Motivational tone
+
+INSTRUCTION:
+Rank from most to least empathetic and encouraging.
+
+ORIGINAL:
+Kyle Lawson meets baseline expectations but lacks initiative; stretch goals required for advancement.
+
+CANDIDATES:
+[1] Kyle, you consistently meet baseline performance expectations. To advance, we encourage you to demonstrate greater initiative and proactive problem-solving. We will discuss setting specific, challenging stretch goals designed to develop these skills and position you for future growth opportunities.
+[2] Kyle Lawson consistently meets baseline expectations and delivers reliable work. However, he tends to lack initiative and rarely pursues opportunities beyond assigned tasks. To be considered for advancement, Kyle should actively engage in stretch goals, demonstrate proactive problem-solving, and seek ways to contribute beyond core responsibilities. Continued growth in these areas will be essential for progression.
+[3] Kyle, you reliably meet all core job requirements. To support your career advancement, we encourage you to demonstrate more initiative. Let's define some stretch goals together to help you develop in this area.
+[4] Kyle consistently meets core job requirements, demonstrating reliability in his role. To progress to the next level, we encourage Kyle to proactively seek out new challenges and demonstrate greater initiative in identifying and pursuing opportunities for improvement or innovation. Setting and achieving stretch goals will be key for his continued professional development and advancement within the company.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer5|Idea-to-Text|B2|Q06",
+  "criterion": "Motivational tone",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 15: B2_Q07_Constructiveness -----
+You are Volunteer 5 in Group B.
+TASK TYPE: Idea-to-Text
+SAMPLE: B2
+CRITERION: Constructiveness
+
+INSTRUCTION:
+Rank from most to least helpful and constructive.
+
+ORIGINAL:
+Kyle Lawson meets baseline expectations but lacks initiative; stretch goals required for advancement.
+
+CANDIDATES:
+[1] Kyle, you consistently meet baseline performance expectations. To advance, we encourage you to demonstrate greater initiative and proactive problem-solving. We will discuss setting specific, challenging stretch goals designed to develop these skills and position you for future growth opportunities.
+[2] Kyle Lawson consistently meets baseline expectations and delivers reliable work. However, he tends to lack initiative and rarely pursues opportunities beyond assigned tasks. To be considered for advancement, Kyle should actively engage in stretch goals, demonstrate proactive problem-solving, and seek ways to contribute beyond core responsibilities. Continued growth in these areas will be essential for progression.
+[3] Kyle consistently meets core job requirements, demonstrating reliability in his role. To progress to the next level, we encourage Kyle to proactively seek out new challenges and demonstrate greater initiative in identifying and pursuing opportunities for improvement or innovation. Setting and achieving stretch goals will be key for his continued professional development and advancement within the company.
+[4] Kyle, you reliably meet all core job requirements. To support your career advancement, we encourage you to demonstrate more initiative. Let's define some stretch goals together to help you develop in this area.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer5|Idea-to-Text|B2|Q07",
+  "criterion": "Constructiveness",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 16: B2_Q08_Finalchoice -----
+You are Volunteer 5 in Group B.
+TASK TYPE: Idea-to-Text
+SAMPLE: B2
+CRITERION: Final choice
+
+INSTRUCTION:
+Rank from most to least suitable as a final version.
+
+ORIGINAL:
+Kyle Lawson meets baseline expectations but lacks initiative; stretch goals required for advancement.
+
+CANDIDATES:
+[1] Kyle, you reliably meet all core job requirements. To support your career advancement, we encourage you to demonstrate more initiative. Let's define some stretch goals together to help you develop in this area.
+[2] Kyle, you consistently meet baseline performance expectations. To advance, we encourage you to demonstrate greater initiative and proactive problem-solving. We will discuss setting specific, challenging stretch goals designed to develop these skills and position you for future growth opportunities.
+[3] Kyle consistently meets core job requirements, demonstrating reliability in his role. To progress to the next level, we encourage Kyle to proactively seek out new challenges and demonstrate greater initiative in identifying and pursuing opportunities for improvement or innovation. Setting and achieving stretch goals will be key for his continued professional development and advancement within the company.
+[4] Kyle Lawson consistently meets baseline expectations and delivers reliable work. However, he tends to lack initiative and rarely pursues opportunities beyond assigned tasks. To be considered for advancement, Kyle should actively engage in stretch goals, demonstrate proactive problem-solving, and seek ways to contribute beyond core responsibilities. Continued growth in these areas will be essential for progression.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer5|Idea-to-Text|B2|Q08",
+  "criterion": "Final choice",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT SC1: SanityCheck_IdeaToText_Accuracy -----
+TASK TYPE: Idea-to-Text
+SAMPLE: SC1
+CRITERION: Accuracy
+
+INSTRUCTION:
+Rank from most to least factually correct given the Original.
+
+ORIGINAL:
+The sun appears to rise each morning from the eastern horizon before setting in the west
+
+CANDIDATES:
+[1] The sun rises in the east.
+[2] The sun rises in the west.
+[3] The moon rises in the east.
+[4] The sun never rises.
+
+Please rank outputs strictly from most accurate (1) to least accurate (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "Idea-to-Text|SC1|Q04",
+  "criterion": "Accuracy",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 17: B8_Q01_Fluency -----
+You are Volunteer 5 in Group B.
+TASK TYPE: Summarise
+SAMPLE: B8
+CRITERION: Fluency
+
+INSTRUCTION:
+Rank from most to least smooth and error-free.
+
+ORIGINAL:
+April Craft is your typical employee. She tends to do her job and show up on time. With that said she doesn't seem particularly interested in the work she is given. Hopefully we see some positive growth in the near future.
+
+CANDIDATES:
+[1] April is a punctual employee who performs her basic duties but seems uninterested in her work. Positive growth is hoped for in the future.
+[2] April Craft is reliable and punctual but shows little interest in her work. Improvement in engagement is hoped for in the near future.
+[3] April: Typical employee, job done & on time. Lacks interest in work. Hoping for future growth.
+[4] April is a punctual, reliable employee but lacks engagement and interest in her work. We hope to see improvement.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer5|Summarise|B8|Q01",
+  "criterion": "Fluency",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 18: B8_Q02_Coherence -----
+You are Volunteer 5 in Group B.
+TASK TYPE: Summarise
+SAMPLE: B8
+CRITERION: Coherence
+
+INSTRUCTION:
+Rank from most to least logical and easy to follow.
+
+ORIGINAL:
+April Craft is your typical employee. She tends to do her job and show up on time. With that said she doesn't seem particularly interested in the work she is given. Hopefully we see some positive growth in the near future.
+
+CANDIDATES:
+[1] April Craft is reliable and punctual but shows little interest in her work. Improvement in engagement is hoped for in the near future.
+[2] April is a punctual employee who performs her basic duties but seems uninterested in her work. Positive growth is hoped for in the future.
+[3] April: Typical employee, job done & on time. Lacks interest in work. Hoping for future growth.
+[4] April is a punctual, reliable employee but lacks engagement and interest in her work. We hope to see improvement.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer5|Summarise|B8|Q02",
+  "criterion": "Coherence",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 19: B8_Q03_Conciseness -----
+You are Volunteer 5 in Group B.
+TASK TYPE: Summarise
+SAMPLE: B8
+CRITERION: Conciseness
+
+INSTRUCTION:
+Rank from most to least clear and compact.
+
+ORIGINAL:
+April Craft is your typical employee. She tends to do her job and show up on time. With that said she doesn't seem particularly interested in the work she is given. Hopefully we see some positive growth in the near future.
+
+CANDIDATES:
+[1] April Craft is reliable and punctual but shows little interest in her work. Improvement in engagement is hoped for in the near future.
+[2] April is a punctual employee who performs her basic duties but seems uninterested in her work. Positive growth is hoped for in the future.
+[3] April is a punctual, reliable employee but lacks engagement and interest in her work. We hope to see improvement.
+[4] April: Typical employee, job done & on time. Lacks interest in work. Hoping for future growth.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer5|Summarise|B8|Q03",
+  "criterion": "Conciseness",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 20: B8_Q04_Accuracy -----
+You are Volunteer 5 in Group B.
+TASK TYPE: Summarise
+SAMPLE: B8
+CRITERION: Accuracy
+
+INSTRUCTION:
+Select all texts that are factually correct given the Original.
+
+ORIGINAL:
+April Craft is your typical employee. She tends to do her job and show up on time. With that said she doesn't seem particularly interested in the work she is given. Hopefully we see some positive growth in the near future.
+
+CANDIDATES:
+[1] April Craft is reliable and punctual but shows little interest in her work. Improvement in engagement is hoped for in the near future.
+[2] April: Typical employee, job done & on time. Lacks interest in work. Hoping for future growth.
+[3] April is a punctual, reliable employee but lacks engagement and interest in her work. We hope to see improvement.
+[4] April is a punctual employee who performs her basic duties but seems uninterested in her work. Positive growth is hoped for in the future.
+
+Please select all outputs that are factually correct given the Original.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer5|Summarise|B8|Q04",
+  "criterion": "Accuracy",
+  "rating": [1, 3],
+  "justifications": {
+    "1": "why candidate 1 is correct/incorrect in one sentence",
+    "2": "why candidate 2 is correct/incorrect in one sentence",
+    "3": "why candidate 3 is correct/incorrect in one sentence",
+    "4": "why candidate 4 is correct/incorrect in one sentence"
+  }
+}
+
+
+----- PROMPT 21: B8_Q05_Sentimentmatch -----
+You are Volunteer 5 in Group B.
+TASK TYPE: Summarise
+SAMPLE: B8
+CRITERION: Sentiment match
+
+INSTRUCTION:
+Rank from most to least similar to the Original in style and sentiment.
+
+ORIGINAL:
+April Craft is your typical employee. She tends to do her job and show up on time. With that said she doesn't seem particularly interested in the work she is given. Hopefully we see some positive growth in the near future.
+
+CANDIDATES:
+[1] April is a punctual employee who performs her basic duties but seems uninterested in her work. Positive growth is hoped for in the future.
+[2] April is a punctual, reliable employee but lacks engagement and interest in her work. We hope to see improvement.
+[3] April: Typical employee, job done & on time. Lacks interest in work. Hoping for future growth.
+[4] April Craft is reliable and punctual but shows little interest in her work. Improvement in engagement is hoped for in the near future.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer5|Summarise|B8|Q05",
+  "criterion": "Sentiment match",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 22: B8_Q06_Motivationaltone -----
+You are Volunteer 5 in Group B.
+TASK TYPE: Summarise
+SAMPLE: B8
+CRITERION: Motivational tone
+
+INSTRUCTION:
+Rank from most to least empathetic and encouraging.
+
+ORIGINAL:
+April Craft is your typical employee. She tends to do her job and show up on time. With that said she doesn't seem particularly interested in the work she is given. Hopefully we see some positive growth in the near future.
+
+CANDIDATES:
+[1] April: Typical employee, job done & on time. Lacks interest in work. Hoping for future growth.
+[2] April is a punctual employee who performs her basic duties but seems uninterested in her work. Positive growth is hoped for in the future.
+[3] April Craft is reliable and punctual but shows little interest in her work. Improvement in engagement is hoped for in the near future.
+[4] April is a punctual, reliable employee but lacks engagement and interest in her work. We hope to see improvement.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer5|Summarise|B8|Q06",
+  "criterion": "Motivational tone",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 23: B8_Q07_Constructiveness -----
+You are Volunteer 5 in Group B.
+TASK TYPE: Summarise
+SAMPLE: B8
+CRITERION: Constructiveness
+
+INSTRUCTION:
+Rank from most to least helpful and constructive.
+
+ORIGINAL:
+April Craft is your typical employee. She tends to do her job and show up on time. With that said she doesn't seem particularly interested in the work she is given. Hopefully we see some positive growth in the near future.
+
+CANDIDATES:
+[1] April Craft is reliable and punctual but shows little interest in her work. Improvement in engagement is hoped for in the near future.
+[2] April: Typical employee, job done & on time. Lacks interest in work. Hoping for future growth.
+[3] April is a punctual, reliable employee but lacks engagement and interest in her work. We hope to see improvement.
+[4] April is a punctual employee who performs her basic duties but seems uninterested in her work. Positive growth is hoped for in the future.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer5|Summarise|B8|Q07",
+  "criterion": "Constructiveness",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 24: B8_Q08_Finalchoice -----
+You are Volunteer 5 in Group B.
+TASK TYPE: Summarise
+SAMPLE: B8
+CRITERION: Final choice
+
+INSTRUCTION:
+Rank from most to least suitable as a final version.
+
+ORIGINAL:
+April Craft is your typical employee. She tends to do her job and show up on time. With that said she doesn't seem particularly interested in the work she is given. Hopefully we see some positive growth in the near future.
+
+CANDIDATES:
+[1] April is a punctual, reliable employee but lacks engagement and interest in her work. We hope to see improvement.
+[2] April is a punctual employee who performs her basic duties but seems uninterested in her work. Positive growth is hoped for in the future.
+[3] April Craft is reliable and punctual but shows little interest in her work. Improvement in engagement is hoped for in the near future.
+[4] April: Typical employee, job done & on time. Lacks interest in work. Hoping for future growth.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer5|Summarise|B8|Q08",
+  "criterion": "Final choice",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 25: B10_Q01_Fluency -----
+You are Volunteer 5 in Group B.
+TASK TYPE: Summarise
+SAMPLE: B10
+CRITERION: Fluency
+
+INSTRUCTION:
+Rank from most to least smooth and error-free.
+
+ORIGINAL:
+Allan Logan touches anything and it turns to gold. Nothing but the most capable hand in the team. He has shown he can achieve what many would dream of. Overall his capability has been an asset and a beacon of expertise.
+
+CANDIDATES:
+[1] Allan is an exceptionally capable and valuable asset, consistently achieving outstanding results and serving as a beacon of expertise.
+[2] Allan is a top performer whose expertise turns every project into a success. He is an exceptionally capable and valuable asset to the team.
+[3] Allan: Exceptional. Touches turn to gold, most capable, achieves dreams, beacon of expertise.
+[4] Allan Logan is exceptionally capable, consistently delivering outstanding results. His expertise and performance are invaluable assets to the team, setting a high standard for others.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer5|Summarise|B10|Q01",
+  "criterion": "Fluency",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 26: B10_Q02_Coherence -----
+You are Volunteer 5 in Group B.
+TASK TYPE: Summarise
+SAMPLE: B10
+CRITERION: Coherence
+
+INSTRUCTION:
+Rank from most to least logical and easy to follow.
+
+ORIGINAL:
+Allan Logan touches anything and it turns to gold. Nothing but the most capable hand in the team. He has shown he can achieve what many would dream of. Overall his capability has been an asset and a beacon of expertise.
+
+CANDIDATES:
+[1] Allan Logan is exceptionally capable, consistently delivering outstanding results. His expertise and performance are invaluable assets to the team, setting a high standard for others.
+[2] Allan: Exceptional. Touches turn to gold, most capable, achieves dreams, beacon of expertise.
+[3] Allan is an exceptionally capable and valuable asset, consistently achieving outstanding results and serving as a beacon of expertise.
+[4] Allan is a top performer whose expertise turns every project into a success. He is an exceptionally capable and valuable asset to the team.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer5|Summarise|B10|Q02",
+  "criterion": "Coherence",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 27: B10_Q03_Conciseness -----
+You are Volunteer 5 in Group B.
+TASK TYPE: Summarise
+SAMPLE: B10
+CRITERION: Conciseness
+
+INSTRUCTION:
+Rank from most to least clear and compact.
+
+ORIGINAL:
+Allan Logan touches anything and it turns to gold. Nothing but the most capable hand in the team. He has shown he can achieve what many would dream of. Overall his capability has been an asset and a beacon of expertise.
+
+CANDIDATES:
+[1] Allan is a top performer whose expertise turns every project into a success. He is an exceptionally capable and valuable asset to the team.
+[2] Allan: Exceptional. Touches turn to gold, most capable, achieves dreams, beacon of expertise.
+[3] Allan Logan is exceptionally capable, consistently delivering outstanding results. His expertise and performance are invaluable assets to the team, setting a high standard for others.
+[4] Allan is an exceptionally capable and valuable asset, consistently achieving outstanding results and serving as a beacon of expertise.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer5|Summarise|B10|Q03",
+  "criterion": "Conciseness",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 28: B10_Q04_Accuracy -----
+You are Volunteer 5 in Group B.
+TASK TYPE: Summarise
+SAMPLE: B10
+CRITERION: Accuracy
+
+INSTRUCTION:
+Select all texts that are factually correct given the Original.
+
+ORIGINAL:
+Allan Logan touches anything and it turns to gold. Nothing but the most capable hand in the team. He has shown he can achieve what many would dream of. Overall his capability has been an asset and a beacon of expertise.
+
+CANDIDATES:
+[1] Allan is a top performer whose expertise turns every project into a success. He is an exceptionally capable and valuable asset to the team.
+[2] Allan: Exceptional. Touches turn to gold, most capable, achieves dreams, beacon of expertise.
+[3] Allan is an exceptionally capable and valuable asset, consistently achieving outstanding results and serving as a beacon of expertise.
+[4] Allan Logan is exceptionally capable, consistently delivering outstanding results. His expertise and performance are invaluable assets to the team, setting a high standard for others.
+
+Please select all outputs that are factually correct given the Original.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer5|Summarise|B10|Q04",
+  "criterion": "Accuracy",
+  "rating": [1, 3],
+  "justifications": {
+    "1": "why candidate 1 is correct/incorrect in one sentence",
+    "2": "why candidate 2 is correct/incorrect in one sentence",
+    "3": "why candidate 3 is correct/incorrect in one sentence",
+    "4": "why candidate 4 is correct/incorrect in one sentence"
+  }
+}
+
+
+----- PROMPT 29: B10_Q05_Sentimentmatch -----
+You are Volunteer 5 in Group B.
+TASK TYPE: Summarise
+SAMPLE: B10
+CRITERION: Sentiment match
+
+INSTRUCTION:
+Rank from most to least similar to the Original in style and sentiment.
+
+ORIGINAL:
+Allan Logan touches anything and it turns to gold. Nothing but the most capable hand in the team. He has shown he can achieve what many would dream of. Overall his capability has been an asset and a beacon of expertise.
+
+CANDIDATES:
+[1] Allan is an exceptionally capable and valuable asset, consistently achieving outstanding results and serving as a beacon of expertise.
+[2] Allan: Exceptional. Touches turn to gold, most capable, achieves dreams, beacon of expertise.
+[3] Allan Logan is exceptionally capable, consistently delivering outstanding results. His expertise and performance are invaluable assets to the team, setting a high standard for others.
+[4] Allan is a top performer whose expertise turns every project into a success. He is an exceptionally capable and valuable asset to the team.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer5|Summarise|B10|Q05",
+  "criterion": "Sentiment match",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 30: B10_Q06_Motivationaltone -----
+You are Volunteer 5 in Group B.
+TASK TYPE: Summarise
+SAMPLE: B10
+CRITERION: Motivational tone
+
+INSTRUCTION:
+Rank from most to least empathetic and encouraging.
+
+ORIGINAL:
+Allan Logan touches anything and it turns to gold. Nothing but the most capable hand in the team. He has shown he can achieve what many would dream of. Overall his capability has been an asset and a beacon of expertise.
+
+CANDIDATES:
+[1] Allan: Exceptional. Touches turn to gold, most capable, achieves dreams, beacon of expertise.
+[2] Allan is a top performer whose expertise turns every project into a success. He is an exceptionally capable and valuable asset to the team.
+[3] Allan is an exceptionally capable and valuable asset, consistently achieving outstanding results and serving as a beacon of expertise.
+[4] Allan Logan is exceptionally capable, consistently delivering outstanding results. His expertise and performance are invaluable assets to the team, setting a high standard for others.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer5|Summarise|B10|Q06",
+  "criterion": "Motivational tone",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 31: B10_Q07_Constructiveness -----
+You are Volunteer 5 in Group B.
+TASK TYPE: Summarise
+SAMPLE: B10
+CRITERION: Constructiveness
+
+INSTRUCTION:
+Rank from most to least helpful and constructive.
+
+ORIGINAL:
+Allan Logan touches anything and it turns to gold. Nothing but the most capable hand in the team. He has shown he can achieve what many would dream of. Overall his capability has been an asset and a beacon of expertise.
+
+CANDIDATES:
+[1] Allan Logan is exceptionally capable, consistently delivering outstanding results. His expertise and performance are invaluable assets to the team, setting a high standard for others.
+[2] Allan: Exceptional. Touches turn to gold, most capable, achieves dreams, beacon of expertise.
+[3] Allan is an exceptionally capable and valuable asset, consistently achieving outstanding results and serving as a beacon of expertise.
+[4] Allan is a top performer whose expertise turns every project into a success. He is an exceptionally capable and valuable asset to the team.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer5|Summarise|B10|Q07",
+  "criterion": "Constructiveness",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 32: B10_Q08_Finalchoice -----
+You are Volunteer 5 in Group B.
+TASK TYPE: Summarise
+SAMPLE: B10
+CRITERION: Final choice
+
+INSTRUCTION:
+Rank from most to least suitable as a final version.
+
+ORIGINAL:
+Allan Logan touches anything and it turns to gold. Nothing but the most capable hand in the team. He has shown he can achieve what many would dream of. Overall his capability has been an asset and a beacon of expertise.
+
+CANDIDATES:
+[1] Allan is a top performer whose expertise turns every project into a success. He is an exceptionally capable and valuable asset to the team.
+[2] Allan is an exceptionally capable and valuable asset, consistently achieving outstanding results and serving as a beacon of expertise.
+[3] Allan: Exceptional. Touches turn to gold, most capable, achieves dreams, beacon of expertise.
+[4] Allan Logan is exceptionally capable, consistently delivering outstanding results. His expertise and performance are invaluable assets to the team, setting a high standard for others.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer5|Summarise|B10|Q08",
+  "criterion": "Final choice",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT SC2: SanityCheck_Summarise_Accuracy -----
+TASK TYPE: Summarise
+SAMPLE: SC2
+CRITERION: Accuracy
+
+INSTRUCTION:
+Rank from most to least factually correct given the Original.
+
+ORIGINAL:
+Pure water begins to freeze at exactly zero degrees Celsius
+
+CANDIDATES:
+[1] Water freezes at at 0°C.
+[2] Water freezes at 100°C.
+[3] Water boils at 0°C.
+[4] Ice melts at 0°C.
+
+Please rank outputs strictly from most accurate (1) to least accurate (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "Summarise|SC2|Q04",
+  "criterion": "Accuracy",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 33: B15_Q01_Fluency -----
+You are Volunteer 5 in Group B.
+TASK TYPE: Interpret
+SAMPLE: B15
+CRITERION: Fluency
+
+INSTRUCTION:
+Rank from most to least smooth and error-free.
+
+ORIGINAL:
+George does not complete work on time and needs to be constantly supervised. He does show high potential due to the work he does eventually submit. George is very intelligent but some incentive should be made to get him to realize his potential. George could probably choose a different career path within the company to ignite his ambition. George might seem lazy sometimes but shows high potential of being a great contributor.
+
+CANDIDATES:
+[1] George’s feedback indicates that while his work quality shows strong potential, his inconsistent timeliness and need for close supervision are hindering his performance. This suggests he may lack motivation or alignment with his current role, not ability. To grow, George should explore internal career paths that better match his interests and strengths, which could reignite his drive. He should proactively request a meeting with his manager to discuss role adjustments, set clear deadlines with accountability check-ins, seek mentorship, and identify specific goals to track progress—turning potential into consistent results.
+[2] Feedback means George misses deadlines requiring supervision, though submitted work shows high intelligence/potential. This indicates role misalignment may hinder contributions. George should: 1) Propose one alternative role interest by month-end, 2) Implement time-blocking for daily tasks, 3) Schedule bi-weekly progress reviews with manager.
+[3] George shows high potential with intelligent work, but his untimeliness and need for supervision are major concerns. This hurts his standing. He should adopt a task management system and talk to his manager about roles that might better ignite his ambition and strengths.
+[4] George, this feedback indicates a perception that he struggles with timely completion and requires frequent oversight, despite the high quality of his eventual output. This suggests that while his intelligence and potential are recognized, his current work habits are hindering his standing and growth. To address this, George should proactively communicate his progress on tasks, set realistic deadlines for himself and adhere to them, and explore internal career paths that might better align with his ambitions and ignite his motivation.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer5|Interpret|B15|Q01",
+  "criterion": "Fluency",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 34: B15_Q02_Coherence -----
+You are Volunteer 5 in Group B.
+TASK TYPE: Interpret
+SAMPLE: B15
+CRITERION: Coherence
+
+INSTRUCTION:
+Rank from most to least logical and easy to follow.
+
+ORIGINAL:
+George does not complete work on time and needs to be constantly supervised. He does show high potential due to the work he does eventually submit. George is very intelligent but some incentive should be made to get him to realize his potential. George could probably choose a different career path within the company to ignite his ambition. George might seem lazy sometimes but shows high potential of being a great contributor.
+
+CANDIDATES:
+[1] Feedback means George misses deadlines requiring supervision, though submitted work shows high intelligence/potential. This indicates role misalignment may hinder contributions. George should: 1) Propose one alternative role interest by month-end, 2) Implement time-blocking for daily tasks, 3) Schedule bi-weekly progress reviews with manager.
+[2] George’s feedback indicates that while his work quality shows strong potential, his inconsistent timeliness and need for close supervision are hindering his performance. This suggests he may lack motivation or alignment with his current role, not ability. To grow, George should explore internal career paths that better match his interests and strengths, which could reignite his drive. He should proactively request a meeting with his manager to discuss role adjustments, set clear deadlines with accountability check-ins, seek mentorship, and identify specific goals to track progress—turning potential into consistent results.
+[3] George shows high potential with intelligent work, but his untimeliness and need for supervision are major concerns. This hurts his standing. He should adopt a task management system and talk to his manager about roles that might better ignite his ambition and strengths.
+[4] George, this feedback indicates a perception that he struggles with timely completion and requires frequent oversight, despite the high quality of his eventual output. This suggests that while his intelligence and potential are recognized, his current work habits are hindering his standing and growth. To address this, George should proactively communicate his progress on tasks, set realistic deadlines for himself and adhere to them, and explore internal career paths that might better align with his ambitions and ignite his motivation.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer5|Interpret|B15|Q02",
+  "criterion": "Coherence",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 35: B15_Q03_Conciseness -----
+You are Volunteer 5 in Group B.
+TASK TYPE: Interpret
+SAMPLE: B15
+CRITERION: Conciseness
+
+INSTRUCTION:
+Rank from most to least clear and compact.
+
+ORIGINAL:
+George does not complete work on time and needs to be constantly supervised. He does show high potential due to the work he does eventually submit. George is very intelligent but some incentive should be made to get him to realize his potential. George could probably choose a different career path within the company to ignite his ambition. George might seem lazy sometimes but shows high potential of being a great contributor.
+
+CANDIDATES:
+[1] Feedback means George misses deadlines requiring supervision, though submitted work shows high intelligence/potential. This indicates role misalignment may hinder contributions. George should: 1) Propose one alternative role interest by month-end, 2) Implement time-blocking for daily tasks, 3) Schedule bi-weekly progress reviews with manager.
+[2] George, this feedback indicates a perception that he struggles with timely completion and requires frequent oversight, despite the high quality of his eventual output. This suggests that while his intelligence and potential are recognized, his current work habits are hindering his standing and growth. To address this, George should proactively communicate his progress on tasks, set realistic deadlines for himself and adhere to them, and explore internal career paths that might better align with his ambitions and ignite his motivation.
+[3] George shows high potential with intelligent work, but his untimeliness and need for supervision are major concerns. This hurts his standing. He should adopt a task management system and talk to his manager about roles that might better ignite his ambition and strengths.
+[4] George’s feedback indicates that while his work quality shows strong potential, his inconsistent timeliness and need for close supervision are hindering his performance. This suggests he may lack motivation or alignment with his current role, not ability. To grow, George should explore internal career paths that better match his interests and strengths, which could reignite his drive. He should proactively request a meeting with his manager to discuss role adjustments, set clear deadlines with accountability check-ins, seek mentorship, and identify specific goals to track progress—turning potential into consistent results.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer5|Interpret|B15|Q03",
+  "criterion": "Conciseness",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 36: B15_Q04_Accuracy -----
+You are Volunteer 5 in Group B.
+TASK TYPE: Interpret
+SAMPLE: B15
+CRITERION: Accuracy
+
+INSTRUCTION:
+Select all texts that are factually correct given the Original.
+
+ORIGINAL:
+George does not complete work on time and needs to be constantly supervised. He does show high potential due to the work he does eventually submit. George is very intelligent but some incentive should be made to get him to realize his potential. George could probably choose a different career path within the company to ignite his ambition. George might seem lazy sometimes but shows high potential of being a great contributor.
+
+CANDIDATES:
+[1] Feedback means George misses deadlines requiring supervision, though submitted work shows high intelligence/potential. This indicates role misalignment may hinder contributions. George should: 1) Propose one alternative role interest by month-end, 2) Implement time-blocking for daily tasks, 3) Schedule bi-weekly progress reviews with manager.
+[2] George’s feedback indicates that while his work quality shows strong potential, his inconsistent timeliness and need for close supervision are hindering his performance. This suggests he may lack motivation or alignment with his current role, not ability. To grow, George should explore internal career paths that better match his interests and strengths, which could reignite his drive. He should proactively request a meeting with his manager to discuss role adjustments, set clear deadlines with accountability check-ins, seek mentorship, and identify specific goals to track progress—turning potential into consistent results.
+[3] George shows high potential with intelligent work, but his untimeliness and need for supervision are major concerns. This hurts his standing. He should adopt a task management system and talk to his manager about roles that might better ignite his ambition and strengths.
+[4] George, this feedback indicates a perception that he struggles with timely completion and requires frequent oversight, despite the high quality of his eventual output. This suggests that while his intelligence and potential are recognized, his current work habits are hindering his standing and growth. To address this, George should proactively communicate his progress on tasks, set realistic deadlines for himself and adhere to them, and explore internal career paths that might better align with his ambitions and ignite his motivation.
+
+Please select all outputs that are factually correct given the Original.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer5|Interpret|B15|Q04",
+  "criterion": "Accuracy",
+  "rating": [1, 3],
+  "justifications": {
+    "1": "why candidate 1 is correct/incorrect in one sentence",
+    "2": "why candidate 2 is correct/incorrect in one sentence",
+    "3": "why candidate 3 is correct/incorrect in one sentence",
+    "4": "why candidate 4 is correct/incorrect in one sentence"
+  }
+}
+
+
+----- PROMPT 37: B15_Q05_Sentimentmatch -----
+You are Volunteer 5 in Group B.
+TASK TYPE: Interpret
+SAMPLE: B15
+CRITERION: Sentiment match
+
+INSTRUCTION:
+Rank from most to least similar to the Original in style and sentiment.
+
+ORIGINAL:
+George does not complete work on time and needs to be constantly supervised. He does show high potential due to the work he does eventually submit. George is very intelligent but some incentive should be made to get him to realize his potential. George could probably choose a different career path within the company to ignite his ambition. George might seem lazy sometimes but shows high potential of being a great contributor.
+
+CANDIDATES:
+[1] George shows high potential with intelligent work, but his untimeliness and need for supervision are major concerns. This hurts his standing. He should adopt a task management system and talk to his manager about roles that might better ignite his ambition and strengths.
+[2] George, this feedback indicates a perception that he struggles with timely completion and requires frequent oversight, despite the high quality of his eventual output. This suggests that while his intelligence and potential are recognized, his current work habits are hindering his standing and growth. To address this, George should proactively communicate his progress on tasks, set realistic deadlines for himself and adhere to them, and explore internal career paths that might better align with his ambitions and ignite his motivation.
+[3] Feedback means George misses deadlines requiring supervision, though submitted work shows high intelligence/potential. This indicates role misalignment may hinder contributions. George should: 1) Propose one alternative role interest by month-end, 2) Implement time-blocking for daily tasks, 3) Schedule bi-weekly progress reviews with manager.
+[4] George’s feedback indicates that while his work quality shows strong potential, his inconsistent timeliness and need for close supervision are hindering his performance. This suggests he may lack motivation or alignment with his current role, not ability. To grow, George should explore internal career paths that better match his interests and strengths, which could reignite his drive. He should proactively request a meeting with his manager to discuss role adjustments, set clear deadlines with accountability check-ins, seek mentorship, and identify specific goals to track progress—turning potential into consistent results.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer5|Interpret|B15|Q05",
+  "criterion": "Sentiment match",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 38: B15_Q06_Motivationaltone -----
+You are Volunteer 5 in Group B.
+TASK TYPE: Interpret
+SAMPLE: B15
+CRITERION: Motivational tone
+
+INSTRUCTION:
+Rank from most to least empathetic and encouraging.
+
+ORIGINAL:
+George does not complete work on time and needs to be constantly supervised. He does show high potential due to the work he does eventually submit. George is very intelligent but some incentive should be made to get him to realize his potential. George could probably choose a different career path within the company to ignite his ambition. George might seem lazy sometimes but shows high potential of being a great contributor.
+
+CANDIDATES:
+[1] George, this feedback indicates a perception that he struggles with timely completion and requires frequent oversight, despite the high quality of his eventual output. This suggests that while his intelligence and potential are recognized, his current work habits are hindering his standing and growth. To address this, George should proactively communicate his progress on tasks, set realistic deadlines for himself and adhere to them, and explore internal career paths that might better align with his ambitions and ignite his motivation.
+[2] Feedback means George misses deadlines requiring supervision, though submitted work shows high intelligence/potential. This indicates role misalignment may hinder contributions. George should: 1) Propose one alternative role interest by month-end, 2) Implement time-blocking for daily tasks, 3) Schedule bi-weekly progress reviews with manager.
+[3] George’s feedback indicates that while his work quality shows strong potential, his inconsistent timeliness and need for close supervision are hindering his performance. This suggests he may lack motivation or alignment with his current role, not ability. To grow, George should explore internal career paths that better match his interests and strengths, which could reignite his drive. He should proactively request a meeting with his manager to discuss role adjustments, set clear deadlines with accountability check-ins, seek mentorship, and identify specific goals to track progress—turning potential into consistent results.
+[4] George shows high potential with intelligent work, but his untimeliness and need for supervision are major concerns. This hurts his standing. He should adopt a task management system and talk to his manager about roles that might better ignite his ambition and strengths.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer5|Interpret|B15|Q06",
+  "criterion": "Motivational tone",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 39: B15_Q07_Constructiveness -----
+You are Volunteer 5 in Group B.
+TASK TYPE: Interpret
+SAMPLE: B15
+CRITERION: Constructiveness
+
+INSTRUCTION:
+Rank from most to least helpful and constructive.
+
+ORIGINAL:
+George does not complete work on time and needs to be constantly supervised. He does show high potential due to the work he does eventually submit. George is very intelligent but some incentive should be made to get him to realize his potential. George could probably choose a different career path within the company to ignite his ambition. George might seem lazy sometimes but shows high potential of being a great contributor.
+
+CANDIDATES:
+[1] George shows high potential with intelligent work, but his untimeliness and need for supervision are major concerns. This hurts his standing. He should adopt a task management system and talk to his manager about roles that might better ignite his ambition and strengths.
+[2] Feedback means George misses deadlines requiring supervision, though submitted work shows high intelligence/potential. This indicates role misalignment may hinder contributions. George should: 1) Propose one alternative role interest by month-end, 2) Implement time-blocking for daily tasks, 3) Schedule bi-weekly progress reviews with manager.
+[3] George, this feedback indicates a perception that he struggles with timely completion and requires frequent oversight, despite the high quality of his eventual output. This suggests that while his intelligence and potential are recognized, his current work habits are hindering his standing and growth. To address this, George should proactively communicate his progress on tasks, set realistic deadlines for himself and adhere to them, and explore internal career paths that might better align with his ambitions and ignite his motivation.
+[4] George’s feedback indicates that while his work quality shows strong potential, his inconsistent timeliness and need for close supervision are hindering his performance. This suggests he may lack motivation or alignment with his current role, not ability. To grow, George should explore internal career paths that better match his interests and strengths, which could reignite his drive. He should proactively request a meeting with his manager to discuss role adjustments, set clear deadlines with accountability check-ins, seek mentorship, and identify specific goals to track progress—turning potential into consistent results.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer5|Interpret|B15|Q07",
+  "criterion": "Constructiveness",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 40: B15_Q08_Finalchoice -----
+You are Volunteer 5 in Group B.
+TASK TYPE: Interpret
+SAMPLE: B15
+CRITERION: Final choice
+
+INSTRUCTION:
+Rank from most to least suitable as a final version.
+
+ORIGINAL:
+George does not complete work on time and needs to be constantly supervised. He does show high potential due to the work he does eventually submit. George is very intelligent but some incentive should be made to get him to realize his potential. George could probably choose a different career path within the company to ignite his ambition. George might seem lazy sometimes but shows high potential of being a great contributor.
+
+CANDIDATES:
+[1] George shows high potential with intelligent work, but his untimeliness and need for supervision are major concerns. This hurts his standing. He should adopt a task management system and talk to his manager about roles that might better ignite his ambition and strengths.
+[2] George, this feedback indicates a perception that he struggles with timely completion and requires frequent oversight, despite the high quality of his eventual output. This suggests that while his intelligence and potential are recognized, his current work habits are hindering his standing and growth. To address this, George should proactively communicate his progress on tasks, set realistic deadlines for himself and adhere to them, and explore internal career paths that might better align with his ambitions and ignite his motivation.
+[3] George’s feedback indicates that while his work quality shows strong potential, his inconsistent timeliness and need for close supervision are hindering his performance. This suggests he may lack motivation or alignment with his current role, not ability. To grow, George should explore internal career paths that better match his interests and strengths, which could reignite his drive. He should proactively request a meeting with his manager to discuss role adjustments, set clear deadlines with accountability check-ins, seek mentorship, and identify specific goals to track progress—turning potential into consistent results.
+[4] Feedback means George misses deadlines requiring supervision, though submitted work shows high intelligence/potential. This indicates role misalignment may hinder contributions. George should: 1) Propose one alternative role interest by month-end, 2) Implement time-blocking for daily tasks, 3) Schedule bi-weekly progress reviews with manager.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer5|Interpret|B15|Q08",
+  "criterion": "Final choice",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 41: B16_Q01_Fluency -----
+You are Volunteer 5 in Group B.
+TASK TYPE: Interpret
+SAMPLE: B16
+CRITERION: Fluency
+
+INSTRUCTION:
+Rank from most to least smooth and error-free.
+
+ORIGINAL:
+Bailey Hunter's daily production oscillates from poor to excellent from day-to day. One day Bailey will competently produce a 50-page brief and the next day will struggle to complete five transmittal letters. Her interpersonal skills are unexceptional, neither good nor bad. On balance, I don't believe she is long for this job.
+
+CANDIDATES:
+[1] Bailey's performance is seen as highly inconsistent, making her unreliable despite moments of excellence. This puts her long-term position at risk. Bailey should track her daily work to find patterns and discuss with her manager how to build a more consistent, dependable output.
+[2] Bailey, your manager notes significant inconsistency in your daily output, ranging from excellent to poor, and views your interpersonal skills as average. This suggests your overall performance is not meeting expectations, potentially jeopardizing your standing. To address this, Bailey should: 1) Track daily output to identify patterns and causes of inconsistency. 2) Seek feedback on specific areas for improvement in both production and interpersonal skills. 3) Propose a plan to manager for consistent performance and skill development.
+[3] Feedback means Bailey’s output fluctuates severely between excellent and poor, with neutral interpersonal skills. This implies inconsistency risks job stability. Bailey should: 1) Track daily productivity triggers in a journal, 2) Break large tasks into hourly milestones, 3) Request clarity on performance expectations immediately.
+[4] Bailey’s performance is inconsistent, with significant daily fluctuations in productivity, making it difficult to rely on her for steady output. While her interpersonal skills are neutral, the unpredictability in her work quality raises concerns about her long-term fit in the role. To improve, Bailey should (1) track daily tasks to identify patterns in her productivity, (2) seek structured feedback after each assignment, (3) work with a mentor to develop time management strategies, and (4) proactively communicate challenges early to prevent missed expectations.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer5|Interpret|B16|Q01",
+  "criterion": "Fluency",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 42: B16_Q02_Coherence -----
+You are Volunteer 5 in Group B.
+TASK TYPE: Interpret
+SAMPLE: B16
+CRITERION: Coherence
+
+INSTRUCTION:
+Rank from most to least logical and easy to follow.
+
+ORIGINAL:
+Bailey Hunter's daily production oscillates from poor to excellent from day-to day. One day Bailey will competently produce a 50-page brief and the next day will struggle to complete five transmittal letters. Her interpersonal skills are unexceptional, neither good nor bad. On balance, I don't believe she is long for this job.
+
+CANDIDATES:
+[1] Bailey’s performance is inconsistent, with significant daily fluctuations in productivity, making it difficult to rely on her for steady output. While her interpersonal skills are neutral, the unpredictability in her work quality raises concerns about her long-term fit in the role. To improve, Bailey should (1) track daily tasks to identify patterns in her productivity, (2) seek structured feedback after each assignment, (3) work with a mentor to develop time management strategies, and (4) proactively communicate challenges early to prevent missed expectations.
+[2] Bailey, your manager notes significant inconsistency in your daily output, ranging from excellent to poor, and views your interpersonal skills as average. This suggests your overall performance is not meeting expectations, potentially jeopardizing your standing. To address this, Bailey should: 1) Track daily output to identify patterns and causes of inconsistency. 2) Seek feedback on specific areas for improvement in both production and interpersonal skills. 3) Propose a plan to manager for consistent performance and skill development.
+[3] Bailey's performance is seen as highly inconsistent, making her unreliable despite moments of excellence. This puts her long-term position at risk. Bailey should track her daily work to find patterns and discuss with her manager how to build a more consistent, dependable output.
+[4] Feedback means Bailey’s output fluctuates severely between excellent and poor, with neutral interpersonal skills. This implies inconsistency risks job stability. Bailey should: 1) Track daily productivity triggers in a journal, 2) Break large tasks into hourly milestones, 3) Request clarity on performance expectations immediately.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer5|Interpret|B16|Q02",
+  "criterion": "Coherence",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 43: B16_Q03_Conciseness -----
+You are Volunteer 5 in Group B.
+TASK TYPE: Interpret
+SAMPLE: B16
+CRITERION: Conciseness
+
+INSTRUCTION:
+Rank from most to least clear and compact.
+
+ORIGINAL:
+Bailey Hunter's daily production oscillates from poor to excellent from day-to day. One day Bailey will competently produce a 50-page brief and the next day will struggle to complete five transmittal letters. Her interpersonal skills are unexceptional, neither good nor bad. On balance, I don't believe she is long for this job.
+
+CANDIDATES:
+[1] Bailey’s performance is inconsistent, with significant daily fluctuations in productivity, making it difficult to rely on her for steady output. While her interpersonal skills are neutral, the unpredictability in her work quality raises concerns about her long-term fit in the role. To improve, Bailey should (1) track daily tasks to identify patterns in her productivity, (2) seek structured feedback after each assignment, (3) work with a mentor to develop time management strategies, and (4) proactively communicate challenges early to prevent missed expectations.
+[2] Bailey, your manager notes significant inconsistency in your daily output, ranging from excellent to poor, and views your interpersonal skills as average. This suggests your overall performance is not meeting expectations, potentially jeopardizing your standing. To address this, Bailey should: 1) Track daily output to identify patterns and causes of inconsistency. 2) Seek feedback on specific areas for improvement in both production and interpersonal skills. 3) Propose a plan to manager for consistent performance and skill development.
+[3] Bailey's performance is seen as highly inconsistent, making her unreliable despite moments of excellence. This puts her long-term position at risk. Bailey should track her daily work to find patterns and discuss with her manager how to build a more consistent, dependable output.
+[4] Feedback means Bailey’s output fluctuates severely between excellent and poor, with neutral interpersonal skills. This implies inconsistency risks job stability. Bailey should: 1) Track daily productivity triggers in a journal, 2) Break large tasks into hourly milestones, 3) Request clarity on performance expectations immediately.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer5|Interpret|B16|Q03",
+  "criterion": "Conciseness",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 44: B16_Q04_Accuracy -----
+You are Volunteer 5 in Group B.
+TASK TYPE: Interpret
+SAMPLE: B16
+CRITERION: Accuracy
+
+INSTRUCTION:
+Select all texts that are factually correct given the Original.
+
+ORIGINAL:
+Bailey Hunter's daily production oscillates from poor to excellent from day-to day. One day Bailey will competently produce a 50-page brief and the next day will struggle to complete five transmittal letters. Her interpersonal skills are unexceptional, neither good nor bad. On balance, I don't believe she is long for this job.
+
+CANDIDATES:
+[1] Bailey, your manager notes significant inconsistency in your daily output, ranging from excellent to poor, and views your interpersonal skills as average. This suggests your overall performance is not meeting expectations, potentially jeopardizing your standing. To address this, Bailey should: 1) Track daily output to identify patterns and causes of inconsistency. 2) Seek feedback on specific areas for improvement in both production and interpersonal skills. 3) Propose a plan to manager for consistent performance and skill development.
+[2] Bailey’s performance is inconsistent, with significant daily fluctuations in productivity, making it difficult to rely on her for steady output. While her interpersonal skills are neutral, the unpredictability in her work quality raises concerns about her long-term fit in the role. To improve, Bailey should (1) track daily tasks to identify patterns in her productivity, (2) seek structured feedback after each assignment, (3) work with a mentor to develop time management strategies, and (4) proactively communicate challenges early to prevent missed expectations.
+[3] Bailey's performance is seen as highly inconsistent, making her unreliable despite moments of excellence. This puts her long-term position at risk. Bailey should track her daily work to find patterns and discuss with her manager how to build a more consistent, dependable output.
+[4] Feedback means Bailey’s output fluctuates severely between excellent and poor, with neutral interpersonal skills. This implies inconsistency risks job stability. Bailey should: 1) Track daily productivity triggers in a journal, 2) Break large tasks into hourly milestones, 3) Request clarity on performance expectations immediately.
+
+Please select all outputs that are factually correct given the Original.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer5|Interpret|B16|Q04",
+  "criterion": "Accuracy",
+  "rating": [1, 3],
+  "justifications": {
+    "1": "why candidate 1 is correct/incorrect in one sentence",
+    "2": "why candidate 2 is correct/incorrect in one sentence",
+    "3": "why candidate 3 is correct/incorrect in one sentence",
+    "4": "why candidate 4 is correct/incorrect in one sentence"
+  }
+}
+
+
+----- PROMPT 45: B16_Q05_Sentimentmatch -----
+You are Volunteer 5 in Group B.
+TASK TYPE: Interpret
+SAMPLE: B16
+CRITERION: Sentiment match
+
+INSTRUCTION:
+Rank from most to least similar to the Original in style and sentiment.
+
+ORIGINAL:
+Bailey Hunter's daily production oscillates from poor to excellent from day-to day. One day Bailey will competently produce a 50-page brief and the next day will struggle to complete five transmittal letters. Her interpersonal skills are unexceptional, neither good nor bad. On balance, I don't believe she is long for this job.
+
+CANDIDATES:
+[1] Bailey's performance is seen as highly inconsistent, making her unreliable despite moments of excellence. This puts her long-term position at risk. Bailey should track her daily work to find patterns and discuss with her manager how to build a more consistent, dependable output.
+[2] Bailey, your manager notes significant inconsistency in your daily output, ranging from excellent to poor, and views your interpersonal skills as average. This suggests your overall performance is not meeting expectations, potentially jeopardizing your standing. To address this, Bailey should: 1) Track daily output to identify patterns and causes of inconsistency. 2) Seek feedback on specific areas for improvement in both production and interpersonal skills. 3) Propose a plan to manager for consistent performance and skill development.
+[3] Bailey’s performance is inconsistent, with significant daily fluctuations in productivity, making it difficult to rely on her for steady output. While her interpersonal skills are neutral, the unpredictability in her work quality raises concerns about her long-term fit in the role. To improve, Bailey should (1) track daily tasks to identify patterns in her productivity, (2) seek structured feedback after each assignment, (3) work with a mentor to develop time management strategies, and (4) proactively communicate challenges early to prevent missed expectations.
+[4] Feedback means Bailey’s output fluctuates severely between excellent and poor, with neutral interpersonal skills. This implies inconsistency risks job stability. Bailey should: 1) Track daily productivity triggers in a journal, 2) Break large tasks into hourly milestones, 3) Request clarity on performance expectations immediately.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer5|Interpret|B16|Q05",
+  "criterion": "Sentiment match",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 46: B16_Q06_Motivationaltone -----
+You are Volunteer 5 in Group B.
+TASK TYPE: Interpret
+SAMPLE: B16
+CRITERION: Motivational tone
+
+INSTRUCTION:
+Rank from most to least empathetic and encouraging.
+
+ORIGINAL:
+Bailey Hunter's daily production oscillates from poor to excellent from day-to day. One day Bailey will competently produce a 50-page brief and the next day will struggle to complete five transmittal letters. Her interpersonal skills are unexceptional, neither good nor bad. On balance, I don't believe she is long for this job.
+
+CANDIDATES:
+[1] Bailey, your manager notes significant inconsistency in your daily output, ranging from excellent to poor, and views your interpersonal skills as average. This suggests your overall performance is not meeting expectations, potentially jeopardizing your standing. To address this, Bailey should: 1) Track daily output to identify patterns and causes of inconsistency. 2) Seek feedback on specific areas for improvement in both production and interpersonal skills. 3) Propose a plan to manager for consistent performance and skill development.
+[2] Feedback means Bailey’s output fluctuates severely between excellent and poor, with neutral interpersonal skills. This implies inconsistency risks job stability. Bailey should: 1) Track daily productivity triggers in a journal, 2) Break large tasks into hourly milestones, 3) Request clarity on performance expectations immediately.
+[3] Bailey’s performance is inconsistent, with significant daily fluctuations in productivity, making it difficult to rely on her for steady output. While her interpersonal skills are neutral, the unpredictability in her work quality raises concerns about her long-term fit in the role. To improve, Bailey should (1) track daily tasks to identify patterns in her productivity, (2) seek structured feedback after each assignment, (3) work with a mentor to develop time management strategies, and (4) proactively communicate challenges early to prevent missed expectations.
+[4] Bailey's performance is seen as highly inconsistent, making her unreliable despite moments of excellence. This puts her long-term position at risk. Bailey should track her daily work to find patterns and discuss with her manager how to build a more consistent, dependable output.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer5|Interpret|B16|Q06",
+  "criterion": "Motivational tone",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 47: B16_Q07_Constructiveness -----
+You are Volunteer 5 in Group B.
+TASK TYPE: Interpret
+SAMPLE: B16
+CRITERION: Constructiveness
+
+INSTRUCTION:
+Rank from most to least helpful and constructive.
+
+ORIGINAL:
+Bailey Hunter's daily production oscillates from poor to excellent from day-to day. One day Bailey will competently produce a 50-page brief and the next day will struggle to complete five transmittal letters. Her interpersonal skills are unexceptional, neither good nor bad. On balance, I don't believe she is long for this job.
+
+CANDIDATES:
+[1] Bailey's performance is seen as highly inconsistent, making her unreliable despite moments of excellence. This puts her long-term position at risk. Bailey should track her daily work to find patterns and discuss with her manager how to build a more consistent, dependable output.
+[2] Feedback means Bailey’s output fluctuates severely between excellent and poor, with neutral interpersonal skills. This implies inconsistency risks job stability. Bailey should: 1) Track daily productivity triggers in a journal, 2) Break large tasks into hourly milestones, 3) Request clarity on performance expectations immediately.
+[3] Bailey’s performance is inconsistent, with significant daily fluctuations in productivity, making it difficult to rely on her for steady output. While her interpersonal skills are neutral, the unpredictability in her work quality raises concerns about her long-term fit in the role. To improve, Bailey should (1) track daily tasks to identify patterns in her productivity, (2) seek structured feedback after each assignment, (3) work with a mentor to develop time management strategies, and (4) proactively communicate challenges early to prevent missed expectations.
+[4] Bailey, your manager notes significant inconsistency in your daily output, ranging from excellent to poor, and views your interpersonal skills as average. This suggests your overall performance is not meeting expectations, potentially jeopardizing your standing. To address this, Bailey should: 1) Track daily output to identify patterns and causes of inconsistency. 2) Seek feedback on specific areas for improvement in both production and interpersonal skills. 3) Propose a plan to manager for consistent performance and skill development.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer5|Interpret|B16|Q07",
+  "criterion": "Constructiveness",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 48: B16_Q08_Finalchoice -----
+You are Volunteer 5 in Group B.
+TASK TYPE: Interpret
+SAMPLE: B16
+CRITERION: Final choice
+
+INSTRUCTION:
+Rank from most to least suitable as a final version.
+
+ORIGINAL:
+Bailey Hunter's daily production oscillates from poor to excellent from day-to day. One day Bailey will competently produce a 50-page brief and the next day will struggle to complete five transmittal letters. Her interpersonal skills are unexceptional, neither good nor bad. On balance, I don't believe she is long for this job.
+
+CANDIDATES:
+[1] Bailey’s performance is inconsistent, with significant daily fluctuations in productivity, making it difficult to rely on her for steady output. While her interpersonal skills are neutral, the unpredictability in her work quality raises concerns about her long-term fit in the role. To improve, Bailey should (1) track daily tasks to identify patterns in her productivity, (2) seek structured feedback after each assignment, (3) work with a mentor to develop time management strategies, and (4) proactively communicate challenges early to prevent missed expectations.
+[2] Bailey's performance is seen as highly inconsistent, making her unreliable despite moments of excellence. This puts her long-term position at risk. Bailey should track her daily work to find patterns and discuss with her manager how to build a more consistent, dependable output.
+[3] Bailey, your manager notes significant inconsistency in your daily output, ranging from excellent to poor, and views your interpersonal skills as average. This suggests your overall performance is not meeting expectations, potentially jeopardizing your standing. To address this, Bailey should: 1) Track daily output to identify patterns and causes of inconsistency. 2) Seek feedback on specific areas for improvement in both production and interpersonal skills. 3) Propose a plan to manager for consistent performance and skill development.
+[4] Feedback means Bailey’s output fluctuates severely between excellent and poor, with neutral interpersonal skills. This implies inconsistency risks job stability. Bailey should: 1) Track daily productivity triggers in a journal, 2) Break large tasks into hourly milestones, 3) Request clarity on performance expectations immediately.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer5|Interpret|B16|Q08",
+  "criterion": "Final choice",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+

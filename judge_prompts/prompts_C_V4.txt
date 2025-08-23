@@ -1,0 +1,1698 @@
+----- PROMPT 1: C5_Q01_Fluency -----
+You are Volunteer 4 in Group C.
+TASK TYPE: Idea-to-Text
+SAMPLE: C5
+CRITERION: Fluency
+
+INSTRUCTION:
+Rank from most to least smooth and error-free.
+
+ORIGINAL:
+Logan Russell’s consistency is improving; responds well to coaching—continued mentoring will accelerate progress.
+
+CANDIDATES:
+[1] Logan Russell is showing improved consistency and responds positively to feedback. His openness to coaching is a strength, and with continued mentoring, he will further accelerate his development and performance.
+[2] Logan, it's positive to see your consistency improving steadily. Your responsiveness to coaching is a key strength. Continuing with focused mentoring will be essential to accelerate this progress further and solidify your performance foundation. Keep up the good work applying feedback.
+[3] Logan, we are very pleased with the marked improvement in your consistency. You respond well to coaching, and continued mentoring is key to accelerating your progress. Let's maintain this positive momentum.
+[4] Logan has shown commendable improvement in consistency, particularly in project delivery and adherence to timelines. He responds exceptionally well to feedback, actively implementing suggestions to refine his approach. Continued mentorship will be key to accelerating his development and fully leveraging his potential within the team.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer4|Idea-to-Text|C5|Q01",
+  "criterion": "Fluency",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 2: C5_Q02_Coherence -----
+You are Volunteer 4 in Group C.
+TASK TYPE: Idea-to-Text
+SAMPLE: C5
+CRITERION: Coherence
+
+INSTRUCTION:
+Rank from most to least logical and easy to follow.
+
+ORIGINAL:
+Logan Russell’s consistency is improving; responds well to coaching—continued mentoring will accelerate progress.
+
+CANDIDATES:
+[1] Logan, it's positive to see your consistency improving steadily. Your responsiveness to coaching is a key strength. Continuing with focused mentoring will be essential to accelerate this progress further and solidify your performance foundation. Keep up the good work applying feedback.
+[2] Logan has shown commendable improvement in consistency, particularly in project delivery and adherence to timelines. He responds exceptionally well to feedback, actively implementing suggestions to refine his approach. Continued mentorship will be key to accelerating his development and fully leveraging his potential within the team.
+[3] Logan Russell is showing improved consistency and responds positively to feedback. His openness to coaching is a strength, and with continued mentoring, he will further accelerate his development and performance.
+[4] Logan, we are very pleased with the marked improvement in your consistency. You respond well to coaching, and continued mentoring is key to accelerating your progress. Let's maintain this positive momentum.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer4|Idea-to-Text|C5|Q02",
+  "criterion": "Coherence",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 3: C5_Q03_Conciseness -----
+You are Volunteer 4 in Group C.
+TASK TYPE: Idea-to-Text
+SAMPLE: C5
+CRITERION: Conciseness
+
+INSTRUCTION:
+Rank from most to least clear and compact.
+
+ORIGINAL:
+Logan Russell’s consistency is improving; responds well to coaching—continued mentoring will accelerate progress.
+
+CANDIDATES:
+[1] Logan, it's positive to see your consistency improving steadily. Your responsiveness to coaching is a key strength. Continuing with focused mentoring will be essential to accelerate this progress further and solidify your performance foundation. Keep up the good work applying feedback.
+[2] Logan, we are very pleased with the marked improvement in your consistency. You respond well to coaching, and continued mentoring is key to accelerating your progress. Let's maintain this positive momentum.
+[3] Logan Russell is showing improved consistency and responds positively to feedback. His openness to coaching is a strength, and with continued mentoring, he will further accelerate his development and performance.
+[4] Logan has shown commendable improvement in consistency, particularly in project delivery and adherence to timelines. He responds exceptionally well to feedback, actively implementing suggestions to refine his approach. Continued mentorship will be key to accelerating his development and fully leveraging his potential within the team.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer4|Idea-to-Text|C5|Q03",
+  "criterion": "Conciseness",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 4: C5_Q04_Accuracy -----
+You are Volunteer 4 in Group C.
+TASK TYPE: Idea-to-Text
+SAMPLE: C5
+CRITERION: Accuracy
+
+INSTRUCTION:
+Select all texts that are factually correct given the Original.
+
+ORIGINAL:
+Logan Russell’s consistency is improving; responds well to coaching—continued mentoring will accelerate progress.
+
+CANDIDATES:
+[1] Logan Russell is showing improved consistency and responds positively to feedback. His openness to coaching is a strength, and with continued mentoring, he will further accelerate his development and performance.
+[2] Logan has shown commendable improvement in consistency, particularly in project delivery and adherence to timelines. He responds exceptionally well to feedback, actively implementing suggestions to refine his approach. Continued mentorship will be key to accelerating his development and fully leveraging his potential within the team.
+[3] Logan, we are very pleased with the marked improvement in your consistency. You respond well to coaching, and continued mentoring is key to accelerating your progress. Let's maintain this positive momentum.
+[4] Logan, it's positive to see your consistency improving steadily. Your responsiveness to coaching is a key strength. Continuing with focused mentoring will be essential to accelerate this progress further and solidify your performance foundation. Keep up the good work applying feedback.
+
+Please select all outputs that are factually correct given the Original.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer4|Idea-to-Text|C5|Q04",
+  "criterion": "Accuracy",
+  "rating": [1, 3],
+  "justifications": {
+    "1": "why candidate 1 is correct/incorrect in one sentence",
+    "2": "why candidate 2 is correct/incorrect in one sentence",
+    "3": "why candidate 3 is correct/incorrect in one sentence",
+    "4": "why candidate 4 is correct/incorrect in one sentence"
+  }
+}
+
+
+----- PROMPT 5: C5_Q05_Sentimentmatch -----
+You are Volunteer 4 in Group C.
+TASK TYPE: Idea-to-Text
+SAMPLE: C5
+CRITERION: Sentiment match
+
+INSTRUCTION:
+Rank from most to least similar to the Original in style and sentiment.
+
+ORIGINAL:
+Logan Russell’s consistency is improving; responds well to coaching—continued mentoring will accelerate progress.
+
+CANDIDATES:
+[1] Logan has shown commendable improvement in consistency, particularly in project delivery and adherence to timelines. He responds exceptionally well to feedback, actively implementing suggestions to refine his approach. Continued mentorship will be key to accelerating his development and fully leveraging his potential within the team.
+[2] Logan, we are very pleased with the marked improvement in your consistency. You respond well to coaching, and continued mentoring is key to accelerating your progress. Let's maintain this positive momentum.
+[3] Logan, it's positive to see your consistency improving steadily. Your responsiveness to coaching is a key strength. Continuing with focused mentoring will be essential to accelerate this progress further and solidify your performance foundation. Keep up the good work applying feedback.
+[4] Logan Russell is showing improved consistency and responds positively to feedback. His openness to coaching is a strength, and with continued mentoring, he will further accelerate his development and performance.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer4|Idea-to-Text|C5|Q05",
+  "criterion": "Sentiment match",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 6: C5_Q06_Motivationaltone -----
+You are Volunteer 4 in Group C.
+TASK TYPE: Idea-to-Text
+SAMPLE: C5
+CRITERION: Motivational tone
+
+INSTRUCTION:
+Rank from most to least empathetic and encouraging.
+
+ORIGINAL:
+Logan Russell’s consistency is improving; responds well to coaching—continued mentoring will accelerate progress.
+
+CANDIDATES:
+[1] Logan has shown commendable improvement in consistency, particularly in project delivery and adherence to timelines. He responds exceptionally well to feedback, actively implementing suggestions to refine his approach. Continued mentorship will be key to accelerating his development and fully leveraging his potential within the team.
+[2] Logan Russell is showing improved consistency and responds positively to feedback. His openness to coaching is a strength, and with continued mentoring, he will further accelerate his development and performance.
+[3] Logan, we are very pleased with the marked improvement in your consistency. You respond well to coaching, and continued mentoring is key to accelerating your progress. Let's maintain this positive momentum.
+[4] Logan, it's positive to see your consistency improving steadily. Your responsiveness to coaching is a key strength. Continuing with focused mentoring will be essential to accelerate this progress further and solidify your performance foundation. Keep up the good work applying feedback.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer4|Idea-to-Text|C5|Q06",
+  "criterion": "Motivational tone",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 7: C5_Q07_Constructiveness -----
+You are Volunteer 4 in Group C.
+TASK TYPE: Idea-to-Text
+SAMPLE: C5
+CRITERION: Constructiveness
+
+INSTRUCTION:
+Rank from most to least helpful and constructive.
+
+ORIGINAL:
+Logan Russell’s consistency is improving; responds well to coaching—continued mentoring will accelerate progress.
+
+CANDIDATES:
+[1] Logan, it's positive to see your consistency improving steadily. Your responsiveness to coaching is a key strength. Continuing with focused mentoring will be essential to accelerate this progress further and solidify your performance foundation. Keep up the good work applying feedback.
+[2] Logan Russell is showing improved consistency and responds positively to feedback. His openness to coaching is a strength, and with continued mentoring, he will further accelerate his development and performance.
+[3] Logan has shown commendable improvement in consistency, particularly in project delivery and adherence to timelines. He responds exceptionally well to feedback, actively implementing suggestions to refine his approach. Continued mentorship will be key to accelerating his development and fully leveraging his potential within the team.
+[4] Logan, we are very pleased with the marked improvement in your consistency. You respond well to coaching, and continued mentoring is key to accelerating your progress. Let's maintain this positive momentum.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer4|Idea-to-Text|C5|Q07",
+  "criterion": "Constructiveness",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 8: C5_Q08_Finalchoice -----
+You are Volunteer 4 in Group C.
+TASK TYPE: Idea-to-Text
+SAMPLE: C5
+CRITERION: Final choice
+
+INSTRUCTION:
+Rank from most to least suitable as a final version.
+
+ORIGINAL:
+Logan Russell’s consistency is improving; responds well to coaching—continued mentoring will accelerate progress.
+
+CANDIDATES:
+[1] Logan Russell is showing improved consistency and responds positively to feedback. His openness to coaching is a strength, and with continued mentoring, he will further accelerate his development and performance.
+[2] Logan, we are very pleased with the marked improvement in your consistency. You respond well to coaching, and continued mentoring is key to accelerating your progress. Let's maintain this positive momentum.
+[3] Logan has shown commendable improvement in consistency, particularly in project delivery and adherence to timelines. He responds exceptionally well to feedback, actively implementing suggestions to refine his approach. Continued mentorship will be key to accelerating his development and fully leveraging his potential within the team.
+[4] Logan, it's positive to see your consistency improving steadily. Your responsiveness to coaching is a key strength. Continuing with focused mentoring will be essential to accelerate this progress further and solidify your performance foundation. Keep up the good work applying feedback.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer4|Idea-to-Text|C5|Q08",
+  "criterion": "Final choice",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 9: C6_Q01_Fluency -----
+You are Volunteer 4 in Group C.
+TASK TYPE: Idea-to-Text
+SAMPLE: C6
+CRITERION: Fluency
+
+INSTRUCTION:
+Rank from most to least smooth and error-free.
+
+ORIGINAL:
+Bryleigh Stafford is bright and adaptable, learns quickly, and has high future potential.
+
+CANDIDATES:
+[1] Bryleigh, you are a bright and highly adaptable team member. Your ability to learn complex material quickly is impressive and indicates strong future potential. We are confident in your capacity to take on increasing responsibility and make significant future contributions.
+[2] Bryleigh consistently demonstrates exceptional intellectual agility and a remarkable ability to adapt to new challenges. Her rapid learning curve allows her to quickly grasp complex concepts and apply them effectively. This combination of brightness and adaptability, coupled with her proactive approach, indicates significant future potential within the organization, making her a valuable asset for upcoming initiatives.
+[3] Bryleigh, your intelligence, adaptability, and ability to learn quickly are impressive. You have demonstrated all the hallmarks of a future leader and possess very high potential. We are excited to see you continue to develop.
+[4] Bryleigh Stafford is an intelligent and adaptable team member who consistently demonstrates a quick learning ability and strong problem-solving skills. She embraces new challenges with confidence and shows exceptional promise for future growth. Her proactive attitude and dedication position her as a valuable asset with high potential for advancement.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer4|Idea-to-Text|C6|Q01",
+  "criterion": "Fluency",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 10: C6_Q02_Coherence -----
+You are Volunteer 4 in Group C.
+TASK TYPE: Idea-to-Text
+SAMPLE: C6
+CRITERION: Coherence
+
+INSTRUCTION:
+Rank from most to least logical and easy to follow.
+
+ORIGINAL:
+Bryleigh Stafford is bright and adaptable, learns quickly, and has high future potential.
+
+CANDIDATES:
+[1] Bryleigh, you are a bright and highly adaptable team member. Your ability to learn complex material quickly is impressive and indicates strong future potential. We are confident in your capacity to take on increasing responsibility and make significant future contributions.
+[2] Bryleigh Stafford is an intelligent and adaptable team member who consistently demonstrates a quick learning ability and strong problem-solving skills. She embraces new challenges with confidence and shows exceptional promise for future growth. Her proactive attitude and dedication position her as a valuable asset with high potential for advancement.
+[3] Bryleigh consistently demonstrates exceptional intellectual agility and a remarkable ability to adapt to new challenges. Her rapid learning curve allows her to quickly grasp complex concepts and apply them effectively. This combination of brightness and adaptability, coupled with her proactive approach, indicates significant future potential within the organization, making her a valuable asset for upcoming initiatives.
+[4] Bryleigh, your intelligence, adaptability, and ability to learn quickly are impressive. You have demonstrated all the hallmarks of a future leader and possess very high potential. We are excited to see you continue to develop.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer4|Idea-to-Text|C6|Q02",
+  "criterion": "Coherence",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 11: C6_Q03_Conciseness -----
+You are Volunteer 4 in Group C.
+TASK TYPE: Idea-to-Text
+SAMPLE: C6
+CRITERION: Conciseness
+
+INSTRUCTION:
+Rank from most to least clear and compact.
+
+ORIGINAL:
+Bryleigh Stafford is bright and adaptable, learns quickly, and has high future potential.
+
+CANDIDATES:
+[1] Bryleigh Stafford is an intelligent and adaptable team member who consistently demonstrates a quick learning ability and strong problem-solving skills. She embraces new challenges with confidence and shows exceptional promise for future growth. Her proactive attitude and dedication position her as a valuable asset with high potential for advancement.
+[2] Bryleigh, your intelligence, adaptability, and ability to learn quickly are impressive. You have demonstrated all the hallmarks of a future leader and possess very high potential. We are excited to see you continue to develop.
+[3] Bryleigh, you are a bright and highly adaptable team member. Your ability to learn complex material quickly is impressive and indicates strong future potential. We are confident in your capacity to take on increasing responsibility and make significant future contributions.
+[4] Bryleigh consistently demonstrates exceptional intellectual agility and a remarkable ability to adapt to new challenges. Her rapid learning curve allows her to quickly grasp complex concepts and apply them effectively. This combination of brightness and adaptability, coupled with her proactive approach, indicates significant future potential within the organization, making her a valuable asset for upcoming initiatives.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer4|Idea-to-Text|C6|Q03",
+  "criterion": "Conciseness",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 12: C6_Q04_Accuracy -----
+You are Volunteer 4 in Group C.
+TASK TYPE: Idea-to-Text
+SAMPLE: C6
+CRITERION: Accuracy
+
+INSTRUCTION:
+Select all texts that are factually correct given the Original.
+
+ORIGINAL:
+Bryleigh Stafford is bright and adaptable, learns quickly, and has high future potential.
+
+CANDIDATES:
+[1] Bryleigh Stafford is an intelligent and adaptable team member who consistently demonstrates a quick learning ability and strong problem-solving skills. She embraces new challenges with confidence and shows exceptional promise for future growth. Her proactive attitude and dedication position her as a valuable asset with high potential for advancement.
+[2] Bryleigh, you are a bright and highly adaptable team member. Your ability to learn complex material quickly is impressive and indicates strong future potential. We are confident in your capacity to take on increasing responsibility and make significant future contributions.
+[3] Bryleigh consistently demonstrates exceptional intellectual agility and a remarkable ability to adapt to new challenges. Her rapid learning curve allows her to quickly grasp complex concepts and apply them effectively. This combination of brightness and adaptability, coupled with her proactive approach, indicates significant future potential within the organization, making her a valuable asset for upcoming initiatives.
+[4] Bryleigh, your intelligence, adaptability, and ability to learn quickly are impressive. You have demonstrated all the hallmarks of a future leader and possess very high potential. We are excited to see you continue to develop.
+
+Please select all outputs that are factually correct given the Original.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer4|Idea-to-Text|C6|Q04",
+  "criterion": "Accuracy",
+  "rating": [1, 3],
+  "justifications": {
+    "1": "why candidate 1 is correct/incorrect in one sentence",
+    "2": "why candidate 2 is correct/incorrect in one sentence",
+    "3": "why candidate 3 is correct/incorrect in one sentence",
+    "4": "why candidate 4 is correct/incorrect in one sentence"
+  }
+}
+
+
+----- PROMPT 13: C6_Q05_Sentimentmatch -----
+You are Volunteer 4 in Group C.
+TASK TYPE: Idea-to-Text
+SAMPLE: C6
+CRITERION: Sentiment match
+
+INSTRUCTION:
+Rank from most to least similar to the Original in style and sentiment.
+
+ORIGINAL:
+Bryleigh Stafford is bright and adaptable, learns quickly, and has high future potential.
+
+CANDIDATES:
+[1] Bryleigh Stafford is an intelligent and adaptable team member who consistently demonstrates a quick learning ability and strong problem-solving skills. She embraces new challenges with confidence and shows exceptional promise for future growth. Her proactive attitude and dedication position her as a valuable asset with high potential for advancement.
+[2] Bryleigh consistently demonstrates exceptional intellectual agility and a remarkable ability to adapt to new challenges. Her rapid learning curve allows her to quickly grasp complex concepts and apply them effectively. This combination of brightness and adaptability, coupled with her proactive approach, indicates significant future potential within the organization, making her a valuable asset for upcoming initiatives.
+[3] Bryleigh, your intelligence, adaptability, and ability to learn quickly are impressive. You have demonstrated all the hallmarks of a future leader and possess very high potential. We are excited to see you continue to develop.
+[4] Bryleigh, you are a bright and highly adaptable team member. Your ability to learn complex material quickly is impressive and indicates strong future potential. We are confident in your capacity to take on increasing responsibility and make significant future contributions.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer4|Idea-to-Text|C6|Q05",
+  "criterion": "Sentiment match",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 14: C6_Q06_Motivationaltone -----
+You are Volunteer 4 in Group C.
+TASK TYPE: Idea-to-Text
+SAMPLE: C6
+CRITERION: Motivational tone
+
+INSTRUCTION:
+Rank from most to least empathetic and encouraging.
+
+ORIGINAL:
+Bryleigh Stafford is bright and adaptable, learns quickly, and has high future potential.
+
+CANDIDATES:
+[1] Bryleigh, you are a bright and highly adaptable team member. Your ability to learn complex material quickly is impressive and indicates strong future potential. We are confident in your capacity to take on increasing responsibility and make significant future contributions.
+[2] Bryleigh Stafford is an intelligent and adaptable team member who consistently demonstrates a quick learning ability and strong problem-solving skills. She embraces new challenges with confidence and shows exceptional promise for future growth. Her proactive attitude and dedication position her as a valuable asset with high potential for advancement.
+[3] Bryleigh, your intelligence, adaptability, and ability to learn quickly are impressive. You have demonstrated all the hallmarks of a future leader and possess very high potential. We are excited to see you continue to develop.
+[4] Bryleigh consistently demonstrates exceptional intellectual agility and a remarkable ability to adapt to new challenges. Her rapid learning curve allows her to quickly grasp complex concepts and apply them effectively. This combination of brightness and adaptability, coupled with her proactive approach, indicates significant future potential within the organization, making her a valuable asset for upcoming initiatives.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer4|Idea-to-Text|C6|Q06",
+  "criterion": "Motivational tone",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 15: C6_Q07_Constructiveness -----
+You are Volunteer 4 in Group C.
+TASK TYPE: Idea-to-Text
+SAMPLE: C6
+CRITERION: Constructiveness
+
+INSTRUCTION:
+Rank from most to least helpful and constructive.
+
+ORIGINAL:
+Bryleigh Stafford is bright and adaptable, learns quickly, and has high future potential.
+
+CANDIDATES:
+[1] Bryleigh, you are a bright and highly adaptable team member. Your ability to learn complex material quickly is impressive and indicates strong future potential. We are confident in your capacity to take on increasing responsibility and make significant future contributions.
+[2] Bryleigh Stafford is an intelligent and adaptable team member who consistently demonstrates a quick learning ability and strong problem-solving skills. She embraces new challenges with confidence and shows exceptional promise for future growth. Her proactive attitude and dedication position her as a valuable asset with high potential for advancement.
+[3] Bryleigh consistently demonstrates exceptional intellectual agility and a remarkable ability to adapt to new challenges. Her rapid learning curve allows her to quickly grasp complex concepts and apply them effectively. This combination of brightness and adaptability, coupled with her proactive approach, indicates significant future potential within the organization, making her a valuable asset for upcoming initiatives.
+[4] Bryleigh, your intelligence, adaptability, and ability to learn quickly are impressive. You have demonstrated all the hallmarks of a future leader and possess very high potential. We are excited to see you continue to develop.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer4|Idea-to-Text|C6|Q07",
+  "criterion": "Constructiveness",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 16: C6_Q08_Finalchoice -----
+You are Volunteer 4 in Group C.
+TASK TYPE: Idea-to-Text
+SAMPLE: C6
+CRITERION: Final choice
+
+INSTRUCTION:
+Rank from most to least suitable as a final version.
+
+ORIGINAL:
+Bryleigh Stafford is bright and adaptable, learns quickly, and has high future potential.
+
+CANDIDATES:
+[1] Bryleigh, your intelligence, adaptability, and ability to learn quickly are impressive. You have demonstrated all the hallmarks of a future leader and possess very high potential. We are excited to see you continue to develop.
+[2] Bryleigh, you are a bright and highly adaptable team member. Your ability to learn complex material quickly is impressive and indicates strong future potential. We are confident in your capacity to take on increasing responsibility and make significant future contributions.
+[3] Bryleigh consistently demonstrates exceptional intellectual agility and a remarkable ability to adapt to new challenges. Her rapid learning curve allows her to quickly grasp complex concepts and apply them effectively. This combination of brightness and adaptability, coupled with her proactive approach, indicates significant future potential within the organization, making her a valuable asset for upcoming initiatives.
+[4] Bryleigh Stafford is an intelligent and adaptable team member who consistently demonstrates a quick learning ability and strong problem-solving skills. She embraces new challenges with confidence and shows exceptional promise for future growth. Her proactive attitude and dedication position her as a valuable asset with high potential for advancement.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer4|Idea-to-Text|C6|Q08",
+  "criterion": "Final choice",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT SC1: SanityCheck_IdeaToText_Accuracy -----
+TASK TYPE: Idea-to-Text
+SAMPLE: SC1
+CRITERION: Accuracy
+
+INSTRUCTION:
+Rank from most to least factually correct given the Original.
+
+ORIGINAL:
+The sun appears to rise each morning from the eastern horizon before setting in the west
+
+CANDIDATES:
+[1] The sun rises in the east.
+[2] The sun rises in the west.
+[3] The moon rises in the east.
+[4] The sun never rises.
+
+Please rank outputs strictly from most accurate (1) to least accurate (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "Idea-to-Text|SC1|Q04",
+  "criterion": "Accuracy",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 17: C8_Q01_Fluency -----
+You are Volunteer 4 in Group C.
+TASK TYPE: Summarise
+SAMPLE: C8
+CRITERION: Fluency
+
+INSTRUCTION:
+Rank from most to least smooth and error-free.
+
+ORIGINAL:
+Elliot Gray is a hard worker but delivers to a standard level. The group tasks he has undertaken with the team have always been to an adequate standard. What he lacks in momentum he makes up for in good work. He has shown that he is capable of holding his on, despite the circumstances.
+
+CANDIDATES:
+[1] Elliot is a hard worker who delivers adequate, standard-level work. While lacking momentum, he is a capable and reliable member of the team.
+[2] Elliot Gray is a reliable, hardworking employee who consistently delivers adequate results, particularly in group tasks. Though he lacks momentum at times, his steady performance and ability to hold his own under pressure demonstrate solid capability and dedication.
+[3] Elliot: Hard worker, delivers adequate/standard level. Lacks momentum but provides good work. Capable.
+[4] Elliot is a consistent, capable, and reliable worker. He may lack momentum but delivers good, adequate work, even in challenging circumstances.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer4|Summarise|C8|Q01",
+  "criterion": "Fluency",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 18: C8_Q02_Coherence -----
+You are Volunteer 4 in Group C.
+TASK TYPE: Summarise
+SAMPLE: C8
+CRITERION: Coherence
+
+INSTRUCTION:
+Rank from most to least logical and easy to follow.
+
+ORIGINAL:
+Elliot Gray is a hard worker but delivers to a standard level. The group tasks he has undertaken with the team have always been to an adequate standard. What he lacks in momentum he makes up for in good work. He has shown that he is capable of holding his on, despite the circumstances.
+
+CANDIDATES:
+[1] Elliot Gray is a reliable, hardworking employee who consistently delivers adequate results, particularly in group tasks. Though he lacks momentum at times, his steady performance and ability to hold his own under pressure demonstrate solid capability and dedication.
+[2] Elliot is a hard worker who delivers adequate, standard-level work. While lacking momentum, he is a capable and reliable member of the team.
+[3] Elliot: Hard worker, delivers adequate/standard level. Lacks momentum but provides good work. Capable.
+[4] Elliot is a consistent, capable, and reliable worker. He may lack momentum but delivers good, adequate work, even in challenging circumstances.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer4|Summarise|C8|Q02",
+  "criterion": "Coherence",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 19: C8_Q03_Conciseness -----
+You are Volunteer 4 in Group C.
+TASK TYPE: Summarise
+SAMPLE: C8
+CRITERION: Conciseness
+
+INSTRUCTION:
+Rank from most to least clear and compact.
+
+ORIGINAL:
+Elliot Gray is a hard worker but delivers to a standard level. The group tasks he has undertaken with the team have always been to an adequate standard. What he lacks in momentum he makes up for in good work. He has shown that he is capable of holding his on, despite the circumstances.
+
+CANDIDATES:
+[1] Elliot Gray is a reliable, hardworking employee who consistently delivers adequate results, particularly in group tasks. Though he lacks momentum at times, his steady performance and ability to hold his own under pressure demonstrate solid capability and dedication.
+[2] Elliot is a hard worker who delivers adequate, standard-level work. While lacking momentum, he is a capable and reliable member of the team.
+[3] Elliot is a consistent, capable, and reliable worker. He may lack momentum but delivers good, adequate work, even in challenging circumstances.
+[4] Elliot: Hard worker, delivers adequate/standard level. Lacks momentum but provides good work. Capable.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer4|Summarise|C8|Q03",
+  "criterion": "Conciseness",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 20: C8_Q04_Accuracy -----
+You are Volunteer 4 in Group C.
+TASK TYPE: Summarise
+SAMPLE: C8
+CRITERION: Accuracy
+
+INSTRUCTION:
+Select all texts that are factually correct given the Original.
+
+ORIGINAL:
+Elliot Gray is a hard worker but delivers to a standard level. The group tasks he has undertaken with the team have always been to an adequate standard. What he lacks in momentum he makes up for in good work. He has shown that he is capable of holding his on, despite the circumstances.
+
+CANDIDATES:
+[1] Elliot Gray is a reliable, hardworking employee who consistently delivers adequate results, particularly in group tasks. Though he lacks momentum at times, his steady performance and ability to hold his own under pressure demonstrate solid capability and dedication.
+[2] Elliot: Hard worker, delivers adequate/standard level. Lacks momentum but provides good work. Capable.
+[3] Elliot is a consistent, capable, and reliable worker. He may lack momentum but delivers good, adequate work, even in challenging circumstances.
+[4] Elliot is a hard worker who delivers adequate, standard-level work. While lacking momentum, he is a capable and reliable member of the team.
+
+Please select all outputs that are factually correct given the Original.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer4|Summarise|C8|Q04",
+  "criterion": "Accuracy",
+  "rating": [1, 3],
+  "justifications": {
+    "1": "why candidate 1 is correct/incorrect in one sentence",
+    "2": "why candidate 2 is correct/incorrect in one sentence",
+    "3": "why candidate 3 is correct/incorrect in one sentence",
+    "4": "why candidate 4 is correct/incorrect in one sentence"
+  }
+}
+
+
+----- PROMPT 21: C8_Q05_Sentimentmatch -----
+You are Volunteer 4 in Group C.
+TASK TYPE: Summarise
+SAMPLE: C8
+CRITERION: Sentiment match
+
+INSTRUCTION:
+Rank from most to least similar to the Original in style and sentiment.
+
+ORIGINAL:
+Elliot Gray is a hard worker but delivers to a standard level. The group tasks he has undertaken with the team have always been to an adequate standard. What he lacks in momentum he makes up for in good work. He has shown that he is capable of holding his on, despite the circumstances.
+
+CANDIDATES:
+[1] Elliot is a hard worker who delivers adequate, standard-level work. While lacking momentum, he is a capable and reliable member of the team.
+[2] Elliot is a consistent, capable, and reliable worker. He may lack momentum but delivers good, adequate work, even in challenging circumstances.
+[3] Elliot: Hard worker, delivers adequate/standard level. Lacks momentum but provides good work. Capable.
+[4] Elliot Gray is a reliable, hardworking employee who consistently delivers adequate results, particularly in group tasks. Though he lacks momentum at times, his steady performance and ability to hold his own under pressure demonstrate solid capability and dedication.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer4|Summarise|C8|Q05",
+  "criterion": "Sentiment match",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 22: C8_Q06_Motivationaltone -----
+You are Volunteer 4 in Group C.
+TASK TYPE: Summarise
+SAMPLE: C8
+CRITERION: Motivational tone
+
+INSTRUCTION:
+Rank from most to least empathetic and encouraging.
+
+ORIGINAL:
+Elliot Gray is a hard worker but delivers to a standard level. The group tasks he has undertaken with the team have always been to an adequate standard. What he lacks in momentum he makes up for in good work. He has shown that he is capable of holding his on, despite the circumstances.
+
+CANDIDATES:
+[1] Elliot: Hard worker, delivers adequate/standard level. Lacks momentum but provides good work. Capable.
+[2] Elliot is a hard worker who delivers adequate, standard-level work. While lacking momentum, he is a capable and reliable member of the team.
+[3] Elliot Gray is a reliable, hardworking employee who consistently delivers adequate results, particularly in group tasks. Though he lacks momentum at times, his steady performance and ability to hold his own under pressure demonstrate solid capability and dedication.
+[4] Elliot is a consistent, capable, and reliable worker. He may lack momentum but delivers good, adequate work, even in challenging circumstances.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer4|Summarise|C8|Q06",
+  "criterion": "Motivational tone",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 23: C8_Q07_Constructiveness -----
+You are Volunteer 4 in Group C.
+TASK TYPE: Summarise
+SAMPLE: C8
+CRITERION: Constructiveness
+
+INSTRUCTION:
+Rank from most to least helpful and constructive.
+
+ORIGINAL:
+Elliot Gray is a hard worker but delivers to a standard level. The group tasks he has undertaken with the team have always been to an adequate standard. What he lacks in momentum he makes up for in good work. He has shown that he is capable of holding his on, despite the circumstances.
+
+CANDIDATES:
+[1] Elliot Gray is a reliable, hardworking employee who consistently delivers adequate results, particularly in group tasks. Though he lacks momentum at times, his steady performance and ability to hold his own under pressure demonstrate solid capability and dedication.
+[2] Elliot: Hard worker, delivers adequate/standard level. Lacks momentum but provides good work. Capable.
+[3] Elliot is a consistent, capable, and reliable worker. He may lack momentum but delivers good, adequate work, even in challenging circumstances.
+[4] Elliot is a hard worker who delivers adequate, standard-level work. While lacking momentum, he is a capable and reliable member of the team.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer4|Summarise|C8|Q07",
+  "criterion": "Constructiveness",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 24: C8_Q08_Finalchoice -----
+You are Volunteer 4 in Group C.
+TASK TYPE: Summarise
+SAMPLE: C8
+CRITERION: Final choice
+
+INSTRUCTION:
+Rank from most to least suitable as a final version.
+
+ORIGINAL:
+Elliot Gray is a hard worker but delivers to a standard level. The group tasks he has undertaken with the team have always been to an adequate standard. What he lacks in momentum he makes up for in good work. He has shown that he is capable of holding his on, despite the circumstances.
+
+CANDIDATES:
+[1] Elliot is a consistent, capable, and reliable worker. He may lack momentum but delivers good, adequate work, even in challenging circumstances.
+[2] Elliot is a hard worker who delivers adequate, standard-level work. While lacking momentum, he is a capable and reliable member of the team.
+[3] Elliot Gray is a reliable, hardworking employee who consistently delivers adequate results, particularly in group tasks. Though he lacks momentum at times, his steady performance and ability to hold his own under pressure demonstrate solid capability and dedication.
+[4] Elliot: Hard worker, delivers adequate/standard level. Lacks momentum but provides good work. Capable.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer4|Summarise|C8|Q08",
+  "criterion": "Final choice",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 25: C11_Q01_Fluency -----
+You are Volunteer 4 in Group C.
+TASK TYPE: Summarise
+SAMPLE: C11
+CRITERION: Fluency
+
+INSTRUCTION:
+Rank from most to least smooth and error-free.
+
+ORIGINAL:
+Mr. Burgess has good communication skills and works well with the team. He shows great leadership potential and the ability to rally a group around a common cause.
+
+CANDIDATES:
+[1] Burgess communicates well, is a team player, and shows strong leadership potential, effectively uniting groups.
+[2] Mr. Burgess is a strong team player with excellent communication skills. He shows great leadership potential and an ability to motivate colleagues.
+[3] Burgess: Good communication, works well with team. Shows great leadership potential.
+[4] Mr. Burgess demonstrates strong communication, teamwork, and leadership potential, effectively uniting groups toward shared goals.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer4|Summarise|C11|Q01",
+  "criterion": "Fluency",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 26: C11_Q02_Coherence -----
+You are Volunteer 4 in Group C.
+TASK TYPE: Summarise
+SAMPLE: C11
+CRITERION: Coherence
+
+INSTRUCTION:
+Rank from most to least logical and easy to follow.
+
+ORIGINAL:
+Mr. Burgess has good communication skills and works well with the team. He shows great leadership potential and the ability to rally a group around a common cause.
+
+CANDIDATES:
+[1] Mr. Burgess demonstrates strong communication, teamwork, and leadership potential, effectively uniting groups toward shared goals.
+[2] Burgess: Good communication, works well with team. Shows great leadership potential.
+[3] Burgess communicates well, is a team player, and shows strong leadership potential, effectively uniting groups.
+[4] Mr. Burgess is a strong team player with excellent communication skills. He shows great leadership potential and an ability to motivate colleagues.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer4|Summarise|C11|Q02",
+  "criterion": "Coherence",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 27: C11_Q03_Conciseness -----
+You are Volunteer 4 in Group C.
+TASK TYPE: Summarise
+SAMPLE: C11
+CRITERION: Conciseness
+
+INSTRUCTION:
+Rank from most to least clear and compact.
+
+ORIGINAL:
+Mr. Burgess has good communication skills and works well with the team. He shows great leadership potential and the ability to rally a group around a common cause.
+
+CANDIDATES:
+[1] Mr. Burgess is a strong team player with excellent communication skills. He shows great leadership potential and an ability to motivate colleagues.
+[2] Burgess: Good communication, works well with team. Shows great leadership potential.
+[3] Mr. Burgess demonstrates strong communication, teamwork, and leadership potential, effectively uniting groups toward shared goals.
+[4] Burgess communicates well, is a team player, and shows strong leadership potential, effectively uniting groups.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer4|Summarise|C11|Q03",
+  "criterion": "Conciseness",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 28: C11_Q04_Accuracy -----
+You are Volunteer 4 in Group C.
+TASK TYPE: Summarise
+SAMPLE: C11
+CRITERION: Accuracy
+
+INSTRUCTION:
+Select all texts that are factually correct given the Original.
+
+ORIGINAL:
+Mr. Burgess has good communication skills and works well with the team. He shows great leadership potential and the ability to rally a group around a common cause.
+
+CANDIDATES:
+[1] Mr. Burgess is a strong team player with excellent communication skills. He shows great leadership potential and an ability to motivate colleagues.
+[2] Burgess: Good communication, works well with team. Shows great leadership potential.
+[3] Burgess communicates well, is a team player, and shows strong leadership potential, effectively uniting groups.
+[4] Mr. Burgess demonstrates strong communication, teamwork, and leadership potential, effectively uniting groups toward shared goals.
+
+Please select all outputs that are factually correct given the Original.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer4|Summarise|C11|Q04",
+  "criterion": "Accuracy",
+  "rating": [1, 3],
+  "justifications": {
+    "1": "why candidate 1 is correct/incorrect in one sentence",
+    "2": "why candidate 2 is correct/incorrect in one sentence",
+    "3": "why candidate 3 is correct/incorrect in one sentence",
+    "4": "why candidate 4 is correct/incorrect in one sentence"
+  }
+}
+
+
+----- PROMPT 29: C11_Q05_Sentimentmatch -----
+You are Volunteer 4 in Group C.
+TASK TYPE: Summarise
+SAMPLE: C11
+CRITERION: Sentiment match
+
+INSTRUCTION:
+Rank from most to least similar to the Original in style and sentiment.
+
+ORIGINAL:
+Mr. Burgess has good communication skills and works well with the team. He shows great leadership potential and the ability to rally a group around a common cause.
+
+CANDIDATES:
+[1] Burgess communicates well, is a team player, and shows strong leadership potential, effectively uniting groups.
+[2] Burgess: Good communication, works well with team. Shows great leadership potential.
+[3] Mr. Burgess demonstrates strong communication, teamwork, and leadership potential, effectively uniting groups toward shared goals.
+[4] Mr. Burgess is a strong team player with excellent communication skills. He shows great leadership potential and an ability to motivate colleagues.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer4|Summarise|C11|Q05",
+  "criterion": "Sentiment match",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 30: C11_Q06_Motivationaltone -----
+You are Volunteer 4 in Group C.
+TASK TYPE: Summarise
+SAMPLE: C11
+CRITERION: Motivational tone
+
+INSTRUCTION:
+Rank from most to least empathetic and encouraging.
+
+ORIGINAL:
+Mr. Burgess has good communication skills and works well with the team. He shows great leadership potential and the ability to rally a group around a common cause.
+
+CANDIDATES:
+[1] Burgess: Good communication, works well with team. Shows great leadership potential.
+[2] Mr. Burgess is a strong team player with excellent communication skills. He shows great leadership potential and an ability to motivate colleagues.
+[3] Burgess communicates well, is a team player, and shows strong leadership potential, effectively uniting groups.
+[4] Mr. Burgess demonstrates strong communication, teamwork, and leadership potential, effectively uniting groups toward shared goals.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer4|Summarise|C11|Q06",
+  "criterion": "Motivational tone",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 31: C11_Q07_Constructiveness -----
+You are Volunteer 4 in Group C.
+TASK TYPE: Summarise
+SAMPLE: C11
+CRITERION: Constructiveness
+
+INSTRUCTION:
+Rank from most to least helpful and constructive.
+
+ORIGINAL:
+Mr. Burgess has good communication skills and works well with the team. He shows great leadership potential and the ability to rally a group around a common cause.
+
+CANDIDATES:
+[1] Mr. Burgess demonstrates strong communication, teamwork, and leadership potential, effectively uniting groups toward shared goals.
+[2] Burgess: Good communication, works well with team. Shows great leadership potential.
+[3] Burgess communicates well, is a team player, and shows strong leadership potential, effectively uniting groups.
+[4] Mr. Burgess is a strong team player with excellent communication skills. He shows great leadership potential and an ability to motivate colleagues.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer4|Summarise|C11|Q07",
+  "criterion": "Constructiveness",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 32: C11_Q08_Finalchoice -----
+You are Volunteer 4 in Group C.
+TASK TYPE: Summarise
+SAMPLE: C11
+CRITERION: Final choice
+
+INSTRUCTION:
+Rank from most to least suitable as a final version.
+
+ORIGINAL:
+Mr. Burgess has good communication skills and works well with the team. He shows great leadership potential and the ability to rally a group around a common cause.
+
+CANDIDATES:
+[1] Mr. Burgess is a strong team player with excellent communication skills. He shows great leadership potential and an ability to motivate colleagues.
+[2] Burgess communicates well, is a team player, and shows strong leadership potential, effectively uniting groups.
+[3] Burgess: Good communication, works well with team. Shows great leadership potential.
+[4] Mr. Burgess demonstrates strong communication, teamwork, and leadership potential, effectively uniting groups toward shared goals.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer4|Summarise|C11|Q08",
+  "criterion": "Final choice",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT SC2: SanityCheck_Summarise_Accuracy -----
+TASK TYPE: Summarise
+SAMPLE: SC2
+CRITERION: Accuracy
+
+INSTRUCTION:
+Rank from most to least factually correct given the Original.
+
+ORIGINAL:
+Pure water begins to freeze at exactly zero degrees Celsius
+
+CANDIDATES:
+[1] Water freezes at at 0°C.
+[2] Water freezes at 100°C.
+[3] Water boils at 0°C.
+[4] Ice melts at 0°C.
+
+Please rank outputs strictly from most accurate (1) to least accurate (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "Summarise|SC2|Q04",
+  "criterion": "Accuracy",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 33: C16_Q01_Fluency -----
+You are Volunteer 4 in Group C.
+TASK TYPE: Interpret
+SAMPLE: C16
+CRITERION: Fluency
+
+INSTRUCTION:
+Rank from most to least smooth and error-free.
+
+ORIGINAL:
+My friend and colleague, Matthew Reid, is a great addition to any team. His work is quite impressive, never late, and some of the finest on our division. However, with such a great work ethic that he fails to apply fully to reaching a higher position in this company, I believe he has his eyes on other ventures. I would love to recruit and keep Matthew in our company, but I can't trust that we won't pour resources into his success only for him to leave for a bigger company.
+
+CANDIDATES:
+[1] Matthew is highly skilled, reliable, and produces top-tier work, making him a valuable team member. However, his ambition may extend beyond the current role, raising concerns about long-term retention. To support his growth and strengthen his commitment, leadership should engage Matthew in a development conversation, clarify advancement opportunities, involve him in strategic projects, and discuss alignment of his goals with the company’s future. This proactive approach can build mutual trust and encourage him to grow within the organization.
+[2] Feedback means Matthew produces exceptional, timely work but appears uncommitted to advancement, suggesting he may leave for other ventures. This implies trust issues may limit growth opportunities despite high performance. Matthew should: 1) Clarify career goals with manager next week, 2) Discuss desired internal advancement paths, 3) Propose one initiative showing long-term commitment.
+[3] Matthew's work is excellent, but management perceives a lack of ambition to grow within the company, creating mistrust about his loyalty. This stalls his growth. If he wishes to stay, Matthew should proactively discuss his long-term career goals with his manager to build confidence.
+[4] Matthew, this feedback highlights your exceptional work quality and reliability, making you a valuable team member. However, it also suggests a perception that you may not be fully committed to long-term growth within the company, leading to a reluctance to invest further in your development. To address this, Matthew should proactively communicate his career aspirations within the company, seek out opportunities for internal advancement, and demonstrate a clear commitment to his future at the organization.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer4|Interpret|C16|Q01",
+  "criterion": "Fluency",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 34: C16_Q02_Coherence -----
+You are Volunteer 4 in Group C.
+TASK TYPE: Interpret
+SAMPLE: C16
+CRITERION: Coherence
+
+INSTRUCTION:
+Rank from most to least logical and easy to follow.
+
+ORIGINAL:
+My friend and colleague, Matthew Reid, is a great addition to any team. His work is quite impressive, never late, and some of the finest on our division. However, with such a great work ethic that he fails to apply fully to reaching a higher position in this company, I believe he has his eyes on other ventures. I would love to recruit and keep Matthew in our company, but I can't trust that we won't pour resources into his success only for him to leave for a bigger company.
+
+CANDIDATES:
+[1] Feedback means Matthew produces exceptional, timely work but appears uncommitted to advancement, suggesting he may leave for other ventures. This implies trust issues may limit growth opportunities despite high performance. Matthew should: 1) Clarify career goals with manager next week, 2) Discuss desired internal advancement paths, 3) Propose one initiative showing long-term commitment.
+[2] Matthew is highly skilled, reliable, and produces top-tier work, making him a valuable team member. However, his ambition may extend beyond the current role, raising concerns about long-term retention. To support his growth and strengthen his commitment, leadership should engage Matthew in a development conversation, clarify advancement opportunities, involve him in strategic projects, and discuss alignment of his goals with the company’s future. This proactive approach can build mutual trust and encourage him to grow within the organization.
+[3] Matthew's work is excellent, but management perceives a lack of ambition to grow within the company, creating mistrust about his loyalty. This stalls his growth. If he wishes to stay, Matthew should proactively discuss his long-term career goals with his manager to build confidence.
+[4] Matthew, this feedback highlights your exceptional work quality and reliability, making you a valuable team member. However, it also suggests a perception that you may not be fully committed to long-term growth within the company, leading to a reluctance to invest further in your development. To address this, Matthew should proactively communicate his career aspirations within the company, seek out opportunities for internal advancement, and demonstrate a clear commitment to his future at the organization.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer4|Interpret|C16|Q02",
+  "criterion": "Coherence",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 35: C16_Q03_Conciseness -----
+You are Volunteer 4 in Group C.
+TASK TYPE: Interpret
+SAMPLE: C16
+CRITERION: Conciseness
+
+INSTRUCTION:
+Rank from most to least clear and compact.
+
+ORIGINAL:
+My friend and colleague, Matthew Reid, is a great addition to any team. His work is quite impressive, never late, and some of the finest on our division. However, with such a great work ethic that he fails to apply fully to reaching a higher position in this company, I believe he has his eyes on other ventures. I would love to recruit and keep Matthew in our company, but I can't trust that we won't pour resources into his success only for him to leave for a bigger company.
+
+CANDIDATES:
+[1] Feedback means Matthew produces exceptional, timely work but appears uncommitted to advancement, suggesting he may leave for other ventures. This implies trust issues may limit growth opportunities despite high performance. Matthew should: 1) Clarify career goals with manager next week, 2) Discuss desired internal advancement paths, 3) Propose one initiative showing long-term commitment.
+[2] Matthew, this feedback highlights your exceptional work quality and reliability, making you a valuable team member. However, it also suggests a perception that you may not be fully committed to long-term growth within the company, leading to a reluctance to invest further in your development. To address this, Matthew should proactively communicate his career aspirations within the company, seek out opportunities for internal advancement, and demonstrate a clear commitment to his future at the organization.
+[3] Matthew's work is excellent, but management perceives a lack of ambition to grow within the company, creating mistrust about his loyalty. This stalls his growth. If he wishes to stay, Matthew should proactively discuss his long-term career goals with his manager to build confidence.
+[4] Matthew is highly skilled, reliable, and produces top-tier work, making him a valuable team member. However, his ambition may extend beyond the current role, raising concerns about long-term retention. To support his growth and strengthen his commitment, leadership should engage Matthew in a development conversation, clarify advancement opportunities, involve him in strategic projects, and discuss alignment of his goals with the company’s future. This proactive approach can build mutual trust and encourage him to grow within the organization.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer4|Interpret|C16|Q03",
+  "criterion": "Conciseness",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 36: C16_Q04_Accuracy -----
+You are Volunteer 4 in Group C.
+TASK TYPE: Interpret
+SAMPLE: C16
+CRITERION: Accuracy
+
+INSTRUCTION:
+Select all texts that are factually correct given the Original.
+
+ORIGINAL:
+My friend and colleague, Matthew Reid, is a great addition to any team. His work is quite impressive, never late, and some of the finest on our division. However, with such a great work ethic that he fails to apply fully to reaching a higher position in this company, I believe he has his eyes on other ventures. I would love to recruit and keep Matthew in our company, but I can't trust that we won't pour resources into his success only for him to leave for a bigger company.
+
+CANDIDATES:
+[1] Feedback means Matthew produces exceptional, timely work but appears uncommitted to advancement, suggesting he may leave for other ventures. This implies trust issues may limit growth opportunities despite high performance. Matthew should: 1) Clarify career goals with manager next week, 2) Discuss desired internal advancement paths, 3) Propose one initiative showing long-term commitment.
+[2] Matthew is highly skilled, reliable, and produces top-tier work, making him a valuable team member. However, his ambition may extend beyond the current role, raising concerns about long-term retention. To support his growth and strengthen his commitment, leadership should engage Matthew in a development conversation, clarify advancement opportunities, involve him in strategic projects, and discuss alignment of his goals with the company’s future. This proactive approach can build mutual trust and encourage him to grow within the organization.
+[3] Matthew's work is excellent, but management perceives a lack of ambition to grow within the company, creating mistrust about his loyalty. This stalls his growth. If he wishes to stay, Matthew should proactively discuss his long-term career goals with his manager to build confidence.
+[4] Matthew, this feedback highlights your exceptional work quality and reliability, making you a valuable team member. However, it also suggests a perception that you may not be fully committed to long-term growth within the company, leading to a reluctance to invest further in your development. To address this, Matthew should proactively communicate his career aspirations within the company, seek out opportunities for internal advancement, and demonstrate a clear commitment to his future at the organization.
+
+Please select all outputs that are factually correct given the Original.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer4|Interpret|C16|Q04",
+  "criterion": "Accuracy",
+  "rating": [1, 3],
+  "justifications": {
+    "1": "why candidate 1 is correct/incorrect in one sentence",
+    "2": "why candidate 2 is correct/incorrect in one sentence",
+    "3": "why candidate 3 is correct/incorrect in one sentence",
+    "4": "why candidate 4 is correct/incorrect in one sentence"
+  }
+}
+
+
+----- PROMPT 37: C16_Q05_Sentimentmatch -----
+You are Volunteer 4 in Group C.
+TASK TYPE: Interpret
+SAMPLE: C16
+CRITERION: Sentiment match
+
+INSTRUCTION:
+Rank from most to least similar to the Original in style and sentiment.
+
+ORIGINAL:
+My friend and colleague, Matthew Reid, is a great addition to any team. His work is quite impressive, never late, and some of the finest on our division. However, with such a great work ethic that he fails to apply fully to reaching a higher position in this company, I believe he has his eyes on other ventures. I would love to recruit and keep Matthew in our company, but I can't trust that we won't pour resources into his success only for him to leave for a bigger company.
+
+CANDIDATES:
+[1] Matthew's work is excellent, but management perceives a lack of ambition to grow within the company, creating mistrust about his loyalty. This stalls his growth. If he wishes to stay, Matthew should proactively discuss his long-term career goals with his manager to build confidence.
+[2] Matthew, this feedback highlights your exceptional work quality and reliability, making you a valuable team member. However, it also suggests a perception that you may not be fully committed to long-term growth within the company, leading to a reluctance to invest further in your development. To address this, Matthew should proactively communicate his career aspirations within the company, seek out opportunities for internal advancement, and demonstrate a clear commitment to his future at the organization.
+[3] Feedback means Matthew produces exceptional, timely work but appears uncommitted to advancement, suggesting he may leave for other ventures. This implies trust issues may limit growth opportunities despite high performance. Matthew should: 1) Clarify career goals with manager next week, 2) Discuss desired internal advancement paths, 3) Propose one initiative showing long-term commitment.
+[4] Matthew is highly skilled, reliable, and produces top-tier work, making him a valuable team member. However, his ambition may extend beyond the current role, raising concerns about long-term retention. To support his growth and strengthen his commitment, leadership should engage Matthew in a development conversation, clarify advancement opportunities, involve him in strategic projects, and discuss alignment of his goals with the company’s future. This proactive approach can build mutual trust and encourage him to grow within the organization.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer4|Interpret|C16|Q05",
+  "criterion": "Sentiment match",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 38: C16_Q06_Motivationaltone -----
+You are Volunteer 4 in Group C.
+TASK TYPE: Interpret
+SAMPLE: C16
+CRITERION: Motivational tone
+
+INSTRUCTION:
+Rank from most to least empathetic and encouraging.
+
+ORIGINAL:
+My friend and colleague, Matthew Reid, is a great addition to any team. His work is quite impressive, never late, and some of the finest on our division. However, with such a great work ethic that he fails to apply fully to reaching a higher position in this company, I believe he has his eyes on other ventures. I would love to recruit and keep Matthew in our company, but I can't trust that we won't pour resources into his success only for him to leave for a bigger company.
+
+CANDIDATES:
+[1] Matthew, this feedback highlights your exceptional work quality and reliability, making you a valuable team member. However, it also suggests a perception that you may not be fully committed to long-term growth within the company, leading to a reluctance to invest further in your development. To address this, Matthew should proactively communicate his career aspirations within the company, seek out opportunities for internal advancement, and demonstrate a clear commitment to his future at the organization.
+[2] Feedback means Matthew produces exceptional, timely work but appears uncommitted to advancement, suggesting he may leave for other ventures. This implies trust issues may limit growth opportunities despite high performance. Matthew should: 1) Clarify career goals with manager next week, 2) Discuss desired internal advancement paths, 3) Propose one initiative showing long-term commitment.
+[3] Matthew is highly skilled, reliable, and produces top-tier work, making him a valuable team member. However, his ambition may extend beyond the current role, raising concerns about long-term retention. To support his growth and strengthen his commitment, leadership should engage Matthew in a development conversation, clarify advancement opportunities, involve him in strategic projects, and discuss alignment of his goals with the company’s future. This proactive approach can build mutual trust and encourage him to grow within the organization.
+[4] Matthew's work is excellent, but management perceives a lack of ambition to grow within the company, creating mistrust about his loyalty. This stalls his growth. If he wishes to stay, Matthew should proactively discuss his long-term career goals with his manager to build confidence.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer4|Interpret|C16|Q06",
+  "criterion": "Motivational tone",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 39: C16_Q07_Constructiveness -----
+You are Volunteer 4 in Group C.
+TASK TYPE: Interpret
+SAMPLE: C16
+CRITERION: Constructiveness
+
+INSTRUCTION:
+Rank from most to least helpful and constructive.
+
+ORIGINAL:
+My friend and colleague, Matthew Reid, is a great addition to any team. His work is quite impressive, never late, and some of the finest on our division. However, with such a great work ethic that he fails to apply fully to reaching a higher position in this company, I believe he has his eyes on other ventures. I would love to recruit and keep Matthew in our company, but I can't trust that we won't pour resources into his success only for him to leave for a bigger company.
+
+CANDIDATES:
+[1] Matthew's work is excellent, but management perceives a lack of ambition to grow within the company, creating mistrust about his loyalty. This stalls his growth. If he wishes to stay, Matthew should proactively discuss his long-term career goals with his manager to build confidence.
+[2] Feedback means Matthew produces exceptional, timely work but appears uncommitted to advancement, suggesting he may leave for other ventures. This implies trust issues may limit growth opportunities despite high performance. Matthew should: 1) Clarify career goals with manager next week, 2) Discuss desired internal advancement paths, 3) Propose one initiative showing long-term commitment.
+[3] Matthew, this feedback highlights your exceptional work quality and reliability, making you a valuable team member. However, it also suggests a perception that you may not be fully committed to long-term growth within the company, leading to a reluctance to invest further in your development. To address this, Matthew should proactively communicate his career aspirations within the company, seek out opportunities for internal advancement, and demonstrate a clear commitment to his future at the organization.
+[4] Matthew is highly skilled, reliable, and produces top-tier work, making him a valuable team member. However, his ambition may extend beyond the current role, raising concerns about long-term retention. To support his growth and strengthen his commitment, leadership should engage Matthew in a development conversation, clarify advancement opportunities, involve him in strategic projects, and discuss alignment of his goals with the company’s future. This proactive approach can build mutual trust and encourage him to grow within the organization.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer4|Interpret|C16|Q07",
+  "criterion": "Constructiveness",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 40: C16_Q08_Finalchoice -----
+You are Volunteer 4 in Group C.
+TASK TYPE: Interpret
+SAMPLE: C16
+CRITERION: Final choice
+
+INSTRUCTION:
+Rank from most to least suitable as a final version.
+
+ORIGINAL:
+My friend and colleague, Matthew Reid, is a great addition to any team. His work is quite impressive, never late, and some of the finest on our division. However, with such a great work ethic that he fails to apply fully to reaching a higher position in this company, I believe he has his eyes on other ventures. I would love to recruit and keep Matthew in our company, but I can't trust that we won't pour resources into his success only for him to leave for a bigger company.
+
+CANDIDATES:
+[1] Matthew's work is excellent, but management perceives a lack of ambition to grow within the company, creating mistrust about his loyalty. This stalls his growth. If he wishes to stay, Matthew should proactively discuss his long-term career goals with his manager to build confidence.
+[2] Matthew, this feedback highlights your exceptional work quality and reliability, making you a valuable team member. However, it also suggests a perception that you may not be fully committed to long-term growth within the company, leading to a reluctance to invest further in your development. To address this, Matthew should proactively communicate his career aspirations within the company, seek out opportunities for internal advancement, and demonstrate a clear commitment to his future at the organization.
+[3] Matthew is highly skilled, reliable, and produces top-tier work, making him a valuable team member. However, his ambition may extend beyond the current role, raising concerns about long-term retention. To support his growth and strengthen his commitment, leadership should engage Matthew in a development conversation, clarify advancement opportunities, involve him in strategic projects, and discuss alignment of his goals with the company’s future. This proactive approach can build mutual trust and encourage him to grow within the organization.
+[4] Feedback means Matthew produces exceptional, timely work but appears uncommitted to advancement, suggesting he may leave for other ventures. This implies trust issues may limit growth opportunities despite high performance. Matthew should: 1) Clarify career goals with manager next week, 2) Discuss desired internal advancement paths, 3) Propose one initiative showing long-term commitment.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer4|Interpret|C16|Q08",
+  "criterion": "Final choice",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 41: C17_Q01_Fluency -----
+You are Volunteer 4 in Group C.
+TASK TYPE: Interpret
+SAMPLE: C17
+CRITERION: Fluency
+
+INSTRUCTION:
+Rank from most to least smooth and error-free.
+
+ORIGINAL:
+Jay Reid's level of work has been very disappointing given the kind of skills he possess. With the right attitude and possibly with a few work adjustments, his work quality could improve.
+
+CANDIDATES:
+[1] Jay Reid is underperforming, with work quality that is disappointing given his skills. This implies the issue is attitude, not ability. To improve his standing, Jay should ask his manager for specific feedback on attitude and create a checklist to ensure his work reflects his full capabilities.
+[2] Jay, your manager believes your current work quality doesn't reflect your full potential and skills. This feedback suggests a gap between perceived ability and actual output, potentially impacting your standing and growth opportunities. To address this, Jay should: 1) Schedule a meeting with the manager to understand specific areas of "disappointing" work. 2) Propose concrete "work adjustments" that could improve quality. 3) Reflect on and discuss "attitude" concerns, seeking clarification and demonstrating openness to change.
+[3] Feedback means Jay's output underutilizes his skills, but adjustments could unlock improvement. This indicates current disappointment yet belief in recoverable potential. Jay should: 1) Request specific skill-to-task alignment ideas from manager, 2) Identify one attitude adjustment focus area, 3) Implement two productivity tweaks by month-end.
+[4] Jay Reid has strong skills, but his current performance is below expectations. This feedback suggests he has potential to improve with a more positive attitude and minor adjustments to his work approach. To move forward, Jay should seek specific feedback on his work, proactively communicate with his manager about challenges, align on clear quality standards, and demonstrate consistent effort and accountability in daily tasks.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer4|Interpret|C17|Q01",
+  "criterion": "Fluency",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 42: C17_Q02_Coherence -----
+You are Volunteer 4 in Group C.
+TASK TYPE: Interpret
+SAMPLE: C17
+CRITERION: Coherence
+
+INSTRUCTION:
+Rank from most to least logical and easy to follow.
+
+ORIGINAL:
+Jay Reid's level of work has been very disappointing given the kind of skills he possess. With the right attitude and possibly with a few work adjustments, his work quality could improve.
+
+CANDIDATES:
+[1] Jay Reid has strong skills, but his current performance is below expectations. This feedback suggests he has potential to improve with a more positive attitude and minor adjustments to his work approach. To move forward, Jay should seek specific feedback on his work, proactively communicate with his manager about challenges, align on clear quality standards, and demonstrate consistent effort and accountability in daily tasks.
+[2] Jay, your manager believes your current work quality doesn't reflect your full potential and skills. This feedback suggests a gap between perceived ability and actual output, potentially impacting your standing and growth opportunities. To address this, Jay should: 1) Schedule a meeting with the manager to understand specific areas of "disappointing" work. 2) Propose concrete "work adjustments" that could improve quality. 3) Reflect on and discuss "attitude" concerns, seeking clarification and demonstrating openness to change.
+[3] Jay Reid is underperforming, with work quality that is disappointing given his skills. This implies the issue is attitude, not ability. To improve his standing, Jay should ask his manager for specific feedback on attitude and create a checklist to ensure his work reflects his full capabilities.
+[4] Feedback means Jay's output underutilizes his skills, but adjustments could unlock improvement. This indicates current disappointment yet belief in recoverable potential. Jay should: 1) Request specific skill-to-task alignment ideas from manager, 2) Identify one attitude adjustment focus area, 3) Implement two productivity tweaks by month-end.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer4|Interpret|C17|Q02",
+  "criterion": "Coherence",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 43: C17_Q03_Conciseness -----
+You are Volunteer 4 in Group C.
+TASK TYPE: Interpret
+SAMPLE: C17
+CRITERION: Conciseness
+
+INSTRUCTION:
+Rank from most to least clear and compact.
+
+ORIGINAL:
+Jay Reid's level of work has been very disappointing given the kind of skills he possess. With the right attitude and possibly with a few work adjustments, his work quality could improve.
+
+CANDIDATES:
+[1] Jay Reid has strong skills, but his current performance is below expectations. This feedback suggests he has potential to improve with a more positive attitude and minor adjustments to his work approach. To move forward, Jay should seek specific feedback on his work, proactively communicate with his manager about challenges, align on clear quality standards, and demonstrate consistent effort and accountability in daily tasks.
+[2] Jay, your manager believes your current work quality doesn't reflect your full potential and skills. This feedback suggests a gap between perceived ability and actual output, potentially impacting your standing and growth opportunities. To address this, Jay should: 1) Schedule a meeting with the manager to understand specific areas of "disappointing" work. 2) Propose concrete "work adjustments" that could improve quality. 3) Reflect on and discuss "attitude" concerns, seeking clarification and demonstrating openness to change.
+[3] Jay Reid is underperforming, with work quality that is disappointing given his skills. This implies the issue is attitude, not ability. To improve his standing, Jay should ask his manager for specific feedback on attitude and create a checklist to ensure his work reflects his full capabilities.
+[4] Feedback means Jay's output underutilizes his skills, but adjustments could unlock improvement. This indicates current disappointment yet belief in recoverable potential. Jay should: 1) Request specific skill-to-task alignment ideas from manager, 2) Identify one attitude adjustment focus area, 3) Implement two productivity tweaks by month-end.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer4|Interpret|C17|Q03",
+  "criterion": "Conciseness",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 44: C17_Q04_Accuracy -----
+You are Volunteer 4 in Group C.
+TASK TYPE: Interpret
+SAMPLE: C17
+CRITERION: Accuracy
+
+INSTRUCTION:
+Select all texts that are factually correct given the Original.
+
+ORIGINAL:
+Jay Reid's level of work has been very disappointing given the kind of skills he possess. With the right attitude and possibly with a few work adjustments, his work quality could improve.
+
+CANDIDATES:
+[1] Jay, your manager believes your current work quality doesn't reflect your full potential and skills. This feedback suggests a gap between perceived ability and actual output, potentially impacting your standing and growth opportunities. To address this, Jay should: 1) Schedule a meeting with the manager to understand specific areas of "disappointing" work. 2) Propose concrete "work adjustments" that could improve quality. 3) Reflect on and discuss "attitude" concerns, seeking clarification and demonstrating openness to change.
+[2] Jay Reid has strong skills, but his current performance is below expectations. This feedback suggests he has potential to improve with a more positive attitude and minor adjustments to his work approach. To move forward, Jay should seek specific feedback on his work, proactively communicate with his manager about challenges, align on clear quality standards, and demonstrate consistent effort and accountability in daily tasks.
+[3] Jay Reid is underperforming, with work quality that is disappointing given his skills. This implies the issue is attitude, not ability. To improve his standing, Jay should ask his manager for specific feedback on attitude and create a checklist to ensure his work reflects his full capabilities.
+[4] Feedback means Jay's output underutilizes his skills, but adjustments could unlock improvement. This indicates current disappointment yet belief in recoverable potential. Jay should: 1) Request specific skill-to-task alignment ideas from manager, 2) Identify one attitude adjustment focus area, 3) Implement two productivity tweaks by month-end.
+
+Please select all outputs that are factually correct given the Original.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer4|Interpret|C17|Q04",
+  "criterion": "Accuracy",
+  "rating": [1, 3],
+  "justifications": {
+    "1": "why candidate 1 is correct/incorrect in one sentence",
+    "2": "why candidate 2 is correct/incorrect in one sentence",
+    "3": "why candidate 3 is correct/incorrect in one sentence",
+    "4": "why candidate 4 is correct/incorrect in one sentence"
+  }
+}
+
+
+----- PROMPT 45: C17_Q05_Sentimentmatch -----
+You are Volunteer 4 in Group C.
+TASK TYPE: Interpret
+SAMPLE: C17
+CRITERION: Sentiment match
+
+INSTRUCTION:
+Rank from most to least similar to the Original in style and sentiment.
+
+ORIGINAL:
+Jay Reid's level of work has been very disappointing given the kind of skills he possess. With the right attitude and possibly with a few work adjustments, his work quality could improve.
+
+CANDIDATES:
+[1] Jay Reid is underperforming, with work quality that is disappointing given his skills. This implies the issue is attitude, not ability. To improve his standing, Jay should ask his manager for specific feedback on attitude and create a checklist to ensure his work reflects his full capabilities.
+[2] Jay, your manager believes your current work quality doesn't reflect your full potential and skills. This feedback suggests a gap between perceived ability and actual output, potentially impacting your standing and growth opportunities. To address this, Jay should: 1) Schedule a meeting with the manager to understand specific areas of "disappointing" work. 2) Propose concrete "work adjustments" that could improve quality. 3) Reflect on and discuss "attitude" concerns, seeking clarification and demonstrating openness to change.
+[3] Jay Reid has strong skills, but his current performance is below expectations. This feedback suggests he has potential to improve with a more positive attitude and minor adjustments to his work approach. To move forward, Jay should seek specific feedback on his work, proactively communicate with his manager about challenges, align on clear quality standards, and demonstrate consistent effort and accountability in daily tasks.
+[4] Feedback means Jay's output underutilizes his skills, but adjustments could unlock improvement. This indicates current disappointment yet belief in recoverable potential. Jay should: 1) Request specific skill-to-task alignment ideas from manager, 2) Identify one attitude adjustment focus area, 3) Implement two productivity tweaks by month-end.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer4|Interpret|C17|Q05",
+  "criterion": "Sentiment match",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 46: C17_Q06_Motivationaltone -----
+You are Volunteer 4 in Group C.
+TASK TYPE: Interpret
+SAMPLE: C17
+CRITERION: Motivational tone
+
+INSTRUCTION:
+Rank from most to least empathetic and encouraging.
+
+ORIGINAL:
+Jay Reid's level of work has been very disappointing given the kind of skills he possess. With the right attitude and possibly with a few work adjustments, his work quality could improve.
+
+CANDIDATES:
+[1] Jay, your manager believes your current work quality doesn't reflect your full potential and skills. This feedback suggests a gap between perceived ability and actual output, potentially impacting your standing and growth opportunities. To address this, Jay should: 1) Schedule a meeting with the manager to understand specific areas of "disappointing" work. 2) Propose concrete "work adjustments" that could improve quality. 3) Reflect on and discuss "attitude" concerns, seeking clarification and demonstrating openness to change.
+[2] Feedback means Jay's output underutilizes his skills, but adjustments could unlock improvement. This indicates current disappointment yet belief in recoverable potential. Jay should: 1) Request specific skill-to-task alignment ideas from manager, 2) Identify one attitude adjustment focus area, 3) Implement two productivity tweaks by month-end.
+[3] Jay Reid has strong skills, but his current performance is below expectations. This feedback suggests he has potential to improve with a more positive attitude and minor adjustments to his work approach. To move forward, Jay should seek specific feedback on his work, proactively communicate with his manager about challenges, align on clear quality standards, and demonstrate consistent effort and accountability in daily tasks.
+[4] Jay Reid is underperforming, with work quality that is disappointing given his skills. This implies the issue is attitude, not ability. To improve his standing, Jay should ask his manager for specific feedback on attitude and create a checklist to ensure his work reflects his full capabilities.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer4|Interpret|C17|Q06",
+  "criterion": "Motivational tone",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 47: C17_Q07_Constructiveness -----
+You are Volunteer 4 in Group C.
+TASK TYPE: Interpret
+SAMPLE: C17
+CRITERION: Constructiveness
+
+INSTRUCTION:
+Rank from most to least helpful and constructive.
+
+ORIGINAL:
+Jay Reid's level of work has been very disappointing given the kind of skills he possess. With the right attitude and possibly with a few work adjustments, his work quality could improve.
+
+CANDIDATES:
+[1] Jay Reid is underperforming, with work quality that is disappointing given his skills. This implies the issue is attitude, not ability. To improve his standing, Jay should ask his manager for specific feedback on attitude and create a checklist to ensure his work reflects his full capabilities.
+[2] Feedback means Jay's output underutilizes his skills, but adjustments could unlock improvement. This indicates current disappointment yet belief in recoverable potential. Jay should: 1) Request specific skill-to-task alignment ideas from manager, 2) Identify one attitude adjustment focus area, 3) Implement two productivity tweaks by month-end.
+[3] Jay Reid has strong skills, but his current performance is below expectations. This feedback suggests he has potential to improve with a more positive attitude and minor adjustments to his work approach. To move forward, Jay should seek specific feedback on his work, proactively communicate with his manager about challenges, align on clear quality standards, and demonstrate consistent effort and accountability in daily tasks.
+[4] Jay, your manager believes your current work quality doesn't reflect your full potential and skills. This feedback suggests a gap between perceived ability and actual output, potentially impacting your standing and growth opportunities. To address this, Jay should: 1) Schedule a meeting with the manager to understand specific areas of "disappointing" work. 2) Propose concrete "work adjustments" that could improve quality. 3) Reflect on and discuss "attitude" concerns, seeking clarification and demonstrating openness to change.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer4|Interpret|C17|Q07",
+  "criterion": "Constructiveness",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 48: C17_Q08_Finalchoice -----
+You are Volunteer 4 in Group C.
+TASK TYPE: Interpret
+SAMPLE: C17
+CRITERION: Final choice
+
+INSTRUCTION:
+Rank from most to least suitable as a final version.
+
+ORIGINAL:
+Jay Reid's level of work has been very disappointing given the kind of skills he possess. With the right attitude and possibly with a few work adjustments, his work quality could improve.
+
+CANDIDATES:
+[1] Jay Reid has strong skills, but his current performance is below expectations. This feedback suggests he has potential to improve with a more positive attitude and minor adjustments to his work approach. To move forward, Jay should seek specific feedback on his work, proactively communicate with his manager about challenges, align on clear quality standards, and demonstrate consistent effort and accountability in daily tasks.
+[2] Jay Reid is underperforming, with work quality that is disappointing given his skills. This implies the issue is attitude, not ability. To improve his standing, Jay should ask his manager for specific feedback on attitude and create a checklist to ensure his work reflects his full capabilities.
+[3] Jay, your manager believes your current work quality doesn't reflect your full potential and skills. This feedback suggests a gap between perceived ability and actual output, potentially impacting your standing and growth opportunities. To address this, Jay should: 1) Schedule a meeting with the manager to understand specific areas of "disappointing" work. 2) Propose concrete "work adjustments" that could improve quality. 3) Reflect on and discuss "attitude" concerns, seeking clarification and demonstrating openness to change.
+[4] Feedback means Jay's output underutilizes his skills, but adjustments could unlock improvement. This indicates current disappointment yet belief in recoverable potential. Jay should: 1) Request specific skill-to-task alignment ideas from manager, 2) Identify one attitude adjustment focus area, 3) Implement two productivity tweaks by month-end.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer4|Interpret|C17|Q08",
+  "criterion": "Final choice",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+

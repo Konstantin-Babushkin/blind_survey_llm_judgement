@@ -1,0 +1,1698 @@
+----- PROMPT 1: B3_Q01_Fluency -----
+You are Volunteer 3 in Group B.
+TASK TYPE: Idea-to-Text
+SAMPLE: B3
+CRITERION: Fluency
+
+INSTRUCTION:
+Rank from most to least smooth and error-free.
+
+ORIGINAL:
+John Doe’s performance is regressing, risking clients; reassignment or exit should be considered.
+
+CANDIDATES:
+[1] John Doe's recent performance shows a concerning decline, with repeated errors impacting client outcomes and team reliability. Despite previous feedback, there has been minimal improvement. Given the risk to client relationships and project success, leadership should evaluate options for reassignment or separation.
+[2] John, recent performance trends show significant regression, raising concerns about client impact. This level is unsustainable. We need to discuss this urgently and carefully evaluate appropriate next steps, which may include performance improvement plans, reassignment possibilities, or potential exit, to ensure team and client stability.
+[3] John, we have serious concerns about your regressing performance, which is now creating risk with our clients. We must discuss an immediate improvement plan, which may include reassignment or a potential exit.
+[4] John Doe's recent performance shows a concerning decline, particularly impacting client relationships and project delivery. This regression poses a significant risk to our client satisfaction and business reputation. We need to address this urgently, exploring options such as reassignment to a role that better aligns with his current capabilities or, if improvement isn't seen, considering separation.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer3|Idea-to-Text|B3|Q01",
+  "criterion": "Fluency",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 2: B3_Q02_Coherence -----
+You are Volunteer 3 in Group B.
+TASK TYPE: Idea-to-Text
+SAMPLE: B3
+CRITERION: Coherence
+
+INSTRUCTION:
+Rank from most to least logical and easy to follow.
+
+ORIGINAL:
+John Doe’s performance is regressing, risking clients; reassignment or exit should be considered.
+
+CANDIDATES:
+[1] John, recent performance trends show significant regression, raising concerns about client impact. This level is unsustainable. We need to discuss this urgently and carefully evaluate appropriate next steps, which may include performance improvement plans, reassignment possibilities, or potential exit, to ensure team and client stability.
+[2] John Doe's recent performance shows a concerning decline, particularly impacting client relationships and project delivery. This regression poses a significant risk to our client satisfaction and business reputation. We need to address this urgently, exploring options such as reassignment to a role that better aligns with his current capabilities or, if improvement isn't seen, considering separation.
+[3] John Doe's recent performance shows a concerning decline, with repeated errors impacting client outcomes and team reliability. Despite previous feedback, there has been minimal improvement. Given the risk to client relationships and project success, leadership should evaluate options for reassignment or separation.
+[4] John, we have serious concerns about your regressing performance, which is now creating risk with our clients. We must discuss an immediate improvement plan, which may include reassignment or a potential exit.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer3|Idea-to-Text|B3|Q02",
+  "criterion": "Coherence",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 3: B3_Q03_Conciseness -----
+You are Volunteer 3 in Group B.
+TASK TYPE: Idea-to-Text
+SAMPLE: B3
+CRITERION: Conciseness
+
+INSTRUCTION:
+Rank from most to least clear and compact.
+
+ORIGINAL:
+John Doe’s performance is regressing, risking clients; reassignment or exit should be considered.
+
+CANDIDATES:
+[1] John, recent performance trends show significant regression, raising concerns about client impact. This level is unsustainable. We need to discuss this urgently and carefully evaluate appropriate next steps, which may include performance improvement plans, reassignment possibilities, or potential exit, to ensure team and client stability.
+[2] John, we have serious concerns about your regressing performance, which is now creating risk with our clients. We must discuss an immediate improvement plan, which may include reassignment or a potential exit.
+[3] John Doe's recent performance shows a concerning decline, with repeated errors impacting client outcomes and team reliability. Despite previous feedback, there has been minimal improvement. Given the risk to client relationships and project success, leadership should evaluate options for reassignment or separation.
+[4] John Doe's recent performance shows a concerning decline, particularly impacting client relationships and project delivery. This regression poses a significant risk to our client satisfaction and business reputation. We need to address this urgently, exploring options such as reassignment to a role that better aligns with his current capabilities or, if improvement isn't seen, considering separation.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer3|Idea-to-Text|B3|Q03",
+  "criterion": "Conciseness",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 4: B3_Q04_Accuracy -----
+You are Volunteer 3 in Group B.
+TASK TYPE: Idea-to-Text
+SAMPLE: B3
+CRITERION: Accuracy
+
+INSTRUCTION:
+Select all texts that are factually correct given the Original.
+
+ORIGINAL:
+John Doe’s performance is regressing, risking clients; reassignment or exit should be considered.
+
+CANDIDATES:
+[1] John Doe's recent performance shows a concerning decline, with repeated errors impacting client outcomes and team reliability. Despite previous feedback, there has been minimal improvement. Given the risk to client relationships and project success, leadership should evaluate options for reassignment or separation.
+[2] John Doe's recent performance shows a concerning decline, particularly impacting client relationships and project delivery. This regression poses a significant risk to our client satisfaction and business reputation. We need to address this urgently, exploring options such as reassignment to a role that better aligns with his current capabilities or, if improvement isn't seen, considering separation.
+[3] John, we have serious concerns about your regressing performance, which is now creating risk with our clients. We must discuss an immediate improvement plan, which may include reassignment or a potential exit.
+[4] John, recent performance trends show significant regression, raising concerns about client impact. This level is unsustainable. We need to discuss this urgently and carefully evaluate appropriate next steps, which may include performance improvement plans, reassignment possibilities, or potential exit, to ensure team and client stability.
+
+Please select all outputs that are factually correct given the Original.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer3|Idea-to-Text|B3|Q04",
+  "criterion": "Accuracy",
+  "rating": [1, 3],
+  "justifications": {
+    "1": "why candidate 1 is correct/incorrect in one sentence",
+    "2": "why candidate 2 is correct/incorrect in one sentence",
+    "3": "why candidate 3 is correct/incorrect in one sentence",
+    "4": "why candidate 4 is correct/incorrect in one sentence"
+  }
+}
+
+
+----- PROMPT 5: B3_Q05_Sentimentmatch -----
+You are Volunteer 3 in Group B.
+TASK TYPE: Idea-to-Text
+SAMPLE: B3
+CRITERION: Sentiment match
+
+INSTRUCTION:
+Rank from most to least similar to the Original in style and sentiment.
+
+ORIGINAL:
+John Doe’s performance is regressing, risking clients; reassignment or exit should be considered.
+
+CANDIDATES:
+[1] John Doe's recent performance shows a concerning decline, particularly impacting client relationships and project delivery. This regression poses a significant risk to our client satisfaction and business reputation. We need to address this urgently, exploring options such as reassignment to a role that better aligns with his current capabilities or, if improvement isn't seen, considering separation.
+[2] John, we have serious concerns about your regressing performance, which is now creating risk with our clients. We must discuss an immediate improvement plan, which may include reassignment or a potential exit.
+[3] John, recent performance trends show significant regression, raising concerns about client impact. This level is unsustainable. We need to discuss this urgently and carefully evaluate appropriate next steps, which may include performance improvement plans, reassignment possibilities, or potential exit, to ensure team and client stability.
+[4] John Doe's recent performance shows a concerning decline, with repeated errors impacting client outcomes and team reliability. Despite previous feedback, there has been minimal improvement. Given the risk to client relationships and project success, leadership should evaluate options for reassignment or separation.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer3|Idea-to-Text|B3|Q05",
+  "criterion": "Sentiment match",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 6: B3_Q06_Motivationaltone -----
+You are Volunteer 3 in Group B.
+TASK TYPE: Idea-to-Text
+SAMPLE: B3
+CRITERION: Motivational tone
+
+INSTRUCTION:
+Rank from most to least empathetic and encouraging.
+
+ORIGINAL:
+John Doe’s performance is regressing, risking clients; reassignment or exit should be considered.
+
+CANDIDATES:
+[1] John Doe's recent performance shows a concerning decline, particularly impacting client relationships and project delivery. This regression poses a significant risk to our client satisfaction and business reputation. We need to address this urgently, exploring options such as reassignment to a role that better aligns with his current capabilities or, if improvement isn't seen, considering separation.
+[2] John Doe's recent performance shows a concerning decline, with repeated errors impacting client outcomes and team reliability. Despite previous feedback, there has been minimal improvement. Given the risk to client relationships and project success, leadership should evaluate options for reassignment or separation.
+[3] John, we have serious concerns about your regressing performance, which is now creating risk with our clients. We must discuss an immediate improvement plan, which may include reassignment or a potential exit.
+[4] John, recent performance trends show significant regression, raising concerns about client impact. This level is unsustainable. We need to discuss this urgently and carefully evaluate appropriate next steps, which may include performance improvement plans, reassignment possibilities, or potential exit, to ensure team and client stability.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer3|Idea-to-Text|B3|Q06",
+  "criterion": "Motivational tone",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 7: B3_Q07_Constructiveness -----
+You are Volunteer 3 in Group B.
+TASK TYPE: Idea-to-Text
+SAMPLE: B3
+CRITERION: Constructiveness
+
+INSTRUCTION:
+Rank from most to least helpful and constructive.
+
+ORIGINAL:
+John Doe’s performance is regressing, risking clients; reassignment or exit should be considered.
+
+CANDIDATES:
+[1] John, recent performance trends show significant regression, raising concerns about client impact. This level is unsustainable. We need to discuss this urgently and carefully evaluate appropriate next steps, which may include performance improvement plans, reassignment possibilities, or potential exit, to ensure team and client stability.
+[2] John Doe's recent performance shows a concerning decline, with repeated errors impacting client outcomes and team reliability. Despite previous feedback, there has been minimal improvement. Given the risk to client relationships and project success, leadership should evaluate options for reassignment or separation.
+[3] John Doe's recent performance shows a concerning decline, particularly impacting client relationships and project delivery. This regression poses a significant risk to our client satisfaction and business reputation. We need to address this urgently, exploring options such as reassignment to a role that better aligns with his current capabilities or, if improvement isn't seen, considering separation.
+[4] John, we have serious concerns about your regressing performance, which is now creating risk with our clients. We must discuss an immediate improvement plan, which may include reassignment or a potential exit.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer3|Idea-to-Text|B3|Q07",
+  "criterion": "Constructiveness",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 8: B3_Q08_Finalchoice -----
+You are Volunteer 3 in Group B.
+TASK TYPE: Idea-to-Text
+SAMPLE: B3
+CRITERION: Final choice
+
+INSTRUCTION:
+Rank from most to least suitable as a final version.
+
+ORIGINAL:
+John Doe’s performance is regressing, risking clients; reassignment or exit should be considered.
+
+CANDIDATES:
+[1] John Doe's recent performance shows a concerning decline, with repeated errors impacting client outcomes and team reliability. Despite previous feedback, there has been minimal improvement. Given the risk to client relationships and project success, leadership should evaluate options for reassignment or separation.
+[2] John, we have serious concerns about your regressing performance, which is now creating risk with our clients. We must discuss an immediate improvement plan, which may include reassignment or a potential exit.
+[3] John Doe's recent performance shows a concerning decline, particularly impacting client relationships and project delivery. This regression poses a significant risk to our client satisfaction and business reputation. We need to address this urgently, exploring options such as reassignment to a role that better aligns with his current capabilities or, if improvement isn't seen, considering separation.
+[4] John, recent performance trends show significant regression, raising concerns about client impact. This level is unsustainable. We need to discuss this urgently and carefully evaluate appropriate next steps, which may include performance improvement plans, reassignment possibilities, or potential exit, to ensure team and client stability.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer3|Idea-to-Text|B3|Q08",
+  "criterion": "Final choice",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 9: B4_Q01_Fluency -----
+You are Volunteer 3 in Group B.
+TASK TYPE: Idea-to-Text
+SAMPLE: B4
+CRITERION: Fluency
+
+INSTRUCTION:
+Rank from most to least smooth and error-free.
+
+ORIGINAL:
+Natasha Richardson delivers on time, offers efficient solutions, cooperates well—could engage stakeholders more proactively.
+
+CANDIDATES:
+[1] Natasha, you are a strong contributor: delivering reliably on time, offering efficient solutions, and cooperating well within the team. To further enhance your impact, we encourage proactively initiating engagement with key stakeholders. Building these relationships will amplify your excellent work and strategic influence.
+[2] Natasha consistently delivers projects on time, demonstrating strong reliability and efficiency in her solutions. She's a highly collaborative team member. To further enhance her impact, Natasha could proactively engage stakeholders earlier in the project lifecycle, leveraging her excellent problem-solving skills to anticipate needs and align expectations more broadly.
+[3] Natasha, your timely delivery, efficient solutions, and strong cooperation are highly valued. To further enhance your impact, focus on proactively engaging stakeholders to anticipate needs and build stronger partnerships.
+[4] Natasha consistently delivers high-quality work on time and develops efficient solutions. She collaborates effectively across teams and maintains strong working relationships. To further enhance her impact, she could take a more proactive role in engaging stakeholders early and often, ensuring alignment and driving greater project success.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer3|Idea-to-Text|B4|Q01",
+  "criterion": "Fluency",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 10: B4_Q02_Coherence -----
+You are Volunteer 3 in Group B.
+TASK TYPE: Idea-to-Text
+SAMPLE: B4
+CRITERION: Coherence
+
+INSTRUCTION:
+Rank from most to least logical and easy to follow.
+
+ORIGINAL:
+Natasha Richardson delivers on time, offers efficient solutions, cooperates well—could engage stakeholders more proactively.
+
+CANDIDATES:
+[1] Natasha, you are a strong contributor: delivering reliably on time, offering efficient solutions, and cooperating well within the team. To further enhance your impact, we encourage proactively initiating engagement with key stakeholders. Building these relationships will amplify your excellent work and strategic influence.
+[2] Natasha consistently delivers high-quality work on time and develops efficient solutions. She collaborates effectively across teams and maintains strong working relationships. To further enhance her impact, she could take a more proactive role in engaging stakeholders early and often, ensuring alignment and driving greater project success.
+[3] Natasha consistently delivers projects on time, demonstrating strong reliability and efficiency in her solutions. She's a highly collaborative team member. To further enhance her impact, Natasha could proactively engage stakeholders earlier in the project lifecycle, leveraging her excellent problem-solving skills to anticipate needs and align expectations more broadly.
+[4] Natasha, your timely delivery, efficient solutions, and strong cooperation are highly valued. To further enhance your impact, focus on proactively engaging stakeholders to anticipate needs and build stronger partnerships.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer3|Idea-to-Text|B4|Q02",
+  "criterion": "Coherence",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 11: B4_Q03_Conciseness -----
+You are Volunteer 3 in Group B.
+TASK TYPE: Idea-to-Text
+SAMPLE: B4
+CRITERION: Conciseness
+
+INSTRUCTION:
+Rank from most to least clear and compact.
+
+ORIGINAL:
+Natasha Richardson delivers on time, offers efficient solutions, cooperates well—could engage stakeholders more proactively.
+
+CANDIDATES:
+[1] Natasha consistently delivers high-quality work on time and develops efficient solutions. She collaborates effectively across teams and maintains strong working relationships. To further enhance her impact, she could take a more proactive role in engaging stakeholders early and often, ensuring alignment and driving greater project success.
+[2] Natasha, your timely delivery, efficient solutions, and strong cooperation are highly valued. To further enhance your impact, focus on proactively engaging stakeholders to anticipate needs and build stronger partnerships.
+[3] Natasha, you are a strong contributor: delivering reliably on time, offering efficient solutions, and cooperating well within the team. To further enhance your impact, we encourage proactively initiating engagement with key stakeholders. Building these relationships will amplify your excellent work and strategic influence.
+[4] Natasha consistently delivers projects on time, demonstrating strong reliability and efficiency in her solutions. She's a highly collaborative team member. To further enhance her impact, Natasha could proactively engage stakeholders earlier in the project lifecycle, leveraging her excellent problem-solving skills to anticipate needs and align expectations more broadly.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer3|Idea-to-Text|B4|Q03",
+  "criterion": "Conciseness",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 12: B4_Q04_Accuracy -----
+You are Volunteer 3 in Group B.
+TASK TYPE: Idea-to-Text
+SAMPLE: B4
+CRITERION: Accuracy
+
+INSTRUCTION:
+Select all texts that are factually correct given the Original.
+
+ORIGINAL:
+Natasha Richardson delivers on time, offers efficient solutions, cooperates well—could engage stakeholders more proactively.
+
+CANDIDATES:
+[1] Natasha consistently delivers high-quality work on time and develops efficient solutions. She collaborates effectively across teams and maintains strong working relationships. To further enhance her impact, she could take a more proactive role in engaging stakeholders early and often, ensuring alignment and driving greater project success.
+[2] Natasha, you are a strong contributor: delivering reliably on time, offering efficient solutions, and cooperating well within the team. To further enhance your impact, we encourage proactively initiating engagement with key stakeholders. Building these relationships will amplify your excellent work and strategic influence.
+[3] Natasha consistently delivers projects on time, demonstrating strong reliability and efficiency in her solutions. She's a highly collaborative team member. To further enhance her impact, Natasha could proactively engage stakeholders earlier in the project lifecycle, leveraging her excellent problem-solving skills to anticipate needs and align expectations more broadly.
+[4] Natasha, your timely delivery, efficient solutions, and strong cooperation are highly valued. To further enhance your impact, focus on proactively engaging stakeholders to anticipate needs and build stronger partnerships.
+
+Please select all outputs that are factually correct given the Original.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer3|Idea-to-Text|B4|Q04",
+  "criterion": "Accuracy",
+  "rating": [1, 3],
+  "justifications": {
+    "1": "why candidate 1 is correct/incorrect in one sentence",
+    "2": "why candidate 2 is correct/incorrect in one sentence",
+    "3": "why candidate 3 is correct/incorrect in one sentence",
+    "4": "why candidate 4 is correct/incorrect in one sentence"
+  }
+}
+
+
+----- PROMPT 13: B4_Q05_Sentimentmatch -----
+You are Volunteer 3 in Group B.
+TASK TYPE: Idea-to-Text
+SAMPLE: B4
+CRITERION: Sentiment match
+
+INSTRUCTION:
+Rank from most to least similar to the Original in style and sentiment.
+
+ORIGINAL:
+Natasha Richardson delivers on time, offers efficient solutions, cooperates well—could engage stakeholders more proactively.
+
+CANDIDATES:
+[1] Natasha consistently delivers high-quality work on time and develops efficient solutions. She collaborates effectively across teams and maintains strong working relationships. To further enhance her impact, she could take a more proactive role in engaging stakeholders early and often, ensuring alignment and driving greater project success.
+[2] Natasha consistently delivers projects on time, demonstrating strong reliability and efficiency in her solutions. She's a highly collaborative team member. To further enhance her impact, Natasha could proactively engage stakeholders earlier in the project lifecycle, leveraging her excellent problem-solving skills to anticipate needs and align expectations more broadly.
+[3] Natasha, your timely delivery, efficient solutions, and strong cooperation are highly valued. To further enhance your impact, focus on proactively engaging stakeholders to anticipate needs and build stronger partnerships.
+[4] Natasha, you are a strong contributor: delivering reliably on time, offering efficient solutions, and cooperating well within the team. To further enhance your impact, we encourage proactively initiating engagement with key stakeholders. Building these relationships will amplify your excellent work and strategic influence.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer3|Idea-to-Text|B4|Q05",
+  "criterion": "Sentiment match",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 14: B4_Q06_Motivationaltone -----
+You are Volunteer 3 in Group B.
+TASK TYPE: Idea-to-Text
+SAMPLE: B4
+CRITERION: Motivational tone
+
+INSTRUCTION:
+Rank from most to least empathetic and encouraging.
+
+ORIGINAL:
+Natasha Richardson delivers on time, offers efficient solutions, cooperates well—could engage stakeholders more proactively.
+
+CANDIDATES:
+[1] Natasha, you are a strong contributor: delivering reliably on time, offering efficient solutions, and cooperating well within the team. To further enhance your impact, we encourage proactively initiating engagement with key stakeholders. Building these relationships will amplify your excellent work and strategic influence.
+[2] Natasha consistently delivers high-quality work on time and develops efficient solutions. She collaborates effectively across teams and maintains strong working relationships. To further enhance her impact, she could take a more proactive role in engaging stakeholders early and often, ensuring alignment and driving greater project success.
+[3] Natasha, your timely delivery, efficient solutions, and strong cooperation are highly valued. To further enhance your impact, focus on proactively engaging stakeholders to anticipate needs and build stronger partnerships.
+[4] Natasha consistently delivers projects on time, demonstrating strong reliability and efficiency in her solutions. She's a highly collaborative team member. To further enhance her impact, Natasha could proactively engage stakeholders earlier in the project lifecycle, leveraging her excellent problem-solving skills to anticipate needs and align expectations more broadly.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer3|Idea-to-Text|B4|Q06",
+  "criterion": "Motivational tone",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 15: B4_Q07_Constructiveness -----
+You are Volunteer 3 in Group B.
+TASK TYPE: Idea-to-Text
+SAMPLE: B4
+CRITERION: Constructiveness
+
+INSTRUCTION:
+Rank from most to least helpful and constructive.
+
+ORIGINAL:
+Natasha Richardson delivers on time, offers efficient solutions, cooperates well—could engage stakeholders more proactively.
+
+CANDIDATES:
+[1] Natasha, you are a strong contributor: delivering reliably on time, offering efficient solutions, and cooperating well within the team. To further enhance your impact, we encourage proactively initiating engagement with key stakeholders. Building these relationships will amplify your excellent work and strategic influence.
+[2] Natasha consistently delivers high-quality work on time and develops efficient solutions. She collaborates effectively across teams and maintains strong working relationships. To further enhance her impact, she could take a more proactive role in engaging stakeholders early and often, ensuring alignment and driving greater project success.
+[3] Natasha consistently delivers projects on time, demonstrating strong reliability and efficiency in her solutions. She's a highly collaborative team member. To further enhance her impact, Natasha could proactively engage stakeholders earlier in the project lifecycle, leveraging her excellent problem-solving skills to anticipate needs and align expectations more broadly.
+[4] Natasha, your timely delivery, efficient solutions, and strong cooperation are highly valued. To further enhance your impact, focus on proactively engaging stakeholders to anticipate needs and build stronger partnerships.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer3|Idea-to-Text|B4|Q07",
+  "criterion": "Constructiveness",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 16: B4_Q08_Finalchoice -----
+You are Volunteer 3 in Group B.
+TASK TYPE: Idea-to-Text
+SAMPLE: B4
+CRITERION: Final choice
+
+INSTRUCTION:
+Rank from most to least suitable as a final version.
+
+ORIGINAL:
+Natasha Richardson delivers on time, offers efficient solutions, cooperates well—could engage stakeholders more proactively.
+
+CANDIDATES:
+[1] Natasha, your timely delivery, efficient solutions, and strong cooperation are highly valued. To further enhance your impact, focus on proactively engaging stakeholders to anticipate needs and build stronger partnerships.
+[2] Natasha, you are a strong contributor: delivering reliably on time, offering efficient solutions, and cooperating well within the team. To further enhance your impact, we encourage proactively initiating engagement with key stakeholders. Building these relationships will amplify your excellent work and strategic influence.
+[3] Natasha consistently delivers projects on time, demonstrating strong reliability and efficiency in her solutions. She's a highly collaborative team member. To further enhance her impact, Natasha could proactively engage stakeholders earlier in the project lifecycle, leveraging her excellent problem-solving skills to anticipate needs and align expectations more broadly.
+[4] Natasha consistently delivers high-quality work on time and develops efficient solutions. She collaborates effectively across teams and maintains strong working relationships. To further enhance her impact, she could take a more proactive role in engaging stakeholders early and often, ensuring alignment and driving greater project success.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer3|Idea-to-Text|B4|Q08",
+  "criterion": "Final choice",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT SC1: SanityCheck_IdeaToText_Accuracy -----
+TASK TYPE: Idea-to-Text
+SAMPLE: SC1
+CRITERION: Accuracy
+
+INSTRUCTION:
+Rank from most to least factually correct given the Original.
+
+ORIGINAL:
+The sun appears to rise each morning from the eastern horizon before setting in the west
+
+CANDIDATES:
+[1] The sun rises in the east.
+[2] The sun rises in the west.
+[3] The moon rises in the east.
+[4] The sun never rises.
+
+Please rank outputs strictly from most accurate (1) to least accurate (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "Idea-to-Text|SC1|Q04",
+  "criterion": "Accuracy",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 17: B10_Q01_Fluency -----
+You are Volunteer 3 in Group B.
+TASK TYPE: Summarise
+SAMPLE: B10
+CRITERION: Fluency
+
+INSTRUCTION:
+Rank from most to least smooth and error-free.
+
+ORIGINAL:
+Allan Logan touches anything and it turns to gold. Nothing but the most capable hand in the team. He has shown he can achieve what many would dream of. Overall his capability has been an asset and a beacon of expertise.
+
+CANDIDATES:
+[1] Allan is a top performer whose expertise turns every project into a success. He is an exceptionally capable and valuable asset to the team.
+[2] Allan Logan is exceptionally capable, consistently delivering outstanding results. His expertise and performance are invaluable assets to the team, setting a high standard for others.
+[3] Allan: Exceptional. Touches turn to gold, most capable, achieves dreams, beacon of expertise.
+[4] Allan is an exceptionally capable and valuable asset, consistently achieving outstanding results and serving as a beacon of expertise.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer3|Summarise|B10|Q01",
+  "criterion": "Fluency",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 18: B10_Q02_Coherence -----
+You are Volunteer 3 in Group B.
+TASK TYPE: Summarise
+SAMPLE: B10
+CRITERION: Coherence
+
+INSTRUCTION:
+Rank from most to least logical and easy to follow.
+
+ORIGINAL:
+Allan Logan touches anything and it turns to gold. Nothing but the most capable hand in the team. He has shown he can achieve what many would dream of. Overall his capability has been an asset and a beacon of expertise.
+
+CANDIDATES:
+[1] Allan Logan is exceptionally capable, consistently delivering outstanding results. His expertise and performance are invaluable assets to the team, setting a high standard for others.
+[2] Allan is a top performer whose expertise turns every project into a success. He is an exceptionally capable and valuable asset to the team.
+[3] Allan: Exceptional. Touches turn to gold, most capable, achieves dreams, beacon of expertise.
+[4] Allan is an exceptionally capable and valuable asset, consistently achieving outstanding results and serving as a beacon of expertise.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer3|Summarise|B10|Q02",
+  "criterion": "Coherence",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 19: B10_Q03_Conciseness -----
+You are Volunteer 3 in Group B.
+TASK TYPE: Summarise
+SAMPLE: B10
+CRITERION: Conciseness
+
+INSTRUCTION:
+Rank from most to least clear and compact.
+
+ORIGINAL:
+Allan Logan touches anything and it turns to gold. Nothing but the most capable hand in the team. He has shown he can achieve what many would dream of. Overall his capability has been an asset and a beacon of expertise.
+
+CANDIDATES:
+[1] Allan Logan is exceptionally capable, consistently delivering outstanding results. His expertise and performance are invaluable assets to the team, setting a high standard for others.
+[2] Allan is a top performer whose expertise turns every project into a success. He is an exceptionally capable and valuable asset to the team.
+[3] Allan is an exceptionally capable and valuable asset, consistently achieving outstanding results and serving as a beacon of expertise.
+[4] Allan: Exceptional. Touches turn to gold, most capable, achieves dreams, beacon of expertise.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer3|Summarise|B10|Q03",
+  "criterion": "Conciseness",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 20: B10_Q04_Accuracy -----
+You are Volunteer 3 in Group B.
+TASK TYPE: Summarise
+SAMPLE: B10
+CRITERION: Accuracy
+
+INSTRUCTION:
+Select all texts that are factually correct given the Original.
+
+ORIGINAL:
+Allan Logan touches anything and it turns to gold. Nothing but the most capable hand in the team. He has shown he can achieve what many would dream of. Overall his capability has been an asset and a beacon of expertise.
+
+CANDIDATES:
+[1] Allan Logan is exceptionally capable, consistently delivering outstanding results. His expertise and performance are invaluable assets to the team, setting a high standard for others.
+[2] Allan: Exceptional. Touches turn to gold, most capable, achieves dreams, beacon of expertise.
+[3] Allan is an exceptionally capable and valuable asset, consistently achieving outstanding results and serving as a beacon of expertise.
+[4] Allan is a top performer whose expertise turns every project into a success. He is an exceptionally capable and valuable asset to the team.
+
+Please select all outputs that are factually correct given the Original.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer3|Summarise|B10|Q04",
+  "criterion": "Accuracy",
+  "rating": [1, 3],
+  "justifications": {
+    "1": "why candidate 1 is correct/incorrect in one sentence",
+    "2": "why candidate 2 is correct/incorrect in one sentence",
+    "3": "why candidate 3 is correct/incorrect in one sentence",
+    "4": "why candidate 4 is correct/incorrect in one sentence"
+  }
+}
+
+
+----- PROMPT 21: B10_Q05_Sentimentmatch -----
+You are Volunteer 3 in Group B.
+TASK TYPE: Summarise
+SAMPLE: B10
+CRITERION: Sentiment match
+
+INSTRUCTION:
+Rank from most to least similar to the Original in style and sentiment.
+
+ORIGINAL:
+Allan Logan touches anything and it turns to gold. Nothing but the most capable hand in the team. He has shown he can achieve what many would dream of. Overall his capability has been an asset and a beacon of expertise.
+
+CANDIDATES:
+[1] Allan is a top performer whose expertise turns every project into a success. He is an exceptionally capable and valuable asset to the team.
+[2] Allan is an exceptionally capable and valuable asset, consistently achieving outstanding results and serving as a beacon of expertise.
+[3] Allan: Exceptional. Touches turn to gold, most capable, achieves dreams, beacon of expertise.
+[4] Allan Logan is exceptionally capable, consistently delivering outstanding results. His expertise and performance are invaluable assets to the team, setting a high standard for others.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer3|Summarise|B10|Q05",
+  "criterion": "Sentiment match",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 22: B10_Q06_Motivationaltone -----
+You are Volunteer 3 in Group B.
+TASK TYPE: Summarise
+SAMPLE: B10
+CRITERION: Motivational tone
+
+INSTRUCTION:
+Rank from most to least empathetic and encouraging.
+
+ORIGINAL:
+Allan Logan touches anything and it turns to gold. Nothing but the most capable hand in the team. He has shown he can achieve what many would dream of. Overall his capability has been an asset and a beacon of expertise.
+
+CANDIDATES:
+[1] Allan: Exceptional. Touches turn to gold, most capable, achieves dreams, beacon of expertise.
+[2] Allan is a top performer whose expertise turns every project into a success. He is an exceptionally capable and valuable asset to the team.
+[3] Allan Logan is exceptionally capable, consistently delivering outstanding results. His expertise and performance are invaluable assets to the team, setting a high standard for others.
+[4] Allan is an exceptionally capable and valuable asset, consistently achieving outstanding results and serving as a beacon of expertise.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer3|Summarise|B10|Q06",
+  "criterion": "Motivational tone",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 23: B10_Q07_Constructiveness -----
+You are Volunteer 3 in Group B.
+TASK TYPE: Summarise
+SAMPLE: B10
+CRITERION: Constructiveness
+
+INSTRUCTION:
+Rank from most to least helpful and constructive.
+
+ORIGINAL:
+Allan Logan touches anything and it turns to gold. Nothing but the most capable hand in the team. He has shown he can achieve what many would dream of. Overall his capability has been an asset and a beacon of expertise.
+
+CANDIDATES:
+[1] Allan Logan is exceptionally capable, consistently delivering outstanding results. His expertise and performance are invaluable assets to the team, setting a high standard for others.
+[2] Allan: Exceptional. Touches turn to gold, most capable, achieves dreams, beacon of expertise.
+[3] Allan is an exceptionally capable and valuable asset, consistently achieving outstanding results and serving as a beacon of expertise.
+[4] Allan is a top performer whose expertise turns every project into a success. He is an exceptionally capable and valuable asset to the team.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer3|Summarise|B10|Q07",
+  "criterion": "Constructiveness",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 24: B10_Q08_Finalchoice -----
+You are Volunteer 3 in Group B.
+TASK TYPE: Summarise
+SAMPLE: B10
+CRITERION: Final choice
+
+INSTRUCTION:
+Rank from most to least suitable as a final version.
+
+ORIGINAL:
+Allan Logan touches anything and it turns to gold. Nothing but the most capable hand in the team. He has shown he can achieve what many would dream of. Overall his capability has been an asset and a beacon of expertise.
+
+CANDIDATES:
+[1] Allan is an exceptionally capable and valuable asset, consistently achieving outstanding results and serving as a beacon of expertise.
+[2] Allan is a top performer whose expertise turns every project into a success. He is an exceptionally capable and valuable asset to the team.
+[3] Allan Logan is exceptionally capable, consistently delivering outstanding results. His expertise and performance are invaluable assets to the team, setting a high standard for others.
+[4] Allan: Exceptional. Touches turn to gold, most capable, achieves dreams, beacon of expertise.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer3|Summarise|B10|Q08",
+  "criterion": "Final choice",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 25: B11_Q01_Fluency -----
+You are Volunteer 3 in Group B.
+TASK TYPE: Summarise
+SAMPLE: B11
+CRITERION: Fluency
+
+INSTRUCTION:
+Rank from most to least smooth and error-free.
+
+ORIGINAL:
+Aniya is very good at what she does, and a favourite of the whole team. At the end of the quarter, she is one of the members we rely on the most due to her high output. She is a consistent worker. Unlikely to be moved into managerial roles as she has struggled with leadership.
+
+CANDIDATES:
+[1] Aniya is a highly valued, consistent, and productive team member. While a strong individual contributor, she's not suited for leadership roles.
+[2] Aniya is a consistent, high-output performer and a reliable team member. However, she struggles with leadership, limiting her managerial potential.
+[3] Aniya: Very good, team favorite, high output, consistent. Relied on most. Struggles with leadership, unlikely for management.
+[4] Aniya is a top performer and team favorite, known for her consistent high output and reliability. She excels in her role but is unlikely to move into management due to leadership challenges.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer3|Summarise|B11|Q01",
+  "criterion": "Fluency",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 26: B11_Q02_Coherence -----
+You are Volunteer 3 in Group B.
+TASK TYPE: Summarise
+SAMPLE: B11
+CRITERION: Coherence
+
+INSTRUCTION:
+Rank from most to least logical and easy to follow.
+
+ORIGINAL:
+Aniya is very good at what she does, and a favourite of the whole team. At the end of the quarter, she is one of the members we rely on the most due to her high output. She is a consistent worker. Unlikely to be moved into managerial roles as she has struggled with leadership.
+
+CANDIDATES:
+[1] Aniya is a top performer and team favorite, known for her consistent high output and reliability. She excels in her role but is unlikely to move into management due to leadership challenges.
+[2] Aniya: Very good, team favorite, high output, consistent. Relied on most. Struggles with leadership, unlikely for management.
+[3] Aniya is a highly valued, consistent, and productive team member. While a strong individual contributor, she's not suited for leadership roles.
+[4] Aniya is a consistent, high-output performer and a reliable team member. However, she struggles with leadership, limiting her managerial potential.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer3|Summarise|B11|Q02",
+  "criterion": "Coherence",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 27: B11_Q03_Conciseness -----
+You are Volunteer 3 in Group B.
+TASK TYPE: Summarise
+SAMPLE: B11
+CRITERION: Conciseness
+
+INSTRUCTION:
+Rank from most to least clear and compact.
+
+ORIGINAL:
+Aniya is very good at what she does, and a favourite of the whole team. At the end of the quarter, she is one of the members we rely on the most due to her high output. She is a consistent worker. Unlikely to be moved into managerial roles as she has struggled with leadership.
+
+CANDIDATES:
+[1] Aniya is a consistent, high-output performer and a reliable team member. However, she struggles with leadership, limiting her managerial potential.
+[2] Aniya: Very good, team favorite, high output, consistent. Relied on most. Struggles with leadership, unlikely for management.
+[3] Aniya is a top performer and team favorite, known for her consistent high output and reliability. She excels in her role but is unlikely to move into management due to leadership challenges.
+[4] Aniya is a highly valued, consistent, and productive team member. While a strong individual contributor, she's not suited for leadership roles.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer3|Summarise|B11|Q03",
+  "criterion": "Conciseness",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 28: B11_Q04_Accuracy -----
+You are Volunteer 3 in Group B.
+TASK TYPE: Summarise
+SAMPLE: B11
+CRITERION: Accuracy
+
+INSTRUCTION:
+Select all texts that are factually correct given the Original.
+
+ORIGINAL:
+Aniya is very good at what she does, and a favourite of the whole team. At the end of the quarter, she is one of the members we rely on the most due to her high output. She is a consistent worker. Unlikely to be moved into managerial roles as she has struggled with leadership.
+
+CANDIDATES:
+[1] Aniya is a consistent, high-output performer and a reliable team member. However, she struggles with leadership, limiting her managerial potential.
+[2] Aniya: Very good, team favorite, high output, consistent. Relied on most. Struggles with leadership, unlikely for management.
+[3] Aniya is a highly valued, consistent, and productive team member. While a strong individual contributor, she's not suited for leadership roles.
+[4] Aniya is a top performer and team favorite, known for her consistent high output and reliability. She excels in her role but is unlikely to move into management due to leadership challenges.
+
+Please select all outputs that are factually correct given the Original.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer3|Summarise|B11|Q04",
+  "criterion": "Accuracy",
+  "rating": [1, 3],
+  "justifications": {
+    "1": "why candidate 1 is correct/incorrect in one sentence",
+    "2": "why candidate 2 is correct/incorrect in one sentence",
+    "3": "why candidate 3 is correct/incorrect in one sentence",
+    "4": "why candidate 4 is correct/incorrect in one sentence"
+  }
+}
+
+
+----- PROMPT 29: B11_Q05_Sentimentmatch -----
+You are Volunteer 3 in Group B.
+TASK TYPE: Summarise
+SAMPLE: B11
+CRITERION: Sentiment match
+
+INSTRUCTION:
+Rank from most to least similar to the Original in style and sentiment.
+
+ORIGINAL:
+Aniya is very good at what she does, and a favourite of the whole team. At the end of the quarter, she is one of the members we rely on the most due to her high output. She is a consistent worker. Unlikely to be moved into managerial roles as she has struggled with leadership.
+
+CANDIDATES:
+[1] Aniya is a highly valued, consistent, and productive team member. While a strong individual contributor, she's not suited for leadership roles.
+[2] Aniya: Very good, team favorite, high output, consistent. Relied on most. Struggles with leadership, unlikely for management.
+[3] Aniya is a top performer and team favorite, known for her consistent high output and reliability. She excels in her role but is unlikely to move into management due to leadership challenges.
+[4] Aniya is a consistent, high-output performer and a reliable team member. However, she struggles with leadership, limiting her managerial potential.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer3|Summarise|B11|Q05",
+  "criterion": "Sentiment match",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 30: B11_Q06_Motivationaltone -----
+You are Volunteer 3 in Group B.
+TASK TYPE: Summarise
+SAMPLE: B11
+CRITERION: Motivational tone
+
+INSTRUCTION:
+Rank from most to least empathetic and encouraging.
+
+ORIGINAL:
+Aniya is very good at what she does, and a favourite of the whole team. At the end of the quarter, she is one of the members we rely on the most due to her high output. She is a consistent worker. Unlikely to be moved into managerial roles as she has struggled with leadership.
+
+CANDIDATES:
+[1] Aniya: Very good, team favorite, high output, consistent. Relied on most. Struggles with leadership, unlikely for management.
+[2] Aniya is a consistent, high-output performer and a reliable team member. However, she struggles with leadership, limiting her managerial potential.
+[3] Aniya is a highly valued, consistent, and productive team member. While a strong individual contributor, she's not suited for leadership roles.
+[4] Aniya is a top performer and team favorite, known for her consistent high output and reliability. She excels in her role but is unlikely to move into management due to leadership challenges.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer3|Summarise|B11|Q06",
+  "criterion": "Motivational tone",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 31: B11_Q07_Constructiveness -----
+You are Volunteer 3 in Group B.
+TASK TYPE: Summarise
+SAMPLE: B11
+CRITERION: Constructiveness
+
+INSTRUCTION:
+Rank from most to least helpful and constructive.
+
+ORIGINAL:
+Aniya is very good at what she does, and a favourite of the whole team. At the end of the quarter, she is one of the members we rely on the most due to her high output. She is a consistent worker. Unlikely to be moved into managerial roles as she has struggled with leadership.
+
+CANDIDATES:
+[1] Aniya is a top performer and team favorite, known for her consistent high output and reliability. She excels in her role but is unlikely to move into management due to leadership challenges.
+[2] Aniya: Very good, team favorite, high output, consistent. Relied on most. Struggles with leadership, unlikely for management.
+[3] Aniya is a highly valued, consistent, and productive team member. While a strong individual contributor, she's not suited for leadership roles.
+[4] Aniya is a consistent, high-output performer and a reliable team member. However, she struggles with leadership, limiting her managerial potential.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer3|Summarise|B11|Q07",
+  "criterion": "Constructiveness",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 32: B11_Q08_Finalchoice -----
+You are Volunteer 3 in Group B.
+TASK TYPE: Summarise
+SAMPLE: B11
+CRITERION: Final choice
+
+INSTRUCTION:
+Rank from most to least suitable as a final version.
+
+ORIGINAL:
+Aniya is very good at what she does, and a favourite of the whole team. At the end of the quarter, she is one of the members we rely on the most due to her high output. She is a consistent worker. Unlikely to be moved into managerial roles as she has struggled with leadership.
+
+CANDIDATES:
+[1] Aniya is a consistent, high-output performer and a reliable team member. However, she struggles with leadership, limiting her managerial potential.
+[2] Aniya is a highly valued, consistent, and productive team member. While a strong individual contributor, she's not suited for leadership roles.
+[3] Aniya: Very good, team favorite, high output, consistent. Relied on most. Struggles with leadership, unlikely for management.
+[4] Aniya is a top performer and team favorite, known for her consistent high output and reliability. She excels in her role but is unlikely to move into management due to leadership challenges.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer3|Summarise|B11|Q08",
+  "criterion": "Final choice",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT SC2: SanityCheck_Summarise_Accuracy -----
+TASK TYPE: Summarise
+SAMPLE: SC2
+CRITERION: Accuracy
+
+INSTRUCTION:
+Rank from most to least factually correct given the Original.
+
+ORIGINAL:
+Pure water begins to freeze at exactly zero degrees Celsius
+
+CANDIDATES:
+[1] Water freezes at at 0°C.
+[2] Water freezes at 100°C.
+[3] Water boils at 0°C.
+[4] Ice melts at 0°C.
+
+Please rank outputs strictly from most accurate (1) to least accurate (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "Summarise|SC2|Q04",
+  "criterion": "Accuracy",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 33: B13_Q01_Fluency -----
+You are Volunteer 3 in Group B.
+TASK TYPE: Interpret
+SAMPLE: B13
+CRITERION: Fluency
+
+INSTRUCTION:
+Rank from most to least smooth and error-free.
+
+ORIGINAL:
+Logan is a normal employee, his performance are not bad but not excellent. He is doing some sales and his number show us that he is not bad, He is always willing to take the hardest customers to deal with, and that is why we appreciate him. He have a moderate potential in our enterprise because he is not putting as much effort as we want him too. Overall he's not bad but could be better.
+
+CANDIDATES:
+[1] Logan is a reliable employee with solid sales performance and a commendable willingness to handle challenging customers, which the team values. While his current contributions are acceptable, his moderate potential reflects room for growth, particularly in increasing his effort and initiative. To improve, Logan should set specific performance goals, seek regular feedback, take on additional responsibilities, and explore skill development opportunities to maximize his impact.
+[2] Feedback means Logan handles difficult customers well with solid sales numbers, but effort falls below expectations. This places Logan as a reliable contributor needing higher engagement for advancement. Logan should: 1) Set one weekly stretch goal for sales activities, 2) Document customer-win strategies to share with peers monthly, 3) Discuss motivation barriers with manager next 1:1.
+[3] Logan is valued for tackling hard customers, but his performance is seen as moderate due to perceived low effort. This limits growth. To address this, Logan could ask his manager to define "high effort" and identify one new area where he can proactively contribute.
+[4] Logan's performance is satisfactory, but there's an opportunity for him to excel further. His willingness to tackle challenging customer accounts is highly valued and a significant asset. While his current sales numbers are acceptable, the feedback suggests that increased effort could unlock his moderate potential for growth within the company. To address this, Logan should identify specific areas where he can apply more effort, perhaps by proactively seeking additional sales opportunities or refining his approach with existing clients. He could also discuss with his manager what "more effort" looks like in concrete terms and set measurable goals to demonstrate his commitment to improvement.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer3|Interpret|B13|Q01",
+  "criterion": "Fluency",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 34: B13_Q02_Coherence -----
+You are Volunteer 3 in Group B.
+TASK TYPE: Interpret
+SAMPLE: B13
+CRITERION: Coherence
+
+INSTRUCTION:
+Rank from most to least logical and easy to follow.
+
+ORIGINAL:
+Logan is a normal employee, his performance are not bad but not excellent. He is doing some sales and his number show us that he is not bad, He is always willing to take the hardest customers to deal with, and that is why we appreciate him. He have a moderate potential in our enterprise because he is not putting as much effort as we want him too. Overall he's not bad but could be better.
+
+CANDIDATES:
+[1] Feedback means Logan handles difficult customers well with solid sales numbers, but effort falls below expectations. This places Logan as a reliable contributor needing higher engagement for advancement. Logan should: 1) Set one weekly stretch goal for sales activities, 2) Document customer-win strategies to share with peers monthly, 3) Discuss motivation barriers with manager next 1:1.
+[2] Logan is a reliable employee with solid sales performance and a commendable willingness to handle challenging customers, which the team values. While his current contributions are acceptable, his moderate potential reflects room for growth, particularly in increasing his effort and initiative. To improve, Logan should set specific performance goals, seek regular feedback, take on additional responsibilities, and explore skill development opportunities to maximize his impact.
+[3] Logan is valued for tackling hard customers, but his performance is seen as moderate due to perceived low effort. This limits growth. To address this, Logan could ask his manager to define "high effort" and identify one new area where he can proactively contribute.
+[4] Logan's performance is satisfactory, but there's an opportunity for him to excel further. His willingness to tackle challenging customer accounts is highly valued and a significant asset. While his current sales numbers are acceptable, the feedback suggests that increased effort could unlock his moderate potential for growth within the company. To address this, Logan should identify specific areas where he can apply more effort, perhaps by proactively seeking additional sales opportunities or refining his approach with existing clients. He could also discuss with his manager what "more effort" looks like in concrete terms and set measurable goals to demonstrate his commitment to improvement.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer3|Interpret|B13|Q02",
+  "criterion": "Coherence",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 35: B13_Q03_Conciseness -----
+You are Volunteer 3 in Group B.
+TASK TYPE: Interpret
+SAMPLE: B13
+CRITERION: Conciseness
+
+INSTRUCTION:
+Rank from most to least clear and compact.
+
+ORIGINAL:
+Logan is a normal employee, his performance are not bad but not excellent. He is doing some sales and his number show us that he is not bad, He is always willing to take the hardest customers to deal with, and that is why we appreciate him. He have a moderate potential in our enterprise because he is not putting as much effort as we want him too. Overall he's not bad but could be better.
+
+CANDIDATES:
+[1] Feedback means Logan handles difficult customers well with solid sales numbers, but effort falls below expectations. This places Logan as a reliable contributor needing higher engagement for advancement. Logan should: 1) Set one weekly stretch goal for sales activities, 2) Document customer-win strategies to share with peers monthly, 3) Discuss motivation barriers with manager next 1:1.
+[2] Logan's performance is satisfactory, but there's an opportunity for him to excel further. His willingness to tackle challenging customer accounts is highly valued and a significant asset. While his current sales numbers are acceptable, the feedback suggests that increased effort could unlock his moderate potential for growth within the company. To address this, Logan should identify specific areas where he can apply more effort, perhaps by proactively seeking additional sales opportunities or refining his approach with existing clients. He could also discuss with his manager what "more effort" looks like in concrete terms and set measurable goals to demonstrate his commitment to improvement.
+[3] Logan is valued for tackling hard customers, but his performance is seen as moderate due to perceived low effort. This limits growth. To address this, Logan could ask his manager to define "high effort" and identify one new area where he can proactively contribute.
+[4] Logan is a reliable employee with solid sales performance and a commendable willingness to handle challenging customers, which the team values. While his current contributions are acceptable, his moderate potential reflects room for growth, particularly in increasing his effort and initiative. To improve, Logan should set specific performance goals, seek regular feedback, take on additional responsibilities, and explore skill development opportunities to maximize his impact.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer3|Interpret|B13|Q03",
+  "criterion": "Conciseness",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 36: B13_Q04_Accuracy -----
+You are Volunteer 3 in Group B.
+TASK TYPE: Interpret
+SAMPLE: B13
+CRITERION: Accuracy
+
+INSTRUCTION:
+Select all texts that are factually correct given the Original.
+
+ORIGINAL:
+Logan is a normal employee, his performance are not bad but not excellent. He is doing some sales and his number show us that he is not bad, He is always willing to take the hardest customers to deal with, and that is why we appreciate him. He have a moderate potential in our enterprise because he is not putting as much effort as we want him too. Overall he's not bad but could be better.
+
+CANDIDATES:
+[1] Feedback means Logan handles difficult customers well with solid sales numbers, but effort falls below expectations. This places Logan as a reliable contributor needing higher engagement for advancement. Logan should: 1) Set one weekly stretch goal for sales activities, 2) Document customer-win strategies to share with peers monthly, 3) Discuss motivation barriers with manager next 1:1.
+[2] Logan is a reliable employee with solid sales performance and a commendable willingness to handle challenging customers, which the team values. While his current contributions are acceptable, his moderate potential reflects room for growth, particularly in increasing his effort and initiative. To improve, Logan should set specific performance goals, seek regular feedback, take on additional responsibilities, and explore skill development opportunities to maximize his impact.
+[3] Logan is valued for tackling hard customers, but his performance is seen as moderate due to perceived low effort. This limits growth. To address this, Logan could ask his manager to define "high effort" and identify one new area where he can proactively contribute.
+[4] Logan's performance is satisfactory, but there's an opportunity for him to excel further. His willingness to tackle challenging customer accounts is highly valued and a significant asset. While his current sales numbers are acceptable, the feedback suggests that increased effort could unlock his moderate potential for growth within the company. To address this, Logan should identify specific areas where he can apply more effort, perhaps by proactively seeking additional sales opportunities or refining his approach with existing clients. He could also discuss with his manager what "more effort" looks like in concrete terms and set measurable goals to demonstrate his commitment to improvement.
+
+Please select all outputs that are factually correct given the Original.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer3|Interpret|B13|Q04",
+  "criterion": "Accuracy",
+  "rating": [1, 3],
+  "justifications": {
+    "1": "why candidate 1 is correct/incorrect in one sentence",
+    "2": "why candidate 2 is correct/incorrect in one sentence",
+    "3": "why candidate 3 is correct/incorrect in one sentence",
+    "4": "why candidate 4 is correct/incorrect in one sentence"
+  }
+}
+
+
+----- PROMPT 37: B13_Q05_Sentimentmatch -----
+You are Volunteer 3 in Group B.
+TASK TYPE: Interpret
+SAMPLE: B13
+CRITERION: Sentiment match
+
+INSTRUCTION:
+Rank from most to least similar to the Original in style and sentiment.
+
+ORIGINAL:
+Logan is a normal employee, his performance are not bad but not excellent. He is doing some sales and his number show us that he is not bad, He is always willing to take the hardest customers to deal with, and that is why we appreciate him. He have a moderate potential in our enterprise because he is not putting as much effort as we want him too. Overall he's not bad but could be better.
+
+CANDIDATES:
+[1] Logan is valued for tackling hard customers, but his performance is seen as moderate due to perceived low effort. This limits growth. To address this, Logan could ask his manager to define "high effort" and identify one new area where he can proactively contribute.
+[2] Logan's performance is satisfactory, but there's an opportunity for him to excel further. His willingness to tackle challenging customer accounts is highly valued and a significant asset. While his current sales numbers are acceptable, the feedback suggests that increased effort could unlock his moderate potential for growth within the company. To address this, Logan should identify specific areas where he can apply more effort, perhaps by proactively seeking additional sales opportunities or refining his approach with existing clients. He could also discuss with his manager what "more effort" looks like in concrete terms and set measurable goals to demonstrate his commitment to improvement.
+[3] Feedback means Logan handles difficult customers well with solid sales numbers, but effort falls below expectations. This places Logan as a reliable contributor needing higher engagement for advancement. Logan should: 1) Set one weekly stretch goal for sales activities, 2) Document customer-win strategies to share with peers monthly, 3) Discuss motivation barriers with manager next 1:1.
+[4] Logan is a reliable employee with solid sales performance and a commendable willingness to handle challenging customers, which the team values. While his current contributions are acceptable, his moderate potential reflects room for growth, particularly in increasing his effort and initiative. To improve, Logan should set specific performance goals, seek regular feedback, take on additional responsibilities, and explore skill development opportunities to maximize his impact.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer3|Interpret|B13|Q05",
+  "criterion": "Sentiment match",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 38: B13_Q06_Motivationaltone -----
+You are Volunteer 3 in Group B.
+TASK TYPE: Interpret
+SAMPLE: B13
+CRITERION: Motivational tone
+
+INSTRUCTION:
+Rank from most to least empathetic and encouraging.
+
+ORIGINAL:
+Logan is a normal employee, his performance are not bad but not excellent. He is doing some sales and his number show us that he is not bad, He is always willing to take the hardest customers to deal with, and that is why we appreciate him. He have a moderate potential in our enterprise because he is not putting as much effort as we want him too. Overall he's not bad but could be better.
+
+CANDIDATES:
+[1] Logan's performance is satisfactory, but there's an opportunity for him to excel further. His willingness to tackle challenging customer accounts is highly valued and a significant asset. While his current sales numbers are acceptable, the feedback suggests that increased effort could unlock his moderate potential for growth within the company. To address this, Logan should identify specific areas where he can apply more effort, perhaps by proactively seeking additional sales opportunities or refining his approach with existing clients. He could also discuss with his manager what "more effort" looks like in concrete terms and set measurable goals to demonstrate his commitment to improvement.
+[2] Feedback means Logan handles difficult customers well with solid sales numbers, but effort falls below expectations. This places Logan as a reliable contributor needing higher engagement for advancement. Logan should: 1) Set one weekly stretch goal for sales activities, 2) Document customer-win strategies to share with peers monthly, 3) Discuss motivation barriers with manager next 1:1.
+[3] Logan is a reliable employee with solid sales performance and a commendable willingness to handle challenging customers, which the team values. While his current contributions are acceptable, his moderate potential reflects room for growth, particularly in increasing his effort and initiative. To improve, Logan should set specific performance goals, seek regular feedback, take on additional responsibilities, and explore skill development opportunities to maximize his impact.
+[4] Logan is valued for tackling hard customers, but his performance is seen as moderate due to perceived low effort. This limits growth. To address this, Logan could ask his manager to define "high effort" and identify one new area where he can proactively contribute.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer3|Interpret|B13|Q06",
+  "criterion": "Motivational tone",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 39: B13_Q07_Constructiveness -----
+You are Volunteer 3 in Group B.
+TASK TYPE: Interpret
+SAMPLE: B13
+CRITERION: Constructiveness
+
+INSTRUCTION:
+Rank from most to least helpful and constructive.
+
+ORIGINAL:
+Logan is a normal employee, his performance are not bad but not excellent. He is doing some sales and his number show us that he is not bad, He is always willing to take the hardest customers to deal with, and that is why we appreciate him. He have a moderate potential in our enterprise because he is not putting as much effort as we want him too. Overall he's not bad but could be better.
+
+CANDIDATES:
+[1] Logan is valued for tackling hard customers, but his performance is seen as moderate due to perceived low effort. This limits growth. To address this, Logan could ask his manager to define "high effort" and identify one new area where he can proactively contribute.
+[2] Feedback means Logan handles difficult customers well with solid sales numbers, but effort falls below expectations. This places Logan as a reliable contributor needing higher engagement for advancement. Logan should: 1) Set one weekly stretch goal for sales activities, 2) Document customer-win strategies to share with peers monthly, 3) Discuss motivation barriers with manager next 1:1.
+[3] Logan's performance is satisfactory, but there's an opportunity for him to excel further. His willingness to tackle challenging customer accounts is highly valued and a significant asset. While his current sales numbers are acceptable, the feedback suggests that increased effort could unlock his moderate potential for growth within the company. To address this, Logan should identify specific areas where he can apply more effort, perhaps by proactively seeking additional sales opportunities or refining his approach with existing clients. He could also discuss with his manager what "more effort" looks like in concrete terms and set measurable goals to demonstrate his commitment to improvement.
+[4] Logan is a reliable employee with solid sales performance and a commendable willingness to handle challenging customers, which the team values. While his current contributions are acceptable, his moderate potential reflects room for growth, particularly in increasing his effort and initiative. To improve, Logan should set specific performance goals, seek regular feedback, take on additional responsibilities, and explore skill development opportunities to maximize his impact.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer3|Interpret|B13|Q07",
+  "criterion": "Constructiveness",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 40: B13_Q08_Finalchoice -----
+You are Volunteer 3 in Group B.
+TASK TYPE: Interpret
+SAMPLE: B13
+CRITERION: Final choice
+
+INSTRUCTION:
+Rank from most to least suitable as a final version.
+
+ORIGINAL:
+Logan is a normal employee, his performance are not bad but not excellent. He is doing some sales and his number show us that he is not bad, He is always willing to take the hardest customers to deal with, and that is why we appreciate him. He have a moderate potential in our enterprise because he is not putting as much effort as we want him too. Overall he's not bad but could be better.
+
+CANDIDATES:
+[1] Logan is valued for tackling hard customers, but his performance is seen as moderate due to perceived low effort. This limits growth. To address this, Logan could ask his manager to define "high effort" and identify one new area where he can proactively contribute.
+[2] Logan's performance is satisfactory, but there's an opportunity for him to excel further. His willingness to tackle challenging customer accounts is highly valued and a significant asset. While his current sales numbers are acceptable, the feedback suggests that increased effort could unlock his moderate potential for growth within the company. To address this, Logan should identify specific areas where he can apply more effort, perhaps by proactively seeking additional sales opportunities or refining his approach with existing clients. He could also discuss with his manager what "more effort" looks like in concrete terms and set measurable goals to demonstrate his commitment to improvement.
+[3] Logan is a reliable employee with solid sales performance and a commendable willingness to handle challenging customers, which the team values. While his current contributions are acceptable, his moderate potential reflects room for growth, particularly in increasing his effort and initiative. To improve, Logan should set specific performance goals, seek regular feedback, take on additional responsibilities, and explore skill development opportunities to maximize his impact.
+[4] Feedback means Logan handles difficult customers well with solid sales numbers, but effort falls below expectations. This places Logan as a reliable contributor needing higher engagement for advancement. Logan should: 1) Set one weekly stretch goal for sales activities, 2) Document customer-win strategies to share with peers monthly, 3) Discuss motivation barriers with manager next 1:1.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer3|Interpret|B13|Q08",
+  "criterion": "Final choice",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 41: B16_Q01_Fluency -----
+You are Volunteer 3 in Group B.
+TASK TYPE: Interpret
+SAMPLE: B16
+CRITERION: Fluency
+
+INSTRUCTION:
+Rank from most to least smooth and error-free.
+
+ORIGINAL:
+Bailey Hunter's daily production oscillates from poor to excellent from day-to day. One day Bailey will competently produce a 50-page brief and the next day will struggle to complete five transmittal letters. Her interpersonal skills are unexceptional, neither good nor bad. On balance, I don't believe she is long for this job.
+
+CANDIDATES:
+[1] Bailey's performance is seen as highly inconsistent, making her unreliable despite moments of excellence. This puts her long-term position at risk. Bailey should track her daily work to find patterns and discuss with her manager how to build a more consistent, dependable output.
+[2] Bailey, your manager notes significant inconsistency in your daily output, ranging from excellent to poor, and views your interpersonal skills as average. This suggests your overall performance is not meeting expectations, potentially jeopardizing your standing. To address this, Bailey should: 1) Track daily output to identify patterns and causes of inconsistency. 2) Seek feedback on specific areas for improvement in both production and interpersonal skills. 3) Propose a plan to manager for consistent performance and skill development.
+[3] Feedback means Bailey’s output fluctuates severely between excellent and poor, with neutral interpersonal skills. This implies inconsistency risks job stability. Bailey should: 1) Track daily productivity triggers in a journal, 2) Break large tasks into hourly milestones, 3) Request clarity on performance expectations immediately.
+[4] Bailey’s performance is inconsistent, with significant daily fluctuations in productivity, making it difficult to rely on her for steady output. While her interpersonal skills are neutral, the unpredictability in her work quality raises concerns about her long-term fit in the role. To improve, Bailey should (1) track daily tasks to identify patterns in her productivity, (2) seek structured feedback after each assignment, (3) work with a mentor to develop time management strategies, and (4) proactively communicate challenges early to prevent missed expectations.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer3|Interpret|B16|Q01",
+  "criterion": "Fluency",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 42: B16_Q02_Coherence -----
+You are Volunteer 3 in Group B.
+TASK TYPE: Interpret
+SAMPLE: B16
+CRITERION: Coherence
+
+INSTRUCTION:
+Rank from most to least logical and easy to follow.
+
+ORIGINAL:
+Bailey Hunter's daily production oscillates from poor to excellent from day-to day. One day Bailey will competently produce a 50-page brief and the next day will struggle to complete five transmittal letters. Her interpersonal skills are unexceptional, neither good nor bad. On balance, I don't believe she is long for this job.
+
+CANDIDATES:
+[1] Bailey’s performance is inconsistent, with significant daily fluctuations in productivity, making it difficult to rely on her for steady output. While her interpersonal skills are neutral, the unpredictability in her work quality raises concerns about her long-term fit in the role. To improve, Bailey should (1) track daily tasks to identify patterns in her productivity, (2) seek structured feedback after each assignment, (3) work with a mentor to develop time management strategies, and (4) proactively communicate challenges early to prevent missed expectations.
+[2] Bailey, your manager notes significant inconsistency in your daily output, ranging from excellent to poor, and views your interpersonal skills as average. This suggests your overall performance is not meeting expectations, potentially jeopardizing your standing. To address this, Bailey should: 1) Track daily output to identify patterns and causes of inconsistency. 2) Seek feedback on specific areas for improvement in both production and interpersonal skills. 3) Propose a plan to manager for consistent performance and skill development.
+[3] Bailey's performance is seen as highly inconsistent, making her unreliable despite moments of excellence. This puts her long-term position at risk. Bailey should track her daily work to find patterns and discuss with her manager how to build a more consistent, dependable output.
+[4] Feedback means Bailey’s output fluctuates severely between excellent and poor, with neutral interpersonal skills. This implies inconsistency risks job stability. Bailey should: 1) Track daily productivity triggers in a journal, 2) Break large tasks into hourly milestones, 3) Request clarity on performance expectations immediately.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer3|Interpret|B16|Q02",
+  "criterion": "Coherence",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 43: B16_Q03_Conciseness -----
+You are Volunteer 3 in Group B.
+TASK TYPE: Interpret
+SAMPLE: B16
+CRITERION: Conciseness
+
+INSTRUCTION:
+Rank from most to least clear and compact.
+
+ORIGINAL:
+Bailey Hunter's daily production oscillates from poor to excellent from day-to day. One day Bailey will competently produce a 50-page brief and the next day will struggle to complete five transmittal letters. Her interpersonal skills are unexceptional, neither good nor bad. On balance, I don't believe she is long for this job.
+
+CANDIDATES:
+[1] Bailey’s performance is inconsistent, with significant daily fluctuations in productivity, making it difficult to rely on her for steady output. While her interpersonal skills are neutral, the unpredictability in her work quality raises concerns about her long-term fit in the role. To improve, Bailey should (1) track daily tasks to identify patterns in her productivity, (2) seek structured feedback after each assignment, (3) work with a mentor to develop time management strategies, and (4) proactively communicate challenges early to prevent missed expectations.
+[2] Bailey, your manager notes significant inconsistency in your daily output, ranging from excellent to poor, and views your interpersonal skills as average. This suggests your overall performance is not meeting expectations, potentially jeopardizing your standing. To address this, Bailey should: 1) Track daily output to identify patterns and causes of inconsistency. 2) Seek feedback on specific areas for improvement in both production and interpersonal skills. 3) Propose a plan to manager for consistent performance and skill development.
+[3] Bailey's performance is seen as highly inconsistent, making her unreliable despite moments of excellence. This puts her long-term position at risk. Bailey should track her daily work to find patterns and discuss with her manager how to build a more consistent, dependable output.
+[4] Feedback means Bailey’s output fluctuates severely between excellent and poor, with neutral interpersonal skills. This implies inconsistency risks job stability. Bailey should: 1) Track daily productivity triggers in a journal, 2) Break large tasks into hourly milestones, 3) Request clarity on performance expectations immediately.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer3|Interpret|B16|Q03",
+  "criterion": "Conciseness",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 44: B16_Q04_Accuracy -----
+You are Volunteer 3 in Group B.
+TASK TYPE: Interpret
+SAMPLE: B16
+CRITERION: Accuracy
+
+INSTRUCTION:
+Select all texts that are factually correct given the Original.
+
+ORIGINAL:
+Bailey Hunter's daily production oscillates from poor to excellent from day-to day. One day Bailey will competently produce a 50-page brief and the next day will struggle to complete five transmittal letters. Her interpersonal skills are unexceptional, neither good nor bad. On balance, I don't believe she is long for this job.
+
+CANDIDATES:
+[1] Bailey, your manager notes significant inconsistency in your daily output, ranging from excellent to poor, and views your interpersonal skills as average. This suggests your overall performance is not meeting expectations, potentially jeopardizing your standing. To address this, Bailey should: 1) Track daily output to identify patterns and causes of inconsistency. 2) Seek feedback on specific areas for improvement in both production and interpersonal skills. 3) Propose a plan to manager for consistent performance and skill development.
+[2] Bailey’s performance is inconsistent, with significant daily fluctuations in productivity, making it difficult to rely on her for steady output. While her interpersonal skills are neutral, the unpredictability in her work quality raises concerns about her long-term fit in the role. To improve, Bailey should (1) track daily tasks to identify patterns in her productivity, (2) seek structured feedback after each assignment, (3) work with a mentor to develop time management strategies, and (4) proactively communicate challenges early to prevent missed expectations.
+[3] Bailey's performance is seen as highly inconsistent, making her unreliable despite moments of excellence. This puts her long-term position at risk. Bailey should track her daily work to find patterns and discuss with her manager how to build a more consistent, dependable output.
+[4] Feedback means Bailey’s output fluctuates severely between excellent and poor, with neutral interpersonal skills. This implies inconsistency risks job stability. Bailey should: 1) Track daily productivity triggers in a journal, 2) Break large tasks into hourly milestones, 3) Request clarity on performance expectations immediately.
+
+Please select all outputs that are factually correct given the Original.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer3|Interpret|B16|Q04",
+  "criterion": "Accuracy",
+  "rating": [1, 3],
+  "justifications": {
+    "1": "why candidate 1 is correct/incorrect in one sentence",
+    "2": "why candidate 2 is correct/incorrect in one sentence",
+    "3": "why candidate 3 is correct/incorrect in one sentence",
+    "4": "why candidate 4 is correct/incorrect in one sentence"
+  }
+}
+
+
+----- PROMPT 45: B16_Q05_Sentimentmatch -----
+You are Volunteer 3 in Group B.
+TASK TYPE: Interpret
+SAMPLE: B16
+CRITERION: Sentiment match
+
+INSTRUCTION:
+Rank from most to least similar to the Original in style and sentiment.
+
+ORIGINAL:
+Bailey Hunter's daily production oscillates from poor to excellent from day-to day. One day Bailey will competently produce a 50-page brief and the next day will struggle to complete five transmittal letters. Her interpersonal skills are unexceptional, neither good nor bad. On balance, I don't believe she is long for this job.
+
+CANDIDATES:
+[1] Bailey's performance is seen as highly inconsistent, making her unreliable despite moments of excellence. This puts her long-term position at risk. Bailey should track her daily work to find patterns and discuss with her manager how to build a more consistent, dependable output.
+[2] Bailey, your manager notes significant inconsistency in your daily output, ranging from excellent to poor, and views your interpersonal skills as average. This suggests your overall performance is not meeting expectations, potentially jeopardizing your standing. To address this, Bailey should: 1) Track daily output to identify patterns and causes of inconsistency. 2) Seek feedback on specific areas for improvement in both production and interpersonal skills. 3) Propose a plan to manager for consistent performance and skill development.
+[3] Bailey’s performance is inconsistent, with significant daily fluctuations in productivity, making it difficult to rely on her for steady output. While her interpersonal skills are neutral, the unpredictability in her work quality raises concerns about her long-term fit in the role. To improve, Bailey should (1) track daily tasks to identify patterns in her productivity, (2) seek structured feedback after each assignment, (3) work with a mentor to develop time management strategies, and (4) proactively communicate challenges early to prevent missed expectations.
+[4] Feedback means Bailey’s output fluctuates severely between excellent and poor, with neutral interpersonal skills. This implies inconsistency risks job stability. Bailey should: 1) Track daily productivity triggers in a journal, 2) Break large tasks into hourly milestones, 3) Request clarity on performance expectations immediately.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer3|Interpret|B16|Q05",
+  "criterion": "Sentiment match",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 46: B16_Q06_Motivationaltone -----
+You are Volunteer 3 in Group B.
+TASK TYPE: Interpret
+SAMPLE: B16
+CRITERION: Motivational tone
+
+INSTRUCTION:
+Rank from most to least empathetic and encouraging.
+
+ORIGINAL:
+Bailey Hunter's daily production oscillates from poor to excellent from day-to day. One day Bailey will competently produce a 50-page brief and the next day will struggle to complete five transmittal letters. Her interpersonal skills are unexceptional, neither good nor bad. On balance, I don't believe she is long for this job.
+
+CANDIDATES:
+[1] Bailey, your manager notes significant inconsistency in your daily output, ranging from excellent to poor, and views your interpersonal skills as average. This suggests your overall performance is not meeting expectations, potentially jeopardizing your standing. To address this, Bailey should: 1) Track daily output to identify patterns and causes of inconsistency. 2) Seek feedback on specific areas for improvement in both production and interpersonal skills. 3) Propose a plan to manager for consistent performance and skill development.
+[2] Feedback means Bailey’s output fluctuates severely between excellent and poor, with neutral interpersonal skills. This implies inconsistency risks job stability. Bailey should: 1) Track daily productivity triggers in a journal, 2) Break large tasks into hourly milestones, 3) Request clarity on performance expectations immediately.
+[3] Bailey’s performance is inconsistent, with significant daily fluctuations in productivity, making it difficult to rely on her for steady output. While her interpersonal skills are neutral, the unpredictability in her work quality raises concerns about her long-term fit in the role. To improve, Bailey should (1) track daily tasks to identify patterns in her productivity, (2) seek structured feedback after each assignment, (3) work with a mentor to develop time management strategies, and (4) proactively communicate challenges early to prevent missed expectations.
+[4] Bailey's performance is seen as highly inconsistent, making her unreliable despite moments of excellence. This puts her long-term position at risk. Bailey should track her daily work to find patterns and discuss with her manager how to build a more consistent, dependable output.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer3|Interpret|B16|Q06",
+  "criterion": "Motivational tone",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 47: B16_Q07_Constructiveness -----
+You are Volunteer 3 in Group B.
+TASK TYPE: Interpret
+SAMPLE: B16
+CRITERION: Constructiveness
+
+INSTRUCTION:
+Rank from most to least helpful and constructive.
+
+ORIGINAL:
+Bailey Hunter's daily production oscillates from poor to excellent from day-to day. One day Bailey will competently produce a 50-page brief and the next day will struggle to complete five transmittal letters. Her interpersonal skills are unexceptional, neither good nor bad. On balance, I don't believe she is long for this job.
+
+CANDIDATES:
+[1] Bailey's performance is seen as highly inconsistent, making her unreliable despite moments of excellence. This puts her long-term position at risk. Bailey should track her daily work to find patterns and discuss with her manager how to build a more consistent, dependable output.
+[2] Feedback means Bailey’s output fluctuates severely between excellent and poor, with neutral interpersonal skills. This implies inconsistency risks job stability. Bailey should: 1) Track daily productivity triggers in a journal, 2) Break large tasks into hourly milestones, 3) Request clarity on performance expectations immediately.
+[3] Bailey’s performance is inconsistent, with significant daily fluctuations in productivity, making it difficult to rely on her for steady output. While her interpersonal skills are neutral, the unpredictability in her work quality raises concerns about her long-term fit in the role. To improve, Bailey should (1) track daily tasks to identify patterns in her productivity, (2) seek structured feedback after each assignment, (3) work with a mentor to develop time management strategies, and (4) proactively communicate challenges early to prevent missed expectations.
+[4] Bailey, your manager notes significant inconsistency in your daily output, ranging from excellent to poor, and views your interpersonal skills as average. This suggests your overall performance is not meeting expectations, potentially jeopardizing your standing. To address this, Bailey should: 1) Track daily output to identify patterns and causes of inconsistency. 2) Seek feedback on specific areas for improvement in both production and interpersonal skills. 3) Propose a plan to manager for consistent performance and skill development.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer3|Interpret|B16|Q07",
+  "criterion": "Constructiveness",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 48: B16_Q08_Finalchoice -----
+You are Volunteer 3 in Group B.
+TASK TYPE: Interpret
+SAMPLE: B16
+CRITERION: Final choice
+
+INSTRUCTION:
+Rank from most to least suitable as a final version.
+
+ORIGINAL:
+Bailey Hunter's daily production oscillates from poor to excellent from day-to day. One day Bailey will competently produce a 50-page brief and the next day will struggle to complete five transmittal letters. Her interpersonal skills are unexceptional, neither good nor bad. On balance, I don't believe she is long for this job.
+
+CANDIDATES:
+[1] Bailey’s performance is inconsistent, with significant daily fluctuations in productivity, making it difficult to rely on her for steady output. While her interpersonal skills are neutral, the unpredictability in her work quality raises concerns about her long-term fit in the role. To improve, Bailey should (1) track daily tasks to identify patterns in her productivity, (2) seek structured feedback after each assignment, (3) work with a mentor to develop time management strategies, and (4) proactively communicate challenges early to prevent missed expectations.
+[2] Bailey's performance is seen as highly inconsistent, making her unreliable despite moments of excellence. This puts her long-term position at risk. Bailey should track her daily work to find patterns and discuss with her manager how to build a more consistent, dependable output.
+[3] Bailey, your manager notes significant inconsistency in your daily output, ranging from excellent to poor, and views your interpersonal skills as average. This suggests your overall performance is not meeting expectations, potentially jeopardizing your standing. To address this, Bailey should: 1) Track daily output to identify patterns and causes of inconsistency. 2) Seek feedback on specific areas for improvement in both production and interpersonal skills. 3) Propose a plan to manager for consistent performance and skill development.
+[4] Feedback means Bailey’s output fluctuates severely between excellent and poor, with neutral interpersonal skills. This implies inconsistency risks job stability. Bailey should: 1) Track daily productivity triggers in a journal, 2) Break large tasks into hourly milestones, 3) Request clarity on performance expectations immediately.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer3|Interpret|B16|Q08",
+  "criterion": "Final choice",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+

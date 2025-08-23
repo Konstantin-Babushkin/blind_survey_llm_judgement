@@ -1,0 +1,1698 @@
+----- PROMPT 1: A1_Q01_Fluency -----
+You are Volunteer 1 in Group A.
+TASK TYPE: Idea-to-Text
+SAMPLE: A1
+CRITERION: Fluency
+
+INSTRUCTION:
+Rank from most to least smooth and error-free.
+
+ORIGINAL:
+Jayden Rees gives insightful, creative feedback but shows falling motivation, wanders off, work still decent.
+
+CANDIDATES:
+[1] Jayden Rees provides insightful and creative feedback, demonstrating strong analytical skills. However, there's been a noticeable decline in motivation and focus, with occasional off-task behavior. While his work quality remains decent, increased engagement and consistency would enhance his overall performance.
+[2] Jayden, your feedback is consistently insightful and creative, adding significant value. However, we've observed a noticeable dip in your motivation and focus, including instances of distraction. While your current work output remains decent, we need to address this engagement trend. Let's discuss strategies to re-energize your contribution.
+[3] Jayden, your creative feedback is highly insightful. However, we've noticed a decline in your motivation and focus recently. While your work quality remains decent, let's connect to address this and ensure you stay engaged.
+[4] Jayden consistently provides insightful and creative feedback, significantly contributing to team discussions. However, a recent decline in motivation has been observed, occasionally leading to disengagement during tasks. While work quality remains acceptable, addressing this dip in focus is crucial to fully leverage Jayden's valuable contributions and ensure sustained high performance.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer1|Idea-to-Text|A1|Q01",
+  "criterion": "Fluency",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 2: A1_Q02_Coherence -----
+You are Volunteer 1 in Group A.
+TASK TYPE: Idea-to-Text
+SAMPLE: A1
+CRITERION: Coherence
+
+INSTRUCTION:
+Rank from most to least logical and easy to follow.
+
+ORIGINAL:
+Jayden Rees gives insightful, creative feedback but shows falling motivation, wanders off, work still decent.
+
+CANDIDATES:
+[1] Jayden, your feedback is consistently insightful and creative, adding significant value. However, we've observed a noticeable dip in your motivation and focus, including instances of distraction. While your current work output remains decent, we need to address this engagement trend. Let's discuss strategies to re-energize your contribution.
+[2] Jayden consistently provides insightful and creative feedback, significantly contributing to team discussions. However, a recent decline in motivation has been observed, occasionally leading to disengagement during tasks. While work quality remains acceptable, addressing this dip in focus is crucial to fully leverage Jayden's valuable contributions and ensure sustained high performance.
+[3] Jayden Rees provides insightful and creative feedback, demonstrating strong analytical skills. However, there's been a noticeable decline in motivation and focus, with occasional off-task behavior. While his work quality remains decent, increased engagement and consistency would enhance his overall performance.
+[4] Jayden, your creative feedback is highly insightful. However, we've noticed a decline in your motivation and focus recently. While your work quality remains decent, let's connect to address this and ensure you stay engaged.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer1|Idea-to-Text|A1|Q02",
+  "criterion": "Coherence",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 3: A1_Q03_Conciseness -----
+You are Volunteer 1 in Group A.
+TASK TYPE: Idea-to-Text
+SAMPLE: A1
+CRITERION: Conciseness
+
+INSTRUCTION:
+Rank from most to least clear and compact.
+
+ORIGINAL:
+Jayden Rees gives insightful, creative feedback but shows falling motivation, wanders off, work still decent.
+
+CANDIDATES:
+[1] Jayden, your feedback is consistently insightful and creative, adding significant value. However, we've observed a noticeable dip in your motivation and focus, including instances of distraction. While your current work output remains decent, we need to address this engagement trend. Let's discuss strategies to re-energize your contribution.
+[2] Jayden, your creative feedback is highly insightful. However, we've noticed a decline in your motivation and focus recently. While your work quality remains decent, let's connect to address this and ensure you stay engaged.
+[3] Jayden Rees provides insightful and creative feedback, demonstrating strong analytical skills. However, there's been a noticeable decline in motivation and focus, with occasional off-task behavior. While his work quality remains decent, increased engagement and consistency would enhance his overall performance.
+[4] Jayden consistently provides insightful and creative feedback, significantly contributing to team discussions. However, a recent decline in motivation has been observed, occasionally leading to disengagement during tasks. While work quality remains acceptable, addressing this dip in focus is crucial to fully leverage Jayden's valuable contributions and ensure sustained high performance.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer1|Idea-to-Text|A1|Q03",
+  "criterion": "Conciseness",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 4: A1_Q04_Accuracy -----
+You are Volunteer 1 in Group A.
+TASK TYPE: Idea-to-Text
+SAMPLE: A1
+CRITERION: Accuracy
+
+INSTRUCTION:
+Select all texts that are factually correct given the Original.
+
+ORIGINAL:
+Jayden Rees gives insightful, creative feedback but shows falling motivation, wanders off, work still decent.
+
+CANDIDATES:
+[1] Jayden Rees provides insightful and creative feedback, demonstrating strong analytical skills. However, there's been a noticeable decline in motivation and focus, with occasional off-task behavior. While his work quality remains decent, increased engagement and consistency would enhance his overall performance.
+[2] Jayden consistently provides insightful and creative feedback, significantly contributing to team discussions. However, a recent decline in motivation has been observed, occasionally leading to disengagement during tasks. While work quality remains acceptable, addressing this dip in focus is crucial to fully leverage Jayden's valuable contributions and ensure sustained high performance.
+[3] Jayden, your creative feedback is highly insightful. However, we've noticed a decline in your motivation and focus recently. While your work quality remains decent, let's connect to address this and ensure you stay engaged.
+[4] Jayden, your feedback is consistently insightful and creative, adding significant value. However, we've observed a noticeable dip in your motivation and focus, including instances of distraction. While your current work output remains decent, we need to address this engagement trend. Let's discuss strategies to re-energize your contribution.
+
+Please select all outputs that are factually correct given the Original.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer1|Idea-to-Text|A1|Q04",
+  "criterion": "Accuracy",
+  "rating": [1, 3],
+  "justifications": {
+    "1": "why candidate 1 is correct/incorrect in one sentence",
+    "2": "why candidate 2 is correct/incorrect in one sentence",
+    "3": "why candidate 3 is correct/incorrect in one sentence",
+    "4": "why candidate 4 is correct/incorrect in one sentence"
+  }
+}
+
+
+----- PROMPT 5: A1_Q05_Sentimentmatch -----
+You are Volunteer 1 in Group A.
+TASK TYPE: Idea-to-Text
+SAMPLE: A1
+CRITERION: Sentiment match
+
+INSTRUCTION:
+Rank from most to least similar to the Original in style and sentiment.
+
+ORIGINAL:
+Jayden Rees gives insightful, creative feedback but shows falling motivation, wanders off, work still decent.
+
+CANDIDATES:
+[1] Jayden consistently provides insightful and creative feedback, significantly contributing to team discussions. However, a recent decline in motivation has been observed, occasionally leading to disengagement during tasks. While work quality remains acceptable, addressing this dip in focus is crucial to fully leverage Jayden's valuable contributions and ensure sustained high performance.
+[2] Jayden, your creative feedback is highly insightful. However, we've noticed a decline in your motivation and focus recently. While your work quality remains decent, let's connect to address this and ensure you stay engaged.
+[3] Jayden, your feedback is consistently insightful and creative, adding significant value. However, we've observed a noticeable dip in your motivation and focus, including instances of distraction. While your current work output remains decent, we need to address this engagement trend. Let's discuss strategies to re-energize your contribution.
+[4] Jayden Rees provides insightful and creative feedback, demonstrating strong analytical skills. However, there's been a noticeable decline in motivation and focus, with occasional off-task behavior. While his work quality remains decent, increased engagement and consistency would enhance his overall performance.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer1|Idea-to-Text|A1|Q05",
+  "criterion": "Sentiment match",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 6: A1_Q06_Motivationaltone -----
+You are Volunteer 1 in Group A.
+TASK TYPE: Idea-to-Text
+SAMPLE: A1
+CRITERION: Motivational tone
+
+INSTRUCTION:
+Rank from most to least empathetic and encouraging.
+
+ORIGINAL:
+Jayden Rees gives insightful, creative feedback but shows falling motivation, wanders off, work still decent.
+
+CANDIDATES:
+[1] Jayden consistently provides insightful and creative feedback, significantly contributing to team discussions. However, a recent decline in motivation has been observed, occasionally leading to disengagement during tasks. While work quality remains acceptable, addressing this dip in focus is crucial to fully leverage Jayden's valuable contributions and ensure sustained high performance.
+[2] Jayden Rees provides insightful and creative feedback, demonstrating strong analytical skills. However, there's been a noticeable decline in motivation and focus, with occasional off-task behavior. While his work quality remains decent, increased engagement and consistency would enhance his overall performance.
+[3] Jayden, your creative feedback is highly insightful. However, we've noticed a decline in your motivation and focus recently. While your work quality remains decent, let's connect to address this and ensure you stay engaged.
+[4] Jayden, your feedback is consistently insightful and creative, adding significant value. However, we've observed a noticeable dip in your motivation and focus, including instances of distraction. While your current work output remains decent, we need to address this engagement trend. Let's discuss strategies to re-energize your contribution.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer1|Idea-to-Text|A1|Q06",
+  "criterion": "Motivational tone",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 7: A1_Q07_Constructiveness -----
+You are Volunteer 1 in Group A.
+TASK TYPE: Idea-to-Text
+SAMPLE: A1
+CRITERION: Constructiveness
+
+INSTRUCTION:
+Rank from most to least helpful and constructive.
+
+ORIGINAL:
+Jayden Rees gives insightful, creative feedback but shows falling motivation, wanders off, work still decent.
+
+CANDIDATES:
+[1] Jayden, your feedback is consistently insightful and creative, adding significant value. However, we've observed a noticeable dip in your motivation and focus, including instances of distraction. While your current work output remains decent, we need to address this engagement trend. Let's discuss strategies to re-energize your contribution.
+[2] Jayden Rees provides insightful and creative feedback, demonstrating strong analytical skills. However, there's been a noticeable decline in motivation and focus, with occasional off-task behavior. While his work quality remains decent, increased engagement and consistency would enhance his overall performance.
+[3] Jayden consistently provides insightful and creative feedback, significantly contributing to team discussions. However, a recent decline in motivation has been observed, occasionally leading to disengagement during tasks. While work quality remains acceptable, addressing this dip in focus is crucial to fully leverage Jayden's valuable contributions and ensure sustained high performance.
+[4] Jayden, your creative feedback is highly insightful. However, we've noticed a decline in your motivation and focus recently. While your work quality remains decent, let's connect to address this and ensure you stay engaged.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer1|Idea-to-Text|A1|Q07",
+  "criterion": "Constructiveness",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 8: A1_Q08_Finalchoice -----
+You are Volunteer 1 in Group A.
+TASK TYPE: Idea-to-Text
+SAMPLE: A1
+CRITERION: Final choice
+
+INSTRUCTION:
+Rank from most to least suitable as a final version.
+
+ORIGINAL:
+Jayden Rees gives insightful, creative feedback but shows falling motivation, wanders off, work still decent.
+
+CANDIDATES:
+[1] Jayden Rees provides insightful and creative feedback, demonstrating strong analytical skills. However, there's been a noticeable decline in motivation and focus, with occasional off-task behavior. While his work quality remains decent, increased engagement and consistency would enhance his overall performance.
+[2] Jayden, your creative feedback is highly insightful. However, we've noticed a decline in your motivation and focus recently. While your work quality remains decent, let's connect to address this and ensure you stay engaged.
+[3] Jayden consistently provides insightful and creative feedback, significantly contributing to team discussions. However, a recent decline in motivation has been observed, occasionally leading to disengagement during tasks. While work quality remains acceptable, addressing this dip in focus is crucial to fully leverage Jayden's valuable contributions and ensure sustained high performance.
+[4] Jayden, your feedback is consistently insightful and creative, adding significant value. However, we've observed a noticeable dip in your motivation and focus, including instances of distraction. While your current work output remains decent, we need to address this engagement trend. Let's discuss strategies to re-energize your contribution.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer1|Idea-to-Text|A1|Q08",
+  "criterion": "Final choice",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 9: A5_Q01_Fluency -----
+You are Volunteer 1 in Group A.
+TASK TYPE: Idea-to-Text
+SAMPLE: A5
+CRITERION: Fluency
+
+INSTRUCTION:
+Rank from most to least smooth and error-free.
+
+ORIGINAL:
+Briley McKnight excels at idea generation but struggles to execute and follow through.
+
+CANDIDATES:
+[1] Briley, you excel at generating innovative and valuable ideas. However, translating these ideas into action remains a challenge; we need to see stronger execution and consistent follow-through. Let's focus on developing concrete plans and accountability to bridge this gap between ideation and implementation.
+[2] Briley consistently demonstrates exceptional creativity and is a valuable asset in brainstorming sessions, frequently generating innovative ideas that significantly contribute to our strategic thinking. However, there's a recurring challenge with project execution and follow-through. To fully leverage Briley's potential, we need to focus on developing stronger project management skills and ensuring consistent task completion. This will involve clearer action planning and regular check-ins to translate brilliant concepts into tangible results.
+[3] Briley, your creativity in idea generation is a major asset. To grow, your focus should be on improving execution and follow-through. Let's create a plan with clear milestones to help turn your great ideas into reality.
+[4] Briley McKnight consistently demonstrates strong creativity and excels at generating innovative ideas. However, there is room for improvement in executing and following through on those ideas to ensure completion and impact. With greater focus on organization and accountability, Briley can further enhance overall effectiveness.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer1|Idea-to-Text|A5|Q01",
+  "criterion": "Fluency",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 10: A5_Q02_Coherence -----
+You are Volunteer 1 in Group A.
+TASK TYPE: Idea-to-Text
+SAMPLE: A5
+CRITERION: Coherence
+
+INSTRUCTION:
+Rank from most to least logical and easy to follow.
+
+ORIGINAL:
+Briley McKnight excels at idea generation but struggles to execute and follow through.
+
+CANDIDATES:
+[1] Briley, you excel at generating innovative and valuable ideas. However, translating these ideas into action remains a challenge; we need to see stronger execution and consistent follow-through. Let's focus on developing concrete plans and accountability to bridge this gap between ideation and implementation.
+[2] Briley McKnight consistently demonstrates strong creativity and excels at generating innovative ideas. However, there is room for improvement in executing and following through on those ideas to ensure completion and impact. With greater focus on organization and accountability, Briley can further enhance overall effectiveness.
+[3] Briley consistently demonstrates exceptional creativity and is a valuable asset in brainstorming sessions, frequently generating innovative ideas that significantly contribute to our strategic thinking. However, there's a recurring challenge with project execution and follow-through. To fully leverage Briley's potential, we need to focus on developing stronger project management skills and ensuring consistent task completion. This will involve clearer action planning and regular check-ins to translate brilliant concepts into tangible results.
+[4] Briley, your creativity in idea generation is a major asset. To grow, your focus should be on improving execution and follow-through. Let's create a plan with clear milestones to help turn your great ideas into reality.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer1|Idea-to-Text|A5|Q02",
+  "criterion": "Coherence",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 11: A5_Q03_Conciseness -----
+You are Volunteer 1 in Group A.
+TASK TYPE: Idea-to-Text
+SAMPLE: A5
+CRITERION: Conciseness
+
+INSTRUCTION:
+Rank from most to least clear and compact.
+
+ORIGINAL:
+Briley McKnight excels at idea generation but struggles to execute and follow through.
+
+CANDIDATES:
+[1] Briley McKnight consistently demonstrates strong creativity and excels at generating innovative ideas. However, there is room for improvement in executing and following through on those ideas to ensure completion and impact. With greater focus on organization and accountability, Briley can further enhance overall effectiveness.
+[2] Briley, your creativity in idea generation is a major asset. To grow, your focus should be on improving execution and follow-through. Let's create a plan with clear milestones to help turn your great ideas into reality.
+[3] Briley, you excel at generating innovative and valuable ideas. However, translating these ideas into action remains a challenge; we need to see stronger execution and consistent follow-through. Let's focus on developing concrete plans and accountability to bridge this gap between ideation and implementation.
+[4] Briley consistently demonstrates exceptional creativity and is a valuable asset in brainstorming sessions, frequently generating innovative ideas that significantly contribute to our strategic thinking. However, there's a recurring challenge with project execution and follow-through. To fully leverage Briley's potential, we need to focus on developing stronger project management skills and ensuring consistent task completion. This will involve clearer action planning and regular check-ins to translate brilliant concepts into tangible results.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer1|Idea-to-Text|A5|Q03",
+  "criterion": "Conciseness",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 12: A5_Q04_Accuracy -----
+You are Volunteer 1 in Group A.
+TASK TYPE: Idea-to-Text
+SAMPLE: A5
+CRITERION: Accuracy
+
+INSTRUCTION:
+Select all texts that are factually correct given the Original.
+
+ORIGINAL:
+Briley McKnight excels at idea generation but struggles to execute and follow through.
+
+CANDIDATES:
+[1] Briley McKnight consistently demonstrates strong creativity and excels at generating innovative ideas. However, there is room for improvement in executing and following through on those ideas to ensure completion and impact. With greater focus on organization and accountability, Briley can further enhance overall effectiveness.
+[2] Briley, you excel at generating innovative and valuable ideas. However, translating these ideas into action remains a challenge; we need to see stronger execution and consistent follow-through. Let's focus on developing concrete plans and accountability to bridge this gap between ideation and implementation.
+[3] Briley consistently demonstrates exceptional creativity and is a valuable asset in brainstorming sessions, frequently generating innovative ideas that significantly contribute to our strategic thinking. However, there's a recurring challenge with project execution and follow-through. To fully leverage Briley's potential, we need to focus on developing stronger project management skills and ensuring consistent task completion. This will involve clearer action planning and regular check-ins to translate brilliant concepts into tangible results.
+[4] Briley, your creativity in idea generation is a major asset. To grow, your focus should be on improving execution and follow-through. Let's create a plan with clear milestones to help turn your great ideas into reality.
+
+Please select all outputs that are factually correct given the Original.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer1|Idea-to-Text|A5|Q04",
+  "criterion": "Accuracy",
+  "rating": [1, 3],
+  "justifications": {
+    "1": "why candidate 1 is correct/incorrect in one sentence",
+    "2": "why candidate 2 is correct/incorrect in one sentence",
+    "3": "why candidate 3 is correct/incorrect in one sentence",
+    "4": "why candidate 4 is correct/incorrect in one sentence"
+  }
+}
+
+
+----- PROMPT 13: A5_Q05_Sentimentmatch -----
+You are Volunteer 1 in Group A.
+TASK TYPE: Idea-to-Text
+SAMPLE: A5
+CRITERION: Sentiment match
+
+INSTRUCTION:
+Rank from most to least similar to the Original in style and sentiment.
+
+ORIGINAL:
+Briley McKnight excels at idea generation but struggles to execute and follow through.
+
+CANDIDATES:
+[1] Briley McKnight consistently demonstrates strong creativity and excels at generating innovative ideas. However, there is room for improvement in executing and following through on those ideas to ensure completion and impact. With greater focus on organization and accountability, Briley can further enhance overall effectiveness.
+[2] Briley consistently demonstrates exceptional creativity and is a valuable asset in brainstorming sessions, frequently generating innovative ideas that significantly contribute to our strategic thinking. However, there's a recurring challenge with project execution and follow-through. To fully leverage Briley's potential, we need to focus on developing stronger project management skills and ensuring consistent task completion. This will involve clearer action planning and regular check-ins to translate brilliant concepts into tangible results.
+[3] Briley, your creativity in idea generation is a major asset. To grow, your focus should be on improving execution and follow-through. Let's create a plan with clear milestones to help turn your great ideas into reality.
+[4] Briley, you excel at generating innovative and valuable ideas. However, translating these ideas into action remains a challenge; we need to see stronger execution and consistent follow-through. Let's focus on developing concrete plans and accountability to bridge this gap between ideation and implementation.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer1|Idea-to-Text|A5|Q05",
+  "criterion": "Sentiment match",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 14: A5_Q06_Motivationaltone -----
+You are Volunteer 1 in Group A.
+TASK TYPE: Idea-to-Text
+SAMPLE: A5
+CRITERION: Motivational tone
+
+INSTRUCTION:
+Rank from most to least empathetic and encouraging.
+
+ORIGINAL:
+Briley McKnight excels at idea generation but struggles to execute and follow through.
+
+CANDIDATES:
+[1] Briley, you excel at generating innovative and valuable ideas. However, translating these ideas into action remains a challenge; we need to see stronger execution and consistent follow-through. Let's focus on developing concrete plans and accountability to bridge this gap between ideation and implementation.
+[2] Briley McKnight consistently demonstrates strong creativity and excels at generating innovative ideas. However, there is room for improvement in executing and following through on those ideas to ensure completion and impact. With greater focus on organization and accountability, Briley can further enhance overall effectiveness.
+[3] Briley, your creativity in idea generation is a major asset. To grow, your focus should be on improving execution and follow-through. Let's create a plan with clear milestones to help turn your great ideas into reality.
+[4] Briley consistently demonstrates exceptional creativity and is a valuable asset in brainstorming sessions, frequently generating innovative ideas that significantly contribute to our strategic thinking. However, there's a recurring challenge with project execution and follow-through. To fully leverage Briley's potential, we need to focus on developing stronger project management skills and ensuring consistent task completion. This will involve clearer action planning and regular check-ins to translate brilliant concepts into tangible results.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer1|Idea-to-Text|A5|Q06",
+  "criterion": "Motivational tone",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 15: A5_Q07_Constructiveness -----
+You are Volunteer 1 in Group A.
+TASK TYPE: Idea-to-Text
+SAMPLE: A5
+CRITERION: Constructiveness
+
+INSTRUCTION:
+Rank from most to least helpful and constructive.
+
+ORIGINAL:
+Briley McKnight excels at idea generation but struggles to execute and follow through.
+
+CANDIDATES:
+[1] Briley, you excel at generating innovative and valuable ideas. However, translating these ideas into action remains a challenge; we need to see stronger execution and consistent follow-through. Let's focus on developing concrete plans and accountability to bridge this gap between ideation and implementation.
+[2] Briley McKnight consistently demonstrates strong creativity and excels at generating innovative ideas. However, there is room for improvement in executing and following through on those ideas to ensure completion and impact. With greater focus on organization and accountability, Briley can further enhance overall effectiveness.
+[3] Briley consistently demonstrates exceptional creativity and is a valuable asset in brainstorming sessions, frequently generating innovative ideas that significantly contribute to our strategic thinking. However, there's a recurring challenge with project execution and follow-through. To fully leverage Briley's potential, we need to focus on developing stronger project management skills and ensuring consistent task completion. This will involve clearer action planning and regular check-ins to translate brilliant concepts into tangible results.
+[4] Briley, your creativity in idea generation is a major asset. To grow, your focus should be on improving execution and follow-through. Let's create a plan with clear milestones to help turn your great ideas into reality.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer1|Idea-to-Text|A5|Q07",
+  "criterion": "Constructiveness",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 16: A5_Q08_Finalchoice -----
+You are Volunteer 1 in Group A.
+TASK TYPE: Idea-to-Text
+SAMPLE: A5
+CRITERION: Final choice
+
+INSTRUCTION:
+Rank from most to least suitable as a final version.
+
+ORIGINAL:
+Briley McKnight excels at idea generation but struggles to execute and follow through.
+
+CANDIDATES:
+[1] Briley, your creativity in idea generation is a major asset. To grow, your focus should be on improving execution and follow-through. Let's create a plan with clear milestones to help turn your great ideas into reality.
+[2] Briley, you excel at generating innovative and valuable ideas. However, translating these ideas into action remains a challenge; we need to see stronger execution and consistent follow-through. Let's focus on developing concrete plans and accountability to bridge this gap between ideation and implementation.
+[3] Briley consistently demonstrates exceptional creativity and is a valuable asset in brainstorming sessions, frequently generating innovative ideas that significantly contribute to our strategic thinking. However, there's a recurring challenge with project execution and follow-through. To fully leverage Briley's potential, we need to focus on developing stronger project management skills and ensuring consistent task completion. This will involve clearer action planning and regular check-ins to translate brilliant concepts into tangible results.
+[4] Briley McKnight consistently demonstrates strong creativity and excels at generating innovative ideas. However, there is room for improvement in executing and following through on those ideas to ensure completion and impact. With greater focus on organization and accountability, Briley can further enhance overall effectiveness.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer1|Idea-to-Text|A5|Q08",
+  "criterion": "Final choice",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT SC1: SanityCheck_IdeaToText_Accuracy -----
+TASK TYPE: Idea-to-Text
+SAMPLE: SC1
+CRITERION: Accuracy
+
+INSTRUCTION:
+Rank from most to least factually correct given the Original.
+
+ORIGINAL:
+The sun appears to rise each morning from the eastern horizon before setting in the west
+
+CANDIDATES:
+[1] The sun rises in the east.
+[2] The sun rises in the west.
+[3] The moon rises in the east.
+[4] The sun never rises.
+
+Please rank outputs strictly from most accurate (1) to least accurate (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "Idea-to-Text|SC1|Q04",
+  "criterion": "Accuracy",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 17: A9_Q01_Fluency -----
+You are Volunteer 1 in Group A.
+TASK TYPE: Summarise
+SAMPLE: A9
+CRITERION: Fluency
+
+INSTRUCTION:
+Rank from most to least smooth and error-free.
+
+ORIGINAL:
+Mr. Reid has been with the company for the last two years. His work is consistent and he puts his full effort into his work. He follows instructions well, but his abilities seem limited to his current experience level. Other workers hired at the same time have shown more growth within the field.
+
+CANDIDATES:
+[1] Mr. Reid is a consistent and diligent worker who follows instructions well. However, he shows limited growth and skill development compared to his peers.
+[2] Mr. Reid is consistent and diligent, following instructions well. However, his growth has been limited compared to peers hired at the same time, indicating constrained development beyond his current experience level.
+[3] Reid: Consistent, full effort, follows instructions well. Limited growth vs peers hired same time.
+[4] Mr. Reid is a consistent, diligent worker, but his growth has plateaued compared to peers. He follows instructions well but lacks initiative for advanced tasks.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer1|Summarise|A9|Q01",
+  "criterion": "Fluency",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 18: A9_Q02_Coherence -----
+You are Volunteer 1 in Group A.
+TASK TYPE: Summarise
+SAMPLE: A9
+CRITERION: Coherence
+
+INSTRUCTION:
+Rank from most to least logical and easy to follow.
+
+ORIGINAL:
+Mr. Reid has been with the company for the last two years. His work is consistent and he puts his full effort into his work. He follows instructions well, but his abilities seem limited to his current experience level. Other workers hired at the same time have shown more growth within the field.
+
+CANDIDATES:
+[1] Mr. Reid is consistent and diligent, following instructions well. However, his growth has been limited compared to peers hired at the same time, indicating constrained development beyond his current experience level.
+[2] Mr. Reid is a consistent and diligent worker who follows instructions well. However, he shows limited growth and skill development compared to his peers.
+[3] Reid: Consistent, full effort, follows instructions well. Limited growth vs peers hired same time.
+[4] Mr. Reid is a consistent, diligent worker, but his growth has plateaued compared to peers. He follows instructions well but lacks initiative for advanced tasks.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer1|Summarise|A9|Q02",
+  "criterion": "Coherence",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 19: A9_Q03_Conciseness -----
+You are Volunteer 1 in Group A.
+TASK TYPE: Summarise
+SAMPLE: A9
+CRITERION: Conciseness
+
+INSTRUCTION:
+Rank from most to least clear and compact.
+
+ORIGINAL:
+Mr. Reid has been with the company for the last two years. His work is consistent and he puts his full effort into his work. He follows instructions well, but his abilities seem limited to his current experience level. Other workers hired at the same time have shown more growth within the field.
+
+CANDIDATES:
+[1] Mr. Reid is consistent and diligent, following instructions well. However, his growth has been limited compared to peers hired at the same time, indicating constrained development beyond his current experience level.
+[2] Mr. Reid is a consistent and diligent worker who follows instructions well. However, he shows limited growth and skill development compared to his peers.
+[3] Mr. Reid is a consistent, diligent worker, but his growth has plateaued compared to peers. He follows instructions well but lacks initiative for advanced tasks.
+[4] Reid: Consistent, full effort, follows instructions well. Limited growth vs peers hired same time.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer1|Summarise|A9|Q03",
+  "criterion": "Conciseness",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 20: A9_Q04_Accuracy -----
+You are Volunteer 1 in Group A.
+TASK TYPE: Summarise
+SAMPLE: A9
+CRITERION: Accuracy
+
+INSTRUCTION:
+Select all texts that are factually correct given the Original.
+
+ORIGINAL:
+Mr. Reid has been with the company for the last two years. His work is consistent and he puts his full effort into his work. He follows instructions well, but his abilities seem limited to his current experience level. Other workers hired at the same time have shown more growth within the field.
+
+CANDIDATES:
+[1] Mr. Reid is consistent and diligent, following instructions well. However, his growth has been limited compared to peers hired at the same time, indicating constrained development beyond his current experience level.
+[2] Reid: Consistent, full effort, follows instructions well. Limited growth vs peers hired same time.
+[3] Mr. Reid is a consistent, diligent worker, but his growth has plateaued compared to peers. He follows instructions well but lacks initiative for advanced tasks.
+[4] Mr. Reid is a consistent and diligent worker who follows instructions well. However, he shows limited growth and skill development compared to his peers.
+
+Please select all outputs that are factually correct given the Original.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer1|Summarise|A9|Q04",
+  "criterion": "Accuracy",
+  "rating": [1, 3],
+  "justifications": {
+    "1": "why candidate 1 is correct/incorrect in one sentence",
+    "2": "why candidate 2 is correct/incorrect in one sentence",
+    "3": "why candidate 3 is correct/incorrect in one sentence",
+    "4": "why candidate 4 is correct/incorrect in one sentence"
+  }
+}
+
+
+----- PROMPT 21: A9_Q05_Sentimentmatch -----
+You are Volunteer 1 in Group A.
+TASK TYPE: Summarise
+SAMPLE: A9
+CRITERION: Sentiment match
+
+INSTRUCTION:
+Rank from most to least similar to the Original in style and sentiment.
+
+ORIGINAL:
+Mr. Reid has been with the company for the last two years. His work is consistent and he puts his full effort into his work. He follows instructions well, but his abilities seem limited to his current experience level. Other workers hired at the same time have shown more growth within the field.
+
+CANDIDATES:
+[1] Mr. Reid is a consistent and diligent worker who follows instructions well. However, he shows limited growth and skill development compared to his peers.
+[2] Mr. Reid is a consistent, diligent worker, but his growth has plateaued compared to peers. He follows instructions well but lacks initiative for advanced tasks.
+[3] Reid: Consistent, full effort, follows instructions well. Limited growth vs peers hired same time.
+[4] Mr. Reid is consistent and diligent, following instructions well. However, his growth has been limited compared to peers hired at the same time, indicating constrained development beyond his current experience level.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer1|Summarise|A9|Q05",
+  "criterion": "Sentiment match",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 22: A9_Q06_Motivationaltone -----
+You are Volunteer 1 in Group A.
+TASK TYPE: Summarise
+SAMPLE: A9
+CRITERION: Motivational tone
+
+INSTRUCTION:
+Rank from most to least empathetic and encouraging.
+
+ORIGINAL:
+Mr. Reid has been with the company for the last two years. His work is consistent and he puts his full effort into his work. He follows instructions well, but his abilities seem limited to his current experience level. Other workers hired at the same time have shown more growth within the field.
+
+CANDIDATES:
+[1] Reid: Consistent, full effort, follows instructions well. Limited growth vs peers hired same time.
+[2] Mr. Reid is a consistent and diligent worker who follows instructions well. However, he shows limited growth and skill development compared to his peers.
+[3] Mr. Reid is consistent and diligent, following instructions well. However, his growth has been limited compared to peers hired at the same time, indicating constrained development beyond his current experience level.
+[4] Mr. Reid is a consistent, diligent worker, but his growth has plateaued compared to peers. He follows instructions well but lacks initiative for advanced tasks.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer1|Summarise|A9|Q06",
+  "criterion": "Motivational tone",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 23: A9_Q07_Constructiveness -----
+You are Volunteer 1 in Group A.
+TASK TYPE: Summarise
+SAMPLE: A9
+CRITERION: Constructiveness
+
+INSTRUCTION:
+Rank from most to least helpful and constructive.
+
+ORIGINAL:
+Mr. Reid has been with the company for the last two years. His work is consistent and he puts his full effort into his work. He follows instructions well, but his abilities seem limited to his current experience level. Other workers hired at the same time have shown more growth within the field.
+
+CANDIDATES:
+[1] Mr. Reid is consistent and diligent, following instructions well. However, his growth has been limited compared to peers hired at the same time, indicating constrained development beyond his current experience level.
+[2] Reid: Consistent, full effort, follows instructions well. Limited growth vs peers hired same time.
+[3] Mr. Reid is a consistent, diligent worker, but his growth has plateaued compared to peers. He follows instructions well but lacks initiative for advanced tasks.
+[4] Mr. Reid is a consistent and diligent worker who follows instructions well. However, he shows limited growth and skill development compared to his peers.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer1|Summarise|A9|Q07",
+  "criterion": "Constructiveness",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 24: A9_Q08_Finalchoice -----
+You are Volunteer 1 in Group A.
+TASK TYPE: Summarise
+SAMPLE: A9
+CRITERION: Final choice
+
+INSTRUCTION:
+Rank from most to least suitable as a final version.
+
+ORIGINAL:
+Mr. Reid has been with the company for the last two years. His work is consistent and he puts his full effort into his work. He follows instructions well, but his abilities seem limited to his current experience level. Other workers hired at the same time have shown more growth within the field.
+
+CANDIDATES:
+[1] Mr. Reid is a consistent, diligent worker, but his growth has plateaued compared to peers. He follows instructions well but lacks initiative for advanced tasks.
+[2] Mr. Reid is a consistent and diligent worker who follows instructions well. However, he shows limited growth and skill development compared to his peers.
+[3] Mr. Reid is consistent and diligent, following instructions well. However, his growth has been limited compared to peers hired at the same time, indicating constrained development beyond his current experience level.
+[4] Reid: Consistent, full effort, follows instructions well. Limited growth vs peers hired same time.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer1|Summarise|A9|Q08",
+  "criterion": "Final choice",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 25: A10_Q01_Fluency -----
+You are Volunteer 1 in Group A.
+TASK TYPE: Summarise
+SAMPLE: A10
+CRITERION: Fluency
+
+INSTRUCTION:
+Rank from most to least smooth and error-free.
+
+ORIGINAL:
+Alex's work is greatly appreciated. He achieves at the level that is expected of him and complies with what is expected. He is a valuable asset to our team. I would like to see Alex to strive to go above and behind in his work. I believe that he has great potential to become a more critical component within the company. Alex can strive to improve his communication skills in specifically.
+
+CANDIDATES:
+[1] Alex is a valued, compliant team member. He meets expectations but should strive for excellence, especially in communication, to reach his full potential and become a more critical asset.
+[2] Alex is a valuable asset who meets expectations. To realize his high potential, he should strive to exceed his duties and improve his communication skills.
+[3] Alex: Greatly appreciated, meets expectations, valuable asset. Needs to go above & beyond, improve communication.
+[4] Alex is a valued team member who meets expectations and contributes positively. He has strong potential to take on a more critical role. To grow further, he should aim to exceed expectations and improve his communication skills.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer1|Summarise|A10|Q01",
+  "criterion": "Fluency",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 26: A10_Q02_Coherence -----
+You are Volunteer 1 in Group A.
+TASK TYPE: Summarise
+SAMPLE: A10
+CRITERION: Coherence
+
+INSTRUCTION:
+Rank from most to least logical and easy to follow.
+
+ORIGINAL:
+Alex's work is greatly appreciated. He achieves at the level that is expected of him and complies with what is expected. He is a valuable asset to our team. I would like to see Alex to strive to go above and behind in his work. I believe that he has great potential to become a more critical component within the company. Alex can strive to improve his communication skills in specifically.
+
+CANDIDATES:
+[1] Alex is a valued team member who meets expectations and contributes positively. He has strong potential to take on a more critical role. To grow further, he should aim to exceed expectations and improve his communication skills.
+[2] Alex: Greatly appreciated, meets expectations, valuable asset. Needs to go above & beyond, improve communication.
+[3] Alex is a valued, compliant team member. He meets expectations but should strive for excellence, especially in communication, to reach his full potential and become a more critical asset.
+[4] Alex is a valuable asset who meets expectations. To realize his high potential, he should strive to exceed his duties and improve his communication skills.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer1|Summarise|A10|Q02",
+  "criterion": "Coherence",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 27: A10_Q03_Conciseness -----
+You are Volunteer 1 in Group A.
+TASK TYPE: Summarise
+SAMPLE: A10
+CRITERION: Conciseness
+
+INSTRUCTION:
+Rank from most to least clear and compact.
+
+ORIGINAL:
+Alex's work is greatly appreciated. He achieves at the level that is expected of him and complies with what is expected. He is a valuable asset to our team. I would like to see Alex to strive to go above and behind in his work. I believe that he has great potential to become a more critical component within the company. Alex can strive to improve his communication skills in specifically.
+
+CANDIDATES:
+[1] Alex is a valuable asset who meets expectations. To realize his high potential, he should strive to exceed his duties and improve his communication skills.
+[2] Alex: Greatly appreciated, meets expectations, valuable asset. Needs to go above & beyond, improve communication.
+[3] Alex is a valued team member who meets expectations and contributes positively. He has strong potential to take on a more critical role. To grow further, he should aim to exceed expectations and improve his communication skills.
+[4] Alex is a valued, compliant team member. He meets expectations but should strive for excellence, especially in communication, to reach his full potential and become a more critical asset.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer1|Summarise|A10|Q03",
+  "criterion": "Conciseness",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 28: A10_Q04_Accuracy -----
+You are Volunteer 1 in Group A.
+TASK TYPE: Summarise
+SAMPLE: A10
+CRITERION: Accuracy
+
+INSTRUCTION:
+Select all texts that are factually correct given the Original.
+
+ORIGINAL:
+Alex's work is greatly appreciated. He achieves at the level that is expected of him and complies with what is expected. He is a valuable asset to our team. I would like to see Alex to strive to go above and behind in his work. I believe that he has great potential to become a more critical component within the company. Alex can strive to improve his communication skills in specifically.
+
+CANDIDATES:
+[1] Alex is a valuable asset who meets expectations. To realize his high potential, he should strive to exceed his duties and improve his communication skills.
+[2] Alex: Greatly appreciated, meets expectations, valuable asset. Needs to go above & beyond, improve communication.
+[3] Alex is a valued, compliant team member. He meets expectations but should strive for excellence, especially in communication, to reach his full potential and become a more critical asset.
+[4] Alex is a valued team member who meets expectations and contributes positively. He has strong potential to take on a more critical role. To grow further, he should aim to exceed expectations and improve his communication skills.
+
+Please select all outputs that are factually correct given the Original.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer1|Summarise|A10|Q04",
+  "criterion": "Accuracy",
+  "rating": [1, 3],
+  "justifications": {
+    "1": "why candidate 1 is correct/incorrect in one sentence",
+    "2": "why candidate 2 is correct/incorrect in one sentence",
+    "3": "why candidate 3 is correct/incorrect in one sentence",
+    "4": "why candidate 4 is correct/incorrect in one sentence"
+  }
+}
+
+
+----- PROMPT 29: A10_Q05_Sentimentmatch -----
+You are Volunteer 1 in Group A.
+TASK TYPE: Summarise
+SAMPLE: A10
+CRITERION: Sentiment match
+
+INSTRUCTION:
+Rank from most to least similar to the Original in style and sentiment.
+
+ORIGINAL:
+Alex's work is greatly appreciated. He achieves at the level that is expected of him and complies with what is expected. He is a valuable asset to our team. I would like to see Alex to strive to go above and behind in his work. I believe that he has great potential to become a more critical component within the company. Alex can strive to improve his communication skills in specifically.
+
+CANDIDATES:
+[1] Alex is a valued, compliant team member. He meets expectations but should strive for excellence, especially in communication, to reach his full potential and become a more critical asset.
+[2] Alex: Greatly appreciated, meets expectations, valuable asset. Needs to go above & beyond, improve communication.
+[3] Alex is a valued team member who meets expectations and contributes positively. He has strong potential to take on a more critical role. To grow further, he should aim to exceed expectations and improve his communication skills.
+[4] Alex is a valuable asset who meets expectations. To realize his high potential, he should strive to exceed his duties and improve his communication skills.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer1|Summarise|A10|Q05",
+  "criterion": "Sentiment match",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 30: A10_Q06_Motivationaltone -----
+You are Volunteer 1 in Group A.
+TASK TYPE: Summarise
+SAMPLE: A10
+CRITERION: Motivational tone
+
+INSTRUCTION:
+Rank from most to least empathetic and encouraging.
+
+ORIGINAL:
+Alex's work is greatly appreciated. He achieves at the level that is expected of him and complies with what is expected. He is a valuable asset to our team. I would like to see Alex to strive to go above and behind in his work. I believe that he has great potential to become a more critical component within the company. Alex can strive to improve his communication skills in specifically.
+
+CANDIDATES:
+[1] Alex: Greatly appreciated, meets expectations, valuable asset. Needs to go above & beyond, improve communication.
+[2] Alex is a valuable asset who meets expectations. To realize his high potential, he should strive to exceed his duties and improve his communication skills.
+[3] Alex is a valued, compliant team member. He meets expectations but should strive for excellence, especially in communication, to reach his full potential and become a more critical asset.
+[4] Alex is a valued team member who meets expectations and contributes positively. He has strong potential to take on a more critical role. To grow further, he should aim to exceed expectations and improve his communication skills.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer1|Summarise|A10|Q06",
+  "criterion": "Motivational tone",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 31: A10_Q07_Constructiveness -----
+You are Volunteer 1 in Group A.
+TASK TYPE: Summarise
+SAMPLE: A10
+CRITERION: Constructiveness
+
+INSTRUCTION:
+Rank from most to least helpful and constructive.
+
+ORIGINAL:
+Alex's work is greatly appreciated. He achieves at the level that is expected of him and complies with what is expected. He is a valuable asset to our team. I would like to see Alex to strive to go above and behind in his work. I believe that he has great potential to become a more critical component within the company. Alex can strive to improve his communication skills in specifically.
+
+CANDIDATES:
+[1] Alex is a valued team member who meets expectations and contributes positively. He has strong potential to take on a more critical role. To grow further, he should aim to exceed expectations and improve his communication skills.
+[2] Alex: Greatly appreciated, meets expectations, valuable asset. Needs to go above & beyond, improve communication.
+[3] Alex is a valued, compliant team member. He meets expectations but should strive for excellence, especially in communication, to reach his full potential and become a more critical asset.
+[4] Alex is a valuable asset who meets expectations. To realize his high potential, he should strive to exceed his duties and improve his communication skills.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer1|Summarise|A10|Q07",
+  "criterion": "Constructiveness",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 32: A10_Q08_Finalchoice -----
+You are Volunteer 1 in Group A.
+TASK TYPE: Summarise
+SAMPLE: A10
+CRITERION: Final choice
+
+INSTRUCTION:
+Rank from most to least suitable as a final version.
+
+ORIGINAL:
+Alex's work is greatly appreciated. He achieves at the level that is expected of him and complies with what is expected. He is a valuable asset to our team. I would like to see Alex to strive to go above and behind in his work. I believe that he has great potential to become a more critical component within the company. Alex can strive to improve his communication skills in specifically.
+
+CANDIDATES:
+[1] Alex is a valuable asset who meets expectations. To realize his high potential, he should strive to exceed his duties and improve his communication skills.
+[2] Alex is a valued, compliant team member. He meets expectations but should strive for excellence, especially in communication, to reach his full potential and become a more critical asset.
+[3] Alex: Greatly appreciated, meets expectations, valuable asset. Needs to go above & beyond, improve communication.
+[4] Alex is a valued team member who meets expectations and contributes positively. He has strong potential to take on a more critical role. To grow further, he should aim to exceed expectations and improve his communication skills.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer1|Summarise|A10|Q08",
+  "criterion": "Final choice",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT SC2: SanityCheck_Summarise_Accuracy -----
+TASK TYPE: Summarise
+SAMPLE: SC2
+CRITERION: Accuracy
+
+INSTRUCTION:
+Rank from most to least factually correct given the Original.
+
+ORIGINAL:
+Pure water begins to freeze at exactly zero degrees Celsius
+
+CANDIDATES:
+[1] Water freezes at at 0°C.
+[2] Water freezes at 100°C.
+[3] Water boils at 0°C.
+[4] Ice melts at 0°C.
+
+Please rank outputs strictly from most accurate (1) to least accurate (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "Summarise|SC2|Q04",
+  "criterion": "Accuracy",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 33: A15_Q01_Fluency -----
+You are Volunteer 1 in Group A.
+TASK TYPE: Interpret
+SAMPLE: A15
+CRITERION: Fluency
+
+INSTRUCTION:
+Rank from most to least smooth and error-free.
+
+ORIGINAL:
+Dean is overall a very effective worker. He is very punctual; he always shows up to work on time and gets his work done in the time allotted. The marketing content he produces for our organization is appealing and spot on for our target audience. He is a great team player and knows how to collaborate with his team and not step on any toes. One area that needs work is that he is not a risk taker and rarely initiates new ideas and projects of his own, but rather waits to be told what to do.
+
+CANDIDATES:
+[1] Dean is a reliable, punctual, and skilled contributor whose marketing content consistently resonates with the target audience, and he collaborates effectively within his team. His ability to deliver quality work on time reflects strong execution skills and professionalism. However, growth opportunities lie in becoming more proactive—specifically, in generating and championing new ideas independently. To build on his strengths, Dean should schedule regular brainstorming sessions with colleagues to explore innovative concepts, volunteer to lead a small new project to build confidence in ownership, seek feedback on his ideas to refine them, and set monthly goals for initiating improvements or proposals. Taking these steps will help him evolve from a dependable performer to a more visible leader within the team.
+[2] The feedback means Dean reliably completes punctual, audience-aligned work and collaborates well but rarely initiates ideas. This suggests he’s valued operationally but needs innovation to access higher roles. Dean should: 1) Submit one creative content idea monthly, 2) Research a competitor’s campaign for inspiration, 3) Volunteer to co-lead a small experimental project next quarter.
+[3] Dean is a very punctual, effective, and collaborative team player. The feedback suggests his career growth is limited by a reluctance to initiate ideas or take risks. Dean can address this by volunteering to lead a small project and by regularly sharing new marketing concepts with his team.
+[4] Dean, your manager sees you as a highly effective, punctual, and collaborative team member who consistently delivers excellent marketing content. The primary area for growth is to proactively initiate new ideas and projects rather than waiting for direction. To address this, Dean should brainstorm and propose at least two new marketing content ideas, volunteer to lead a small, innovative project, and schedule a meeting with his manager to discuss opportunities for taking more initiative.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer1|Interpret|A15|Q01",
+  "criterion": "Fluency",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 34: A15_Q02_Coherence -----
+You are Volunteer 1 in Group A.
+TASK TYPE: Interpret
+SAMPLE: A15
+CRITERION: Coherence
+
+INSTRUCTION:
+Rank from most to least logical and easy to follow.
+
+ORIGINAL:
+Dean is overall a very effective worker. He is very punctual; he always shows up to work on time and gets his work done in the time allotted. The marketing content he produces for our organization is appealing and spot on for our target audience. He is a great team player and knows how to collaborate with his team and not step on any toes. One area that needs work is that he is not a risk taker and rarely initiates new ideas and projects of his own, but rather waits to be told what to do.
+
+CANDIDATES:
+[1] The feedback means Dean reliably completes punctual, audience-aligned work and collaborates well but rarely initiates ideas. This suggests he’s valued operationally but needs innovation to access higher roles. Dean should: 1) Submit one creative content idea monthly, 2) Research a competitor’s campaign for inspiration, 3) Volunteer to co-lead a small experimental project next quarter.
+[2] Dean is a reliable, punctual, and skilled contributor whose marketing content consistently resonates with the target audience, and he collaborates effectively within his team. His ability to deliver quality work on time reflects strong execution skills and professionalism. However, growth opportunities lie in becoming more proactive—specifically, in generating and championing new ideas independently. To build on his strengths, Dean should schedule regular brainstorming sessions with colleagues to explore innovative concepts, volunteer to lead a small new project to build confidence in ownership, seek feedback on his ideas to refine them, and set monthly goals for initiating improvements or proposals. Taking these steps will help him evolve from a dependable performer to a more visible leader within the team.
+[3] Dean is a very punctual, effective, and collaborative team player. The feedback suggests his career growth is limited by a reluctance to initiate ideas or take risks. Dean can address this by volunteering to lead a small project and by regularly sharing new marketing concepts with his team.
+[4] Dean, your manager sees you as a highly effective, punctual, and collaborative team member who consistently delivers excellent marketing content. The primary area for growth is to proactively initiate new ideas and projects rather than waiting for direction. To address this, Dean should brainstorm and propose at least two new marketing content ideas, volunteer to lead a small, innovative project, and schedule a meeting with his manager to discuss opportunities for taking more initiative.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer1|Interpret|A15|Q02",
+  "criterion": "Coherence",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 35: A15_Q03_Conciseness -----
+You are Volunteer 1 in Group A.
+TASK TYPE: Interpret
+SAMPLE: A15
+CRITERION: Conciseness
+
+INSTRUCTION:
+Rank from most to least clear and compact.
+
+ORIGINAL:
+Dean is overall a very effective worker. He is very punctual; he always shows up to work on time and gets his work done in the time allotted. The marketing content he produces for our organization is appealing and spot on for our target audience. He is a great team player and knows how to collaborate with his team and not step on any toes. One area that needs work is that he is not a risk taker and rarely initiates new ideas and projects of his own, but rather waits to be told what to do.
+
+CANDIDATES:
+[1] The feedback means Dean reliably completes punctual, audience-aligned work and collaborates well but rarely initiates ideas. This suggests he’s valued operationally but needs innovation to access higher roles. Dean should: 1) Submit one creative content idea monthly, 2) Research a competitor’s campaign for inspiration, 3) Volunteer to co-lead a small experimental project next quarter.
+[2] Dean, your manager sees you as a highly effective, punctual, and collaborative team member who consistently delivers excellent marketing content. The primary area for growth is to proactively initiate new ideas and projects rather than waiting for direction. To address this, Dean should brainstorm and propose at least two new marketing content ideas, volunteer to lead a small, innovative project, and schedule a meeting with his manager to discuss opportunities for taking more initiative.
+[3] Dean is a very punctual, effective, and collaborative team player. The feedback suggests his career growth is limited by a reluctance to initiate ideas or take risks. Dean can address this by volunteering to lead a small project and by regularly sharing new marketing concepts with his team.
+[4] Dean is a reliable, punctual, and skilled contributor whose marketing content consistently resonates with the target audience, and he collaborates effectively within his team. His ability to deliver quality work on time reflects strong execution skills and professionalism. However, growth opportunities lie in becoming more proactive—specifically, in generating and championing new ideas independently. To build on his strengths, Dean should schedule regular brainstorming sessions with colleagues to explore innovative concepts, volunteer to lead a small new project to build confidence in ownership, seek feedback on his ideas to refine them, and set monthly goals for initiating improvements or proposals. Taking these steps will help him evolve from a dependable performer to a more visible leader within the team.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer1|Interpret|A15|Q03",
+  "criterion": "Conciseness",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 36: A15_Q04_Accuracy -----
+You are Volunteer 1 in Group A.
+TASK TYPE: Interpret
+SAMPLE: A15
+CRITERION: Accuracy
+
+INSTRUCTION:
+Select all texts that are factually correct given the Original.
+
+ORIGINAL:
+Dean is overall a very effective worker. He is very punctual; he always shows up to work on time and gets his work done in the time allotted. The marketing content he produces for our organization is appealing and spot on for our target audience. He is a great team player and knows how to collaborate with his team and not step on any toes. One area that needs work is that he is not a risk taker and rarely initiates new ideas and projects of his own, but rather waits to be told what to do.
+
+CANDIDATES:
+[1] The feedback means Dean reliably completes punctual, audience-aligned work and collaborates well but rarely initiates ideas. This suggests he’s valued operationally but needs innovation to access higher roles. Dean should: 1) Submit one creative content idea monthly, 2) Research a competitor’s campaign for inspiration, 3) Volunteer to co-lead a small experimental project next quarter.
+[2] Dean is a reliable, punctual, and skilled contributor whose marketing content consistently resonates with the target audience, and he collaborates effectively within his team. His ability to deliver quality work on time reflects strong execution skills and professionalism. However, growth opportunities lie in becoming more proactive—specifically, in generating and championing new ideas independently. To build on his strengths, Dean should schedule regular brainstorming sessions with colleagues to explore innovative concepts, volunteer to lead a small new project to build confidence in ownership, seek feedback on his ideas to refine them, and set monthly goals for initiating improvements or proposals. Taking these steps will help him evolve from a dependable performer to a more visible leader within the team.
+[3] Dean is a very punctual, effective, and collaborative team player. The feedback suggests his career growth is limited by a reluctance to initiate ideas or take risks. Dean can address this by volunteering to lead a small project and by regularly sharing new marketing concepts with his team.
+[4] Dean, your manager sees you as a highly effective, punctual, and collaborative team member who consistently delivers excellent marketing content. The primary area for growth is to proactively initiate new ideas and projects rather than waiting for direction. To address this, Dean should brainstorm and propose at least two new marketing content ideas, volunteer to lead a small, innovative project, and schedule a meeting with his manager to discuss opportunities for taking more initiative.
+
+Please select all outputs that are factually correct given the Original.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer1|Interpret|A15|Q04",
+  "criterion": "Accuracy",
+  "rating": [1, 3],
+  "justifications": {
+    "1": "why candidate 1 is correct/incorrect in one sentence",
+    "2": "why candidate 2 is correct/incorrect in one sentence",
+    "3": "why candidate 3 is correct/incorrect in one sentence",
+    "4": "why candidate 4 is correct/incorrect in one sentence"
+  }
+}
+
+
+----- PROMPT 37: A15_Q05_Sentimentmatch -----
+You are Volunteer 1 in Group A.
+TASK TYPE: Interpret
+SAMPLE: A15
+CRITERION: Sentiment match
+
+INSTRUCTION:
+Rank from most to least similar to the Original in style and sentiment.
+
+ORIGINAL:
+Dean is overall a very effective worker. He is very punctual; he always shows up to work on time and gets his work done in the time allotted. The marketing content he produces for our organization is appealing and spot on for our target audience. He is a great team player and knows how to collaborate with his team and not step on any toes. One area that needs work is that he is not a risk taker and rarely initiates new ideas and projects of his own, but rather waits to be told what to do.
+
+CANDIDATES:
+[1] Dean is a very punctual, effective, and collaborative team player. The feedback suggests his career growth is limited by a reluctance to initiate ideas or take risks. Dean can address this by volunteering to lead a small project and by regularly sharing new marketing concepts with his team.
+[2] Dean, your manager sees you as a highly effective, punctual, and collaborative team member who consistently delivers excellent marketing content. The primary area for growth is to proactively initiate new ideas and projects rather than waiting for direction. To address this, Dean should brainstorm and propose at least two new marketing content ideas, volunteer to lead a small, innovative project, and schedule a meeting with his manager to discuss opportunities for taking more initiative.
+[3] The feedback means Dean reliably completes punctual, audience-aligned work and collaborates well but rarely initiates ideas. This suggests he’s valued operationally but needs innovation to access higher roles. Dean should: 1) Submit one creative content idea monthly, 2) Research a competitor’s campaign for inspiration, 3) Volunteer to co-lead a small experimental project next quarter.
+[4] Dean is a reliable, punctual, and skilled contributor whose marketing content consistently resonates with the target audience, and he collaborates effectively within his team. His ability to deliver quality work on time reflects strong execution skills and professionalism. However, growth opportunities lie in becoming more proactive—specifically, in generating and championing new ideas independently. To build on his strengths, Dean should schedule regular brainstorming sessions with colleagues to explore innovative concepts, volunteer to lead a small new project to build confidence in ownership, seek feedback on his ideas to refine them, and set monthly goals for initiating improvements or proposals. Taking these steps will help him evolve from a dependable performer to a more visible leader within the team.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer1|Interpret|A15|Q05",
+  "criterion": "Sentiment match",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 38: A15_Q06_Motivationaltone -----
+You are Volunteer 1 in Group A.
+TASK TYPE: Interpret
+SAMPLE: A15
+CRITERION: Motivational tone
+
+INSTRUCTION:
+Rank from most to least empathetic and encouraging.
+
+ORIGINAL:
+Dean is overall a very effective worker. He is very punctual; he always shows up to work on time and gets his work done in the time allotted. The marketing content he produces for our organization is appealing and spot on for our target audience. He is a great team player and knows how to collaborate with his team and not step on any toes. One area that needs work is that he is not a risk taker and rarely initiates new ideas and projects of his own, but rather waits to be told what to do.
+
+CANDIDATES:
+[1] Dean, your manager sees you as a highly effective, punctual, and collaborative team member who consistently delivers excellent marketing content. The primary area for growth is to proactively initiate new ideas and projects rather than waiting for direction. To address this, Dean should brainstorm and propose at least two new marketing content ideas, volunteer to lead a small, innovative project, and schedule a meeting with his manager to discuss opportunities for taking more initiative.
+[2] The feedback means Dean reliably completes punctual, audience-aligned work and collaborates well but rarely initiates ideas. This suggests he’s valued operationally but needs innovation to access higher roles. Dean should: 1) Submit one creative content idea monthly, 2) Research a competitor’s campaign for inspiration, 3) Volunteer to co-lead a small experimental project next quarter.
+[3] Dean is a reliable, punctual, and skilled contributor whose marketing content consistently resonates with the target audience, and he collaborates effectively within his team. His ability to deliver quality work on time reflects strong execution skills and professionalism. However, growth opportunities lie in becoming more proactive—specifically, in generating and championing new ideas independently. To build on his strengths, Dean should schedule regular brainstorming sessions with colleagues to explore innovative concepts, volunteer to lead a small new project to build confidence in ownership, seek feedback on his ideas to refine them, and set monthly goals for initiating improvements or proposals. Taking these steps will help him evolve from a dependable performer to a more visible leader within the team.
+[4] Dean is a very punctual, effective, and collaborative team player. The feedback suggests his career growth is limited by a reluctance to initiate ideas or take risks. Dean can address this by volunteering to lead a small project and by regularly sharing new marketing concepts with his team.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer1|Interpret|A15|Q06",
+  "criterion": "Motivational tone",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 39: A15_Q07_Constructiveness -----
+You are Volunteer 1 in Group A.
+TASK TYPE: Interpret
+SAMPLE: A15
+CRITERION: Constructiveness
+
+INSTRUCTION:
+Rank from most to least helpful and constructive.
+
+ORIGINAL:
+Dean is overall a very effective worker. He is very punctual; he always shows up to work on time and gets his work done in the time allotted. The marketing content he produces for our organization is appealing and spot on for our target audience. He is a great team player and knows how to collaborate with his team and not step on any toes. One area that needs work is that he is not a risk taker and rarely initiates new ideas and projects of his own, but rather waits to be told what to do.
+
+CANDIDATES:
+[1] Dean is a very punctual, effective, and collaborative team player. The feedback suggests his career growth is limited by a reluctance to initiate ideas or take risks. Dean can address this by volunteering to lead a small project and by regularly sharing new marketing concepts with his team.
+[2] The feedback means Dean reliably completes punctual, audience-aligned work and collaborates well but rarely initiates ideas. This suggests he’s valued operationally but needs innovation to access higher roles. Dean should: 1) Submit one creative content idea monthly, 2) Research a competitor’s campaign for inspiration, 3) Volunteer to co-lead a small experimental project next quarter.
+[3] Dean, your manager sees you as a highly effective, punctual, and collaborative team member who consistently delivers excellent marketing content. The primary area for growth is to proactively initiate new ideas and projects rather than waiting for direction. To address this, Dean should brainstorm and propose at least two new marketing content ideas, volunteer to lead a small, innovative project, and schedule a meeting with his manager to discuss opportunities for taking more initiative.
+[4] Dean is a reliable, punctual, and skilled contributor whose marketing content consistently resonates with the target audience, and he collaborates effectively within his team. His ability to deliver quality work on time reflects strong execution skills and professionalism. However, growth opportunities lie in becoming more proactive—specifically, in generating and championing new ideas independently. To build on his strengths, Dean should schedule regular brainstorming sessions with colleagues to explore innovative concepts, volunteer to lead a small new project to build confidence in ownership, seek feedback on his ideas to refine them, and set monthly goals for initiating improvements or proposals. Taking these steps will help him evolve from a dependable performer to a more visible leader within the team.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer1|Interpret|A15|Q07",
+  "criterion": "Constructiveness",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 40: A15_Q08_Finalchoice -----
+You are Volunteer 1 in Group A.
+TASK TYPE: Interpret
+SAMPLE: A15
+CRITERION: Final choice
+
+INSTRUCTION:
+Rank from most to least suitable as a final version.
+
+ORIGINAL:
+Dean is overall a very effective worker. He is very punctual; he always shows up to work on time and gets his work done in the time allotted. The marketing content he produces for our organization is appealing and spot on for our target audience. He is a great team player and knows how to collaborate with his team and not step on any toes. One area that needs work is that he is not a risk taker and rarely initiates new ideas and projects of his own, but rather waits to be told what to do.
+
+CANDIDATES:
+[1] Dean is a very punctual, effective, and collaborative team player. The feedback suggests his career growth is limited by a reluctance to initiate ideas or take risks. Dean can address this by volunteering to lead a small project and by regularly sharing new marketing concepts with his team.
+[2] Dean, your manager sees you as a highly effective, punctual, and collaborative team member who consistently delivers excellent marketing content. The primary area for growth is to proactively initiate new ideas and projects rather than waiting for direction. To address this, Dean should brainstorm and propose at least two new marketing content ideas, volunteer to lead a small, innovative project, and schedule a meeting with his manager to discuss opportunities for taking more initiative.
+[3] Dean is a reliable, punctual, and skilled contributor whose marketing content consistently resonates with the target audience, and he collaborates effectively within his team. His ability to deliver quality work on time reflects strong execution skills and professionalism. However, growth opportunities lie in becoming more proactive—specifically, in generating and championing new ideas independently. To build on his strengths, Dean should schedule regular brainstorming sessions with colleagues to explore innovative concepts, volunteer to lead a small new project to build confidence in ownership, seek feedback on his ideas to refine them, and set monthly goals for initiating improvements or proposals. Taking these steps will help him evolve from a dependable performer to a more visible leader within the team.
+[4] The feedback means Dean reliably completes punctual, audience-aligned work and collaborates well but rarely initiates ideas. This suggests he’s valued operationally but needs innovation to access higher roles. Dean should: 1) Submit one creative content idea monthly, 2) Research a competitor’s campaign for inspiration, 3) Volunteer to co-lead a small experimental project next quarter.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer1|Interpret|A15|Q08",
+  "criterion": "Final choice",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 41: A17_Q01_Fluency -----
+You are Volunteer 1 in Group A.
+TASK TYPE: Interpret
+SAMPLE: A17
+CRITERION: Fluency
+
+INSTRUCTION:
+Rank from most to least smooth and error-free.
+
+ORIGINAL:
+Dean has contributed heavily to the project in the past quarter. He has led the team charts in task completion. However, he has struggled with taking up responsibilities to deliver complex tasks. He also does not handle high pressure situations well.
+
+CANDIDATES:
+[1] Dean is a top contributor in task completion but struggles with complex work and high-pressure situations, limiting his growth into senior roles. He can improve by asking to partner with a senior colleague on a complex project and by breaking down difficult tasks into smaller, more manageable parts.
+[2] Dean, your manager recognizes your significant contributions and high task completion rate this quarter, which is commendable. However, the feedback indicates a need for growth in handling complex tasks and performing under pressure. This suggests that while you excel at individual contributions, there's an opportunity to develop your capacity for more challenging, high-stakes assignments. To address this, Dean should proactively seek opportunities to shadow colleagues on complex tasks, practice stress management techniques, and communicate openly with his manager about his development goals and willingness to take on new challenges.
+[3] The feedback means Dean excels in task volume but struggles with complex or high-pressure responsibilities. This indicates high output but risks in scaling his role. Dean should: 1) Partner with a senior colleague on one complex task monthly, 2) Break high-pressure goals into smaller steps, 3) Practice stress-management techniques before deadlines.
+[4] Dean has been a top performer in task completion and has significantly contributed to the project, showing strong initiative and reliability in managing workloads. However, he faces challenges with complex responsibilities and maintaining composure under pressure, which may limit growth into higher-leadership roles. To grow, Dean should seek mentorship from senior team members on navigating complexity, practice structured problem-solving techniques, proactively communicate early when feeling overwhelmed, and take on stretch assignments in a supported environment to build confidence and resilience.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer1|Interpret|A17|Q01",
+  "criterion": "Fluency",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 42: A17_Q02_Coherence -----
+You are Volunteer 1 in Group A.
+TASK TYPE: Interpret
+SAMPLE: A17
+CRITERION: Coherence
+
+INSTRUCTION:
+Rank from most to least logical and easy to follow.
+
+ORIGINAL:
+Dean has contributed heavily to the project in the past quarter. He has led the team charts in task completion. However, he has struggled with taking up responsibilities to deliver complex tasks. He also does not handle high pressure situations well.
+
+CANDIDATES:
+[1] Dean has been a top performer in task completion and has significantly contributed to the project, showing strong initiative and reliability in managing workloads. However, he faces challenges with complex responsibilities and maintaining composure under pressure, which may limit growth into higher-leadership roles. To grow, Dean should seek mentorship from senior team members on navigating complexity, practice structured problem-solving techniques, proactively communicate early when feeling overwhelmed, and take on stretch assignments in a supported environment to build confidence and resilience.
+[2] Dean, your manager recognizes your significant contributions and high task completion rate this quarter, which is commendable. However, the feedback indicates a need for growth in handling complex tasks and performing under pressure. This suggests that while you excel at individual contributions, there's an opportunity to develop your capacity for more challenging, high-stakes assignments. To address this, Dean should proactively seek opportunities to shadow colleagues on complex tasks, practice stress management techniques, and communicate openly with his manager about his development goals and willingness to take on new challenges.
+[3] Dean is a top contributor in task completion but struggles with complex work and high-pressure situations, limiting his growth into senior roles. He can improve by asking to partner with a senior colleague on a complex project and by breaking down difficult tasks into smaller, more manageable parts.
+[4] The feedback means Dean excels in task volume but struggles with complex or high-pressure responsibilities. This indicates high output but risks in scaling his role. Dean should: 1) Partner with a senior colleague on one complex task monthly, 2) Break high-pressure goals into smaller steps, 3) Practice stress-management techniques before deadlines.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer1|Interpret|A17|Q02",
+  "criterion": "Coherence",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 43: A17_Q03_Conciseness -----
+You are Volunteer 1 in Group A.
+TASK TYPE: Interpret
+SAMPLE: A17
+CRITERION: Conciseness
+
+INSTRUCTION:
+Rank from most to least clear and compact.
+
+ORIGINAL:
+Dean has contributed heavily to the project in the past quarter. He has led the team charts in task completion. However, he has struggled with taking up responsibilities to deliver complex tasks. He also does not handle high pressure situations well.
+
+CANDIDATES:
+[1] Dean has been a top performer in task completion and has significantly contributed to the project, showing strong initiative and reliability in managing workloads. However, he faces challenges with complex responsibilities and maintaining composure under pressure, which may limit growth into higher-leadership roles. To grow, Dean should seek mentorship from senior team members on navigating complexity, practice structured problem-solving techniques, proactively communicate early when feeling overwhelmed, and take on stretch assignments in a supported environment to build confidence and resilience.
+[2] Dean, your manager recognizes your significant contributions and high task completion rate this quarter, which is commendable. However, the feedback indicates a need for growth in handling complex tasks and performing under pressure. This suggests that while you excel at individual contributions, there's an opportunity to develop your capacity for more challenging, high-stakes assignments. To address this, Dean should proactively seek opportunities to shadow colleagues on complex tasks, practice stress management techniques, and communicate openly with his manager about his development goals and willingness to take on new challenges.
+[3] Dean is a top contributor in task completion but struggles with complex work and high-pressure situations, limiting his growth into senior roles. He can improve by asking to partner with a senior colleague on a complex project and by breaking down difficult tasks into smaller, more manageable parts.
+[4] The feedback means Dean excels in task volume but struggles with complex or high-pressure responsibilities. This indicates high output but risks in scaling his role. Dean should: 1) Partner with a senior colleague on one complex task monthly, 2) Break high-pressure goals into smaller steps, 3) Practice stress-management techniques before deadlines.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer1|Interpret|A17|Q03",
+  "criterion": "Conciseness",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 44: A17_Q04_Accuracy -----
+You are Volunteer 1 in Group A.
+TASK TYPE: Interpret
+SAMPLE: A17
+CRITERION: Accuracy
+
+INSTRUCTION:
+Select all texts that are factually correct given the Original.
+
+ORIGINAL:
+Dean has contributed heavily to the project in the past quarter. He has led the team charts in task completion. However, he has struggled with taking up responsibilities to deliver complex tasks. He also does not handle high pressure situations well.
+
+CANDIDATES:
+[1] Dean, your manager recognizes your significant contributions and high task completion rate this quarter, which is commendable. However, the feedback indicates a need for growth in handling complex tasks and performing under pressure. This suggests that while you excel at individual contributions, there's an opportunity to develop your capacity for more challenging, high-stakes assignments. To address this, Dean should proactively seek opportunities to shadow colleagues on complex tasks, practice stress management techniques, and communicate openly with his manager about his development goals and willingness to take on new challenges.
+[2] Dean has been a top performer in task completion and has significantly contributed to the project, showing strong initiative and reliability in managing workloads. However, he faces challenges with complex responsibilities and maintaining composure under pressure, which may limit growth into higher-leadership roles. To grow, Dean should seek mentorship from senior team members on navigating complexity, practice structured problem-solving techniques, proactively communicate early when feeling overwhelmed, and take on stretch assignments in a supported environment to build confidence and resilience.
+[3] Dean is a top contributor in task completion but struggles with complex work and high-pressure situations, limiting his growth into senior roles. He can improve by asking to partner with a senior colleague on a complex project and by breaking down difficult tasks into smaller, more manageable parts.
+[4] The feedback means Dean excels in task volume but struggles with complex or high-pressure responsibilities. This indicates high output but risks in scaling his role. Dean should: 1) Partner with a senior colleague on one complex task monthly, 2) Break high-pressure goals into smaller steps, 3) Practice stress-management techniques before deadlines.
+
+Please select all outputs that are factually correct given the Original.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer1|Interpret|A17|Q04",
+  "criterion": "Accuracy",
+  "rating": [1, 3],
+  "justifications": {
+    "1": "why candidate 1 is correct/incorrect in one sentence",
+    "2": "why candidate 2 is correct/incorrect in one sentence",
+    "3": "why candidate 3 is correct/incorrect in one sentence",
+    "4": "why candidate 4 is correct/incorrect in one sentence"
+  }
+}
+
+
+----- PROMPT 45: A17_Q05_Sentimentmatch -----
+You are Volunteer 1 in Group A.
+TASK TYPE: Interpret
+SAMPLE: A17
+CRITERION: Sentiment match
+
+INSTRUCTION:
+Rank from most to least similar to the Original in style and sentiment.
+
+ORIGINAL:
+Dean has contributed heavily to the project in the past quarter. He has led the team charts in task completion. However, he has struggled with taking up responsibilities to deliver complex tasks. He also does not handle high pressure situations well.
+
+CANDIDATES:
+[1] Dean is a top contributor in task completion but struggles with complex work and high-pressure situations, limiting his growth into senior roles. He can improve by asking to partner with a senior colleague on a complex project and by breaking down difficult tasks into smaller, more manageable parts.
+[2] Dean, your manager recognizes your significant contributions and high task completion rate this quarter, which is commendable. However, the feedback indicates a need for growth in handling complex tasks and performing under pressure. This suggests that while you excel at individual contributions, there's an opportunity to develop your capacity for more challenging, high-stakes assignments. To address this, Dean should proactively seek opportunities to shadow colleagues on complex tasks, practice stress management techniques, and communicate openly with his manager about his development goals and willingness to take on new challenges.
+[3] Dean has been a top performer in task completion and has significantly contributed to the project, showing strong initiative and reliability in managing workloads. However, he faces challenges with complex responsibilities and maintaining composure under pressure, which may limit growth into higher-leadership roles. To grow, Dean should seek mentorship from senior team members on navigating complexity, practice structured problem-solving techniques, proactively communicate early when feeling overwhelmed, and take on stretch assignments in a supported environment to build confidence and resilience.
+[4] The feedback means Dean excels in task volume but struggles with complex or high-pressure responsibilities. This indicates high output but risks in scaling his role. Dean should: 1) Partner with a senior colleague on one complex task monthly, 2) Break high-pressure goals into smaller steps, 3) Practice stress-management techniques before deadlines.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer1|Interpret|A17|Q05",
+  "criterion": "Sentiment match",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 46: A17_Q06_Motivationaltone -----
+You are Volunteer 1 in Group A.
+TASK TYPE: Interpret
+SAMPLE: A17
+CRITERION: Motivational tone
+
+INSTRUCTION:
+Rank from most to least empathetic and encouraging.
+
+ORIGINAL:
+Dean has contributed heavily to the project in the past quarter. He has led the team charts in task completion. However, he has struggled with taking up responsibilities to deliver complex tasks. He also does not handle high pressure situations well.
+
+CANDIDATES:
+[1] Dean, your manager recognizes your significant contributions and high task completion rate this quarter, which is commendable. However, the feedback indicates a need for growth in handling complex tasks and performing under pressure. This suggests that while you excel at individual contributions, there's an opportunity to develop your capacity for more challenging, high-stakes assignments. To address this, Dean should proactively seek opportunities to shadow colleagues on complex tasks, practice stress management techniques, and communicate openly with his manager about his development goals and willingness to take on new challenges.
+[2] The feedback means Dean excels in task volume but struggles with complex or high-pressure responsibilities. This indicates high output but risks in scaling his role. Dean should: 1) Partner with a senior colleague on one complex task monthly, 2) Break high-pressure goals into smaller steps, 3) Practice stress-management techniques before deadlines.
+[3] Dean has been a top performer in task completion and has significantly contributed to the project, showing strong initiative and reliability in managing workloads. However, he faces challenges with complex responsibilities and maintaining composure under pressure, which may limit growth into higher-leadership roles. To grow, Dean should seek mentorship from senior team members on navigating complexity, practice structured problem-solving techniques, proactively communicate early when feeling overwhelmed, and take on stretch assignments in a supported environment to build confidence and resilience.
+[4] Dean is a top contributor in task completion but struggles with complex work and high-pressure situations, limiting his growth into senior roles. He can improve by asking to partner with a senior colleague on a complex project and by breaking down difficult tasks into smaller, more manageable parts.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer1|Interpret|A17|Q06",
+  "criterion": "Motivational tone",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 47: A17_Q07_Constructiveness -----
+You are Volunteer 1 in Group A.
+TASK TYPE: Interpret
+SAMPLE: A17
+CRITERION: Constructiveness
+
+INSTRUCTION:
+Rank from most to least helpful and constructive.
+
+ORIGINAL:
+Dean has contributed heavily to the project in the past quarter. He has led the team charts in task completion. However, he has struggled with taking up responsibilities to deliver complex tasks. He also does not handle high pressure situations well.
+
+CANDIDATES:
+[1] Dean is a top contributor in task completion but struggles with complex work and high-pressure situations, limiting his growth into senior roles. He can improve by asking to partner with a senior colleague on a complex project and by breaking down difficult tasks into smaller, more manageable parts.
+[2] The feedback means Dean excels in task volume but struggles with complex or high-pressure responsibilities. This indicates high output but risks in scaling his role. Dean should: 1) Partner with a senior colleague on one complex task monthly, 2) Break high-pressure goals into smaller steps, 3) Practice stress-management techniques before deadlines.
+[3] Dean has been a top performer in task completion and has significantly contributed to the project, showing strong initiative and reliability in managing workloads. However, he faces challenges with complex responsibilities and maintaining composure under pressure, which may limit growth into higher-leadership roles. To grow, Dean should seek mentorship from senior team members on navigating complexity, practice structured problem-solving techniques, proactively communicate early when feeling overwhelmed, and take on stretch assignments in a supported environment to build confidence and resilience.
+[4] Dean, your manager recognizes your significant contributions and high task completion rate this quarter, which is commendable. However, the feedback indicates a need for growth in handling complex tasks and performing under pressure. This suggests that while you excel at individual contributions, there's an opportunity to develop your capacity for more challenging, high-stakes assignments. To address this, Dean should proactively seek opportunities to shadow colleagues on complex tasks, practice stress management techniques, and communicate openly with his manager about his development goals and willingness to take on new challenges.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer1|Interpret|A17|Q07",
+  "criterion": "Constructiveness",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 48: A17_Q08_Finalchoice -----
+You are Volunteer 1 in Group A.
+TASK TYPE: Interpret
+SAMPLE: A17
+CRITERION: Final choice
+
+INSTRUCTION:
+Rank from most to least suitable as a final version.
+
+ORIGINAL:
+Dean has contributed heavily to the project in the past quarter. He has led the team charts in task completion. However, he has struggled with taking up responsibilities to deliver complex tasks. He also does not handle high pressure situations well.
+
+CANDIDATES:
+[1] Dean has been a top performer in task completion and has significantly contributed to the project, showing strong initiative and reliability in managing workloads. However, he faces challenges with complex responsibilities and maintaining composure under pressure, which may limit growth into higher-leadership roles. To grow, Dean should seek mentorship from senior team members on navigating complexity, practice structured problem-solving techniques, proactively communicate early when feeling overwhelmed, and take on stretch assignments in a supported environment to build confidence and resilience.
+[2] Dean is a top contributor in task completion but struggles with complex work and high-pressure situations, limiting his growth into senior roles. He can improve by asking to partner with a senior colleague on a complex project and by breaking down difficult tasks into smaller, more manageable parts.
+[3] Dean, your manager recognizes your significant contributions and high task completion rate this quarter, which is commendable. However, the feedback indicates a need for growth in handling complex tasks and performing under pressure. This suggests that while you excel at individual contributions, there's an opportunity to develop your capacity for more challenging, high-stakes assignments. To address this, Dean should proactively seek opportunities to shadow colleagues on complex tasks, practice stress management techniques, and communicate openly with his manager about his development goals and willingness to take on new challenges.
+[4] The feedback means Dean excels in task volume but struggles with complex or high-pressure responsibilities. This indicates high output but risks in scaling his role. Dean should: 1) Partner with a senior colleague on one complex task monthly, 2) Break high-pressure goals into smaller steps, 3) Practice stress-management techniques before deadlines.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer1|Interpret|A17|Q08",
+  "criterion": "Final choice",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+

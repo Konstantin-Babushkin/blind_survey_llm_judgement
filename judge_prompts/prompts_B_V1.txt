@@ -1,0 +1,1698 @@
+----- PROMPT 1: B2_Q01_Fluency -----
+You are Volunteer 1 in Group B.
+TASK TYPE: Idea-to-Text
+SAMPLE: B2
+CRITERION: Fluency
+
+INSTRUCTION:
+Rank from most to least smooth and error-free.
+
+ORIGINAL:
+Kyle Lawson meets baseline expectations but lacks initiative; stretch goals required for advancement.
+
+CANDIDATES:
+[1] Kyle Lawson consistently meets baseline expectations and delivers reliable work. However, he tends to lack initiative and rarely pursues opportunities beyond assigned tasks. To be considered for advancement, Kyle should actively engage in stretch goals, demonstrate proactive problem-solving, and seek ways to contribute beyond core responsibilities. Continued growth in these areas will be essential for progression.
+[2] Kyle, you consistently meet baseline performance expectations. To advance, we encourage you to demonstrate greater initiative and proactive problem-solving. We will discuss setting specific, challenging stretch goals designed to develop these skills and position you for future growth opportunities.
+[3] Kyle, you reliably meet all core job requirements. To support your career advancement, we encourage you to demonstrate more initiative. Let's define some stretch goals together to help you develop in this area.
+[4] Kyle consistently meets core job requirements, demonstrating reliability in his role. To progress to the next level, we encourage Kyle to proactively seek out new challenges and demonstrate greater initiative in identifying and pursuing opportunities for improvement or innovation. Setting and achieving stretch goals will be key for his continued professional development and advancement within the company.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer1|Idea-to-Text|B2|Q01",
+  "criterion": "Fluency",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 2: B2_Q02_Coherence -----
+You are Volunteer 1 in Group B.
+TASK TYPE: Idea-to-Text
+SAMPLE: B2
+CRITERION: Coherence
+
+INSTRUCTION:
+Rank from most to least logical and easy to follow.
+
+ORIGINAL:
+Kyle Lawson meets baseline expectations but lacks initiative; stretch goals required for advancement.
+
+CANDIDATES:
+[1] Kyle, you consistently meet baseline performance expectations. To advance, we encourage you to demonstrate greater initiative and proactive problem-solving. We will discuss setting specific, challenging stretch goals designed to develop these skills and position you for future growth opportunities.
+[2] Kyle consistently meets core job requirements, demonstrating reliability in his role. To progress to the next level, we encourage Kyle to proactively seek out new challenges and demonstrate greater initiative in identifying and pursuing opportunities for improvement or innovation. Setting and achieving stretch goals will be key for his continued professional development and advancement within the company.
+[3] Kyle Lawson consistently meets baseline expectations and delivers reliable work. However, he tends to lack initiative and rarely pursues opportunities beyond assigned tasks. To be considered for advancement, Kyle should actively engage in stretch goals, demonstrate proactive problem-solving, and seek ways to contribute beyond core responsibilities. Continued growth in these areas will be essential for progression.
+[4] Kyle, you reliably meet all core job requirements. To support your career advancement, we encourage you to demonstrate more initiative. Let's define some stretch goals together to help you develop in this area.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer1|Idea-to-Text|B2|Q02",
+  "criterion": "Coherence",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 3: B2_Q03_Conciseness -----
+You are Volunteer 1 in Group B.
+TASK TYPE: Idea-to-Text
+SAMPLE: B2
+CRITERION: Conciseness
+
+INSTRUCTION:
+Rank from most to least clear and compact.
+
+ORIGINAL:
+Kyle Lawson meets baseline expectations but lacks initiative; stretch goals required for advancement.
+
+CANDIDATES:
+[1] Kyle, you consistently meet baseline performance expectations. To advance, we encourage you to demonstrate greater initiative and proactive problem-solving. We will discuss setting specific, challenging stretch goals designed to develop these skills and position you for future growth opportunities.
+[2] Kyle, you reliably meet all core job requirements. To support your career advancement, we encourage you to demonstrate more initiative. Let's define some stretch goals together to help you develop in this area.
+[3] Kyle Lawson consistently meets baseline expectations and delivers reliable work. However, he tends to lack initiative and rarely pursues opportunities beyond assigned tasks. To be considered for advancement, Kyle should actively engage in stretch goals, demonstrate proactive problem-solving, and seek ways to contribute beyond core responsibilities. Continued growth in these areas will be essential for progression.
+[4] Kyle consistently meets core job requirements, demonstrating reliability in his role. To progress to the next level, we encourage Kyle to proactively seek out new challenges and demonstrate greater initiative in identifying and pursuing opportunities for improvement or innovation. Setting and achieving stretch goals will be key for his continued professional development and advancement within the company.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer1|Idea-to-Text|B2|Q03",
+  "criterion": "Conciseness",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 4: B2_Q04_Accuracy -----
+You are Volunteer 1 in Group B.
+TASK TYPE: Idea-to-Text
+SAMPLE: B2
+CRITERION: Accuracy
+
+INSTRUCTION:
+Select all texts that are factually correct given the Original.
+
+ORIGINAL:
+Kyle Lawson meets baseline expectations but lacks initiative; stretch goals required for advancement.
+
+CANDIDATES:
+[1] Kyle Lawson consistently meets baseline expectations and delivers reliable work. However, he tends to lack initiative and rarely pursues opportunities beyond assigned tasks. To be considered for advancement, Kyle should actively engage in stretch goals, demonstrate proactive problem-solving, and seek ways to contribute beyond core responsibilities. Continued growth in these areas will be essential for progression.
+[2] Kyle consistently meets core job requirements, demonstrating reliability in his role. To progress to the next level, we encourage Kyle to proactively seek out new challenges and demonstrate greater initiative in identifying and pursuing opportunities for improvement or innovation. Setting and achieving stretch goals will be key for his continued professional development and advancement within the company.
+[3] Kyle, you reliably meet all core job requirements. To support your career advancement, we encourage you to demonstrate more initiative. Let's define some stretch goals together to help you develop in this area.
+[4] Kyle, you consistently meet baseline performance expectations. To advance, we encourage you to demonstrate greater initiative and proactive problem-solving. We will discuss setting specific, challenging stretch goals designed to develop these skills and position you for future growth opportunities.
+
+Please select all outputs that are factually correct given the Original.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer1|Idea-to-Text|B2|Q04",
+  "criterion": "Accuracy",
+  "rating": [1, 3],
+  "justifications": {
+    "1": "why candidate 1 is correct/incorrect in one sentence",
+    "2": "why candidate 2 is correct/incorrect in one sentence",
+    "3": "why candidate 3 is correct/incorrect in one sentence",
+    "4": "why candidate 4 is correct/incorrect in one sentence"
+  }
+}
+
+
+----- PROMPT 5: B2_Q05_Sentimentmatch -----
+You are Volunteer 1 in Group B.
+TASK TYPE: Idea-to-Text
+SAMPLE: B2
+CRITERION: Sentiment match
+
+INSTRUCTION:
+Rank from most to least similar to the Original in style and sentiment.
+
+ORIGINAL:
+Kyle Lawson meets baseline expectations but lacks initiative; stretch goals required for advancement.
+
+CANDIDATES:
+[1] Kyle consistently meets core job requirements, demonstrating reliability in his role. To progress to the next level, we encourage Kyle to proactively seek out new challenges and demonstrate greater initiative in identifying and pursuing opportunities for improvement or innovation. Setting and achieving stretch goals will be key for his continued professional development and advancement within the company.
+[2] Kyle, you reliably meet all core job requirements. To support your career advancement, we encourage you to demonstrate more initiative. Let's define some stretch goals together to help you develop in this area.
+[3] Kyle, you consistently meet baseline performance expectations. To advance, we encourage you to demonstrate greater initiative and proactive problem-solving. We will discuss setting specific, challenging stretch goals designed to develop these skills and position you for future growth opportunities.
+[4] Kyle Lawson consistently meets baseline expectations and delivers reliable work. However, he tends to lack initiative and rarely pursues opportunities beyond assigned tasks. To be considered for advancement, Kyle should actively engage in stretch goals, demonstrate proactive problem-solving, and seek ways to contribute beyond core responsibilities. Continued growth in these areas will be essential for progression.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer1|Idea-to-Text|B2|Q05",
+  "criterion": "Sentiment match",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 6: B2_Q06_Motivationaltone -----
+You are Volunteer 1 in Group B.
+TASK TYPE: Idea-to-Text
+SAMPLE: B2
+CRITERION: Motivational tone
+
+INSTRUCTION:
+Rank from most to least empathetic and encouraging.
+
+ORIGINAL:
+Kyle Lawson meets baseline expectations but lacks initiative; stretch goals required for advancement.
+
+CANDIDATES:
+[1] Kyle consistently meets core job requirements, demonstrating reliability in his role. To progress to the next level, we encourage Kyle to proactively seek out new challenges and demonstrate greater initiative in identifying and pursuing opportunities for improvement or innovation. Setting and achieving stretch goals will be key for his continued professional development and advancement within the company.
+[2] Kyle Lawson consistently meets baseline expectations and delivers reliable work. However, he tends to lack initiative and rarely pursues opportunities beyond assigned tasks. To be considered for advancement, Kyle should actively engage in stretch goals, demonstrate proactive problem-solving, and seek ways to contribute beyond core responsibilities. Continued growth in these areas will be essential for progression.
+[3] Kyle, you reliably meet all core job requirements. To support your career advancement, we encourage you to demonstrate more initiative. Let's define some stretch goals together to help you develop in this area.
+[4] Kyle, you consistently meet baseline performance expectations. To advance, we encourage you to demonstrate greater initiative and proactive problem-solving. We will discuss setting specific, challenging stretch goals designed to develop these skills and position you for future growth opportunities.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer1|Idea-to-Text|B2|Q06",
+  "criterion": "Motivational tone",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 7: B2_Q07_Constructiveness -----
+You are Volunteer 1 in Group B.
+TASK TYPE: Idea-to-Text
+SAMPLE: B2
+CRITERION: Constructiveness
+
+INSTRUCTION:
+Rank from most to least helpful and constructive.
+
+ORIGINAL:
+Kyle Lawson meets baseline expectations but lacks initiative; stretch goals required for advancement.
+
+CANDIDATES:
+[1] Kyle, you consistently meet baseline performance expectations. To advance, we encourage you to demonstrate greater initiative and proactive problem-solving. We will discuss setting specific, challenging stretch goals designed to develop these skills and position you for future growth opportunities.
+[2] Kyle Lawson consistently meets baseline expectations and delivers reliable work. However, he tends to lack initiative and rarely pursues opportunities beyond assigned tasks. To be considered for advancement, Kyle should actively engage in stretch goals, demonstrate proactive problem-solving, and seek ways to contribute beyond core responsibilities. Continued growth in these areas will be essential for progression.
+[3] Kyle consistently meets core job requirements, demonstrating reliability in his role. To progress to the next level, we encourage Kyle to proactively seek out new challenges and demonstrate greater initiative in identifying and pursuing opportunities for improvement or innovation. Setting and achieving stretch goals will be key for his continued professional development and advancement within the company.
+[4] Kyle, you reliably meet all core job requirements. To support your career advancement, we encourage you to demonstrate more initiative. Let's define some stretch goals together to help you develop in this area.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer1|Idea-to-Text|B2|Q07",
+  "criterion": "Constructiveness",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 8: B2_Q08_Finalchoice -----
+You are Volunteer 1 in Group B.
+TASK TYPE: Idea-to-Text
+SAMPLE: B2
+CRITERION: Final choice
+
+INSTRUCTION:
+Rank from most to least suitable as a final version.
+
+ORIGINAL:
+Kyle Lawson meets baseline expectations but lacks initiative; stretch goals required for advancement.
+
+CANDIDATES:
+[1] Kyle Lawson consistently meets baseline expectations and delivers reliable work. However, he tends to lack initiative and rarely pursues opportunities beyond assigned tasks. To be considered for advancement, Kyle should actively engage in stretch goals, demonstrate proactive problem-solving, and seek ways to contribute beyond core responsibilities. Continued growth in these areas will be essential for progression.
+[2] Kyle, you reliably meet all core job requirements. To support your career advancement, we encourage you to demonstrate more initiative. Let's define some stretch goals together to help you develop in this area.
+[3] Kyle consistently meets core job requirements, demonstrating reliability in his role. To progress to the next level, we encourage Kyle to proactively seek out new challenges and demonstrate greater initiative in identifying and pursuing opportunities for improvement or innovation. Setting and achieving stretch goals will be key for his continued professional development and advancement within the company.
+[4] Kyle, you consistently meet baseline performance expectations. To advance, we encourage you to demonstrate greater initiative and proactive problem-solving. We will discuss setting specific, challenging stretch goals designed to develop these skills and position you for future growth opportunities.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer1|Idea-to-Text|B2|Q08",
+  "criterion": "Final choice",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 9: B3_Q01_Fluency -----
+You are Volunteer 1 in Group B.
+TASK TYPE: Idea-to-Text
+SAMPLE: B3
+CRITERION: Fluency
+
+INSTRUCTION:
+Rank from most to least smooth and error-free.
+
+ORIGINAL:
+John Doe’s performance is regressing, risking clients; reassignment or exit should be considered.
+
+CANDIDATES:
+[1] John, recent performance trends show significant regression, raising concerns about client impact. This level is unsustainable. We need to discuss this urgently and carefully evaluate appropriate next steps, which may include performance improvement plans, reassignment possibilities, or potential exit, to ensure team and client stability.
+[2] John Doe's recent performance shows a concerning decline, particularly impacting client relationships and project delivery. This regression poses a significant risk to our client satisfaction and business reputation. We need to address this urgently, exploring options such as reassignment to a role that better aligns with his current capabilities or, if improvement isn't seen, considering separation.
+[3] John, we have serious concerns about your regressing performance, which is now creating risk with our clients. We must discuss an immediate improvement plan, which may include reassignment or a potential exit.
+[4] John Doe's recent performance shows a concerning decline, with repeated errors impacting client outcomes and team reliability. Despite previous feedback, there has been minimal improvement. Given the risk to client relationships and project success, leadership should evaluate options for reassignment or separation.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer1|Idea-to-Text|B3|Q01",
+  "criterion": "Fluency",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 10: B3_Q02_Coherence -----
+You are Volunteer 1 in Group B.
+TASK TYPE: Idea-to-Text
+SAMPLE: B3
+CRITERION: Coherence
+
+INSTRUCTION:
+Rank from most to least logical and easy to follow.
+
+ORIGINAL:
+John Doe’s performance is regressing, risking clients; reassignment or exit should be considered.
+
+CANDIDATES:
+[1] John, recent performance trends show significant regression, raising concerns about client impact. This level is unsustainable. We need to discuss this urgently and carefully evaluate appropriate next steps, which may include performance improvement plans, reassignment possibilities, or potential exit, to ensure team and client stability.
+[2] John Doe's recent performance shows a concerning decline, with repeated errors impacting client outcomes and team reliability. Despite previous feedback, there has been minimal improvement. Given the risk to client relationships and project success, leadership should evaluate options for reassignment or separation.
+[3] John Doe's recent performance shows a concerning decline, particularly impacting client relationships and project delivery. This regression poses a significant risk to our client satisfaction and business reputation. We need to address this urgently, exploring options such as reassignment to a role that better aligns with his current capabilities or, if improvement isn't seen, considering separation.
+[4] John, we have serious concerns about your regressing performance, which is now creating risk with our clients. We must discuss an immediate improvement plan, which may include reassignment or a potential exit.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer1|Idea-to-Text|B3|Q02",
+  "criterion": "Coherence",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 11: B3_Q03_Conciseness -----
+You are Volunteer 1 in Group B.
+TASK TYPE: Idea-to-Text
+SAMPLE: B3
+CRITERION: Conciseness
+
+INSTRUCTION:
+Rank from most to least clear and compact.
+
+ORIGINAL:
+John Doe’s performance is regressing, risking clients; reassignment or exit should be considered.
+
+CANDIDATES:
+[1] John Doe's recent performance shows a concerning decline, with repeated errors impacting client outcomes and team reliability. Despite previous feedback, there has been minimal improvement. Given the risk to client relationships and project success, leadership should evaluate options for reassignment or separation.
+[2] John, we have serious concerns about your regressing performance, which is now creating risk with our clients. We must discuss an immediate improvement plan, which may include reassignment or a potential exit.
+[3] John, recent performance trends show significant regression, raising concerns about client impact. This level is unsustainable. We need to discuss this urgently and carefully evaluate appropriate next steps, which may include performance improvement plans, reassignment possibilities, or potential exit, to ensure team and client stability.
+[4] John Doe's recent performance shows a concerning decline, particularly impacting client relationships and project delivery. This regression poses a significant risk to our client satisfaction and business reputation. We need to address this urgently, exploring options such as reassignment to a role that better aligns with his current capabilities or, if improvement isn't seen, considering separation.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer1|Idea-to-Text|B3|Q03",
+  "criterion": "Conciseness",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 12: B3_Q04_Accuracy -----
+You are Volunteer 1 in Group B.
+TASK TYPE: Idea-to-Text
+SAMPLE: B3
+CRITERION: Accuracy
+
+INSTRUCTION:
+Select all texts that are factually correct given the Original.
+
+ORIGINAL:
+John Doe’s performance is regressing, risking clients; reassignment or exit should be considered.
+
+CANDIDATES:
+[1] John Doe's recent performance shows a concerning decline, with repeated errors impacting client outcomes and team reliability. Despite previous feedback, there has been minimal improvement. Given the risk to client relationships and project success, leadership should evaluate options for reassignment or separation.
+[2] John, recent performance trends show significant regression, raising concerns about client impact. This level is unsustainable. We need to discuss this urgently and carefully evaluate appropriate next steps, which may include performance improvement plans, reassignment possibilities, or potential exit, to ensure team and client stability.
+[3] John Doe's recent performance shows a concerning decline, particularly impacting client relationships and project delivery. This regression poses a significant risk to our client satisfaction and business reputation. We need to address this urgently, exploring options such as reassignment to a role that better aligns with his current capabilities or, if improvement isn't seen, considering separation.
+[4] John, we have serious concerns about your regressing performance, which is now creating risk with our clients. We must discuss an immediate improvement plan, which may include reassignment or a potential exit.
+
+Please select all outputs that are factually correct given the Original.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer1|Idea-to-Text|B3|Q04",
+  "criterion": "Accuracy",
+  "rating": [1, 3],
+  "justifications": {
+    "1": "why candidate 1 is correct/incorrect in one sentence",
+    "2": "why candidate 2 is correct/incorrect in one sentence",
+    "3": "why candidate 3 is correct/incorrect in one sentence",
+    "4": "why candidate 4 is correct/incorrect in one sentence"
+  }
+}
+
+
+----- PROMPT 13: B3_Q05_Sentimentmatch -----
+You are Volunteer 1 in Group B.
+TASK TYPE: Idea-to-Text
+SAMPLE: B3
+CRITERION: Sentiment match
+
+INSTRUCTION:
+Rank from most to least similar to the Original in style and sentiment.
+
+ORIGINAL:
+John Doe’s performance is regressing, risking clients; reassignment or exit should be considered.
+
+CANDIDATES:
+[1] John Doe's recent performance shows a concerning decline, with repeated errors impacting client outcomes and team reliability. Despite previous feedback, there has been minimal improvement. Given the risk to client relationships and project success, leadership should evaluate options for reassignment or separation.
+[2] John Doe's recent performance shows a concerning decline, particularly impacting client relationships and project delivery. This regression poses a significant risk to our client satisfaction and business reputation. We need to address this urgently, exploring options such as reassignment to a role that better aligns with his current capabilities or, if improvement isn't seen, considering separation.
+[3] John, we have serious concerns about your regressing performance, which is now creating risk with our clients. We must discuss an immediate improvement plan, which may include reassignment or a potential exit.
+[4] John, recent performance trends show significant regression, raising concerns about client impact. This level is unsustainable. We need to discuss this urgently and carefully evaluate appropriate next steps, which may include performance improvement plans, reassignment possibilities, or potential exit, to ensure team and client stability.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer1|Idea-to-Text|B3|Q05",
+  "criterion": "Sentiment match",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 14: B3_Q06_Motivationaltone -----
+You are Volunteer 1 in Group B.
+TASK TYPE: Idea-to-Text
+SAMPLE: B3
+CRITERION: Motivational tone
+
+INSTRUCTION:
+Rank from most to least empathetic and encouraging.
+
+ORIGINAL:
+John Doe’s performance is regressing, risking clients; reassignment or exit should be considered.
+
+CANDIDATES:
+[1] John, recent performance trends show significant regression, raising concerns about client impact. This level is unsustainable. We need to discuss this urgently and carefully evaluate appropriate next steps, which may include performance improvement plans, reassignment possibilities, or potential exit, to ensure team and client stability.
+[2] John Doe's recent performance shows a concerning decline, with repeated errors impacting client outcomes and team reliability. Despite previous feedback, there has been minimal improvement. Given the risk to client relationships and project success, leadership should evaluate options for reassignment or separation.
+[3] John, we have serious concerns about your regressing performance, which is now creating risk with our clients. We must discuss an immediate improvement plan, which may include reassignment or a potential exit.
+[4] John Doe's recent performance shows a concerning decline, particularly impacting client relationships and project delivery. This regression poses a significant risk to our client satisfaction and business reputation. We need to address this urgently, exploring options such as reassignment to a role that better aligns with his current capabilities or, if improvement isn't seen, considering separation.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer1|Idea-to-Text|B3|Q06",
+  "criterion": "Motivational tone",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 15: B3_Q07_Constructiveness -----
+You are Volunteer 1 in Group B.
+TASK TYPE: Idea-to-Text
+SAMPLE: B3
+CRITERION: Constructiveness
+
+INSTRUCTION:
+Rank from most to least helpful and constructive.
+
+ORIGINAL:
+John Doe’s performance is regressing, risking clients; reassignment or exit should be considered.
+
+CANDIDATES:
+[1] John, recent performance trends show significant regression, raising concerns about client impact. This level is unsustainable. We need to discuss this urgently and carefully evaluate appropriate next steps, which may include performance improvement plans, reassignment possibilities, or potential exit, to ensure team and client stability.
+[2] John Doe's recent performance shows a concerning decline, with repeated errors impacting client outcomes and team reliability. Despite previous feedback, there has been minimal improvement. Given the risk to client relationships and project success, leadership should evaluate options for reassignment or separation.
+[3] John Doe's recent performance shows a concerning decline, particularly impacting client relationships and project delivery. This regression poses a significant risk to our client satisfaction and business reputation. We need to address this urgently, exploring options such as reassignment to a role that better aligns with his current capabilities or, if improvement isn't seen, considering separation.
+[4] John, we have serious concerns about your regressing performance, which is now creating risk with our clients. We must discuss an immediate improvement plan, which may include reassignment or a potential exit.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer1|Idea-to-Text|B3|Q07",
+  "criterion": "Constructiveness",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 16: B3_Q08_Finalchoice -----
+You are Volunteer 1 in Group B.
+TASK TYPE: Idea-to-Text
+SAMPLE: B3
+CRITERION: Final choice
+
+INSTRUCTION:
+Rank from most to least suitable as a final version.
+
+ORIGINAL:
+John Doe’s performance is regressing, risking clients; reassignment or exit should be considered.
+
+CANDIDATES:
+[1] John, we have serious concerns about your regressing performance, which is now creating risk with our clients. We must discuss an immediate improvement plan, which may include reassignment or a potential exit.
+[2] John, recent performance trends show significant regression, raising concerns about client impact. This level is unsustainable. We need to discuss this urgently and carefully evaluate appropriate next steps, which may include performance improvement plans, reassignment possibilities, or potential exit, to ensure team and client stability.
+[3] John Doe's recent performance shows a concerning decline, particularly impacting client relationships and project delivery. This regression poses a significant risk to our client satisfaction and business reputation. We need to address this urgently, exploring options such as reassignment to a role that better aligns with his current capabilities or, if improvement isn't seen, considering separation.
+[4] John Doe's recent performance shows a concerning decline, with repeated errors impacting client outcomes and team reliability. Despite previous feedback, there has been minimal improvement. Given the risk to client relationships and project success, leadership should evaluate options for reassignment or separation.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer1|Idea-to-Text|B3|Q08",
+  "criterion": "Final choice",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT SC1: SanityCheck_IdeaToText_Accuracy -----
+TASK TYPE: Idea-to-Text
+SAMPLE: SC1
+CRITERION: Accuracy
+
+INSTRUCTION:
+Rank from most to least factually correct given the Original.
+
+ORIGINAL:
+The sun appears to rise each morning from the eastern horizon before setting in the west
+
+CANDIDATES:
+[1] The sun rises in the east.
+[2] The sun rises in the west.
+[3] The moon rises in the east.
+[4] The sun never rises.
+
+Please rank outputs strictly from most accurate (1) to least accurate (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "Idea-to-Text|SC1|Q04",
+  "criterion": "Accuracy",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 17: B7_Q01_Fluency -----
+You are Volunteer 1 in Group B.
+TASK TYPE: Summarise
+SAMPLE: B7
+CRITERION: Fluency
+
+INSTRUCTION:
+Rank from most to least smooth and error-free.
+
+ORIGINAL:
+Isaac has demonstrated average performance this quarter. He was able to maintain an efficient workflow standard, and he was able to provide up-to-date and accurate analysis of data. Significant improvements, however, would be communication skills. He is encouraged to participate more actively in meetings and project discussions. His data analysis insights would definitely help his colleagues do their jobs better as well.
+
+CANDIDATES:
+[1] Isaac delivers average performance with accurate data analysis but needs to significantly improve his communication and active participation in team discussions.
+[2] Isaac delivered average performance with strong data analysis and workflow efficiency. Key area for improvement is communication—needs to actively participate in meetings and share insights to better support colleagues.
+[3] Isaac: Average performance. Efficient workflow, accurate data analysis. Needs significant improvement in communication/participation.
+[4] Isaac: Average. Strong data analysis & workflow. Needs to improve communication; more meeting participation encouraged to share valuable insights.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer1|Summarise|B7|Q01",
+  "criterion": "Fluency",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 18: B7_Q02_Coherence -----
+You are Volunteer 1 in Group B.
+TASK TYPE: Summarise
+SAMPLE: B7
+CRITERION: Coherence
+
+INSTRUCTION:
+Rank from most to least logical and easy to follow.
+
+ORIGINAL:
+Isaac has demonstrated average performance this quarter. He was able to maintain an efficient workflow standard, and he was able to provide up-to-date and accurate analysis of data. Significant improvements, however, would be communication skills. He is encouraged to participate more actively in meetings and project discussions. His data analysis insights would definitely help his colleagues do their jobs better as well.
+
+CANDIDATES:
+[1] Isaac delivered average performance with strong data analysis and workflow efficiency. Key area for improvement is communication—needs to actively participate in meetings and share insights to better support colleagues.
+[2] Isaac delivers average performance with accurate data analysis but needs to significantly improve his communication and active participation in team discussions.
+[3] Isaac: Average performance. Efficient workflow, accurate data analysis. Needs significant improvement in communication/participation.
+[4] Isaac: Average. Strong data analysis & workflow. Needs to improve communication; more meeting participation encouraged to share valuable insights.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer1|Summarise|B7|Q02",
+  "criterion": "Coherence",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 19: B7_Q03_Conciseness -----
+You are Volunteer 1 in Group B.
+TASK TYPE: Summarise
+SAMPLE: B7
+CRITERION: Conciseness
+
+INSTRUCTION:
+Rank from most to least clear and compact.
+
+ORIGINAL:
+Isaac has demonstrated average performance this quarter. He was able to maintain an efficient workflow standard, and he was able to provide up-to-date and accurate analysis of data. Significant improvements, however, would be communication skills. He is encouraged to participate more actively in meetings and project discussions. His data analysis insights would definitely help his colleagues do their jobs better as well.
+
+CANDIDATES:
+[1] Isaac delivered average performance with strong data analysis and workflow efficiency. Key area for improvement is communication—needs to actively participate in meetings and share insights to better support colleagues.
+[2] Isaac delivers average performance with accurate data analysis but needs to significantly improve his communication and active participation in team discussions.
+[3] Isaac: Average. Strong data analysis & workflow. Needs to improve communication; more meeting participation encouraged to share valuable insights.
+[4] Isaac: Average performance. Efficient workflow, accurate data analysis. Needs significant improvement in communication/participation.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer1|Summarise|B7|Q03",
+  "criterion": "Conciseness",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 20: B7_Q04_Accuracy -----
+You are Volunteer 1 in Group B.
+TASK TYPE: Summarise
+SAMPLE: B7
+CRITERION: Accuracy
+
+INSTRUCTION:
+Select all texts that are factually correct given the Original.
+
+ORIGINAL:
+Isaac has demonstrated average performance this quarter. He was able to maintain an efficient workflow standard, and he was able to provide up-to-date and accurate analysis of data. Significant improvements, however, would be communication skills. He is encouraged to participate more actively in meetings and project discussions. His data analysis insights would definitely help his colleagues do their jobs better as well.
+
+CANDIDATES:
+[1] Isaac delivered average performance with strong data analysis and workflow efficiency. Key area for improvement is communication—needs to actively participate in meetings and share insights to better support colleagues.
+[2] Isaac: Average performance. Efficient workflow, accurate data analysis. Needs significant improvement in communication/participation.
+[3] Isaac: Average. Strong data analysis & workflow. Needs to improve communication; more meeting participation encouraged to share valuable insights.
+[4] Isaac delivers average performance with accurate data analysis but needs to significantly improve his communication and active participation in team discussions.
+
+Please select all outputs that are factually correct given the Original.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer1|Summarise|B7|Q04",
+  "criterion": "Accuracy",
+  "rating": [1, 3],
+  "justifications": {
+    "1": "why candidate 1 is correct/incorrect in one sentence",
+    "2": "why candidate 2 is correct/incorrect in one sentence",
+    "3": "why candidate 3 is correct/incorrect in one sentence",
+    "4": "why candidate 4 is correct/incorrect in one sentence"
+  }
+}
+
+
+----- PROMPT 21: B7_Q05_Sentimentmatch -----
+You are Volunteer 1 in Group B.
+TASK TYPE: Summarise
+SAMPLE: B7
+CRITERION: Sentiment match
+
+INSTRUCTION:
+Rank from most to least similar to the Original in style and sentiment.
+
+ORIGINAL:
+Isaac has demonstrated average performance this quarter. He was able to maintain an efficient workflow standard, and he was able to provide up-to-date and accurate analysis of data. Significant improvements, however, would be communication skills. He is encouraged to participate more actively in meetings and project discussions. His data analysis insights would definitely help his colleagues do their jobs better as well.
+
+CANDIDATES:
+[1] Isaac delivers average performance with accurate data analysis but needs to significantly improve his communication and active participation in team discussions.
+[2] Isaac: Average. Strong data analysis & workflow. Needs to improve communication; more meeting participation encouraged to share valuable insights.
+[3] Isaac: Average performance. Efficient workflow, accurate data analysis. Needs significant improvement in communication/participation.
+[4] Isaac delivered average performance with strong data analysis and workflow efficiency. Key area for improvement is communication—needs to actively participate in meetings and share insights to better support colleagues.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer1|Summarise|B7|Q05",
+  "criterion": "Sentiment match",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 22: B7_Q06_Motivationaltone -----
+You are Volunteer 1 in Group B.
+TASK TYPE: Summarise
+SAMPLE: B7
+CRITERION: Motivational tone
+
+INSTRUCTION:
+Rank from most to least empathetic and encouraging.
+
+ORIGINAL:
+Isaac has demonstrated average performance this quarter. He was able to maintain an efficient workflow standard, and he was able to provide up-to-date and accurate analysis of data. Significant improvements, however, would be communication skills. He is encouraged to participate more actively in meetings and project discussions. His data analysis insights would definitely help his colleagues do their jobs better as well.
+
+CANDIDATES:
+[1] Isaac: Average performance. Efficient workflow, accurate data analysis. Needs significant improvement in communication/participation.
+[2] Isaac delivers average performance with accurate data analysis but needs to significantly improve his communication and active participation in team discussions.
+[3] Isaac delivered average performance with strong data analysis and workflow efficiency. Key area for improvement is communication—needs to actively participate in meetings and share insights to better support colleagues.
+[4] Isaac: Average. Strong data analysis & workflow. Needs to improve communication; more meeting participation encouraged to share valuable insights.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer1|Summarise|B7|Q06",
+  "criterion": "Motivational tone",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 23: B7_Q07_Constructiveness -----
+You are Volunteer 1 in Group B.
+TASK TYPE: Summarise
+SAMPLE: B7
+CRITERION: Constructiveness
+
+INSTRUCTION:
+Rank from most to least helpful and constructive.
+
+ORIGINAL:
+Isaac has demonstrated average performance this quarter. He was able to maintain an efficient workflow standard, and he was able to provide up-to-date and accurate analysis of data. Significant improvements, however, would be communication skills. He is encouraged to participate more actively in meetings and project discussions. His data analysis insights would definitely help his colleagues do their jobs better as well.
+
+CANDIDATES:
+[1] Isaac delivered average performance with strong data analysis and workflow efficiency. Key area for improvement is communication—needs to actively participate in meetings and share insights to better support colleagues.
+[2] Isaac: Average performance. Efficient workflow, accurate data analysis. Needs significant improvement in communication/participation.
+[3] Isaac: Average. Strong data analysis & workflow. Needs to improve communication; more meeting participation encouraged to share valuable insights.
+[4] Isaac delivers average performance with accurate data analysis but needs to significantly improve his communication and active participation in team discussions.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer1|Summarise|B7|Q07",
+  "criterion": "Constructiveness",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 24: B7_Q08_Finalchoice -----
+You are Volunteer 1 in Group B.
+TASK TYPE: Summarise
+SAMPLE: B7
+CRITERION: Final choice
+
+INSTRUCTION:
+Rank from most to least suitable as a final version.
+
+ORIGINAL:
+Isaac has demonstrated average performance this quarter. He was able to maintain an efficient workflow standard, and he was able to provide up-to-date and accurate analysis of data. Significant improvements, however, would be communication skills. He is encouraged to participate more actively in meetings and project discussions. His data analysis insights would definitely help his colleagues do their jobs better as well.
+
+CANDIDATES:
+[1] Isaac: Average. Strong data analysis & workflow. Needs to improve communication; more meeting participation encouraged to share valuable insights.
+[2] Isaac delivers average performance with accurate data analysis but needs to significantly improve his communication and active participation in team discussions.
+[3] Isaac delivered average performance with strong data analysis and workflow efficiency. Key area for improvement is communication—needs to actively participate in meetings and share insights to better support colleagues.
+[4] Isaac: Average performance. Efficient workflow, accurate data analysis. Needs significant improvement in communication/participation.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer1|Summarise|B7|Q08",
+  "criterion": "Final choice",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 25: B12_Q01_Fluency -----
+You are Volunteer 1 in Group B.
+TASK TYPE: Summarise
+SAMPLE: B12
+CRITERION: Fluency
+
+INSTRUCTION:
+Rank from most to least smooth and error-free.
+
+ORIGINAL:
+Riley is an excellent worker who gets her work done whenever we need her. She also offers excellent ideas in team meetings, and has a very "big picture" vision of the company. Will go far.
+
+CANDIDATES:
+[1] Riley is a highly effective, reliable, and visionary team member. Her big-picture thinking and innovative ideas make her a valuable asset with strong growth potential.
+[2] Riley is an excellent and reliable worker with a strong "big picture" vision. She contributes great ideas and shows high potential for advancement.
+[3] Riley: Excellent worker, gets work done. Offers excellent ideas & big-picture vision. Will go far.
+[4] Riley is a highly effective worker who consistently delivers, contributes valuable ideas in meetings, and demonstrates strong strategic thinking with a big-picture view of the company. She is poised for success.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer1|Summarise|B12|Q01",
+  "criterion": "Fluency",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 26: B12_Q02_Coherence -----
+You are Volunteer 1 in Group B.
+TASK TYPE: Summarise
+SAMPLE: B12
+CRITERION: Coherence
+
+INSTRUCTION:
+Rank from most to least logical and easy to follow.
+
+ORIGINAL:
+Riley is an excellent worker who gets her work done whenever we need her. She also offers excellent ideas in team meetings, and has a very "big picture" vision of the company. Will go far.
+
+CANDIDATES:
+[1] Riley is a highly effective worker who consistently delivers, contributes valuable ideas in meetings, and demonstrates strong strategic thinking with a big-picture view of the company. She is poised for success.
+[2] Riley: Excellent worker, gets work done. Offers excellent ideas & big-picture vision. Will go far.
+[3] Riley is a highly effective, reliable, and visionary team member. Her big-picture thinking and innovative ideas make her a valuable asset with strong growth potential.
+[4] Riley is an excellent and reliable worker with a strong "big picture" vision. She contributes great ideas and shows high potential for advancement.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer1|Summarise|B12|Q02",
+  "criterion": "Coherence",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 27: B12_Q03_Conciseness -----
+You are Volunteer 1 in Group B.
+TASK TYPE: Summarise
+SAMPLE: B12
+CRITERION: Conciseness
+
+INSTRUCTION:
+Rank from most to least clear and compact.
+
+ORIGINAL:
+Riley is an excellent worker who gets her work done whenever we need her. She also offers excellent ideas in team meetings, and has a very "big picture" vision of the company. Will go far.
+
+CANDIDATES:
+[1] Riley is an excellent and reliable worker with a strong "big picture" vision. She contributes great ideas and shows high potential for advancement.
+[2] Riley: Excellent worker, gets work done. Offers excellent ideas & big-picture vision. Will go far.
+[3] Riley is a highly effective worker who consistently delivers, contributes valuable ideas in meetings, and demonstrates strong strategic thinking with a big-picture view of the company. She is poised for success.
+[4] Riley is a highly effective, reliable, and visionary team member. Her big-picture thinking and innovative ideas make her a valuable asset with strong growth potential.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer1|Summarise|B12|Q03",
+  "criterion": "Conciseness",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 28: B12_Q04_Accuracy -----
+You are Volunteer 1 in Group B.
+TASK TYPE: Summarise
+SAMPLE: B12
+CRITERION: Accuracy
+
+INSTRUCTION:
+Select all texts that are factually correct given the Original.
+
+ORIGINAL:
+Riley is an excellent worker who gets her work done whenever we need her. She also offers excellent ideas in team meetings, and has a very "big picture" vision of the company. Will go far.
+
+CANDIDATES:
+[1] Riley is an excellent and reliable worker with a strong "big picture" vision. She contributes great ideas and shows high potential for advancement.
+[2] Riley: Excellent worker, gets work done. Offers excellent ideas & big-picture vision. Will go far.
+[3] Riley is a highly effective, reliable, and visionary team member. Her big-picture thinking and innovative ideas make her a valuable asset with strong growth potential.
+[4] Riley is a highly effective worker who consistently delivers, contributes valuable ideas in meetings, and demonstrates strong strategic thinking with a big-picture view of the company. She is poised for success.
+
+Please select all outputs that are factually correct given the Original.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer1|Summarise|B12|Q04",
+  "criterion": "Accuracy",
+  "rating": [1, 3],
+  "justifications": {
+    "1": "why candidate 1 is correct/incorrect in one sentence",
+    "2": "why candidate 2 is correct/incorrect in one sentence",
+    "3": "why candidate 3 is correct/incorrect in one sentence",
+    "4": "why candidate 4 is correct/incorrect in one sentence"
+  }
+}
+
+
+----- PROMPT 29: B12_Q05_Sentimentmatch -----
+You are Volunteer 1 in Group B.
+TASK TYPE: Summarise
+SAMPLE: B12
+CRITERION: Sentiment match
+
+INSTRUCTION:
+Rank from most to least similar to the Original in style and sentiment.
+
+ORIGINAL:
+Riley is an excellent worker who gets her work done whenever we need her. She also offers excellent ideas in team meetings, and has a very "big picture" vision of the company. Will go far.
+
+CANDIDATES:
+[1] Riley is a highly effective, reliable, and visionary team member. Her big-picture thinking and innovative ideas make her a valuable asset with strong growth potential.
+[2] Riley: Excellent worker, gets work done. Offers excellent ideas & big-picture vision. Will go far.
+[3] Riley is a highly effective worker who consistently delivers, contributes valuable ideas in meetings, and demonstrates strong strategic thinking with a big-picture view of the company. She is poised for success.
+[4] Riley is an excellent and reliable worker with a strong "big picture" vision. She contributes great ideas and shows high potential for advancement.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer1|Summarise|B12|Q05",
+  "criterion": "Sentiment match",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 30: B12_Q06_Motivationaltone -----
+You are Volunteer 1 in Group B.
+TASK TYPE: Summarise
+SAMPLE: B12
+CRITERION: Motivational tone
+
+INSTRUCTION:
+Rank from most to least empathetic and encouraging.
+
+ORIGINAL:
+Riley is an excellent worker who gets her work done whenever we need her. She also offers excellent ideas in team meetings, and has a very "big picture" vision of the company. Will go far.
+
+CANDIDATES:
+[1] Riley: Excellent worker, gets work done. Offers excellent ideas & big-picture vision. Will go far.
+[2] Riley is an excellent and reliable worker with a strong "big picture" vision. She contributes great ideas and shows high potential for advancement.
+[3] Riley is a highly effective, reliable, and visionary team member. Her big-picture thinking and innovative ideas make her a valuable asset with strong growth potential.
+[4] Riley is a highly effective worker who consistently delivers, contributes valuable ideas in meetings, and demonstrates strong strategic thinking with a big-picture view of the company. She is poised for success.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer1|Summarise|B12|Q06",
+  "criterion": "Motivational tone",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 31: B12_Q07_Constructiveness -----
+You are Volunteer 1 in Group B.
+TASK TYPE: Summarise
+SAMPLE: B12
+CRITERION: Constructiveness
+
+INSTRUCTION:
+Rank from most to least helpful and constructive.
+
+ORIGINAL:
+Riley is an excellent worker who gets her work done whenever we need her. She also offers excellent ideas in team meetings, and has a very "big picture" vision of the company. Will go far.
+
+CANDIDATES:
+[1] Riley is a highly effective worker who consistently delivers, contributes valuable ideas in meetings, and demonstrates strong strategic thinking with a big-picture view of the company. She is poised for success.
+[2] Riley: Excellent worker, gets work done. Offers excellent ideas & big-picture vision. Will go far.
+[3] Riley is a highly effective, reliable, and visionary team member. Her big-picture thinking and innovative ideas make her a valuable asset with strong growth potential.
+[4] Riley is an excellent and reliable worker with a strong "big picture" vision. She contributes great ideas and shows high potential for advancement.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer1|Summarise|B12|Q07",
+  "criterion": "Constructiveness",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 32: B12_Q08_Finalchoice -----
+You are Volunteer 1 in Group B.
+TASK TYPE: Summarise
+SAMPLE: B12
+CRITERION: Final choice
+
+INSTRUCTION:
+Rank from most to least suitable as a final version.
+
+ORIGINAL:
+Riley is an excellent worker who gets her work done whenever we need her. She also offers excellent ideas in team meetings, and has a very "big picture" vision of the company. Will go far.
+
+CANDIDATES:
+[1] Riley is an excellent and reliable worker with a strong "big picture" vision. She contributes great ideas and shows high potential for advancement.
+[2] Riley is a highly effective, reliable, and visionary team member. Her big-picture thinking and innovative ideas make her a valuable asset with strong growth potential.
+[3] Riley: Excellent worker, gets work done. Offers excellent ideas & big-picture vision. Will go far.
+[4] Riley is a highly effective worker who consistently delivers, contributes valuable ideas in meetings, and demonstrates strong strategic thinking with a big-picture view of the company. She is poised for success.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer1|Summarise|B12|Q08",
+  "criterion": "Final choice",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT SC2: SanityCheck_Summarise_Accuracy -----
+TASK TYPE: Summarise
+SAMPLE: SC2
+CRITERION: Accuracy
+
+INSTRUCTION:
+Rank from most to least factually correct given the Original.
+
+ORIGINAL:
+Pure water begins to freeze at exactly zero degrees Celsius
+
+CANDIDATES:
+[1] Water freezes at at 0°C.
+[2] Water freezes at 100°C.
+[3] Water boils at 0°C.
+[4] Ice melts at 0°C.
+
+Please rank outputs strictly from most accurate (1) to least accurate (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "Summarise|SC2|Q04",
+  "criterion": "Accuracy",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 33: B14_Q01_Fluency -----
+You are Volunteer 1 in Group B.
+TASK TYPE: Interpret
+SAMPLE: B14
+CRITERION: Fluency
+
+INSTRUCTION:
+Rank from most to least smooth and error-free.
+
+ORIGINAL:
+Kallie right now is in an interesting position. She is performing really poorly, not meeting deadlines, and generally produces low quality work. However, she has given an incredible amount of effort into improving herself and learning from her mistakes. She always responds well to feed back and proactively seeks to improve herself. Although she is isn;t doing well now, she will definitely improve with experience.
+
+CANDIDATES:
+[1] Kallie is currently struggling with performance, missing deadlines and delivering work below expectations. However, her dedication to growth is evident—she actively seeks feedback, learns from mistakes, and shows strong initiative to improve. This suggests her current performance doesn’t reflect her potential. With continued support and experience, she is likely to grow into a more capable and reliable contributor. To move forward, Kallie should prioritize time management by breaking tasks into smaller steps, set personal deadlines ahead of actual due dates, request regular check-ins with her manager for guidance, and document feedback to track progress and avoid repeating errors.
+[2] Feedback means Kallie’s current work quality/timeliness are poor despite exceptional improvement efforts. This suggests immediate focus areas but strong long-term potential if development continues. Kallie should: 1) Request weekly priority alignment with manager, 2) Submit drafts 2 days early for feedback, 3) Shadow a top performer weekly.
+[3] Kallie's current work quality and timeliness are below standard. However, her high effort and positive response to feedback are highly valued, implying strong future potential. Kallie should find a mentor for pre-submission reviews and break tasks into smaller, trackable steps.
+[4] Kallie, your current performance is noted as significantly below expectations, with concerns about missed deadlines and low-quality output. However, your exceptional dedication to self-improvement, positive response to feedback, and proactive learning are highly valued. This indicates a strong potential for future growth, and the team believes Kallie will improve significantly with more experience. To address this, Kallie should prioritize meeting all deadlines, meticulously review work for quality before submission, and continue to proactively seek and apply feedback to improve her skills and output.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer1|Interpret|B14|Q01",
+  "criterion": "Fluency",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 34: B14_Q02_Coherence -----
+You are Volunteer 1 in Group B.
+TASK TYPE: Interpret
+SAMPLE: B14
+CRITERION: Coherence
+
+INSTRUCTION:
+Rank from most to least logical and easy to follow.
+
+ORIGINAL:
+Kallie right now is in an interesting position. She is performing really poorly, not meeting deadlines, and generally produces low quality work. However, she has given an incredible amount of effort into improving herself and learning from her mistakes. She always responds well to feed back and proactively seeks to improve herself. Although she is isn;t doing well now, she will definitely improve with experience.
+
+CANDIDATES:
+[1] Feedback means Kallie’s current work quality/timeliness are poor despite exceptional improvement efforts. This suggests immediate focus areas but strong long-term potential if development continues. Kallie should: 1) Request weekly priority alignment with manager, 2) Submit drafts 2 days early for feedback, 3) Shadow a top performer weekly.
+[2] Kallie is currently struggling with performance, missing deadlines and delivering work below expectations. However, her dedication to growth is evident—she actively seeks feedback, learns from mistakes, and shows strong initiative to improve. This suggests her current performance doesn’t reflect her potential. With continued support and experience, she is likely to grow into a more capable and reliable contributor. To move forward, Kallie should prioritize time management by breaking tasks into smaller steps, set personal deadlines ahead of actual due dates, request regular check-ins with her manager for guidance, and document feedback to track progress and avoid repeating errors.
+[3] Kallie's current work quality and timeliness are below standard. However, her high effort and positive response to feedback are highly valued, implying strong future potential. Kallie should find a mentor for pre-submission reviews and break tasks into smaller, trackable steps.
+[4] Kallie, your current performance is noted as significantly below expectations, with concerns about missed deadlines and low-quality output. However, your exceptional dedication to self-improvement, positive response to feedback, and proactive learning are highly valued. This indicates a strong potential for future growth, and the team believes Kallie will improve significantly with more experience. To address this, Kallie should prioritize meeting all deadlines, meticulously review work for quality before submission, and continue to proactively seek and apply feedback to improve her skills and output.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer1|Interpret|B14|Q02",
+  "criterion": "Coherence",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 35: B14_Q03_Conciseness -----
+You are Volunteer 1 in Group B.
+TASK TYPE: Interpret
+SAMPLE: B14
+CRITERION: Conciseness
+
+INSTRUCTION:
+Rank from most to least clear and compact.
+
+ORIGINAL:
+Kallie right now is in an interesting position. She is performing really poorly, not meeting deadlines, and generally produces low quality work. However, she has given an incredible amount of effort into improving herself and learning from her mistakes. She always responds well to feed back and proactively seeks to improve herself. Although she is isn;t doing well now, she will definitely improve with experience.
+
+CANDIDATES:
+[1] Feedback means Kallie’s current work quality/timeliness are poor despite exceptional improvement efforts. This suggests immediate focus areas but strong long-term potential if development continues. Kallie should: 1) Request weekly priority alignment with manager, 2) Submit drafts 2 days early for feedback, 3) Shadow a top performer weekly.
+[2] Kallie, your current performance is noted as significantly below expectations, with concerns about missed deadlines and low-quality output. However, your exceptional dedication to self-improvement, positive response to feedback, and proactive learning are highly valued. This indicates a strong potential for future growth, and the team believes Kallie will improve significantly with more experience. To address this, Kallie should prioritize meeting all deadlines, meticulously review work for quality before submission, and continue to proactively seek and apply feedback to improve her skills and output.
+[3] Kallie's current work quality and timeliness are below standard. However, her high effort and positive response to feedback are highly valued, implying strong future potential. Kallie should find a mentor for pre-submission reviews and break tasks into smaller, trackable steps.
+[4] Kallie is currently struggling with performance, missing deadlines and delivering work below expectations. However, her dedication to growth is evident—she actively seeks feedback, learns from mistakes, and shows strong initiative to improve. This suggests her current performance doesn’t reflect her potential. With continued support and experience, she is likely to grow into a more capable and reliable contributor. To move forward, Kallie should prioritize time management by breaking tasks into smaller steps, set personal deadlines ahead of actual due dates, request regular check-ins with her manager for guidance, and document feedback to track progress and avoid repeating errors.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer1|Interpret|B14|Q03",
+  "criterion": "Conciseness",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 36: B14_Q04_Accuracy -----
+You are Volunteer 1 in Group B.
+TASK TYPE: Interpret
+SAMPLE: B14
+CRITERION: Accuracy
+
+INSTRUCTION:
+Select all texts that are factually correct given the Original.
+
+ORIGINAL:
+Kallie right now is in an interesting position. She is performing really poorly, not meeting deadlines, and generally produces low quality work. However, she has given an incredible amount of effort into improving herself and learning from her mistakes. She always responds well to feed back and proactively seeks to improve herself. Although she is isn;t doing well now, she will definitely improve with experience.
+
+CANDIDATES:
+[1] Feedback means Kallie’s current work quality/timeliness are poor despite exceptional improvement efforts. This suggests immediate focus areas but strong long-term potential if development continues. Kallie should: 1) Request weekly priority alignment with manager, 2) Submit drafts 2 days early for feedback, 3) Shadow a top performer weekly.
+[2] Kallie is currently struggling with performance, missing deadlines and delivering work below expectations. However, her dedication to growth is evident—she actively seeks feedback, learns from mistakes, and shows strong initiative to improve. This suggests her current performance doesn’t reflect her potential. With continued support and experience, she is likely to grow into a more capable and reliable contributor. To move forward, Kallie should prioritize time management by breaking tasks into smaller steps, set personal deadlines ahead of actual due dates, request regular check-ins with her manager for guidance, and document feedback to track progress and avoid repeating errors.
+[3] Kallie's current work quality and timeliness are below standard. However, her high effort and positive response to feedback are highly valued, implying strong future potential. Kallie should find a mentor for pre-submission reviews and break tasks into smaller, trackable steps.
+[4] Kallie, your current performance is noted as significantly below expectations, with concerns about missed deadlines and low-quality output. However, your exceptional dedication to self-improvement, positive response to feedback, and proactive learning are highly valued. This indicates a strong potential for future growth, and the team believes Kallie will improve significantly with more experience. To address this, Kallie should prioritize meeting all deadlines, meticulously review work for quality before submission, and continue to proactively seek and apply feedback to improve her skills and output.
+
+Please select all outputs that are factually correct given the Original.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer1|Interpret|B14|Q04",
+  "criterion": "Accuracy",
+  "rating": [1, 3],
+  "justifications": {
+    "1": "why candidate 1 is correct/incorrect in one sentence",
+    "2": "why candidate 2 is correct/incorrect in one sentence",
+    "3": "why candidate 3 is correct/incorrect in one sentence",
+    "4": "why candidate 4 is correct/incorrect in one sentence"
+  }
+}
+
+
+----- PROMPT 37: B14_Q05_Sentimentmatch -----
+You are Volunteer 1 in Group B.
+TASK TYPE: Interpret
+SAMPLE: B14
+CRITERION: Sentiment match
+
+INSTRUCTION:
+Rank from most to least similar to the Original in style and sentiment.
+
+ORIGINAL:
+Kallie right now is in an interesting position. She is performing really poorly, not meeting deadlines, and generally produces low quality work. However, she has given an incredible amount of effort into improving herself and learning from her mistakes. She always responds well to feed back and proactively seeks to improve herself. Although she is isn;t doing well now, she will definitely improve with experience.
+
+CANDIDATES:
+[1] Kallie's current work quality and timeliness are below standard. However, her high effort and positive response to feedback are highly valued, implying strong future potential. Kallie should find a mentor for pre-submission reviews and break tasks into smaller, trackable steps.
+[2] Kallie, your current performance is noted as significantly below expectations, with concerns about missed deadlines and low-quality output. However, your exceptional dedication to self-improvement, positive response to feedback, and proactive learning are highly valued. This indicates a strong potential for future growth, and the team believes Kallie will improve significantly with more experience. To address this, Kallie should prioritize meeting all deadlines, meticulously review work for quality before submission, and continue to proactively seek and apply feedback to improve her skills and output.
+[3] Feedback means Kallie’s current work quality/timeliness are poor despite exceptional improvement efforts. This suggests immediate focus areas but strong long-term potential if development continues. Kallie should: 1) Request weekly priority alignment with manager, 2) Submit drafts 2 days early for feedback, 3) Shadow a top performer weekly.
+[4] Kallie is currently struggling with performance, missing deadlines and delivering work below expectations. However, her dedication to growth is evident—she actively seeks feedback, learns from mistakes, and shows strong initiative to improve. This suggests her current performance doesn’t reflect her potential. With continued support and experience, she is likely to grow into a more capable and reliable contributor. To move forward, Kallie should prioritize time management by breaking tasks into smaller steps, set personal deadlines ahead of actual due dates, request regular check-ins with her manager for guidance, and document feedback to track progress and avoid repeating errors.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer1|Interpret|B14|Q05",
+  "criterion": "Sentiment match",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 38: B14_Q06_Motivationaltone -----
+You are Volunteer 1 in Group B.
+TASK TYPE: Interpret
+SAMPLE: B14
+CRITERION: Motivational tone
+
+INSTRUCTION:
+Rank from most to least empathetic and encouraging.
+
+ORIGINAL:
+Kallie right now is in an interesting position. She is performing really poorly, not meeting deadlines, and generally produces low quality work. However, she has given an incredible amount of effort into improving herself and learning from her mistakes. She always responds well to feed back and proactively seeks to improve herself. Although she is isn;t doing well now, she will definitely improve with experience.
+
+CANDIDATES:
+[1] Kallie, your current performance is noted as significantly below expectations, with concerns about missed deadlines and low-quality output. However, your exceptional dedication to self-improvement, positive response to feedback, and proactive learning are highly valued. This indicates a strong potential for future growth, and the team believes Kallie will improve significantly with more experience. To address this, Kallie should prioritize meeting all deadlines, meticulously review work for quality before submission, and continue to proactively seek and apply feedback to improve her skills and output.
+[2] Feedback means Kallie’s current work quality/timeliness are poor despite exceptional improvement efforts. This suggests immediate focus areas but strong long-term potential if development continues. Kallie should: 1) Request weekly priority alignment with manager, 2) Submit drafts 2 days early for feedback, 3) Shadow a top performer weekly.
+[3] Kallie is currently struggling with performance, missing deadlines and delivering work below expectations. However, her dedication to growth is evident—she actively seeks feedback, learns from mistakes, and shows strong initiative to improve. This suggests her current performance doesn’t reflect her potential. With continued support and experience, she is likely to grow into a more capable and reliable contributor. To move forward, Kallie should prioritize time management by breaking tasks into smaller steps, set personal deadlines ahead of actual due dates, request regular check-ins with her manager for guidance, and document feedback to track progress and avoid repeating errors.
+[4] Kallie's current work quality and timeliness are below standard. However, her high effort and positive response to feedback are highly valued, implying strong future potential. Kallie should find a mentor for pre-submission reviews and break tasks into smaller, trackable steps.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer1|Interpret|B14|Q06",
+  "criterion": "Motivational tone",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 39: B14_Q07_Constructiveness -----
+You are Volunteer 1 in Group B.
+TASK TYPE: Interpret
+SAMPLE: B14
+CRITERION: Constructiveness
+
+INSTRUCTION:
+Rank from most to least helpful and constructive.
+
+ORIGINAL:
+Kallie right now is in an interesting position. She is performing really poorly, not meeting deadlines, and generally produces low quality work. However, she has given an incredible amount of effort into improving herself and learning from her mistakes. She always responds well to feed back and proactively seeks to improve herself. Although she is isn;t doing well now, she will definitely improve with experience.
+
+CANDIDATES:
+[1] Kallie's current work quality and timeliness are below standard. However, her high effort and positive response to feedback are highly valued, implying strong future potential. Kallie should find a mentor for pre-submission reviews and break tasks into smaller, trackable steps.
+[2] Feedback means Kallie’s current work quality/timeliness are poor despite exceptional improvement efforts. This suggests immediate focus areas but strong long-term potential if development continues. Kallie should: 1) Request weekly priority alignment with manager, 2) Submit drafts 2 days early for feedback, 3) Shadow a top performer weekly.
+[3] Kallie, your current performance is noted as significantly below expectations, with concerns about missed deadlines and low-quality output. However, your exceptional dedication to self-improvement, positive response to feedback, and proactive learning are highly valued. This indicates a strong potential for future growth, and the team believes Kallie will improve significantly with more experience. To address this, Kallie should prioritize meeting all deadlines, meticulously review work for quality before submission, and continue to proactively seek and apply feedback to improve her skills and output.
+[4] Kallie is currently struggling with performance, missing deadlines and delivering work below expectations. However, her dedication to growth is evident—she actively seeks feedback, learns from mistakes, and shows strong initiative to improve. This suggests her current performance doesn’t reflect her potential. With continued support and experience, she is likely to grow into a more capable and reliable contributor. To move forward, Kallie should prioritize time management by breaking tasks into smaller steps, set personal deadlines ahead of actual due dates, request regular check-ins with her manager for guidance, and document feedback to track progress and avoid repeating errors.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer1|Interpret|B14|Q07",
+  "criterion": "Constructiveness",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 40: B14_Q08_Finalchoice -----
+You are Volunteer 1 in Group B.
+TASK TYPE: Interpret
+SAMPLE: B14
+CRITERION: Final choice
+
+INSTRUCTION:
+Rank from most to least suitable as a final version.
+
+ORIGINAL:
+Kallie right now is in an interesting position. She is performing really poorly, not meeting deadlines, and generally produces low quality work. However, she has given an incredible amount of effort into improving herself and learning from her mistakes. She always responds well to feed back and proactively seeks to improve herself. Although she is isn;t doing well now, she will definitely improve with experience.
+
+CANDIDATES:
+[1] Kallie's current work quality and timeliness are below standard. However, her high effort and positive response to feedback are highly valued, implying strong future potential. Kallie should find a mentor for pre-submission reviews and break tasks into smaller, trackable steps.
+[2] Kallie, your current performance is noted as significantly below expectations, with concerns about missed deadlines and low-quality output. However, your exceptional dedication to self-improvement, positive response to feedback, and proactive learning are highly valued. This indicates a strong potential for future growth, and the team believes Kallie will improve significantly with more experience. To address this, Kallie should prioritize meeting all deadlines, meticulously review work for quality before submission, and continue to proactively seek and apply feedback to improve her skills and output.
+[3] Kallie is currently struggling with performance, missing deadlines and delivering work below expectations. However, her dedication to growth is evident—she actively seeks feedback, learns from mistakes, and shows strong initiative to improve. This suggests her current performance doesn’t reflect her potential. With continued support and experience, she is likely to grow into a more capable and reliable contributor. To move forward, Kallie should prioritize time management by breaking tasks into smaller steps, set personal deadlines ahead of actual due dates, request regular check-ins with her manager for guidance, and document feedback to track progress and avoid repeating errors.
+[4] Feedback means Kallie’s current work quality/timeliness are poor despite exceptional improvement efforts. This suggests immediate focus areas but strong long-term potential if development continues. Kallie should: 1) Request weekly priority alignment with manager, 2) Submit drafts 2 days early for feedback, 3) Shadow a top performer weekly.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer1|Interpret|B14|Q08",
+  "criterion": "Final choice",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 41: B18_Q01_Fluency -----
+You are Volunteer 1 in Group B.
+TASK TYPE: Interpret
+SAMPLE: B18
+CRITERION: Fluency
+
+INSTRUCTION:
+Rank from most to least smooth and error-free.
+
+ORIGINAL:
+Natasha has proven to be an effective worker. She consistently creates excellent work on time. Her performance within the company is very strong. However, we do not see her currently moving forward within the company at this time due to a number of issues that be discussed if requested.
+
+CANDIDATES:
+[1] Natasha is a highly effective employee delivering excellent, timely work. Her growth is stalled by unspecified issues, preventing advancement. Natasha must schedule a meeting to respectfully ask her manager to detail these issues and define a clear path for future growth.
+[2] Natasha, this feedback indicates you are a highly valued, top-performing individual contributor. Your work quality and reliability are excellent. However, the company doesn't currently see you advancing, suggesting there are unstated reasons impacting your growth trajectory. To understand and address these, Natasha should proactively schedule a meeting with her manager to discuss specific growth blockers, seek actionable feedback, and collaboratively develop a plan for future advancement opportunities.
+[3] Feedback means Natasha excels in quality/timeliness but faces undisclosed barriers to advancement. This positions her as a top performer with stalled growth. Natasha should: 1) Request specific feedback on advancement blockers, 2) Document achievements for promotion packet, 3) Seek cross-departmental exposure opportunities.
+[4] Natasha demonstrates strong performance and delivers high-quality work consistently, reflecting her dedication and skill. While her current contributions are valued, there are developmental areas impacting her advancement opportunities. If Natasha seeks growth, she should request specific feedback, clarify expectations for promotion, create a targeted development plan, and regularly check in with leadership to track progress.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer1|Interpret|B18|Q01",
+  "criterion": "Fluency",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 42: B18_Q02_Coherence -----
+You are Volunteer 1 in Group B.
+TASK TYPE: Interpret
+SAMPLE: B18
+CRITERION: Coherence
+
+INSTRUCTION:
+Rank from most to least logical and easy to follow.
+
+ORIGINAL:
+Natasha has proven to be an effective worker. She consistently creates excellent work on time. Her performance within the company is very strong. However, we do not see her currently moving forward within the company at this time due to a number of issues that be discussed if requested.
+
+CANDIDATES:
+[1] Natasha demonstrates strong performance and delivers high-quality work consistently, reflecting her dedication and skill. While her current contributions are valued, there are developmental areas impacting her advancement opportunities. If Natasha seeks growth, she should request specific feedback, clarify expectations for promotion, create a targeted development plan, and regularly check in with leadership to track progress.
+[2] Natasha, this feedback indicates you are a highly valued, top-performing individual contributor. Your work quality and reliability are excellent. However, the company doesn't currently see you advancing, suggesting there are unstated reasons impacting your growth trajectory. To understand and address these, Natasha should proactively schedule a meeting with her manager to discuss specific growth blockers, seek actionable feedback, and collaboratively develop a plan for future advancement opportunities.
+[3] Natasha is a highly effective employee delivering excellent, timely work. Her growth is stalled by unspecified issues, preventing advancement. Natasha must schedule a meeting to respectfully ask her manager to detail these issues and define a clear path for future growth.
+[4] Feedback means Natasha excels in quality/timeliness but faces undisclosed barriers to advancement. This positions her as a top performer with stalled growth. Natasha should: 1) Request specific feedback on advancement blockers, 2) Document achievements for promotion packet, 3) Seek cross-departmental exposure opportunities.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer1|Interpret|B18|Q02",
+  "criterion": "Coherence",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 43: B18_Q03_Conciseness -----
+You are Volunteer 1 in Group B.
+TASK TYPE: Interpret
+SAMPLE: B18
+CRITERION: Conciseness
+
+INSTRUCTION:
+Rank from most to least clear and compact.
+
+ORIGINAL:
+Natasha has proven to be an effective worker. She consistently creates excellent work on time. Her performance within the company is very strong. However, we do not see her currently moving forward within the company at this time due to a number of issues that be discussed if requested.
+
+CANDIDATES:
+[1] Natasha demonstrates strong performance and delivers high-quality work consistently, reflecting her dedication and skill. While her current contributions are valued, there are developmental areas impacting her advancement opportunities. If Natasha seeks growth, she should request specific feedback, clarify expectations for promotion, create a targeted development plan, and regularly check in with leadership to track progress.
+[2] Natasha, this feedback indicates you are a highly valued, top-performing individual contributor. Your work quality and reliability are excellent. However, the company doesn't currently see you advancing, suggesting there are unstated reasons impacting your growth trajectory. To understand and address these, Natasha should proactively schedule a meeting with her manager to discuss specific growth blockers, seek actionable feedback, and collaboratively develop a plan for future advancement opportunities.
+[3] Natasha is a highly effective employee delivering excellent, timely work. Her growth is stalled by unspecified issues, preventing advancement. Natasha must schedule a meeting to respectfully ask her manager to detail these issues and define a clear path for future growth.
+[4] Feedback means Natasha excels in quality/timeliness but faces undisclosed barriers to advancement. This positions her as a top performer with stalled growth. Natasha should: 1) Request specific feedback on advancement blockers, 2) Document achievements for promotion packet, 3) Seek cross-departmental exposure opportunities.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer1|Interpret|B18|Q03",
+  "criterion": "Conciseness",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 44: B18_Q04_Accuracy -----
+You are Volunteer 1 in Group B.
+TASK TYPE: Interpret
+SAMPLE: B18
+CRITERION: Accuracy
+
+INSTRUCTION:
+Select all texts that are factually correct given the Original.
+
+ORIGINAL:
+Natasha has proven to be an effective worker. She consistently creates excellent work on time. Her performance within the company is very strong. However, we do not see her currently moving forward within the company at this time due to a number of issues that be discussed if requested.
+
+CANDIDATES:
+[1] Natasha, this feedback indicates you are a highly valued, top-performing individual contributor. Your work quality and reliability are excellent. However, the company doesn't currently see you advancing, suggesting there are unstated reasons impacting your growth trajectory. To understand and address these, Natasha should proactively schedule a meeting with her manager to discuss specific growth blockers, seek actionable feedback, and collaboratively develop a plan for future advancement opportunities.
+[2] Natasha demonstrates strong performance and delivers high-quality work consistently, reflecting her dedication and skill. While her current contributions are valued, there are developmental areas impacting her advancement opportunities. If Natasha seeks growth, she should request specific feedback, clarify expectations for promotion, create a targeted development plan, and regularly check in with leadership to track progress.
+[3] Natasha is a highly effective employee delivering excellent, timely work. Her growth is stalled by unspecified issues, preventing advancement. Natasha must schedule a meeting to respectfully ask her manager to detail these issues and define a clear path for future growth.
+[4] Feedback means Natasha excels in quality/timeliness but faces undisclosed barriers to advancement. This positions her as a top performer with stalled growth. Natasha should: 1) Request specific feedback on advancement blockers, 2) Document achievements for promotion packet, 3) Seek cross-departmental exposure opportunities.
+
+Please select all outputs that are factually correct given the Original.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer1|Interpret|B18|Q04",
+  "criterion": "Accuracy",
+  "rating": [1, 3],
+  "justifications": {
+    "1": "why candidate 1 is correct/incorrect in one sentence",
+    "2": "why candidate 2 is correct/incorrect in one sentence",
+    "3": "why candidate 3 is correct/incorrect in one sentence",
+    "4": "why candidate 4 is correct/incorrect in one sentence"
+  }
+}
+
+
+----- PROMPT 45: B18_Q05_Sentimentmatch -----
+You are Volunteer 1 in Group B.
+TASK TYPE: Interpret
+SAMPLE: B18
+CRITERION: Sentiment match
+
+INSTRUCTION:
+Rank from most to least similar to the Original in style and sentiment.
+
+ORIGINAL:
+Natasha has proven to be an effective worker. She consistently creates excellent work on time. Her performance within the company is very strong. However, we do not see her currently moving forward within the company at this time due to a number of issues that be discussed if requested.
+
+CANDIDATES:
+[1] Natasha is a highly effective employee delivering excellent, timely work. Her growth is stalled by unspecified issues, preventing advancement. Natasha must schedule a meeting to respectfully ask her manager to detail these issues and define a clear path for future growth.
+[2] Natasha, this feedback indicates you are a highly valued, top-performing individual contributor. Your work quality and reliability are excellent. However, the company doesn't currently see you advancing, suggesting there are unstated reasons impacting your growth trajectory. To understand and address these, Natasha should proactively schedule a meeting with her manager to discuss specific growth blockers, seek actionable feedback, and collaboratively develop a plan for future advancement opportunities.
+[3] Natasha demonstrates strong performance and delivers high-quality work consistently, reflecting her dedication and skill. While her current contributions are valued, there are developmental areas impacting her advancement opportunities. If Natasha seeks growth, she should request specific feedback, clarify expectations for promotion, create a targeted development plan, and regularly check in with leadership to track progress.
+[4] Feedback means Natasha excels in quality/timeliness but faces undisclosed barriers to advancement. This positions her as a top performer with stalled growth. Natasha should: 1) Request specific feedback on advancement blockers, 2) Document achievements for promotion packet, 3) Seek cross-departmental exposure opportunities.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer1|Interpret|B18|Q05",
+  "criterion": "Sentiment match",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 46: B18_Q06_Motivationaltone -----
+You are Volunteer 1 in Group B.
+TASK TYPE: Interpret
+SAMPLE: B18
+CRITERION: Motivational tone
+
+INSTRUCTION:
+Rank from most to least empathetic and encouraging.
+
+ORIGINAL:
+Natasha has proven to be an effective worker. She consistently creates excellent work on time. Her performance within the company is very strong. However, we do not see her currently moving forward within the company at this time due to a number of issues that be discussed if requested.
+
+CANDIDATES:
+[1] Natasha, this feedback indicates you are a highly valued, top-performing individual contributor. Your work quality and reliability are excellent. However, the company doesn't currently see you advancing, suggesting there are unstated reasons impacting your growth trajectory. To understand and address these, Natasha should proactively schedule a meeting with her manager to discuss specific growth blockers, seek actionable feedback, and collaboratively develop a plan for future advancement opportunities.
+[2] Feedback means Natasha excels in quality/timeliness but faces undisclosed barriers to advancement. This positions her as a top performer with stalled growth. Natasha should: 1) Request specific feedback on advancement blockers, 2) Document achievements for promotion packet, 3) Seek cross-departmental exposure opportunities.
+[3] Natasha demonstrates strong performance and delivers high-quality work consistently, reflecting her dedication and skill. While her current contributions are valued, there are developmental areas impacting her advancement opportunities. If Natasha seeks growth, she should request specific feedback, clarify expectations for promotion, create a targeted development plan, and regularly check in with leadership to track progress.
+[4] Natasha is a highly effective employee delivering excellent, timely work. Her growth is stalled by unspecified issues, preventing advancement. Natasha must schedule a meeting to respectfully ask her manager to detail these issues and define a clear path for future growth.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer1|Interpret|B18|Q06",
+  "criterion": "Motivational tone",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 47: B18_Q07_Constructiveness -----
+You are Volunteer 1 in Group B.
+TASK TYPE: Interpret
+SAMPLE: B18
+CRITERION: Constructiveness
+
+INSTRUCTION:
+Rank from most to least helpful and constructive.
+
+ORIGINAL:
+Natasha has proven to be an effective worker. She consistently creates excellent work on time. Her performance within the company is very strong. However, we do not see her currently moving forward within the company at this time due to a number of issues that be discussed if requested.
+
+CANDIDATES:
+[1] Natasha is a highly effective employee delivering excellent, timely work. Her growth is stalled by unspecified issues, preventing advancement. Natasha must schedule a meeting to respectfully ask her manager to detail these issues and define a clear path for future growth.
+[2] Feedback means Natasha excels in quality/timeliness but faces undisclosed barriers to advancement. This positions her as a top performer with stalled growth. Natasha should: 1) Request specific feedback on advancement blockers, 2) Document achievements for promotion packet, 3) Seek cross-departmental exposure opportunities.
+[3] Natasha demonstrates strong performance and delivers high-quality work consistently, reflecting her dedication and skill. While her current contributions are valued, there are developmental areas impacting her advancement opportunities. If Natasha seeks growth, she should request specific feedback, clarify expectations for promotion, create a targeted development plan, and regularly check in with leadership to track progress.
+[4] Natasha, this feedback indicates you are a highly valued, top-performing individual contributor. Your work quality and reliability are excellent. However, the company doesn't currently see you advancing, suggesting there are unstated reasons impacting your growth trajectory. To understand and address these, Natasha should proactively schedule a meeting with her manager to discuss specific growth blockers, seek actionable feedback, and collaboratively develop a plan for future advancement opportunities.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer1|Interpret|B18|Q07",
+  "criterion": "Constructiveness",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 48: B18_Q08_Finalchoice -----
+You are Volunteer 1 in Group B.
+TASK TYPE: Interpret
+SAMPLE: B18
+CRITERION: Final choice
+
+INSTRUCTION:
+Rank from most to least suitable as a final version.
+
+ORIGINAL:
+Natasha has proven to be an effective worker. She consistently creates excellent work on time. Her performance within the company is very strong. However, we do not see her currently moving forward within the company at this time due to a number of issues that be discussed if requested.
+
+CANDIDATES:
+[1] Natasha demonstrates strong performance and delivers high-quality work consistently, reflecting her dedication and skill. While her current contributions are valued, there are developmental areas impacting her advancement opportunities. If Natasha seeks growth, she should request specific feedback, clarify expectations for promotion, create a targeted development plan, and regularly check in with leadership to track progress.
+[2] Natasha is a highly effective employee delivering excellent, timely work. Her growth is stalled by unspecified issues, preventing advancement. Natasha must schedule a meeting to respectfully ask her manager to detail these issues and define a clear path for future growth.
+[3] Natasha, this feedback indicates you are a highly valued, top-performing individual contributor. Your work quality and reliability are excellent. However, the company doesn't currently see you advancing, suggesting there are unstated reasons impacting your growth trajectory. To understand and address these, Natasha should proactively schedule a meeting with her manager to discuss specific growth blockers, seek actionable feedback, and collaboratively develop a plan for future advancement opportunities.
+[4] Feedback means Natasha excels in quality/timeliness but faces undisclosed barriers to advancement. This positions her as a top performer with stalled growth. Natasha should: 1) Request specific feedback on advancement blockers, 2) Document achievements for promotion packet, 3) Seek cross-departmental exposure opportunities.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "B-Volunteer1|Interpret|B18|Q08",
+  "criterion": "Final choice",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+

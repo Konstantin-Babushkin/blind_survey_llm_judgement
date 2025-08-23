@@ -1,0 +1,1698 @@
+----- PROMPT 1: C2_Q01_Fluency -----
+You are Volunteer 1 in Group C.
+TASK TYPE: Idea-to-Text
+SAMPLE: C2
+CRITERION: Fluency
+
+INSTRUCTION:
+Rank from most to least smooth and error-free.
+
+ORIGINAL:
+Bethany Cunningham performs well yet seems content; a career-growth push is needed.
+
+CANDIDATES:
+[1] Bethany consistently delivers strong performance and maintains a positive attitude. While she appears satisfied in her current role, she would benefit from targeted development opportunities to stimulate career growth and expand her responsibilities. Encouraging her to pursue stretch assignments or leadership training could help unlock her full potential.
+[2] Bethany, you continue to deliver strong, reliable performance. While meeting expectations, we see significant untapped potential for your growth. Let's discuss your career aspirations and identify challenging opportunities to push your development further and ensure your continued progress.
+[3] Bethany, your performance is consistently strong and appreciated. To ensure you continue to grow and reach your full potential here, let's proactively explore new challenges and define a clear career development path.
+[4] Bethany consistently delivers strong results, meeting all expectations. To further her development, we encourage Bethany to proactively seek out new challenges and leadership opportunities. Identifying specific areas for growth and pursuing relevant training will help her advance and maximize her considerable potential within the company.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer1|Idea-to-Text|C2|Q01",
+  "criterion": "Fluency",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 2: C2_Q02_Coherence -----
+You are Volunteer 1 in Group C.
+TASK TYPE: Idea-to-Text
+SAMPLE: C2
+CRITERION: Coherence
+
+INSTRUCTION:
+Rank from most to least logical and easy to follow.
+
+ORIGINAL:
+Bethany Cunningham performs well yet seems content; a career-growth push is needed.
+
+CANDIDATES:
+[1] Bethany, you continue to deliver strong, reliable performance. While meeting expectations, we see significant untapped potential for your growth. Let's discuss your career aspirations and identify challenging opportunities to push your development further and ensure your continued progress.
+[2] Bethany consistently delivers strong results, meeting all expectations. To further her development, we encourage Bethany to proactively seek out new challenges and leadership opportunities. Identifying specific areas for growth and pursuing relevant training will help her advance and maximize her considerable potential within the company.
+[3] Bethany consistently delivers strong performance and maintains a positive attitude. While she appears satisfied in her current role, she would benefit from targeted development opportunities to stimulate career growth and expand her responsibilities. Encouraging her to pursue stretch assignments or leadership training could help unlock her full potential.
+[4] Bethany, your performance is consistently strong and appreciated. To ensure you continue to grow and reach your full potential here, let's proactively explore new challenges and define a clear career development path.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer1|Idea-to-Text|C2|Q02",
+  "criterion": "Coherence",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 3: C2_Q03_Conciseness -----
+You are Volunteer 1 in Group C.
+TASK TYPE: Idea-to-Text
+SAMPLE: C2
+CRITERION: Conciseness
+
+INSTRUCTION:
+Rank from most to least clear and compact.
+
+ORIGINAL:
+Bethany Cunningham performs well yet seems content; a career-growth push is needed.
+
+CANDIDATES:
+[1] Bethany, you continue to deliver strong, reliable performance. While meeting expectations, we see significant untapped potential for your growth. Let's discuss your career aspirations and identify challenging opportunities to push your development further and ensure your continued progress.
+[2] Bethany, your performance is consistently strong and appreciated. To ensure you continue to grow and reach your full potential here, let's proactively explore new challenges and define a clear career development path.
+[3] Bethany consistently delivers strong performance and maintains a positive attitude. While she appears satisfied in her current role, she would benefit from targeted development opportunities to stimulate career growth and expand her responsibilities. Encouraging her to pursue stretch assignments or leadership training could help unlock her full potential.
+[4] Bethany consistently delivers strong results, meeting all expectations. To further her development, we encourage Bethany to proactively seek out new challenges and leadership opportunities. Identifying specific areas for growth and pursuing relevant training will help her advance and maximize her considerable potential within the company.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer1|Idea-to-Text|C2|Q03",
+  "criterion": "Conciseness",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 4: C2_Q04_Accuracy -----
+You are Volunteer 1 in Group C.
+TASK TYPE: Idea-to-Text
+SAMPLE: C2
+CRITERION: Accuracy
+
+INSTRUCTION:
+Select all texts that are factually correct given the Original.
+
+ORIGINAL:
+Bethany Cunningham performs well yet seems content; a career-growth push is needed.
+
+CANDIDATES:
+[1] Bethany consistently delivers strong performance and maintains a positive attitude. While she appears satisfied in her current role, she would benefit from targeted development opportunities to stimulate career growth and expand her responsibilities. Encouraging her to pursue stretch assignments or leadership training could help unlock her full potential.
+[2] Bethany consistently delivers strong results, meeting all expectations. To further her development, we encourage Bethany to proactively seek out new challenges and leadership opportunities. Identifying specific areas for growth and pursuing relevant training will help her advance and maximize her considerable potential within the company.
+[3] Bethany, your performance is consistently strong and appreciated. To ensure you continue to grow and reach your full potential here, let's proactively explore new challenges and define a clear career development path.
+[4] Bethany, you continue to deliver strong, reliable performance. While meeting expectations, we see significant untapped potential for your growth. Let's discuss your career aspirations and identify challenging opportunities to push your development further and ensure your continued progress.
+
+Please select all outputs that are factually correct given the Original.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer1|Idea-to-Text|C2|Q04",
+  "criterion": "Accuracy",
+  "rating": [1, 3],
+  "justifications": {
+    "1": "why candidate 1 is correct/incorrect in one sentence",
+    "2": "why candidate 2 is correct/incorrect in one sentence",
+    "3": "why candidate 3 is correct/incorrect in one sentence",
+    "4": "why candidate 4 is correct/incorrect in one sentence"
+  }
+}
+
+
+----- PROMPT 5: C2_Q05_Sentimentmatch -----
+You are Volunteer 1 in Group C.
+TASK TYPE: Idea-to-Text
+SAMPLE: C2
+CRITERION: Sentiment match
+
+INSTRUCTION:
+Rank from most to least similar to the Original in style and sentiment.
+
+ORIGINAL:
+Bethany Cunningham performs well yet seems content; a career-growth push is needed.
+
+CANDIDATES:
+[1] Bethany consistently delivers strong results, meeting all expectations. To further her development, we encourage Bethany to proactively seek out new challenges and leadership opportunities. Identifying specific areas for growth and pursuing relevant training will help her advance and maximize her considerable potential within the company.
+[2] Bethany, your performance is consistently strong and appreciated. To ensure you continue to grow and reach your full potential here, let's proactively explore new challenges and define a clear career development path.
+[3] Bethany, you continue to deliver strong, reliable performance. While meeting expectations, we see significant untapped potential for your growth. Let's discuss your career aspirations and identify challenging opportunities to push your development further and ensure your continued progress.
+[4] Bethany consistently delivers strong performance and maintains a positive attitude. While she appears satisfied in her current role, she would benefit from targeted development opportunities to stimulate career growth and expand her responsibilities. Encouraging her to pursue stretch assignments or leadership training could help unlock her full potential.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer1|Idea-to-Text|C2|Q05",
+  "criterion": "Sentiment match",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 6: C2_Q06_Motivationaltone -----
+You are Volunteer 1 in Group C.
+TASK TYPE: Idea-to-Text
+SAMPLE: C2
+CRITERION: Motivational tone
+
+INSTRUCTION:
+Rank from most to least empathetic and encouraging.
+
+ORIGINAL:
+Bethany Cunningham performs well yet seems content; a career-growth push is needed.
+
+CANDIDATES:
+[1] Bethany consistently delivers strong results, meeting all expectations. To further her development, we encourage Bethany to proactively seek out new challenges and leadership opportunities. Identifying specific areas for growth and pursuing relevant training will help her advance and maximize her considerable potential within the company.
+[2] Bethany consistently delivers strong performance and maintains a positive attitude. While she appears satisfied in her current role, she would benefit from targeted development opportunities to stimulate career growth and expand her responsibilities. Encouraging her to pursue stretch assignments or leadership training could help unlock her full potential.
+[3] Bethany, your performance is consistently strong and appreciated. To ensure you continue to grow and reach your full potential here, let's proactively explore new challenges and define a clear career development path.
+[4] Bethany, you continue to deliver strong, reliable performance. While meeting expectations, we see significant untapped potential for your growth. Let's discuss your career aspirations and identify challenging opportunities to push your development further and ensure your continued progress.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer1|Idea-to-Text|C2|Q06",
+  "criterion": "Motivational tone",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 7: C2_Q07_Constructiveness -----
+You are Volunteer 1 in Group C.
+TASK TYPE: Idea-to-Text
+SAMPLE: C2
+CRITERION: Constructiveness
+
+INSTRUCTION:
+Rank from most to least helpful and constructive.
+
+ORIGINAL:
+Bethany Cunningham performs well yet seems content; a career-growth push is needed.
+
+CANDIDATES:
+[1] Bethany, you continue to deliver strong, reliable performance. While meeting expectations, we see significant untapped potential for your growth. Let's discuss your career aspirations and identify challenging opportunities to push your development further and ensure your continued progress.
+[2] Bethany consistently delivers strong performance and maintains a positive attitude. While she appears satisfied in her current role, she would benefit from targeted development opportunities to stimulate career growth and expand her responsibilities. Encouraging her to pursue stretch assignments or leadership training could help unlock her full potential.
+[3] Bethany consistently delivers strong results, meeting all expectations. To further her development, we encourage Bethany to proactively seek out new challenges and leadership opportunities. Identifying specific areas for growth and pursuing relevant training will help her advance and maximize her considerable potential within the company.
+[4] Bethany, your performance is consistently strong and appreciated. To ensure you continue to grow and reach your full potential here, let's proactively explore new challenges and define a clear career development path.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer1|Idea-to-Text|C2|Q07",
+  "criterion": "Constructiveness",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 8: C2_Q08_Finalchoice -----
+You are Volunteer 1 in Group C.
+TASK TYPE: Idea-to-Text
+SAMPLE: C2
+CRITERION: Final choice
+
+INSTRUCTION:
+Rank from most to least suitable as a final version.
+
+ORIGINAL:
+Bethany Cunningham performs well yet seems content; a career-growth push is needed.
+
+CANDIDATES:
+[1] Bethany consistently delivers strong performance and maintains a positive attitude. While she appears satisfied in her current role, she would benefit from targeted development opportunities to stimulate career growth and expand her responsibilities. Encouraging her to pursue stretch assignments or leadership training could help unlock her full potential.
+[2] Bethany, your performance is consistently strong and appreciated. To ensure you continue to grow and reach your full potential here, let's proactively explore new challenges and define a clear career development path.
+[3] Bethany consistently delivers strong results, meeting all expectations. To further her development, we encourage Bethany to proactively seek out new challenges and leadership opportunities. Identifying specific areas for growth and pursuing relevant training will help her advance and maximize her considerable potential within the company.
+[4] Bethany, you continue to deliver strong, reliable performance. While meeting expectations, we see significant untapped potential for your growth. Let's discuss your career aspirations and identify challenging opportunities to push your development further and ensure your continued progress.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer1|Idea-to-Text|C2|Q08",
+  "criterion": "Final choice",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 9: C3_Q01_Fluency -----
+You are Volunteer 1 in Group C.
+TASK TYPE: Idea-to-Text
+SAMPLE: C3
+CRITERION: Fluency
+
+INSTRUCTION:
+Rank from most to least smooth and error-free.
+
+ORIGINAL:
+Allan Logan is exceptionally talented and creative—ready for stretch assignments to maximize impact.
+
+CANDIDATES:
+[1] Allan, your exceptional talent and creativity are highly valued assets. You are clearly ready for more complex challenges. We will look to assign you significant stretch assignments designed to maximize your impact and fully utilize your outstanding capabilities.
+[2] Allan consistently demonstrates exceptional talent and creativity, bringing innovative solutions to complex challenges. His proactive approach and ability to think outside the box are invaluable. Allan is clearly ready for stretch assignments that will leverage his unique skills and allow him to make an even greater impact on key initiatives.
+[3] Allan, your exceptional talent and creativity are a tremendous asset. You are clearly ready for more complex challenges, so let's identify some stretch assignments to maximize your impact and accelerate your growth.
+[4] Allan Logan is a highly talented and creative professional whose innovative thinking consistently delivers strong results. He is well-prepared for stretch assignments that challenge his abilities and allow him to make an even greater impact. Providing him with opportunities to lead complex initiatives will further leverage his skills and drive meaningful contributions across the organization.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer1|Idea-to-Text|C3|Q01",
+  "criterion": "Fluency",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 10: C3_Q02_Coherence -----
+You are Volunteer 1 in Group C.
+TASK TYPE: Idea-to-Text
+SAMPLE: C3
+CRITERION: Coherence
+
+INSTRUCTION:
+Rank from most to least logical and easy to follow.
+
+ORIGINAL:
+Allan Logan is exceptionally talented and creative—ready for stretch assignments to maximize impact.
+
+CANDIDATES:
+[1] Allan, your exceptional talent and creativity are highly valued assets. You are clearly ready for more complex challenges. We will look to assign you significant stretch assignments designed to maximize your impact and fully utilize your outstanding capabilities.
+[2] Allan Logan is a highly talented and creative professional whose innovative thinking consistently delivers strong results. He is well-prepared for stretch assignments that challenge his abilities and allow him to make an even greater impact. Providing him with opportunities to lead complex initiatives will further leverage his skills and drive meaningful contributions across the organization.
+[3] Allan consistently demonstrates exceptional talent and creativity, bringing innovative solutions to complex challenges. His proactive approach and ability to think outside the box are invaluable. Allan is clearly ready for stretch assignments that will leverage his unique skills and allow him to make an even greater impact on key initiatives.
+[4] Allan, your exceptional talent and creativity are a tremendous asset. You are clearly ready for more complex challenges, so let's identify some stretch assignments to maximize your impact and accelerate your growth.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer1|Idea-to-Text|C3|Q02",
+  "criterion": "Coherence",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 11: C3_Q03_Conciseness -----
+You are Volunteer 1 in Group C.
+TASK TYPE: Idea-to-Text
+SAMPLE: C3
+CRITERION: Conciseness
+
+INSTRUCTION:
+Rank from most to least clear and compact.
+
+ORIGINAL:
+Allan Logan is exceptionally talented and creative—ready for stretch assignments to maximize impact.
+
+CANDIDATES:
+[1] Allan Logan is a highly talented and creative professional whose innovative thinking consistently delivers strong results. He is well-prepared for stretch assignments that challenge his abilities and allow him to make an even greater impact. Providing him with opportunities to lead complex initiatives will further leverage his skills and drive meaningful contributions across the organization.
+[2] Allan, your exceptional talent and creativity are a tremendous asset. You are clearly ready for more complex challenges, so let's identify some stretch assignments to maximize your impact and accelerate your growth.
+[3] Allan, your exceptional talent and creativity are highly valued assets. You are clearly ready for more complex challenges. We will look to assign you significant stretch assignments designed to maximize your impact and fully utilize your outstanding capabilities.
+[4] Allan consistently demonstrates exceptional talent and creativity, bringing innovative solutions to complex challenges. His proactive approach and ability to think outside the box are invaluable. Allan is clearly ready for stretch assignments that will leverage his unique skills and allow him to make an even greater impact on key initiatives.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer1|Idea-to-Text|C3|Q03",
+  "criterion": "Conciseness",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 12: C3_Q04_Accuracy -----
+You are Volunteer 1 in Group C.
+TASK TYPE: Idea-to-Text
+SAMPLE: C3
+CRITERION: Accuracy
+
+INSTRUCTION:
+Select all texts that are factually correct given the Original.
+
+ORIGINAL:
+Allan Logan is exceptionally talented and creative—ready for stretch assignments to maximize impact.
+
+CANDIDATES:
+[1] Allan Logan is a highly talented and creative professional whose innovative thinking consistently delivers strong results. He is well-prepared for stretch assignments that challenge his abilities and allow him to make an even greater impact. Providing him with opportunities to lead complex initiatives will further leverage his skills and drive meaningful contributions across the organization.
+[2] Allan, your exceptional talent and creativity are highly valued assets. You are clearly ready for more complex challenges. We will look to assign you significant stretch assignments designed to maximize your impact and fully utilize your outstanding capabilities.
+[3] Allan consistently demonstrates exceptional talent and creativity, bringing innovative solutions to complex challenges. His proactive approach and ability to think outside the box are invaluable. Allan is clearly ready for stretch assignments that will leverage his unique skills and allow him to make an even greater impact on key initiatives.
+[4] Allan, your exceptional talent and creativity are a tremendous asset. You are clearly ready for more complex challenges, so let's identify some stretch assignments to maximize your impact and accelerate your growth.
+
+Please select all outputs that are factually correct given the Original.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer1|Idea-to-Text|C3|Q04",
+  "criterion": "Accuracy",
+  "rating": [1, 3],
+  "justifications": {
+    "1": "why candidate 1 is correct/incorrect in one sentence",
+    "2": "why candidate 2 is correct/incorrect in one sentence",
+    "3": "why candidate 3 is correct/incorrect in one sentence",
+    "4": "why candidate 4 is correct/incorrect in one sentence"
+  }
+}
+
+
+----- PROMPT 13: C3_Q05_Sentimentmatch -----
+You are Volunteer 1 in Group C.
+TASK TYPE: Idea-to-Text
+SAMPLE: C3
+CRITERION: Sentiment match
+
+INSTRUCTION:
+Rank from most to least similar to the Original in style and sentiment.
+
+ORIGINAL:
+Allan Logan is exceptionally talented and creative—ready for stretch assignments to maximize impact.
+
+CANDIDATES:
+[1] Allan Logan is a highly talented and creative professional whose innovative thinking consistently delivers strong results. He is well-prepared for stretch assignments that challenge his abilities and allow him to make an even greater impact. Providing him with opportunities to lead complex initiatives will further leverage his skills and drive meaningful contributions across the organization.
+[2] Allan consistently demonstrates exceptional talent and creativity, bringing innovative solutions to complex challenges. His proactive approach and ability to think outside the box are invaluable. Allan is clearly ready for stretch assignments that will leverage his unique skills and allow him to make an even greater impact on key initiatives.
+[3] Allan, your exceptional talent and creativity are a tremendous asset. You are clearly ready for more complex challenges, so let's identify some stretch assignments to maximize your impact and accelerate your growth.
+[4] Allan, your exceptional talent and creativity are highly valued assets. You are clearly ready for more complex challenges. We will look to assign you significant stretch assignments designed to maximize your impact and fully utilize your outstanding capabilities.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer1|Idea-to-Text|C3|Q05",
+  "criterion": "Sentiment match",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 14: C3_Q06_Motivationaltone -----
+You are Volunteer 1 in Group C.
+TASK TYPE: Idea-to-Text
+SAMPLE: C3
+CRITERION: Motivational tone
+
+INSTRUCTION:
+Rank from most to least empathetic and encouraging.
+
+ORIGINAL:
+Allan Logan is exceptionally talented and creative—ready for stretch assignments to maximize impact.
+
+CANDIDATES:
+[1] Allan, your exceptional talent and creativity are highly valued assets. You are clearly ready for more complex challenges. We will look to assign you significant stretch assignments designed to maximize your impact and fully utilize your outstanding capabilities.
+[2] Allan Logan is a highly talented and creative professional whose innovative thinking consistently delivers strong results. He is well-prepared for stretch assignments that challenge his abilities and allow him to make an even greater impact. Providing him with opportunities to lead complex initiatives will further leverage his skills and drive meaningful contributions across the organization.
+[3] Allan, your exceptional talent and creativity are a tremendous asset. You are clearly ready for more complex challenges, so let's identify some stretch assignments to maximize your impact and accelerate your growth.
+[4] Allan consistently demonstrates exceptional talent and creativity, bringing innovative solutions to complex challenges. His proactive approach and ability to think outside the box are invaluable. Allan is clearly ready for stretch assignments that will leverage his unique skills and allow him to make an even greater impact on key initiatives.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer1|Idea-to-Text|C3|Q06",
+  "criterion": "Motivational tone",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 15: C3_Q07_Constructiveness -----
+You are Volunteer 1 in Group C.
+TASK TYPE: Idea-to-Text
+SAMPLE: C3
+CRITERION: Constructiveness
+
+INSTRUCTION:
+Rank from most to least helpful and constructive.
+
+ORIGINAL:
+Allan Logan is exceptionally talented and creative—ready for stretch assignments to maximize impact.
+
+CANDIDATES:
+[1] Allan, your exceptional talent and creativity are highly valued assets. You are clearly ready for more complex challenges. We will look to assign you significant stretch assignments designed to maximize your impact and fully utilize your outstanding capabilities.
+[2] Allan Logan is a highly talented and creative professional whose innovative thinking consistently delivers strong results. He is well-prepared for stretch assignments that challenge his abilities and allow him to make an even greater impact. Providing him with opportunities to lead complex initiatives will further leverage his skills and drive meaningful contributions across the organization.
+[3] Allan consistently demonstrates exceptional talent and creativity, bringing innovative solutions to complex challenges. His proactive approach and ability to think outside the box are invaluable. Allan is clearly ready for stretch assignments that will leverage his unique skills and allow him to make an even greater impact on key initiatives.
+[4] Allan, your exceptional talent and creativity are a tremendous asset. You are clearly ready for more complex challenges, so let's identify some stretch assignments to maximize your impact and accelerate your growth.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer1|Idea-to-Text|C3|Q07",
+  "criterion": "Constructiveness",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 16: C3_Q08_Finalchoice -----
+You are Volunteer 1 in Group C.
+TASK TYPE: Idea-to-Text
+SAMPLE: C3
+CRITERION: Final choice
+
+INSTRUCTION:
+Rank from most to least suitable as a final version.
+
+ORIGINAL:
+Allan Logan is exceptionally talented and creative—ready for stretch assignments to maximize impact.
+
+CANDIDATES:
+[1] Allan, your exceptional talent and creativity are a tremendous asset. You are clearly ready for more complex challenges, so let's identify some stretch assignments to maximize your impact and accelerate your growth.
+[2] Allan, your exceptional talent and creativity are highly valued assets. You are clearly ready for more complex challenges. We will look to assign you significant stretch assignments designed to maximize your impact and fully utilize your outstanding capabilities.
+[3] Allan consistently demonstrates exceptional talent and creativity, bringing innovative solutions to complex challenges. His proactive approach and ability to think outside the box are invaluable. Allan is clearly ready for stretch assignments that will leverage his unique skills and allow him to make an even greater impact on key initiatives.
+[4] Allan Logan is a highly talented and creative professional whose innovative thinking consistently delivers strong results. He is well-prepared for stretch assignments that challenge his abilities and allow him to make an even greater impact. Providing him with opportunities to lead complex initiatives will further leverage his skills and drive meaningful contributions across the organization.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer1|Idea-to-Text|C3|Q08",
+  "criterion": "Final choice",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT SC1: SanityCheck_IdeaToText_Accuracy -----
+TASK TYPE: Idea-to-Text
+SAMPLE: SC1
+CRITERION: Accuracy
+
+INSTRUCTION:
+Rank from most to least factually correct given the Original.
+
+ORIGINAL:
+The sun appears to rise each morning from the eastern horizon before setting in the west
+
+CANDIDATES:
+[1] The sun rises in the east.
+[2] The sun rises in the west.
+[3] The moon rises in the east.
+[4] The sun never rises.
+
+Please rank outputs strictly from most accurate (1) to least accurate (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "Idea-to-Text|SC1|Q04",
+  "criterion": "Accuracy",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 17: C7_Q01_Fluency -----
+You are Volunteer 1 in Group C.
+TASK TYPE: Summarise
+SAMPLE: C7
+CRITERION: Fluency
+
+INSTRUCTION:
+Rank from most to least smooth and error-free.
+
+ORIGINAL:
+Kallie has struggled to find her footing at our company. She's repeatedly turned in work product containing typos, grammar issues, and content mistakes. The good thing is that I trust that Kallie will make great strides moving forward to improve. Every time I give her feedback or mark up documents for her, she takes my comments very seriously and always does better the next time. I believe she has the will and desire to become a reliable member of our department.
+
+CANDIDATES:
+[1] Kallie's work often contains errors, but she is highly receptive to feedback and improves with every correction, showing a strong will to succeed.
+[2] Kallie has had difficulty with work quality, showing repeated errors in writing and content. However, she responds well to feedback, improves consistently, and demonstrates strong willingness to grow. With continued support, she has the potential to become a reliable team member.
+[3] Kallie: Struggles (typos, grammar, content errors). Takes feedback seriously & improves. Has will/desire to become reliable.
+[4] Kallie's work has consistent errors, but she's receptive to feedback and shows strong potential for improvement. Her dedication suggests she'll become a reliable team member.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer1|Summarise|C7|Q01",
+  "criterion": "Fluency",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 18: C7_Q02_Coherence -----
+You are Volunteer 1 in Group C.
+TASK TYPE: Summarise
+SAMPLE: C7
+CRITERION: Coherence
+
+INSTRUCTION:
+Rank from most to least logical and easy to follow.
+
+ORIGINAL:
+Kallie has struggled to find her footing at our company. She's repeatedly turned in work product containing typos, grammar issues, and content mistakes. The good thing is that I trust that Kallie will make great strides moving forward to improve. Every time I give her feedback or mark up documents for her, she takes my comments very seriously and always does better the next time. I believe she has the will and desire to become a reliable member of our department.
+
+CANDIDATES:
+[1] Kallie has had difficulty with work quality, showing repeated errors in writing and content. However, she responds well to feedback, improves consistently, and demonstrates strong willingness to grow. With continued support, she has the potential to become a reliable team member.
+[2] Kallie's work often contains errors, but she is highly receptive to feedback and improves with every correction, showing a strong will to succeed.
+[3] Kallie: Struggles (typos, grammar, content errors). Takes feedback seriously & improves. Has will/desire to become reliable.
+[4] Kallie's work has consistent errors, but she's receptive to feedback and shows strong potential for improvement. Her dedication suggests she'll become a reliable team member.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer1|Summarise|C7|Q02",
+  "criterion": "Coherence",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 19: C7_Q03_Conciseness -----
+You are Volunteer 1 in Group C.
+TASK TYPE: Summarise
+SAMPLE: C7
+CRITERION: Conciseness
+
+INSTRUCTION:
+Rank from most to least clear and compact.
+
+ORIGINAL:
+Kallie has struggled to find her footing at our company. She's repeatedly turned in work product containing typos, grammar issues, and content mistakes. The good thing is that I trust that Kallie will make great strides moving forward to improve. Every time I give her feedback or mark up documents for her, she takes my comments very seriously and always does better the next time. I believe she has the will and desire to become a reliable member of our department.
+
+CANDIDATES:
+[1] Kallie has had difficulty with work quality, showing repeated errors in writing and content. However, she responds well to feedback, improves consistently, and demonstrates strong willingness to grow. With continued support, she has the potential to become a reliable team member.
+[2] Kallie's work often contains errors, but she is highly receptive to feedback and improves with every correction, showing a strong will to succeed.
+[3] Kallie's work has consistent errors, but she's receptive to feedback and shows strong potential for improvement. Her dedication suggests she'll become a reliable team member.
+[4] Kallie: Struggles (typos, grammar, content errors). Takes feedback seriously & improves. Has will/desire to become reliable.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer1|Summarise|C7|Q03",
+  "criterion": "Conciseness",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 20: C7_Q04_Accuracy -----
+You are Volunteer 1 in Group C.
+TASK TYPE: Summarise
+SAMPLE: C7
+CRITERION: Accuracy
+
+INSTRUCTION:
+Select all texts that are factually correct given the Original.
+
+ORIGINAL:
+Kallie has struggled to find her footing at our company. She's repeatedly turned in work product containing typos, grammar issues, and content mistakes. The good thing is that I trust that Kallie will make great strides moving forward to improve. Every time I give her feedback or mark up documents for her, she takes my comments very seriously and always does better the next time. I believe she has the will and desire to become a reliable member of our department.
+
+CANDIDATES:
+[1] Kallie has had difficulty with work quality, showing repeated errors in writing and content. However, she responds well to feedback, improves consistently, and demonstrates strong willingness to grow. With continued support, she has the potential to become a reliable team member.
+[2] Kallie: Struggles (typos, grammar, content errors). Takes feedback seriously & improves. Has will/desire to become reliable.
+[3] Kallie's work has consistent errors, but she's receptive to feedback and shows strong potential for improvement. Her dedication suggests she'll become a reliable team member.
+[4] Kallie's work often contains errors, but she is highly receptive to feedback and improves with every correction, showing a strong will to succeed.
+
+Please select all outputs that are factually correct given the Original.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer1|Summarise|C7|Q04",
+  "criterion": "Accuracy",
+  "rating": [1, 3],
+  "justifications": {
+    "1": "why candidate 1 is correct/incorrect in one sentence",
+    "2": "why candidate 2 is correct/incorrect in one sentence",
+    "3": "why candidate 3 is correct/incorrect in one sentence",
+    "4": "why candidate 4 is correct/incorrect in one sentence"
+  }
+}
+
+
+----- PROMPT 21: C7_Q05_Sentimentmatch -----
+You are Volunteer 1 in Group C.
+TASK TYPE: Summarise
+SAMPLE: C7
+CRITERION: Sentiment match
+
+INSTRUCTION:
+Rank from most to least similar to the Original in style and sentiment.
+
+ORIGINAL:
+Kallie has struggled to find her footing at our company. She's repeatedly turned in work product containing typos, grammar issues, and content mistakes. The good thing is that I trust that Kallie will make great strides moving forward to improve. Every time I give her feedback or mark up documents for her, she takes my comments very seriously and always does better the next time. I believe she has the will and desire to become a reliable member of our department.
+
+CANDIDATES:
+[1] Kallie's work often contains errors, but she is highly receptive to feedback and improves with every correction, showing a strong will to succeed.
+[2] Kallie's work has consistent errors, but she's receptive to feedback and shows strong potential for improvement. Her dedication suggests she'll become a reliable team member.
+[3] Kallie: Struggles (typos, grammar, content errors). Takes feedback seriously & improves. Has will/desire to become reliable.
+[4] Kallie has had difficulty with work quality, showing repeated errors in writing and content. However, she responds well to feedback, improves consistently, and demonstrates strong willingness to grow. With continued support, she has the potential to become a reliable team member.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer1|Summarise|C7|Q05",
+  "criterion": "Sentiment match",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 22: C7_Q06_Motivationaltone -----
+You are Volunteer 1 in Group C.
+TASK TYPE: Summarise
+SAMPLE: C7
+CRITERION: Motivational tone
+
+INSTRUCTION:
+Rank from most to least empathetic and encouraging.
+
+ORIGINAL:
+Kallie has struggled to find her footing at our company. She's repeatedly turned in work product containing typos, grammar issues, and content mistakes. The good thing is that I trust that Kallie will make great strides moving forward to improve. Every time I give her feedback or mark up documents for her, she takes my comments very seriously and always does better the next time. I believe she has the will and desire to become a reliable member of our department.
+
+CANDIDATES:
+[1] Kallie: Struggles (typos, grammar, content errors). Takes feedback seriously & improves. Has will/desire to become reliable.
+[2] Kallie's work often contains errors, but she is highly receptive to feedback and improves with every correction, showing a strong will to succeed.
+[3] Kallie has had difficulty with work quality, showing repeated errors in writing and content. However, she responds well to feedback, improves consistently, and demonstrates strong willingness to grow. With continued support, she has the potential to become a reliable team member.
+[4] Kallie's work has consistent errors, but she's receptive to feedback and shows strong potential for improvement. Her dedication suggests she'll become a reliable team member.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer1|Summarise|C7|Q06",
+  "criterion": "Motivational tone",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 23: C7_Q07_Constructiveness -----
+You are Volunteer 1 in Group C.
+TASK TYPE: Summarise
+SAMPLE: C7
+CRITERION: Constructiveness
+
+INSTRUCTION:
+Rank from most to least helpful and constructive.
+
+ORIGINAL:
+Kallie has struggled to find her footing at our company. She's repeatedly turned in work product containing typos, grammar issues, and content mistakes. The good thing is that I trust that Kallie will make great strides moving forward to improve. Every time I give her feedback or mark up documents for her, she takes my comments very seriously and always does better the next time. I believe she has the will and desire to become a reliable member of our department.
+
+CANDIDATES:
+[1] Kallie has had difficulty with work quality, showing repeated errors in writing and content. However, she responds well to feedback, improves consistently, and demonstrates strong willingness to grow. With continued support, she has the potential to become a reliable team member.
+[2] Kallie: Struggles (typos, grammar, content errors). Takes feedback seriously & improves. Has will/desire to become reliable.
+[3] Kallie's work has consistent errors, but she's receptive to feedback and shows strong potential for improvement. Her dedication suggests she'll become a reliable team member.
+[4] Kallie's work often contains errors, but she is highly receptive to feedback and improves with every correction, showing a strong will to succeed.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer1|Summarise|C7|Q07",
+  "criterion": "Constructiveness",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 24: C7_Q08_Finalchoice -----
+You are Volunteer 1 in Group C.
+TASK TYPE: Summarise
+SAMPLE: C7
+CRITERION: Final choice
+
+INSTRUCTION:
+Rank from most to least suitable as a final version.
+
+ORIGINAL:
+Kallie has struggled to find her footing at our company. She's repeatedly turned in work product containing typos, grammar issues, and content mistakes. The good thing is that I trust that Kallie will make great strides moving forward to improve. Every time I give her feedback or mark up documents for her, she takes my comments very seriously and always does better the next time. I believe she has the will and desire to become a reliable member of our department.
+
+CANDIDATES:
+[1] Kallie's work has consistent errors, but she's receptive to feedback and shows strong potential for improvement. Her dedication suggests she'll become a reliable team member.
+[2] Kallie's work often contains errors, but she is highly receptive to feedback and improves with every correction, showing a strong will to succeed.
+[3] Kallie has had difficulty with work quality, showing repeated errors in writing and content. However, she responds well to feedback, improves consistently, and demonstrates strong willingness to grow. With continued support, she has the potential to become a reliable team member.
+[4] Kallie: Struggles (typos, grammar, content errors). Takes feedback seriously & improves. Has will/desire to become reliable.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer1|Summarise|C7|Q08",
+  "criterion": "Final choice",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 25: C8_Q01_Fluency -----
+You are Volunteer 1 in Group C.
+TASK TYPE: Summarise
+SAMPLE: C8
+CRITERION: Fluency
+
+INSTRUCTION:
+Rank from most to least smooth and error-free.
+
+ORIGINAL:
+Elliot Gray is a hard worker but delivers to a standard level. The group tasks he has undertaken with the team have always been to an adequate standard. What he lacks in momentum he makes up for in good work. He has shown that he is capable of holding his on, despite the circumstances.
+
+CANDIDATES:
+[1] Elliot is a consistent, capable, and reliable worker. He may lack momentum but delivers good, adequate work, even in challenging circumstances.
+[2] Elliot is a hard worker who delivers adequate, standard-level work. While lacking momentum, he is a capable and reliable member of the team.
+[3] Elliot: Hard worker, delivers adequate/standard level. Lacks momentum but provides good work. Capable.
+[4] Elliot Gray is a reliable, hardworking employee who consistently delivers adequate results, particularly in group tasks. Though he lacks momentum at times, his steady performance and ability to hold his own under pressure demonstrate solid capability and dedication.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer1|Summarise|C8|Q01",
+  "criterion": "Fluency",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 26: C8_Q02_Coherence -----
+You are Volunteer 1 in Group C.
+TASK TYPE: Summarise
+SAMPLE: C8
+CRITERION: Coherence
+
+INSTRUCTION:
+Rank from most to least logical and easy to follow.
+
+ORIGINAL:
+Elliot Gray is a hard worker but delivers to a standard level. The group tasks he has undertaken with the team have always been to an adequate standard. What he lacks in momentum he makes up for in good work. He has shown that he is capable of holding his on, despite the circumstances.
+
+CANDIDATES:
+[1] Elliot Gray is a reliable, hardworking employee who consistently delivers adequate results, particularly in group tasks. Though he lacks momentum at times, his steady performance and ability to hold his own under pressure demonstrate solid capability and dedication.
+[2] Elliot: Hard worker, delivers adequate/standard level. Lacks momentum but provides good work. Capable.
+[3] Elliot is a consistent, capable, and reliable worker. He may lack momentum but delivers good, adequate work, even in challenging circumstances.
+[4] Elliot is a hard worker who delivers adequate, standard-level work. While lacking momentum, he is a capable and reliable member of the team.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer1|Summarise|C8|Q02",
+  "criterion": "Coherence",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 27: C8_Q03_Conciseness -----
+You are Volunteer 1 in Group C.
+TASK TYPE: Summarise
+SAMPLE: C8
+CRITERION: Conciseness
+
+INSTRUCTION:
+Rank from most to least clear and compact.
+
+ORIGINAL:
+Elliot Gray is a hard worker but delivers to a standard level. The group tasks he has undertaken with the team have always been to an adequate standard. What he lacks in momentum he makes up for in good work. He has shown that he is capable of holding his on, despite the circumstances.
+
+CANDIDATES:
+[1] Elliot is a hard worker who delivers adequate, standard-level work. While lacking momentum, he is a capable and reliable member of the team.
+[2] Elliot: Hard worker, delivers adequate/standard level. Lacks momentum but provides good work. Capable.
+[3] Elliot Gray is a reliable, hardworking employee who consistently delivers adequate results, particularly in group tasks. Though he lacks momentum at times, his steady performance and ability to hold his own under pressure demonstrate solid capability and dedication.
+[4] Elliot is a consistent, capable, and reliable worker. He may lack momentum but delivers good, adequate work, even in challenging circumstances.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer1|Summarise|C8|Q03",
+  "criterion": "Conciseness",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 28: C8_Q04_Accuracy -----
+You are Volunteer 1 in Group C.
+TASK TYPE: Summarise
+SAMPLE: C8
+CRITERION: Accuracy
+
+INSTRUCTION:
+Select all texts that are factually correct given the Original.
+
+ORIGINAL:
+Elliot Gray is a hard worker but delivers to a standard level. The group tasks he has undertaken with the team have always been to an adequate standard. What he lacks in momentum he makes up for in good work. He has shown that he is capable of holding his on, despite the circumstances.
+
+CANDIDATES:
+[1] Elliot is a hard worker who delivers adequate, standard-level work. While lacking momentum, he is a capable and reliable member of the team.
+[2] Elliot: Hard worker, delivers adequate/standard level. Lacks momentum but provides good work. Capable.
+[3] Elliot is a consistent, capable, and reliable worker. He may lack momentum but delivers good, adequate work, even in challenging circumstances.
+[4] Elliot Gray is a reliable, hardworking employee who consistently delivers adequate results, particularly in group tasks. Though he lacks momentum at times, his steady performance and ability to hold his own under pressure demonstrate solid capability and dedication.
+
+Please select all outputs that are factually correct given the Original.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer1|Summarise|C8|Q04",
+  "criterion": "Accuracy",
+  "rating": [1, 3],
+  "justifications": {
+    "1": "why candidate 1 is correct/incorrect in one sentence",
+    "2": "why candidate 2 is correct/incorrect in one sentence",
+    "3": "why candidate 3 is correct/incorrect in one sentence",
+    "4": "why candidate 4 is correct/incorrect in one sentence"
+  }
+}
+
+
+----- PROMPT 29: C8_Q05_Sentimentmatch -----
+You are Volunteer 1 in Group C.
+TASK TYPE: Summarise
+SAMPLE: C8
+CRITERION: Sentiment match
+
+INSTRUCTION:
+Rank from most to least similar to the Original in style and sentiment.
+
+ORIGINAL:
+Elliot Gray is a hard worker but delivers to a standard level. The group tasks he has undertaken with the team have always been to an adequate standard. What he lacks in momentum he makes up for in good work. He has shown that he is capable of holding his on, despite the circumstances.
+
+CANDIDATES:
+[1] Elliot is a consistent, capable, and reliable worker. He may lack momentum but delivers good, adequate work, even in challenging circumstances.
+[2] Elliot: Hard worker, delivers adequate/standard level. Lacks momentum but provides good work. Capable.
+[3] Elliot Gray is a reliable, hardworking employee who consistently delivers adequate results, particularly in group tasks. Though he lacks momentum at times, his steady performance and ability to hold his own under pressure demonstrate solid capability and dedication.
+[4] Elliot is a hard worker who delivers adequate, standard-level work. While lacking momentum, he is a capable and reliable member of the team.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer1|Summarise|C8|Q05",
+  "criterion": "Sentiment match",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 30: C8_Q06_Motivationaltone -----
+You are Volunteer 1 in Group C.
+TASK TYPE: Summarise
+SAMPLE: C8
+CRITERION: Motivational tone
+
+INSTRUCTION:
+Rank from most to least empathetic and encouraging.
+
+ORIGINAL:
+Elliot Gray is a hard worker but delivers to a standard level. The group tasks he has undertaken with the team have always been to an adequate standard. What he lacks in momentum he makes up for in good work. He has shown that he is capable of holding his on, despite the circumstances.
+
+CANDIDATES:
+[1] Elliot: Hard worker, delivers adequate/standard level. Lacks momentum but provides good work. Capable.
+[2] Elliot is a hard worker who delivers adequate, standard-level work. While lacking momentum, he is a capable and reliable member of the team.
+[3] Elliot is a consistent, capable, and reliable worker. He may lack momentum but delivers good, adequate work, even in challenging circumstances.
+[4] Elliot Gray is a reliable, hardworking employee who consistently delivers adequate results, particularly in group tasks. Though he lacks momentum at times, his steady performance and ability to hold his own under pressure demonstrate solid capability and dedication.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer1|Summarise|C8|Q06",
+  "criterion": "Motivational tone",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 31: C8_Q07_Constructiveness -----
+You are Volunteer 1 in Group C.
+TASK TYPE: Summarise
+SAMPLE: C8
+CRITERION: Constructiveness
+
+INSTRUCTION:
+Rank from most to least helpful and constructive.
+
+ORIGINAL:
+Elliot Gray is a hard worker but delivers to a standard level. The group tasks he has undertaken with the team have always been to an adequate standard. What he lacks in momentum he makes up for in good work. He has shown that he is capable of holding his on, despite the circumstances.
+
+CANDIDATES:
+[1] Elliot Gray is a reliable, hardworking employee who consistently delivers adequate results, particularly in group tasks. Though he lacks momentum at times, his steady performance and ability to hold his own under pressure demonstrate solid capability and dedication.
+[2] Elliot: Hard worker, delivers adequate/standard level. Lacks momentum but provides good work. Capable.
+[3] Elliot is a consistent, capable, and reliable worker. He may lack momentum but delivers good, adequate work, even in challenging circumstances.
+[4] Elliot is a hard worker who delivers adequate, standard-level work. While lacking momentum, he is a capable and reliable member of the team.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer1|Summarise|C8|Q07",
+  "criterion": "Constructiveness",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 32: C8_Q08_Finalchoice -----
+You are Volunteer 1 in Group C.
+TASK TYPE: Summarise
+SAMPLE: C8
+CRITERION: Final choice
+
+INSTRUCTION:
+Rank from most to least suitable as a final version.
+
+ORIGINAL:
+Elliot Gray is a hard worker but delivers to a standard level. The group tasks he has undertaken with the team have always been to an adequate standard. What he lacks in momentum he makes up for in good work. He has shown that he is capable of holding his on, despite the circumstances.
+
+CANDIDATES:
+[1] Elliot is a hard worker who delivers adequate, standard-level work. While lacking momentum, he is a capable and reliable member of the team.
+[2] Elliot is a consistent, capable, and reliable worker. He may lack momentum but delivers good, adequate work, even in challenging circumstances.
+[3] Elliot: Hard worker, delivers adequate/standard level. Lacks momentum but provides good work. Capable.
+[4] Elliot Gray is a reliable, hardworking employee who consistently delivers adequate results, particularly in group tasks. Though he lacks momentum at times, his steady performance and ability to hold his own under pressure demonstrate solid capability and dedication.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer1|Summarise|C8|Q08",
+  "criterion": "Final choice",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT SC2: SanityCheck_Summarise_Accuracy -----
+TASK TYPE: Summarise
+SAMPLE: SC2
+CRITERION: Accuracy
+
+INSTRUCTION:
+Rank from most to least factually correct given the Original.
+
+ORIGINAL:
+Pure water begins to freeze at exactly zero degrees Celsius
+
+CANDIDATES:
+[1] Water freezes at at 0°C.
+[2] Water freezes at 100°C.
+[3] Water boils at 0°C.
+[4] Ice melts at 0°C.
+
+Please rank outputs strictly from most accurate (1) to least accurate (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "Summarise|SC2|Q04",
+  "criterion": "Accuracy",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 33: C13_Q01_Fluency -----
+You are Volunteer 1 in Group C.
+TASK TYPE: Interpret
+SAMPLE: C13
+CRITERION: Fluency
+
+INSTRUCTION:
+Rank from most to least smooth and error-free.
+
+ORIGINAL:
+Kohen Norris has been for a lack of better words incompetent. I would like to say more positive things about him but he has not shown any potential in regards to his work. He often is late and smells poorly despite our company guidelines. I feel it is in our best interest to drop him from the company.
+
+CANDIDATES:
+[1] Kohen Norris’s performance has consistently fallen below expectations, with concerns around reliability, adherence to company standards, and overall work quality. This feedback suggests serious doubts about his fit in the role and indicates that immediate, significant improvement is needed to continue employment. To respond, Kohen should (1) arrive on time every day starting immediately, (2) follow workplace hygiene guidelines without exception, (3) request a performance improvement plan to clarify expectations, and (4) seek weekly feedback to demonstrate commitment to change.
+[2] Feedback indicates Kohen’s work shows incompetence with chronic lateness and hygiene violations, risking termination. This implies immediate jeopardy to his role. Kohen must: 1) Address hygiene per guidelines *today*, 2) Set alarms to ensure punctuality starting tomorrow, 3) Request a performance improvement plan detailing expectations within 48 hours. (258 chars)
+[3] Kohen's work is seen as incompetent, and he is not meeting professional standards for timeliness and hygiene. This feedback indicates his employment is at immediate risk of termination. He must instantly correct hygiene and punctuality issues and meet with HR to see if a path forward exists.
+[4] Kohen, this feedback indicates a perception of incompetence and a lack of potential in your work. It also highlights concerns about punctuality and personal hygiene, which are noted as violating company guidelines. This implies a significant risk to Kohen's standing, with a strong suggestion of termination. To respond, Kohen should immediately address the hygiene issue, review company guidelines on punctuality and conduct, and proactively seek a meeting with their manager to understand specific performance gaps and discuss a plan for improvement.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer1|Interpret|C13|Q01",
+  "criterion": "Fluency",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 34: C13_Q02_Coherence -----
+You are Volunteer 1 in Group C.
+TASK TYPE: Interpret
+SAMPLE: C13
+CRITERION: Coherence
+
+INSTRUCTION:
+Rank from most to least logical and easy to follow.
+
+ORIGINAL:
+Kohen Norris has been for a lack of better words incompetent. I would like to say more positive things about him but he has not shown any potential in regards to his work. He often is late and smells poorly despite our company guidelines. I feel it is in our best interest to drop him from the company.
+
+CANDIDATES:
+[1] Feedback indicates Kohen’s work shows incompetence with chronic lateness and hygiene violations, risking termination. This implies immediate jeopardy to his role. Kohen must: 1) Address hygiene per guidelines *today*, 2) Set alarms to ensure punctuality starting tomorrow, 3) Request a performance improvement plan detailing expectations within 48 hours. (258 chars)
+[2] Kohen Norris’s performance has consistently fallen below expectations, with concerns around reliability, adherence to company standards, and overall work quality. This feedback suggests serious doubts about his fit in the role and indicates that immediate, significant improvement is needed to continue employment. To respond, Kohen should (1) arrive on time every day starting immediately, (2) follow workplace hygiene guidelines without exception, (3) request a performance improvement plan to clarify expectations, and (4) seek weekly feedback to demonstrate commitment to change.
+[3] Kohen's work is seen as incompetent, and he is not meeting professional standards for timeliness and hygiene. This feedback indicates his employment is at immediate risk of termination. He must instantly correct hygiene and punctuality issues and meet with HR to see if a path forward exists.
+[4] Kohen, this feedback indicates a perception of incompetence and a lack of potential in your work. It also highlights concerns about punctuality and personal hygiene, which are noted as violating company guidelines. This implies a significant risk to Kohen's standing, with a strong suggestion of termination. To respond, Kohen should immediately address the hygiene issue, review company guidelines on punctuality and conduct, and proactively seek a meeting with their manager to understand specific performance gaps and discuss a plan for improvement.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer1|Interpret|C13|Q02",
+  "criterion": "Coherence",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 35: C13_Q03_Conciseness -----
+You are Volunteer 1 in Group C.
+TASK TYPE: Interpret
+SAMPLE: C13
+CRITERION: Conciseness
+
+INSTRUCTION:
+Rank from most to least clear and compact.
+
+ORIGINAL:
+Kohen Norris has been for a lack of better words incompetent. I would like to say more positive things about him but he has not shown any potential in regards to his work. He often is late and smells poorly despite our company guidelines. I feel it is in our best interest to drop him from the company.
+
+CANDIDATES:
+[1] Feedback indicates Kohen’s work shows incompetence with chronic lateness and hygiene violations, risking termination. This implies immediate jeopardy to his role. Kohen must: 1) Address hygiene per guidelines *today*, 2) Set alarms to ensure punctuality starting tomorrow, 3) Request a performance improvement plan detailing expectations within 48 hours. (258 chars)
+[2] Kohen, this feedback indicates a perception of incompetence and a lack of potential in your work. It also highlights concerns about punctuality and personal hygiene, which are noted as violating company guidelines. This implies a significant risk to Kohen's standing, with a strong suggestion of termination. To respond, Kohen should immediately address the hygiene issue, review company guidelines on punctuality and conduct, and proactively seek a meeting with their manager to understand specific performance gaps and discuss a plan for improvement.
+[3] Kohen's work is seen as incompetent, and he is not meeting professional standards for timeliness and hygiene. This feedback indicates his employment is at immediate risk of termination. He must instantly correct hygiene and punctuality issues and meet with HR to see if a path forward exists.
+[4] Kohen Norris’s performance has consistently fallen below expectations, with concerns around reliability, adherence to company standards, and overall work quality. This feedback suggests serious doubts about his fit in the role and indicates that immediate, significant improvement is needed to continue employment. To respond, Kohen should (1) arrive on time every day starting immediately, (2) follow workplace hygiene guidelines without exception, (3) request a performance improvement plan to clarify expectations, and (4) seek weekly feedback to demonstrate commitment to change.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer1|Interpret|C13|Q03",
+  "criterion": "Conciseness",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 36: C13_Q04_Accuracy -----
+You are Volunteer 1 in Group C.
+TASK TYPE: Interpret
+SAMPLE: C13
+CRITERION: Accuracy
+
+INSTRUCTION:
+Select all texts that are factually correct given the Original.
+
+ORIGINAL:
+Kohen Norris has been for a lack of better words incompetent. I would like to say more positive things about him but he has not shown any potential in regards to his work. He often is late and smells poorly despite our company guidelines. I feel it is in our best interest to drop him from the company.
+
+CANDIDATES:
+[1] Feedback indicates Kohen’s work shows incompetence with chronic lateness and hygiene violations, risking termination. This implies immediate jeopardy to his role. Kohen must: 1) Address hygiene per guidelines *today*, 2) Set alarms to ensure punctuality starting tomorrow, 3) Request a performance improvement plan detailing expectations within 48 hours. (258 chars)
+[2] Kohen Norris’s performance has consistently fallen below expectations, with concerns around reliability, adherence to company standards, and overall work quality. This feedback suggests serious doubts about his fit in the role and indicates that immediate, significant improvement is needed to continue employment. To respond, Kohen should (1) arrive on time every day starting immediately, (2) follow workplace hygiene guidelines without exception, (3) request a performance improvement plan to clarify expectations, and (4) seek weekly feedback to demonstrate commitment to change.
+[3] Kohen's work is seen as incompetent, and he is not meeting professional standards for timeliness and hygiene. This feedback indicates his employment is at immediate risk of termination. He must instantly correct hygiene and punctuality issues and meet with HR to see if a path forward exists.
+[4] Kohen, this feedback indicates a perception of incompetence and a lack of potential in your work. It also highlights concerns about punctuality and personal hygiene, which are noted as violating company guidelines. This implies a significant risk to Kohen's standing, with a strong suggestion of termination. To respond, Kohen should immediately address the hygiene issue, review company guidelines on punctuality and conduct, and proactively seek a meeting with their manager to understand specific performance gaps and discuss a plan for improvement.
+
+Please select all outputs that are factually correct given the Original.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer1|Interpret|C13|Q04",
+  "criterion": "Accuracy",
+  "rating": [1, 3],
+  "justifications": {
+    "1": "why candidate 1 is correct/incorrect in one sentence",
+    "2": "why candidate 2 is correct/incorrect in one sentence",
+    "3": "why candidate 3 is correct/incorrect in one sentence",
+    "4": "why candidate 4 is correct/incorrect in one sentence"
+  }
+}
+
+
+----- PROMPT 37: C13_Q05_Sentimentmatch -----
+You are Volunteer 1 in Group C.
+TASK TYPE: Interpret
+SAMPLE: C13
+CRITERION: Sentiment match
+
+INSTRUCTION:
+Rank from most to least similar to the Original in style and sentiment.
+
+ORIGINAL:
+Kohen Norris has been for a lack of better words incompetent. I would like to say more positive things about him but he has not shown any potential in regards to his work. He often is late and smells poorly despite our company guidelines. I feel it is in our best interest to drop him from the company.
+
+CANDIDATES:
+[1] Kohen's work is seen as incompetent, and he is not meeting professional standards for timeliness and hygiene. This feedback indicates his employment is at immediate risk of termination. He must instantly correct hygiene and punctuality issues and meet with HR to see if a path forward exists.
+[2] Kohen, this feedback indicates a perception of incompetence and a lack of potential in your work. It also highlights concerns about punctuality and personal hygiene, which are noted as violating company guidelines. This implies a significant risk to Kohen's standing, with a strong suggestion of termination. To respond, Kohen should immediately address the hygiene issue, review company guidelines on punctuality and conduct, and proactively seek a meeting with their manager to understand specific performance gaps and discuss a plan for improvement.
+[3] Feedback indicates Kohen’s work shows incompetence with chronic lateness and hygiene violations, risking termination. This implies immediate jeopardy to his role. Kohen must: 1) Address hygiene per guidelines *today*, 2) Set alarms to ensure punctuality starting tomorrow, 3) Request a performance improvement plan detailing expectations within 48 hours. (258 chars)
+[4] Kohen Norris’s performance has consistently fallen below expectations, with concerns around reliability, adherence to company standards, and overall work quality. This feedback suggests serious doubts about his fit in the role and indicates that immediate, significant improvement is needed to continue employment. To respond, Kohen should (1) arrive on time every day starting immediately, (2) follow workplace hygiene guidelines without exception, (3) request a performance improvement plan to clarify expectations, and (4) seek weekly feedback to demonstrate commitment to change.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer1|Interpret|C13|Q05",
+  "criterion": "Sentiment match",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 38: C13_Q06_Motivationaltone -----
+You are Volunteer 1 in Group C.
+TASK TYPE: Interpret
+SAMPLE: C13
+CRITERION: Motivational tone
+
+INSTRUCTION:
+Rank from most to least empathetic and encouraging.
+
+ORIGINAL:
+Kohen Norris has been for a lack of better words incompetent. I would like to say more positive things about him but he has not shown any potential in regards to his work. He often is late and smells poorly despite our company guidelines. I feel it is in our best interest to drop him from the company.
+
+CANDIDATES:
+[1] Kohen, this feedback indicates a perception of incompetence and a lack of potential in your work. It also highlights concerns about punctuality and personal hygiene, which are noted as violating company guidelines. This implies a significant risk to Kohen's standing, with a strong suggestion of termination. To respond, Kohen should immediately address the hygiene issue, review company guidelines on punctuality and conduct, and proactively seek a meeting with their manager to understand specific performance gaps and discuss a plan for improvement.
+[2] Feedback indicates Kohen’s work shows incompetence with chronic lateness and hygiene violations, risking termination. This implies immediate jeopardy to his role. Kohen must: 1) Address hygiene per guidelines *today*, 2) Set alarms to ensure punctuality starting tomorrow, 3) Request a performance improvement plan detailing expectations within 48 hours. (258 chars)
+[3] Kohen Norris’s performance has consistently fallen below expectations, with concerns around reliability, adherence to company standards, and overall work quality. This feedback suggests serious doubts about his fit in the role and indicates that immediate, significant improvement is needed to continue employment. To respond, Kohen should (1) arrive on time every day starting immediately, (2) follow workplace hygiene guidelines without exception, (3) request a performance improvement plan to clarify expectations, and (4) seek weekly feedback to demonstrate commitment to change.
+[4] Kohen's work is seen as incompetent, and he is not meeting professional standards for timeliness and hygiene. This feedback indicates his employment is at immediate risk of termination. He must instantly correct hygiene and punctuality issues and meet with HR to see if a path forward exists.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer1|Interpret|C13|Q06",
+  "criterion": "Motivational tone",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 39: C13_Q07_Constructiveness -----
+You are Volunteer 1 in Group C.
+TASK TYPE: Interpret
+SAMPLE: C13
+CRITERION: Constructiveness
+
+INSTRUCTION:
+Rank from most to least helpful and constructive.
+
+ORIGINAL:
+Kohen Norris has been for a lack of better words incompetent. I would like to say more positive things about him but he has not shown any potential in regards to his work. He often is late and smells poorly despite our company guidelines. I feel it is in our best interest to drop him from the company.
+
+CANDIDATES:
+[1] Kohen's work is seen as incompetent, and he is not meeting professional standards for timeliness and hygiene. This feedback indicates his employment is at immediate risk of termination. He must instantly correct hygiene and punctuality issues and meet with HR to see if a path forward exists.
+[2] Feedback indicates Kohen’s work shows incompetence with chronic lateness and hygiene violations, risking termination. This implies immediate jeopardy to his role. Kohen must: 1) Address hygiene per guidelines *today*, 2) Set alarms to ensure punctuality starting tomorrow, 3) Request a performance improvement plan detailing expectations within 48 hours. (258 chars)
+[3] Kohen, this feedback indicates a perception of incompetence and a lack of potential in your work. It also highlights concerns about punctuality and personal hygiene, which are noted as violating company guidelines. This implies a significant risk to Kohen's standing, with a strong suggestion of termination. To respond, Kohen should immediately address the hygiene issue, review company guidelines on punctuality and conduct, and proactively seek a meeting with their manager to understand specific performance gaps and discuss a plan for improvement.
+[4] Kohen Norris’s performance has consistently fallen below expectations, with concerns around reliability, adherence to company standards, and overall work quality. This feedback suggests serious doubts about his fit in the role and indicates that immediate, significant improvement is needed to continue employment. To respond, Kohen should (1) arrive on time every day starting immediately, (2) follow workplace hygiene guidelines without exception, (3) request a performance improvement plan to clarify expectations, and (4) seek weekly feedback to demonstrate commitment to change.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer1|Interpret|C13|Q07",
+  "criterion": "Constructiveness",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 40: C13_Q08_Finalchoice -----
+You are Volunteer 1 in Group C.
+TASK TYPE: Interpret
+SAMPLE: C13
+CRITERION: Final choice
+
+INSTRUCTION:
+Rank from most to least suitable as a final version.
+
+ORIGINAL:
+Kohen Norris has been for a lack of better words incompetent. I would like to say more positive things about him but he has not shown any potential in regards to his work. He often is late and smells poorly despite our company guidelines. I feel it is in our best interest to drop him from the company.
+
+CANDIDATES:
+[1] Kohen's work is seen as incompetent, and he is not meeting professional standards for timeliness and hygiene. This feedback indicates his employment is at immediate risk of termination. He must instantly correct hygiene and punctuality issues and meet with HR to see if a path forward exists.
+[2] Kohen, this feedback indicates a perception of incompetence and a lack of potential in your work. It also highlights concerns about punctuality and personal hygiene, which are noted as violating company guidelines. This implies a significant risk to Kohen's standing, with a strong suggestion of termination. To respond, Kohen should immediately address the hygiene issue, review company guidelines on punctuality and conduct, and proactively seek a meeting with their manager to understand specific performance gaps and discuss a plan for improvement.
+[3] Kohen Norris’s performance has consistently fallen below expectations, with concerns around reliability, adherence to company standards, and overall work quality. This feedback suggests serious doubts about his fit in the role and indicates that immediate, significant improvement is needed to continue employment. To respond, Kohen should (1) arrive on time every day starting immediately, (2) follow workplace hygiene guidelines without exception, (3) request a performance improvement plan to clarify expectations, and (4) seek weekly feedback to demonstrate commitment to change.
+[4] Feedback indicates Kohen’s work shows incompetence with chronic lateness and hygiene violations, risking termination. This implies immediate jeopardy to his role. Kohen must: 1) Address hygiene per guidelines *today*, 2) Set alarms to ensure punctuality starting tomorrow, 3) Request a performance improvement plan detailing expectations within 48 hours. (258 chars)
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer1|Interpret|C13|Q08",
+  "criterion": "Final choice",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 41: C14_Q01_Fluency -----
+You are Volunteer 1 in Group C.
+TASK TYPE: Interpret
+SAMPLE: C14
+CRITERION: Fluency
+
+INSTRUCTION:
+Rank from most to least smooth and error-free.
+
+ORIGINAL:
+Thaddeus is a talented resource though he is not focused many of the times. He is able to contribute up to 80% of his abilities & skill set. Would like him to work on his weaknesses & multiply strength areas in order to become a better contributor. He is a vital member of the team for this project. However, would like him to become a main asset in fulfilling team objectives on regular occasions to climb up the ladder in hierarchy.
+
+CANDIDATES:
+[1] Thaddeus is a talented, vital team member whose lack of focus prevents him from reaching his full potential. This limits his advancement. He should ask his manager to define key focus areas and use time management techniques to improve his consistency and impact on team goals.
+[2] Thaddeus, this feedback indicates you are a valued, talented team member, but your focus sometimes wavers, preventing you from utilizing your full potential (80% of abilities). To grow, you need to address weaknesses and leverage strengths to become a more consistent, primary contributor to team objectives, which is key for career advancement. Thaddeus should now identify specific areas where focus is lacking, seek opportunities to apply his strengths more consistently, and proactively communicate his commitment to maximizing his contributions.
+[3] Feedback means Thaddeus leverages only 80% of his talent due to focus gaps, limiting advancement despite being vital. This suggests unlocking full potential could accelerate his growth. Thaddeus should: 1) Block 2 daily "deep work" hours distraction-free, 2) Map strengths/weaknesses with his manager next week, 3) Lead one small team objective monthly to demonstrate consistency. (289 chars)
+[4] Thaddeus is recognized for his talent and currently contributes about 80% of his potential, but inconsistent focus limits his impact. This feedback means he has strong capabilities, yet underutilizes them, which affects team outcomes. To grow into a more vital, consistent asset and advance professionally, Thaddeus should actively work on strengthening focus, addressing weaknesses, and deepening his key skills. Recommended actions: (1) Set daily priorities with clear goals to improve focus, (2) Seek regular feedback to identify blind spots, (3) Take ownership of one key project task weekly to build accountability, and (4) Dedicate time to skill development in areas critical to team success.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer1|Interpret|C14|Q01",
+  "criterion": "Fluency",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 42: C14_Q02_Coherence -----
+You are Volunteer 1 in Group C.
+TASK TYPE: Interpret
+SAMPLE: C14
+CRITERION: Coherence
+
+INSTRUCTION:
+Rank from most to least logical and easy to follow.
+
+ORIGINAL:
+Thaddeus is a talented resource though he is not focused many of the times. He is able to contribute up to 80% of his abilities & skill set. Would like him to work on his weaknesses & multiply strength areas in order to become a better contributor. He is a vital member of the team for this project. However, would like him to become a main asset in fulfilling team objectives on regular occasions to climb up the ladder in hierarchy.
+
+CANDIDATES:
+[1] Thaddeus is recognized for his talent and currently contributes about 80% of his potential, but inconsistent focus limits his impact. This feedback means he has strong capabilities, yet underutilizes them, which affects team outcomes. To grow into a more vital, consistent asset and advance professionally, Thaddeus should actively work on strengthening focus, addressing weaknesses, and deepening his key skills. Recommended actions: (1) Set daily priorities with clear goals to improve focus, (2) Seek regular feedback to identify blind spots, (3) Take ownership of one key project task weekly to build accountability, and (4) Dedicate time to skill development in areas critical to team success.
+[2] Thaddeus, this feedback indicates you are a valued, talented team member, but your focus sometimes wavers, preventing you from utilizing your full potential (80% of abilities). To grow, you need to address weaknesses and leverage strengths to become a more consistent, primary contributor to team objectives, which is key for career advancement. Thaddeus should now identify specific areas where focus is lacking, seek opportunities to apply his strengths more consistently, and proactively communicate his commitment to maximizing his contributions.
+[3] Thaddeus is a talented, vital team member whose lack of focus prevents him from reaching his full potential. This limits his advancement. He should ask his manager to define key focus areas and use time management techniques to improve his consistency and impact on team goals.
+[4] Feedback means Thaddeus leverages only 80% of his talent due to focus gaps, limiting advancement despite being vital. This suggests unlocking full potential could accelerate his growth. Thaddeus should: 1) Block 2 daily "deep work" hours distraction-free, 2) Map strengths/weaknesses with his manager next week, 3) Lead one small team objective monthly to demonstrate consistency. (289 chars)
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer1|Interpret|C14|Q02",
+  "criterion": "Coherence",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 43: C14_Q03_Conciseness -----
+You are Volunteer 1 in Group C.
+TASK TYPE: Interpret
+SAMPLE: C14
+CRITERION: Conciseness
+
+INSTRUCTION:
+Rank from most to least clear and compact.
+
+ORIGINAL:
+Thaddeus is a talented resource though he is not focused many of the times. He is able to contribute up to 80% of his abilities & skill set. Would like him to work on his weaknesses & multiply strength areas in order to become a better contributor. He is a vital member of the team for this project. However, would like him to become a main asset in fulfilling team objectives on regular occasions to climb up the ladder in hierarchy.
+
+CANDIDATES:
+[1] Thaddeus is recognized for his talent and currently contributes about 80% of his potential, but inconsistent focus limits his impact. This feedback means he has strong capabilities, yet underutilizes them, which affects team outcomes. To grow into a more vital, consistent asset and advance professionally, Thaddeus should actively work on strengthening focus, addressing weaknesses, and deepening his key skills. Recommended actions: (1) Set daily priorities with clear goals to improve focus, (2) Seek regular feedback to identify blind spots, (3) Take ownership of one key project task weekly to build accountability, and (4) Dedicate time to skill development in areas critical to team success.
+[2] Thaddeus, this feedback indicates you are a valued, talented team member, but your focus sometimes wavers, preventing you from utilizing your full potential (80% of abilities). To grow, you need to address weaknesses and leverage strengths to become a more consistent, primary contributor to team objectives, which is key for career advancement. Thaddeus should now identify specific areas where focus is lacking, seek opportunities to apply his strengths more consistently, and proactively communicate his commitment to maximizing his contributions.
+[3] Thaddeus is a talented, vital team member whose lack of focus prevents him from reaching his full potential. This limits his advancement. He should ask his manager to define key focus areas and use time management techniques to improve his consistency and impact on team goals.
+[4] Feedback means Thaddeus leverages only 80% of his talent due to focus gaps, limiting advancement despite being vital. This suggests unlocking full potential could accelerate his growth. Thaddeus should: 1) Block 2 daily "deep work" hours distraction-free, 2) Map strengths/weaknesses with his manager next week, 3) Lead one small team objective monthly to demonstrate consistency. (289 chars)
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer1|Interpret|C14|Q03",
+  "criterion": "Conciseness",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 44: C14_Q04_Accuracy -----
+You are Volunteer 1 in Group C.
+TASK TYPE: Interpret
+SAMPLE: C14
+CRITERION: Accuracy
+
+INSTRUCTION:
+Select all texts that are factually correct given the Original.
+
+ORIGINAL:
+Thaddeus is a talented resource though he is not focused many of the times. He is able to contribute up to 80% of his abilities & skill set. Would like him to work on his weaknesses & multiply strength areas in order to become a better contributor. He is a vital member of the team for this project. However, would like him to become a main asset in fulfilling team objectives on regular occasions to climb up the ladder in hierarchy.
+
+CANDIDATES:
+[1] Thaddeus, this feedback indicates you are a valued, talented team member, but your focus sometimes wavers, preventing you from utilizing your full potential (80% of abilities). To grow, you need to address weaknesses and leverage strengths to become a more consistent, primary contributor to team objectives, which is key for career advancement. Thaddeus should now identify specific areas where focus is lacking, seek opportunities to apply his strengths more consistently, and proactively communicate his commitment to maximizing his contributions.
+[2] Thaddeus is recognized for his talent and currently contributes about 80% of his potential, but inconsistent focus limits his impact. This feedback means he has strong capabilities, yet underutilizes them, which affects team outcomes. To grow into a more vital, consistent asset and advance professionally, Thaddeus should actively work on strengthening focus, addressing weaknesses, and deepening his key skills. Recommended actions: (1) Set daily priorities with clear goals to improve focus, (2) Seek regular feedback to identify blind spots, (3) Take ownership of one key project task weekly to build accountability, and (4) Dedicate time to skill development in areas critical to team success.
+[3] Thaddeus is a talented, vital team member whose lack of focus prevents him from reaching his full potential. This limits his advancement. He should ask his manager to define key focus areas and use time management techniques to improve his consistency and impact on team goals.
+[4] Feedback means Thaddeus leverages only 80% of his talent due to focus gaps, limiting advancement despite being vital. This suggests unlocking full potential could accelerate his growth. Thaddeus should: 1) Block 2 daily "deep work" hours distraction-free, 2) Map strengths/weaknesses with his manager next week, 3) Lead one small team objective monthly to demonstrate consistency. (289 chars)
+
+Please select all outputs that are factually correct given the Original.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer1|Interpret|C14|Q04",
+  "criterion": "Accuracy",
+  "rating": [1, 3],
+  "justifications": {
+    "1": "why candidate 1 is correct/incorrect in one sentence",
+    "2": "why candidate 2 is correct/incorrect in one sentence",
+    "3": "why candidate 3 is correct/incorrect in one sentence",
+    "4": "why candidate 4 is correct/incorrect in one sentence"
+  }
+}
+
+
+----- PROMPT 45: C14_Q05_Sentimentmatch -----
+You are Volunteer 1 in Group C.
+TASK TYPE: Interpret
+SAMPLE: C14
+CRITERION: Sentiment match
+
+INSTRUCTION:
+Rank from most to least similar to the Original in style and sentiment.
+
+ORIGINAL:
+Thaddeus is a talented resource though he is not focused many of the times. He is able to contribute up to 80% of his abilities & skill set. Would like him to work on his weaknesses & multiply strength areas in order to become a better contributor. He is a vital member of the team for this project. However, would like him to become a main asset in fulfilling team objectives on regular occasions to climb up the ladder in hierarchy.
+
+CANDIDATES:
+[1] Thaddeus is a talented, vital team member whose lack of focus prevents him from reaching his full potential. This limits his advancement. He should ask his manager to define key focus areas and use time management techniques to improve his consistency and impact on team goals.
+[2] Thaddeus, this feedback indicates you are a valued, talented team member, but your focus sometimes wavers, preventing you from utilizing your full potential (80% of abilities). To grow, you need to address weaknesses and leverage strengths to become a more consistent, primary contributor to team objectives, which is key for career advancement. Thaddeus should now identify specific areas where focus is lacking, seek opportunities to apply his strengths more consistently, and proactively communicate his commitment to maximizing his contributions.
+[3] Thaddeus is recognized for his talent and currently contributes about 80% of his potential, but inconsistent focus limits his impact. This feedback means he has strong capabilities, yet underutilizes them, which affects team outcomes. To grow into a more vital, consistent asset and advance professionally, Thaddeus should actively work on strengthening focus, addressing weaknesses, and deepening his key skills. Recommended actions: (1) Set daily priorities with clear goals to improve focus, (2) Seek regular feedback to identify blind spots, (3) Take ownership of one key project task weekly to build accountability, and (4) Dedicate time to skill development in areas critical to team success.
+[4] Feedback means Thaddeus leverages only 80% of his talent due to focus gaps, limiting advancement despite being vital. This suggests unlocking full potential could accelerate his growth. Thaddeus should: 1) Block 2 daily "deep work" hours distraction-free, 2) Map strengths/weaknesses with his manager next week, 3) Lead one small team objective monthly to demonstrate consistency. (289 chars)
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer1|Interpret|C14|Q05",
+  "criterion": "Sentiment match",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 46: C14_Q06_Motivationaltone -----
+You are Volunteer 1 in Group C.
+TASK TYPE: Interpret
+SAMPLE: C14
+CRITERION: Motivational tone
+
+INSTRUCTION:
+Rank from most to least empathetic and encouraging.
+
+ORIGINAL:
+Thaddeus is a talented resource though he is not focused many of the times. He is able to contribute up to 80% of his abilities & skill set. Would like him to work on his weaknesses & multiply strength areas in order to become a better contributor. He is a vital member of the team for this project. However, would like him to become a main asset in fulfilling team objectives on regular occasions to climb up the ladder in hierarchy.
+
+CANDIDATES:
+[1] Thaddeus, this feedback indicates you are a valued, talented team member, but your focus sometimes wavers, preventing you from utilizing your full potential (80% of abilities). To grow, you need to address weaknesses and leverage strengths to become a more consistent, primary contributor to team objectives, which is key for career advancement. Thaddeus should now identify specific areas where focus is lacking, seek opportunities to apply his strengths more consistently, and proactively communicate his commitment to maximizing his contributions.
+[2] Feedback means Thaddeus leverages only 80% of his talent due to focus gaps, limiting advancement despite being vital. This suggests unlocking full potential could accelerate his growth. Thaddeus should: 1) Block 2 daily "deep work" hours distraction-free, 2) Map strengths/weaknesses with his manager next week, 3) Lead one small team objective monthly to demonstrate consistency. (289 chars)
+[3] Thaddeus is recognized for his talent and currently contributes about 80% of his potential, but inconsistent focus limits his impact. This feedback means he has strong capabilities, yet underutilizes them, which affects team outcomes. To grow into a more vital, consistent asset and advance professionally, Thaddeus should actively work on strengthening focus, addressing weaknesses, and deepening his key skills. Recommended actions: (1) Set daily priorities with clear goals to improve focus, (2) Seek regular feedback to identify blind spots, (3) Take ownership of one key project task weekly to build accountability, and (4) Dedicate time to skill development in areas critical to team success.
+[4] Thaddeus is a talented, vital team member whose lack of focus prevents him from reaching his full potential. This limits his advancement. He should ask his manager to define key focus areas and use time management techniques to improve his consistency and impact on team goals.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer1|Interpret|C14|Q06",
+  "criterion": "Motivational tone",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 47: C14_Q07_Constructiveness -----
+You are Volunteer 1 in Group C.
+TASK TYPE: Interpret
+SAMPLE: C14
+CRITERION: Constructiveness
+
+INSTRUCTION:
+Rank from most to least helpful and constructive.
+
+ORIGINAL:
+Thaddeus is a talented resource though he is not focused many of the times. He is able to contribute up to 80% of his abilities & skill set. Would like him to work on his weaknesses & multiply strength areas in order to become a better contributor. He is a vital member of the team for this project. However, would like him to become a main asset in fulfilling team objectives on regular occasions to climb up the ladder in hierarchy.
+
+CANDIDATES:
+[1] Thaddeus is a talented, vital team member whose lack of focus prevents him from reaching his full potential. This limits his advancement. He should ask his manager to define key focus areas and use time management techniques to improve his consistency and impact on team goals.
+[2] Feedback means Thaddeus leverages only 80% of his talent due to focus gaps, limiting advancement despite being vital. This suggests unlocking full potential could accelerate his growth. Thaddeus should: 1) Block 2 daily "deep work" hours distraction-free, 2) Map strengths/weaknesses with his manager next week, 3) Lead one small team objective monthly to demonstrate consistency. (289 chars)
+[3] Thaddeus is recognized for his talent and currently contributes about 80% of his potential, but inconsistent focus limits his impact. This feedback means he has strong capabilities, yet underutilizes them, which affects team outcomes. To grow into a more vital, consistent asset and advance professionally, Thaddeus should actively work on strengthening focus, addressing weaknesses, and deepening his key skills. Recommended actions: (1) Set daily priorities with clear goals to improve focus, (2) Seek regular feedback to identify blind spots, (3) Take ownership of one key project task weekly to build accountability, and (4) Dedicate time to skill development in areas critical to team success.
+[4] Thaddeus, this feedback indicates you are a valued, talented team member, but your focus sometimes wavers, preventing you from utilizing your full potential (80% of abilities). To grow, you need to address weaknesses and leverage strengths to become a more consistent, primary contributor to team objectives, which is key for career advancement. Thaddeus should now identify specific areas where focus is lacking, seek opportunities to apply his strengths more consistently, and proactively communicate his commitment to maximizing his contributions.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer1|Interpret|C14|Q07",
+  "criterion": "Constructiveness",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 48: C14_Q08_Finalchoice -----
+You are Volunteer 1 in Group C.
+TASK TYPE: Interpret
+SAMPLE: C14
+CRITERION: Final choice
+
+INSTRUCTION:
+Rank from most to least suitable as a final version.
+
+ORIGINAL:
+Thaddeus is a talented resource though he is not focused many of the times. He is able to contribute up to 80% of his abilities & skill set. Would like him to work on his weaknesses & multiply strength areas in order to become a better contributor. He is a vital member of the team for this project. However, would like him to become a main asset in fulfilling team objectives on regular occasions to climb up the ladder in hierarchy.
+
+CANDIDATES:
+[1] Thaddeus is recognized for his talent and currently contributes about 80% of his potential, but inconsistent focus limits his impact. This feedback means he has strong capabilities, yet underutilizes them, which affects team outcomes. To grow into a more vital, consistent asset and advance professionally, Thaddeus should actively work on strengthening focus, addressing weaknesses, and deepening his key skills. Recommended actions: (1) Set daily priorities with clear goals to improve focus, (2) Seek regular feedback to identify blind spots, (3) Take ownership of one key project task weekly to build accountability, and (4) Dedicate time to skill development in areas critical to team success.
+[2] Thaddeus is a talented, vital team member whose lack of focus prevents him from reaching his full potential. This limits his advancement. He should ask his manager to define key focus areas and use time management techniques to improve his consistency and impact on team goals.
+[3] Thaddeus, this feedback indicates you are a valued, talented team member, but your focus sometimes wavers, preventing you from utilizing your full potential (80% of abilities). To grow, you need to address weaknesses and leverage strengths to become a more consistent, primary contributor to team objectives, which is key for career advancement. Thaddeus should now identify specific areas where focus is lacking, seek opportunities to apply his strengths more consistently, and proactively communicate his commitment to maximizing his contributions.
+[4] Feedback means Thaddeus leverages only 80% of his talent due to focus gaps, limiting advancement despite being vital. This suggests unlocking full potential could accelerate his growth. Thaddeus should: 1) Block 2 daily "deep work" hours distraction-free, 2) Map strengths/weaknesses with his manager next week, 3) Lead one small team objective monthly to demonstrate consistency. (289 chars)
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "C-Volunteer1|Interpret|C14|Q08",
+  "criterion": "Final choice",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+

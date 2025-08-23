@@ -1,0 +1,1698 @@
+----- PROMPT 1: A4_Q01_Fluency -----
+You are Volunteer 3 in Group A.
+TASK TYPE: Idea-to-Text
+SAMPLE: A4
+CRITERION: Fluency
+
+INSTRUCTION:
+Rank from most to least smooth and error-free.
+
+ORIGINAL:
+George Gill ignored prior warnings; quality keeps slipping and team morale suffers—termination advised.
+
+CANDIDATES:
+[1] George Gill has consistently disregarded prior performance warnings, resulting in ongoing declines in work quality and a negative impact on team morale. Despite opportunities for improvement, there has been no sustained progress. After careful consideration, termination is recommended.
+[2] George, despite previous warnings, the quality of your work continues to decline. This persistent under-performance is now adversely affecting team morale. Given the lack of improvement and the negative impact, termination of your employment is the recommended course of action.
+[3] George, despite prior warnings, your work quality has continued to decline, and your performance is now negatively impacting team morale. As you have not met the required improvements, we are moving to termination.
+[4] George's performance has consistently fallen short of expectations, despite repeated attempts to address the declining quality of his work. This has negatively impacted team morale and productivity. Given the lack of improvement and disregard for previous warnings, we recommend termination.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer3|Idea-to-Text|A4|Q01",
+  "criterion": "Fluency",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 2: A4_Q02_Coherence -----
+You are Volunteer 3 in Group A.
+TASK TYPE: Idea-to-Text
+SAMPLE: A4
+CRITERION: Coherence
+
+INSTRUCTION:
+Rank from most to least logical and easy to follow.
+
+ORIGINAL:
+George Gill ignored prior warnings; quality keeps slipping and team morale suffers—termination advised.
+
+CANDIDATES:
+[1] George, despite previous warnings, the quality of your work continues to decline. This persistent under-performance is now adversely affecting team morale. Given the lack of improvement and the negative impact, termination of your employment is the recommended course of action.
+[2] George's performance has consistently fallen short of expectations, despite repeated attempts to address the declining quality of his work. This has negatively impacted team morale and productivity. Given the lack of improvement and disregard for previous warnings, we recommend termination.
+[3] George Gill has consistently disregarded prior performance warnings, resulting in ongoing declines in work quality and a negative impact on team morale. Despite opportunities for improvement, there has been no sustained progress. After careful consideration, termination is recommended.
+[4] George, despite prior warnings, your work quality has continued to decline, and your performance is now negatively impacting team morale. As you have not met the required improvements, we are moving to termination.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer3|Idea-to-Text|A4|Q02",
+  "criterion": "Coherence",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 3: A4_Q03_Conciseness -----
+You are Volunteer 3 in Group A.
+TASK TYPE: Idea-to-Text
+SAMPLE: A4
+CRITERION: Conciseness
+
+INSTRUCTION:
+Rank from most to least clear and compact.
+
+ORIGINAL:
+George Gill ignored prior warnings; quality keeps slipping and team morale suffers—termination advised.
+
+CANDIDATES:
+[1] George, despite previous warnings, the quality of your work continues to decline. This persistent under-performance is now adversely affecting team morale. Given the lack of improvement and the negative impact, termination of your employment is the recommended course of action.
+[2] George, despite prior warnings, your work quality has continued to decline, and your performance is now negatively impacting team morale. As you have not met the required improvements, we are moving to termination.
+[3] George Gill has consistently disregarded prior performance warnings, resulting in ongoing declines in work quality and a negative impact on team morale. Despite opportunities for improvement, there has been no sustained progress. After careful consideration, termination is recommended.
+[4] George's performance has consistently fallen short of expectations, despite repeated attempts to address the declining quality of his work. This has negatively impacted team morale and productivity. Given the lack of improvement and disregard for previous warnings, we recommend termination.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer3|Idea-to-Text|A4|Q03",
+  "criterion": "Conciseness",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 4: A4_Q04_Accuracy -----
+You are Volunteer 3 in Group A.
+TASK TYPE: Idea-to-Text
+SAMPLE: A4
+CRITERION: Accuracy
+
+INSTRUCTION:
+Select all texts that are factually correct given the Original.
+
+ORIGINAL:
+George Gill ignored prior warnings; quality keeps slipping and team morale suffers—termination advised.
+
+CANDIDATES:
+[1] George Gill has consistently disregarded prior performance warnings, resulting in ongoing declines in work quality and a negative impact on team morale. Despite opportunities for improvement, there has been no sustained progress. After careful consideration, termination is recommended.
+[2] George's performance has consistently fallen short of expectations, despite repeated attempts to address the declining quality of his work. This has negatively impacted team morale and productivity. Given the lack of improvement and disregard for previous warnings, we recommend termination.
+[3] George, despite prior warnings, your work quality has continued to decline, and your performance is now negatively impacting team morale. As you have not met the required improvements, we are moving to termination.
+[4] George, despite previous warnings, the quality of your work continues to decline. This persistent under-performance is now adversely affecting team morale. Given the lack of improvement and the negative impact, termination of your employment is the recommended course of action.
+
+Please select all outputs that are factually correct given the Original.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer3|Idea-to-Text|A4|Q04",
+  "criterion": "Accuracy",
+  "rating": [1, 3],
+  "justifications": {
+    "1": "why candidate 1 is correct/incorrect in one sentence",
+    "2": "why candidate 2 is correct/incorrect in one sentence",
+    "3": "why candidate 3 is correct/incorrect in one sentence",
+    "4": "why candidate 4 is correct/incorrect in one sentence"
+  }
+}
+
+
+----- PROMPT 5: A4_Q05_Sentimentmatch -----
+You are Volunteer 3 in Group A.
+TASK TYPE: Idea-to-Text
+SAMPLE: A4
+CRITERION: Sentiment match
+
+INSTRUCTION:
+Rank from most to least similar to the Original in style and sentiment.
+
+ORIGINAL:
+George Gill ignored prior warnings; quality keeps slipping and team morale suffers—termination advised.
+
+CANDIDATES:
+[1] George's performance has consistently fallen short of expectations, despite repeated attempts to address the declining quality of his work. This has negatively impacted team morale and productivity. Given the lack of improvement and disregard for previous warnings, we recommend termination.
+[2] George, despite prior warnings, your work quality has continued to decline, and your performance is now negatively impacting team morale. As you have not met the required improvements, we are moving to termination.
+[3] George, despite previous warnings, the quality of your work continues to decline. This persistent under-performance is now adversely affecting team morale. Given the lack of improvement and the negative impact, termination of your employment is the recommended course of action.
+[4] George Gill has consistently disregarded prior performance warnings, resulting in ongoing declines in work quality and a negative impact on team morale. Despite opportunities for improvement, there has been no sustained progress. After careful consideration, termination is recommended.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer3|Idea-to-Text|A4|Q05",
+  "criterion": "Sentiment match",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 6: A4_Q06_Motivationaltone -----
+You are Volunteer 3 in Group A.
+TASK TYPE: Idea-to-Text
+SAMPLE: A4
+CRITERION: Motivational tone
+
+INSTRUCTION:
+Rank from most to least empathetic and encouraging.
+
+ORIGINAL:
+George Gill ignored prior warnings; quality keeps slipping and team morale suffers—termination advised.
+
+CANDIDATES:
+[1] George's performance has consistently fallen short of expectations, despite repeated attempts to address the declining quality of his work. This has negatively impacted team morale and productivity. Given the lack of improvement and disregard for previous warnings, we recommend termination.
+[2] George Gill has consistently disregarded prior performance warnings, resulting in ongoing declines in work quality and a negative impact on team morale. Despite opportunities for improvement, there has been no sustained progress. After careful consideration, termination is recommended.
+[3] George, despite prior warnings, your work quality has continued to decline, and your performance is now negatively impacting team morale. As you have not met the required improvements, we are moving to termination.
+[4] George, despite previous warnings, the quality of your work continues to decline. This persistent under-performance is now adversely affecting team morale. Given the lack of improvement and the negative impact, termination of your employment is the recommended course of action.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer3|Idea-to-Text|A4|Q06",
+  "criterion": "Motivational tone",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 7: A4_Q07_Constructiveness -----
+You are Volunteer 3 in Group A.
+TASK TYPE: Idea-to-Text
+SAMPLE: A4
+CRITERION: Constructiveness
+
+INSTRUCTION:
+Rank from most to least helpful and constructive.
+
+ORIGINAL:
+George Gill ignored prior warnings; quality keeps slipping and team morale suffers—termination advised.
+
+CANDIDATES:
+[1] George, despite previous warnings, the quality of your work continues to decline. This persistent under-performance is now adversely affecting team morale. Given the lack of improvement and the negative impact, termination of your employment is the recommended course of action.
+[2] George Gill has consistently disregarded prior performance warnings, resulting in ongoing declines in work quality and a negative impact on team morale. Despite opportunities for improvement, there has been no sustained progress. After careful consideration, termination is recommended.
+[3] George's performance has consistently fallen short of expectations, despite repeated attempts to address the declining quality of his work. This has negatively impacted team morale and productivity. Given the lack of improvement and disregard for previous warnings, we recommend termination.
+[4] George, despite prior warnings, your work quality has continued to decline, and your performance is now negatively impacting team morale. As you have not met the required improvements, we are moving to termination.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer3|Idea-to-Text|A4|Q07",
+  "criterion": "Constructiveness",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 8: A4_Q08_Finalchoice -----
+You are Volunteer 3 in Group A.
+TASK TYPE: Idea-to-Text
+SAMPLE: A4
+CRITERION: Final choice
+
+INSTRUCTION:
+Rank from most to least suitable as a final version.
+
+ORIGINAL:
+George Gill ignored prior warnings; quality keeps slipping and team morale suffers—termination advised.
+
+CANDIDATES:
+[1] George Gill has consistently disregarded prior performance warnings, resulting in ongoing declines in work quality and a negative impact on team morale. Despite opportunities for improvement, there has been no sustained progress. After careful consideration, termination is recommended.
+[2] George, despite prior warnings, your work quality has continued to decline, and your performance is now negatively impacting team morale. As you have not met the required improvements, we are moving to termination.
+[3] George's performance has consistently fallen short of expectations, despite repeated attempts to address the declining quality of his work. This has negatively impacted team morale and productivity. Given the lack of improvement and disregard for previous warnings, we recommend termination.
+[4] George, despite previous warnings, the quality of your work continues to decline. This persistent under-performance is now adversely affecting team morale. Given the lack of improvement and the negative impact, termination of your employment is the recommended course of action.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer3|Idea-to-Text|A4|Q08",
+  "criterion": "Final choice",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 9: A6_Q01_Fluency -----
+You are Volunteer 3 in Group A.
+TASK TYPE: Idea-to-Text
+SAMPLE: A6
+CRITERION: Fluency
+
+INSTRUCTION:
+Rank from most to least smooth and error-free.
+
+ORIGINAL:
+Frederick Rogers is a role-model performer who mentors others and shows strong leadership potential.
+
+CANDIDATES:
+[1] Frederick, you are a true role-model performer. Beyond your own excellent results, your willingness to mentor colleagues and demonstrate leadership potential is highly valued. Keep up the outstanding work; you are a significant asset to the team and positioned for greater responsibility.
+[2] Frederick consistently performs at an exceptionally high level, serving as a role model for his peers. He actively mentors colleagues, sharing his expertise and fostering team growth. His proactive approach and natural ability to guide demonstrate significant leadership potential, making him a valuable asset to the team.
+[3] Frederick, you are a role-model performer whose contributions consistently exceed expectations. Your willingness to mentor others is invaluable, and you clearly demonstrate strong leadership potential. Let's discuss a formal leadership track.
+[4] Frederick Rogers consistently demonstrates exceptional performance and serves as a role model for his peers. He actively mentors colleagues, fosters collaboration, and exhibits strong leadership potential through his initiative and commitment to team success.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer3|Idea-to-Text|A6|Q01",
+  "criterion": "Fluency",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 10: A6_Q02_Coherence -----
+You are Volunteer 3 in Group A.
+TASK TYPE: Idea-to-Text
+SAMPLE: A6
+CRITERION: Coherence
+
+INSTRUCTION:
+Rank from most to least logical and easy to follow.
+
+ORIGINAL:
+Frederick Rogers is a role-model performer who mentors others and shows strong leadership potential.
+
+CANDIDATES:
+[1] Frederick, you are a true role-model performer. Beyond your own excellent results, your willingness to mentor colleagues and demonstrate leadership potential is highly valued. Keep up the outstanding work; you are a significant asset to the team and positioned for greater responsibility.
+[2] Frederick Rogers consistently demonstrates exceptional performance and serves as a role model for his peers. He actively mentors colleagues, fosters collaboration, and exhibits strong leadership potential through his initiative and commitment to team success.
+[3] Frederick consistently performs at an exceptionally high level, serving as a role model for his peers. He actively mentors colleagues, sharing his expertise and fostering team growth. His proactive approach and natural ability to guide demonstrate significant leadership potential, making him a valuable asset to the team.
+[4] Frederick, you are a role-model performer whose contributions consistently exceed expectations. Your willingness to mentor others is invaluable, and you clearly demonstrate strong leadership potential. Let's discuss a formal leadership track.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer3|Idea-to-Text|A6|Q02",
+  "criterion": "Coherence",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 11: A6_Q03_Conciseness -----
+You are Volunteer 3 in Group A.
+TASK TYPE: Idea-to-Text
+SAMPLE: A6
+CRITERION: Conciseness
+
+INSTRUCTION:
+Rank from most to least clear and compact.
+
+ORIGINAL:
+Frederick Rogers is a role-model performer who mentors others and shows strong leadership potential.
+
+CANDIDATES:
+[1] Frederick Rogers consistently demonstrates exceptional performance and serves as a role model for his peers. He actively mentors colleagues, fosters collaboration, and exhibits strong leadership potential through his initiative and commitment to team success.
+[2] Frederick, you are a role-model performer whose contributions consistently exceed expectations. Your willingness to mentor others is invaluable, and you clearly demonstrate strong leadership potential. Let's discuss a formal leadership track.
+[3] Frederick, you are a true role-model performer. Beyond your own excellent results, your willingness to mentor colleagues and demonstrate leadership potential is highly valued. Keep up the outstanding work; you are a significant asset to the team and positioned for greater responsibility.
+[4] Frederick consistently performs at an exceptionally high level, serving as a role model for his peers. He actively mentors colleagues, sharing his expertise and fostering team growth. His proactive approach and natural ability to guide demonstrate significant leadership potential, making him a valuable asset to the team.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer3|Idea-to-Text|A6|Q03",
+  "criterion": "Conciseness",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 12: A6_Q04_Accuracy -----
+You are Volunteer 3 in Group A.
+TASK TYPE: Idea-to-Text
+SAMPLE: A6
+CRITERION: Accuracy
+
+INSTRUCTION:
+Select all texts that are factually correct given the Original.
+
+ORIGINAL:
+Frederick Rogers is a role-model performer who mentors others and shows strong leadership potential.
+
+CANDIDATES:
+[1] Frederick Rogers consistently demonstrates exceptional performance and serves as a role model for his peers. He actively mentors colleagues, fosters collaboration, and exhibits strong leadership potential through his initiative and commitment to team success.
+[2] Frederick, you are a true role-model performer. Beyond your own excellent results, your willingness to mentor colleagues and demonstrate leadership potential is highly valued. Keep up the outstanding work; you are a significant asset to the team and positioned for greater responsibility.
+[3] Frederick consistently performs at an exceptionally high level, serving as a role model for his peers. He actively mentors colleagues, sharing his expertise and fostering team growth. His proactive approach and natural ability to guide demonstrate significant leadership potential, making him a valuable asset to the team.
+[4] Frederick, you are a role-model performer whose contributions consistently exceed expectations. Your willingness to mentor others is invaluable, and you clearly demonstrate strong leadership potential. Let's discuss a formal leadership track.
+
+Please select all outputs that are factually correct given the Original.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer3|Idea-to-Text|A6|Q04",
+  "criterion": "Accuracy",
+  "rating": [1, 3],
+  "justifications": {
+    "1": "why candidate 1 is correct/incorrect in one sentence",
+    "2": "why candidate 2 is correct/incorrect in one sentence",
+    "3": "why candidate 3 is correct/incorrect in one sentence",
+    "4": "why candidate 4 is correct/incorrect in one sentence"
+  }
+}
+
+
+----- PROMPT 13: A6_Q05_Sentimentmatch -----
+You are Volunteer 3 in Group A.
+TASK TYPE: Idea-to-Text
+SAMPLE: A6
+CRITERION: Sentiment match
+
+INSTRUCTION:
+Rank from most to least similar to the Original in style and sentiment.
+
+ORIGINAL:
+Frederick Rogers is a role-model performer who mentors others and shows strong leadership potential.
+
+CANDIDATES:
+[1] Frederick Rogers consistently demonstrates exceptional performance and serves as a role model for his peers. He actively mentors colleagues, fosters collaboration, and exhibits strong leadership potential through his initiative and commitment to team success.
+[2] Frederick consistently performs at an exceptionally high level, serving as a role model for his peers. He actively mentors colleagues, sharing his expertise and fostering team growth. His proactive approach and natural ability to guide demonstrate significant leadership potential, making him a valuable asset to the team.
+[3] Frederick, you are a role-model performer whose contributions consistently exceed expectations. Your willingness to mentor others is invaluable, and you clearly demonstrate strong leadership potential. Let's discuss a formal leadership track.
+[4] Frederick, you are a true role-model performer. Beyond your own excellent results, your willingness to mentor colleagues and demonstrate leadership potential is highly valued. Keep up the outstanding work; you are a significant asset to the team and positioned for greater responsibility.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer3|Idea-to-Text|A6|Q05",
+  "criterion": "Sentiment match",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 14: A6_Q06_Motivationaltone -----
+You are Volunteer 3 in Group A.
+TASK TYPE: Idea-to-Text
+SAMPLE: A6
+CRITERION: Motivational tone
+
+INSTRUCTION:
+Rank from most to least empathetic and encouraging.
+
+ORIGINAL:
+Frederick Rogers is a role-model performer who mentors others and shows strong leadership potential.
+
+CANDIDATES:
+[1] Frederick, you are a true role-model performer. Beyond your own excellent results, your willingness to mentor colleagues and demonstrate leadership potential is highly valued. Keep up the outstanding work; you are a significant asset to the team and positioned for greater responsibility.
+[2] Frederick Rogers consistently demonstrates exceptional performance and serves as a role model for his peers. He actively mentors colleagues, fosters collaboration, and exhibits strong leadership potential through his initiative and commitment to team success.
+[3] Frederick, you are a role-model performer whose contributions consistently exceed expectations. Your willingness to mentor others is invaluable, and you clearly demonstrate strong leadership potential. Let's discuss a formal leadership track.
+[4] Frederick consistently performs at an exceptionally high level, serving as a role model for his peers. He actively mentors colleagues, sharing his expertise and fostering team growth. His proactive approach and natural ability to guide demonstrate significant leadership potential, making him a valuable asset to the team.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer3|Idea-to-Text|A6|Q06",
+  "criterion": "Motivational tone",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 15: A6_Q07_Constructiveness -----
+You are Volunteer 3 in Group A.
+TASK TYPE: Idea-to-Text
+SAMPLE: A6
+CRITERION: Constructiveness
+
+INSTRUCTION:
+Rank from most to least helpful and constructive.
+
+ORIGINAL:
+Frederick Rogers is a role-model performer who mentors others and shows strong leadership potential.
+
+CANDIDATES:
+[1] Frederick, you are a true role-model performer. Beyond your own excellent results, your willingness to mentor colleagues and demonstrate leadership potential is highly valued. Keep up the outstanding work; you are a significant asset to the team and positioned for greater responsibility.
+[2] Frederick Rogers consistently demonstrates exceptional performance and serves as a role model for his peers. He actively mentors colleagues, fosters collaboration, and exhibits strong leadership potential through his initiative and commitment to team success.
+[3] Frederick consistently performs at an exceptionally high level, serving as a role model for his peers. He actively mentors colleagues, sharing his expertise and fostering team growth. His proactive approach and natural ability to guide demonstrate significant leadership potential, making him a valuable asset to the team.
+[4] Frederick, you are a role-model performer whose contributions consistently exceed expectations. Your willingness to mentor others is invaluable, and you clearly demonstrate strong leadership potential. Let's discuss a formal leadership track.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer3|Idea-to-Text|A6|Q07",
+  "criterion": "Constructiveness",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 16: A6_Q08_Finalchoice -----
+You are Volunteer 3 in Group A.
+TASK TYPE: Idea-to-Text
+SAMPLE: A6
+CRITERION: Final choice
+
+INSTRUCTION:
+Rank from most to least suitable as a final version.
+
+ORIGINAL:
+Frederick Rogers is a role-model performer who mentors others and shows strong leadership potential.
+
+CANDIDATES:
+[1] Frederick, you are a role-model performer whose contributions consistently exceed expectations. Your willingness to mentor others is invaluable, and you clearly demonstrate strong leadership potential. Let's discuss a formal leadership track.
+[2] Frederick, you are a true role-model performer. Beyond your own excellent results, your willingness to mentor colleagues and demonstrate leadership potential is highly valued. Keep up the outstanding work; you are a significant asset to the team and positioned for greater responsibility.
+[3] Frederick consistently performs at an exceptionally high level, serving as a role model for his peers. He actively mentors colleagues, sharing his expertise and fostering team growth. His proactive approach and natural ability to guide demonstrate significant leadership potential, making him a valuable asset to the team.
+[4] Frederick Rogers consistently demonstrates exceptional performance and serves as a role model for his peers. He actively mentors colleagues, fosters collaboration, and exhibits strong leadership potential through his initiative and commitment to team success.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer3|Idea-to-Text|A6|Q08",
+  "criterion": "Final choice",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT SC1: SanityCheck_IdeaToText_Accuracy -----
+TASK TYPE: Idea-to-Text
+SAMPLE: SC1
+CRITERION: Accuracy
+
+INSTRUCTION:
+Rank from most to least factually correct given the Original.
+
+ORIGINAL:
+The sun appears to rise each morning from the eastern horizon before setting in the west
+
+CANDIDATES:
+[1] The sun rises in the east.
+[2] The sun rises in the west.
+[3] The moon rises in the east.
+[4] The sun never rises.
+
+Please rank outputs strictly from most accurate (1) to least accurate (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "Idea-to-Text|SC1|Q04",
+  "criterion": "Accuracy",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 17: A8_Q01_Fluency -----
+You are Volunteer 3 in Group A.
+TASK TYPE: Summarise
+SAMPLE: A8
+CRITERION: Fluency
+
+INSTRUCTION:
+Rank from most to least smooth and error-free.
+
+ORIGINAL:
+Camille Hahn performance shows a lot of inconsistency. She didn't perform well on the given tasks and goals. There were times that she had a stellar performance. We believe that she has potential to do better in the future.
+
+CANDIDATES:
+[1] Camille's performance is very inconsistent. While she has moments of stellar work, she generally did not meet goals but has the potential to do better.
+[2] Camille Hahn's performance is inconsistent—she struggled with tasks and goals but showed occasional strong results. She has potential for improvement in the future.
+[3] Camille: Performance inconsistent. Didn't meet goals, but showed stellar moments. Potential to improve.
+[4] Camille Hahn's performance is inconsistent. While she occasionally excels, her overall task completion and goal attainment are poor. We believe she has potential for improvement.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer3|Summarise|A8|Q01",
+  "criterion": "Fluency",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 18: A8_Q02_Coherence -----
+You are Volunteer 3 in Group A.
+TASK TYPE: Summarise
+SAMPLE: A8
+CRITERION: Coherence
+
+INSTRUCTION:
+Rank from most to least logical and easy to follow.
+
+ORIGINAL:
+Camille Hahn performance shows a lot of inconsistency. She didn't perform well on the given tasks and goals. There were times that she had a stellar performance. We believe that she has potential to do better in the future.
+
+CANDIDATES:
+[1] Camille Hahn's performance is inconsistent—she struggled with tasks and goals but showed occasional strong results. She has potential for improvement in the future.
+[2] Camille's performance is very inconsistent. While she has moments of stellar work, she generally did not meet goals but has the potential to do better.
+[3] Camille: Performance inconsistent. Didn't meet goals, but showed stellar moments. Potential to improve.
+[4] Camille Hahn's performance is inconsistent. While she occasionally excels, her overall task completion and goal attainment are poor. We believe she has potential for improvement.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer3|Summarise|A8|Q02",
+  "criterion": "Coherence",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 19: A8_Q03_Conciseness -----
+You are Volunteer 3 in Group A.
+TASK TYPE: Summarise
+SAMPLE: A8
+CRITERION: Conciseness
+
+INSTRUCTION:
+Rank from most to least clear and compact.
+
+ORIGINAL:
+Camille Hahn performance shows a lot of inconsistency. She didn't perform well on the given tasks and goals. There were times that she had a stellar performance. We believe that she has potential to do better in the future.
+
+CANDIDATES:
+[1] Camille Hahn's performance is inconsistent—she struggled with tasks and goals but showed occasional strong results. She has potential for improvement in the future.
+[2] Camille's performance is very inconsistent. While she has moments of stellar work, she generally did not meet goals but has the potential to do better.
+[3] Camille Hahn's performance is inconsistent. While she occasionally excels, her overall task completion and goal attainment are poor. We believe she has potential for improvement.
+[4] Camille: Performance inconsistent. Didn't meet goals, but showed stellar moments. Potential to improve.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer3|Summarise|A8|Q03",
+  "criterion": "Conciseness",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 20: A8_Q04_Accuracy -----
+You are Volunteer 3 in Group A.
+TASK TYPE: Summarise
+SAMPLE: A8
+CRITERION: Accuracy
+
+INSTRUCTION:
+Select all texts that are factually correct given the Original.
+
+ORIGINAL:
+Camille Hahn performance shows a lot of inconsistency. She didn't perform well on the given tasks and goals. There were times that she had a stellar performance. We believe that she has potential to do better in the future.
+
+CANDIDATES:
+[1] Camille Hahn's performance is inconsistent—she struggled with tasks and goals but showed occasional strong results. She has potential for improvement in the future.
+[2] Camille: Performance inconsistent. Didn't meet goals, but showed stellar moments. Potential to improve.
+[3] Camille Hahn's performance is inconsistent. While she occasionally excels, her overall task completion and goal attainment are poor. We believe she has potential for improvement.
+[4] Camille's performance is very inconsistent. While she has moments of stellar work, she generally did not meet goals but has the potential to do better.
+
+Please select all outputs that are factually correct given the Original.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer3|Summarise|A8|Q04",
+  "criterion": "Accuracy",
+  "rating": [1, 3],
+  "justifications": {
+    "1": "why candidate 1 is correct/incorrect in one sentence",
+    "2": "why candidate 2 is correct/incorrect in one sentence",
+    "3": "why candidate 3 is correct/incorrect in one sentence",
+    "4": "why candidate 4 is correct/incorrect in one sentence"
+  }
+}
+
+
+----- PROMPT 21: A8_Q05_Sentimentmatch -----
+You are Volunteer 3 in Group A.
+TASK TYPE: Summarise
+SAMPLE: A8
+CRITERION: Sentiment match
+
+INSTRUCTION:
+Rank from most to least similar to the Original in style and sentiment.
+
+ORIGINAL:
+Camille Hahn performance shows a lot of inconsistency. She didn't perform well on the given tasks and goals. There were times that she had a stellar performance. We believe that she has potential to do better in the future.
+
+CANDIDATES:
+[1] Camille's performance is very inconsistent. While she has moments of stellar work, she generally did not meet goals but has the potential to do better.
+[2] Camille Hahn's performance is inconsistent. While she occasionally excels, her overall task completion and goal attainment are poor. We believe she has potential for improvement.
+[3] Camille: Performance inconsistent. Didn't meet goals, but showed stellar moments. Potential to improve.
+[4] Camille Hahn's performance is inconsistent—she struggled with tasks and goals but showed occasional strong results. She has potential for improvement in the future.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer3|Summarise|A8|Q05",
+  "criterion": "Sentiment match",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 22: A8_Q06_Motivationaltone -----
+You are Volunteer 3 in Group A.
+TASK TYPE: Summarise
+SAMPLE: A8
+CRITERION: Motivational tone
+
+INSTRUCTION:
+Rank from most to least empathetic and encouraging.
+
+ORIGINAL:
+Camille Hahn performance shows a lot of inconsistency. She didn't perform well on the given tasks and goals. There were times that she had a stellar performance. We believe that she has potential to do better in the future.
+
+CANDIDATES:
+[1] Camille: Performance inconsistent. Didn't meet goals, but showed stellar moments. Potential to improve.
+[2] Camille's performance is very inconsistent. While she has moments of stellar work, she generally did not meet goals but has the potential to do better.
+[3] Camille Hahn's performance is inconsistent—she struggled with tasks and goals but showed occasional strong results. She has potential for improvement in the future.
+[4] Camille Hahn's performance is inconsistent. While she occasionally excels, her overall task completion and goal attainment are poor. We believe she has potential for improvement.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer3|Summarise|A8|Q06",
+  "criterion": "Motivational tone",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 23: A8_Q07_Constructiveness -----
+You are Volunteer 3 in Group A.
+TASK TYPE: Summarise
+SAMPLE: A8
+CRITERION: Constructiveness
+
+INSTRUCTION:
+Rank from most to least helpful and constructive.
+
+ORIGINAL:
+Camille Hahn performance shows a lot of inconsistency. She didn't perform well on the given tasks and goals. There were times that she had a stellar performance. We believe that she has potential to do better in the future.
+
+CANDIDATES:
+[1] Camille Hahn's performance is inconsistent—she struggled with tasks and goals but showed occasional strong results. She has potential for improvement in the future.
+[2] Camille: Performance inconsistent. Didn't meet goals, but showed stellar moments. Potential to improve.
+[3] Camille Hahn's performance is inconsistent. While she occasionally excels, her overall task completion and goal attainment are poor. We believe she has potential for improvement.
+[4] Camille's performance is very inconsistent. While she has moments of stellar work, she generally did not meet goals but has the potential to do better.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer3|Summarise|A8|Q07",
+  "criterion": "Constructiveness",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 24: A8_Q08_Finalchoice -----
+You are Volunteer 3 in Group A.
+TASK TYPE: Summarise
+SAMPLE: A8
+CRITERION: Final choice
+
+INSTRUCTION:
+Rank from most to least suitable as a final version.
+
+ORIGINAL:
+Camille Hahn performance shows a lot of inconsistency. She didn't perform well on the given tasks and goals. There were times that she had a stellar performance. We believe that she has potential to do better in the future.
+
+CANDIDATES:
+[1] Camille Hahn's performance is inconsistent. While she occasionally excels, her overall task completion and goal attainment are poor. We believe she has potential for improvement.
+[2] Camille's performance is very inconsistent. While she has moments of stellar work, she generally did not meet goals but has the potential to do better.
+[3] Camille Hahn's performance is inconsistent—she struggled with tasks and goals but showed occasional strong results. She has potential for improvement in the future.
+[4] Camille: Performance inconsistent. Didn't meet goals, but showed stellar moments. Potential to improve.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer3|Summarise|A8|Q08",
+  "criterion": "Final choice",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 25: A9_Q01_Fluency -----
+You are Volunteer 3 in Group A.
+TASK TYPE: Summarise
+SAMPLE: A9
+CRITERION: Fluency
+
+INSTRUCTION:
+Rank from most to least smooth and error-free.
+
+ORIGINAL:
+Mr. Reid has been with the company for the last two years. His work is consistent and he puts his full effort into his work. He follows instructions well, but his abilities seem limited to his current experience level. Other workers hired at the same time have shown more growth within the field.
+
+CANDIDATES:
+[1] Mr. Reid is a consistent, diligent worker, but his growth has plateaued compared to peers. He follows instructions well but lacks initiative for advanced tasks.
+[2] Mr. Reid is a consistent and diligent worker who follows instructions well. However, he shows limited growth and skill development compared to his peers.
+[3] Reid: Consistent, full effort, follows instructions well. Limited growth vs peers hired same time.
+[4] Mr. Reid is consistent and diligent, following instructions well. However, his growth has been limited compared to peers hired at the same time, indicating constrained development beyond his current experience level.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer3|Summarise|A9|Q01",
+  "criterion": "Fluency",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 26: A9_Q02_Coherence -----
+You are Volunteer 3 in Group A.
+TASK TYPE: Summarise
+SAMPLE: A9
+CRITERION: Coherence
+
+INSTRUCTION:
+Rank from most to least logical and easy to follow.
+
+ORIGINAL:
+Mr. Reid has been with the company for the last two years. His work is consistent and he puts his full effort into his work. He follows instructions well, but his abilities seem limited to his current experience level. Other workers hired at the same time have shown more growth within the field.
+
+CANDIDATES:
+[1] Mr. Reid is consistent and diligent, following instructions well. However, his growth has been limited compared to peers hired at the same time, indicating constrained development beyond his current experience level.
+[2] Reid: Consistent, full effort, follows instructions well. Limited growth vs peers hired same time.
+[3] Mr. Reid is a consistent, diligent worker, but his growth has plateaued compared to peers. He follows instructions well but lacks initiative for advanced tasks.
+[4] Mr. Reid is a consistent and diligent worker who follows instructions well. However, he shows limited growth and skill development compared to his peers.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer3|Summarise|A9|Q02",
+  "criterion": "Coherence",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 27: A9_Q03_Conciseness -----
+You are Volunteer 3 in Group A.
+TASK TYPE: Summarise
+SAMPLE: A9
+CRITERION: Conciseness
+
+INSTRUCTION:
+Rank from most to least clear and compact.
+
+ORIGINAL:
+Mr. Reid has been with the company for the last two years. His work is consistent and he puts his full effort into his work. He follows instructions well, but his abilities seem limited to his current experience level. Other workers hired at the same time have shown more growth within the field.
+
+CANDIDATES:
+[1] Mr. Reid is a consistent and diligent worker who follows instructions well. However, he shows limited growth and skill development compared to his peers.
+[2] Reid: Consistent, full effort, follows instructions well. Limited growth vs peers hired same time.
+[3] Mr. Reid is consistent and diligent, following instructions well. However, his growth has been limited compared to peers hired at the same time, indicating constrained development beyond his current experience level.
+[4] Mr. Reid is a consistent, diligent worker, but his growth has plateaued compared to peers. He follows instructions well but lacks initiative for advanced tasks.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer3|Summarise|A9|Q03",
+  "criterion": "Conciseness",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 28: A9_Q04_Accuracy -----
+You are Volunteer 3 in Group A.
+TASK TYPE: Summarise
+SAMPLE: A9
+CRITERION: Accuracy
+
+INSTRUCTION:
+Select all texts that are factually correct given the Original.
+
+ORIGINAL:
+Mr. Reid has been with the company for the last two years. His work is consistent and he puts his full effort into his work. He follows instructions well, but his abilities seem limited to his current experience level. Other workers hired at the same time have shown more growth within the field.
+
+CANDIDATES:
+[1] Mr. Reid is a consistent and diligent worker who follows instructions well. However, he shows limited growth and skill development compared to his peers.
+[2] Reid: Consistent, full effort, follows instructions well. Limited growth vs peers hired same time.
+[3] Mr. Reid is a consistent, diligent worker, but his growth has plateaued compared to peers. He follows instructions well but lacks initiative for advanced tasks.
+[4] Mr. Reid is consistent and diligent, following instructions well. However, his growth has been limited compared to peers hired at the same time, indicating constrained development beyond his current experience level.
+
+Please select all outputs that are factually correct given the Original.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer3|Summarise|A9|Q04",
+  "criterion": "Accuracy",
+  "rating": [1, 3],
+  "justifications": {
+    "1": "why candidate 1 is correct/incorrect in one sentence",
+    "2": "why candidate 2 is correct/incorrect in one sentence",
+    "3": "why candidate 3 is correct/incorrect in one sentence",
+    "4": "why candidate 4 is correct/incorrect in one sentence"
+  }
+}
+
+
+----- PROMPT 29: A9_Q05_Sentimentmatch -----
+You are Volunteer 3 in Group A.
+TASK TYPE: Summarise
+SAMPLE: A9
+CRITERION: Sentiment match
+
+INSTRUCTION:
+Rank from most to least similar to the Original in style and sentiment.
+
+ORIGINAL:
+Mr. Reid has been with the company for the last two years. His work is consistent and he puts his full effort into his work. He follows instructions well, but his abilities seem limited to his current experience level. Other workers hired at the same time have shown more growth within the field.
+
+CANDIDATES:
+[1] Mr. Reid is a consistent, diligent worker, but his growth has plateaued compared to peers. He follows instructions well but lacks initiative for advanced tasks.
+[2] Reid: Consistent, full effort, follows instructions well. Limited growth vs peers hired same time.
+[3] Mr. Reid is consistent and diligent, following instructions well. However, his growth has been limited compared to peers hired at the same time, indicating constrained development beyond his current experience level.
+[4] Mr. Reid is a consistent and diligent worker who follows instructions well. However, he shows limited growth and skill development compared to his peers.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer3|Summarise|A9|Q05",
+  "criterion": "Sentiment match",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 30: A9_Q06_Motivationaltone -----
+You are Volunteer 3 in Group A.
+TASK TYPE: Summarise
+SAMPLE: A9
+CRITERION: Motivational tone
+
+INSTRUCTION:
+Rank from most to least empathetic and encouraging.
+
+ORIGINAL:
+Mr. Reid has been with the company for the last two years. His work is consistent and he puts his full effort into his work. He follows instructions well, but his abilities seem limited to his current experience level. Other workers hired at the same time have shown more growth within the field.
+
+CANDIDATES:
+[1] Reid: Consistent, full effort, follows instructions well. Limited growth vs peers hired same time.
+[2] Mr. Reid is a consistent and diligent worker who follows instructions well. However, he shows limited growth and skill development compared to his peers.
+[3] Mr. Reid is a consistent, diligent worker, but his growth has plateaued compared to peers. He follows instructions well but lacks initiative for advanced tasks.
+[4] Mr. Reid is consistent and diligent, following instructions well. However, his growth has been limited compared to peers hired at the same time, indicating constrained development beyond his current experience level.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer3|Summarise|A9|Q06",
+  "criterion": "Motivational tone",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 31: A9_Q07_Constructiveness -----
+You are Volunteer 3 in Group A.
+TASK TYPE: Summarise
+SAMPLE: A9
+CRITERION: Constructiveness
+
+INSTRUCTION:
+Rank from most to least helpful and constructive.
+
+ORIGINAL:
+Mr. Reid has been with the company for the last two years. His work is consistent and he puts his full effort into his work. He follows instructions well, but his abilities seem limited to his current experience level. Other workers hired at the same time have shown more growth within the field.
+
+CANDIDATES:
+[1] Mr. Reid is consistent and diligent, following instructions well. However, his growth has been limited compared to peers hired at the same time, indicating constrained development beyond his current experience level.
+[2] Reid: Consistent, full effort, follows instructions well. Limited growth vs peers hired same time.
+[3] Mr. Reid is a consistent, diligent worker, but his growth has plateaued compared to peers. He follows instructions well but lacks initiative for advanced tasks.
+[4] Mr. Reid is a consistent and diligent worker who follows instructions well. However, he shows limited growth and skill development compared to his peers.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer3|Summarise|A9|Q07",
+  "criterion": "Constructiveness",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 32: A9_Q08_Finalchoice -----
+You are Volunteer 3 in Group A.
+TASK TYPE: Summarise
+SAMPLE: A9
+CRITERION: Final choice
+
+INSTRUCTION:
+Rank from most to least suitable as a final version.
+
+ORIGINAL:
+Mr. Reid has been with the company for the last two years. His work is consistent and he puts his full effort into his work. He follows instructions well, but his abilities seem limited to his current experience level. Other workers hired at the same time have shown more growth within the field.
+
+CANDIDATES:
+[1] Mr. Reid is a consistent and diligent worker who follows instructions well. However, he shows limited growth and skill development compared to his peers.
+[2] Mr. Reid is a consistent, diligent worker, but his growth has plateaued compared to peers. He follows instructions well but lacks initiative for advanced tasks.
+[3] Reid: Consistent, full effort, follows instructions well. Limited growth vs peers hired same time.
+[4] Mr. Reid is consistent and diligent, following instructions well. However, his growth has been limited compared to peers hired at the same time, indicating constrained development beyond his current experience level.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer3|Summarise|A9|Q08",
+  "criterion": "Final choice",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT SC2: SanityCheck_Summarise_Accuracy -----
+TASK TYPE: Summarise
+SAMPLE: SC2
+CRITERION: Accuracy
+
+INSTRUCTION:
+Rank from most to least factually correct given the Original.
+
+ORIGINAL:
+Pure water begins to freeze at exactly zero degrees Celsius
+
+CANDIDATES:
+[1] Water freezes at at 0°C.
+[2] Water freezes at 100°C.
+[3] Water boils at 0°C.
+[4] Ice melts at 0°C.
+
+Please rank outputs strictly from most accurate (1) to least accurate (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "Summarise|SC2|Q04",
+  "criterion": "Accuracy",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 33: A14_Q01_Fluency -----
+You are Volunteer 3 in Group A.
+TASK TYPE: Interpret
+SAMPLE: A14
+CRITERION: Fluency
+
+INSTRUCTION:
+Rank from most to least smooth and error-free.
+
+ORIGINAL:
+Chelsea is an absolutely amazing worker. She always produces the highest quality work that exceeds our expectations. Not only that, she constantly seeks to learn and improve her self to produce better work. Not only is she extremely competent, she has the potential to produce even higher quality work as she progresses
+
+CANDIDATES:
+[1] Chelsea consistently delivers exceptional work that surpasses expectations, demonstrating both skill and dedication. Her proactive pursuit of growth suggests strong potential for even greater contributions. To continue progressing, Chelsea should seek regular feedback to refine her approach, mentor others to strengthen leadership skills, pursue advanced training in her field, and document her best practices to share with the team.
+[2] The feedback means Chelsea’s work quality and self-driven growth are exceptional, with clear potential for greater impact. This positions her as a top talent with leadership readiness. Chelsea should: 1) Mentor one peer quarterly to share expertise, 2) Draft a 12-month growth plan aligning with company goals, 3) Lead one cross-departmental project by year-end to broaden influence.
+[3] Chelsea is seen as an exceptional, high-potential employee who consistently surpasses expectations and is eager to learn. Her standing is excellent. To build on this, Chelsea can mentor a teammate to develop leadership skills and discuss her long-term career path with her manager to align her goals.
+[4] Chelsea, this feedback highlights her exceptional work quality, consistent exceeding of expectations, and proactive approach to learning and self-improvement. It implies she is a top performer with significant growth potential, likely on a strong trajectory for advancement. To respond, Chelsea should continue her high-quality work, proactively seek new learning opportunities, and discuss potential growth paths with her manager.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer3|Interpret|A14|Q01",
+  "criterion": "Fluency",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 34: A14_Q02_Coherence -----
+You are Volunteer 3 in Group A.
+TASK TYPE: Interpret
+SAMPLE: A14
+CRITERION: Coherence
+
+INSTRUCTION:
+Rank from most to least logical and easy to follow.
+
+ORIGINAL:
+Chelsea is an absolutely amazing worker. She always produces the highest quality work that exceeds our expectations. Not only that, she constantly seeks to learn and improve her self to produce better work. Not only is she extremely competent, she has the potential to produce even higher quality work as she progresses
+
+CANDIDATES:
+[1] The feedback means Chelsea’s work quality and self-driven growth are exceptional, with clear potential for greater impact. This positions her as a top talent with leadership readiness. Chelsea should: 1) Mentor one peer quarterly to share expertise, 2) Draft a 12-month growth plan aligning with company goals, 3) Lead one cross-departmental project by year-end to broaden influence.
+[2] Chelsea consistently delivers exceptional work that surpasses expectations, demonstrating both skill and dedication. Her proactive pursuit of growth suggests strong potential for even greater contributions. To continue progressing, Chelsea should seek regular feedback to refine her approach, mentor others to strengthen leadership skills, pursue advanced training in her field, and document her best practices to share with the team.
+[3] Chelsea is seen as an exceptional, high-potential employee who consistently surpasses expectations and is eager to learn. Her standing is excellent. To build on this, Chelsea can mentor a teammate to develop leadership skills and discuss her long-term career path with her manager to align her goals.
+[4] Chelsea, this feedback highlights her exceptional work quality, consistent exceeding of expectations, and proactive approach to learning and self-improvement. It implies she is a top performer with significant growth potential, likely on a strong trajectory for advancement. To respond, Chelsea should continue her high-quality work, proactively seek new learning opportunities, and discuss potential growth paths with her manager.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer3|Interpret|A14|Q02",
+  "criterion": "Coherence",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 35: A14_Q03_Conciseness -----
+You are Volunteer 3 in Group A.
+TASK TYPE: Interpret
+SAMPLE: A14
+CRITERION: Conciseness
+
+INSTRUCTION:
+Rank from most to least clear and compact.
+
+ORIGINAL:
+Chelsea is an absolutely amazing worker. She always produces the highest quality work that exceeds our expectations. Not only that, she constantly seeks to learn and improve her self to produce better work. Not only is she extremely competent, she has the potential to produce even higher quality work as she progresses
+
+CANDIDATES:
+[1] The feedback means Chelsea’s work quality and self-driven growth are exceptional, with clear potential for greater impact. This positions her as a top talent with leadership readiness. Chelsea should: 1) Mentor one peer quarterly to share expertise, 2) Draft a 12-month growth plan aligning with company goals, 3) Lead one cross-departmental project by year-end to broaden influence.
+[2] Chelsea, this feedback highlights her exceptional work quality, consistent exceeding of expectations, and proactive approach to learning and self-improvement. It implies she is a top performer with significant growth potential, likely on a strong trajectory for advancement. To respond, Chelsea should continue her high-quality work, proactively seek new learning opportunities, and discuss potential growth paths with her manager.
+[3] Chelsea is seen as an exceptional, high-potential employee who consistently surpasses expectations and is eager to learn. Her standing is excellent. To build on this, Chelsea can mentor a teammate to develop leadership skills and discuss her long-term career path with her manager to align her goals.
+[4] Chelsea consistently delivers exceptional work that surpasses expectations, demonstrating both skill and dedication. Her proactive pursuit of growth suggests strong potential for even greater contributions. To continue progressing, Chelsea should seek regular feedback to refine her approach, mentor others to strengthen leadership skills, pursue advanced training in her field, and document her best practices to share with the team.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer3|Interpret|A14|Q03",
+  "criterion": "Conciseness",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 36: A14_Q04_Accuracy -----
+You are Volunteer 3 in Group A.
+TASK TYPE: Interpret
+SAMPLE: A14
+CRITERION: Accuracy
+
+INSTRUCTION:
+Select all texts that are factually correct given the Original.
+
+ORIGINAL:
+Chelsea is an absolutely amazing worker. She always produces the highest quality work that exceeds our expectations. Not only that, she constantly seeks to learn and improve her self to produce better work. Not only is she extremely competent, she has the potential to produce even higher quality work as she progresses
+
+CANDIDATES:
+[1] The feedback means Chelsea’s work quality and self-driven growth are exceptional, with clear potential for greater impact. This positions her as a top talent with leadership readiness. Chelsea should: 1) Mentor one peer quarterly to share expertise, 2) Draft a 12-month growth plan aligning with company goals, 3) Lead one cross-departmental project by year-end to broaden influence.
+[2] Chelsea consistently delivers exceptional work that surpasses expectations, demonstrating both skill and dedication. Her proactive pursuit of growth suggests strong potential for even greater contributions. To continue progressing, Chelsea should seek regular feedback to refine her approach, mentor others to strengthen leadership skills, pursue advanced training in her field, and document her best practices to share with the team.
+[3] Chelsea is seen as an exceptional, high-potential employee who consistently surpasses expectations and is eager to learn. Her standing is excellent. To build on this, Chelsea can mentor a teammate to develop leadership skills and discuss her long-term career path with her manager to align her goals.
+[4] Chelsea, this feedback highlights her exceptional work quality, consistent exceeding of expectations, and proactive approach to learning and self-improvement. It implies she is a top performer with significant growth potential, likely on a strong trajectory for advancement. To respond, Chelsea should continue her high-quality work, proactively seek new learning opportunities, and discuss potential growth paths with her manager.
+
+Please select all outputs that are factually correct given the Original.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer3|Interpret|A14|Q04",
+  "criterion": "Accuracy",
+  "rating": [1, 3],
+  "justifications": {
+    "1": "why candidate 1 is correct/incorrect in one sentence",
+    "2": "why candidate 2 is correct/incorrect in one sentence",
+    "3": "why candidate 3 is correct/incorrect in one sentence",
+    "4": "why candidate 4 is correct/incorrect in one sentence"
+  }
+}
+
+
+----- PROMPT 37: A14_Q05_Sentimentmatch -----
+You are Volunteer 3 in Group A.
+TASK TYPE: Interpret
+SAMPLE: A14
+CRITERION: Sentiment match
+
+INSTRUCTION:
+Rank from most to least similar to the Original in style and sentiment.
+
+ORIGINAL:
+Chelsea is an absolutely amazing worker. She always produces the highest quality work that exceeds our expectations. Not only that, she constantly seeks to learn and improve her self to produce better work. Not only is she extremely competent, she has the potential to produce even higher quality work as she progresses
+
+CANDIDATES:
+[1] Chelsea is seen as an exceptional, high-potential employee who consistently surpasses expectations and is eager to learn. Her standing is excellent. To build on this, Chelsea can mentor a teammate to develop leadership skills and discuss her long-term career path with her manager to align her goals.
+[2] Chelsea, this feedback highlights her exceptional work quality, consistent exceeding of expectations, and proactive approach to learning and self-improvement. It implies she is a top performer with significant growth potential, likely on a strong trajectory for advancement. To respond, Chelsea should continue her high-quality work, proactively seek new learning opportunities, and discuss potential growth paths with her manager.
+[3] The feedback means Chelsea’s work quality and self-driven growth are exceptional, with clear potential for greater impact. This positions her as a top talent with leadership readiness. Chelsea should: 1) Mentor one peer quarterly to share expertise, 2) Draft a 12-month growth plan aligning with company goals, 3) Lead one cross-departmental project by year-end to broaden influence.
+[4] Chelsea consistently delivers exceptional work that surpasses expectations, demonstrating both skill and dedication. Her proactive pursuit of growth suggests strong potential for even greater contributions. To continue progressing, Chelsea should seek regular feedback to refine her approach, mentor others to strengthen leadership skills, pursue advanced training in her field, and document her best practices to share with the team.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer3|Interpret|A14|Q05",
+  "criterion": "Sentiment match",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 38: A14_Q06_Motivationaltone -----
+You are Volunteer 3 in Group A.
+TASK TYPE: Interpret
+SAMPLE: A14
+CRITERION: Motivational tone
+
+INSTRUCTION:
+Rank from most to least empathetic and encouraging.
+
+ORIGINAL:
+Chelsea is an absolutely amazing worker. She always produces the highest quality work that exceeds our expectations. Not only that, she constantly seeks to learn and improve her self to produce better work. Not only is she extremely competent, she has the potential to produce even higher quality work as she progresses
+
+CANDIDATES:
+[1] Chelsea, this feedback highlights her exceptional work quality, consistent exceeding of expectations, and proactive approach to learning and self-improvement. It implies she is a top performer with significant growth potential, likely on a strong trajectory for advancement. To respond, Chelsea should continue her high-quality work, proactively seek new learning opportunities, and discuss potential growth paths with her manager.
+[2] The feedback means Chelsea’s work quality and self-driven growth are exceptional, with clear potential for greater impact. This positions her as a top talent with leadership readiness. Chelsea should: 1) Mentor one peer quarterly to share expertise, 2) Draft a 12-month growth plan aligning with company goals, 3) Lead one cross-departmental project by year-end to broaden influence.
+[3] Chelsea consistently delivers exceptional work that surpasses expectations, demonstrating both skill and dedication. Her proactive pursuit of growth suggests strong potential for even greater contributions. To continue progressing, Chelsea should seek regular feedback to refine her approach, mentor others to strengthen leadership skills, pursue advanced training in her field, and document her best practices to share with the team.
+[4] Chelsea is seen as an exceptional, high-potential employee who consistently surpasses expectations and is eager to learn. Her standing is excellent. To build on this, Chelsea can mentor a teammate to develop leadership skills and discuss her long-term career path with her manager to align her goals.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer3|Interpret|A14|Q06",
+  "criterion": "Motivational tone",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 39: A14_Q07_Constructiveness -----
+You are Volunteer 3 in Group A.
+TASK TYPE: Interpret
+SAMPLE: A14
+CRITERION: Constructiveness
+
+INSTRUCTION:
+Rank from most to least helpful and constructive.
+
+ORIGINAL:
+Chelsea is an absolutely amazing worker. She always produces the highest quality work that exceeds our expectations. Not only that, she constantly seeks to learn and improve her self to produce better work. Not only is she extremely competent, she has the potential to produce even higher quality work as she progresses
+
+CANDIDATES:
+[1] Chelsea is seen as an exceptional, high-potential employee who consistently surpasses expectations and is eager to learn. Her standing is excellent. To build on this, Chelsea can mentor a teammate to develop leadership skills and discuss her long-term career path with her manager to align her goals.
+[2] The feedback means Chelsea’s work quality and self-driven growth are exceptional, with clear potential for greater impact. This positions her as a top talent with leadership readiness. Chelsea should: 1) Mentor one peer quarterly to share expertise, 2) Draft a 12-month growth plan aligning with company goals, 3) Lead one cross-departmental project by year-end to broaden influence.
+[3] Chelsea, this feedback highlights her exceptional work quality, consistent exceeding of expectations, and proactive approach to learning and self-improvement. It implies she is a top performer with significant growth potential, likely on a strong trajectory for advancement. To respond, Chelsea should continue her high-quality work, proactively seek new learning opportunities, and discuss potential growth paths with her manager.
+[4] Chelsea consistently delivers exceptional work that surpasses expectations, demonstrating both skill and dedication. Her proactive pursuit of growth suggests strong potential for even greater contributions. To continue progressing, Chelsea should seek regular feedback to refine her approach, mentor others to strengthen leadership skills, pursue advanced training in her field, and document her best practices to share with the team.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer3|Interpret|A14|Q07",
+  "criterion": "Constructiveness",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 40: A14_Q08_Finalchoice -----
+You are Volunteer 3 in Group A.
+TASK TYPE: Interpret
+SAMPLE: A14
+CRITERION: Final choice
+
+INSTRUCTION:
+Rank from most to least suitable as a final version.
+
+ORIGINAL:
+Chelsea is an absolutely amazing worker. She always produces the highest quality work that exceeds our expectations. Not only that, she constantly seeks to learn and improve her self to produce better work. Not only is she extremely competent, she has the potential to produce even higher quality work as she progresses
+
+CANDIDATES:
+[1] Chelsea is seen as an exceptional, high-potential employee who consistently surpasses expectations and is eager to learn. Her standing is excellent. To build on this, Chelsea can mentor a teammate to develop leadership skills and discuss her long-term career path with her manager to align her goals.
+[2] Chelsea, this feedback highlights her exceptional work quality, consistent exceeding of expectations, and proactive approach to learning and self-improvement. It implies she is a top performer with significant growth potential, likely on a strong trajectory for advancement. To respond, Chelsea should continue her high-quality work, proactively seek new learning opportunities, and discuss potential growth paths with her manager.
+[3] Chelsea consistently delivers exceptional work that surpasses expectations, demonstrating both skill and dedication. Her proactive pursuit of growth suggests strong potential for even greater contributions. To continue progressing, Chelsea should seek regular feedback to refine her approach, mentor others to strengthen leadership skills, pursue advanced training in her field, and document her best practices to share with the team.
+[4] The feedback means Chelsea’s work quality and self-driven growth are exceptional, with clear potential for greater impact. This positions her as a top talent with leadership readiness. Chelsea should: 1) Mentor one peer quarterly to share expertise, 2) Draft a 12-month growth plan aligning with company goals, 3) Lead one cross-departmental project by year-end to broaden influence.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer3|Interpret|A14|Q08",
+  "criterion": "Final choice",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 41: A16_Q01_Fluency -----
+You are Volunteer 3 in Group A.
+TASK TYPE: Interpret
+SAMPLE: A16
+CRITERION: Fluency
+
+INSTRUCTION:
+Rank from most to least smooth and error-free.
+
+ORIGINAL:
+Noah is a really key member to have on our team and I am grateful for all the ways in which he steps up to deliver high quality work for our clients. For example, he's always the first to volunteer for assignments. He's always the last one to leave the office, since he's so committed to reviewing reports and double checking his work in a painstaking way. I can certainly see Noah's dedication as an asset in a manager role in the future. However, I don't see him reaching the director level since he is somewhat abrasive in his communication skills.
+
+CANDIDATES:
+[1] Noah is a dedicated, key team member with management potential, but his abrasive communication style is a significant barrier to director-level roles. To improve, Noah can request specific feedback on his communication style and practice active listening in discussions to be more receptive.
+[2] Noah's manager values his dedication, high-quality work, and willingness to take on assignments, seeing him as a strong candidate for a manager role. However, his "abrasive" communication style is noted as a barrier to reaching a director level. To address this, Noah should seek feedback on specific instances of abrasive communication, practice active listening and empathetic responses, and consider communication workshops or coaching to refine his interpersonal skills.
+[3] The feedback means Noah’s diligence and client focus make him management material, but abrasive communication may limit director prospects. This signals strength in execution over strategic influence. Noah should: 1) Take an active listening workshop by Q3, 2) Request quarterly feedback on communication tone, 3) Practice rephrating critical feedback neutrally before sharing.
+[4] Noah’s dedication, initiative, and meticulous work quality make him a valuable team member and a strong candidate for a future managerial role. His commitment to excellence is evident in how he consistently volunteers for assignments and ensures accuracy through thorough review. However, advancement to the director level may be limited by his abrasive communication style, which could hinder collaboration and leadership effectiveness. To grow into higher-level leadership, Noah should focus on refining his interpersonal skills. Recommended actions include: 1) seeking feedback on communication from peers and supervisors, 2) attending a workshop on emotional intelligence or constructive communication, 3) practicing active listening in team settings, and 4) working with a mentor to develop a more inclusive and empathetic leadership style.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer3|Interpret|A16|Q01",
+  "criterion": "Fluency",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 42: A16_Q02_Coherence -----
+You are Volunteer 3 in Group A.
+TASK TYPE: Interpret
+SAMPLE: A16
+CRITERION: Coherence
+
+INSTRUCTION:
+Rank from most to least logical and easy to follow.
+
+ORIGINAL:
+Noah is a really key member to have on our team and I am grateful for all the ways in which he steps up to deliver high quality work for our clients. For example, he's always the first to volunteer for assignments. He's always the last one to leave the office, since he's so committed to reviewing reports and double checking his work in a painstaking way. I can certainly see Noah's dedication as an asset in a manager role in the future. However, I don't see him reaching the director level since he is somewhat abrasive in his communication skills.
+
+CANDIDATES:
+[1] Noah’s dedication, initiative, and meticulous work quality make him a valuable team member and a strong candidate for a future managerial role. His commitment to excellence is evident in how he consistently volunteers for assignments and ensures accuracy through thorough review. However, advancement to the director level may be limited by his abrasive communication style, which could hinder collaboration and leadership effectiveness. To grow into higher-level leadership, Noah should focus on refining his interpersonal skills. Recommended actions include: 1) seeking feedback on communication from peers and supervisors, 2) attending a workshop on emotional intelligence or constructive communication, 3) practicing active listening in team settings, and 4) working with a mentor to develop a more inclusive and empathetic leadership style.
+[2] Noah's manager values his dedication, high-quality work, and willingness to take on assignments, seeing him as a strong candidate for a manager role. However, his "abrasive" communication style is noted as a barrier to reaching a director level. To address this, Noah should seek feedback on specific instances of abrasive communication, practice active listening and empathetic responses, and consider communication workshops or coaching to refine his interpersonal skills.
+[3] Noah is a dedicated, key team member with management potential, but his abrasive communication style is a significant barrier to director-level roles. To improve, Noah can request specific feedback on his communication style and practice active listening in discussions to be more receptive.
+[4] The feedback means Noah’s diligence and client focus make him management material, but abrasive communication may limit director prospects. This signals strength in execution over strategic influence. Noah should: 1) Take an active listening workshop by Q3, 2) Request quarterly feedback on communication tone, 3) Practice rephrating critical feedback neutrally before sharing.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer3|Interpret|A16|Q02",
+  "criterion": "Coherence",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 43: A16_Q03_Conciseness -----
+You are Volunteer 3 in Group A.
+TASK TYPE: Interpret
+SAMPLE: A16
+CRITERION: Conciseness
+
+INSTRUCTION:
+Rank from most to least clear and compact.
+
+ORIGINAL:
+Noah is a really key member to have on our team and I am grateful for all the ways in which he steps up to deliver high quality work for our clients. For example, he's always the first to volunteer for assignments. He's always the last one to leave the office, since he's so committed to reviewing reports and double checking his work in a painstaking way. I can certainly see Noah's dedication as an asset in a manager role in the future. However, I don't see him reaching the director level since he is somewhat abrasive in his communication skills.
+
+CANDIDATES:
+[1] Noah’s dedication, initiative, and meticulous work quality make him a valuable team member and a strong candidate for a future managerial role. His commitment to excellence is evident in how he consistently volunteers for assignments and ensures accuracy through thorough review. However, advancement to the director level may be limited by his abrasive communication style, which could hinder collaboration and leadership effectiveness. To grow into higher-level leadership, Noah should focus on refining his interpersonal skills. Recommended actions include: 1) seeking feedback on communication from peers and supervisors, 2) attending a workshop on emotional intelligence or constructive communication, 3) practicing active listening in team settings, and 4) working with a mentor to develop a more inclusive and empathetic leadership style.
+[2] Noah's manager values his dedication, high-quality work, and willingness to take on assignments, seeing him as a strong candidate for a manager role. However, his "abrasive" communication style is noted as a barrier to reaching a director level. To address this, Noah should seek feedback on specific instances of abrasive communication, practice active listening and empathetic responses, and consider communication workshops or coaching to refine his interpersonal skills.
+[3] Noah is a dedicated, key team member with management potential, but his abrasive communication style is a significant barrier to director-level roles. To improve, Noah can request specific feedback on his communication style and practice active listening in discussions to be more receptive.
+[4] The feedback means Noah’s diligence and client focus make him management material, but abrasive communication may limit director prospects. This signals strength in execution over strategic influence. Noah should: 1) Take an active listening workshop by Q3, 2) Request quarterly feedback on communication tone, 3) Practice rephrating critical feedback neutrally before sharing.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer3|Interpret|A16|Q03",
+  "criterion": "Conciseness",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 44: A16_Q04_Accuracy -----
+You are Volunteer 3 in Group A.
+TASK TYPE: Interpret
+SAMPLE: A16
+CRITERION: Accuracy
+
+INSTRUCTION:
+Select all texts that are factually correct given the Original.
+
+ORIGINAL:
+Noah is a really key member to have on our team and I am grateful for all the ways in which he steps up to deliver high quality work for our clients. For example, he's always the first to volunteer for assignments. He's always the last one to leave the office, since he's so committed to reviewing reports and double checking his work in a painstaking way. I can certainly see Noah's dedication as an asset in a manager role in the future. However, I don't see him reaching the director level since he is somewhat abrasive in his communication skills.
+
+CANDIDATES:
+[1] Noah's manager values his dedication, high-quality work, and willingness to take on assignments, seeing him as a strong candidate for a manager role. However, his "abrasive" communication style is noted as a barrier to reaching a director level. To address this, Noah should seek feedback on specific instances of abrasive communication, practice active listening and empathetic responses, and consider communication workshops or coaching to refine his interpersonal skills.
+[2] Noah’s dedication, initiative, and meticulous work quality make him a valuable team member and a strong candidate for a future managerial role. His commitment to excellence is evident in how he consistently volunteers for assignments and ensures accuracy through thorough review. However, advancement to the director level may be limited by his abrasive communication style, which could hinder collaboration and leadership effectiveness. To grow into higher-level leadership, Noah should focus on refining his interpersonal skills. Recommended actions include: 1) seeking feedback on communication from peers and supervisors, 2) attending a workshop on emotional intelligence or constructive communication, 3) practicing active listening in team settings, and 4) working with a mentor to develop a more inclusive and empathetic leadership style.
+[3] Noah is a dedicated, key team member with management potential, but his abrasive communication style is a significant barrier to director-level roles. To improve, Noah can request specific feedback on his communication style and practice active listening in discussions to be more receptive.
+[4] The feedback means Noah’s diligence and client focus make him management material, but abrasive communication may limit director prospects. This signals strength in execution over strategic influence. Noah should: 1) Take an active listening workshop by Q3, 2) Request quarterly feedback on communication tone, 3) Practice rephrating critical feedback neutrally before sharing.
+
+Please select all outputs that are factually correct given the Original.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer3|Interpret|A16|Q04",
+  "criterion": "Accuracy",
+  "rating": [1, 3],
+  "justifications": {
+    "1": "why candidate 1 is correct/incorrect in one sentence",
+    "2": "why candidate 2 is correct/incorrect in one sentence",
+    "3": "why candidate 3 is correct/incorrect in one sentence",
+    "4": "why candidate 4 is correct/incorrect in one sentence"
+  }
+}
+
+
+----- PROMPT 45: A16_Q05_Sentimentmatch -----
+You are Volunteer 3 in Group A.
+TASK TYPE: Interpret
+SAMPLE: A16
+CRITERION: Sentiment match
+
+INSTRUCTION:
+Rank from most to least similar to the Original in style and sentiment.
+
+ORIGINAL:
+Noah is a really key member to have on our team and I am grateful for all the ways in which he steps up to deliver high quality work for our clients. For example, he's always the first to volunteer for assignments. He's always the last one to leave the office, since he's so committed to reviewing reports and double checking his work in a painstaking way. I can certainly see Noah's dedication as an asset in a manager role in the future. However, I don't see him reaching the director level since he is somewhat abrasive in his communication skills.
+
+CANDIDATES:
+[1] Noah is a dedicated, key team member with management potential, but his abrasive communication style is a significant barrier to director-level roles. To improve, Noah can request specific feedback on his communication style and practice active listening in discussions to be more receptive.
+[2] Noah's manager values his dedication, high-quality work, and willingness to take on assignments, seeing him as a strong candidate for a manager role. However, his "abrasive" communication style is noted as a barrier to reaching a director level. To address this, Noah should seek feedback on specific instances of abrasive communication, practice active listening and empathetic responses, and consider communication workshops or coaching to refine his interpersonal skills.
+[3] Noah’s dedication, initiative, and meticulous work quality make him a valuable team member and a strong candidate for a future managerial role. His commitment to excellence is evident in how he consistently volunteers for assignments and ensures accuracy through thorough review. However, advancement to the director level may be limited by his abrasive communication style, which could hinder collaboration and leadership effectiveness. To grow into higher-level leadership, Noah should focus on refining his interpersonal skills. Recommended actions include: 1) seeking feedback on communication from peers and supervisors, 2) attending a workshop on emotional intelligence or constructive communication, 3) practicing active listening in team settings, and 4) working with a mentor to develop a more inclusive and empathetic leadership style.
+[4] The feedback means Noah’s diligence and client focus make him management material, but abrasive communication may limit director prospects. This signals strength in execution over strategic influence. Noah should: 1) Take an active listening workshop by Q3, 2) Request quarterly feedback on communication tone, 3) Practice rephrating critical feedback neutrally before sharing.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer3|Interpret|A16|Q05",
+  "criterion": "Sentiment match",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 46: A16_Q06_Motivationaltone -----
+You are Volunteer 3 in Group A.
+TASK TYPE: Interpret
+SAMPLE: A16
+CRITERION: Motivational tone
+
+INSTRUCTION:
+Rank from most to least empathetic and encouraging.
+
+ORIGINAL:
+Noah is a really key member to have on our team and I am grateful for all the ways in which he steps up to deliver high quality work for our clients. For example, he's always the first to volunteer for assignments. He's always the last one to leave the office, since he's so committed to reviewing reports and double checking his work in a painstaking way. I can certainly see Noah's dedication as an asset in a manager role in the future. However, I don't see him reaching the director level since he is somewhat abrasive in his communication skills.
+
+CANDIDATES:
+[1] Noah's manager values his dedication, high-quality work, and willingness to take on assignments, seeing him as a strong candidate for a manager role. However, his "abrasive" communication style is noted as a barrier to reaching a director level. To address this, Noah should seek feedback on specific instances of abrasive communication, practice active listening and empathetic responses, and consider communication workshops or coaching to refine his interpersonal skills.
+[2] The feedback means Noah’s diligence and client focus make him management material, but abrasive communication may limit director prospects. This signals strength in execution over strategic influence. Noah should: 1) Take an active listening workshop by Q3, 2) Request quarterly feedback on communication tone, 3) Practice rephrating critical feedback neutrally before sharing.
+[3] Noah’s dedication, initiative, and meticulous work quality make him a valuable team member and a strong candidate for a future managerial role. His commitment to excellence is evident in how he consistently volunteers for assignments and ensures accuracy through thorough review. However, advancement to the director level may be limited by his abrasive communication style, which could hinder collaboration and leadership effectiveness. To grow into higher-level leadership, Noah should focus on refining his interpersonal skills. Recommended actions include: 1) seeking feedback on communication from peers and supervisors, 2) attending a workshop on emotional intelligence or constructive communication, 3) practicing active listening in team settings, and 4) working with a mentor to develop a more inclusive and empathetic leadership style.
+[4] Noah is a dedicated, key team member with management potential, but his abrasive communication style is a significant barrier to director-level roles. To improve, Noah can request specific feedback on his communication style and practice active listening in discussions to be more receptive.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer3|Interpret|A16|Q06",
+  "criterion": "Motivational tone",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 47: A16_Q07_Constructiveness -----
+You are Volunteer 3 in Group A.
+TASK TYPE: Interpret
+SAMPLE: A16
+CRITERION: Constructiveness
+
+INSTRUCTION:
+Rank from most to least helpful and constructive.
+
+ORIGINAL:
+Noah is a really key member to have on our team and I am grateful for all the ways in which he steps up to deliver high quality work for our clients. For example, he's always the first to volunteer for assignments. He's always the last one to leave the office, since he's so committed to reviewing reports and double checking his work in a painstaking way. I can certainly see Noah's dedication as an asset in a manager role in the future. However, I don't see him reaching the director level since he is somewhat abrasive in his communication skills.
+
+CANDIDATES:
+[1] Noah is a dedicated, key team member with management potential, but his abrasive communication style is a significant barrier to director-level roles. To improve, Noah can request specific feedback on his communication style and practice active listening in discussions to be more receptive.
+[2] The feedback means Noah’s diligence and client focus make him management material, but abrasive communication may limit director prospects. This signals strength in execution over strategic influence. Noah should: 1) Take an active listening workshop by Q3, 2) Request quarterly feedback on communication tone, 3) Practice rephrating critical feedback neutrally before sharing.
+[3] Noah’s dedication, initiative, and meticulous work quality make him a valuable team member and a strong candidate for a future managerial role. His commitment to excellence is evident in how he consistently volunteers for assignments and ensures accuracy through thorough review. However, advancement to the director level may be limited by his abrasive communication style, which could hinder collaboration and leadership effectiveness. To grow into higher-level leadership, Noah should focus on refining his interpersonal skills. Recommended actions include: 1) seeking feedback on communication from peers and supervisors, 2) attending a workshop on emotional intelligence or constructive communication, 3) practicing active listening in team settings, and 4) working with a mentor to develop a more inclusive and empathetic leadership style.
+[4] Noah's manager values his dedication, high-quality work, and willingness to take on assignments, seeing him as a strong candidate for a manager role. However, his "abrasive" communication style is noted as a barrier to reaching a director level. To address this, Noah should seek feedback on specific instances of abrasive communication, practice active listening and empathetic responses, and consider communication workshops or coaching to refine his interpersonal skills.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer3|Interpret|A16|Q07",
+  "criterion": "Constructiveness",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 48: A16_Q08_Finalchoice -----
+You are Volunteer 3 in Group A.
+TASK TYPE: Interpret
+SAMPLE: A16
+CRITERION: Final choice
+
+INSTRUCTION:
+Rank from most to least suitable as a final version.
+
+ORIGINAL:
+Noah is a really key member to have on our team and I am grateful for all the ways in which he steps up to deliver high quality work for our clients. For example, he's always the first to volunteer for assignments. He's always the last one to leave the office, since he's so committed to reviewing reports and double checking his work in a painstaking way. I can certainly see Noah's dedication as an asset in a manager role in the future. However, I don't see him reaching the director level since he is somewhat abrasive in his communication skills.
+
+CANDIDATES:
+[1] Noah’s dedication, initiative, and meticulous work quality make him a valuable team member and a strong candidate for a future managerial role. His commitment to excellence is evident in how he consistently volunteers for assignments and ensures accuracy through thorough review. However, advancement to the director level may be limited by his abrasive communication style, which could hinder collaboration and leadership effectiveness. To grow into higher-level leadership, Noah should focus on refining his interpersonal skills. Recommended actions include: 1) seeking feedback on communication from peers and supervisors, 2) attending a workshop on emotional intelligence or constructive communication, 3) practicing active listening in team settings, and 4) working with a mentor to develop a more inclusive and empathetic leadership style.
+[2] Noah is a dedicated, key team member with management potential, but his abrasive communication style is a significant barrier to director-level roles. To improve, Noah can request specific feedback on his communication style and practice active listening in discussions to be more receptive.
+[3] Noah's manager values his dedication, high-quality work, and willingness to take on assignments, seeing him as a strong candidate for a manager role. However, his "abrasive" communication style is noted as a barrier to reaching a director level. To address this, Noah should seek feedback on specific instances of abrasive communication, practice active listening and empathetic responses, and consider communication workshops or coaching to refine his interpersonal skills.
+[4] The feedback means Noah’s diligence and client focus make him management material, but abrasive communication may limit director prospects. This signals strength in execution over strategic influence. Noah should: 1) Take an active listening workshop by Q3, 2) Request quarterly feedback on communication tone, 3) Practice rephrating critical feedback neutrally before sharing.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer3|Interpret|A16|Q08",
+  "criterion": "Final choice",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+

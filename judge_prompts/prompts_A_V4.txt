@@ -1,0 +1,1698 @@
+----- PROMPT 1: A2_Q01_Fluency -----
+You are Volunteer 4 in Group A.
+TASK TYPE: Idea-to-Text
+SAMPLE: A2
+CRITERION: Fluency
+
+INSTRUCTION:
+Rank from most to least smooth and error-free.
+
+ORIGINAL:
+Bethany Cunningham is driven, takes pride in good-quality work, and shows clear growth potential.
+
+CANDIDATES:
+[1] Bethany Cunningham is a motivated and dedicated employee who consistently takes pride in delivering high-quality work. She demonstrates a strong work ethic, a commitment to excellence, and shows clear potential for continued growth within the organization. Her proactive attitude and attention to detail make her a valuable team member.
+[2] Bethany, you demonstrate strong drive and consistently take pride in delivering high-quality work. Your commitment to excellence is evident, and we see clear potential for continued growth. Keep leveraging your dedication; we value your contributions and look forward to your continued development.
+[3] Bethany, your drive and the immense pride you take in producing high-quality work are outstanding. You consistently demonstrate clear potential for growth, and we are excited to support your continued development.
+[4] Bethany consistently demonstrates a strong drive to excel, evident in her commitment to producing high-quality work. Her meticulous approach and dedication to excellence are commendable. She also shows clear potential for growth, readily embracing new challenges and developing her skills. We're excited to support her continued development and see her take on more responsibilities.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer4|Idea-to-Text|A2|Q01",
+  "criterion": "Fluency",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 2: A2_Q02_Coherence -----
+You are Volunteer 4 in Group A.
+TASK TYPE: Idea-to-Text
+SAMPLE: A2
+CRITERION: Coherence
+
+INSTRUCTION:
+Rank from most to least logical and easy to follow.
+
+ORIGINAL:
+Bethany Cunningham is driven, takes pride in good-quality work, and shows clear growth potential.
+
+CANDIDATES:
+[1] Bethany, you demonstrate strong drive and consistently take pride in delivering high-quality work. Your commitment to excellence is evident, and we see clear potential for continued growth. Keep leveraging your dedication; we value your contributions and look forward to your continued development.
+[2] Bethany consistently demonstrates a strong drive to excel, evident in her commitment to producing high-quality work. Her meticulous approach and dedication to excellence are commendable. She also shows clear potential for growth, readily embracing new challenges and developing her skills. We're excited to support her continued development and see her take on more responsibilities.
+[3] Bethany Cunningham is a motivated and dedicated employee who consistently takes pride in delivering high-quality work. She demonstrates a strong work ethic, a commitment to excellence, and shows clear potential for continued growth within the organization. Her proactive attitude and attention to detail make her a valuable team member.
+[4] Bethany, your drive and the immense pride you take in producing high-quality work are outstanding. You consistently demonstrate clear potential for growth, and we are excited to support your continued development.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer4|Idea-to-Text|A2|Q02",
+  "criterion": "Coherence",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 3: A2_Q03_Conciseness -----
+You are Volunteer 4 in Group A.
+TASK TYPE: Idea-to-Text
+SAMPLE: A2
+CRITERION: Conciseness
+
+INSTRUCTION:
+Rank from most to least clear and compact.
+
+ORIGINAL:
+Bethany Cunningham is driven, takes pride in good-quality work, and shows clear growth potential.
+
+CANDIDATES:
+[1] Bethany, you demonstrate strong drive and consistently take pride in delivering high-quality work. Your commitment to excellence is evident, and we see clear potential for continued growth. Keep leveraging your dedication; we value your contributions and look forward to your continued development.
+[2] Bethany, your drive and the immense pride you take in producing high-quality work are outstanding. You consistently demonstrate clear potential for growth, and we are excited to support your continued development.
+[3] Bethany Cunningham is a motivated and dedicated employee who consistently takes pride in delivering high-quality work. She demonstrates a strong work ethic, a commitment to excellence, and shows clear potential for continued growth within the organization. Her proactive attitude and attention to detail make her a valuable team member.
+[4] Bethany consistently demonstrates a strong drive to excel, evident in her commitment to producing high-quality work. Her meticulous approach and dedication to excellence are commendable. She also shows clear potential for growth, readily embracing new challenges and developing her skills. We're excited to support her continued development and see her take on more responsibilities.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer4|Idea-to-Text|A2|Q03",
+  "criterion": "Conciseness",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 4: A2_Q04_Accuracy -----
+You are Volunteer 4 in Group A.
+TASK TYPE: Idea-to-Text
+SAMPLE: A2
+CRITERION: Accuracy
+
+INSTRUCTION:
+Select all texts that are factually correct given the Original.
+
+ORIGINAL:
+Bethany Cunningham is driven, takes pride in good-quality work, and shows clear growth potential.
+
+CANDIDATES:
+[1] Bethany Cunningham is a motivated and dedicated employee who consistently takes pride in delivering high-quality work. She demonstrates a strong work ethic, a commitment to excellence, and shows clear potential for continued growth within the organization. Her proactive attitude and attention to detail make her a valuable team member.
+[2] Bethany consistently demonstrates a strong drive to excel, evident in her commitment to producing high-quality work. Her meticulous approach and dedication to excellence are commendable. She also shows clear potential for growth, readily embracing new challenges and developing her skills. We're excited to support her continued development and see her take on more responsibilities.
+[3] Bethany, your drive and the immense pride you take in producing high-quality work are outstanding. You consistently demonstrate clear potential for growth, and we are excited to support your continued development.
+[4] Bethany, you demonstrate strong drive and consistently take pride in delivering high-quality work. Your commitment to excellence is evident, and we see clear potential for continued growth. Keep leveraging your dedication; we value your contributions and look forward to your continued development.
+
+Please select all outputs that are factually correct given the Original.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer4|Idea-to-Text|A2|Q04",
+  "criterion": "Accuracy",
+  "rating": [1, 3],
+  "justifications": {
+    "1": "why candidate 1 is correct/incorrect in one sentence",
+    "2": "why candidate 2 is correct/incorrect in one sentence",
+    "3": "why candidate 3 is correct/incorrect in one sentence",
+    "4": "why candidate 4 is correct/incorrect in one sentence"
+  }
+}
+
+
+----- PROMPT 5: A2_Q05_Sentimentmatch -----
+You are Volunteer 4 in Group A.
+TASK TYPE: Idea-to-Text
+SAMPLE: A2
+CRITERION: Sentiment match
+
+INSTRUCTION:
+Rank from most to least similar to the Original in style and sentiment.
+
+ORIGINAL:
+Bethany Cunningham is driven, takes pride in good-quality work, and shows clear growth potential.
+
+CANDIDATES:
+[1] Bethany consistently demonstrates a strong drive to excel, evident in her commitment to producing high-quality work. Her meticulous approach and dedication to excellence are commendable. She also shows clear potential for growth, readily embracing new challenges and developing her skills. We're excited to support her continued development and see her take on more responsibilities.
+[2] Bethany, your drive and the immense pride you take in producing high-quality work are outstanding. You consistently demonstrate clear potential for growth, and we are excited to support your continued development.
+[3] Bethany, you demonstrate strong drive and consistently take pride in delivering high-quality work. Your commitment to excellence is evident, and we see clear potential for continued growth. Keep leveraging your dedication; we value your contributions and look forward to your continued development.
+[4] Bethany Cunningham is a motivated and dedicated employee who consistently takes pride in delivering high-quality work. She demonstrates a strong work ethic, a commitment to excellence, and shows clear potential for continued growth within the organization. Her proactive attitude and attention to detail make her a valuable team member.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer4|Idea-to-Text|A2|Q05",
+  "criterion": "Sentiment match",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 6: A2_Q06_Motivationaltone -----
+You are Volunteer 4 in Group A.
+TASK TYPE: Idea-to-Text
+SAMPLE: A2
+CRITERION: Motivational tone
+
+INSTRUCTION:
+Rank from most to least empathetic and encouraging.
+
+ORIGINAL:
+Bethany Cunningham is driven, takes pride in good-quality work, and shows clear growth potential.
+
+CANDIDATES:
+[1] Bethany consistently demonstrates a strong drive to excel, evident in her commitment to producing high-quality work. Her meticulous approach and dedication to excellence are commendable. She also shows clear potential for growth, readily embracing new challenges and developing her skills. We're excited to support her continued development and see her take on more responsibilities.
+[2] Bethany Cunningham is a motivated and dedicated employee who consistently takes pride in delivering high-quality work. She demonstrates a strong work ethic, a commitment to excellence, and shows clear potential for continued growth within the organization. Her proactive attitude and attention to detail make her a valuable team member.
+[3] Bethany, your drive and the immense pride you take in producing high-quality work are outstanding. You consistently demonstrate clear potential for growth, and we are excited to support your continued development.
+[4] Bethany, you demonstrate strong drive and consistently take pride in delivering high-quality work. Your commitment to excellence is evident, and we see clear potential for continued growth. Keep leveraging your dedication; we value your contributions and look forward to your continued development.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer4|Idea-to-Text|A2|Q06",
+  "criterion": "Motivational tone",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 7: A2_Q07_Constructiveness -----
+You are Volunteer 4 in Group A.
+TASK TYPE: Idea-to-Text
+SAMPLE: A2
+CRITERION: Constructiveness
+
+INSTRUCTION:
+Rank from most to least helpful and constructive.
+
+ORIGINAL:
+Bethany Cunningham is driven, takes pride in good-quality work, and shows clear growth potential.
+
+CANDIDATES:
+[1] Bethany, you demonstrate strong drive and consistently take pride in delivering high-quality work. Your commitment to excellence is evident, and we see clear potential for continued growth. Keep leveraging your dedication; we value your contributions and look forward to your continued development.
+[2] Bethany Cunningham is a motivated and dedicated employee who consistently takes pride in delivering high-quality work. She demonstrates a strong work ethic, a commitment to excellence, and shows clear potential for continued growth within the organization. Her proactive attitude and attention to detail make her a valuable team member.
+[3] Bethany consistently demonstrates a strong drive to excel, evident in her commitment to producing high-quality work. Her meticulous approach and dedication to excellence are commendable. She also shows clear potential for growth, readily embracing new challenges and developing her skills. We're excited to support her continued development and see her take on more responsibilities.
+[4] Bethany, your drive and the immense pride you take in producing high-quality work are outstanding. You consistently demonstrate clear potential for growth, and we are excited to support your continued development.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer4|Idea-to-Text|A2|Q07",
+  "criterion": "Constructiveness",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 8: A2_Q08_Finalchoice -----
+You are Volunteer 4 in Group A.
+TASK TYPE: Idea-to-Text
+SAMPLE: A2
+CRITERION: Final choice
+
+INSTRUCTION:
+Rank from most to least suitable as a final version.
+
+ORIGINAL:
+Bethany Cunningham is driven, takes pride in good-quality work, and shows clear growth potential.
+
+CANDIDATES:
+[1] Bethany Cunningham is a motivated and dedicated employee who consistently takes pride in delivering high-quality work. She demonstrates a strong work ethic, a commitment to excellence, and shows clear potential for continued growth within the organization. Her proactive attitude and attention to detail make her a valuable team member.
+[2] Bethany, your drive and the immense pride you take in producing high-quality work are outstanding. You consistently demonstrate clear potential for growth, and we are excited to support your continued development.
+[3] Bethany consistently demonstrates a strong drive to excel, evident in her commitment to producing high-quality work. Her meticulous approach and dedication to excellence are commendable. She also shows clear potential for growth, readily embracing new challenges and developing her skills. We're excited to support her continued development and see her take on more responsibilities.
+[4] Bethany, you demonstrate strong drive and consistently take pride in delivering high-quality work. Your commitment to excellence is evident, and we see clear potential for continued growth. Keep leveraging your dedication; we value your contributions and look forward to your continued development.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer4|Idea-to-Text|A2|Q08",
+  "criterion": "Final choice",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 9: A3_Q01_Fluency -----
+You are Volunteer 4 in Group A.
+TASK TYPE: Idea-to-Text
+SAMPLE: A3
+CRITERION: Fluency
+
+INSTRUCTION:
+Rank from most to least smooth and error-free.
+
+ORIGINAL:
+Wade Stanley is repeatedly late, hostile, and under-performing—disciplinary action now likely.
+
+CANDIDATES:
+[1] Wade, your repeated tardiness, displays of hostility, and sustained under-performance are serious concerns. This behavior is unacceptable and negatively impacts the team. Immediate and sustained correction is required. Formal disciplinary action is now likely unless significant improvement is demonstrated without delay.
+[2] Wade's consistent tardiness significantly impacts team productivity and meeting schedules. His interactions have frequently been perceived as uncooperative, creating a challenging team dynamic. Furthermore, his work output consistently falls below expected standards. These ongoing issues necessitate immediate improvement, and disciplinary action is now being considered to address these serious concerns.
+[3] Wade, your repeated lateness, hostile behavior, and continued under-performance are unacceptable and violate our standards. This formal warning outlines that disciplinary action is now the immediate next step.
+[4] Wade Stanley has consistently demonstrated poor punctuality, unprofessional behavior, and subpar performance. Despite previous feedback, there has been no improvement. Disciplinary action is now likely to address these ongoing concerns and uphold team standards.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer4|Idea-to-Text|A3|Q01",
+  "criterion": "Fluency",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 10: A3_Q02_Coherence -----
+You are Volunteer 4 in Group A.
+TASK TYPE: Idea-to-Text
+SAMPLE: A3
+CRITERION: Coherence
+
+INSTRUCTION:
+Rank from most to least logical and easy to follow.
+
+ORIGINAL:
+Wade Stanley is repeatedly late, hostile, and under-performing—disciplinary action now likely.
+
+CANDIDATES:
+[1] Wade, your repeated tardiness, displays of hostility, and sustained under-performance are serious concerns. This behavior is unacceptable and negatively impacts the team. Immediate and sustained correction is required. Formal disciplinary action is now likely unless significant improvement is demonstrated without delay.
+[2] Wade Stanley has consistently demonstrated poor punctuality, unprofessional behavior, and subpar performance. Despite previous feedback, there has been no improvement. Disciplinary action is now likely to address these ongoing concerns and uphold team standards.
+[3] Wade's consistent tardiness significantly impacts team productivity and meeting schedules. His interactions have frequently been perceived as uncooperative, creating a challenging team dynamic. Furthermore, his work output consistently falls below expected standards. These ongoing issues necessitate immediate improvement, and disciplinary action is now being considered to address these serious concerns.
+[4] Wade, your repeated lateness, hostile behavior, and continued under-performance are unacceptable and violate our standards. This formal warning outlines that disciplinary action is now the immediate next step.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer4|Idea-to-Text|A3|Q02",
+  "criterion": "Coherence",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 11: A3_Q03_Conciseness -----
+You are Volunteer 4 in Group A.
+TASK TYPE: Idea-to-Text
+SAMPLE: A3
+CRITERION: Conciseness
+
+INSTRUCTION:
+Rank from most to least clear and compact.
+
+ORIGINAL:
+Wade Stanley is repeatedly late, hostile, and under-performing—disciplinary action now likely.
+
+CANDIDATES:
+[1] Wade Stanley has consistently demonstrated poor punctuality, unprofessional behavior, and subpar performance. Despite previous feedback, there has been no improvement. Disciplinary action is now likely to address these ongoing concerns and uphold team standards.
+[2] Wade, your repeated lateness, hostile behavior, and continued under-performance are unacceptable and violate our standards. This formal warning outlines that disciplinary action is now the immediate next step.
+[3] Wade, your repeated tardiness, displays of hostility, and sustained under-performance are serious concerns. This behavior is unacceptable and negatively impacts the team. Immediate and sustained correction is required. Formal disciplinary action is now likely unless significant improvement is demonstrated without delay.
+[4] Wade's consistent tardiness significantly impacts team productivity and meeting schedules. His interactions have frequently been perceived as uncooperative, creating a challenging team dynamic. Furthermore, his work output consistently falls below expected standards. These ongoing issues necessitate immediate improvement, and disciplinary action is now being considered to address these serious concerns.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer4|Idea-to-Text|A3|Q03",
+  "criterion": "Conciseness",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 12: A3_Q04_Accuracy -----
+You are Volunteer 4 in Group A.
+TASK TYPE: Idea-to-Text
+SAMPLE: A3
+CRITERION: Accuracy
+
+INSTRUCTION:
+Select all texts that are factually correct given the Original.
+
+ORIGINAL:
+Wade Stanley is repeatedly late, hostile, and under-performing—disciplinary action now likely.
+
+CANDIDATES:
+[1] Wade Stanley has consistently demonstrated poor punctuality, unprofessional behavior, and subpar performance. Despite previous feedback, there has been no improvement. Disciplinary action is now likely to address these ongoing concerns and uphold team standards.
+[2] Wade, your repeated tardiness, displays of hostility, and sustained under-performance are serious concerns. This behavior is unacceptable and negatively impacts the team. Immediate and sustained correction is required. Formal disciplinary action is now likely unless significant improvement is demonstrated without delay.
+[3] Wade's consistent tardiness significantly impacts team productivity and meeting schedules. His interactions have frequently been perceived as uncooperative, creating a challenging team dynamic. Furthermore, his work output consistently falls below expected standards. These ongoing issues necessitate immediate improvement, and disciplinary action is now being considered to address these serious concerns.
+[4] Wade, your repeated lateness, hostile behavior, and continued under-performance are unacceptable and violate our standards. This formal warning outlines that disciplinary action is now the immediate next step.
+
+Please select all outputs that are factually correct given the Original.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer4|Idea-to-Text|A3|Q04",
+  "criterion": "Accuracy",
+  "rating": [1, 3],
+  "justifications": {
+    "1": "why candidate 1 is correct/incorrect in one sentence",
+    "2": "why candidate 2 is correct/incorrect in one sentence",
+    "3": "why candidate 3 is correct/incorrect in one sentence",
+    "4": "why candidate 4 is correct/incorrect in one sentence"
+  }
+}
+
+
+----- PROMPT 13: A3_Q05_Sentimentmatch -----
+You are Volunteer 4 in Group A.
+TASK TYPE: Idea-to-Text
+SAMPLE: A3
+CRITERION: Sentiment match
+
+INSTRUCTION:
+Rank from most to least similar to the Original in style and sentiment.
+
+ORIGINAL:
+Wade Stanley is repeatedly late, hostile, and under-performing—disciplinary action now likely.
+
+CANDIDATES:
+[1] Wade Stanley has consistently demonstrated poor punctuality, unprofessional behavior, and subpar performance. Despite previous feedback, there has been no improvement. Disciplinary action is now likely to address these ongoing concerns and uphold team standards.
+[2] Wade's consistent tardiness significantly impacts team productivity and meeting schedules. His interactions have frequently been perceived as uncooperative, creating a challenging team dynamic. Furthermore, his work output consistently falls below expected standards. These ongoing issues necessitate immediate improvement, and disciplinary action is now being considered to address these serious concerns.
+[3] Wade, your repeated lateness, hostile behavior, and continued under-performance are unacceptable and violate our standards. This formal warning outlines that disciplinary action is now the immediate next step.
+[4] Wade, your repeated tardiness, displays of hostility, and sustained under-performance are serious concerns. This behavior is unacceptable and negatively impacts the team. Immediate and sustained correction is required. Formal disciplinary action is now likely unless significant improvement is demonstrated without delay.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer4|Idea-to-Text|A3|Q05",
+  "criterion": "Sentiment match",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 14: A3_Q06_Motivationaltone -----
+You are Volunteer 4 in Group A.
+TASK TYPE: Idea-to-Text
+SAMPLE: A3
+CRITERION: Motivational tone
+
+INSTRUCTION:
+Rank from most to least empathetic and encouraging.
+
+ORIGINAL:
+Wade Stanley is repeatedly late, hostile, and under-performing—disciplinary action now likely.
+
+CANDIDATES:
+[1] Wade, your repeated tardiness, displays of hostility, and sustained under-performance are serious concerns. This behavior is unacceptable and negatively impacts the team. Immediate and sustained correction is required. Formal disciplinary action is now likely unless significant improvement is demonstrated without delay.
+[2] Wade Stanley has consistently demonstrated poor punctuality, unprofessional behavior, and subpar performance. Despite previous feedback, there has been no improvement. Disciplinary action is now likely to address these ongoing concerns and uphold team standards.
+[3] Wade, your repeated lateness, hostile behavior, and continued under-performance are unacceptable and violate our standards. This formal warning outlines that disciplinary action is now the immediate next step.
+[4] Wade's consistent tardiness significantly impacts team productivity and meeting schedules. His interactions have frequently been perceived as uncooperative, creating a challenging team dynamic. Furthermore, his work output consistently falls below expected standards. These ongoing issues necessitate immediate improvement, and disciplinary action is now being considered to address these serious concerns.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer4|Idea-to-Text|A3|Q06",
+  "criterion": "Motivational tone",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 15: A3_Q07_Constructiveness -----
+You are Volunteer 4 in Group A.
+TASK TYPE: Idea-to-Text
+SAMPLE: A3
+CRITERION: Constructiveness
+
+INSTRUCTION:
+Rank from most to least helpful and constructive.
+
+ORIGINAL:
+Wade Stanley is repeatedly late, hostile, and under-performing—disciplinary action now likely.
+
+CANDIDATES:
+[1] Wade, your repeated tardiness, displays of hostility, and sustained under-performance are serious concerns. This behavior is unacceptable and negatively impacts the team. Immediate and sustained correction is required. Formal disciplinary action is now likely unless significant improvement is demonstrated without delay.
+[2] Wade Stanley has consistently demonstrated poor punctuality, unprofessional behavior, and subpar performance. Despite previous feedback, there has been no improvement. Disciplinary action is now likely to address these ongoing concerns and uphold team standards.
+[3] Wade's consistent tardiness significantly impacts team productivity and meeting schedules. His interactions have frequently been perceived as uncooperative, creating a challenging team dynamic. Furthermore, his work output consistently falls below expected standards. These ongoing issues necessitate immediate improvement, and disciplinary action is now being considered to address these serious concerns.
+[4] Wade, your repeated lateness, hostile behavior, and continued under-performance are unacceptable and violate our standards. This formal warning outlines that disciplinary action is now the immediate next step.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer4|Idea-to-Text|A3|Q07",
+  "criterion": "Constructiveness",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 16: A3_Q08_Finalchoice -----
+You are Volunteer 4 in Group A.
+TASK TYPE: Idea-to-Text
+SAMPLE: A3
+CRITERION: Final choice
+
+INSTRUCTION:
+Rank from most to least suitable as a final version.
+
+ORIGINAL:
+Wade Stanley is repeatedly late, hostile, and under-performing—disciplinary action now likely.
+
+CANDIDATES:
+[1] Wade, your repeated lateness, hostile behavior, and continued under-performance are unacceptable and violate our standards. This formal warning outlines that disciplinary action is now the immediate next step.
+[2] Wade, your repeated tardiness, displays of hostility, and sustained under-performance are serious concerns. This behavior is unacceptable and negatively impacts the team. Immediate and sustained correction is required. Formal disciplinary action is now likely unless significant improvement is demonstrated without delay.
+[3] Wade's consistent tardiness significantly impacts team productivity and meeting schedules. His interactions have frequently been perceived as uncooperative, creating a challenging team dynamic. Furthermore, his work output consistently falls below expected standards. These ongoing issues necessitate immediate improvement, and disciplinary action is now being considered to address these serious concerns.
+[4] Wade Stanley has consistently demonstrated poor punctuality, unprofessional behavior, and subpar performance. Despite previous feedback, there has been no improvement. Disciplinary action is now likely to address these ongoing concerns and uphold team standards.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer4|Idea-to-Text|A3|Q08",
+  "criterion": "Final choice",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT SC1: SanityCheck_IdeaToText_Accuracy -----
+TASK TYPE: Idea-to-Text
+SAMPLE: SC1
+CRITERION: Accuracy
+
+INSTRUCTION:
+Rank from most to least factually correct given the Original.
+
+ORIGINAL:
+The sun appears to rise each morning from the eastern horizon before setting in the west
+
+CANDIDATES:
+[1] The sun rises in the east.
+[2] The sun rises in the west.
+[3] The moon rises in the east.
+[4] The sun never rises.
+
+Please rank outputs strictly from most accurate (1) to least accurate (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "Idea-to-Text|SC1|Q04",
+  "criterion": "Accuracy",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 17: A8_Q01_Fluency -----
+You are Volunteer 4 in Group A.
+TASK TYPE: Summarise
+SAMPLE: A8
+CRITERION: Fluency
+
+INSTRUCTION:
+Rank from most to least smooth and error-free.
+
+ORIGINAL:
+Camille Hahn performance shows a lot of inconsistency. She didn't perform well on the given tasks and goals. There were times that she had a stellar performance. We believe that she has potential to do better in the future.
+
+CANDIDATES:
+[1] Camille's performance is very inconsistent. While she has moments of stellar work, she generally did not meet goals but has the potential to do better.
+[2] Camille Hahn's performance is inconsistent—she struggled with tasks and goals but showed occasional strong results. She has potential for improvement in the future.
+[3] Camille: Performance inconsistent. Didn't meet goals, but showed stellar moments. Potential to improve.
+[4] Camille Hahn's performance is inconsistent. While she occasionally excels, her overall task completion and goal attainment are poor. We believe she has potential for improvement.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer4|Summarise|A8|Q01",
+  "criterion": "Fluency",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 18: A8_Q02_Coherence -----
+You are Volunteer 4 in Group A.
+TASK TYPE: Summarise
+SAMPLE: A8
+CRITERION: Coherence
+
+INSTRUCTION:
+Rank from most to least logical and easy to follow.
+
+ORIGINAL:
+Camille Hahn performance shows a lot of inconsistency. She didn't perform well on the given tasks and goals. There were times that she had a stellar performance. We believe that she has potential to do better in the future.
+
+CANDIDATES:
+[1] Camille Hahn's performance is inconsistent—she struggled with tasks and goals but showed occasional strong results. She has potential for improvement in the future.
+[2] Camille's performance is very inconsistent. While she has moments of stellar work, she generally did not meet goals but has the potential to do better.
+[3] Camille: Performance inconsistent. Didn't meet goals, but showed stellar moments. Potential to improve.
+[4] Camille Hahn's performance is inconsistent. While she occasionally excels, her overall task completion and goal attainment are poor. We believe she has potential for improvement.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer4|Summarise|A8|Q02",
+  "criterion": "Coherence",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 19: A8_Q03_Conciseness -----
+You are Volunteer 4 in Group A.
+TASK TYPE: Summarise
+SAMPLE: A8
+CRITERION: Conciseness
+
+INSTRUCTION:
+Rank from most to least clear and compact.
+
+ORIGINAL:
+Camille Hahn performance shows a lot of inconsistency. She didn't perform well on the given tasks and goals. There were times that she had a stellar performance. We believe that she has potential to do better in the future.
+
+CANDIDATES:
+[1] Camille Hahn's performance is inconsistent—she struggled with tasks and goals but showed occasional strong results. She has potential for improvement in the future.
+[2] Camille's performance is very inconsistent. While she has moments of stellar work, she generally did not meet goals but has the potential to do better.
+[3] Camille Hahn's performance is inconsistent. While she occasionally excels, her overall task completion and goal attainment are poor. We believe she has potential for improvement.
+[4] Camille: Performance inconsistent. Didn't meet goals, but showed stellar moments. Potential to improve.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer4|Summarise|A8|Q03",
+  "criterion": "Conciseness",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 20: A8_Q04_Accuracy -----
+You are Volunteer 4 in Group A.
+TASK TYPE: Summarise
+SAMPLE: A8
+CRITERION: Accuracy
+
+INSTRUCTION:
+Select all texts that are factually correct given the Original.
+
+ORIGINAL:
+Camille Hahn performance shows a lot of inconsistency. She didn't perform well on the given tasks and goals. There were times that she had a stellar performance. We believe that she has potential to do better in the future.
+
+CANDIDATES:
+[1] Camille Hahn's performance is inconsistent—she struggled with tasks and goals but showed occasional strong results. She has potential for improvement in the future.
+[2] Camille: Performance inconsistent. Didn't meet goals, but showed stellar moments. Potential to improve.
+[3] Camille Hahn's performance is inconsistent. While she occasionally excels, her overall task completion and goal attainment are poor. We believe she has potential for improvement.
+[4] Camille's performance is very inconsistent. While she has moments of stellar work, she generally did not meet goals but has the potential to do better.
+
+Please select all outputs that are factually correct given the Original.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer4|Summarise|A8|Q04",
+  "criterion": "Accuracy",
+  "rating": [1, 3],
+  "justifications": {
+    "1": "why candidate 1 is correct/incorrect in one sentence",
+    "2": "why candidate 2 is correct/incorrect in one sentence",
+    "3": "why candidate 3 is correct/incorrect in one sentence",
+    "4": "why candidate 4 is correct/incorrect in one sentence"
+  }
+}
+
+
+----- PROMPT 21: A8_Q05_Sentimentmatch -----
+You are Volunteer 4 in Group A.
+TASK TYPE: Summarise
+SAMPLE: A8
+CRITERION: Sentiment match
+
+INSTRUCTION:
+Rank from most to least similar to the Original in style and sentiment.
+
+ORIGINAL:
+Camille Hahn performance shows a lot of inconsistency. She didn't perform well on the given tasks and goals. There were times that she had a stellar performance. We believe that she has potential to do better in the future.
+
+CANDIDATES:
+[1] Camille's performance is very inconsistent. While she has moments of stellar work, she generally did not meet goals but has the potential to do better.
+[2] Camille Hahn's performance is inconsistent. While she occasionally excels, her overall task completion and goal attainment are poor. We believe she has potential for improvement.
+[3] Camille: Performance inconsistent. Didn't meet goals, but showed stellar moments. Potential to improve.
+[4] Camille Hahn's performance is inconsistent—she struggled with tasks and goals but showed occasional strong results. She has potential for improvement in the future.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer4|Summarise|A8|Q05",
+  "criterion": "Sentiment match",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 22: A8_Q06_Motivationaltone -----
+You are Volunteer 4 in Group A.
+TASK TYPE: Summarise
+SAMPLE: A8
+CRITERION: Motivational tone
+
+INSTRUCTION:
+Rank from most to least empathetic and encouraging.
+
+ORIGINAL:
+Camille Hahn performance shows a lot of inconsistency. She didn't perform well on the given tasks and goals. There were times that she had a stellar performance. We believe that she has potential to do better in the future.
+
+CANDIDATES:
+[1] Camille: Performance inconsistent. Didn't meet goals, but showed stellar moments. Potential to improve.
+[2] Camille's performance is very inconsistent. While she has moments of stellar work, she generally did not meet goals but has the potential to do better.
+[3] Camille Hahn's performance is inconsistent—she struggled with tasks and goals but showed occasional strong results. She has potential for improvement in the future.
+[4] Camille Hahn's performance is inconsistent. While she occasionally excels, her overall task completion and goal attainment are poor. We believe she has potential for improvement.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer4|Summarise|A8|Q06",
+  "criterion": "Motivational tone",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 23: A8_Q07_Constructiveness -----
+You are Volunteer 4 in Group A.
+TASK TYPE: Summarise
+SAMPLE: A8
+CRITERION: Constructiveness
+
+INSTRUCTION:
+Rank from most to least helpful and constructive.
+
+ORIGINAL:
+Camille Hahn performance shows a lot of inconsistency. She didn't perform well on the given tasks and goals. There were times that she had a stellar performance. We believe that she has potential to do better in the future.
+
+CANDIDATES:
+[1] Camille Hahn's performance is inconsistent—she struggled with tasks and goals but showed occasional strong results. She has potential for improvement in the future.
+[2] Camille: Performance inconsistent. Didn't meet goals, but showed stellar moments. Potential to improve.
+[3] Camille Hahn's performance is inconsistent. While she occasionally excels, her overall task completion and goal attainment are poor. We believe she has potential for improvement.
+[4] Camille's performance is very inconsistent. While she has moments of stellar work, she generally did not meet goals but has the potential to do better.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer4|Summarise|A8|Q07",
+  "criterion": "Constructiveness",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 24: A8_Q08_Finalchoice -----
+You are Volunteer 4 in Group A.
+TASK TYPE: Summarise
+SAMPLE: A8
+CRITERION: Final choice
+
+INSTRUCTION:
+Rank from most to least suitable as a final version.
+
+ORIGINAL:
+Camille Hahn performance shows a lot of inconsistency. She didn't perform well on the given tasks and goals. There were times that she had a stellar performance. We believe that she has potential to do better in the future.
+
+CANDIDATES:
+[1] Camille Hahn's performance is inconsistent. While she occasionally excels, her overall task completion and goal attainment are poor. We believe she has potential for improvement.
+[2] Camille's performance is very inconsistent. While she has moments of stellar work, she generally did not meet goals but has the potential to do better.
+[3] Camille Hahn's performance is inconsistent—she struggled with tasks and goals but showed occasional strong results. She has potential for improvement in the future.
+[4] Camille: Performance inconsistent. Didn't meet goals, but showed stellar moments. Potential to improve.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer4|Summarise|A8|Q08",
+  "criterion": "Final choice",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 25: A11_Q01_Fluency -----
+You are Volunteer 4 in Group A.
+TASK TYPE: Summarise
+SAMPLE: A11
+CRITERION: Fluency
+
+INSTRUCTION:
+Rank from most to least smooth and error-free.
+
+ORIGINAL:
+Alina's work for this project was not as good as her previous work, however, it is still very much usable. Alina's work in the past has been remarkable- she pays close attention to detail, triple checks her work, and always makes sure her work is as clear and concise as it can be. I always look forward to working with Alina, because her work is, as I stated before, quite well put together.
+
+CANDIDATES:
+[1] Alina's recent work, while usable, wasn't her usual remarkable standard. She typically excels in detail, accuracy, and clarity. Her past work is consistently well-regarded.
+[2] While usable, Alina's recent work was not up to her usual remarkable standard. She is typically a detail-oriented and highly-valued collaborator.
+[3] Alina: Current project work usable but not as good as remarkable past work (detail-oriented, clear, concise). Always look forward to working with her.
+[4] Alina's current work, while not up to her usual exceptional standard, remains usable. Her past performance has been outstanding—detailed, thorough, and clear. She consistently delivers high-quality work, and collaborating with her is always a pleasure.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer4|Summarise|A11|Q01",
+  "criterion": "Fluency",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 26: A11_Q02_Coherence -----
+You are Volunteer 4 in Group A.
+TASK TYPE: Summarise
+SAMPLE: A11
+CRITERION: Coherence
+
+INSTRUCTION:
+Rank from most to least logical and easy to follow.
+
+ORIGINAL:
+Alina's work for this project was not as good as her previous work, however, it is still very much usable. Alina's work in the past has been remarkable- she pays close attention to detail, triple checks her work, and always makes sure her work is as clear and concise as it can be. I always look forward to working with Alina, because her work is, as I stated before, quite well put together.
+
+CANDIDATES:
+[1] Alina's current work, while not up to her usual exceptional standard, remains usable. Her past performance has been outstanding—detailed, thorough, and clear. She consistently delivers high-quality work, and collaborating with her is always a pleasure.
+[2] Alina: Current project work usable but not as good as remarkable past work (detail-oriented, clear, concise). Always look forward to working with her.
+[3] Alina's recent work, while usable, wasn't her usual remarkable standard. She typically excels in detail, accuracy, and clarity. Her past work is consistently well-regarded.
+[4] While usable, Alina's recent work was not up to her usual remarkable standard. She is typically a detail-oriented and highly-valued collaborator.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer4|Summarise|A11|Q02",
+  "criterion": "Coherence",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 27: A11_Q03_Conciseness -----
+You are Volunteer 4 in Group A.
+TASK TYPE: Summarise
+SAMPLE: A11
+CRITERION: Conciseness
+
+INSTRUCTION:
+Rank from most to least clear and compact.
+
+ORIGINAL:
+Alina's work for this project was not as good as her previous work, however, it is still very much usable. Alina's work in the past has been remarkable- she pays close attention to detail, triple checks her work, and always makes sure her work is as clear and concise as it can be. I always look forward to working with Alina, because her work is, as I stated before, quite well put together.
+
+CANDIDATES:
+[1] While usable, Alina's recent work was not up to her usual remarkable standard. She is typically a detail-oriented and highly-valued collaborator.
+[2] Alina: Current project work usable but not as good as remarkable past work (detail-oriented, clear, concise). Always look forward to working with her.
+[3] Alina's current work, while not up to her usual exceptional standard, remains usable. Her past performance has been outstanding—detailed, thorough, and clear. She consistently delivers high-quality work, and collaborating with her is always a pleasure.
+[4] Alina's recent work, while usable, wasn't her usual remarkable standard. She typically excels in detail, accuracy, and clarity. Her past work is consistently well-regarded.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer4|Summarise|A11|Q03",
+  "criterion": "Conciseness",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 28: A11_Q04_Accuracy -----
+You are Volunteer 4 in Group A.
+TASK TYPE: Summarise
+SAMPLE: A11
+CRITERION: Accuracy
+
+INSTRUCTION:
+Select all texts that are factually correct given the Original.
+
+ORIGINAL:
+Alina's work for this project was not as good as her previous work, however, it is still very much usable. Alina's work in the past has been remarkable- she pays close attention to detail, triple checks her work, and always makes sure her work is as clear and concise as it can be. I always look forward to working with Alina, because her work is, as I stated before, quite well put together.
+
+CANDIDATES:
+[1] While usable, Alina's recent work was not up to her usual remarkable standard. She is typically a detail-oriented and highly-valued collaborator.
+[2] Alina: Current project work usable but not as good as remarkable past work (detail-oriented, clear, concise). Always look forward to working with her.
+[3] Alina's recent work, while usable, wasn't her usual remarkable standard. She typically excels in detail, accuracy, and clarity. Her past work is consistently well-regarded.
+[4] Alina's current work, while not up to her usual exceptional standard, remains usable. Her past performance has been outstanding—detailed, thorough, and clear. She consistently delivers high-quality work, and collaborating with her is always a pleasure.
+
+Please select all outputs that are factually correct given the Original.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer4|Summarise|A11|Q04",
+  "criterion": "Accuracy",
+  "rating": [1, 3],
+  "justifications": {
+    "1": "why candidate 1 is correct/incorrect in one sentence",
+    "2": "why candidate 2 is correct/incorrect in one sentence",
+    "3": "why candidate 3 is correct/incorrect in one sentence",
+    "4": "why candidate 4 is correct/incorrect in one sentence"
+  }
+}
+
+
+----- PROMPT 29: A11_Q05_Sentimentmatch -----
+You are Volunteer 4 in Group A.
+TASK TYPE: Summarise
+SAMPLE: A11
+CRITERION: Sentiment match
+
+INSTRUCTION:
+Rank from most to least similar to the Original in style and sentiment.
+
+ORIGINAL:
+Alina's work for this project was not as good as her previous work, however, it is still very much usable. Alina's work in the past has been remarkable- she pays close attention to detail, triple checks her work, and always makes sure her work is as clear and concise as it can be. I always look forward to working with Alina, because her work is, as I stated before, quite well put together.
+
+CANDIDATES:
+[1] Alina's recent work, while usable, wasn't her usual remarkable standard. She typically excels in detail, accuracy, and clarity. Her past work is consistently well-regarded.
+[2] Alina: Current project work usable but not as good as remarkable past work (detail-oriented, clear, concise). Always look forward to working with her.
+[3] Alina's current work, while not up to her usual exceptional standard, remains usable. Her past performance has been outstanding—detailed, thorough, and clear. She consistently delivers high-quality work, and collaborating with her is always a pleasure.
+[4] While usable, Alina's recent work was not up to her usual remarkable standard. She is typically a detail-oriented and highly-valued collaborator.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer4|Summarise|A11|Q05",
+  "criterion": "Sentiment match",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 30: A11_Q06_Motivationaltone -----
+You are Volunteer 4 in Group A.
+TASK TYPE: Summarise
+SAMPLE: A11
+CRITERION: Motivational tone
+
+INSTRUCTION:
+Rank from most to least empathetic and encouraging.
+
+ORIGINAL:
+Alina's work for this project was not as good as her previous work, however, it is still very much usable. Alina's work in the past has been remarkable- she pays close attention to detail, triple checks her work, and always makes sure her work is as clear and concise as it can be. I always look forward to working with Alina, because her work is, as I stated before, quite well put together.
+
+CANDIDATES:
+[1] Alina: Current project work usable but not as good as remarkable past work (detail-oriented, clear, concise). Always look forward to working with her.
+[2] While usable, Alina's recent work was not up to her usual remarkable standard. She is typically a detail-oriented and highly-valued collaborator.
+[3] Alina's recent work, while usable, wasn't her usual remarkable standard. She typically excels in detail, accuracy, and clarity. Her past work is consistently well-regarded.
+[4] Alina's current work, while not up to her usual exceptional standard, remains usable. Her past performance has been outstanding—detailed, thorough, and clear. She consistently delivers high-quality work, and collaborating with her is always a pleasure.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer4|Summarise|A11|Q06",
+  "criterion": "Motivational tone",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 31: A11_Q07_Constructiveness -----
+You are Volunteer 4 in Group A.
+TASK TYPE: Summarise
+SAMPLE: A11
+CRITERION: Constructiveness
+
+INSTRUCTION:
+Rank from most to least helpful and constructive.
+
+ORIGINAL:
+Alina's work for this project was not as good as her previous work, however, it is still very much usable. Alina's work in the past has been remarkable- she pays close attention to detail, triple checks her work, and always makes sure her work is as clear and concise as it can be. I always look forward to working with Alina, because her work is, as I stated before, quite well put together.
+
+CANDIDATES:
+[1] Alina's current work, while not up to her usual exceptional standard, remains usable. Her past performance has been outstanding—detailed, thorough, and clear. She consistently delivers high-quality work, and collaborating with her is always a pleasure.
+[2] Alina: Current project work usable but not as good as remarkable past work (detail-oriented, clear, concise). Always look forward to working with her.
+[3] Alina's recent work, while usable, wasn't her usual remarkable standard. She typically excels in detail, accuracy, and clarity. Her past work is consistently well-regarded.
+[4] While usable, Alina's recent work was not up to her usual remarkable standard. She is typically a detail-oriented and highly-valued collaborator.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer4|Summarise|A11|Q07",
+  "criterion": "Constructiveness",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 32: A11_Q08_Finalchoice -----
+You are Volunteer 4 in Group A.
+TASK TYPE: Summarise
+SAMPLE: A11
+CRITERION: Final choice
+
+INSTRUCTION:
+Rank from most to least suitable as a final version.
+
+ORIGINAL:
+Alina's work for this project was not as good as her previous work, however, it is still very much usable. Alina's work in the past has been remarkable- she pays close attention to detail, triple checks her work, and always makes sure her work is as clear and concise as it can be. I always look forward to working with Alina, because her work is, as I stated before, quite well put together.
+
+CANDIDATES:
+[1] While usable, Alina's recent work was not up to her usual remarkable standard. She is typically a detail-oriented and highly-valued collaborator.
+[2] Alina's recent work, while usable, wasn't her usual remarkable standard. She typically excels in detail, accuracy, and clarity. Her past work is consistently well-regarded.
+[3] Alina: Current project work usable but not as good as remarkable past work (detail-oriented, clear, concise). Always look forward to working with her.
+[4] Alina's current work, while not up to her usual exceptional standard, remains usable. Her past performance has been outstanding—detailed, thorough, and clear. She consistently delivers high-quality work, and collaborating with her is always a pleasure.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer4|Summarise|A11|Q08",
+  "criterion": "Final choice",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT SC2: SanityCheck_Summarise_Accuracy -----
+TASK TYPE: Summarise
+SAMPLE: SC2
+CRITERION: Accuracy
+
+INSTRUCTION:
+Rank from most to least factually correct given the Original.
+
+ORIGINAL:
+Pure water begins to freeze at exactly zero degrees Celsius
+
+CANDIDATES:
+[1] Water freezes at at 0°C.
+[2] Water freezes at 100°C.
+[3] Water boils at 0°C.
+[4] Ice melts at 0°C.
+
+Please rank outputs strictly from most accurate (1) to least accurate (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "Summarise|SC2|Q04",
+  "criterion": "Accuracy",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 33: A13_Q01_Fluency -----
+You are Volunteer 4 in Group A.
+TASK TYPE: Interpret
+SAMPLE: A13
+CRITERION: Fluency
+
+INSTRUCTION:
+Rank from most to least smooth and error-free.
+
+ORIGINAL:
+Elliot is fairly effective at managing his workload. He has been a consistent team member. Though, he has not sought help to achieve better results. He needs initiative to become one of our rising stars.
+
+CANDIDATES:
+[1] Elliot consistently manages his workload and contributes reliably to the team, showing solid performance. However, to grow into a rising star, he needs to proactively seek support and opportunities for improvement. This feedback suggests potential for advancement if initiative is strengthened. Elliot should: (1) schedule regular check-ins with his manager to discuss goals, (2) ask for feedback proactively, (3) identify one process to improve and propose a solution, and (4) collaborate more with high-performing peers to learn new approaches.
+[2] The feedback means Elliot consistently delivers work but hasn't proactively sought help for improvement. This implies reliability is recognized, yet initiative is needed to advance. To grow, Elliot should: 1) Schedule monthly check-ins with his manager to discuss goals, 2) Identify one skill to develop next quarter and request resources, 3) Propose one small process improvement idea by month-end.
+[3] Elliot is a steady and reliable contributor whose work is effective. This feedback implies that to advance and be seen as a "rising star," he must demonstrate more proactivity. Elliot can grow by identifying a process improvement to propose and by asking his manager for more challenging assignments.
+[4] Elliot, your manager sees you as a consistent and effective team member who manages his workload well. However, they've noticed you haven't proactively sought help to improve your results, which is holding you back from being a "rising star." To address this, Elliot should: 1) Identify specific areas for improvement in his work. 2) Schedule a meeting with his manager to discuss these areas and ask for guidance or resources. 3) Proactively seek feedback from peers or mentors on how to enhance his contributions. 4) Take initiative on a new project or responsibility that aligns with his growth goals.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer4|Interpret|A13|Q01",
+  "criterion": "Fluency",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 34: A13_Q02_Coherence -----
+You are Volunteer 4 in Group A.
+TASK TYPE: Interpret
+SAMPLE: A13
+CRITERION: Coherence
+
+INSTRUCTION:
+Rank from most to least logical and easy to follow.
+
+ORIGINAL:
+Elliot is fairly effective at managing his workload. He has been a consistent team member. Though, he has not sought help to achieve better results. He needs initiative to become one of our rising stars.
+
+CANDIDATES:
+[1] The feedback means Elliot consistently delivers work but hasn't proactively sought help for improvement. This implies reliability is recognized, yet initiative is needed to advance. To grow, Elliot should: 1) Schedule monthly check-ins with his manager to discuss goals, 2) Identify one skill to develop next quarter and request resources, 3) Propose one small process improvement idea by month-end.
+[2] Elliot consistently manages his workload and contributes reliably to the team, showing solid performance. However, to grow into a rising star, he needs to proactively seek support and opportunities for improvement. This feedback suggests potential for advancement if initiative is strengthened. Elliot should: (1) schedule regular check-ins with his manager to discuss goals, (2) ask for feedback proactively, (3) identify one process to improve and propose a solution, and (4) collaborate more with high-performing peers to learn new approaches.
+[3] Elliot is a steady and reliable contributor whose work is effective. This feedback implies that to advance and be seen as a "rising star," he must demonstrate more proactivity. Elliot can grow by identifying a process improvement to propose and by asking his manager for more challenging assignments.
+[4] Elliot, your manager sees you as a consistent and effective team member who manages his workload well. However, they've noticed you haven't proactively sought help to improve your results, which is holding you back from being a "rising star." To address this, Elliot should: 1) Identify specific areas for improvement in his work. 2) Schedule a meeting with his manager to discuss these areas and ask for guidance or resources. 3) Proactively seek feedback from peers or mentors on how to enhance his contributions. 4) Take initiative on a new project or responsibility that aligns with his growth goals.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer4|Interpret|A13|Q02",
+  "criterion": "Coherence",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 35: A13_Q03_Conciseness -----
+You are Volunteer 4 in Group A.
+TASK TYPE: Interpret
+SAMPLE: A13
+CRITERION: Conciseness
+
+INSTRUCTION:
+Rank from most to least clear and compact.
+
+ORIGINAL:
+Elliot is fairly effective at managing his workload. He has been a consistent team member. Though, he has not sought help to achieve better results. He needs initiative to become one of our rising stars.
+
+CANDIDATES:
+[1] The feedback means Elliot consistently delivers work but hasn't proactively sought help for improvement. This implies reliability is recognized, yet initiative is needed to advance. To grow, Elliot should: 1) Schedule monthly check-ins with his manager to discuss goals, 2) Identify one skill to develop next quarter and request resources, 3) Propose one small process improvement idea by month-end.
+[2] Elliot, your manager sees you as a consistent and effective team member who manages his workload well. However, they've noticed you haven't proactively sought help to improve your results, which is holding you back from being a "rising star." To address this, Elliot should: 1) Identify specific areas for improvement in his work. 2) Schedule a meeting with his manager to discuss these areas and ask for guidance or resources. 3) Proactively seek feedback from peers or mentors on how to enhance his contributions. 4) Take initiative on a new project or responsibility that aligns with his growth goals.
+[3] Elliot is a steady and reliable contributor whose work is effective. This feedback implies that to advance and be seen as a "rising star," he must demonstrate more proactivity. Elliot can grow by identifying a process improvement to propose and by asking his manager for more challenging assignments.
+[4] Elliot consistently manages his workload and contributes reliably to the team, showing solid performance. However, to grow into a rising star, he needs to proactively seek support and opportunities for improvement. This feedback suggests potential for advancement if initiative is strengthened. Elliot should: (1) schedule regular check-ins with his manager to discuss goals, (2) ask for feedback proactively, (3) identify one process to improve and propose a solution, and (4) collaborate more with high-performing peers to learn new approaches.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer4|Interpret|A13|Q03",
+  "criterion": "Conciseness",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 36: A13_Q04_Accuracy -----
+You are Volunteer 4 in Group A.
+TASK TYPE: Interpret
+SAMPLE: A13
+CRITERION: Accuracy
+
+INSTRUCTION:
+Select all texts that are factually correct given the Original.
+
+ORIGINAL:
+Elliot is fairly effective at managing his workload. He has been a consistent team member. Though, he has not sought help to achieve better results. He needs initiative to become one of our rising stars.
+
+CANDIDATES:
+[1] The feedback means Elliot consistently delivers work but hasn't proactively sought help for improvement. This implies reliability is recognized, yet initiative is needed to advance. To grow, Elliot should: 1) Schedule monthly check-ins with his manager to discuss goals, 2) Identify one skill to develop next quarter and request resources, 3) Propose one small process improvement idea by month-end.
+[2] Elliot consistently manages his workload and contributes reliably to the team, showing solid performance. However, to grow into a rising star, he needs to proactively seek support and opportunities for improvement. This feedback suggests potential for advancement if initiative is strengthened. Elliot should: (1) schedule regular check-ins with his manager to discuss goals, (2) ask for feedback proactively, (3) identify one process to improve and propose a solution, and (4) collaborate more with high-performing peers to learn new approaches.
+[3] Elliot is a steady and reliable contributor whose work is effective. This feedback implies that to advance and be seen as a "rising star," he must demonstrate more proactivity. Elliot can grow by identifying a process improvement to propose and by asking his manager for more challenging assignments.
+[4] Elliot, your manager sees you as a consistent and effective team member who manages his workload well. However, they've noticed you haven't proactively sought help to improve your results, which is holding you back from being a "rising star." To address this, Elliot should: 1) Identify specific areas for improvement in his work. 2) Schedule a meeting with his manager to discuss these areas and ask for guidance or resources. 3) Proactively seek feedback from peers or mentors on how to enhance his contributions. 4) Take initiative on a new project or responsibility that aligns with his growth goals.
+
+Please select all outputs that are factually correct given the Original.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer4|Interpret|A13|Q04",
+  "criterion": "Accuracy",
+  "rating": [1, 3],
+  "justifications": {
+    "1": "why candidate 1 is correct/incorrect in one sentence",
+    "2": "why candidate 2 is correct/incorrect in one sentence",
+    "3": "why candidate 3 is correct/incorrect in one sentence",
+    "4": "why candidate 4 is correct/incorrect in one sentence"
+  }
+}
+
+
+----- PROMPT 37: A13_Q05_Sentimentmatch -----
+You are Volunteer 4 in Group A.
+TASK TYPE: Interpret
+SAMPLE: A13
+CRITERION: Sentiment match
+
+INSTRUCTION:
+Rank from most to least similar to the Original in style and sentiment.
+
+ORIGINAL:
+Elliot is fairly effective at managing his workload. He has been a consistent team member. Though, he has not sought help to achieve better results. He needs initiative to become one of our rising stars.
+
+CANDIDATES:
+[1] Elliot is a steady and reliable contributor whose work is effective. This feedback implies that to advance and be seen as a "rising star," he must demonstrate more proactivity. Elliot can grow by identifying a process improvement to propose and by asking his manager for more challenging assignments.
+[2] Elliot, your manager sees you as a consistent and effective team member who manages his workload well. However, they've noticed you haven't proactively sought help to improve your results, which is holding you back from being a "rising star." To address this, Elliot should: 1) Identify specific areas for improvement in his work. 2) Schedule a meeting with his manager to discuss these areas and ask for guidance or resources. 3) Proactively seek feedback from peers or mentors on how to enhance his contributions. 4) Take initiative on a new project or responsibility that aligns with his growth goals.
+[3] The feedback means Elliot consistently delivers work but hasn't proactively sought help for improvement. This implies reliability is recognized, yet initiative is needed to advance. To grow, Elliot should: 1) Schedule monthly check-ins with his manager to discuss goals, 2) Identify one skill to develop next quarter and request resources, 3) Propose one small process improvement idea by month-end.
+[4] Elliot consistently manages his workload and contributes reliably to the team, showing solid performance. However, to grow into a rising star, he needs to proactively seek support and opportunities for improvement. This feedback suggests potential for advancement if initiative is strengthened. Elliot should: (1) schedule regular check-ins with his manager to discuss goals, (2) ask for feedback proactively, (3) identify one process to improve and propose a solution, and (4) collaborate more with high-performing peers to learn new approaches.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer4|Interpret|A13|Q05",
+  "criterion": "Sentiment match",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 38: A13_Q06_Motivationaltone -----
+You are Volunteer 4 in Group A.
+TASK TYPE: Interpret
+SAMPLE: A13
+CRITERION: Motivational tone
+
+INSTRUCTION:
+Rank from most to least empathetic and encouraging.
+
+ORIGINAL:
+Elliot is fairly effective at managing his workload. He has been a consistent team member. Though, he has not sought help to achieve better results. He needs initiative to become one of our rising stars.
+
+CANDIDATES:
+[1] Elliot, your manager sees you as a consistent and effective team member who manages his workload well. However, they've noticed you haven't proactively sought help to improve your results, which is holding you back from being a "rising star." To address this, Elliot should: 1) Identify specific areas for improvement in his work. 2) Schedule a meeting with his manager to discuss these areas and ask for guidance or resources. 3) Proactively seek feedback from peers or mentors on how to enhance his contributions. 4) Take initiative on a new project or responsibility that aligns with his growth goals.
+[2] The feedback means Elliot consistently delivers work but hasn't proactively sought help for improvement. This implies reliability is recognized, yet initiative is needed to advance. To grow, Elliot should: 1) Schedule monthly check-ins with his manager to discuss goals, 2) Identify one skill to develop next quarter and request resources, 3) Propose one small process improvement idea by month-end.
+[3] Elliot consistently manages his workload and contributes reliably to the team, showing solid performance. However, to grow into a rising star, he needs to proactively seek support and opportunities for improvement. This feedback suggests potential for advancement if initiative is strengthened. Elliot should: (1) schedule regular check-ins with his manager to discuss goals, (2) ask for feedback proactively, (3) identify one process to improve and propose a solution, and (4) collaborate more with high-performing peers to learn new approaches.
+[4] Elliot is a steady and reliable contributor whose work is effective. This feedback implies that to advance and be seen as a "rising star," he must demonstrate more proactivity. Elliot can grow by identifying a process improvement to propose and by asking his manager for more challenging assignments.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer4|Interpret|A13|Q06",
+  "criterion": "Motivational tone",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 39: A13_Q07_Constructiveness -----
+You are Volunteer 4 in Group A.
+TASK TYPE: Interpret
+SAMPLE: A13
+CRITERION: Constructiveness
+
+INSTRUCTION:
+Rank from most to least helpful and constructive.
+
+ORIGINAL:
+Elliot is fairly effective at managing his workload. He has been a consistent team member. Though, he has not sought help to achieve better results. He needs initiative to become one of our rising stars.
+
+CANDIDATES:
+[1] Elliot is a steady and reliable contributor whose work is effective. This feedback implies that to advance and be seen as a "rising star," he must demonstrate more proactivity. Elliot can grow by identifying a process improvement to propose and by asking his manager for more challenging assignments.
+[2] The feedback means Elliot consistently delivers work but hasn't proactively sought help for improvement. This implies reliability is recognized, yet initiative is needed to advance. To grow, Elliot should: 1) Schedule monthly check-ins with his manager to discuss goals, 2) Identify one skill to develop next quarter and request resources, 3) Propose one small process improvement idea by month-end.
+[3] Elliot, your manager sees you as a consistent and effective team member who manages his workload well. However, they've noticed you haven't proactively sought help to improve your results, which is holding you back from being a "rising star." To address this, Elliot should: 1) Identify specific areas for improvement in his work. 2) Schedule a meeting with his manager to discuss these areas and ask for guidance or resources. 3) Proactively seek feedback from peers or mentors on how to enhance his contributions. 4) Take initiative on a new project or responsibility that aligns with his growth goals.
+[4] Elliot consistently manages his workload and contributes reliably to the team, showing solid performance. However, to grow into a rising star, he needs to proactively seek support and opportunities for improvement. This feedback suggests potential for advancement if initiative is strengthened. Elliot should: (1) schedule regular check-ins with his manager to discuss goals, (2) ask for feedback proactively, (3) identify one process to improve and propose a solution, and (4) collaborate more with high-performing peers to learn new approaches.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer4|Interpret|A13|Q07",
+  "criterion": "Constructiveness",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 40: A13_Q08_Finalchoice -----
+You are Volunteer 4 in Group A.
+TASK TYPE: Interpret
+SAMPLE: A13
+CRITERION: Final choice
+
+INSTRUCTION:
+Rank from most to least suitable as a final version.
+
+ORIGINAL:
+Elliot is fairly effective at managing his workload. He has been a consistent team member. Though, he has not sought help to achieve better results. He needs initiative to become one of our rising stars.
+
+CANDIDATES:
+[1] Elliot is a steady and reliable contributor whose work is effective. This feedback implies that to advance and be seen as a "rising star," he must demonstrate more proactivity. Elliot can grow by identifying a process improvement to propose and by asking his manager for more challenging assignments.
+[2] Elliot, your manager sees you as a consistent and effective team member who manages his workload well. However, they've noticed you haven't proactively sought help to improve your results, which is holding you back from being a "rising star." To address this, Elliot should: 1) Identify specific areas for improvement in his work. 2) Schedule a meeting with his manager to discuss these areas and ask for guidance or resources. 3) Proactively seek feedback from peers or mentors on how to enhance his contributions. 4) Take initiative on a new project or responsibility that aligns with his growth goals.
+[3] Elliot consistently manages his workload and contributes reliably to the team, showing solid performance. However, to grow into a rising star, he needs to proactively seek support and opportunities for improvement. This feedback suggests potential for advancement if initiative is strengthened. Elliot should: (1) schedule regular check-ins with his manager to discuss goals, (2) ask for feedback proactively, (3) identify one process to improve and propose a solution, and (4) collaborate more with high-performing peers to learn new approaches.
+[4] The feedback means Elliot consistently delivers work but hasn't proactively sought help for improvement. This implies reliability is recognized, yet initiative is needed to advance. To grow, Elliot should: 1) Schedule monthly check-ins with his manager to discuss goals, 2) Identify one skill to develop next quarter and request resources, 3) Propose one small process improvement idea by month-end.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer4|Interpret|A13|Q08",
+  "criterion": "Final choice",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 41: A16_Q01_Fluency -----
+You are Volunteer 4 in Group A.
+TASK TYPE: Interpret
+SAMPLE: A16
+CRITERION: Fluency
+
+INSTRUCTION:
+Rank from most to least smooth and error-free.
+
+ORIGINAL:
+Noah is a really key member to have on our team and I am grateful for all the ways in which he steps up to deliver high quality work for our clients. For example, he's always the first to volunteer for assignments. He's always the last one to leave the office, since he's so committed to reviewing reports and double checking his work in a painstaking way. I can certainly see Noah's dedication as an asset in a manager role in the future. However, I don't see him reaching the director level since he is somewhat abrasive in his communication skills.
+
+CANDIDATES:
+[1] Noah is a dedicated, key team member with management potential, but his abrasive communication style is a significant barrier to director-level roles. To improve, Noah can request specific feedback on his communication style and practice active listening in discussions to be more receptive.
+[2] Noah's manager values his dedication, high-quality work, and willingness to take on assignments, seeing him as a strong candidate for a manager role. However, his "abrasive" communication style is noted as a barrier to reaching a director level. To address this, Noah should seek feedback on specific instances of abrasive communication, practice active listening and empathetic responses, and consider communication workshops or coaching to refine his interpersonal skills.
+[3] The feedback means Noah’s diligence and client focus make him management material, but abrasive communication may limit director prospects. This signals strength in execution over strategic influence. Noah should: 1) Take an active listening workshop by Q3, 2) Request quarterly feedback on communication tone, 3) Practice rephrating critical feedback neutrally before sharing.
+[4] Noah’s dedication, initiative, and meticulous work quality make him a valuable team member and a strong candidate for a future managerial role. His commitment to excellence is evident in how he consistently volunteers for assignments and ensures accuracy through thorough review. However, advancement to the director level may be limited by his abrasive communication style, which could hinder collaboration and leadership effectiveness. To grow into higher-level leadership, Noah should focus on refining his interpersonal skills. Recommended actions include: 1) seeking feedback on communication from peers and supervisors, 2) attending a workshop on emotional intelligence or constructive communication, 3) practicing active listening in team settings, and 4) working with a mentor to develop a more inclusive and empathetic leadership style.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer4|Interpret|A16|Q01",
+  "criterion": "Fluency",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 42: A16_Q02_Coherence -----
+You are Volunteer 4 in Group A.
+TASK TYPE: Interpret
+SAMPLE: A16
+CRITERION: Coherence
+
+INSTRUCTION:
+Rank from most to least logical and easy to follow.
+
+ORIGINAL:
+Noah is a really key member to have on our team and I am grateful for all the ways in which he steps up to deliver high quality work for our clients. For example, he's always the first to volunteer for assignments. He's always the last one to leave the office, since he's so committed to reviewing reports and double checking his work in a painstaking way. I can certainly see Noah's dedication as an asset in a manager role in the future. However, I don't see him reaching the director level since he is somewhat abrasive in his communication skills.
+
+CANDIDATES:
+[1] Noah’s dedication, initiative, and meticulous work quality make him a valuable team member and a strong candidate for a future managerial role. His commitment to excellence is evident in how he consistently volunteers for assignments and ensures accuracy through thorough review. However, advancement to the director level may be limited by his abrasive communication style, which could hinder collaboration and leadership effectiveness. To grow into higher-level leadership, Noah should focus on refining his interpersonal skills. Recommended actions include: 1) seeking feedback on communication from peers and supervisors, 2) attending a workshop on emotional intelligence or constructive communication, 3) practicing active listening in team settings, and 4) working with a mentor to develop a more inclusive and empathetic leadership style.
+[2] Noah's manager values his dedication, high-quality work, and willingness to take on assignments, seeing him as a strong candidate for a manager role. However, his "abrasive" communication style is noted as a barrier to reaching a director level. To address this, Noah should seek feedback on specific instances of abrasive communication, practice active listening and empathetic responses, and consider communication workshops or coaching to refine his interpersonal skills.
+[3] Noah is a dedicated, key team member with management potential, but his abrasive communication style is a significant barrier to director-level roles. To improve, Noah can request specific feedback on his communication style and practice active listening in discussions to be more receptive.
+[4] The feedback means Noah’s diligence and client focus make him management material, but abrasive communication may limit director prospects. This signals strength in execution over strategic influence. Noah should: 1) Take an active listening workshop by Q3, 2) Request quarterly feedback on communication tone, 3) Practice rephrating critical feedback neutrally before sharing.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer4|Interpret|A16|Q02",
+  "criterion": "Coherence",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 43: A16_Q03_Conciseness -----
+You are Volunteer 4 in Group A.
+TASK TYPE: Interpret
+SAMPLE: A16
+CRITERION: Conciseness
+
+INSTRUCTION:
+Rank from most to least clear and compact.
+
+ORIGINAL:
+Noah is a really key member to have on our team and I am grateful for all the ways in which he steps up to deliver high quality work for our clients. For example, he's always the first to volunteer for assignments. He's always the last one to leave the office, since he's so committed to reviewing reports and double checking his work in a painstaking way. I can certainly see Noah's dedication as an asset in a manager role in the future. However, I don't see him reaching the director level since he is somewhat abrasive in his communication skills.
+
+CANDIDATES:
+[1] Noah’s dedication, initiative, and meticulous work quality make him a valuable team member and a strong candidate for a future managerial role. His commitment to excellence is evident in how he consistently volunteers for assignments and ensures accuracy through thorough review. However, advancement to the director level may be limited by his abrasive communication style, which could hinder collaboration and leadership effectiveness. To grow into higher-level leadership, Noah should focus on refining his interpersonal skills. Recommended actions include: 1) seeking feedback on communication from peers and supervisors, 2) attending a workshop on emotional intelligence or constructive communication, 3) practicing active listening in team settings, and 4) working with a mentor to develop a more inclusive and empathetic leadership style.
+[2] Noah's manager values his dedication, high-quality work, and willingness to take on assignments, seeing him as a strong candidate for a manager role. However, his "abrasive" communication style is noted as a barrier to reaching a director level. To address this, Noah should seek feedback on specific instances of abrasive communication, practice active listening and empathetic responses, and consider communication workshops or coaching to refine his interpersonal skills.
+[3] Noah is a dedicated, key team member with management potential, but his abrasive communication style is a significant barrier to director-level roles. To improve, Noah can request specific feedback on his communication style and practice active listening in discussions to be more receptive.
+[4] The feedback means Noah’s diligence and client focus make him management material, but abrasive communication may limit director prospects. This signals strength in execution over strategic influence. Noah should: 1) Take an active listening workshop by Q3, 2) Request quarterly feedback on communication tone, 3) Practice rephrating critical feedback neutrally before sharing.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer4|Interpret|A16|Q03",
+  "criterion": "Conciseness",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 44: A16_Q04_Accuracy -----
+You are Volunteer 4 in Group A.
+TASK TYPE: Interpret
+SAMPLE: A16
+CRITERION: Accuracy
+
+INSTRUCTION:
+Select all texts that are factually correct given the Original.
+
+ORIGINAL:
+Noah is a really key member to have on our team and I am grateful for all the ways in which he steps up to deliver high quality work for our clients. For example, he's always the first to volunteer for assignments. He's always the last one to leave the office, since he's so committed to reviewing reports and double checking his work in a painstaking way. I can certainly see Noah's dedication as an asset in a manager role in the future. However, I don't see him reaching the director level since he is somewhat abrasive in his communication skills.
+
+CANDIDATES:
+[1] Noah's manager values his dedication, high-quality work, and willingness to take on assignments, seeing him as a strong candidate for a manager role. However, his "abrasive" communication style is noted as a barrier to reaching a director level. To address this, Noah should seek feedback on specific instances of abrasive communication, practice active listening and empathetic responses, and consider communication workshops or coaching to refine his interpersonal skills.
+[2] Noah’s dedication, initiative, and meticulous work quality make him a valuable team member and a strong candidate for a future managerial role. His commitment to excellence is evident in how he consistently volunteers for assignments and ensures accuracy through thorough review. However, advancement to the director level may be limited by his abrasive communication style, which could hinder collaboration and leadership effectiveness. To grow into higher-level leadership, Noah should focus on refining his interpersonal skills. Recommended actions include: 1) seeking feedback on communication from peers and supervisors, 2) attending a workshop on emotional intelligence or constructive communication, 3) practicing active listening in team settings, and 4) working with a mentor to develop a more inclusive and empathetic leadership style.
+[3] Noah is a dedicated, key team member with management potential, but his abrasive communication style is a significant barrier to director-level roles. To improve, Noah can request specific feedback on his communication style and practice active listening in discussions to be more receptive.
+[4] The feedback means Noah’s diligence and client focus make him management material, but abrasive communication may limit director prospects. This signals strength in execution over strategic influence. Noah should: 1) Take an active listening workshop by Q3, 2) Request quarterly feedback on communication tone, 3) Practice rephrating critical feedback neutrally before sharing.
+
+Please select all outputs that are factually correct given the Original.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer4|Interpret|A16|Q04",
+  "criterion": "Accuracy",
+  "rating": [1, 3],
+  "justifications": {
+    "1": "why candidate 1 is correct/incorrect in one sentence",
+    "2": "why candidate 2 is correct/incorrect in one sentence",
+    "3": "why candidate 3 is correct/incorrect in one sentence",
+    "4": "why candidate 4 is correct/incorrect in one sentence"
+  }
+}
+
+
+----- PROMPT 45: A16_Q05_Sentimentmatch -----
+You are Volunteer 4 in Group A.
+TASK TYPE: Interpret
+SAMPLE: A16
+CRITERION: Sentiment match
+
+INSTRUCTION:
+Rank from most to least similar to the Original in style and sentiment.
+
+ORIGINAL:
+Noah is a really key member to have on our team and I am grateful for all the ways in which he steps up to deliver high quality work for our clients. For example, he's always the first to volunteer for assignments. He's always the last one to leave the office, since he's so committed to reviewing reports and double checking his work in a painstaking way. I can certainly see Noah's dedication as an asset in a manager role in the future. However, I don't see him reaching the director level since he is somewhat abrasive in his communication skills.
+
+CANDIDATES:
+[1] Noah is a dedicated, key team member with management potential, but his abrasive communication style is a significant barrier to director-level roles. To improve, Noah can request specific feedback on his communication style and practice active listening in discussions to be more receptive.
+[2] Noah's manager values his dedication, high-quality work, and willingness to take on assignments, seeing him as a strong candidate for a manager role. However, his "abrasive" communication style is noted as a barrier to reaching a director level. To address this, Noah should seek feedback on specific instances of abrasive communication, practice active listening and empathetic responses, and consider communication workshops or coaching to refine his interpersonal skills.
+[3] Noah’s dedication, initiative, and meticulous work quality make him a valuable team member and a strong candidate for a future managerial role. His commitment to excellence is evident in how he consistently volunteers for assignments and ensures accuracy through thorough review. However, advancement to the director level may be limited by his abrasive communication style, which could hinder collaboration and leadership effectiveness. To grow into higher-level leadership, Noah should focus on refining his interpersonal skills. Recommended actions include: 1) seeking feedback on communication from peers and supervisors, 2) attending a workshop on emotional intelligence or constructive communication, 3) practicing active listening in team settings, and 4) working with a mentor to develop a more inclusive and empathetic leadership style.
+[4] The feedback means Noah’s diligence and client focus make him management material, but abrasive communication may limit director prospects. This signals strength in execution over strategic influence. Noah should: 1) Take an active listening workshop by Q3, 2) Request quarterly feedback on communication tone, 3) Practice rephrating critical feedback neutrally before sharing.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer4|Interpret|A16|Q05",
+  "criterion": "Sentiment match",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 46: A16_Q06_Motivationaltone -----
+You are Volunteer 4 in Group A.
+TASK TYPE: Interpret
+SAMPLE: A16
+CRITERION: Motivational tone
+
+INSTRUCTION:
+Rank from most to least empathetic and encouraging.
+
+ORIGINAL:
+Noah is a really key member to have on our team and I am grateful for all the ways in which he steps up to deliver high quality work for our clients. For example, he's always the first to volunteer for assignments. He's always the last one to leave the office, since he's so committed to reviewing reports and double checking his work in a painstaking way. I can certainly see Noah's dedication as an asset in a manager role in the future. However, I don't see him reaching the director level since he is somewhat abrasive in his communication skills.
+
+CANDIDATES:
+[1] Noah's manager values his dedication, high-quality work, and willingness to take on assignments, seeing him as a strong candidate for a manager role. However, his "abrasive" communication style is noted as a barrier to reaching a director level. To address this, Noah should seek feedback on specific instances of abrasive communication, practice active listening and empathetic responses, and consider communication workshops or coaching to refine his interpersonal skills.
+[2] The feedback means Noah’s diligence and client focus make him management material, but abrasive communication may limit director prospects. This signals strength in execution over strategic influence. Noah should: 1) Take an active listening workshop by Q3, 2) Request quarterly feedback on communication tone, 3) Practice rephrating critical feedback neutrally before sharing.
+[3] Noah’s dedication, initiative, and meticulous work quality make him a valuable team member and a strong candidate for a future managerial role. His commitment to excellence is evident in how he consistently volunteers for assignments and ensures accuracy through thorough review. However, advancement to the director level may be limited by his abrasive communication style, which could hinder collaboration and leadership effectiveness. To grow into higher-level leadership, Noah should focus on refining his interpersonal skills. Recommended actions include: 1) seeking feedback on communication from peers and supervisors, 2) attending a workshop on emotional intelligence or constructive communication, 3) practicing active listening in team settings, and 4) working with a mentor to develop a more inclusive and empathetic leadership style.
+[4] Noah is a dedicated, key team member with management potential, but his abrasive communication style is a significant barrier to director-level roles. To improve, Noah can request specific feedback on his communication style and practice active listening in discussions to be more receptive.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer4|Interpret|A16|Q06",
+  "criterion": "Motivational tone",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 47: A16_Q07_Constructiveness -----
+You are Volunteer 4 in Group A.
+TASK TYPE: Interpret
+SAMPLE: A16
+CRITERION: Constructiveness
+
+INSTRUCTION:
+Rank from most to least helpful and constructive.
+
+ORIGINAL:
+Noah is a really key member to have on our team and I am grateful for all the ways in which he steps up to deliver high quality work for our clients. For example, he's always the first to volunteer for assignments. He's always the last one to leave the office, since he's so committed to reviewing reports and double checking his work in a painstaking way. I can certainly see Noah's dedication as an asset in a manager role in the future. However, I don't see him reaching the director level since he is somewhat abrasive in his communication skills.
+
+CANDIDATES:
+[1] Noah is a dedicated, key team member with management potential, but his abrasive communication style is a significant barrier to director-level roles. To improve, Noah can request specific feedback on his communication style and practice active listening in discussions to be more receptive.
+[2] The feedback means Noah’s diligence and client focus make him management material, but abrasive communication may limit director prospects. This signals strength in execution over strategic influence. Noah should: 1) Take an active listening workshop by Q3, 2) Request quarterly feedback on communication tone, 3) Practice rephrating critical feedback neutrally before sharing.
+[3] Noah’s dedication, initiative, and meticulous work quality make him a valuable team member and a strong candidate for a future managerial role. His commitment to excellence is evident in how he consistently volunteers for assignments and ensures accuracy through thorough review. However, advancement to the director level may be limited by his abrasive communication style, which could hinder collaboration and leadership effectiveness. To grow into higher-level leadership, Noah should focus on refining his interpersonal skills. Recommended actions include: 1) seeking feedback on communication from peers and supervisors, 2) attending a workshop on emotional intelligence or constructive communication, 3) practicing active listening in team settings, and 4) working with a mentor to develop a more inclusive and empathetic leadership style.
+[4] Noah's manager values his dedication, high-quality work, and willingness to take on assignments, seeing him as a strong candidate for a manager role. However, his "abrasive" communication style is noted as a barrier to reaching a director level. To address this, Noah should seek feedback on specific instances of abrasive communication, practice active listening and empathetic responses, and consider communication workshops or coaching to refine his interpersonal skills.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer4|Interpret|A16|Q07",
+  "criterion": "Constructiveness",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
+----- PROMPT 48: A16_Q08_Finalchoice -----
+You are Volunteer 4 in Group A.
+TASK TYPE: Interpret
+SAMPLE: A16
+CRITERION: Final choice
+
+INSTRUCTION:
+Rank from most to least suitable as a final version.
+
+ORIGINAL:
+Noah is a really key member to have on our team and I am grateful for all the ways in which he steps up to deliver high quality work for our clients. For example, he's always the first to volunteer for assignments. He's always the last one to leave the office, since he's so committed to reviewing reports and double checking his work in a painstaking way. I can certainly see Noah's dedication as an asset in a manager role in the future. However, I don't see him reaching the director level since he is somewhat abrasive in his communication skills.
+
+CANDIDATES:
+[1] Noah’s dedication, initiative, and meticulous work quality make him a valuable team member and a strong candidate for a future managerial role. His commitment to excellence is evident in how he consistently volunteers for assignments and ensures accuracy through thorough review. However, advancement to the director level may be limited by his abrasive communication style, which could hinder collaboration and leadership effectiveness. To grow into higher-level leadership, Noah should focus on refining his interpersonal skills. Recommended actions include: 1) seeking feedback on communication from peers and supervisors, 2) attending a workshop on emotional intelligence or constructive communication, 3) practicing active listening in team settings, and 4) working with a mentor to develop a more inclusive and empathetic leadership style.
+[2] Noah is a dedicated, key team member with management potential, but his abrasive communication style is a significant barrier to director-level roles. To improve, Noah can request specific feedback on his communication style and practice active listening in discussions to be more receptive.
+[3] Noah's manager values his dedication, high-quality work, and willingness to take on assignments, seeing him as a strong candidate for a manager role. However, his "abrasive" communication style is noted as a barrier to reaching a director level. To address this, Noah should seek feedback on specific instances of abrasive communication, practice active listening and empathetic responses, and consider communication workshops or coaching to refine his interpersonal skills.
+[4] The feedback means Noah’s diligence and client focus make him management material, but abrasive communication may limit director prospects. This signals strength in execution over strategic influence. Noah should: 1) Take an active listening workshop by Q3, 2) Request quarterly feedback on communication tone, 3) Practice rephrating critical feedback neutrally before sharing.
+
+Please rank outputs strictly from best (1) to worst (4). No ties.
+Return JSON only.
+
+{
+  "form_id": "A-Volunteer4|Interpret|A16|Q08",
+  "criterion": "Final choice",
+  "rating": [1, 2, 3, 4],
+  "justifications": {
+    "1": "one sentence justification for candidate 1",
+    "2": "one sentence justification for candidate 2",
+    "3": "one sentence justification for candidate 3",
+    "4": "one sentence justification for candidate 4"
+  }
+}
+
+
