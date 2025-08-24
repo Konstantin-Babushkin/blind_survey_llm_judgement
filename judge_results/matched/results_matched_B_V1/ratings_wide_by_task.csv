@@ -1,0 +1,49 @@
+task_id,question_id,task_type,criterion,DeepSeek,Flash,Gemini,Qwen,evaluator
+B12,Q01,Summarise,Fluency,4,2,3,1,B_V1
+B12,Q02,Summarise,Coherence,4,3,2,1,B_V1
+B12,Q03,Summarise,Conciseness,1,3,2,4,B_V1
+B12,Q04,Summarise,Accuracy,2,3,1,4,B_V1
+B12,Q05,Summarise,Sentiment match,4,1,3,2,B_V1
+B12,Q06,Summarise,Motivational tone,4,2,3,1,B_V1
+B12,Q07,Summarise,Constructiveness,4,3,2,1,B_V1
+B12,Q08,Summarise,Final choice,4,2,3,1,B_V1
+B14,Q01,Interpret,Fluency,3,4,2,1,B_V1
+B14,Q02,Interpret,Coherence,4,2,3,1,B_V1
+B14,Q03,Interpret,Conciseness,1,4,2,3,B_V1
+B14,Q04,Interpret,Accuracy,1,4,3,2,B_V1
+B14,Q05,Interpret,Sentiment match,4,3,2,1,B_V1
+B14,Q06,Interpret,Motivational tone,4,2,3,1,B_V1
+B14,Q07,Interpret,Constructiveness,1,3,4,2,B_V1
+B14,Q08,Interpret,Final choice,4,2,3,1,B_V1
+B18,Q01,Interpret,Fluency,4,1,3,2,B_V1
+B18,Q02,Interpret,Coherence,3,2,4,1,B_V1
+B18,Q03,Interpret,Conciseness,2,4,1,3,B_V1
+B18,Q04,Interpret,Accuracy,4,1,3,2,B_V1
+B18,Q05,Interpret,Sentiment match,4,2,3,1,B_V1
+B18,Q06,Interpret,Motivational tone,3,2,4,1,B_V1
+B18,Q07,Interpret,Constructiveness,2,3,4,1,B_V1
+B18,Q08,Interpret,Final choice,3,4,2,1,B_V1
+B2,Q01,Idea-to-Text,Fluency,3,2,4,1,B_V1
+B2,Q02,Idea-to-Text,Coherence,1,3,2,4,B_V1
+B2,Q03,Idea-to-Text,Conciseness,3,2,1,4,B_V1
+B2,Q04,Idea-to-Text,Accuracy,4,2,3,1,B_V1
+B2,Q05,Idea-to-Text,Sentiment match,1,2,4,3,B_V1
+B2,Q06,Idea-to-Text,Motivational tone,2,3,1,4,B_V1
+B2,Q07,Idea-to-Text,Constructiveness,1,3,2,4,B_V1
+B2,Q08,Idea-to-Text,Final choice,2,3,4,1,B_V1
+B3,Q01,Idea-to-Text,Fluency,1,2,4,3,B_V1
+B3,Q02,Idea-to-Text,Coherence,3,2,4,1,B_V1
+B3,Q03,Idea-to-Text,Conciseness,4,1,3,2,B_V1
+B3,Q04,Idea-to-Text,Accuracy,2,3,4,1,B_V1
+B3,Q05,Idea-to-Text,Sentiment match,3,2,4,1,B_V1
+B3,Q06,Idea-to-Text,Motivational tone,1,2,4,3,B_V1
+B3,Q07,Idea-to-Text,Constructiveness,3,2,4,1,B_V1
+B3,Q08,Idea-to-Text,Final choice,3,1,4,2,B_V1
+B7,Q01,Summarise,Fluency,4,3,2,1,B_V1
+B7,Q02,Summarise,Coherence,4,2,3,1,B_V1
+B7,Q03,Summarise,Conciseness,3,1,4,2,B_V1
+B7,Q04,Summarise,Accuracy,2,3,4,1,B_V1
+B7,Q05,Summarise,Sentiment match,4,3,2,1,B_V1
+B7,Q06,Summarise,Motivational tone,4,2,3,1,B_V1
+B7,Q07,Summarise,Constructiveness,3,2,4,1,B_V1
+B7,Q08,Summarise,Final choice,4,3,2,1,B_V1
