@@ -4,12 +4,13 @@
 
 for prefix in A B C; do
   for ver in V1 V2 V3 V4 V5; do
-    RESULTS="judge_results/results_${prefix}_${ver}.json"
+    RESULTS="judge_results_flash/results_${prefix}_${ver}.json"
     MATCHER="judge_prompts/matcher/matcher_${prefix}_${ver}.csv"
+    OUTDIR="judge_results_flash/matched"
 
     if [ -f "$RESULTS" ] && [ -f "$MATCHER" ]; then
       echo "=== Processing $RESULTS with $MATCHER ==="
-      python extract_model_ratings.py --results "$RESULTS" --matcher "$MATCHER"
+      python extract_model_ratings.py --results "$RESULTS" --matcher "$MATCHER" --outdir "$OUTDIR"
     else
       echo "!!! Skipping ${prefix}_${ver} (missing file)"
     fi
