@@ -26,7 +26,7 @@ python merge_normalized_scores.py --indir judge_results/matched --outdir judge_r
 
 - merge sanity check results = [merge_csv_files.py](merge_csv_files.py)
 ```bash
-./merge_csv_files.py --indir judge_results/matched/sanity_checks --outfile judge_results/matched/sanity_checks
+./merge_csv_files.py --indir judge_results/matched/sanity_checks --outfile judge_results/matched/sanity_checks/all.csv
 ```
 
 regex for blanks replacement

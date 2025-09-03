@@ -2,10 +2,10 @@
 # run_all.sh
 # Loop through sets of prompt/result files and run send_prompts_openrouter.py
 
-MODEL="deepseek/deepseek-r1-0528"
+MODEL=
 MAX_TOKENS=50840
 
-for prefix in C; do
+for prefix in A B C; do
   for ver in V1 V2 V3 V4 V5; do
     PROMPT_FILE="judge_prompts/prompts_${prefix}_${ver}.txt"
     RESULT_FILE="judge_results/results_${prefix}_${ver}.json"
