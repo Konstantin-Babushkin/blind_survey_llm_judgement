@@ -2,7 +2,7 @@
 # run_all.sh
 # Loop through sets of prompt/result files and run send_prompts_openrouter.py
 
-MODEL=
+MODEL=""
 MAX_TOKENS=50840
 
 for prefix in A B C; do

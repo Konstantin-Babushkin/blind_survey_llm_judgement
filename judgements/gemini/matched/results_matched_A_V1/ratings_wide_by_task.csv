@@ -1,0 +1,49 @@
+task_id,question_id,task_type,criterion,DeepSeek,Flash,Gemini,Qwen,evaluator
+A1,Q01,Idea-to-Text,Fluency,3.0,1.0,4.0,2.0,A_V1
+A1,Q02,Idea-to-Text,Coherence,1.0,3.0,2.0,4.0,A_V1
+A1,Q03,Idea-to-Text,Conciseness,3.0,4.0,1.0,2.0,A_V1
+A1,Q04,Idea-to-Text,Accuracy,,,2.0,1.0,A_V1
+A1,Q05,Idea-to-Text,Sentiment match,3.0,4.0,2.0,1.0,A_V1
+A1,Q06,Idea-to-Text,Motivational tone,2.0,3.0,1.0,4.0,A_V1
+A1,Q07,Idea-to-Text,Constructiveness,1.0,3.0,2.0,4.0,A_V1
+A1,Q08,Idea-to-Text,Final choice,4.0,2.0,3.0,1.0,A_V1
+A10,Q01,Summarise,Fluency,4.0,3.0,2.0,1.0,A_V1
+A10,Q02,Summarise,Coherence,4.0,3.0,2.0,1.0,A_V1
+A10,Q03,Summarise,Conciseness,2.0,3.0,1.0,4.0,A_V1
+A10,Q04,Summarise,Accuracy,2.0,3.0,1.0,4.0,A_V1
+A10,Q05,Summarise,Sentiment match,4.0,1.0,3.0,2.0,A_V1
+A10,Q06,Summarise,Motivational tone,4.0,3.0,2.0,1.0,A_V1
+A10,Q07,Summarise,Constructiveness,4.0,3.0,2.0,1.0,A_V1
+A10,Q08,Summarise,Final choice,4.0,3.0,2.0,1.0,A_V1
+A15,Q01,Interpret,Fluency,4.0,2.0,3.0,1.0,A_V1
+A15,Q02,Interpret,Coherence,1.0,3.0,4.0,2.0,A_V1
+A15,Q03,Interpret,Conciseness,2.0,3.0,1.0,4.0,A_V1
+A15,Q04,Interpret,Accuracy,1.0,,2.0,,A_V1
+A15,Q05,Interpret,Sentiment match,3.0,2.0,1.0,4.0,A_V1
+A15,Q06,Interpret,Motivational tone,3.0,2.0,4.0,1.0,A_V1
+A15,Q07,Interpret,Constructiveness,2.0,3.0,4.0,1.0,A_V1
+A15,Q08,Interpret,Final choice,4.0,2.0,3.0,1.0,A_V1
+A17,Q01,Interpret,Fluency,4.0,3.0,1.0,2.0,A_V1
+A17,Q02,Interpret,Coherence,3.0,2.0,4.0,1.0,A_V1
+A17,Q03,Interpret,Conciseness,2.0,4.0,1.0,3.0,A_V1
+A17,Q04,Interpret,Accuracy,3.0,1.0,2.0,,A_V1
+A17,Q05,Interpret,Sentiment match,1.0,4.0,2.0,3.0,A_V1
+A17,Q06,Interpret,Motivational tone,3.0,2.0,4.0,1.0,A_V1
+A17,Q07,Interpret,Constructiveness,2.0,3.0,4.0,1.0,A_V1
+A17,Q08,Interpret,Final choice,3.0,2.0,4.0,1.0,A_V1
+A5,Q01,Idea-to-Text,Fluency,2.0,4.0,1.0,3.0,A_V1
+A5,Q02,Idea-to-Text,Coherence,2.0,1.0,4.0,3.0,A_V1
+A5,Q03,Idea-to-Text,Conciseness,2.0,4.0,1.0,3.0,A_V1
+A5,Q04,Idea-to-Text,Accuracy,2.0,3.0,4.0,1.0,A_V1
+A5,Q05,Idea-to-Text,Sentiment match,1.0,4.0,3.0,2.0,A_V1
+A5,Q06,Idea-to-Text,Motivational tone,2.0,3.0,1.0,4.0,A_V1
+A5,Q07,Idea-to-Text,Constructiveness,2.0,1.0,3.0,4.0,A_V1
+A5,Q08,Idea-to-Text,Final choice,2.0,1.0,3.0,4.0,A_V1
+A9,Q01,Summarise,Fluency,4.0,2.0,1.0,3.0,A_V1
+A9,Q02,Summarise,Coherence,4.0,3.0,2.0,1.0,A_V1
+A9,Q03,Summarise,Conciseness,1.0,3.0,2.0,4.0,A_V1
+A9,Q04,Summarise,Accuracy,,,2.0,1.0,A_V1
+A9,Q05,Summarise,Sentiment match,4.0,3.0,1.0,2.0,A_V1
+A9,Q06,Summarise,Motivational tone,3.0,4.0,1.0,2.0,A_V1
+A9,Q07,Summarise,Constructiveness,4.0,3.0,2.0,1.0,A_V1
+A9,Q08,Summarise,Final choice,4.0,2.0,1.0,3.0,A_V1
