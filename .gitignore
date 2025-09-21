@@ -1,3 +1,4 @@
 .env
 venv
 .idea
+human_survey/firebase_cred.json
