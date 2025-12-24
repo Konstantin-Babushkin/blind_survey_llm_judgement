@@ -1,268 +1,203 @@
 {
-    "B16": {
+    "A8": {
         "fluency": [
-            "gemini-2.5-pro",
-            "DeepSeek-R1-0528",
-            "gemini-2.5-flash",
-            "Qwen3-235B-A22B-2507"
-        ],
-        "final": [
-            "gemini-2.5-pro",
-            "DeepSeek-R1-0528",
-            "gemini-2.5-flash",
-            "Qwen3-235B-A22B-2507"
-        ],
-        "coherence": [
-            "gemini-2.5-pro",
-            "DeepSeek-R1-0528",
-            "gemini-2.5-flash",
-            "Qwen3-235B-A22B-2507"
-        ],
-        "motivational": [
             "Qwen3-235B-A22B-2507",
             "gemini-2.5-flash",
             "gemini-2.5-pro",
             "DeepSeek-R1-0528"
         ],
-        "factual_accuracy": [
+        "coherence": [
+            "Qwen3-235B-A22B-2507",
             "gemini-2.5-flash",
             "DeepSeek-R1-0528",
             "gemini-2.5-pro"
         ],
-        "sentiment": [
-            "DeepSeek-R1-0528",
-            "gemini-2.5-pro",
-            "gemini-2.5-flash",
-            "Qwen3-235B-A22B-2507"
-        ],
-        "constructiveness": [
-            "gemini-2.5-pro",
-            "DeepSeek-R1-0528",
-            "gemini-2.5-flash",
-            "Qwen3-235B-A22B-2507"
-        ],
         "conciseness": [
+            "Qwen3-235B-A22B-2507",
             "DeepSeek-R1-0528",
             "gemini-2.5-pro",
-            "gemini-2.5-flash",
-            "Qwen3-235B-A22B-2507"
-        ]
-    },
-    "B8": {
-        "sentiment": [
-            "gemini-2.5-pro",
-            "gemini-2.5-flash",
-            "Qwen3-235B-A22B-2507",
-            "DeepSeek-R1-0528"
-        ],
-        "factual_accuracy": [
-            "gemini-2.5-flash",
-            "Qwen3-235B-A22B-2507",
-            "gemini-2.5-pro"
-        ],
-        "motivational": [
-            "gemini-2.5-flash",
-            "Qwen3-235B-A22B-2507",
-            "gemini-2.5-pro",
-            "DeepSeek-R1-0528"
-        ],
-        "conciseness": [
-            "DeepSeek-R1-0528",
-            "gemini-2.5-flash",
-            "Qwen3-235B-A22B-2507",
-            "gemini-2.5-pro"
-        ],
-        "constructiveness": [
-            "gemini-2.5-flash",
-            "Qwen3-235B-A22B-2507",
-            "gemini-2.5-pro",
-            "DeepSeek-R1-0528"
-        ],
-        "fluency": [
-            "gemini-2.5-flash",
-            "gemini-2.5-pro",
-            "Qwen3-235B-A22B-2507",
-            "DeepSeek-R1-0528"
-        ],
-        "coherence": [
-            "gemini-2.5-flash",
-            "gemini-2.5-pro",
-            "Qwen3-235B-A22B-2507",
-            "DeepSeek-R1-0528"
-        ],
-        "final": [
-            "gemini-2.5-flash",
-            "gemini-2.5-pro",
-            "Qwen3-235B-A22B-2507",
-            "DeepSeek-R1-0528"
-        ]
-    },
-    "B10": {
-        "conciseness": [
-            "DeepSeek-R1-0528",
-            "gemini-2.5-pro",
-            "gemini-2.5-flash",
-            "Qwen3-235B-A22B-2507"
-        ],
-        "fluency": [
-            "gemini-2.5-pro",
-            "gemini-2.5-flash",
-            "Qwen3-235B-A22B-2507",
-            "DeepSeek-R1-0528"
-        ],
-        "final": [
-            "gemini-2.5-pro",
-            "gemini-2.5-flash",
-            "Qwen3-235B-A22B-2507",
-            "DeepSeek-R1-0528"
-        ],
-        "factual_accuracy": [
-            "gemini-2.5-flash",
-            "gemini-2.5-pro",
-            "DeepSeek-R1-0528"
-        ],
-        "coherence": [
-            "gemini-2.5-pro",
-            "Qwen3-235B-A22B-2507",
-            "gemini-2.5-flash",
-            "DeepSeek-R1-0528"
-        ],
-        "motivational": [
-            "Qwen3-235B-A22B-2507",
-            "gemini-2.5-pro",
-            "gemini-2.5-flash",
-            "DeepSeek-R1-0528"
-        ],
-        "constructiveness": [
-            "gemini-2.5-pro",
-            "DeepSeek-R1-0528",
-            "gemini-2.5-flash",
-            "Qwen3-235B-A22B-2507"
-        ],
-        "sentiment": [
-            "DeepSeek-R1-0528",
-            "gemini-2.5-pro",
-            "gemini-2.5-flash",
-            "Qwen3-235B-A22B-2507"
-        ]
-    },
-    "B15": {
-        "final": [
-            "gemini-2.5-pro",
-            "gemini-2.5-flash",
-            "Qwen3-235B-A22B-2507",
-            "DeepSeek-R1-0528"
-        ],
-        "motivational": [
-            "Qwen3-235B-A22B-2507",
-            "gemini-2.5-flash",
-            "gemini-2.5-pro",
-            "DeepSeek-R1-0528"
-        ],
-        "factual_accuracy": [
-            "gemini-2.5-flash",
-            "Qwen3-235B-A22B-2507",
-            "gemini-2.5-pro",
-            "DeepSeek-R1-0528"
-        ],
-        "conciseness": [
-            "gemini-2.5-pro",
-            "DeepSeek-R1-0528",
-            "gemini-2.5-flash",
-            "Qwen3-235B-A22B-2507"
-        ],
-        "coherence": [
-            "gemini-2.5-pro",
-            "DeepSeek-R1-0528",
-            "Qwen3-235B-A22B-2507",
             "gemini-2.5-flash"
         ],
+        "factual_accuracy": [
+            "gemini-2.5-pro",
+            "gemini-2.5-flash",
+            "DeepSeek-R1-0528",
+            "Qwen3-235B-A22B-2507"
+        ],
         "sentiment": [
+            "gemini-2.5-pro",
+            "gemini-2.5-flash",
+            "Qwen3-235B-A22B-2507",
+            "DeepSeek-R1-0528"
+        ],
+        "motivational": [
+            "Qwen3-235B-A22B-2507",
+            "gemini-2.5-flash",
+            "gemini-2.5-pro",
+            "DeepSeek-R1-0528"
+        ],
+        "constructiveness": [
+            "Qwen3-235B-A22B-2507",
+            "gemini-2.5-flash",
+            "DeepSeek-R1-0528",
+            "gemini-2.5-pro"
+        ],
+        "final": [
+            "Qwen3-235B-A22B-2507",
+            "gemini-2.5-flash",
+            "DeepSeek-R1-0528",
+            "gemini-2.5-pro"
+        ]
+    },
+    "A11": {
+        "fluency": [
+            "Qwen3-235B-A22B-2507",
+            "gemini-2.5-flash",
+            "gemini-2.5-pro",
+            "DeepSeek-R1-0528"
+        ],
+        "coherence": [
+            "gemini-2.5-pro",
+            "gemini-2.5-flash",
+            "Qwen3-235B-A22B-2507",
+            "DeepSeek-R1-0528"
+        ],
+        "conciseness": [
+            "gemini-2.5-pro",
+            "DeepSeek-R1-0528",
+            "gemini-2.5-flash",
+            "Qwen3-235B-A22B-2507"
+        ],
+        "factual_accuracy": [
+            "Qwen3-235B-A22B-2507",
+            "DeepSeek-R1-0528"
+        ],
+        "sentiment": [
+            "Qwen3-235B-A22B-2507",
+            "gemini-2.5-flash",
+            "DeepSeek-R1-0528",
+            "gemini-2.5-pro"
+        ],
+        "motivational": [
+            "Qwen3-235B-A22B-2507",
+            "gemini-2.5-flash",
+            "gemini-2.5-pro",
+            "DeepSeek-R1-0528"
+        ],
+        "constructiveness": [
+            "Qwen3-235B-A22B-2507",
+            "gemini-2.5-flash",
+            "DeepSeek-R1-0528",
+            "gemini-2.5-pro"
+        ],
+        "final": [
+            "Qwen3-235B-A22B-2507",
+            "gemini-2.5-flash",
+            "gemini-2.5-pro",
+            "DeepSeek-R1-0528"
+        ]
+    },
+    "A2": {
+        "fluency": [
+            "gemini-2.5-flash",
+            "Qwen3-235B-A22B-2507",
+            "gemini-2.5-pro",
+            "DeepSeek-R1-0528"
+        ],
+        "coherence": [
+            "gemini-2.5-pro",
+            "gemini-2.5-flash",
+            "DeepSeek-R1-0528",
+            "Qwen3-235B-A22B-2507"
+        ],
+        "conciseness": [
+            "gemini-2.5-pro",
+            "DeepSeek-R1-0528",
+            "gemini-2.5-flash",
+            "Qwen3-235B-A22B-2507"
+        ],
+        "factual_accuracy": [
+            "gemini-2.5-pro"
+        ],
+        "sentiment": [
+            "gemini-2.5-pro",
+            "DeepSeek-R1-0528",
+            "gemini-2.5-flash",
+            "Qwen3-235B-A22B-2507"
+        ],
+        "motivational": [
             "DeepSeek-R1-0528",
             "gemini-2.5-flash",
             "Qwen3-235B-A22B-2507",
             "gemini-2.5-pro"
         ],
         "constructiveness": [
-            "Qwen3-235B-A22B-2507",
-            "gemini-2.5-flash",
             "gemini-2.5-pro",
-            "DeepSeek-R1-0528"
+            "DeepSeek-R1-0528",
+            "Qwen3-235B-A22B-2507",
+            "gemini-2.5-flash"
         ],
-        "fluency": [
-            "gemini-2.5-pro",
-            "Qwen3-235B-A22B-2507",
+        "final": [
+            "DeepSeek-R1-0528",
             "gemini-2.5-flash",
-            "DeepSeek-R1-0528"
+            "gemini-2.5-pro",
+            "Qwen3-235B-A22B-2507"
         ]
     },
-    "B1": {
-        "coherence": [
-            "Qwen3-235B-A22B-2507",
-            "gemini-2.5-pro",
-            "DeepSeek-R1-0528",
-            "gemini-2.5-flash"
-        ],
-        "motivational": [
-            "gemini-2.5-pro",
-            "DeepSeek-R1-0528",
-            "Qwen3-235B-A22B-2507",
-            "gemini-2.5-flash"
-        ],
-        "conciseness": [
-            "gemini-2.5-pro",
-            "Qwen3-235B-A22B-2507",
-            "DeepSeek-R1-0528",
-            "gemini-2.5-flash"
-        ],
+    "A3": {
         "fluency": [
-            "Qwen3-235B-A22B-2507",
-            "gemini-2.5-pro",
-            "DeepSeek-R1-0528",
-            "gemini-2.5-flash"
-        ],
-        "constructiveness": [
-            "Qwen3-235B-A22B-2507",
-            "gemini-2.5-pro",
-            "DeepSeek-R1-0528",
-            "gemini-2.5-flash"
-        ],
-        "factual_accuracy": [
             "gemini-2.5-flash",
+            "DeepSeek-R1-0528",
             "Qwen3-235B-A22B-2507",
             "gemini-2.5-pro"
         ],
-        "final": [
-            "Qwen3-235B-A22B-2507",
-            "gemini-2.5-pro",
-            "gemini-2.5-flash",
-            "DeepSeek-R1-0528"
-        ],
-        "sentiment": [
-            "Qwen3-235B-A22B-2507",
-            "gemini-2.5-pro",
-            "gemini-2.5-flash",
-            "DeepSeek-R1-0528"
-        ]
-    },
-    "B2": {
-        "constructiveness": [
+        "coherence": [
             "gemini-2.5-pro",
             "DeepSeek-R1-0528",
-            "gemini-2.5-flash",
-            "Qwen3-235B-A22B-2507"
-        ],
-        "final": [
-            "gemini-2.5-pro",
-            "DeepSeek-R1-0528",
-            "gemini-2.5-flash",
-            "Qwen3-235B-A22B-2507"
+            "Qwen3-235B-A22B-2507",
+            "gemini-2.5-flash"
         ],
         "conciseness": [
             "gemini-2.5-pro",
+            "Qwen3-235B-A22B-2507",
             "DeepSeek-R1-0528",
+            "gemini-2.5-flash"
+        ],
+        "factual_accuracy": [
+            "gemini-2.5-pro",
+            "DeepSeek-R1-0528"
+        ],
+        "sentiment": [
+            "gemini-2.5-pro",
+            "Qwen3-235B-A22B-2507",
             "gemini-2.5-flash",
-            "Qwen3-235B-A22B-2507"
+            "DeepSeek-R1-0528"
+        ],
+        "motivational": [
+            "DeepSeek-R1-0528",
+            "Qwen3-235B-A22B-2507",
+            "gemini-2.5-pro",
+            "gemini-2.5-flash"
+        ],
+        "constructiveness": [
+            "DeepSeek-R1-0528",
+            "gemini-2.5-pro",
+            "Qwen3-235B-A22B-2507",
+            "gemini-2.5-flash"
+        ],
+        "final": [
+            "DeepSeek-R1-0528",
+            "gemini-2.5-pro",
+            "Qwen3-235B-A22B-2507",
+            "gemini-2.5-flash"
+        ]
+    },
+    "A13": {
+        "fluency": [
+            "Qwen3-235B-A22B-2507",
+            "DeepSeek-R1-0528",
+            "gemini-2.5-pro",
+            "gemini-2.5-flash"
         ],
         "coherence": [
             "gemini-2.5-pro",
@@ -270,11 +205,64 @@
             "Qwen3-235B-A22B-2507",
             "gemini-2.5-flash"
         ],
-        "motivational": [
+        "conciseness": [
             "gemini-2.5-pro",
             "DeepSeek-R1-0528",
             "Qwen3-235B-A22B-2507",
             "gemini-2.5-flash"
+        ],
+        "factual_accuracy": [
+            "gemini-2.5-flash",
+            "DeepSeek-R1-0528",
+            "Qwen3-235B-A22B-2507"
+        ],
+        "sentiment": [
+            "gemini-2.5-pro",
+            "DeepSeek-R1-0528",
+            "Qwen3-235B-A22B-2507",
+            "gemini-2.5-flash"
+        ],
+        "motivational": [
+            "gemini-2.5-flash",
+            "Qwen3-235B-A22B-2507",
+            "DeepSeek-R1-0528",
+            "gemini-2.5-pro"
+        ],
+        "constructiveness": [
+            "gemini-2.5-pro",
+            "DeepSeek-R1-0528",
+            "Qwen3-235B-A22B-2507",
+            "gemini-2.5-flash"
+        ],
+        "final": [
+            "DeepSeek-R1-0528",
+            "Qwen3-235B-A22B-2507",
+            "gemini-2.5-pro",
+            "gemini-2.5-flash"
+        ]
+    },
+    "A16": {
+        "fluency": [
+            "Qwen3-235B-A22B-2507",
+            "gemini-2.5-flash",
+            "gemini-2.5-pro",
+            "DeepSeek-R1-0528"
+        ],
+        "coherence": [
+            "gemini-2.5-pro",
+            "gemini-2.5-flash",
+            "Qwen3-235B-A22B-2507",
+            "DeepSeek-R1-0528"
+        ],
+        "conciseness": [
+            "gemini-2.5-pro",
+            "gemini-2.5-flash",
+            "DeepSeek-R1-0528",
+            "Qwen3-235B-A22B-2507"
+        ],
+        "factual_accuracy": [
+            "gemini-2.5-pro",
+            "DeepSeek-R1-0528"
         ],
         "sentiment": [
             "gemini-2.5-pro",
@@ -282,16 +270,23 @@
             "gemini-2.5-flash",
             "Qwen3-235B-A22B-2507"
         ],
-        "factual_accuracy": [
-            "gemini-2.5-pro",
-            "DeepSeek-R1-0528",
-            "Qwen3-235B-A22B-2507"
-        ],
-        "fluency": [
-            "gemini-2.5-pro",
-            "DeepSeek-R1-0528",
+        "motivational": [
             "Qwen3-235B-A22B-2507",
-            "gemini-2.5-flash"
+            "gemini-2.5-flash",
+            "DeepSeek-R1-0528",
+            "gemini-2.5-pro"
+        ],
+        "constructiveness": [
+            "gemini-2.5-pro",
+            "Qwen3-235B-A22B-2507",
+            "gemini-2.5-flash",
+            "DeepSeek-R1-0528"
+        ],
+        "final": [
+            "gemini-2.5-flash",
+            "gemini-2.5-pro",
+            "Qwen3-235B-A22B-2507",
+            "DeepSeek-R1-0528"
         ]
     }
 }

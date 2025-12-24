@@ -1,0 +1,97 @@
+judge,task_type,criterion,winner_score,winner,is_tie_for_first,top_models
+DeepSeek,Idea-to-Text,Accuracy,0.1666666667,DeepSeek,False,DeepSeek
+DeepSeek,Idea-to-Text,Coherence,0.7777777778,DeepSeek,False,DeepSeek
+DeepSeek,Idea-to-Text,Conciseness,0.4555555556,Gemini,False,Gemini
+DeepSeek,Idea-to-Text,Constructiveness,0.8777777778,DeepSeek,False,DeepSeek
+DeepSeek,Idea-to-Text,Final choice,0.6777777778,Flash,False,Flash
+DeepSeek,Idea-to-Text,Fluency,0.6222222222,DeepSeek,False,DeepSeek
+DeepSeek,Idea-to-Text,Motivational tone,0.8111111111,Qwen,False,Qwen
+DeepSeek,Idea-to-Text,Sentiment match,0.5555555556,Flash,False,Flash
+DeepSeek,Interpret,Accuracy,0.5,Flash,True,"Flash,Gemini"
+DeepSeek,Interpret,Coherence,0.4555555556,DeepSeek,False,DeepSeek
+DeepSeek,Interpret,Conciseness,0.7333333333,DeepSeek,False,DeepSeek
+DeepSeek,Interpret,Constructiveness,0.7888888889,DeepSeek,False,DeepSeek
+DeepSeek,Interpret,Final choice,0.3,Qwen,False,Qwen
+DeepSeek,Interpret,Fluency,0.2333333333,DeepSeek,False,DeepSeek
+DeepSeek,Interpret,Motivational tone,0.3222222222,DeepSeek,False,DeepSeek
+DeepSeek,Interpret,Sentiment match,0.2888888889,DeepSeek,False,DeepSeek
+DeepSeek,Summary,Accuracy,0.5277777778,Qwen,False,Qwen
+DeepSeek,Summary,Coherence,0.05555555556,Gemini,False,Gemini
+DeepSeek,Summary,Conciseness,0.7333333333,Gemini,False,Gemini
+DeepSeek,Summary,Constructiveness,0.08888888889,Gemini,False,Gemini
+DeepSeek,Summary,Final choice,0.04444444444,Flash,True,"Flash,Gemini"
+DeepSeek,Summary,Fluency,0.03333333333,Gemini,False,Gemini
+DeepSeek,Summary,Motivational tone,0.2111111111,Flash,True,"Flash,Qwen"
+DeepSeek,Summary,Sentiment match,0.2555555556,DeepSeek,False,DeepSeek
+Flash,Idea-to-Text,Accuracy,0.4111111111,Qwen,False,Qwen
+Flash,Idea-to-Text,Coherence,0.7111111111,Gemini,False,Gemini
+Flash,Idea-to-Text,Conciseness,0.5,Qwen,False,Qwen
+Flash,Idea-to-Text,Constructiveness,0.5555555556,Gemini,False,Gemini
+Flash,Idea-to-Text,Final choice,0.7,Gemini,False,Gemini
+Flash,Idea-to-Text,Fluency,0.6888888889,Qwen,False,Qwen
+Flash,Idea-to-Text,Motivational tone,0.4222222222,Qwen,False,Qwen
+Flash,Idea-to-Text,Sentiment match,0.6444444444,Qwen,False,Qwen
+Flash,Interpret,Accuracy,0.5666666667,DeepSeek,False,DeepSeek
+Flash,Interpret,Coherence,0.6444444444,Flash,False,Flash
+Flash,Interpret,Conciseness,0.3333333333,Flash,False,Flash
+Flash,Interpret,Constructiveness,0.3888888889,Gemini,False,Gemini
+Flash,Interpret,Final choice,0.6888888889,DeepSeek,False,DeepSeek
+Flash,Interpret,Fluency,0.5,Flash,False,Flash
+Flash,Interpret,Motivational tone,0.7222222222,DeepSeek,False,DeepSeek
+Flash,Interpret,Sentiment match,0.6666666667,DeepSeek,False,DeepSeek
+Flash,Summary,Accuracy,0.2555555556,Qwen,False,Qwen
+Flash,Summary,Coherence,0.5888888889,DeepSeek,False,DeepSeek
+Flash,Summary,Conciseness,0.5333333333,Gemini,False,Gemini
+Flash,Summary,Constructiveness,0.5888888889,DeepSeek,True,"DeepSeek,Flash"
+Flash,Summary,Final choice,0.7,Gemini,False,Gemini
+Flash,Summary,Fluency,0.6333333333,Flash,False,Flash
+Flash,Summary,Motivational tone,0.5555555556,DeepSeek,False,DeepSeek
+Flash,Summary,Sentiment match,0.6444444444,Flash,False,Flash
+Gemini,Idea-to-Text,Accuracy,0.1555555556,Qwen,False,Qwen
+Gemini,Idea-to-Text,Coherence,0.2666666667,DeepSeek,False,DeepSeek
+Gemini,Idea-to-Text,Conciseness,0.9555555556,Gemini,False,Gemini
+Gemini,Idea-to-Text,Constructiveness,0.4,Gemini,False,Gemini
+Gemini,Idea-to-Text,Final choice,0.4444444444,DeepSeek,False,DeepSeek
+Gemini,Idea-to-Text,Fluency,0.3666666667,DeepSeek,False,DeepSeek
+Gemini,Idea-to-Text,Motivational tone,0.7555555556,DeepSeek,False,DeepSeek
+Gemini,Idea-to-Text,Sentiment match,0.5666666667,DeepSeek,False,DeepSeek
+Gemini,Interpret,Accuracy,0.2722222222,Qwen,False,Qwen
+Gemini,Interpret,Coherence,0.3,Gemini,False,Gemini
+Gemini,Interpret,Conciseness,0.9222222222,Flash,False,Flash
+Gemini,Interpret,Constructiveness,0.2111111111,DeepSeek,True,"DeepSeek,Flash"
+Gemini,Interpret,Final choice,0.3888888889,Flash,False,Flash
+Gemini,Interpret,Fluency,0.6666666667,Gemini,False,Gemini
+Gemini,Interpret,Motivational tone,0.2111111111,Flash,False,Flash
+Gemini,Interpret,Sentiment match,0.7555555556,Flash,False,Flash
+Gemini,Summary,Accuracy,0.5,Flash,True,"Flash,Gemini"
+Gemini,Summary,Coherence,0.4777777778,Gemini,True,"Gemini,Qwen"
+Gemini,Summary,Conciseness,0.6333333333,DeepSeek,False,DeepSeek
+Gemini,Summary,Constructiveness,0.5,Qwen,False,Qwen
+Gemini,Summary,Final choice,0.5333333333,Flash,True,"Flash,Qwen"
+Gemini,Summary,Fluency,0.6444444444,DeepSeek,False,DeepSeek
+Gemini,Summary,Motivational tone,0.5222222222,Flash,True,"Flash,Qwen"
+Gemini,Summary,Sentiment match,0.6333333333,Gemini,False,Gemini
+Qwen,Idea-to-Text,Accuracy,1.0,Qwen,False,Qwen
+Qwen,Idea-to-Text,Coherence,0.5888888889,Flash,False,Flash
+Qwen,Idea-to-Text,Conciseness,0.4888888889,Gemini,False,Gemini
+Qwen,Idea-to-Text,Constructiveness,0.4777777778,Qwen,False,Qwen
+Qwen,Idea-to-Text,Final choice,0.7111111111,Qwen,False,Qwen
+Qwen,Idea-to-Text,Fluency,0.7888888889,Qwen,False,Qwen
+Qwen,Idea-to-Text,Motivational tone,0.2777777778,Flash,False,Flash
+Qwen,Idea-to-Text,Sentiment match,0.9555555556,Gemini,False,Gemini
+Qwen,Interpret,Accuracy,0.6444444444,Qwen,False,Qwen
+Qwen,Interpret,Coherence,0.9777777778,Qwen,False,Qwen
+Qwen,Interpret,Conciseness,0.2555555556,Qwen,False,Qwen
+Qwen,Interpret,Constructiveness,0.8333333333,Flash,True,"Flash,Qwen"
+Qwen,Interpret,Final choice,0.9777777778,Qwen,False,Qwen
+Qwen,Interpret,Fluency,0.9222222222,Qwen,False,Qwen
+Qwen,Interpret,Motivational tone,0.9555555556,Qwen,False,Qwen
+Qwen,Interpret,Sentiment match,0.9222222222,Qwen,False,Qwen
+Qwen,Summary,Accuracy,0.5,Flash,True,"Flash,Gemini,Qwen"
+Qwen,Summary,Coherence,0.9888888889,Flash,False,Flash
+Qwen,Summary,Conciseness,0.4222222222,DeepSeek,False,DeepSeek
+Qwen,Summary,Constructiveness,1.0,DeepSeek,False,DeepSeek
+Qwen,Summary,Final choice,0.9222222222,Qwen,False,Qwen
+Qwen,Summary,Fluency,0.9555555556,Qwen,False,Qwen
+Qwen,Summary,Motivational tone,0.8777777778,Gemini,False,Gemini
+Qwen,Summary,Sentiment match,0.9111111111,Qwen,False,Qwen

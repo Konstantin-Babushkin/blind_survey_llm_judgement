@@ -35,4 +35,4 @@ def process_survey_results(file_path, output_dir):
                 json.dump(aggregated_responses, out_f, indent=4)
 
 if __name__ == "__main__":
-    process_survey_results('/home/kb/Documents/workspace/yt/survey_results.jsonl', '/home/kb/Documents/workspace/yt/parsed_results')
+    process_survey_results('/home/kb/Documents/workspace/itmo/blind/human_survey/survey_results.jsonl', '/home/kb/Documents/workspace/itmo/blind/human_survey/parsed_results')

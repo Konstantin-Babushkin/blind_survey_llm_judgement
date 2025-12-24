@@ -1,0 +1,33 @@
+judge,criterion,winner_score,winner,is_tie_for_first,top_models
+DeepSeek,Accuracy,0.36481481480000005,Qwen,False,Qwen
+Flash,Accuracy,0.38888888889999995,Qwen,False,Qwen
+Gemini,Accuracy,0.2981481481666666,Qwen,False,Qwen
+Qwen,Accuracy,0.7148148148,Qwen,False,Qwen
+DeepSeek,Coherence,0.41481481483666666,DeepSeek,False,DeepSeek
+Flash,Coherence,0.5703703703666667,Qwen,False,Qwen
+Gemini,Coherence,0.3074074074,DeepSeek,False,DeepSeek
+Qwen,Coherence,0.8222222222333334,Flash,True,"Flash,Qwen"
+DeepSeek,Conciseness,0.6185185185333333,Gemini,False,Gemini
+Flash,Conciseness,0.38518518519999995,Flash,False,Flash
+Gemini,Conciseness,0.8185185185,Flash,False,Flash
+Qwen,Conciseness,0.3444444444666666,Qwen,False,Qwen
+DeepSeek,Constructiveness,0.5777777777900001,DeepSeek,False,DeepSeek
+Flash,Constructiveness,0.5,Flash,False,Flash
+Gemini,Constructiveness,0.32592592593333336,Gemini,False,Gemini
+Qwen,Constructiveness,0.7555555555666666,Qwen,False,Qwen
+DeepSeek,Final choice,0.32222222221333335,Flash,False,Flash
+Flash,Final choice,0.6407407407333333,Gemini,False,Gemini
+Gemini,Final choice,0.4407407407333333,Flash,False,Flash
+Qwen,Final choice,0.8703703703666666,Qwen,False,Qwen
+DeepSeek,Fluency,0.28888888887,DeepSeek,False,DeepSeek
+Flash,Fluency,0.5740740740666667,Flash,False,Flash
+Gemini,Fluency,0.5259259259333333,Gemini,False,Gemini
+Qwen,Fluency,0.8888888889000001,Qwen,False,Qwen
+DeepSeek,Motivational tone,0.42962962963333334,DeepSeek,False,DeepSeek
+Flash,Motivational tone,0.5259259259333334,Qwen,False,Qwen
+Gemini,Motivational tone,0.4555555555333333,Gemini,False,Gemini
+Qwen,Motivational tone,0.6777777777666666,Flash,False,Flash
+DeepSeek,Sentiment match,0.3037037037333333,DeepSeek,False,DeepSeek
+Flash,Sentiment match,0.5518518518666666,DeepSeek,False,DeepSeek
+Gemini,Sentiment match,0.5666666666666667,DeepSeek,False,DeepSeek
+Qwen,Sentiment match,0.9185185185,Qwen,False,Qwen

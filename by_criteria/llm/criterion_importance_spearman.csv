@@ -1,0 +1,141 @@
+scope,judge,task_type,criterion,spearman_rho,n_obs
+ALL,ALL,ALL,Coherence,0.5261111111111112,1440
+ALL,ALL,ALL,Fluency,0.49000000000000016,1440
+ALL,ALL,ALL,Constructiveness,0.4372222222222223,1440
+ALL,ALL,ALL,Motivational tone,0.38014285689953725,1440
+ALL,ALL,ALL,Sentiment match,0.34277777777777785,1440
+ALL,ALL,ALL,Accuracy,0.038992868241040375,1440
+ALL,ALL,ALL,Conciseness,-0.29404852143533333,1440
+JUDGE,deepseek,ALL,Coherence,0.4288888888888889,360
+JUDGE,deepseek,ALL,Motivational tone,0.4111111111111111,360
+JUDGE,deepseek,ALL,Fluency,0.3511111111111111,360
+JUDGE,deepseek,ALL,Constructiveness,0.31555555555555553,360
+JUDGE,deepseek,ALL,Sentiment match,0.11777777777777779,360
+JUDGE,deepseek,ALL,Accuracy,0.053954824321615136,360
+JUDGE,deepseek,ALL,Conciseness,-0.23855211075235475,360
+JUDGE,flash,ALL,Coherence,0.5,360
+JUDGE,flash,ALL,Constructiveness,0.4577777777777778,360
+JUDGE,flash,ALL,Fluency,0.44,360
+JUDGE,flash,ALL,Motivational tone,0.43821388153628404,360
+JUDGE,flash,ALL,Sentiment match,0.24666666666666662,360
+JUDGE,flash,ALL,Accuracy,0.012559394245233195,360
+JUDGE,flash,ALL,Conciseness,-0.1911111111111111,360
+JUDGE,gemini,ALL,Coherence,0.54,360
+JUDGE,gemini,ALL,Fluency,0.5311111111111111,360
+JUDGE,gemini,ALL,Sentiment match,0.3688888888888889,360
+JUDGE,gemini,ALL,Constructiveness,0.36,360
+JUDGE,gemini,ALL,Motivational tone,0.32,360
+JUDGE,gemini,ALL,Accuracy,0.028940753769352474,360
+JUDGE,gemini,ALL,Conciseness,-0.4444444444444444,360
+JUDGE,qwen,ALL,Fluency,0.6377777777777778,360
+JUDGE,qwen,ALL,Sentiment match,0.6377777777777778,360
+JUDGE,qwen,ALL,Coherence,0.6355555555555557,360
+JUDGE,qwen,ALL,Constructiveness,0.6155555555555555,360
+JUDGE,qwen,ALL,Motivational tone,0.3511111111111111,360
+JUDGE,qwen,ALL,Accuracy,0.07788261195723274,360
+JUDGE,qwen,ALL,Conciseness,-0.3022222222222222,360
+JUDGE_TASK,deepseek,Idea-to-Text,Constructiveness,0.16666666666666666,120
+JUDGE_TASK,deepseek,Idea-to-Text,Coherence,0.12,120
+JUDGE_TASK,deepseek,Idea-to-Text,Fluency,0.09333333333333332,120
+JUDGE_TASK,deepseek,Idea-to-Text,Accuracy,0.03997047798962962,120
+JUDGE_TASK,deepseek,Idea-to-Text,Motivational tone,0.026666666666666665,120
+JUDGE_TASK,deepseek,Idea-to-Text,Conciseness,-0.05824207105088299,120
+JUDGE_TASK,deepseek,Idea-to-Text,Sentiment match,-0.18666666666666665,120
+JUDGE_TASK,deepseek,Interpretation,Motivational tone,0.6666666666666666,120
+JUDGE_TASK,deepseek,Interpretation,Coherence,0.3733333333333333,120
+JUDGE_TASK,deepseek,Interpretation,Fluency,0.36666666666666664,120
+JUDGE_TASK,deepseek,Interpretation,Sentiment match,0.12666666666666665,120
+JUDGE_TASK,deepseek,Interpretation,Accuracy,0.038836625944289695,120
+JUDGE_TASK,deepseek,Interpretation,Constructiveness,-0.013333333333333332,120
+JUDGE_TASK,deepseek,Interpretation,Conciseness,-0.6933333333333332,120
+JUDGE_TASK,deepseek,Summarise,Coherence,0.7933333333333333,120
+JUDGE_TASK,deepseek,Summarise,Constructiveness,0.7933333333333333,120
+JUDGE_TASK,deepseek,Summarise,Fluency,0.5933333333333334,120
+JUDGE_TASK,deepseek,Summarise,Motivational tone,0.54,120
+JUDGE_TASK,deepseek,Summarise,Sentiment match,0.4133333333333333,120
+JUDGE_TASK,deepseek,Summarise,Accuracy,0.08441622892989752,120
+JUDGE_TASK,deepseek,Summarise,Conciseness,0.03333333333333333,120
+JUDGE_TASK,flash,Idea-to-Text,Coherence,0.32666666666666666,120
+JUDGE_TASK,flash,Idea-to-Text,Constructiveness,0.29333333333333333,120
+JUDGE_TASK,flash,Idea-to-Text,Motivational tone,0.29187724919774566,120
+JUDGE_TASK,flash,Idea-to-Text,Fluency,0.22666666666666666,120
+JUDGE_TASK,flash,Idea-to-Text,Conciseness,0.039999999999999994,120
+JUDGE_TASK,flash,Idea-to-Text,Sentiment match,0.03333333333333333,120
+JUDGE_TASK,flash,Idea-to-Text,Accuracy,0.026979244242732507,120
+JUDGE_TASK,flash,Interpretation,Motivational tone,0.5866666666666667,120
+JUDGE_TASK,flash,Interpretation,Coherence,0.48,120
+JUDGE_TASK,flash,Interpretation,Fluency,0.44666666666666666,120
+JUDGE_TASK,flash,Interpretation,Constructiveness,0.3933333333333333,120
+JUDGE_TASK,flash,Interpretation,Sentiment match,0.21999999999999997,120
+JUDGE_TASK,flash,Interpretation,Accuracy,-0.17213259316477408,120
+JUDGE_TASK,flash,Interpretation,Conciseness,-0.3,120
+JUDGE_TASK,flash,Summarise,Coherence,0.6933333333333332,120
+JUDGE_TASK,flash,Summarise,Constructiveness,0.6866666666666666,120
+JUDGE_TASK,flash,Summarise,Fluency,0.6466666666666667,120
+JUDGE_TASK,flash,Summarise,Sentiment match,0.48666666666666664,120
+JUDGE_TASK,flash,Summarise,Motivational tone,0.43999999999999995,120
+JUDGE_TASK,flash,Summarise,Accuracy,0.1837873166945363,120
+JUDGE_TASK,flash,Summarise,Conciseness,-0.31333333333333335,120
+JUDGE_TASK,gemini,Idea-to-Text,Sentiment match,0.3933333333333333,120
+JUDGE_TASK,gemini,Idea-to-Text,Fluency,0.38666666666666666,120
+JUDGE_TASK,gemini,Idea-to-Text,Coherence,0.3733333333333333,120
+JUDGE_TASK,gemini,Idea-to-Text,Accuracy,0.2602401929521731,120
+JUDGE_TASK,gemini,Idea-to-Text,Constructiveness,0.18,120
+JUDGE_TASK,gemini,Idea-to-Text,Motivational tone,-0.26,120
+JUDGE_TASK,gemini,Idea-to-Text,Conciseness,-0.49333333333333335,120
+JUDGE_TASK,gemini,Interpretation,Motivational tone,0.6466666666666667,120
+JUDGE_TASK,gemini,Interpretation,Fluency,0.5599999999999999,120
+JUDGE_TASK,gemini,Interpretation,Coherence,0.5599999999999999,120
+JUDGE_TASK,gemini,Interpretation,Sentiment match,0.26666666666666666,120
+JUDGE_TASK,gemini,Interpretation,Constructiveness,0.24666666666666667,120
+JUDGE_TASK,gemini,Interpretation,Accuracy,-0.21285732069340285,120
+JUDGE_TASK,gemini,Interpretation,Conciseness,-0.48666666666666664,120
+JUDGE_TASK,gemini,Summarise,Coherence,0.6866666666666666,120
+JUDGE_TASK,gemini,Summarise,Constructiveness,0.6533333333333333,120
+JUDGE_TASK,gemini,Summarise,Fluency,0.6466666666666667,120
+JUDGE_TASK,gemini,Summarise,Motivational tone,0.5733333333333334,120
+JUDGE_TASK,gemini,Summarise,Sentiment match,0.44666666666666666,120
+JUDGE_TASK,gemini,Summarise,Accuracy,0.03532776150457909,120
+JUDGE_TASK,gemini,Summarise,Conciseness,-0.35333333333333333,120
+JUDGE_TASK,qwen,Idea-to-Text,Constructiveness,0.5333333333333333,120
+JUDGE_TASK,qwen,Idea-to-Text,Sentiment match,0.48,120
+JUDGE_TASK,qwen,Idea-to-Text,Fluency,0.4733333333333333,120
+JUDGE_TASK,qwen,Idea-to-Text,Coherence,0.43999999999999995,120
+JUDGE_TASK,qwen,Idea-to-Text,Accuracy,0.35796284496297065,120
+JUDGE_TASK,qwen,Idea-to-Text,Motivational tone,-0.09333333333333332,120
+JUDGE_TASK,qwen,Idea-to-Text,Conciseness,-0.21333333333333332,120
+JUDGE_TASK,qwen,Interpretation,Sentiment match,0.5933333333333334,120
+JUDGE_TASK,qwen,Interpretation,Motivational tone,0.5733333333333334,120
+JUDGE_TASK,qwen,Interpretation,Coherence,0.5533333333333333,120
+JUDGE_TASK,qwen,Interpretation,Fluency,0.52,120
+JUDGE_TASK,qwen,Interpretation,Constructiveness,0.43333333333333335,120
+JUDGE_TASK,qwen,Interpretation,Accuracy,0.02557749529917304,120
+JUDGE_TASK,qwen,Interpretation,Conciseness,-0.31999999999999995,120
+JUDGE_TASK,qwen,Summarise,Fluency,0.92,120
+JUDGE_TASK,qwen,Summarise,Coherence,0.9133333333333333,120
+JUDGE_TASK,qwen,Summarise,Constructiveness,0.8799999999999999,120
+JUDGE_TASK,qwen,Summarise,Sentiment match,0.84,120
+JUDGE_TASK,qwen,Summarise,Motivational tone,0.5733333333333334,120
+JUDGE_TASK,qwen,Summarise,Accuracy,-0.16635327398252753,120
+JUDGE_TASK,qwen,Summarise,Conciseness,-0.3733333333333333,120
+TASK,ALL,Idea-to-Text,Coherence,0.31500000000000006,480
+TASK,ALL,Idea-to-Text,Fluency,0.29500000000000004,480
+TASK,ALL,Idea-to-Text,Constructiveness,0.29333333333333333,480
+TASK,ALL,Idea-to-Text,Sentiment match,0.18000000000000002,480
+TASK,ALL,Idea-to-Text,Accuracy,0.15615519753416088,480
+TASK,ALL,Idea-to-Text,Motivational tone,-0.00788905415899999,480
+TASK,ALL,Idea-to-Text,Conciseness,-0.18064267322527083,480
+TASK,ALL,Interpretation,Motivational tone,0.6183333333333334,480
+TASK,ALL,Interpretation,Coherence,0.49166666666666664,480
+TASK,ALL,Interpretation,Fluency,0.4733333333333334,480
+TASK,ALL,Interpretation,Sentiment match,0.3016666666666667,480
+TASK,ALL,Interpretation,Constructiveness,0.265,480
+TASK,ALL,Interpretation,Accuracy,-0.07734724033549222,480
+TASK,ALL,Interpretation,Conciseness,-0.45,480
+TASK,ALL,Summarise,Coherence,0.7716666666666667,480
+TASK,ALL,Summarise,Constructiveness,0.7533333333333333,480
+TASK,ALL,Summarise,Fluency,0.7016666666666667,480
+TASK,ALL,Summarise,Sentiment match,0.5466666666666666,480
+TASK,ALL,Summarise,Motivational tone,0.5316666666666666,480
+TASK,ALL,Summarise,Accuracy,0.03467154467199397,480
+TASK,ALL,Summarise,Conciseness,-0.25166666666666665,480
