@@ -287,23 +287,14 @@ def analyze_llm_evaluator(
         rankings_file: Path,
         form_files: List[Path]
 ) -> Dict[str, Any]:
-    """
-    Анализ одного LLM-оценивателя.
-    """
     evaluator_model = get_model_name_from_filename(rankings_file.name)
-
-
     rankings = load_rankings_data(rankings_file)
-
-
     ranking_questions = extract_ranking_questions(rankings, evaluator_model)
-
 
     all_form_data = {}
     for form_file in form_files:
         form_data = load_form_data(form_file)
         all_form_data.update(form_data)
-
 
     result = {
         'evaluator_model': evaluator_model,
@@ -314,19 +305,13 @@ def analyze_llm_evaluator(
     if not ranking_questions:
         return result
 
-
     model_bias = calculate_model_bias(ranking_questions)
     for model, avg_score in model_bias.items():
         short_name = model.replace('-', '_').replace('.', '_')
         result[f'model_bias_{short_name}'] = round(avg_score, 3)
 
-
     result['monotonicity_score'] = round(calculate_monotonicity_score(ranking_questions), 3)
-
-
     result['variance_score'] = round(calculate_variance_score(ranking_questions), 3)
-
-
     verbosity_metrics = calculate_verbosity_bias(ranking_questions, all_form_data)
     result['verbosity_first'] = round(verbosity_metrics['verbosity_first'], 3)
     result['verbosity_weighted'] = round(verbosity_metrics['verbosity_weighted'], 3)
@@ -350,79 +335,29 @@ def analyze_llm_evaluator(
     return result
 
 
-def interpret_results(results: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
-    """
-    Добавляет интерпретацию результатов.
-    """
-    for result in results:
-
-        result['flag_mechanical_pattern'] = result.get('monotonicity_score', 0) > 0.7
-
-
-        result['flag_low_variance'] = result.get('variance_score', 0) < 1.0
-
-
-        result['flag_strong_model_bias'] = result.get('preference_gap', 0) > 1.5
-
-
-        verbosity_weighted = result.get('verbosity_weighted', 0.5)
-        result['flag_verbosity_long'] = verbosity_weighted > 0.7
-        result['flag_verbosity_short'] = verbosity_weighted < 0.3
-        result['flag_verbosity_bias'] = result['flag_verbosity_long'] or result['flag_verbosity_short']
-
-
-        result['suspicious'] = (
-                result['flag_mechanical_pattern'] or
-                result['flag_low_variance'] or
-                result['flag_strong_model_bias']
-        )
-
-    return results
-
-
 def main():
-    """Основная функция анализа."""
     base_path = Path(__file__).parent
     rankings_path = base_path / 'llm_self_rankings'
     forms_path = base_path / 'llm_forms'
     output_path = base_path / 'llm_bias_analysis_results.csv'
 
-    print("=" * 60)
-    print("Анализ смещения (bias) в ответах LLM-оценивателей")
-    print("=" * 60)
-
-
     rankings_files = sorted(rankings_path.glob('*.csv'))
-
     if not rankings_files:
-        print("Не найдены файлы ранжирований!")
         return
-
 
     form_files = sorted(forms_path.glob('*.csv'))
 
     if not form_files:
-        print("Не найдены файлы форм!")
         return
-
-    print(f"\nНайдено файлов ранжирований: {len(rankings_files)}")
-    print(f"Найдено файлов форм: {len(form_files)}")
-
 
     results = []
     for rankings_file in rankings_files:
         try:
             result = analyze_llm_evaluator(rankings_file, form_files)
             results.append(result)
-            print(f"  ✓ Обработан: {rankings_file.name}")
-        except Exception as e:
-            print(f"  ✗ Ошибка при обработке {rankings_file.name}: {e}")
+        except Exception:
             import traceback
             traceback.print_exc()
-
-
-    results = interpret_results(results)
-
 
     if results:
         fieldnames = list(results[0].keys())
@@ -430,73 +365,6 @@ def main():
             writer = csv.DictWriter(f, fieldnames=fieldnames)
             writer.writeheader()
             writer.writerows(results)
-        print(f"\n✓ Результаты сохранены в: {output_path}")
-
-
-    print("\n" + "=" * 60)
-    print("СВОДНАЯ СТАТИСТИКА")
-    print("=" * 60)
-
-    print(f"\nВсего оценивателей: {len(results)}")
-
-    print("\n--- Model Bias (средний балл модели по всем оценивателям) ---")
-    model_cols = [col for col in (results[0].keys() if results else []) if
-                  col.startswith('model_bias_') and not col.endswith('_std')]
-    for col in model_cols:
-        model_name = col.replace('model_bias_', '').replace('_', '-')
-        scores = [r[col] for r in results if col in r]
-        if scores:
-            mean_score = sum(scores) / len(scores)
-            std_score = (sum((x - mean_score) ** 2 for x in scores) / len(scores)) ** 0.5
-            print(f"  {model_name}: {mean_score:.3f} ± {std_score:.3f}")
-
-    print("\n--- Monotonicity Score ---")
-    monotonicity_scores = [r.get('monotonicity_score', 0) for r in results]
-    if monotonicity_scores:
-        print(f"  Среднее: {sum(monotonicity_scores) / len(monotonicity_scores):.3f}")
-        print(f"  Макс: {max(monotonicity_scores):.3f}")
-        print(f"  Оценивателей с механическим паттерном (>0.7): {sum(1 for s in monotonicity_scores if s > 0.7)}")
-
-    print("\n--- Variance Score ---")
-    variance_scores = [r.get('variance_score', 0) for r in results]
-    if variance_scores:
-        print(f"  Среднее: {sum(variance_scores) / len(variance_scores):.3f}")
-        print(f"  Мин: {min(variance_scores):.3f}")
-        print(f"  Оценивателей с низкой дисперсией (<1.0): {sum(1 for s in variance_scores if s < 1.0)}")
-
-    print("\n--- Verbosity Bias (предпочтение длины ответа) ---")
-    print("  Шкала: 0.0 = короткие, 0.5 = нейтрально, 1.0 = длинные")
-    verbosity_weighted = [r.get('verbosity_weighted', 0.5) for r in results]
-    if verbosity_weighted:
-        print(f"  Среднее (взвешенное): {sum(verbosity_weighted) / len(verbosity_weighted):.3f}")
-        print(f"  Предпочитают длинные (>0.7): {sum(1 for v in verbosity_weighted if v > 0.7)}")
-        print(f"  Предпочитают короткие (<0.3): {sum(1 for v in verbosity_weighted if v < 0.3)}")
-
-    print("\n--- Подозрительные оцениватели ---")
-    suspicious = [r for r in results if r.get('suspicious', False)]
-    print(f"  Всего подозрительных: {len(suspicious)}")
-    if suspicious:
-        print("  Список:")
-        for r in suspicious:
-            reasons = []
-            if r.get('flag_mechanical_pattern'):
-                reasons.append(f"механический паттерн ({r.get('monotonicity_score', 0):.2f})")
-            if r.get('flag_low_variance'):
-                reasons.append(f"низкая дисперсия ({r.get('variance_score', 0):.2f})")
-            if r.get('flag_strong_model_bias'):
-                reasons.append(f"сильное смещение ({r.get('preference_gap', 0):.2f})")
-            print(f"    - {r.get('evaluator_model', 'unknown')}: {', '.join(reasons)}")
-
-    print("\n--- Предпочитаемые модели ---")
-    preferred = [r.get('preferred_model', '') for r in results if r.get('preferred_model')]
-    if preferred:
-        from collections import Counter
-        preferred_counts = Counter(preferred)
-        for model, count in preferred_counts.most_common():
-            print(f"  {model}: {count} оценивателей ({count / len(results) * 100:.1f}%)")
-
-    print("\n" + "=" * 60)
-
 
 if __name__ == '__main__':
     main()

@@ -14,7 +14,6 @@ MODELS_HUMAN = [
 
 MODELS_LLM = ["Gemini", "DeepSeek", "Flash", "Qwen"]
 
-
 MODEL_MAPPING = {
     "gemini-2.5-pro": "Gemini",
     "gemini-2.5-flash": "Flash",
@@ -22,12 +21,10 @@ MODEL_MAPPING = {
     "Qwen3-235B-A22B-2507": "Qwen"
 }
 
-
 CRITERIA_HUMAN = ["fluency", "coherence", "conciseness", "sentiment",
                   "motivational", "constructiveness", "final"]
 CRITERIA_LLM = ["Fluency", "Coherence", "Conciseness", "Accuracy",
                 "Constructiveness", "Final choice", "Motivational tone", "Sentiment match"]
-
 
 CRITERIA_MAPPING = {
     "fluency": "Fluency",
@@ -41,10 +38,6 @@ CRITERIA_MAPPING = {
 
 
 def load_human_responses(responses_dir: Path) -> Dict[str, Dict[str, List[str]]]:
-    """
-    Загружает человеческие оценки.
-    Возвращает: {task_id_criterion: {respondent_id: [модели в порядке от лучшей к худшей]}}
-    """
     human_rankings = defaultdict(lambda: defaultdict(list))
 
     for response_file in responses_dir.glob('*.json'):
@@ -55,11 +48,9 @@ def load_human_responses(responses_dir: Path) -> Dict[str, Dict[str, List[str]]]
         responses = data.get('responses', {})
 
         for key, value in responses.items():
-            
             if 'sanity_check' in key or 'factual_accuracy' in key:
                 continue
 
-            
             if isinstance(value, list) and len(value) == 4:
                 if all(model in MODELS_HUMAN for model in value):
                     
@@ -67,11 +58,7 @@ def load_human_responses(responses_dir: Path) -> Dict[str, Dict[str, List[str]]]
                     if len(parts) >= 2:
                         task_id = parts[0].upper()
                         criterion = '_'.join(parts[1:]).lower()
-
-                        
                         criterion_normalized = normalize_criterion_name(criterion)
-
-                        
                         normalized_ranking = [MODEL_MAPPING.get(m, m) for m in value]
                         human_rankings[f"{task_id}_{criterion_normalized}"][respondent_id] = normalized_ranking
 
@@ -79,10 +66,6 @@ def load_human_responses(responses_dir: Path) -> Dict[str, Dict[str, List[str]]]
 
 
 def load_llm_rankings(rankings_dir: Path) -> Dict[str, Dict[str, List[str]]]:
-    """
-    Загружает LLM оценки.
-    Возвращает: {task_id_criterion: {evaluator_id: [модели в порядке от лучшей к худшей]}}
-    """
     llm_rankings = defaultdict(lambda: defaultdict(list))
 
     
@@ -91,7 +74,6 @@ def load_llm_rankings(rankings_dir: Path) -> Dict[str, Dict[str, List[str]]]:
             reader = csv.DictReader(f)
             rows = list(reader)
 
-        
         grouped = defaultdict(lambda: defaultdict(dict))
         for row in rows:
             task_id = row['task_id']
@@ -111,15 +93,10 @@ def load_llm_rankings(rankings_dir: Path) -> Dict[str, Dict[str, List[str]]]:
         for (task_id, evaluator), criteria_scores in grouped.items():
             for criterion_llm, model_scores in criteria_scores.items():
                 if len(model_scores) == 4:  
-                    
                     sorted_models = sorted(model_scores.items(), key=lambda x: x[1], reverse=True)
                     ranking = [model for model, _ in sorted_models]
-
-                    
                     criterion_normalized = normalize_criterion_name(criterion_llm)
-
                     key = f"{task_id}_{criterion_normalized}"
-                    
                     model_name_from_file = rankings_file.stem.split('_')[0]
                     evaluator_id = f"{evaluator}_{model_name_from_file}"
                     llm_rankings[key][evaluator_id] = ranking
@@ -128,10 +105,6 @@ def load_llm_rankings(rankings_dir: Path) -> Dict[str, Dict[str, List[str]]]:
 
 
 def ranking_to_ranks(ranking: List[str], models: List[str]) -> List[int]:
-    """
-    Преобразует ранжирование в список рангов для каждой модели.
-    Ранг 1 = лучшее место, ранг 4 = худшее место.
-    """
     ranks = [0] * len(models)
     for i, model in enumerate(ranking):
         if model in models:
@@ -141,9 +114,6 @@ def ranking_to_ranks(ranking: List[str], models: List[str]) -> List[int]:
 
 
 def calculate_spearman_correlation(ranks1: List[int], ranks2: List[int]) -> float:
-    """
-    Вычисляет корреляцию Спирмена между двумя ранжированиями.
-    """
     n = len(ranks1)
     if n != len(ranks2) or n == 0:
         return 0.0
@@ -160,16 +130,10 @@ def calculate_spearman_correlation(ranks1: List[int], ranks2: List[int]) -> floa
 
 
 def calculate_exact_agreement(ranking1: List[str], ranking2: List[str]) -> bool:
-    """
-    Проверяет точное согласие (одинаковый порядок моделей).
-    """
     return ranking1 == ranking2
 
 
 def calculate_rank_distance(ranking1: List[str], ranking2: List[str], models: List[str]) -> float:
-    """
-    Вычисляет среднее расстояние между рангами.
-    """
     ranks1 = ranking_to_ranks(ranking1, models)
     ranks2 = ranking_to_ranks(ranking2, models)
 
@@ -181,9 +145,6 @@ def calculate_rank_distance(ranking1: List[str], ranking2: List[str], models: Li
 
 
 def calculate_krippendorff_alpha(rankings_list: List[List[int]]) -> float:
-    """
-    Упрощенный расчет Krippendorff's alpha для порядковых данных.
-    """
     if len(rankings_list) < 2:
         return 0.0
 
@@ -193,7 +154,6 @@ def calculate_krippendorff_alpha(rankings_list: List[List[int]]) -> float:
     if n_items == 0:
         return 0.0
 
-    
     observed_disagreement = 0.0
     total_pairs = 0
 
@@ -211,11 +171,7 @@ def calculate_krippendorff_alpha(rankings_list: List[List[int]]) -> float:
         return 0.0
 
     observed_disagreement /= total_pairs
-
-    
-    
-    expected_disagreement = 5.0  
-
+    expected_disagreement = 5.0
     if expected_disagreement == 0:
         return 1.0 if observed_disagreement == 0 else 0.0
 
@@ -227,9 +183,6 @@ def calculate_agreement_metrics(
         rankings_dict: Dict[str, List[str]],
         models: List[str]
 ) -> Dict[str, float]:
-    """
-    Вычисляет метрики согласия для группы оценивателей.
-    """
     if len(rankings_dict) < 2:
         return {
             'krippendorff_alpha': 0.0,
@@ -239,7 +192,6 @@ def calculate_agreement_metrics(
             'n_raters': len(rankings_dict)
         }
 
-    
     rankings_ranks = []
     rankings_list = list(rankings_dict.values())
 
@@ -247,10 +199,7 @@ def calculate_agreement_metrics(
         ranks = ranking_to_ranks(ranking, models)
         rankings_ranks.append(ranks)
 
-    
     krippendorff_alpha = calculate_krippendorff_alpha(rankings_ranks)
-
-    
     exact_agreements = 0
     total_pairs = 0
     for i in range(len(rankings_list)):
@@ -289,7 +238,6 @@ def calculate_agreement_metrics(
 
 
 def normalize_criterion_name(criterion: str) -> str:
-    """Нормализует название критерия для сопоставления."""
     criterion = criterion.lower().replace(' ', '_').replace('_tone', '').replace('_match', '')
     if criterion == 'final_choice':
         criterion = 'final'
@@ -303,22 +251,9 @@ def main():
     llm_rankings_dir = base_path / 'llm_bias' / 'llm_self_rankings'
     output_path = base_path / 'llm_bias' / 'inter_rater_agreement_results.csv'
 
-    print("=" * 80)
-    print("РАСЧЕТ INTER-RATER AGREEMENT")
-    print("=" * 80)
-
-    
-    print("\nЗагрузка человеческих оценок...")
     human_rankings = load_human_responses(human_responses_dir)
-    print(f"  Загружено {len(human_rankings)} задач-критериев от людей")
-
-    print("\nЗагрузка LLM оценок...")
     llm_rankings = load_llm_rankings(llm_rankings_dir)
-    print(f"  Загружено {len(llm_rankings)} задач-критериев от LLM")
-
-    
     all_tasks = set(human_rankings.keys()) | set(llm_rankings.keys())
-    print(f"\nВсего уникальных задач-критериев: {len(all_tasks)}")
 
     results = []
 
@@ -415,64 +350,6 @@ def main():
             writer = csv.DictWriter(f, fieldnames=fieldnames)
             writer.writeheader()
             writer.writerows(results)
-
-        print(f"\n✓ Результаты сохранены в: {output_path}")
-
-        
-        print("\n" + "=" * 80)
-        print("СВОДНАЯ СТАТИСТИКА")
-        print("=" * 80)
-
-        
-        human_human_tasks = [r for r in results if r['n_human_raters'] >= 2]
-        llm_llm_tasks = [r for r in results if r['n_llm_raters'] >= 2]
-        human_llm_tasks = [r for r in results if r['n_human_raters'] > 0 and r['n_llm_raters'] > 0]
-
-        if human_human_tasks:
-            print("\n--- Согласие между людьми (Human-Human) ---")
-            alphas = [r['human_human_krippendorff_alpha'] for r in human_human_tasks if
-                      r['human_human_krippendorff_alpha'] is not None]
-            if alphas:
-                print(f"  Krippendorff's alpha: {sum(alphas) / len(alphas):.3f} (среднее)")
-            agreements = [r['human_human_exact_agreement_pct'] for r in human_human_tasks if
-                          r['human_human_exact_agreement_pct'] is not None]
-            if agreements:
-                print(f"  Точное согласие: {sum(agreements) / len(agreements):.2f}% (среднее)")
-            spearmans = [r['human_human_mean_spearman'] for r in human_human_tasks if
-                         r['human_human_mean_spearman'] is not None]
-            if spearmans:
-                print(f"  Корреляция Спирмена: {sum(spearmans) / len(spearmans):.3f} (среднее)")
-
-        if llm_llm_tasks:
-            print("\n--- Согласие между LLM (LLM-LLM) ---")
-            alphas = [r['llm_llm_krippendorff_alpha'] for r in llm_llm_tasks if
-                      r['llm_llm_krippendorff_alpha'] is not None]
-            if alphas:
-                print(f"  Krippendorff's alpha: {sum(alphas) / len(alphas):.3f} (среднее)")
-            agreements = [r['llm_llm_exact_agreement_pct'] for r in llm_llm_tasks if
-                          r['llm_llm_exact_agreement_pct'] is not None]
-            if agreements:
-                print(f"  Точное согласие: {sum(agreements) / len(agreements):.2f}% (среднее)")
-            spearmans = [r['llm_llm_mean_spearman'] for r in llm_llm_tasks if r['llm_llm_mean_spearman'] is not None]
-            if spearmans:
-                print(f"  Корреляция Спирмена: {sum(spearmans) / len(spearmans):.3f} (среднее)")
-
-        if human_llm_tasks:
-            print("\n--- Согласие между людьми и LLM (Human-LLM) ---")
-            alphas = [r['human_llm_krippendorff_alpha'] for r in human_llm_tasks if
-                      r['human_llm_krippendorff_alpha'] is not None]
-            if alphas:
-                print(f"  Krippendorff's alpha: {sum(alphas) / len(alphas):.3f} (среднее)")
-            agreements = [r['human_llm_exact_agreement_pct'] for r in human_llm_tasks if
-                          r['human_llm_exact_agreement_pct'] is not None]
-            if agreements:
-                print(f"  Точное согласие: {sum(agreements) / len(agreements):.2f}% (среднее)")
-            spearmans = [r['human_llm_cross_mean_spearman'] for r in human_llm_tasks if
-                         r['human_llm_cross_mean_spearman'] is not None]
-            if spearmans:
-                print(f"  Корреляция Спирмена (cross): {sum(spearmans) / len(spearmans):.3f} (среднее)")
-
-        print("\n" + "=" * 80)
 
 
 if __name__ == '__main__':
